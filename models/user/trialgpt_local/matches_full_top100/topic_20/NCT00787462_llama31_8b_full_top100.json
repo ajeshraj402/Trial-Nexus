@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00787462",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "idiopathic SFN",
+      "label": "met",
+      "evidence": "clinical and electrodiagnostic criteria"
+    },
+    {
+      "criterion": "modified Quadruple Visual Analogue Scale",
+      "label": "met",
+      "evidence": "daily mean rating score of \u2265 4"
+    },
+    {
+      "criterion": "negative \u03b2HCG serum",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "screening laboratory values within normal limits or abnormal but not clinically significant",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "psychological or psychiatric condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of psychosis, drug or alcohol abuse history within the last year",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "malignancy within the last 2 years (except skin cancer)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinically significant conditions (including but not limited to cardiovascular or hepatic diseases), and seizure disorders",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "abnormal 2-hour glucose tolerance test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous trial of pregabalin, history of intolerance or hypersensitivity to pregabalin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal impairment (CrCl < 60 ml/min)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00787462",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

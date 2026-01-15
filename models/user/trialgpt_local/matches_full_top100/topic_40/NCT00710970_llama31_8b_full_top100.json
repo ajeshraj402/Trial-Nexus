@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00710970",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous bladder cancer diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "systemic therapy regimens",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cancer spread to other parts of the body",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "adequate liver function",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "uncontrolled nervous system metastasis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "systemic therapies within the past 4 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "major surgery within 2 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Grade III/IV heart problems",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe and/or uncontrolled medical disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "high risk for deep vein thrombosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but no other relevant medical history mentioned.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00710970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

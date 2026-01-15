@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04047784",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient \u2265 18 years of age.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "The patient or patient's surrogate must understand and sign informed consent form (ICF).",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Intubated patients in the intensive care unit (ICU) where there is a clinical concern for acute pulmonary embolism or a confirmed diagnosis for acute pulmonary embolism.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient does not meet the requirements to undergo clinical bronchoscopy, as determined by the treating physician.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Endotracheal tube size less than 8.0 mm.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04047784",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

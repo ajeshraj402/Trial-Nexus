@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03654872",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis of CDI",
+      "label": "met",
+      "evidence": "positive stool test result for C. difficile toxin"
+    },
+    {
+      "criterion": "age over or equal to 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able and willing to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant infection by other microbes such as Salmonella, Campylobacter, Vibrio, Shigella, and Escherichia coli",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "under 18 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with confirmed CDI, febrile and hypotensive. She has diarrheal symptoms and positive stool test result for C. difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03654872",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

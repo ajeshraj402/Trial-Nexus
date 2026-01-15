@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37 years old"
+    },
+    {
+      "criterion": "tumor_stage",
+      "label": "not_met",
+      "evidence": "stage 1B of cervical cancer"
+    },
+    {
+      "criterion": "hpv_status",
+      "label": "met",
+      "evidence": "HPV 16 positive"
+    },
+    {
+      "criterion": "smoking_history",
+      "label": "unknown",
+      "evidence": "30 packs/year"
+    },
+    {
+      "criterion": "alcohol_consumption",
+      "label": "unknown",
+      "evidence": "drinks alcohol frequently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

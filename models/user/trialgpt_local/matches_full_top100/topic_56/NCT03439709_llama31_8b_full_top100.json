@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03439709",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acromegaly due to growth hormone secreting pituitary adenoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "underwent primary surgical resection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fail to achieve endocrinologic remission at 3 months after surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "residual tumor is confirmed by clinicians on brain MRI scan at 3months after surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "definition of endocrinologic remission",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "random growth hormone level < 2.5 ug/L",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normalization of age-matched insulin growth factor-1 level",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication of stereotactic radiosurgery; e.g. pregnancy or planning pregnancy, or claustrophobia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recurrent pituitary adenoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "limited life expectancy due to systemic disease; e.g. malignant tumor, genetic disease, and terminal stage of renal or hepatic failure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "disability to clinic visit due to postoperative complications",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for follow-up lab studies after his primary resection surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03439709",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

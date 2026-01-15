@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01952834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40-75 years old",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Male sex",
+      "label": "met"
+    },
+    {
+      "criterion": "History of known coronary artery disease",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable angina or myocardial infarction by history, ECG, and/or enzymatic criteria within 1 month of enrollment.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Left ventricular dysfunction as defined by an left ventricular ejection fraction documented as < 45% within 1 year of enrollment by an echocardiogram, MRI, or nuclear imaging.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Uncontrolled hypertension with a blood pressure greater than 170/100 mmHg at the screening visit.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01952834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

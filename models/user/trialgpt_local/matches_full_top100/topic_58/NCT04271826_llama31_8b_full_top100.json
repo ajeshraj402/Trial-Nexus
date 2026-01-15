@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04271826",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "Non pregnant female",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "Patients taking analgesics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute appendicitis (Alvarado score 5-6)",
+      "label": "met",
+      "evidence": "Alvarado score 5-6"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Alvarado score >6 or < 5",
+      "label": "not_met",
+      "evidence": "Alvarado score 5-6"
+    },
+    {
+      "criterion": "Cases of sure acute appendicitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented Liver disease, biliary disease (congenital or acquired), hemolytic diseases and history of alcoholism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cases revealed other pathology than appendicitis by CT and laparoscopy",
+      "label": "not_met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    }
+  ],
+  "notes": "17-year-old boy complaining of severe migratory pain in the right lower quadrant of his abdomen that started four days ago. He was febrile with tenderness, rebound tenderness and guarding on palpation.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04271826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

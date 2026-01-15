@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04659057",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ASA I-III patients admitted for DL surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncontrolled hypertension (MAP > 100 mmHg)",
+      "label": "not_met",
+      "evidence": "BP of 125/75 mmHg"
+    },
+    {
+      "criterion": "End stage renal impairment",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "Chronic drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Predicted difficult airway, laryngoscopy and intubation time > 30 sec",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Morbid obesity (BMI > 30)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known allergy to the drugs used",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has been admitted for DL surgery and does not have any exclusion criteria. He is a previously healthy man with no history of chronic drug or alcohol abuse.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT04659057",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

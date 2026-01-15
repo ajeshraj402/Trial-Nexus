@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01359046",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients requiring intra-operative placement of suprapubic catheters as part of routine post-operative care for repair of vaginal anterior compartment prolapse i.e. patients undergoing anterior colporrhaphy, Burch colposuspension, with or without mid-urethral sling",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known UTI at time of surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of chronic intermittent self-catheterization pre-operatively",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of chronic prophylactic antibiotics",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of antibiotics for any indication other than UTI during peri-operative and 6-week post-operative period",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of fistula involving urogenital tract",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of chronic steroids or immunosuppressant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Immunocompromised patient",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs, but is currently in urosepsis resolved after treatment. Has a non-obstructing stone in the L ureter and significant leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01359046",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

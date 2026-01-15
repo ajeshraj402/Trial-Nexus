@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02833948",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Successful TAVR of a native aortic valve stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Atrial fibrillation (AF), current or previous, with an ongoing indication for oral anticoagulant treatment",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known bleeding diathesis (such as but not limited to platelet count \u2264 50,000/mm3 at screening, hemoglobin level < 8.5 g/dL or < 5.3 mmol/l, history of intracranial hemorrhage, or subdural hematoma)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically overt stroke within the last three months",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, bicuspid aortic valve, and tobacco abuse. He also has hypertension and hyperlipidemia.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02833948",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

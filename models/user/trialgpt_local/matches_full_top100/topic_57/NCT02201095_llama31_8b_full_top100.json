@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton_uncomplicated_pregnancy",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "elective_caesarean_section_under_spinal_anesthesia",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "uncomplicated_surgery_and_anesthesia_expected",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age_under_18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI_less_than_19_or_greater_than_30",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "diseases_of_pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "grand_multiparity",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 41-year-old obese woman with abdominal pain and vomiting. She has no history of allergies and uses only multivitamins daily.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

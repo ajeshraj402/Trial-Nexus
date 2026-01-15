@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04365517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of type 2 diabetes, according to ADA 2020 criteria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c levels at the entrance or in the two previous months <9%",
+      "label": "met",
+      "evidence": "quote: A1c: 11.3%"
+    },
+    {
+      "criterion": "Diagnosis of Covid-19 (swab for positive SARS-COV2 RNA) with pneumonia, with or without increase in inflammation indexes, with or without respiratory failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No indication for tocilizumab therapy (BCRSS, Brescia Covid Respiratory Severity Scale, <3)",
+      "label": "met",
+      "evidence": "quote: No indication for tocilizumab therapy"
+    },
+    {
+      "criterion": "Written and dated informed consent from the patient or his legally valid representative",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "quote: The patient is a 24-year-old man"
+    },
+    {
+      "criterion": "Type 1 diabetes",
+      "label": "met",
+      "evidence": "quote: He presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days."
+    },
+    {
+      "criterion": "Stage IV and V renal failure (stimated glomerular filtration rate <30 ml / min)",
+      "label": "not_met",
+      "evidence": "quote: Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "Treatment with Dipeptidyl peptidase-4 inhibitors or GLP-1 Receptor Agonists in the month prior to hospitalization",
+      "label": "not_met",
+      "evidence": "quote: He reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management"
+    },
+    {
+      "criterion": "Pioglitazone treatment in the month prior to hospitalization",
+      "label": "not_met",
+      "evidence": "quote: He reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management"
+    },
+    {
+      "criterion": "Treatment in the month preceding or in the course of hospitalization with \"biological\" drugs for immuno-rheumatological diseases (in particular tocilizumab)",
+      "label": "not_met",
+      "evidence": "quote: No indication for tocilizumab therapy"
+    },
+    {
+      "criterion": "Presence of other acute or chronic ongoing infections",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological or psychiatric diseases, diagnosis of hemoglobinopathy, diagnosis of liver disease, cancer, cystic fibrosis or malabsorption syndrome",
+      "label": "not_met",
+      "evidence": "quote: With this episode of hyperglycemia, he is not experiencing any nausea, vomiting, or abdominal discomfort"
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis, for which he was hospitalized. He reports that at the time of his initial diagnosis with type 1 diabetes he was hospitalized with a glucose value >1000 mg/dL.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04365517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

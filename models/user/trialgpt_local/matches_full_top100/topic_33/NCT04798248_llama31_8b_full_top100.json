@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04798248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participating_planned_parenthood_health_center",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "smartphone_ownership",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "english_fluency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age_range",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "biological_ability_to_become_pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "phq_8_score",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "penile_vaginal_sex_in_past_3_months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "average_penile_vaginal_sex_frequency",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trying_to_get_pregnant_or_currently_pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "given_birth_in_past_6_months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but her menstrual cycle is irregular. She does not smoke and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT04798248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

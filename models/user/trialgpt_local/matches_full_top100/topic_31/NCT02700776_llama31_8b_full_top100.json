@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02700776",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female greater than or equal to 40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presenting to UM Breast Center and BWMC for breast imaging: screening or diagnostic",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "mammogram, breast ultrasound (US), breast MRI, stereotactic core needle biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ultrasound core needle biopsy, MRI guided breast biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with a recent screening diagnosis of breast cancer < = 3months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients presenting with mammogram findings with BIRADS of 0-6 < =3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to understand and the willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a personal history of stage 0-4 breast cancer >3months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have known severe and/or uncontrolled medical or psychiatric conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "or other conditions that could affect their participation in the study, or personal history of other malignancies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are unfit or unable to comply with having breast imaging studies such as mammogram, ultrasound, and MRI or breast biopsy or with study procedures-blood draw",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with personal history of ovarian cancer or other cancers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a personal history of breast biopsy positive for atypical ductal hyperplasia (ADH), atypical lobular hyperplasia (ALH), lobular carcinoma in situ (LCIS)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16 positive. She has three sexual partners, four children, and underwent tubal ligation. She smokes 30 packs/year and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02700776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Primary or secondary lymphedema patients with stage I,II,II stage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged over 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Upper or lower extremity lymphedema",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who do not accept phone calls",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but meets inclusion criteria. Exclusion criterion of age is met.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

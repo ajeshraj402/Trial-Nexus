@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00270153",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "New adult renal transplant recipients with good renal function defined as serum creatinine less than 2.6 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal serum potassium levels",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No contraindication to ACE inhibitor use",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Renal transplant patients with persistent serum creatinine levels over 2.5 mg/dl",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hyperkalemia with serum potassium levels over 5.5 mEQ/dl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of allergic reaction to ACE inhibitors or angiotensin receptor blockers",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She has normal serum potassium levels and no contraindication to ACE inhibitor use, but her renal function is not explicitly stated as good.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT00270153",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

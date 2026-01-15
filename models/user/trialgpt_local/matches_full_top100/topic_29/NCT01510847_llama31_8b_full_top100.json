@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01510847",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ethnicity",
+      "label": "met",
+      "evidence": "Chinese male"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "met",
+      "evidence": "type 1 diabetes"
+    },
+    {
+      "criterion": "lab_test_haemoglobin",
+      "label": "met",
+      "evidence": "11.3%"
+    },
+    {
+      "criterion": "lab_test_haematocrit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lab_test_albumin",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lab_test_alt",
+      "label": "met",
+      "evidence": "17 U/L"
+    },
+    {
+      "criterion": "lab_test_ast",
+      "label": "met",
+      "evidence": "17 U/L"
+    },
+    {
+      "criterion": "lab_test_alp",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lab_test_creatinine",
+      "label": "met",
+      "evidence": "0.9 mg/dL"
+    },
+    {
+      "criterion": "lab_test_sodium",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lab_test_potassium",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lab_test_hba1c",
+      "label": "not_met",
+      "evidence": "11.3%"
+    },
+    {
+      "criterion": "insulin_therapy",
+      "label": "not_met",
+      "evidence": "on insulin since diagnosis"
+    },
+    {
+      "criterion": "history_of_recurrent_hypoglycaemia",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes, currently homeless and experiencing hyperglycemia. He has been on insulin since diagnosis and has never been prescribed oral agents for diabetes management.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01510847",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00948922",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Multiple Myeloma Criteria(International Uniform Response Criteria for Multiple Myeloma)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with responsive disease after any line of induction therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A complete response",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A very good partial response",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients greater than or equal to 18 years of age are eligible. There is upper age limit of 60 years for allogeneic transplants.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have a histologically confirmed diagnosis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All patients should have a life expectancy of at least 12 weeks.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have undergone a complete psychosocial evaluation and have been considered capable of compliance.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Meet the following criteria for allogeneic hematopoietic cell transplant:",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must have an identified donor match defined as: HLA-A, HLA-B, HLA-C, DRB1 8/8 allele matched sibling, family member, or unrelated donor.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Calculated hematopoietic cell transplantation-specific comorbidity index (HCT-CI) <3",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not achieve at least a partial response (PR) by the criteria mentioned above with induction therapy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has a platelet count of <30 x 10^9/L within 14 days before enrollment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Myocardial infarction within 6 months prior to enrollment or has New York Hospital Association (NYHA) Class III or IV heart failure, uncontrolled angina, severe uncontrolled ventricular arrhythmias, or electrocardiographic evidence of acute ischemia or active conduction system abnormalities.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has hypersensitivity to bortezomib, boron or mannitol.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00948922",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00854087",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "The patient is a 55-year-old man."
+    },
+    {
+      "criterion": "Chronic hepatitis C infection",
+      "label": "met",
+      "evidence": "He has documented history of a positive serum anti-HCV antibody test and/or detectable levels of HCV RNA \u2265 50 IU/mL."
+    },
+    {
+      "criterion": "Failure to achieve sustained Virologic response (SVR) with previous Interferon based therapy or subjects who refuse Interferon based therapy or are intolerant to Interferon.",
+      "label": "met",
+      "evidence": "He failed to achieve SVR with previous Interferon based therapy."
+    },
+    {
+      "criterion": "All subjects enrolling in the study and all fertile or potentially fertile sexual partners of subjects must be using two reliable forms of effective contraception during the study unless a study participant/partner is surgically sterile or postmenopausal.",
+      "label": "met",
+      "evidence": "He takes no other medications."
+    },
+    {
+      "criterion": "Male or female 18-70 years of age.",
+      "label": "met",
+      "evidence": "The patient is a 55-year-old man."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with any history of decompensated liver disease, including but not restricted to portal hypertension as manifested by gastroesophageal varices, variceal bleeding, ascites, or encephalopathy or a hepatic mass lesion suspicious for hepatocellular carcinoma (HCC).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver histology consistent with any other co-existing cause of chronic liver disease (apart from fatty liver).",
+      "label": "unknown",
+      "evidence": "The recent biopsy was negative for hepatocellular carcinoma and was only remarkable for chronic inflammation compatible with a chronic viral hepatitis."
+    },
+    {
+      "criterion": "Subjects who have been treated for HCV infection within 6 months before Screening.",
+      "label": "not_met",
+      "evidence": "He is on IFN, RBV and direct antiviral drugs for the past 6 months."
+    }
+  ],
+  "notes": "The patient has chronic hepatitis C infection based on documented history of a positive serum anti-HCV antibody test and/or detectable levels of HCV RNA \u2265 50 IU/mL. He failed to achieve SVR with previous Interferon based therapy.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00854087",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

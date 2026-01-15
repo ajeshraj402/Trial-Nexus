@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "tumor_stage",
+      "label": "met",
+      "evidence": "Tis, T1, N0 M0 - American Joint Committee Classification"
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "met",
+      "evidence": "negative surgical margins (NSABP definition) after final surgery"
+    },
+    {
+      "criterion": "skin_spacing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "histology",
+      "label": "met",
+      "evidence": "DCIS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "does not apply"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "histology_type",
+      "label": "triggers",
+      "evidence": "infiltrating lobular histology"
+    }
+  ],
+  "notes": "Patient is a 54-year-old obese woman with abdominal pain, nausea, and vomiting. She has hypercholesterolemia and 2 NVDs. Ultrasound revealed several gallstones, biliary sludge, and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

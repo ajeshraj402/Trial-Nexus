@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT01220362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Patient text does not mention anything about the patient's ability to provide informed consent, but it is assumed that they are capable of doing so."
+    },
+    {
+      "criterion": "Open kidney surgery with lumbotomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thoracic epidural analgesia",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about the patient's medical history or current treatment plan regarding thoracic epidural analgesia."
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) < 7",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative residual urine volume < 100ml",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about the patient's preoperative residual urine volume."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindications to epidural analgesia or refusal",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative residual urine volume > 100ml",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about the patient's preoperative residual urine volume."
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) > 7",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about the patient's gender or reproductive status."
+    }
+  ],
+  "notes": "The patient's medical history and current treatment plan do not provide clear information about their eligibility for this trial. Further investigation would be needed to determine their suitability.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01220362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

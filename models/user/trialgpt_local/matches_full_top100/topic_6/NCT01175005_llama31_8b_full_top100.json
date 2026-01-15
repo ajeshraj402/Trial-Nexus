@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01175005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age and younger",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fever and a central venous catheter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presentation to an Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Central line secondary to Hematologic/Oncologic, Renal or Gastrointestinal disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Intravenous antibiotics in the 24 hours prior to presentation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PICC line",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parental refusal or inability to provide consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, with recent C diff infection and antibx use.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01175005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

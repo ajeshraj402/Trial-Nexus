@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03237260",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed active ulcerative colitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior Sigmoidoscopy sub score of at least 2, and disease that extended 15 cm or more from the anal verge",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must have required CS for treatment of their symptoms within 2 weeks of diagnosis and have not reached symptom adequate response and they still have moderate to severe disease, indicated by a Mayo score 6 - 12",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "In subjects that enroll and are eligible to continue in the study, study drug needs to be started within 3 months of the subject starting corticosteroids",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently treated with either anti-TNF therapy, immunomodulators or methotrexate due to the severity of their condition, making them not appropriate for vedolizumab",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Toxic megacolon, abdominal abscess, symptomatic colonic stricture, an increased risk of infectious complications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "An anticipated requirement for major surgery, colonic dysplasia or adenomas and malignant neoplasms",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurological disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating females",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy. The sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03237260",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

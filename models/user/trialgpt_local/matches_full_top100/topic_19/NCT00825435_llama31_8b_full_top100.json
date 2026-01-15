@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00825435",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "chest pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "low to intermediate risk of myocardial infarction and/or complications",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal or non-diagnostic electrocardiograms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "negative cardiac biomarker including creatine kinase-MB, myoglobin, and/or cardiac troponin I at initial testing",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "require admission to the hospital by the EP at the time of risk-stratification",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 35 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to hold their breath for \u2265 15 seconds",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "heart rate of < 70 beats per minute before or after the administration of beta-blocker medication",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication to iodinated and/or beta-blocking drugs",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "compromised renal function defined as creatinine \u2265 1.2 mg/dl",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant, suspected pregnant or other vulnerable populations e.g., incarcerated patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "documented CAD by prior invasive coronary angiography or coronary CT angiography and/or patients with coronary artery stents, prior angioplasty, or prior coronary artery bypass grafts (CABG)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior cardiac imaging (within the past year) with normal result including invasive coronary angiography, coronary CT angiography, or nuclear stress testing",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00825435",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03261466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days"
+    },
+    {
+      "criterion": "lab_results",
+      "label": "unknown",
+      "evidence": "Hemoglobin: 9.7 g/dL, Platelet: 110,000 /cu.mm, Creatinine: 3.6 mg/dL, blood urea nitrogen (BUN): 73 mg/dL"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "unknown",
+      "evidence": "Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adverse_reactions",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "genetic_obesity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_diseases",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has symptoms consistent with STEC infection, but no underlying disease or chronic conditions mentioned.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03261466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

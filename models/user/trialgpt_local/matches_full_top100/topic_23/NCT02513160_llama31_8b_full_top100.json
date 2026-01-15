@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02513160",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "The patient has a diagnosis of asthma as defined by the NIH.",
+      "label": "met"
+    },
+    {
+      "criterion": "Written informed consent/assent is obtained.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient is a male or female 12 years of age or older as of the visit when informed consent/assent is signed (screening or prescreening visit, as applicable).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "The patient is able to perform acceptable and repeatable spirometry.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient is able to use an electronic diary after training.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "If female, patient is currently not pregnant, not breast feeding, nor attempting to become pregnant (for 30 days before the screening visit (SV) and throughout the duration of the study and for 30 days after patient's last study visit) or, is of childbearing potential and not sexually active, has a negative urine pregnancy test, and is willing to commit to using a consistent and acceptable method of birth control.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "The patient does not have any concomitant conditions or treatments that could interfere with study conduct, influence the interpretation of study observations/results, or put the patient at increased risk during the study as judged by the investigator.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient/parent/legal guardian is capable of understanding the requirements, risks, and benefits of study participation, and, as judged by the investigator, capable of giving informed consent/assent and being compliant with all study requirements (eg, dose schedules, visit schedules, procedures, and record keeping).",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient, as judged by the investigator, is able to discontinue all asthma medications at the SV.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life-threatening asthma, defined as a history of asthma episode(s) requiring intubation and/or associated with hypercapnea, respiratory arrest or hypoxic seizures, asthma-related syncopal episode(s), or hospitalizations within the past year.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "The patient received systemic corticosteroids within 30 days before the SV (for asthma exacerbation or for other indications).",
+      "label": "not_met"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02513160",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

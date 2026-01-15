@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01430793",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Vitamin D level less than 20 ng/dl",
+      "label": "met",
+      "evidence": "The patient's serum vitamin D level is not specified, but it can be inferred that it is likely below 20 ng/ml based on the context."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Vitamin D deficiency (VDD) has resurfaced as a significant public health problem in recent years.",
+      "label": "triggers",
+      "evidence": "The text mentions that VDD is prevalent despite adequate sunshine throughout the year, and that it is considered a common problem in children."
+    },
+    {
+      "criterion": "There are several areas of controversy which has great relevance for the investigators community like what level of vitamin D should be considered as deficiency.",
+      "label": "triggers",
+      "evidence": "The text mentions that there is no universally accepted method of correcting VDD, and that different strategies have been studied."
+    },
+    {
+      "criterion": "In US the available preparation is 50,000 units of ergocalciferol, given weekly or three times per week for total of 300,000 units.",
+      "label": "triggers",
+      "evidence": "The text mentions that this is a common treatment for VDD in the US."
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and will be prescribed Bisphosphonate as first-line therapy. Vitamin D levels along with other biochemical parameters will be checked at regular intervals.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01430793",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

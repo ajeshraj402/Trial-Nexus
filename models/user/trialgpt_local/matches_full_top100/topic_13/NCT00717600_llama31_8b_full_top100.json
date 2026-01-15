@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00717600",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spina bifida as a sole urologic diagnosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "neurogenic bladder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "perform clean intermittent catheterization",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "secondary vesicoureteral reflux is permissible",
+      "label": "met",
+      "evidence": "inclusion subset"
+    },
+    {
+      "criterion": "appendicovesicostomies and no other forms of urinary diversion are permitted",
+      "label": "met",
+      "evidence": "inclusion subset"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "taking antibiotics",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "immunosuppressed, i.e., transplant recipients or children with congenital immunodeficiencies",
+      "label": "unknown",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "poorly controlled diabetes",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "untreated HIV infection",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "immunosuppression from corticosteroids",
+      "label": "unknown",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "malnutrition",
+      "label": "unknown",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "chronic indwelling catheters in the bladder",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with an indwelling suprapubic catheter and multiple prior admissions for UTIs. They are currently being treated for urosepsis but have resolved symptoms.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00717600",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

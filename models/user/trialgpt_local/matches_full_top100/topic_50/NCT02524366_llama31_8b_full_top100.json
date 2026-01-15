@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02524366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "AUS procedure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pelvic radiation for prostate or other cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior urethroplasty",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior urethral erosion of AUS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of penile prosthesis placement or explantation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant placement of penile prosthesis at the time of AUS placement",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "5 months old male with undescended testis, undergoing diagnostic laparoscopy.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02524366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

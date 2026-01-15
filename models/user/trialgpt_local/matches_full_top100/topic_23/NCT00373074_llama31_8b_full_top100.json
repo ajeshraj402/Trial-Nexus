@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00373074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetric patients aged 18 or more years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medically suitable for and have consented to epidural blood patch (EBP) for treatment of PDPH",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous epidural blood patch (EBP) related to the same unintentional dural puncture",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of significant low or radicular back pain (requiring treatment) during pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma, but symptoms improve outside the workplace. Spirometry shows FEV1 of 63% predicted.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00373074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

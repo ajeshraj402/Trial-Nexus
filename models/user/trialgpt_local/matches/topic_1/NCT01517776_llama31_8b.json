@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01517776",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of high-grade malignant glioma confirmed by central neuropathological review",
+      "label": "met",
+      "evidence": "anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention"
+    },
+    {
+      "criterion": "Patient aged 3 years and older but under 18 years at time of relapse diagnosis",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Written informed consent of the patient (mandatory from 15 years of age) or the parents (mandatory till 18 years of age)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known hypersensitivity or contraindication to any study drugs",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other (simultaneous) malignancies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy and / or lactation",
+      "label": "does_not_trigger",
+      "evidence": "45-year-old man"
+    }
+  ],
+  "notes": "Unknown: written informed consent status. No mention of ongoing irradiation or chemotherapy within the last 4 weeks.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01517776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

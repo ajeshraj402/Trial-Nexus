@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00404807",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CHF; EF 55%",
+      "label": "met",
+      "evidence": "Patient has congestive heart failure with an ejection fraction of 55%"
+    },
+    {
+      "criterion": "obesity hypoventilation syndrome",
+      "label": "met",
+      "evidence": "Patient has obesity hypoventilation syndrome"
+    },
+    {
+      "criterion": "OSA and agitation",
+      "label": "met",
+      "evidence": "Patient has obstructive sleep apnea and agitation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous diagnosis of OSA or CPAP therapy",
+      "label": "triggers",
+      "evidence": "Patient has previous diagnosis of OSA and was exposed to CPAP therapy"
+    },
+    {
+      "criterion": "uncontrolled arterial hypertension",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has congestive heart failure, obesity hypoventilation syndrome, and obstructive sleep apnea. However, they have a previous diagnosis of OSA and were exposed to CPAP therapy, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00404807",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

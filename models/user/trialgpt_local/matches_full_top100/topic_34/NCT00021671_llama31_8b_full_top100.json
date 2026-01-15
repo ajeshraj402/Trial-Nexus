@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00021671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "20 to 24 weeks pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have taken antibiotics, except for syphilis or gonorrhea, within the last 2 weeks.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Are allergic to penicillin, ampicillin, erythromycin, or metronidazole.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has persistent feelings of sadness and loss of interest in activities. She also lost her appetite and weight.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00021671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

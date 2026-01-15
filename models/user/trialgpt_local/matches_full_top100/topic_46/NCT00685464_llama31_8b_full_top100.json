@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00685464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ST-segment elevation in two contiguous leads of \u2265 2 mm in V1-V3 or \u2265 1 mm in other leads",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "adjunct to PCI for the prevention of cardiac ischemic complications: In patients undergoing PCI",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery within 2 months, known bleeding disorder, or pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active internal bleeding",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00685464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

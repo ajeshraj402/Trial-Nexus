@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00216125",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "NSCLC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unresectable Stage IIIA (N2) OR Stage IIIB",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No prior chemotherapy or radiotherapy for lung cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No unintended weight loss > 5% body weight in the preceding 3 months prior to study treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT00216125",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

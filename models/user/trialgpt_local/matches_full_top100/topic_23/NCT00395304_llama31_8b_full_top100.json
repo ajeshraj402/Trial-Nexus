@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00395304",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of asthma symptoms",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "FEV1 reversibility of at least 12% following bronchodilator administration",
+      "label": "not_met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "Able to perform reproducible spirometry according to American Thoracic Society (ATS)",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "History of clinical varicella or varicella vaccine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability of parent to provide informed consent",
+      "label": "met",
+      "evidence": "He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness."
+    },
+    {
+      "criterion": "If female, willing to use an effective form of contraception",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Corticosteroid treatment for any condition prior to study entry within the following defined timepoints: Oral - Use within 2 weeks of the screening visit",
+      "label": "not_met",
+      "evidence": "He doubled his oral corticosteroids in the past week."
+    },
+    {
+      "criterion": "Current or prior use of medications known to significantly interact with corticosteroid disposition (within a 2-week period of study visit 1)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-bronchodilator FEV1 less than 60% predicted at study visit 1",
+      "label": "not_met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "More than three hospitalizations for asthma in the year prior to study entry",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of chronic or active lung disease other than asthma",
+      "label": "not_met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "History of cataracts, glaucoma, or any other medical disorder associated with an adverse effect to corticosteroids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastroesophageal reflux symptoms not controlled by standard medical therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of significant asthma exacerbation within 2 weeks of study visit 1 or more than 5 courses of systemic corticosteroids in the year prior to study entry",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and meets some inclusion criteria, but also has some exclusion criteria. Further evaluation is needed to determine eligibility.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00395304",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

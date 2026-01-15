@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04816877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acute pancreatitis confirmed by revised Atlanta criteria",
+      "label": "met",
+      "evidence": "Cross-sectional imaging was negative for obstructive pancreatitis."
+    },
+    {
+      "criterion": "Admitted to the medical floor within 48 hours of emergency department arrival at Beth Israel Deaconess Medical Center (BIDMC) in Boston, Massachusetts.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 18-65",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active illicit drug use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Discharged from the emergency department",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Direct admission to ICU from emergency department",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to opioid medications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age <18 or >65",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04816877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04587999",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Infants under the age of 1 year, pre-continent, before walking",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "For whom an urine sample is required for the diagnosis of a urinary tract infection,",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uropathy, nephropathy, metabolic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obtaining the authorization by one of the two parents or the holder of parental authority",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Affiliation to a national social security scheme",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Do exhibiting signs of vital distress",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Withdrawal of informed consent by parents or holders of parental authority",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "External genitalia or urinary tract malformation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bladder dysfunction",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis. Started on ditropan changed over to detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04587999",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV",
+      "label": "met",
+      "evidence": "Diagnostic and statistical manual of mental disorders fourth edition Criteria based on diagnostic interview"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Provided written informed consent"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "Alert and cooperative, no signs of dementia"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "triggers",
+      "evidence": "Experiences slowness of movement and tremors, difficulty initiating movements, stiffness and slowness in general"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, experiences symptoms that may indicate somatic instability.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

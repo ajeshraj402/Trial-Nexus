@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02441985",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary orthostatic tremor (POT)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "recruited through IRB approved database maintained by the Movement Disorders Center",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active seizure disorder",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant cognitive impairment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of a metallic body such as pacemaker, implants, prosthesis,artificial limb or joint, shunt, metal rods and hearing aid",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. Tremors since a year ago.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02441985",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

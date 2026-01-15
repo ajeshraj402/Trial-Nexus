@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02710812",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Major or complete clinical response at restaging after 7-8 weeks from the end of neoadjuvant therapy, confirmed at second restaging (after 11-12 weeks from the end of neoadjuvant therapy)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent (after 2nd restaging)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "palpable mass on digital rectal examination",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "deep ulcer with surface > 2 cm in diameter or obvious signs of endoscopic residual disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of metastatic lymph nodes at MRI (> 5 mm along short axis)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma and a diverticular abscess. She was treated with IV antibiotics.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02710812",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

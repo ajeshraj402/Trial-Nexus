@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00427778",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "urinary stress urinary incontinence",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "urodynamic Stress urinary incontinence confirmed by urodynamic studies",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ability to understand spoken and written English",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe pelvic organ prolapse (> or = stage 3 on the Pelvic Organ Prolapse Quantification System - POP-Q)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to pessary use (including acute vaginal/urinary or pelvic infections, vaginal or cervical lesions or unexplained vaginal bleeding)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to properly fit the incontinence ring",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but has some symptoms of urinary stress urinary incontinence.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT00427778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

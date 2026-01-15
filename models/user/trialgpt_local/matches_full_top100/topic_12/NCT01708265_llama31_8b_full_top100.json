@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01708265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asymptomatic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe organic mitral valve regurgitation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preserved left ventricular function (left ventricular ejection fraction >60% and left ventricular end-systolic dimension \u226445 mm)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The likelihood of MV repair should be more than 90% determined by the local heart team with a cardiologist and cardiothoracic surgeon",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pulmonary hypertension (>50 mmHg at rest)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Physical inability as determined by the heart team to undergo surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other life-threatening morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Higher expected surgical risks in advance, according to the dedicated heart team",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate to severe kidney disease (eGFR less than 30 mL/min)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Flail leaflet together with a left ventricular end systolic diameter (LVESD) >40 mm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01708265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

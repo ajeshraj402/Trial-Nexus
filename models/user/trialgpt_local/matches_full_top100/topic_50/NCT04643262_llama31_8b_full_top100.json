@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04643262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 25-68 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "Body Mass Index >35 with comorbidity (Type 2 Mellitus Diabetes, hypertension, hyperlipidemia, bronchial asthma, osteoarthritis)",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Psychiatric illness",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Recent diagnosis of malignancy, inflammatory bowel disease, Barrett \u0301s esophagus, and GERD with esophagitis scored as or greater than grade B, a large hiatal hernia (>3 cm)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04643262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

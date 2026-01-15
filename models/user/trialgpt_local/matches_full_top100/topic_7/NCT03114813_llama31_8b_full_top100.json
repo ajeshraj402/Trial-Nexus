@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03114813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "HVPG measurements within last 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Underlying portal hypertension due to chronic liver disease",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "Ability to consent to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients already on NSBBs who have stopped treatment for two weeks",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to give informed consent",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absolute contraindications for MRI (including participants with metal in/around the eyes)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absolute contraindications for NSBBs (allergy, presence of asthma)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis and grade II esophageal varices. Recent admission for UGIB due to NSAID gastritis.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03114813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

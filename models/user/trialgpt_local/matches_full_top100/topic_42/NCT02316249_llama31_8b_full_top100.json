@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02316249",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient is a female with pelvic organ prolapse",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient has been counseled at their initial visit and opted for treatment with a vaginal pessary",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient is randomized to use estrogen cream (Estrace) or placebo stratified on type of pessary",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "participant reports that she has not used the cream or has returned the syringes unused",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participant develops or has a new diagnosis of any conditions that are reactions/adverse events occur from the use of Estrace or placebo",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is eligible for the study as she meets the inclusion criteria and does not have any exclusion criteria. She has been counseled at her initial visit and opted for treatment with a vaginal pessary, and she will be randomized to use estrogen cream (Estrace) or placebo stratified on type of pessary.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02316249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

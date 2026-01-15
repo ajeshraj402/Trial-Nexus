@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01457573",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men > 45 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Symptomatic LUTS (clinical benign prostatic hypertrophy/BPH)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) > 8",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PSA < 10 ng/ml",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Post void residual urine < 150 mls",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Urinary Flow rate > 15 mL/sec",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neurogenic bladder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Urinary tract infection, Urinary stone(s), Urinary tract tumor",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radiation therapy for urologic malignancy or prostate surgery; radiation to pelvic, colon, rectum, prostate, bladder, uterus or ovaries",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alpha blocker therapy or anticholinergic therapy within 3 months of entry or 5 alpha reductase therapy within 18 months.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of cataracts with planned surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01457573",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

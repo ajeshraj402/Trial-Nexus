@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03241823",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "Disease status",
+      "label": "met",
+      "evidence": "hepatitis C Virus related liver cirrhosis child A& B (scores 5-9)"
+    },
+    {
+      "criterion": "Previous treatment",
+      "label": "met",
+      "evidence": "treatment na\u00efve and treatment experienced"
+    },
+    {
+      "criterion": "HCV RNA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative HBsAg and HIV antibody",
+      "label": "met",
+      "evidence": "negative HBsAg and HIV antibody"
+    },
+    {
+      "criterion": "Normal kidney function test",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child C liver cirrhosis (Child score \u2265 10)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HCV coinfection with HBV or HIV",
+      "label": "met",
+      "evidence": "coinfection with HBV"
+    },
+    {
+      "criterion": "Patients with high risk of infection (I.V drug users, patients with blood disease requiring blood transfusion)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03241823",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

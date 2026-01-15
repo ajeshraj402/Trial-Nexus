@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00417898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acute ischemic stroke with onset less than 4.5 hours prior to the planned start of intravenous alteplase.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Disabling neurological deficit attributable to acute ischemic stroke in the middle cerebral artery territory.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NIHSS less than or equal to 18 for left hemisphere strokes, NIHSS less than or equal to 16 for others.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-85 years, inclusive.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to sign informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current participation in another study with an investigational drug or device within, prior participation in the present study, or planned participation in another therapeutic trial, prior to the final (day 30) assessment in this trial.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptoms suggestive of subarachnoid hemorrhage, even if CT or MRI scan is negative for hemorrhage.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00417898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

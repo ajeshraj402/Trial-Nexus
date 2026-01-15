@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02056730",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 year on enrollment date"
+    },
+    {
+      "criterion": "dialysis frequency",
+      "label": "met",
+      "evidence": "3 times per week"
+    },
+    {
+      "criterion": "PTH level",
+      "label": "unknown",
+      "evidence": "28pg/ml"
+    },
+    {
+      "criterion": "calcium level",
+      "label": "met",
+      "evidence": "9.2mg/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "parathyroid gland surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "seizures within 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "scheduled kidney surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "expected parathyroid gland surgery",
+      "label": "not_met",
+      "evidence": "6 months"
+    },
+    {
+      "criterion": "liver function abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bisphosphonates treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain, but otherwise healthy.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02056730",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02705534",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Positive qualitative hepatitis C RNA polymerase chain reaction assay on two occasions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 6 months apart",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Renal failure [estimated glomerular filtration rate (eGFR) < 30 cc/min]",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Model or End stage Liver Disease (MELD) score > 20",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child's class C (score > 12)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Heart rate < 50/min",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Taking amiodarone",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02705534",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

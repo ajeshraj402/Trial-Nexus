@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02852265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "UC Davis medical office",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently COCs or intending to initiate COCs at the time of the office visit",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to using a COC or a contraceptive implant (Category 3 or 4 in the CDC Medical Eligibility Criteria)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adults unable to consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Individuals who are not yet adults (infants, children, teenagers)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Healthy woman, no underlying disease. No contraindications to COC.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02852265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

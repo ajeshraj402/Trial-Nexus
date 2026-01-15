@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04720066",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "lower limb pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trauma patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "obvious diagnosis other than pain resulting from the hip joint on their physical examination",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has frequent headaches, generalized bone pain and difficulty chewing. Examination shows bilateral swellings around the molars.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04720066",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

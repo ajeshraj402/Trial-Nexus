@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT00678652",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-45 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Able to give informed consent, understands risks and benefits of study, assents to use of blood samples for future research; understands and is willing to comply with all protocol procedures and time commitments",
+      "label": "met"
+    },
+    {
+      "criterion": "Females must have a negative urine pregnancy test on vaccination day before each dose AND agree to practice an effective birth control method as necessary, for 6 months after the first vaccination",
+      "label": "met"
+    },
+    {
+      "criterion": "High levels of baseline bactericidal antibodies against the vaccine strain on screening (>1:16) and/or throat carriage of Neisseria meningitidis at time of screening",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or history of significant organ/system disease",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of allergy to any vaccine",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Positive test for HBsAg or hepatitis C antibody",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. He was diagnosed with atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00678652",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

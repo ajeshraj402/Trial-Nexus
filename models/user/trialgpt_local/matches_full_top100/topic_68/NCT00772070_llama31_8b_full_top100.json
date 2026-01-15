@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00772070",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Stage I",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participant is healthy, as determined by medical history and physical examination.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participant is at least 3 years of age but not yet 6 years of age at the enrolment.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "For the TetraMenD group: received one dose of TetraMenD as a participant in trial 603-02 no less than 18 months prior to enrolment.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Parent/Guardian has signed Institutional Review Board- (IRB-) approved informed consent form.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serious chronic disease (i.e., cardiac, renal, neurologic, metabolic, rheumatologic, psychiatric etc.)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known or suspected impairment of immunologic function",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, but is otherwise healthy. He has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00772070",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

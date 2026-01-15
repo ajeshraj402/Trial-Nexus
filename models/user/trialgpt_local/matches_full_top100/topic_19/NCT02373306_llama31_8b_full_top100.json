@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02373306",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ICD implanted for primary and secondary prevention",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "followed in the outpatient clinic of our center",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no exclusion criteria met",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lack of consent for NIPS",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "decompensated heart failure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unstable angina",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "persistent/long standing AF without effective anticoagulation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thrombus in the left ventricle",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "appropriate device interventions during the 40 days prior to planned NIPS",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pacing/sensing problems",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02373306",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

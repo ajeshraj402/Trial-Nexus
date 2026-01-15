@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04030741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gender",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated_appendicitis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "appendicular_mass",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous_non_operative_treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "C_reactive_proteins",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history_of_abdominal_surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04030741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

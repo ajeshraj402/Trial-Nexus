@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00916643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adequate venous access",
+      "label": "met"
+    },
+    {
+      "criterion": "Hematocrit 30% or greater",
+      "label": "met"
+    },
+    {
+      "criterion": "platelet count between 100,000 and 1,000,000/ml",
+      "label": "met"
+    },
+    {
+      "criterion": "Familial hypercholesterolemia with at least 6 months optimal diet and drug therapy",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "untreated hypothyroidism",
+      "label": "not_met"
+    },
+    {
+      "criterion": "decompensated congestive heart failure",
+      "label": "not_met"
+    },
+    {
+      "criterion": "major arrhythmia",
+      "label": "unknown"
+    },
+    {
+      "criterion": "uncontrolled diabetes mellitus",
+      "label": "met"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60%, prior CVA without residual deficits. He reports occasional dizziness and denies chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00916643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

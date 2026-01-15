@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03658356",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "urine sample for asymptomatic bacteriuria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "testing",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urinary tract infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "proteinuria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hematuria",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Urine culture shows Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03658356",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

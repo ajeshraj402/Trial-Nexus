@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04558268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "unexplained RPL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "abnormal immunological profile",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age above 25 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women agreed to participate in the study and signed on a consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with index pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "genetic impairment, Mullerian anomaly, endocrine or metabolic disorders, or a luteal-phase defect",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes mellitus diagnosed by symptoms of diabetes plus random glucose concentration\u2265 200mg/dL or fasting plasma glucose\u2265 126mg/dL or hemoglobin A1C\u22655.8% or 2-h plasma glucose\u2265 200mg/dL during an oral glucose tolerance test",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previously untreated tuberculosis, as determined by an abnormal chest film in the previous year or a positive tuberculin skin test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prednisone therapy during pregnancy for other reasons",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sensitivity to prednisone",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 25-year-old pregnant woman with unexplained RPL, abnormal immunological profile, and age above 25 years. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04558268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

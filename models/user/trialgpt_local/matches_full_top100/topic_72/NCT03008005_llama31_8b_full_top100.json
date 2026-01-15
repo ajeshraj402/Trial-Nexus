@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "16 years old"
+    },
+    {
+      "criterion": "right-handed",
+      "label": "met",
+      "evidence": "patient is right-handed"
+    },
+    {
+      "criterion": "physically and neurologically healthy",
+      "label": "met",
+      "evidence": "physical exam and lab studies are not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "current PTSD diagnosis",
+      "label": "met",
+      "evidence": "she complains of diplopia and weakness affecting in her upper extremities"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition or neurocognitive dysfunction",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies are not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "risk of harm to self or others that requires immediate intervention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of contraindications, current or past allergic or adverse reaction, or known sensitivity to cannabinoid-like substances",
+      "label": "not_met",
+      "evidence": "no mention of allergies or sensitivities"
+    },
+    {
+      "criterion": "lack of fluency in English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive drug screen or alcohol breathalyzer",
+      "label": "not_met",
+      "evidence": "she does not smoke or use illicit drugs"
+    },
+    {
+      "criterion": "unwilling/unable to sign informed consent document",
+      "label": "met",
+      "evidence": "patient is 16 years old and can give informed consent"
+    },
+    {
+      "criterion": "currently pregnant (positive pregnancy test), planning pregnancy, or lactating (women)",
+      "label": "not_met",
+      "evidence": "Beta hcg: negative for pregnancy"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She is on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

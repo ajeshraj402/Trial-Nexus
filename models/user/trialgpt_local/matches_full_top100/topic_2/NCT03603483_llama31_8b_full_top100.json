@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03603483",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "aortic valve stenosis",
+      "label": "met",
+      "evidence": "severe aortic stenosis with worsening LV function"
+    },
+    {
+      "criterion": "valve replacement surgery",
+      "label": "met",
+      "evidence": "preop workup for valvular replacement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "off-pump cardiac surgery",
+      "label": "not_met",
+      "evidence": "cardiac cath with right heart cath"
+    },
+    {
+      "criterion": "intra-aortic balloon pump",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "under 17 years of age",
+      "label": "met",
+      "evidence": "48 M"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is undergoing valve replacement surgery. No contraindications found.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03603483",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

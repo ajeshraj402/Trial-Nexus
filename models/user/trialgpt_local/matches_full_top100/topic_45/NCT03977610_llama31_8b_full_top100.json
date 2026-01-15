@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03977610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males with 40-85 years of age and life expectancy more than 3 months",
+      "label": "met"
+    },
+    {
+      "criterion": "Pathology-proved prostate cancer patients and classified as clinical stage III or IV (including lymph node or bone metastasis)",
+      "label": "met"
+    },
+    {
+      "criterion": "Willing to sign the informed consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to tolerate the PET/CT scan, such as those with claustrophobia, unable to lie still, consciousness unclear, vital sign unstable.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "With renal impairment (glomerular filtration rate lower than 30 ml/min/1.73 m2), and allergy to medium contrast.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03977610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

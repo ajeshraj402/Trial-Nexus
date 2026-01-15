@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02114489",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male and female between 18 - 50 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AOH stage 1 or 2 according to Ficat",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pain VAS scale >40 mm (0-100)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Specific aetiology of AOH already known",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cardiac and lung uncontrolled diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active malignancy untreated",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyper sensibility or allergy already known to ibandronate",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe kidney insufficiency (cl<30 ml/min)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contra-Indications to an MRI (Pacemaker, cochlear implant...)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone and is starting Bisphosphonate therapy. His sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02114489",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

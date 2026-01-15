@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02403492",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obesity, BMI > 95th centile for age and gender",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "10-18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent and the ability to perform the tests",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of anti-hypertensive medication",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medications known to alter glucose and insulin regulation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant central sleep apnea",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently unwell or recent viral/bacterial infection in the previous 4 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Currently hospitalized",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known underlying neuromuscular disorder, congenital heart disease, diagnosed",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ventricular disorder",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Syndrome's e.g. Down (high prevalence of OSAS independent of obesity)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of COPD, OSA, and obesity hypoventilation syndrome, which may be relevant to the study.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02403492",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

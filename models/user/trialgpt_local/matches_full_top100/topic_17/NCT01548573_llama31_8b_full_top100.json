@@ -1,0 +1,64 @@
+{
+  "trial_id": "NCT01548573",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of symptomatic MM, MM + amyloidosis, or POEMS requiring treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "previous history of smoldering myeloma with evidence of progressive disease requiring chemotherapy",
+      "label": "met"
+    },
+    {
+      "criterion": "protein criteria present (quantifiable M-component or urinary kappa or lambda light chain)",
+      "label": "met"
+    },
+    {
+      "criterion": "received no more than 12 months of prior chemotherapy for this disease",
+      "label": "met"
+    },
+    {
+      "criterion": "age at time of study entry: 18-80 years",
+      "label": "met"
+    },
+    {
+      "criterion": "ejection fraction by ECHO or MUGA \u2265 40%",
+      "label": "met"
+    },
+    {
+      "criterion": "adequate pulmonary function studies (> 50% of predicted on mechanical aspects)",
+      "label": "met"
+    },
+    {
+      "criterion": "creatinine < 3 mg/dl and calculated creatinine clearance >30mL/min",
+      "label": "met"
+    },
+    {
+      "criterion": "performance status of 0-2 based on ECOG criteria",
+      "label": "met"
+    },
+    {
+      "criterion": "signed IRB-approved study ICF (Informed Consent Form)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior autologous or allogeneic transplant",
+      "label": "triggers"
+    },
+    {
+      "criterion": "platelet count < 30 x 10^9/L, unless myeloma-related",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She has received prior chemotherapy and is currently on hemodialysis for ESRD.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01548573",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

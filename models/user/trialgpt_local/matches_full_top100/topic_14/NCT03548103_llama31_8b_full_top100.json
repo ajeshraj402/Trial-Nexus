@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03548103",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 20 to 65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Currently taking antipsychotics or mood stabilizers",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI should be \u2265 27 kg/m2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Good adherence to medications as recorded by chart",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Competent to understand the informed consent and have motivation to decrease their body weight",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable psychiatric symptoms or physical condition that may interfere the adherence of medication",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medical conditions such as endocrine disease, heart disease, allergy or immunology disease, or impaired liver function (high aminotransferases, alanine, aspartate >80 IU/L or serum creatinine >2.5 mg/dl)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Childbirth within 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Management for weight control within 3 months",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple medical conditions, including CHF, CAD, and obesity hypoventilation syndrome, which may interfere with medication adherence. Additionally, patient is experiencing agitation and altered mental status, which may be indicative of unstable psychiatric symptoms.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03548103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

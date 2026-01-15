@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02776202",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "35-year-old woman"
+    },
+    {
+      "criterion": "Myasthenia Gravis",
+      "label": "met",
+      "evidence": "class IIa, positive anti-AChR antibody test, single fiber electromyography (SFEMG) was positive"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "GVHD prophylaxis",
+      "label": "triggers",
+      "evidence": "used as GVHD prophylaxis and to prevent graft rejection"
+    },
+    {
+      "criterion": "Cirrhosis on liver biopsy",
+      "label": "triggers",
+      "evidence": "cirrhosis on liver biopsy"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02776202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

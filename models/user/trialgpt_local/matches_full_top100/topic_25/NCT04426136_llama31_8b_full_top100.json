@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04426136",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of breast cancer",
+      "label": "met",
+      "evidence": "patient's core biopsy revealed a 1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "Received surgical treatment in this institution",
+      "label": "met",
+      "evidence": "Lumpectomy was done and the surgical margins were clear."
+    },
+    {
+      "criterion": "Specific surgical method data available",
+      "label": "met",
+      "evidence": "Lumpectomy was done"
+    },
+    {
+      "criterion": "Demographic and pathological data available",
+      "label": "met",
+      "evidence": "The tumor was HER2-positive and ER/PR negative."
+    },
+    {
+      "criterion": "No clear evidence of distant metastasis",
+      "label": "met",
+      "evidence": "CXR was unremarkable"
+    },
+    {
+      "criterion": "Agree to participate in the trial and receive long-term follow-up",
+      "label": "met",
+      "evidence": "She is using \u201cwell women\u201d multivitamins daily"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Being intolerant of surgical treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Distant metastases have been merged",
+      "label": "not_met",
+      "evidence": "CXR was unremarkable"
+    },
+    {
+      "criterion": "Patients who had simultaneous bilateral breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Follow-up interval being less than 12 months except reaching endpoints of observation",
+      "label": "not_met",
+      "evidence": "She is using \u201cwell women\u201d multivitamins daily"
+    }
+  ],
+  "notes": "Patient has a history of smoking and occasional alcohol consumption, but no other significant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04426136",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

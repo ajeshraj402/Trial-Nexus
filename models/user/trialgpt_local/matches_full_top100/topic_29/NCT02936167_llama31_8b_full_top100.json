@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02936167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "American society of anesthesiologist (ASA)",
+      "label": "met",
+      "evidence": "1"
+    },
+    {
+      "criterion": "Laparoscopic surgical procedure of 2 hours duration requiring IV fluid administration",
+      "label": "met",
+      "evidence": "for at least 24 hours"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncorrected plasma sodium level before surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diseases which cause abnormal ADH secretion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal and cardiac disease",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "Chronic lung disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cranial/thoracic surgery",
+      "label": "not_met",
+      "evidence": "laparoscopic surgical procedure"
+    },
+    {
+      "criterion": "Recent loop diuretics use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis, but appears well with this episode of hyperglycemia.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02936167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

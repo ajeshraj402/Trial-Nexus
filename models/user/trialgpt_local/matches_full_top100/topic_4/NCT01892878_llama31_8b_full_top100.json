@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01892878",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "provided consent for research",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "skeletally mature and at least 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "not pregnant if female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "agreed to adhere to post-surgical medically prescribed activity limitations and/or physical rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous surgery at the target or adjacent vertebral levels",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active malignancy or patient with a history of any malignancy (except non-melanoma skin cancer) with recurrence within 5 years of surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma, but it is primary cardiac lymphoma and not active. Patient has a history of malignancy (Burkitt's lymphoma), but it was treated and there is no recurrence within 5 years.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01892878",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

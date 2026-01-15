@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01009437",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed biopsy proven breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ER+, HER2-",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sufficient tumor tissue from the diagnostic core biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumor must be greater than 1 centimeter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No prior treatment for breast cancer in the affected breast",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky performance status >70%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing potential are required to use an effective method of contraception",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Voluntary written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ER+, HER2+",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ER-, HER2+",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ER-, PR+, HER2-",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ER-, PR-, HER2-",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known positive HIV status or on medications for HIV",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with newly diagnosed breast cancer. She has no prior treatment and meets the Karnofsky performance status criteria.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01009437",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

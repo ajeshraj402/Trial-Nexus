@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02293213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "Hispanic"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no specific past medical issues"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "met",
+      "evidence": "has one partner in past 2 years"
+    },
+    {
+      "criterion": "Currently taking the Category D or X medication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "met",
+      "evidence": "32+6 weeks of gestational age"
+    },
+    {
+      "criterion": "Not currently sexually active with men",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of hysterectomy, bilateral oophorectomy, history of female sterilization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Partner with history of vasectomy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is pregnant and has a history of hypertension in her family. She is currently taking prenatal vitamins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02293213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

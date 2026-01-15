@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03220919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "admission_to_endocrinology_ward",
+      "label": "met",
+      "evidence": "admitted to Endocrinology wards"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatic_dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_dysfunction",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "diabetic_ketoacidosis",
+      "label": "met",
+      "evidence": "concern for possible diabetic ketoacidosis"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03220919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

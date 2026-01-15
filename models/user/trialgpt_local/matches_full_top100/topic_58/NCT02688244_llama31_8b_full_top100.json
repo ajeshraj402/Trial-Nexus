@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02688244",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "complicated acute appendicitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "laparoscopic approach",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "open approach",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medical or psychiatric condition of the patient that compromises the informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "authorisation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non complicated acute appendicitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "underage patients (<18)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "refusal to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain, nausea and vomiting. CT scan showed acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02688244",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

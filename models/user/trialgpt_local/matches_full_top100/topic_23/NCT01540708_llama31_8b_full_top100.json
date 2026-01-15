@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01540708",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ALT, alkaline phosphatase and bilirubin less than or equal to 1.5xULN",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Single QTc, QTcB or QTcF < 450 msec; or QTc < 480 msec in subjects with Bundle Branch Block",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Healthy as determined by a responsible and experienced physician",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Male or female between 18 and 65 years of age inclusive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A female subject is eligible to participate if she is of: Non-childbearing potential defined as pre-menopausal females with a documented tubal ligation or hysterectomy; or postmenopausal defined as 12 months of spontaneous amenorrhea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Capable of giving informed consent, which includes compliance with the study requirements and restrictions listed in the consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI within the range 18 and 35 kg/m2 (inclusive)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to use the inhaler devices adequately after training",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects who have a current diagnosis or a history of asthma, excluding childhood asthma which has been discharged by physician",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current or chronic history of liver disease, or known hepatic or biliary abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of asthma but it was discharged by physician. He is currently using inhaled corticosteroid and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01540708",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

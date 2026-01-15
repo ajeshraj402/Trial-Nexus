@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02653664",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years of age or older"
+    },
+    {
+      "criterion": "veteran_status",
+      "label": "met",
+      "evidence": "Veteran eligible for services through Veteran Health Affairs"
+    },
+    {
+      "criterion": "chronic_pain",
+      "label": "unknown",
+      "evidence": "experience moderate to severe chronic pain on a regular basis"
+    },
+    {
+      "criterion": "language_skills",
+      "label": "met",
+      "evidence": "able to read, speak and understand English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cognitive_impairment",
+      "label": "not_met",
+      "evidence": "He is an alert and cooperative man who does not have any signs of dementia"
+    },
+    {
+      "criterion": "psychiatric_issues",
+      "label": "unknown",
+      "evidence": "current or history of psychiatric or behavioral issues that require immediate attention and/or prevent the subject from participating effectively in the study"
+    },
+    {
+      "criterion": "opioid_use",
+      "label": "not_met",
+      "evidence": "He does not smoke or use any illicit drugs"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but there is no indication of severe cognitive impairment or psychiatric issues. He is able to read and speak English.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02653664",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

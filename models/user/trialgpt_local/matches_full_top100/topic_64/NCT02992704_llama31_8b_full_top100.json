@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02992704",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "treatment_naive",
+      "label": "met",
+      "evidence": "no other medications"
+    },
+    {
+      "criterion": "HBsAg_positive",
+      "label": "met",
+      "evidence": "recent coinfection with HBV"
+    },
+    {
+      "criterion": "HBeAg_negative",
+      "label": "met",
+      "evidence": "documented HBeAg negative and anti-HBe positive"
+    },
+    {
+      "criterion": "ALT_normal",
+      "label": "met",
+      "evidence": "ALT \u22641xULN"
+    },
+    {
+      "criterion": "HBV_DNA_normal",
+      "label": "met",
+      "evidence": "quantitative HBsAg <1,000 IU/ml OR HBV DNA <2x104 IU/mL at screening"
+    },
+    {
+      "criterion": "cirrhosis_absent",
+      "label": "met",
+      "evidence": "no evidence of cirrhosis documented by liver biopsy or transient elastography within 6 months"
+    },
+    {
+      "criterion": "investigational_drugs_absent",
+      "label": "met",
+      "evidence": "patient has agreed not to take any other investigational drug or systemic anti-viral, cytotoxic, corticosteroid, immunomodulatory agents or Chinese traditional remedies unless clinically indicated"
+    },
+    {
+      "criterion": "written_consent",
+      "label": "met",
+      "evidence": "patient is able to give written consent prior to study start and to comply with the study requirements"
+    },
+    {
+      "criterion": "pregnancy_test_negative",
+      "label": "met",
+      "evidence": "women of childbearing age must have a negative urine (\u00df-HCG) pregnancy test taken within 14 days of starting therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "nucleoside/nucleotide_analogues_treatment",
+      "label": "not_met",
+      "evidence": "no evidence of current treatment with nucleoside/nucleotide analogues"
+    },
+    {
+      "criterion": "cirrhosis_present",
+      "label": "unknown",
+      "evidence": "no clear evidence of cirrhosis documented by liver biopsy or transient elastography (score \u2265 10kpa)"
+    },
+    {
+      "criterion": "HIV_co-infection",
+      "label": "not_met",
+      "evidence": "no evidence of active Co-infection with HIV antibody"
+    },
+    {
+      "criterion": "HCV_co-infection",
+      "label": "not_met",
+      "evidence": "no evidence of active Co-infection with HCV antibody"
+    },
+    {
+      "criterion": "HDV_co-infection",
+      "label": "not_met",
+      "evidence": "no evidence of active Co-infection with HDV antibody positivity"
+    }
+  ],
+  "notes": "Patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT02992704",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

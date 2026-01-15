@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04160195",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MALIGNANCY CRITERIA",
+      "label": "met",
+      "evidence": "Burkitt's lymphoma"
+    },
+    {
+      "criterion": "CD19 or CD20 expression on Reed-Sternberg cells",
+      "label": "met",
+      "evidence": "pericardial fluid was kappa light chain restricted CD10 positive monotypic B cells expressing FMC-7, CD19, CD20"
+    },
+    {
+      "criterion": "uniform CD19 or CD20 expression",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients that require urgent therapy due to tumor mass effects or spinal cord compression.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior administration of anti-PD-1 or anti-PD-L1 antibodies or other agents that in the opinion of the PI can stimulate immune activity and interfere with infusion of CAR-T cells within 8 weeks of enrollment.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HIV-positive patients are excluded because HIV causes complicated immune deficiency and study treatment can pose more risks for these patients.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma with CD19 and CD20 expression on Reed-Sternberg cells. No urgent therapy required, no recent anti-PD-1 or anti-PD-L1 antibodies administration, and HIV status is not mentioned.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04160195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

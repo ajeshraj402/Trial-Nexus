@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03663959",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "stage 2 or greater uterovaginal/vaginal cuff prolapses",
+      "label": "met",
+      "evidence": "POP-Q system underwented to surgery"
+    },
+    {
+      "criterion": "surgery (vaginally or laparoscopically) between January 2014 and June 2018",
+      "label": "met",
+      "evidence": "underwent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgeries for malignancy suspicion",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pelvic inflammatory disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pectouteropexy procedure",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer, tested positive for HPV 16, smokes heavily and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03663959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

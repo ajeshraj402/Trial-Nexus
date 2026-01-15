@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03142867",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "liver biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "percutaneous coronary intervention (PCI) or coronary artery bypass graft (CABG)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "greater or equal to 5% steatosis on MRI",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "liver stiffness greater than 7 kPa on Fibroscan",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass, presenting with fevers/rigors and bandemia. CT abdomen without contrast showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03142867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

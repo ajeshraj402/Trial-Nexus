@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02232945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed influenza A(H1N1,H3N2) or influenza B virus infection by real time PCR",
+      "label": "met",
+      "evidence": "real-time PCR"
+    },
+    {
+      "criterion": "age between 18-65 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "axillary temperature \u226538\u00baC and with at least two constitutional symptoms (headache, chill, myalgia \uff0cor fatigue) and one respiratory symptom (cough \uff0csore throat,or coryza)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Illness onset had to be within 36 hours, and informed consent was obtained",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age younger than 18 or older than 65 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients confirmed with bronchitis, pneumonia,pleural effusion and interstitial lung disease by Chest imaging (chest X-ray or CT)",
+      "label": "not_met",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation"
+    },
+    {
+      "criterion": "Blood routine screening tests shows numeration of leukocyte 10.0\u00d7109/L or Neutrophil percentage \u226580%",
+      "label": "not_met",
+      "evidence": "WBC: 14000 /mm3"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02232945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

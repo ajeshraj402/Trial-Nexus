@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04356404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years old at the time of starting biological modifier therapies or at the time of recruitment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Positive for anti-HBc OR Positive for anti-HBs and born before year 1988",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known HBV carrier with HBsAg positive",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant HCV and/ or HIV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Already on HBV anti-viral",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse to consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Baseline ALT > 80 IU/ml",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection, but no evidence of HBV carrier status or concomitant infections. He is on treatment with IFN and RBV combination therapy.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT04356404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04057924",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CIN2 confirmed by biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 18 and 39 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "satisfactory colposcopy identifying the junction and the lesion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "affiliated person or beneficiary of a social security scheme",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "having given their oral agreement and authorization to the processing of their data",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy in progress",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of conization",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "atypical or atypical glandular cells or cancer incidentally discovered during smear",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion, HPV 16 positive. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT04057924",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

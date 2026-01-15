@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00654563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57-year old farmer"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "capable of providing informed consent and having a legal representative able to consent out of concern for future competency to consent"
+    },
+    {
+      "criterion": "memory_disorder",
+      "label": "not_met",
+      "evidence": "no mention of memory disorder"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "less than 18 years of age (children)"
+    }
+  ],
+  "notes": "Patient is a 57-year-old farmer with Parkinson's disease, experiencing slowness of movement and tremors. He has hypertension and hypercholesterolemia in his past medical history.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00654563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

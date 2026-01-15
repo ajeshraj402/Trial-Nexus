@@ -1,0 +1,62 @@
+{
+  "trial_id": "NCT00498238",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Laboratory evidence of subclinical hypothyroidism (TSH levels 4-25 mU/L and normal T4 values) in at least two following tests (one month apart from each other)",
+      "label": "met",
+      "evidence": "high TSH levels (15 mU/L), low free T4 levels (0.18 ng/dl)"
+    },
+    {
+      "criterion": "Laboratory evidence of subclinical hypothyroidism (TSH levels 4-25 mU/L and normal T4 values) in at least two following tests (one month apart from each other)",
+      "label": "met",
+      "evidence": "high TSH levels (15 mU/L), low free T4 levels (0.18 ng/dl)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "myocardial infarction, cerebrovascular event or angiography with stent placement",
+      "label": "unknown"
+    },
+    {
+      "criterion": "serious infection in the month before recruitment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "any use of contrast media in the last 6 months",
+      "label": "not_met"
+    },
+    {
+      "criterion": "loss of more than 5% of body weight during the last 6 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "cardiac arrhythmias",
+      "label": "unknown"
+    },
+    {
+      "criterion": "ejection fraction of less than 40%",
+      "label": "not_met"
+    },
+    {
+      "criterion": "active malignant diseases",
+      "label": "not_met"
+    },
+    {
+      "criterion": "previous thyroid disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met"
+    }
+  ],
+  "notes": "16-year-old girl with Hashimoto disease, complaining of weight gain and abnormal menstrual cycles.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00498238",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT02524106",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Evidence of a personally signed and dated informed consent document indicating that the subject (or a legal representative) has been informed of all pertinent aspects of the study.",
+      "label": "met"
+    },
+    {
+      "criterion": "Subjects who are willing and able to comply with scheduled visits, treatment plan, laboratory tests, and other study procedures.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of a cardiovascular or cerebrovascular event or procedure (eg, myocardial infarction, stroke, transient ischemic attack, angioplasty) during the past 90 days.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Congestive heart failure, New York Heart Association functional class IV, or left ventricular ejection fraction measured by imaging known to be <25%.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02524106",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

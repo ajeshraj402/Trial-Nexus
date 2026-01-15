@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03236961",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "CT confirmed uncomplicated acute appendicitis",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis, but diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Ability to give consent to participate in the study",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 years or over 60 years",
+      "label": "not_met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy or contraindication to antibiotic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metformin medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe systemic illness (for example malignancy, medical condition requiring immunosuppressant medication)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT confirmed complicated acute appendicitis",
+      "label": "not_met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis, but diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Inability to co-operate and give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has been diagnosed with acute perforated appendicitis and is now a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03236961",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

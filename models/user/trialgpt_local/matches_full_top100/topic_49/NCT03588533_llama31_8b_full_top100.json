@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03588533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Gastric or gastroesophageal junction adenocarcinoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HER-2 immuno-histochemical (IHC) (3 +) stain or her-2 silver in situ hybridization(SISH)/fluorescence in situ hybridization(FISH) (+)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Herzuma\u00ae -capecitabine/cisplatin combination regimen is planned as a first line treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other type of cancer of Gastric or gastroesophageal junction adenocarcinoma (e.g., lymphoma, sarcoma)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HER-2 (0/1+) in IHC or her-2 SISH/FISH (-)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who previously performed stomach cancer treatment as a palliative setting",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, treating with GH since 6 months ago without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT03588533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

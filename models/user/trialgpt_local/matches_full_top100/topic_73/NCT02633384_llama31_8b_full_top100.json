@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02633384",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neonates admitted in the NICU",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age of 34 weeks or over",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "undergoing corrective surgery of congenital anomaly of the digestive tract",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-natal or early neonatal (within the first 72 hours after birth) diagnoses of congenital or acquired hepato-biliary disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "later neonatal diagnoses of any above mentioned pathology",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02633384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

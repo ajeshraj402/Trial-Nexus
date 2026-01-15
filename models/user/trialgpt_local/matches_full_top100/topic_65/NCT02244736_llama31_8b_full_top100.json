@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02244736",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "subjects without known diabetes",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "first degree relatives of diabetics",
+      "label": "met",
+      "evidence": "family history is positive for DM type 1 in his uncle and his grandfather"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "coronary or valvular heart disease",
+      "label": "not_met",
+      "evidence": "no angina (New York Heart Association class 2)"
+    },
+    {
+      "criterion": "congestive heart failure",
+      "label": "not_met",
+      "evidence": "diagnosed with cardiomyopathy that will be treated"
+    },
+    {
+      "criterion": "peripheral vascular disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver or kidney failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of alcohol or drug abuse",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "25-year-old man with type 1 diabetes, cardiomyopathy treated with ACE inhibitors and Beta blockers",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02244736",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

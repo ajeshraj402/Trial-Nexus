@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04191018",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of advanced fibrosis or cirrhosis (stage F\u22653 METAVIR) based on liver stiffness by transient elastography (\u2265 9,5 kPa) or liver biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gastrointestinal endoscopy at least 24 months before start of direct-acting agents for HCV treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver stiffness measurement at least 18 months after SVR",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Autoimmune hepatitis, hepatosplenic schistosomiasis or cholestasis diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver transplantation",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of high volume ascites or hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in programs of esophageal band ligation for eradication of esophageal varices",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He also describes new imbalance leading to a fall.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04191018",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

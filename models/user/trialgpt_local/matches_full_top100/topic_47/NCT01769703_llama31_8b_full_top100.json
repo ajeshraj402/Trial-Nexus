@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01769703",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TIA or minor stroke",
+      "label": "met",
+      "evidence": "NIHSS score of 7"
+    },
+    {
+      "criterion": "treated within 24 hours of symptom onset",
+      "label": "met",
+      "evidence": "administered intravenous recombinant tissue plasminogen activator (t-PA) and high-dose statin therapy"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "62-year-old man"
+    },
+    {
+      "criterion": "MRI with evidence of at least one DWI lesion, consistent with ischemia",
+      "label": "met",
+      "evidence": "MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "stroke mimics",
+      "label": "not_met",
+      "evidence": "no mention of seizures or migraine"
+    },
+    {
+      "criterion": "contraindications to MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal failure, defined as Glomerular Filtration Rate (GFR) <30 ml/min",
+      "label": "not_met",
+      "evidence": "no mention of renal failure"
+    },
+    {
+      "criterion": "ongoing bleeding risks or unsuitable for dabigatran therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "additional pathology including arteriovenous malformations, intracranial aneurysms, tumours, or abscess",
+      "label": "not_met",
+      "evidence": "no mention of these conditions"
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "not_met",
+      "evidence": "62-year-old man"
+    },
+    {
+      "criterion": "Planned thrombolysis or endovascular intervention for the index event",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Thrombolysis for ischemic stroke within preceding 7 days",
+      "label": "not_met",
+      "evidence": "no mention of recent thrombolysis"
+    },
+    {
+      "criterion": "Planned carotid endarterectomy/carotid artery stent within 30 days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any history of spontaneous intracranial bleeding",
+      "label": "not_met",
+      "evidence": "no mention of this condition"
+    },
+    {
+      "criterion": "Clear indication for anticoagulation, including atrial fibrillation, mechanical cardiac valves, deep venous thrombosis, pulmonary embolism or known hypercoagulable state",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Co-morbid illness with expected life expectancy of <30 days",
+      "label": "not_met",
+      "evidence": "no mention of this condition"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT01769703",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

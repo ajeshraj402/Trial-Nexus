@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03670719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "chronic_cervical_pain_diagnosis",
+      "label": "met",
+      "evidence": "Tinea pedis infection confirmed as his diagnosis by the observation of segmented fungal hyphae during a microscopic KOH wet mount examination."
+    },
+    {
+      "criterion": "flexion_rotation_test_positive",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_spine_surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes_mellitus",
+      "label": "not_met",
+      "evidence": "He didn't use ant topical ointment on the lesion and has no positive history for any underlying disease such as DM."
+    },
+    {
+      "criterion": "recent_infection_or_arthritis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication_for_manual_therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41 year old man with Tinea pedis infection, no underlying diseases or recent surgeries.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT03670719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

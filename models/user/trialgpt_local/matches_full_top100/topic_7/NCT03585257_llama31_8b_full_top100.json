@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03585257",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cirrhosis on liver biopsy or transient wave elastography",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Nodular liver on imaging",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Endoscopic or radiological evidence of varices in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet count <150,000/mm3 and AST/ALT ratio >1 in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with frank decompensation (ascites, HE, variceal bleeding, hepato-pulmonary syndrome)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior HE controlled on standard of care therapy defined as lactulose or rifaximin for at least 2 months prior to enrollment.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum albumin <4 gm/dl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitive impairment on any of the three testing strategies for HE including Psychometric hepatic encephalopathy score (PHES), Stroop test and Critical Flicker Frequency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PHES aggregate score <-4SD based on norms published in Allampati et al located at the website www.encephalapp.com",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stroop OffTime+OnTime values greater than norms published in Allampati et al located at the website www.encephalapp.com",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Critical Flicker Frequency value <39 Hz",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unclear diagnosis of cirrhosis (does not meet the criteria outlined above)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior overt HE episodes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HE uncontrolled on standard of care defined as a mini-mental status exam<25",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On regular IV albumin infusions due to scheduled paracentesis within the last 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent alcohol abuse (within 3 months)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to give consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has cirrhosis, varices, and recent HE episode. However, unclear diagnosis of cirrhosis and recent alcohol abuse are exclusion criteria.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03585257",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

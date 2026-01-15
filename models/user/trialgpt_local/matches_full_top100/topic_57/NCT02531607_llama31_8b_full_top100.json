@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02531607",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age: \u226518years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Treatment: scheduled for clinical reason to undergo an ERCP at the CIE",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Suspected of having biliary or pancreatic disease other than cancer (chronic pancreatitis, benign biliary strictures, post-liver transplant strictures, common bile duct stones, sphincter of Oddi dysfunction or suspected of having pancreatic or peri-ampullary malignancy (including pancreatic ductal adenocarcinoma, distal cholangiocarcinoma, ampullary carcinoma, duodenal, carcinoma)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Clinical or image data suggestive of pancreatic disease or the need for gastrointestinal or pancreatic inspection.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willing and mentally able to provide consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age: <18years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Post-bariatric surgery, hepaticojejunostomy and Bilroth II patients undergoing ERCP.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not scheduled for endoscopic procedures for clinical reasons",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No clinical or image data suggestive of need for clinical intervention (Endoscopy)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not willing or able to sign informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of frequent alcohol consumption. Abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT02531607",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "16-year-old girl"
+    },
+    {
+      "criterion": "lymphedema_stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "upper_extremity_lymphedema",
+      "label": "met",
+      "evidence": "lower extremity lymphedema"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "16-year-old girl"
+    },
+    {
+      "criterion": "phone_calls",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

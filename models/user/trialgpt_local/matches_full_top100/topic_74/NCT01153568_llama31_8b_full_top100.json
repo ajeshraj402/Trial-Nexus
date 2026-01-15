@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01153568",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ambulatory women older than 60 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "20 nmol/L < serum 25(OH)D level < 65 nmol/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to take study drug and participate for four years in the trial",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of medications that influence bone metabolism (e.g. anticonvulsants)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant deviation from normal in either: history, physical examination or laboratory tests as evaluated by the Principle Investigator",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participation in another investigational trial 30 days prior to screening",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serum 25(OH)D levels \u2264 20 nmol/L or \u2265 65 nmol/L",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMD total hip below - 2.5 standard deviation (using NHANES III adult young white men and women as the point of reference) or history of osteoporotic fracture",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone, which is a significant deviation from normal in laboratory tests. However, they are willing to participate in the trial and take study drug for four years.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01153568",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

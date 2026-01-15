@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03755843",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "second and third trimester Pregnant women",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with severe preeclampsia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non intubated",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Amputation of any limb",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "heart or valve disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic renal failure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic Liver failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma with pericardial effusion and cardiac MRI showing a mass. Past medical history includes HTN, Obesity, PCOS/infertility, Viral encephalitis/meningitis-->ICH-->seizure/stroke, CSF leak w/ meningitis s/p lumbar drain placement, R LE DVT s/p IVC filter placement, and Knee surgery.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03755843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

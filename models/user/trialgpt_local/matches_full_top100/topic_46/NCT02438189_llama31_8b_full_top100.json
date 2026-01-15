@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02438189",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 15.0 to <46.0 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HbA1c <10.0%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Uninterrupted internet access while study system is being used overnight and for upload of study data in the morning",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Living with a significant other or family member (\"companion\") committed to participating in all study activities, and being present and available to provide assistance when the system is being used at night",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "An understanding of and willingness to follow the protocol and sign the informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of seizure disorder (except for hypoglycemic seizure)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of any heart disease including coronary artery disease, heart failure, or arrhythmias",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with symptoms of cough, profuse nocturnal sweating and loss of appetite. He has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02438189",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

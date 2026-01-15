@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03549052",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "All ages will be accepted",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Isolated mitral valve lesion either stenosis or regurge",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Good LV function (EF <45%)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any degree of tricuspid valve regurge",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concomitant Aortic valve lesion needs replacement",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Poor LV function (Low EF> 45%)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other causes of pulmonary hypertension i.e.: (Chronic obstructive or restrictive pulmonary disease, connective tissue disease and chronic thromboembolism)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergency and Redo operations",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He also has biatrial enlargement and mild MR. These conditions make him likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03549052",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

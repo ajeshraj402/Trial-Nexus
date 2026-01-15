@@ -1,0 +1,26 @@
+{
+  "trial_id": "NCT03524677",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Non metastatic Pancreatic Cancer",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18y",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "70 year-old woman with a history of CAD and pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03524677",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

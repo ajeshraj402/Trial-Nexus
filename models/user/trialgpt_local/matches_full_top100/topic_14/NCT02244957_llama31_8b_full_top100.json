@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02244957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "stable COPD or OSA",
+      "label": "met",
+      "evidence": "COPD and OSA"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "continuous positive airway pressure (CPAP), BPAP device, or nocturnal oxygen",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "renal failure with estimated Glomerular filtration (GFR) <50 ml/min/1.73 m2 or serum creatinine > 1.5 mg/dl",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "chronic atrial fibrillation or frequent premature ventricular contraction (> 10 beats per hour)",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "pregnant or planning to be pregnant in next 6 months",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "cardiac pacemaker, metallic heart valves, metallic implants, history of claustrophobia",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "sildenafil or related drugs",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "uncontrolled COPD or acute COPD exacerbation",
+      "label": "not_met",
+      "evidence": "COPD is stable"
+    },
+    {
+      "criterion": "unstable cardiac diseases",
+      "label": "not_met",
+      "evidence": "no recent history of fever, cough, chills, sputum production, CP, abd pain"
+    }
+  ],
+  "notes": "Patient has COPD and OSA. No contraindications to MRI or use of sildenafil.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02244957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00378755",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Previously untreated newly diagnosed patients with MM (stage II-III)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age < 65",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group Performance Status 0-1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "EF > 50%, FVC and FEV > 50%, DLCO >50%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count \u2265 100 x 10^9/L (pretreatment platelet transfusion is not allowed, while transfusion during the treatment is permitted)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 8 g/dL (\u2265 4.96 mol/L), Prior RBC transfusion or recombinant human erythropoietin use is allowed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) \u2265 1.0 x 10^9/L",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate liver function (bilirubin < UNL(Upper Normal Limit) x 2 and ALT/AST < UNL x 3)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate renal function (serum creatinine < UNL x 1.5 or creatine clearance > 60 ml/min)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed the informed consent, have the will and ability to follow the protocol",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergic reaction attributable to compounds containing boron or mannitol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known hypersensitivity to thalidomide or dexamethasone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Peripheral neuropathy or neuropathic pain Grade 2 or higher as defined by NCI CTCAE version 3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled or severe cardiovascular disease, including MI within 6 months of enrollment, New York Heart Association (NYHA) Class III or IV heart failure, uncontrolled angina, clinically significant pericardial disease, or cardiac amyloidosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute severe infection requiring antibiotic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous cancer history (except in situ carcinoma of cervix or basal cell cancer of skin)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active ulcer detected by gastroscopy (gastroscopy is not routine in all patients, only to patients with symptoms of ulcer disease and/or history of previous ulcer therapy and/or physician's discretion)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She has a history of allergic reaction to thalidomide, uncontrolled cardiovascular disease, and is pregnant.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00378755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

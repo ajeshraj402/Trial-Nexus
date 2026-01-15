@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03485443",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "2-14 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ASA I-II",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Gastroesafageal reflu",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Premedication antiemetic",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03485443",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

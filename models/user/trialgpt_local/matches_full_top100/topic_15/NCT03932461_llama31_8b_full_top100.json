@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03932461",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suspected faecal peritonitis originating from the small intestine, colon or rectum",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contamination in minimum 2 out of 4 abdominal quadrants",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diffuse peritonitis originating from a different focus than the small intestine, colon or rectum",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Perforated ventricle or duodenal ulcer",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has suspected faecal peritonitis originating from the small intestine, colon or rectum. However, there is no clear evidence of diffuse peritonitis originating from a different focus.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03932461",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00290316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed colon, pancreatic, esophageal, lung, gastric cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatitis C or B with elevated levels of alpha-fetoprotein",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "radiological findings suggestive of mass in the liver",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "advanced heart or lung disease that precludes conscious sedation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver failure",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic/pancreatic tail mass likely diverticular abscess.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00290316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

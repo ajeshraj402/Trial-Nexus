@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00005903",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of PSP with bilateral symptoms based on medical history and neurologic examination in accordance with NINDS criteria.",
+      "label": "met",
+      "evidence": "medical_history_and_neurological_exam"
+    },
+    {
+      "criterion": "Men or nonpregnant women age 35 to 75 years.",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Before any study-specific procedures are performed, the subject and their designated representative must give signed informed consent for their participation.",
+      "label": "met",
+      "evidence": "signed_informed_consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with levodopa, dopamine agonists or any other antiparkinsonian medications.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of clinically significant psychosis or hallucinations.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00005903",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

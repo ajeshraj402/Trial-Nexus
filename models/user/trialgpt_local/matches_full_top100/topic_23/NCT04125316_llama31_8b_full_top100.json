@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT04125316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chinese subjects aged between 18 and 90 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Have a diagnosis of asthma according to The Global Initiative for Asthma (GINA) guideline 2019.",
+      "label": "met"
+    },
+    {
+      "criterion": "Asthma is defined as those with a consistent history and prior documented evidence of variable airflow obstruction,",
+      "label": "unknown"
+    },
+    {
+      "criterion": "with evidence of an increase in FEV1 greater than 12% or 200 mL following bronchodilator or bronchial hyperresponsiveness on bronchial provocation testing, when stable.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with respiratory diseases with other known respiratory diseases including chronic obstructive pulmonary disease",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Individuals older than 40 years with a smoking history of more than 10 pack-years",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients currently randomized in other clinical studies",
+      "label": "unknown"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, diagnosed with asthma for 3 years. He uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04125316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

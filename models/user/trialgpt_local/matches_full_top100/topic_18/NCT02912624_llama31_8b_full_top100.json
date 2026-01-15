@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02912624",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Emergency admission Expected stay > 24 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plan for missing data Primary analyses will be performed with imputation for missing data using multiple imputations.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned admission (either after surgery or for other reasons)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Withdrawn or unable to obtain informed consent",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Continuous resuscitation efforts or mechanical circulatory support",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe 2cm bulbar urethral stricture and will require surgical intervention when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02912624",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

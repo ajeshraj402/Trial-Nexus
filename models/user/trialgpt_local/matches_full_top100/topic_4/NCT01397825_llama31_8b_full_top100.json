@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01397825",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed diagnosis of diffuse large B-cell lymphoma",
+      "label": "met"
+    },
+    {
+      "criterion": "Relapsed or refractory after at least 1 prior systemic treatment for aggressive lymphoma",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable disease as specified in study protocol",
+      "label": "met"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2",
+      "label": "met"
+    },
+    {
+      "criterion": "Female patients who are post menopausal for at least 1 year, surgically sterile, or agree to practice 2 effective methods of contraception through 30 days after the last dose of alisertib (MLN8237) or agree to abstain from heterosexual intercourse",
+      "label": "met"
+    },
+    {
+      "criterion": "Male patients who agree to practice effective barrier contraception through 4 months after the last dose of MLN8237 or agree to abstain from heterosexual intercourse",
+      "label": "met"
+    },
+    {
+      "criterion": "Voluntary written consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Received more than 4 prior systemic treatment regimens for lymphoma",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Known human immunodeficiency virus (HIV) positive or acquired immunodeficiency syndrome (AIDS)-related illness; hepatitis B virus, or hepatitis C virus;",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Autologous stem cell transplant less than 3 months prior to enrollment",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of Burkitt's lymphoma, which is a type of aggressive lymphoma. However, they have also received more than 4 prior systemic treatment regimens for lymphoma, which makes them ineligible for the trial.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01397825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

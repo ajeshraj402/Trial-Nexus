@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03433287",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CRMO diagnosis verified by biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age under 18 years at diagnosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Malignant disease excluded",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed written consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Bone biopsy not performed",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients not eligible for MRI (metallic foreign objects, severe claustrophobia)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03433287",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

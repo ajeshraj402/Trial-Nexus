@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "approached until 100 of them signs the Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted for rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Speaks English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read (even with glasses)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Potential risk to the subjects: The research will not influence rehabilitation of the patients.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She likes to try diets and exercise to lose weight.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

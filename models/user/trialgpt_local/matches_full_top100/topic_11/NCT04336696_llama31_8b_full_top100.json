@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04336696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226520 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Histopathology proved PTC",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "with no lymph nodes detected (N0)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Younger age \u226420 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior thyroidectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "previous radiation exposure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "postoperative radioactive iodine therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Histopathology report of any type of malignancy other than PTC",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients did not complete their postoperative follow-up period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PTC With N1 or M1",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, underwent XRT and RAI ablation. Has a history of neck mass resection and hernia repair.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04336696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

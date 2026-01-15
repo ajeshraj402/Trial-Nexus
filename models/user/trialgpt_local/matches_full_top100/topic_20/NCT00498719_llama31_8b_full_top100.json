@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00498719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "school enrollment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diagnosis of leukemia, lymphoma, or brain tumor",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "within 2 months to 14 months after beginning treatment for cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "full scale IQ > or = 70",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major physical, neurologic, or psychiatric condition",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of acne and mild hirsutism, with elevated testosterone levels. She also has some irregularity in her menstrual cycle and nipple discharge.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00498719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

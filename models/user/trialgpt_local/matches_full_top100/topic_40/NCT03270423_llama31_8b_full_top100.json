@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03270423",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obesity, BMI > P. 97 (Jenni et al., 2011) or overweight, BMI >P.90",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "co-morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major somatic or psychiatric disease without adequate treatment,",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "weight-relevant medication (antiepileptic drugs, methylphenhydate and similar medication)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but meets inclusion criteria. Exclusion due to major somatic disease and weight-relevant medication.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03270423",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

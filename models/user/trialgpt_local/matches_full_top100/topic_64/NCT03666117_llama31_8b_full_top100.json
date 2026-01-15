@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03666117",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 Diabetes mellitus",
+      "label": "met",
+      "evidence": "diagnostic criteria of the American Diabetes Association 2011"
+    },
+    {
+      "criterion": "no liver disease prior to diagnosis of diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "type 2 diabetes mellitus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "secondary diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "type 1 diabetes mellitus with other system affection rather than hepatic affection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Syndromic children",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients known to have liver disease prior to diagnosis of diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV and recent coinfection with HBV, on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03666117",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

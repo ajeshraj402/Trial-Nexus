@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01889095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diabetes type 2",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c 8% or higher",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age 25 to 65",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alteration in insulin sensitivity such as major surgery, infection, renal failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "(Glomerular Filtration Rate < 50)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "glucocorticoid treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent (within 2 weeks) serious hypoglycemic episode (requires assistance of another)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "simultaneous participating in another clinical study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "using any type of insulin",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has no other underlying disease and is not on any medications. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01889095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

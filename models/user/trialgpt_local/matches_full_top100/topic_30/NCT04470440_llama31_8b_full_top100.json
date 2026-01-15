@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04470440",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "histologically confirmed locally advanced stage (IIIB) or metastatic (IV) non-small cell lung cancer with disease progression",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "treated with Nivolumab as second or more therapeutic line",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "in the oncologic department university hospital of Brest",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary tumor was not from bronchopulmonary origin",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of total thyroidectomy and/or having previously treated with levothyroxine and/or having a thyroid dysfunction previously to the introduction of Nivolumab",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no thyroid monitoring during Nivolumab treatment, and data were missing",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "opposition to participate in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but was treated with Levothyroxine and showed improvement. No history of total thyroidectomy or previous thyroid dysfunction.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04470440",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

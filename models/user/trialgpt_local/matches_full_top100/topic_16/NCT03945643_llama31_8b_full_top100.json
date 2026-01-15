@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03945643",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Reside in geographic location near Split, Croatia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elite breath hold divers",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Experienced SCUBA divers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of coronary artery disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Currently taking medication or herbal supplement for any heart or respiratory disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women who are pregnant or trying to become pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous history of any condition that would prevent the subject from performing a breath hold",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Taking sildenafil or products similar to sildenafil",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Taking Nitrates or other nitric oxide donors",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on home oxygen. They have been taking sildenafil in an inpatient trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03945643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02418832",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with Obstructive/Non-Obstructive Azoospermia who turned to sperm cell aspiration",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "for IVF and were found suitable for TEFNA",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "and signed consent form",
+      "label": "met",
+      "evidence": "patient's signature"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "healthy, non-azoospermic men",
+      "label": "not_met",
+      "evidence": "physical assessment"
+    },
+    {
+      "criterion": "men who are unsuitable for the TEFNA procedure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "men who don't sign the Informed Consent",
+      "label": "not_met",
+      "evidence": "patient's signature"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, suitable for TEFNA and IVF.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02418832",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

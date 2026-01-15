@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00338520",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 6 months and 6 years, male and female.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "P. falciparum parasitemia (greater than or equal to 10,000 trophozoites/microliter).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinical syndrome consistent with malaria associated with documented fever (axillary temperature greater than or equal to 38 degrees C) or reported history of fever in the last 48 hours with no other cause present.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mixed infection with P. falciparum and any other malaria species (P. malariae, P. ovale, P. vivax).",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Co-infection with any other organism identified (ie. Positive blood culture).",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and CSF leak, which may indicate an increased risk of complications from malaria treatment.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00338520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

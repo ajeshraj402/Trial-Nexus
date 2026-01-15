@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04559906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "active myofascial trigger point in upper trapezius muscle",
+      "label": "met",
+      "evidence": "palpation of the left lower quadrant causes pain on the right"
+    },
+    {
+      "criterion": "painful limitation of neck lateral flexion range to opposite side of affected muscle",
+      "label": "met",
+      "evidence": "pain worsened in intensity and became sharp in the morning"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "participants with pain pattern which is similar to pain of trigger point due to any other reason not related myofascial trigger points",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any trauma to cervical spine (whiplash injury) or any cervical spine surgery",
+      "label": "not_met",
+      "evidence": "temperature is within the normal limits with normal vital signs"
+    },
+    {
+      "criterion": "cervical myeloma, complex regional pain syndrome, thoracic outlet syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cervical radiculopathy",
+      "label": "not_met",
+      "evidence": "lab work is remarkable for leukocytosis"
+    }
+  ],
+  "notes": "The patient has abdominal pain due to a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04559906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

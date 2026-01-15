@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women eligible for IUD insertion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to give consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to lidocaine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to IUD use",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer stage 1B and tested positive for HPV 16, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

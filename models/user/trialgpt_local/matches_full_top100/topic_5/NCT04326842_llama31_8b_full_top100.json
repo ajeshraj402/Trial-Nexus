@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04326842",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of carotid artery stenosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age-gender-race-matched controls",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age <18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intraocular pressure (IOP) >21 mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "VA >logMAR 1.0",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "spherical equivalent (SE) between >1.00 or < -6.00 D",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other serious eye diseases which may affect OCTA results including diabetic retinopathy, hypertensive retinopathy, retinal vascular occlusion, age-related macular degeneration, and uveitis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "major intraocular surgery performed in the past 6 months or a history of laser photocoagulation or intravitreal injection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "glaucoma or first-degree relatives with a history of glaucoma; and any disease that might cause poor scan quality (image quality <6)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has carotid bruits, significant bilateral carotid stenosis, and patent right ACA and MCA. He denies chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04326842",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

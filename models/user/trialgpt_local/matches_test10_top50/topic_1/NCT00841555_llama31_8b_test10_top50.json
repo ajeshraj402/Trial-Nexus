@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT00841555",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "De novo glioblastoma multiforme, anaplastic astrocytoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Given written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate bone marrow reserve(hemoglobin > 10 grams, Absolute neutrophil count > 1500 / mm3, platelets > 100,000/ mm3)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal renal function(BUN < 24 mg/dL, Creatinine < 1.3 mg/dL)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal liver function(Total Bilirubin < 1.5 mg/dL, SGPT/ALT < 60 U/L)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a Karnofsky score of < 60 [Appendix B] or age < 18 years.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior chemotherapy and/or radiotherapy of their glioblastomamultiforme, anaplastic astrocytoma, anaplastic oligodendrogliomas, mixed anaplastic oligoastrocytomas, gliosarcoma.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumors located in the brainstem or optic chiasm.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior radiation therapy to the brain",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior chemotherapy within the past 6 weeks.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00841555",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

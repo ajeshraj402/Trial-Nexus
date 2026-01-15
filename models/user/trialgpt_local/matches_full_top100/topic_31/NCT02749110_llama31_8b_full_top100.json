@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02749110",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "The patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "pap-test reimbursement",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "reminder mailed by health insurance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent to participate",
+      "label": "met",
+      "evidence": "She was offered a radical hysterectomy"
+    },
+    {
+      "criterion": "health insurance warranty",
+      "label": "met",
+      "evidence": "She underwent tubal ligation"
+    },
+    {
+      "criterion": "ability to understand and answer questionnaire",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vaginal intercourse history",
+      "label": "not_met",
+      "evidence": "She has three sexual partners"
+    },
+    {
+      "criterion": "pap-test on another budget",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known cervical lesion or HPV status",
+      "label": "met",
+      "evidence": "The patient tested positive for HPV 16"
+    },
+    {
+      "criterion": "history of hysterectomy",
+      "label": "not_met",
+      "evidence": "She underwent tubal ligation"
+    },
+    {
+      "criterion": "history of conisation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of laser treatment of the cervix",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02749110",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

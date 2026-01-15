@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04715971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55yo"
+    },
+    {
+      "criterion": "urinary_catheter",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "admission_to_geriatric_unit",
+      "label": "met",
+      "evidence": "acute geriatric hospitalisation unit of the Leuven University Hospitals"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "indwelling_urinary_catheter",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ascites",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "dialysis",
+      "label": "met",
+      "evidence": "h/o ESRD on HD and peritoneal dialysis"
+    },
+    {
+      "criterion": "uro- or nephrostomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "terminally_ill",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "postoperative",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and was treated with an extended course of Vanco. She was also encouraged to take probiotics and bleach her home when discharged.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04715971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

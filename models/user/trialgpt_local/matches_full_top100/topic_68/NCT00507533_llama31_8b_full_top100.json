@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00507533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Neutropenic hematological patients",
+      "label": "met",
+      "evidence": "less than 1000 leukocytes /mm3"
+    },
+    {
+      "criterion": "SaO2 less than 95%",
+      "label": "met",
+      "evidence": "a.a."
+    },
+    {
+      "criterion": "Respiratory rate (RR) more than 25 breaths/minute",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "NYHA class II- III- IV or unstable angina or MI",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Valvular heart disease or cardiac surgery (previous 3 months)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Implanted cardiac pacemaker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "BMI less than 40",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of dilated cardiomyopathy or CPE",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe COPD (oxygen therapy, recent exacerbation, hypoxemic-hypercapnic to resting)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "FEV1 < 50 %",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00507533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

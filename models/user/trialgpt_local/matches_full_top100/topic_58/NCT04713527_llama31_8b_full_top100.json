@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04713527",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnostic laparoscopy with suspected acute appendicitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admitted by the Emergency Department (FAM)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at Odense University Hospital (OUH) or Svendborg",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gets a laparoscopic appendectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "speaks and understands Danish",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "courses that the generalizability to patients under 18 is not possible",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age under 18",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He was febrile with tenderness, rebound tenderness and guarding on palpation.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04713527",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

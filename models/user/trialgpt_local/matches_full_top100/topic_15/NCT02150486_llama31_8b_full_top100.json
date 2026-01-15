@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02150486",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 45 years of age with 1 or more major cardiovascular risk factors",
+      "label": "met",
+      "evidence": "history of coronary artery disease"
+    },
+    {
+      "criterion": "Congestive heart failure, peripheral artery disease (intermittent claudication)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetes mellitus type I or II, coronary artery disease (history of myocardial infarction, stable angina pectoris, history of ischemia or coronary artery disease on cardiac tests (electrocardiogram, scintigraphy, echocardiogram, coronary angiogram etc))",
+      "label": "met",
+      "evidence": "history of coronary artery disease"
+    },
+    {
+      "criterion": "Cerebrovascular accident, renal insufficiency (creatinine > 150umol/l), aortic valve stenosis (valve area < 1 cm2) OR 2 or more minor cardiovascular risk factors: Age > 70, hypertension, high cholesterol, low functional capacity (4 metabolic equivalents or less), transient ischemic attack, chronic obstructive pulmonary disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Undergoing abdominal surgery with an expected 30-day mortality rate > 2-3%: colorectal, gastric, pancreatic and liver surgery.",
+      "label": "met",
+      "evidence": "scheduled for pancreatic surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 45 years of age",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "not scheduled for higher risk abdominal surgery",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "low cardiovascular risk profile",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and is scheduled for pancreatic surgery, which is considered high-risk. However, the patient's age is less than 45 years old, which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02150486",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

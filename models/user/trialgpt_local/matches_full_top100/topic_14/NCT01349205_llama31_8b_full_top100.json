@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01349205",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with OSA and/or increased end tidal C02",
+      "label": "met",
+      "evidence": "sleep related hypoventilation"
+    },
+    {
+      "criterion": "2-12 years of age",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "gender"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children with compromised cardiovascular, pulmonary or renal function",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congenital syndromes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sickle cell disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of seizures",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Theophylline treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01349205",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

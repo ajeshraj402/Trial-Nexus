@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03005561",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "growth hormone deficiency",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "treated with growth hormone for at least two years",
+      "label": "not_met",
+      "evidence": "She is treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height."
+    },
+    {
+      "criterion": "patient and parent signing an inform consent in the mother tongue",
+      "label": "met",
+      "evidence": "The patient and parent signing an inform consent in the mother tongue."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients receiving growth hormone for other reasons",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "children who began signs of puberty (Tanner 2 or higher)",
+      "label": "met",
+      "evidence": "Her breast bulb were in stage 1 with no course hair in the pubic or axillary."
+    },
+    {
+      "criterion": "patients who completed growth, closed epiphysis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treated with GH for 6 months. She has short stature and delayed puberty.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT03005561",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03667157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "euthyroidism",
+      "label": "met",
+      "evidence": "A wellbeing, well-nourished man, non-icteric"
+    },
+    {
+      "criterion": "active, moderate-to-severe Graves' orbitopathy or dysthyroid orbit neuropathy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alanine aminotransferase and/or aspartate aminotransferase >2x upper limit of normal",
+      "label": "not_met",
+      "evidence": "AST: 40 U/L"
+    },
+    {
+      "criterion": "active viral hepatitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "present or past medical history of autoimmune hepatitis",
+      "label": "not_met",
+      "evidence": "There is a documented positive serum MPO-ANCA in his medical record."
+    },
+    {
+      "criterion": "previous glucocorticoids therapy within the last 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol abuse",
+      "label": "not_met",
+      "evidence": "A wellbeing, well-nourished man"
+    },
+    {
+      "criterion": "active inflammation",
+      "label": "met",
+      "evidence": "His Birmingham Vasculitis Activity Score (BVAS) is above 4 since the beginning of his disease."
+    },
+    {
+      "criterion": "active neoplastic disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has active vasculitis and is being treated with corticosteroid and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03667157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

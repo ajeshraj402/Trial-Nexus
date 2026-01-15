@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01868373",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis of CDI",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "treated for 10-14 days with recommended doses of metronidazole or vancomycin",
+      "label": "met",
+      "evidence": "lab study is as bellow: Sodium 137 meq/L, Potassium 2 meq/L"
+    },
+    {
+      "criterion": "failed to respond, or has responded and relapsed within 4 weeks of the end of treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prednisone >10 mg/day (or its equivalent)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "decompensated liver cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has confirmed diagnosis of CDI, treated with metronidazole, and has relapsed. However, patient's overall health is good and they are likely eligible for the study.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01868373",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

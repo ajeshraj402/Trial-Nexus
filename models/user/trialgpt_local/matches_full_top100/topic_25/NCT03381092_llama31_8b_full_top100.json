@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03381092",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Invasive breast cancer diagnosed with core needle biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Staging cT1b-2N0M0",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ER/PR positive cells ratio <10%, or HER2 positive (according to ASCO-CAP guidelines),and with chemotherapy indications",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Without chemotherapy contraindications, and planned or has started neoadjuvant chemotherapy (HER2 positive breast cancer neoadjuvant anti-HER2 treatment, or have adjuvant anti-HER2 treatment plan)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "With axillary sentinel lymph node biopsy indications confirmed prior to neoadjuvant therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Voluntarily join the study and sign an informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of malignant tumors",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "With chemotherapy contraindications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recieved any form of surgery of primary tumor or axillary lymph nodes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Refuse neoadjuvant chemotherapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse assessment examinations",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse to join the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has invasive breast cancer diagnosed with core needle biopsy, staging cT1b-2N0M0, and ER/PR positive cells ratio <10% or HER2 positive. She is planned to receive neoadjuvant chemotherapy.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03381092",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

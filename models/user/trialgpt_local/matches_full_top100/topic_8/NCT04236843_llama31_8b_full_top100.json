@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04236843",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Rome IV criteria for the diagnosis of IBS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "investigated to exclude other gastrointestinal organic cause(s)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Moderate-to-severe IBS symptoms, as indicated by a score of \u2265175 on the IBS Severity Scoring System (IBS-SSS)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The use of antibiotics or probiotics within 1 month prior to FMT",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immunocompromised patients defined as those treated by immune-suppressive medications",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with co-morbidity such as kidney failure or chronic heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "System disease such as diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with serious psychiatric disorders or drug abuse",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, which may be a contraindication for treatment.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04236843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

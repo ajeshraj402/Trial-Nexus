@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04100811",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "50-80 years"
+    },
+    {
+      "criterion": "prostate_core_needle_biopsy",
+      "label": "met",
+      "evidence": "core needle biopsy performed"
+    },
+    {
+      "criterion": "urine_sample",
+      "label": "met",
+      "evidence": "urine sample provided prior to biopsy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior_invasive_treatment_bph",
+      "label": "does_not_trigger",
+      "evidence": "no history of invasive treatment for BPH within 3-6 months"
+    },
+    {
+      "criterion": "urinary_tract_infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms, including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. Further evaluation revealed IPSS score : 15, Post-void residual: 70 mL, Prostate volume (TRUS): 60 mL, Prostate-specific antigen (PSA) level: 3.2 ng/mL.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT04100811",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

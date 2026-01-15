@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00590434",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "Colonoscopy after 1997",
+      "label": "met",
+      "evidence": "Further review of systems is notable for absence of chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope."
+    },
+    {
+      "criterion": "Average risk screening for CRC",
+      "label": "met",
+      "evidence": "Further review of systems is notable for absence of chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope."
+    },
+    {
+      "criterion": "Surveillance of polyps (tubular adenomas)",
+      "label": "met",
+      "evidence": "Colon polyps s/p resection"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptoms for colonoscopy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not average risk based on family history of CRC",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis of ulcerative colitis or Crohn's Disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of CRC",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00590434",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

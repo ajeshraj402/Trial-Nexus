@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01575249",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "mild to moderate AS (Table 1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate AS (Table 2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mild, moderate and severe AS (Table 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate to severe AS (Table 4)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "positive stress test",
+      "label": "triggers"
+    },
+    {
+      "criterion": "heart failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "LVEF < 55%",
+      "label": "triggers"
+    },
+    {
+      "criterion": "moderate/severe aortic or mitral regurgitation or mitral stenosis",
+      "label": "triggers"
+    }
+  ],
+  "notes": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse who presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01575249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00522665",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological or cytological proof of colon or rectal adenocarcinoma",
+      "label": "met",
+      "evidence": "positive sputum culture for Mycobacterium tuberculosis"
+    },
+    {
+      "criterion": "Measurable site of disease according to RECIST that has not been previously irradiated",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Must have metastatic colorectal cancer which progressed after first line chemotherapy",
+      "label": "met",
+      "evidence": "positive sputum culture for Mycobacterium tuberculosis"
+    },
+    {
+      "criterion": "+/- bevacizumab",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood sample collected within 21 days prior to being registered for protocol therapy",
+      "label": "met",
+      "evidence": "lab study is reported bellow"
+    },
+    {
+      "criterion": "for UTG1A1 genotype analysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age \u2265 18 years at the time of consent",
+      "label": "met",
+      "evidence": "Patient A is a 30-year-old male"
+    },
+    {
+      "criterion": "Written informed consent and HIPAA authorization for release of personal health information",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females of childbearing potential must have a negative pregnancy test within 7 days of being registered for protocol therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No more than one prior chemotherapy regimen for metastatic colorectal cancer, at least 28 days prior to being registered for protocol therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No prior treatment with cetuximab",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No prior treatment with an mTOR inhibitor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No known hypersensitivity to cetuximab, RAD001 (everolimus), other rapamycins (sirolimus, temsirolimus) or to its excipients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No treatment with any investigational agent within 28 days prior to being registered for protocol therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No symptomatic brain metastasis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A has a history of TB and is currently experiencing symptoms consistent with TB. He has not received any prior treatment for colorectal cancer, but has been treated for TB in the past.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00522665",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03784651",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postmenopausal",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "breast cancer stage I-III",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior malignancy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metabolic disease (diabetes mellitus etc)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03784651",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

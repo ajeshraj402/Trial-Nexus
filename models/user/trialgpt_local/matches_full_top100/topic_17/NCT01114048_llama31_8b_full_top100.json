@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01114048",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed MM",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aged between 18 and 65 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "With following measurable lesions (serum M-protein \u2265 1 g/dL or urine M-protein \u2265 400 mg/day, or free light chain \u2265 100 mg/L)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Smoldering or indolent myeloma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status > 3 point",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known hypersensitivity to cyclophosphamide, thalidomide or dexamethasone",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Peripheral neuropathy or neuropathic pain Grade 2 or higher as defined by NCI CTCAE version 3",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Uncontrolled or severe cardiovascular disease, including MI within 6 months of enrolment, NYHA Class III or IV heart failure, uncontrolled angina, clinically significant pericardial disease, or cardiac amyloidosis, cardiac ejection fraction <0.5",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe conduction disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypotension (sitting systolic BP \u2264 100 mmHg and/or sitting diastolic BP \u2264 60 mmHg)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Impaired hepatic function (AST or ALT \u2265 x 3 upper normal, T-bilirubin \u2265 x 2 upper normal)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and has been treated with various regimens, including melphalan, prednisone, VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01114048",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

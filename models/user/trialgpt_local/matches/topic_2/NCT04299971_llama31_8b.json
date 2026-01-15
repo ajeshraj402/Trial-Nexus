@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04299971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age\u226514 years;",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "active status: Kerr score\u2265 2;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Blood pressure (maximum) < 180/110mmHg;",
+      "label": "met",
+      "evidence": "HTN hyperlipidemia, but no recent BP mentioned"
+    },
+    {
+      "criterion": "1-2 branches with the stenotic rate < 70% involved;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mildly ischemic manifestation relative to activity but relieve after rest;",
+      "label": "met",
+      "evidence": "SOB and LE edema, relieved with rest"
+    },
+    {
+      "criterion": "no or low degree of organ insufficiency: NYHF I~II; eGFR (MRDR) \u2265 60ml/min;",
+      "label": "unknown",
+      "evidence": "EF was 25%, but no NYHF classification mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe organ insufficiency;",
+      "label": "triggers",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Acute or chronic active infections including tuberculosis, hepatitis virus, etc.;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Kerr score and NYHF classification are unknown. EF is low, but no severe organ insufficiency explicitly mentioned.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04299971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04253899",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "all ages"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "contrast CT scan of acute perforated appendicitis"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "signed by the patient or his/her parents"
+    },
+    {
+      "criterion": "phlegmon",
+      "label": "met",
+      "evidence": "initial presentation of a phlegmon (abscess in evolution)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-perforated appendicitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "perforation at surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "septic shock",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous appendectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignancy treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immunocompromised patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "positive pregnancy test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no consent for the study",
+      "label": "not_met",
+      "evidence": "signed by the patient or his/her parents"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, febrile with tenderness, rebound tenderness and guarding on palpation. CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04253899",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00145938",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Candidates for enrollment in this clinical trial are limited to adult patients diagnosed with severe portopulmonary hypertension (PTPH). Specifically, other causes of pulmonary hypertension (PH) such as left ventricular dysfunction, valvular heart disease, chronic lung disease, chronic thromboembolic disease, chronic hypoxemia, rheumatologic conditions, and significant untreated obstructive sleep apnea will be excluded in the usual fashion in patients with underlying portal hypertension and usually cirrhosis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The diagnosis of pulmonary hypertension will be confirmed by invasive hemodynamic measurements (i.e. right heart catheterization) and severe PH is defined as a mean pulmonary artery pressure (MPAP) >35 mmHg.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Study participants will be selected from those patients referred for hemodynamic assessment of pulmonary hypertension, such as potential liver transplant recipients.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "They must be capable of giving informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with pulmonary arterial hypertension, but not portopulmonary hypertension will be excluded.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients will be excluded from consideration if they do not have severe PTPH, if invasive hemodynamic assessment is contraindicated, or if there are any contraindications to sildenafil.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with unstable coronary syndromes or otherwise significant unrevascularized coronary artery disease and myocardial ischemia as determined by cardiac stress testing and/or coronary angiography will also be excluded.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe portopulmonary hypertension, meets inclusion criteria. Exclusion criteria include pulmonary arterial hypertension, lack of severe PTPH, contraindications to sildenafil.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00145938",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

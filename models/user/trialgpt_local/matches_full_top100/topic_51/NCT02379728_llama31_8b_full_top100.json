@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25-year-old"
+    },
+    {
+      "criterion": "pregnancy_risk",
+      "label": "met",
+      "evidence": "low-risk singleton pregnancy"
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "met",
+      "evidence": "24W3D gestational old"
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language_fluency",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

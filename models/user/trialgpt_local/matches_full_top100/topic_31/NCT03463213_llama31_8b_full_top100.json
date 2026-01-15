@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03463213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "The patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "representative of underserved community",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "gender",
+      "label": "not_met",
+      "evidence": "The patient is a 37-year-old woman"
+    }
+  ],
+  "notes": "Patient has cervical cancer and smokes heavily, but meets age and gender criteria.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03463213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

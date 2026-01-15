@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00254592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must be women with a histologically confirmed diagnosis of breast cancer that is more than 2 cm and/or lymph node positive.",
+      "label": "met",
+      "evidence": "histologic confirmation by core needle biopsy"
+    },
+    {
+      "criterion": "Selected Stage IIB (T3, N0, M0) or IIIA (T3, N1-2, M0) disease judged primarily unresectable by an experienced breast surgeon.",
+      "label": "met",
+      "evidence": "judged primarily unresectable"
+    },
+    {
+      "criterion": "Stage IIIB (T4, Any N, M0) or (Any T, N3, M0) disease.",
+      "label": "met",
+      "evidence": "stage IIIB or IIIA disease"
+    },
+    {
+      "criterion": "Physical examination, chest x-ray and any x-rays or scans needed for tumor assessment must be performed within 90 days prior to registration.",
+      "label": "met",
+      "evidence": "physical examination and imaging studies within 90 days"
+    },
+    {
+      "criterion": "All patients must have a multiple gated acquisition (MUGA) scan or echocardiogram scan performed within 90 days prior to registration and left ventricular ejection fraction (LVEF) percentage must be greater than the institutional lower limit of normal.",
+      "label": "met",
+      "evidence": "MUGA scan or echocardiogram with LVEF > institutional lower limit"
+    },
+    {
+      "criterion": "Patients must have a serum creatinine and bilirubin \u2264 the institutional upper limit of normal, and an serum glutamate oxaloacetate transaminase (SGOT) or serum glutamate pyruvate transaminase (SGPT) \u2264 2x the institutional upper limit of normal. These tests must have been performed within 90 days prior to registration.",
+      "label": "met",
+      "evidence": "normal liver and kidney function"
+    },
+    {
+      "criterion": "Patients must have an absolute neutrophil count (ANC) of \u2265 1,500/\u03bcl and a platelet count of \u2265 100,000/\u03bcl. These tests must have been performed within 90 days prior to registration.",
+      "label": "met",
+      "evidence": "normal ANC and platelet count"
+    },
+    {
+      "criterion": "Patients must have a performance status of 0-2 by Zubrod criteria",
+      "label": "met",
+      "evidence": "performance status 0-2"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with the clinical diagnosis of congestive heart failure or angina pectoris are NOT eligible.",
+      "label": "triggers",
+      "evidence": "clinical diagnosis of congestive heart failure or angina pectoris"
+    },
+    {
+      "criterion": "Pregnant or nursing women may not participate due to the possibility of fetal harm or of harm to nursing infants from this treatment regimen.",
+      "label": "triggers",
+      "evidence": "pregnant or nursing"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with histologically confirmed breast cancer, stage IIIB. She has normal liver and kidney function, ANC of \u2265 1,500/\u03bcl, platelet count of \u2265 100,000/\u03bcl, and performance status 0-2 by Zubrod criteria.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00254592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

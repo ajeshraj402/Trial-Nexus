@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00050193",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age birth to 21.0 years of age at the time of entry into the protocol",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of mastocytosis by skin examination or histologic evidence in a skin or bone marrow biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has a primary medical care provider outside the NIH",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject or parent or guardian is able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A biological relative with or without the diagnosis of mastocytosis by skin examination or histologic evidence in a skin or bone marrow biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age greater than or equal to 21.0 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No primary care physician",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 53-year-old man with Paget's disease of bone, which makes them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00050193",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

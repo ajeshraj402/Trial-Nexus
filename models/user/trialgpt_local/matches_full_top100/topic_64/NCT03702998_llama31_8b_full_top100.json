@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03702998",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Positive HIV antibody",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least one visit in one of the HIV clinics",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects with positive HBsAg and/or anti-HBc will be regarded as having HBV co-infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "co-infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects with positive HCV antibody will be regarded as having HCV co-infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented diagnosis of hepatitis B or hepatitis C infection, or",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive HBsAg and/or anti-HBc, or",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive HCV antibody, and",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative HIV antibody result, or no record of HIV diagnosis or anti-retroviral therapy prescription",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HBV/HCV mono-infected individuals",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and HBV co-infection, but no evidence of HIV infection or treatment.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03702998",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

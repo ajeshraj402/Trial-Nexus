@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01110447",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed as having cirrhosis of liver at the Inpatient/Outpatient Liver Clinic of Department of Hepatology, PGIMER, Chandigarh",
+      "label": "met",
+      "evidence": "clinical, biochemical, and ultrasonographical or liver histological data"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Alcohol intake during the past 6 weeks",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Previous transjugular intrahepatic portosystemic shunt or shunt surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Significant comorbid illness such as heart, respiratory, or renal failure",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Any neurologic diseases such as Alzheimer's disease, Parkinson's disease, and nonhepatic metabolic encephalopathies.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients on psychoactive drugs, such as antidepressants or sedatives",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation and history of treatment response. However, he also has a rising white count and mildly elevated LDH.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01110447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

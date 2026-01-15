@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04565873",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous_health",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid_disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment and recent thyroid profile is mostly within normal range.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04565873",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

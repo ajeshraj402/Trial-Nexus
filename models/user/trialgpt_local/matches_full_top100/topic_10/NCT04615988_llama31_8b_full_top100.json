@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04615988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Malignancy",
+      "label": "met",
+      "evidence": "treatment plan"
+    },
+    {
+      "criterion": "PD-L1",
+      "label": "met",
+      "evidence": "treatment plan"
+    },
+    {
+      "criterion": "Willingness to complete symptom questionnaires",
+      "label": "met",
+      "evidence": "patient's willingness"
+    },
+    {
+      "criterion": "Willingness to allow blood draws",
+      "label": "met",
+      "evidence": "patient's willingness"
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "patient's ability"
+    },
+    {
+      "criterion": "Age > 18 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of clinical or subclinical hyperthyroidism or hypothyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin < 9",
+      "label": "not_met",
+      "evidence": "CBC was at her baseline"
+    },
+    {
+      "criterion": "Inability to come for all study visits.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Actively on vitamin D supplementation due to vitamin D deficiency",
+      "label": "met",
+      "evidence": "patient is taking multivitamin"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or lactation"
+    },
+    {
+      "criterion": "History of hypophysitis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is otherwise healthy and responded well to treatment.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04615988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

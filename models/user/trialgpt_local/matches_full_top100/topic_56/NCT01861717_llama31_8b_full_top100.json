@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01861717",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "elevated serum IGF-1 level above age- and sex-based normal values",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "growth hormone(GH) suppression to < 1.0 ng/ml after a 75 gm oral glucose tolerance test (OGTT)",
+      "label": "not_met",
+      "evidence": "random GH level is 4 ug/L"
+    },
+    {
+      "criterion": "visible pituitary adenoma on high quality pituitary MRI without and with gadolinium",
+      "label": "met",
+      "evidence": "recent brain MRI confirmed the residual pituitary tumor"
+    },
+    {
+      "criterion": "prior treatments for acromegaly with surgery, somatostatin analogs or pegvisomant are acceptable if these therapies have been discontinued for at least 3 months prior to study entry",
+      "label": "met",
+      "evidence": "After his surgery he takes only vitamin D and multivitamins"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 or > 75 years",
+      "label": "not_met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "acromegalic patients currently on a lanreotide or octreotide preparation or on pegvisomant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who have received prior radiotherapy or radiosurgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with adenoma-related visual acuity or visual field deficit from optic nerve and/or chiasm compression or severe optic nerve/chiasm compression in the setting of normal visual fields and acuity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with pituitary apoplexy defined as recent tumor hemorrhage and/or infarction on MRI with associated symptoms of new onset visual loss, diplopia and/or adrenal insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient underwent transsphenoidal surgery 4 months ago for acromegaly due to pituitary adenoma.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01861717",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

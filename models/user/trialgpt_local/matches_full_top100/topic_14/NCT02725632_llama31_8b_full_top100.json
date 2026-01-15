@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02725632",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "New diagnosis of OSA by polysomnogram",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Agree with CPAP treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not able to give informed consent due to psychological incapacity",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic use of hypnotics for more than 6 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current drug or alcohol addiction",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02725632",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

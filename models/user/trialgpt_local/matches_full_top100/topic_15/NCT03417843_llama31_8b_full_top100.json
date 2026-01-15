@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03417843",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "signed_informed_consent_letter",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ipmn_pancreas_cystic_tumor_diameter_greater_than_30_mm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "tissue_component_within_the_cystic_lesion",
+      "label": "met",
+      "evidence": "The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas."
+    },
+    {
+      "criterion": "atypical_cells_in_cytology",
+      "label": "met",
+      "evidence": "The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas."
+    },
+    {
+      "criterion": "symptomatic_patient",
+      "label": "met",
+      "evidence": "It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing."
+    },
+    {
+      "criterion": "low_anesthetic_risk",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "women_not_pregnant_during_recruitment",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "invasive_tumor_development_within_the_lesion",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_coagulation_disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet_counts_less_than_75000",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anticoagulants_that_cannot_be_stopped_temporarily",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pacemakers",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dilatation_pages",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hight_anesthetic_risk",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic flecture/pancreatic tail mass likely diverticular abscess given the patients recent history of diverticulitis.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03417843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

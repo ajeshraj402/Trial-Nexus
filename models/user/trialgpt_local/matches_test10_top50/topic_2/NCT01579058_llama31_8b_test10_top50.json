@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01579058",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mild to moderate aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Untreated hypertension",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients received no beta-blocker therapy for more than 12 months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptomatic aortic stenosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Planned cardiac surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stroke or resuscitated sudden death in the past 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, but no symptoms of exertional dyspnea, angina or syncope. No planned cardiac surgery.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01579058",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

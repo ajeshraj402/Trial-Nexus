@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01348451",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Have the ability to understand the requirements of the study, provide written informed consent...",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man who can likely understand the requirements of the study and provide written informed consent."
+    },
+    {
+      "criterion": "Subjects with sporadic or familial ALS diagnosed as laboratory-supported probable, probable or definite according to the World Federation of Neurology El Escorial Criteria (Appendix A), based on examination by the site PI.",
+      "label": "unknown",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention, but it is unclear if they meet the criteria for ALS according to the World Federation of Neurology El Escorial Criteria."
+    },
+    {
+      "criterion": "Age 18 years or older.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, which meets this criterion."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Etiology of paraplegia or weakness is due to causes other than ALS such as spinal ischemia, traumatic spinal injury, traumatic brain injury, multiple sclerosis, cerebral stroke, cerebral palsy, or infection.",
+      "label": "does_not_trigger",
+      "evidence": "Patient's etiology of paraplegia or weakness is likely due to anaplastic astrocytoma, not one of the excluded causes."
+    },
+    {
+      "criterion": "VC < 60% predicted normal by standard nomogram at the time of screening and VC < 50% predicted normal measured supine for age at the time of surgery.",
+      "label": "unknown",
+      "evidence": "Patient's lung function is not mentioned in the text, so it is unclear if they meet this criterion."
+    },
+    {
+      "criterion": "Current or peak Panel Reactive Antibody (PRA) due to alloantibodies > 20% receiving their first allograft.",
+      "label": "unknown",
+      "evidence": "Patient's PRA status is not mentioned in the text, so it is unclear if they meet this criterion."
+    }
+  ],
+  "notes": "Key unknowns include whether patient meets ALS criteria according to World Federation of Neurology El Escorial Criteria and their lung function at time of screening. Additionally, patient's PRA status is unknown.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01348451",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04517773",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All types of cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimum18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients treated on the Paoli-Calmettes Institute",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-objection of the patient following the information provided",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to Read and understand",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "French Speaker",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Affiliation to a social security scheme, or beneficiary of such a scheme",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cognitive disorders ",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients at the end of their life.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Person in an emergency situation, or unable to express a non-opposition.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04517773",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

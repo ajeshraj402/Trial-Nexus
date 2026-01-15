@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01701050",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women who are 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have estrogen receptor (ER) positive, HER2 negative metastatic breast cancer (MBC) with at least one non-irradiated distant site of metastasis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status of 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have currently progressive metastatic disease according to RECIST v1.1 criteria, AND They have progressed on at least one previous line of endocrine therapy (ET) for their metastatic disease (but are not currently progressing on fulvestrant), OR; They show evidence of disease progression during or within 12 months of the end of adjuvant ET.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is about to start a new line of ET for their metastatic disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient agrees to the collection and testing of their blood and is willing and able to provide approximately 40mL blood draw(s) at: Baseline (prior to the initiation of new ET), and; Subsequently at 1, 2, 3 and 12 months after the initiation of therapy, and/or; Time of disease progression.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is willing and able to undergo standard of care imaging studies (same imaging/staging modality being used at each evaluation), which are anticipated to be performed prior to the initiation of therapy and subsequently every 3 months.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant. The tumor is HER2-positive and ER/PR negative.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Axillary sampling revealed 5 positive lymph nodes.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CXR was remarkable for metastatic lesions.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient is using multivitamins and iron supplements. She does not smoke or consume alcohol. She is not sexually active and has no children.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with local regional recurrence only or brain only metastasis.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who are progressing on current fulvestrant therapy (patients who have had fulvestrant therapy in the past and were subsequently treated with other therapies or those who are starting fulvestrant as their next line of ET are eligible for the study).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who are or will be taking other unapproved (i.e. not cleared/approved by the FDA) anti-neoplastic therapies concurrently are not eligible (exception: ET with everolimus is acceptable).",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has metastatic breast cancer and is about to start a new line of endocrine therapy. She meets most inclusion criteria but will be taking fulvestrant, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01701050",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

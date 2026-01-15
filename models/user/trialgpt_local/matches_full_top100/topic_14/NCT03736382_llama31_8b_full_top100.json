@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03736382",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Body mass index < 40 kg/m^2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18 to 60 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Newly diagnosed sleep apnea (i.e. apnea/hypopnea index < 100 events per hour - average)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosed with prehypertension or Stage 1 hypertension as categorized by the American Heart Association",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal lung function",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Minimal alcohol consumption (i.e. no more than the equivalent of a glass of wine/day)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A typical sleep/wake schedule (i.e. participants will not be night shift workers or have recently travelled across time zones)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "For spinal cord injured participants: incomplete spinal cord lesions at C3 or below and above T12 (greater than 36 mos. post-SCI) without joint contractures but with signs of voluntary ankle, knee and hip movements and the ability to ambulate at least one step without human assistance",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "70 y/o with COPD on 2.5-3.5L O2 at baseline",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "OSA and obesity hypoventilation syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "dCHF",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any disease other than high blood pressure and sleep apnea",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medications for high blood pressure and sleep promoting supplements including melatonin",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple comorbidities, but meets some inclusion criteria. Exclusion criterion of any disease other than high blood pressure and sleep apnea is a concern.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03736382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

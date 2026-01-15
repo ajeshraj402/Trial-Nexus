@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04572867",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "standard of care therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "CHF refractory to oral diuretic",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "volume overload secondary to systolic or diastolic HF",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "elevated BNP (>100)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "paroxysmal nocturnal dyspnea or orthopnea",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "elevated jugular venous distention (>/ 7 cm)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "X-ray findings consisted with CHF",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of ascites or LE edema",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute Coronary Syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypertensive urgency or emergency",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rapid atrial fibrillation difficult to control",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to anticoagulation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Requires hemodialysis (> CR > 3.0 mg/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptomatic hypotension",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Poor venous access",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04572867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

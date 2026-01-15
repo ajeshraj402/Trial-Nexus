@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00509197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "asthma_diagnosis",
+      "label": "met",
+      "evidence": "history of asthma for 3 years"
+    },
+    {
+      "criterion": "pc20_methacholine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline_fev1",
+      "label": "met",
+      "evidence": "FEV1 of 63% of the predicted"
+    },
+    {
+      "criterion": "asthma_control",
+      "label": "not_met",
+      "evidence": "awakenings due to asthmatic symptoms at least once a week"
+    },
+    {
+      "criterion": "acq_score",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "sputum_eosinophils",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "doesn't smoke or use illicit drugs"
+    },
+    {
+      "criterion": "asthma_medication",
+      "label": "not_met",
+      "evidence": "uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hospitalization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cold_or_flu_symptoms",
+      "label": "not_met",
+      "evidence": "no recent symptoms of a cold or flu"
+    },
+    {
+      "criterion": "near_fatal_asthma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inhaled_corticosteroids",
+      "label": "met",
+      "evidence": "uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is not optimally controlled with short-acting beta agonists. He uses inhaled corticosteroids but this does not exclude him from the study.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00509197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

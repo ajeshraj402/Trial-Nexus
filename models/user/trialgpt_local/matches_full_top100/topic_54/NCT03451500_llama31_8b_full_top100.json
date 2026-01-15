@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03451500",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "Willingness to maintain AREDS vitamin supplements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed Informed Consent",
+      "label": "met",
+      "evidence": "signed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous or current use of L-DOPA containing medication",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Concurrent use of monoamine oxidase (MAO) inhibitors",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "BCVA worse than 20/100 in the eye with better BCVA",
+      "label": "not_met",
+      "evidence": "BCVA not mentioned"
+    },
+    {
+      "criterion": "Current, or history of, neovascular AMD in either eye",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neurologic conditions which can impair vision",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Parkinson's Disease",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Significant orthostatic hypotension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate (eGFR) <20 ml/min",
+      "label": "not_met",
+      "evidence": "eGFR not mentioned"
+    }
+  ],
+  "notes": "Patient has Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03451500",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

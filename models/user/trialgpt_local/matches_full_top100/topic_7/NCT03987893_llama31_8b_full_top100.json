@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03987893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with ACLF with presence of hepatic encephalopathy > grade 2 as per WHC",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or those who are suspected to be having acute fatty liver of pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Malarial hepatopathy, enteric hepatitis, or ischemic hepatitis.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Na <125 mEq/litre",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastrointestinal (GI) obstruction, ileus, or gastric retention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bowel perforation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Toxic colitis or toxic megacolon",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Structural brain lesions (as indicated by computed tomography imaging if available and confirmed by neurological exam)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other causes of altered mental status (i.e. not meeting the definition of hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled infection with hemodynamic instability requiring vasopressors.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. He also describes new imbalance leading to a fall.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03987893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

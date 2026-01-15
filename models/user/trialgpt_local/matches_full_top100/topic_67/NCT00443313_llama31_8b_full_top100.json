@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00443313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "26-65"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "overt cancerous lesion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "mental competence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "refusal to participate",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "54"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "she is menopausal and uses no contraception"
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "overt cancerous lesion",
+      "label": "not_met",
+      "evidence": "A Pap smear in a 54-year-old woman revealed abnormal cervical squamous intraepithelial/glandular lesion"
+    },
+    {
+      "criterion": "language",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "mental competence",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "She tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00443313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

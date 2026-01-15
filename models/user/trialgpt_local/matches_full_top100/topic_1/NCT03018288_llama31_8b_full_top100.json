@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03018288",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "MRI findings consistent with a suspected GBM or a histologically confirmed newly diagnosed GBM that has not been treated and would benefit from further surgical resection.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years on day of signing informed consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Karnofsky performance status greater than or equal to 70%.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known history of immunodeficiency (HIV).",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of another malignancy in the previous 3 years, with a disease-free interval of < 3 years.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has anaplastic astrocytoma and is not eligible due to known history of immunodeficiency (HIV).",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03018288",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

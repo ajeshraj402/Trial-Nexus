@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00244582",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 Gaucher disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acromegaly due to pituitary adenoma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unhealthy enough to undergo surgery or general anesthesia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncorrectable bleeding disorder",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to undergo magnetic resonance (MR)-imaging",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma and underwent transsphenoidal surgery. He takes only vitamin D and multivitamins after the surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00244582",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

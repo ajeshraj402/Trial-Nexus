@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04385589",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diabetic patient type 2 with history of chronic heart failure(HFrEF)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age more than 18 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Admission for acute decompensated heart failure",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "an oral loop diuretic for at least 1 month before admission",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other etiologies of fluid overload different from heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyponatremia: Sodium level below 125mmol/l",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unstable patients: acute coronary syndrome, cardiogenic shock ",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients requiring inotropic agents or renal dialysis.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy. He is being treated with ACE inhibitors, Beta blockers, and Insulin.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04385589",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

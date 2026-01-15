@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03661398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe mitral regurgitation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) Class II, III, IVa or heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Excessive calcification or thickening of mitral valve annulus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe mitral stenosis, fused commissures, valvular vegetation or mass",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral regurgitation and is symptomatic. However, there are no clear exclusion criteria mentioned in the patient text.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03661398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04528342",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of acute asthma exacerbations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 2 years and < 16 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic lung diseases other than asthma (cystic fibrosis, bronchopulmonary Dysplasia)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congenital heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04528342",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

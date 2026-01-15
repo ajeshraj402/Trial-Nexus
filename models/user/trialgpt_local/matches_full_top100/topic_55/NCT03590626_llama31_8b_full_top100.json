@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03590626",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "A man or woman, 20 years of age or above with the diagnosis of type 2 diabetes for at least 3 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On standard anti-diabetic agents (metformin, DPP-4 inhibitors, sulphonylureas or insulin, in any combination) with an HbA1c of \u2264 7.0% and \u226510.0%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have documented hepatic steatosis (MRI-PDFF >6%) on screening MRI-PDFF",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of diabetic ketoacidosis, type 1 diabetes, pancreas or beta-cell transplantation, or diabetes secondary to pancreatitis or pancreatectomy.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Thyroid stimulating hormone (TSH) value that is either < 0.45 mIU/L or >10 mIU/L at Screening.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which may be a contraindication for the study. However, the inclusion criteria are not fully met due to the HbA1c levels and hepatic steatosis status.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03590626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

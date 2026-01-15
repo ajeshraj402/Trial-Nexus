@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04749693",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HbA1c",
+      "label": "not_met",
+      "evidence": "HbA1c: 98 mg/dl"
+    },
+    {
+      "criterion": "glucose self-monitoring",
+      "label": "met",
+      "evidence": "performing glucose self-monitoring several times ( \u2265 4) a day"
+    },
+    {
+      "criterion": "social security affiliation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acceptance of treatment",
+      "label": "met",
+      "evidence": "accepting to be treated with 100 U/mL rapid-acting insulin analog"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "insulin dose",
+      "label": "not_met",
+      "evidence": "total daily dose required must be less than 90 units (U)"
+    },
+    {
+      "criterion": "serious illness or treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing and/or visual acuity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to understand and perform instructions",
+      "label": "met",
+      "evidence": "She doesn't smoke or use any drugs"
+    },
+    {
+      "criterion": "MRI, CT scan, or diathermy treatment",
+      "label": "not_met",
+      "evidence": "She likes to try diets and exercise to lose weight"
+    }
+  ],
+  "notes": "Patient is an obese woman with sleep apnea, PCO, and dissatisfaction with her body shape. She has a history of high blood pressure and heart rate.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT04749693",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

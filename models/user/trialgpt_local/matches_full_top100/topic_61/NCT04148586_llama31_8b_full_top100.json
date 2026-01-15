@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04148586",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Tis, pT1-2, pN0-1, M0 disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Invasive carcinoma of the breast or ductal carcinoma insitu [DCIS]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CBS (reconstruction is not allowed)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative surgical margin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Axillary staging &/or dissection",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pT3-4, pN2-3 breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inadequate axillary lymph node dissection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04148586",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

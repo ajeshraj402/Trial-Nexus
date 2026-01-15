@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00879190",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "study staff member will describe the study and offer participation",
+      "label": "met"
+    },
+    {
+      "criterion": "patient agrees to participate, signs research protocol and HIPAA consent forms",
+      "label": "met"
+    },
+    {
+      "criterion": "patient's chart is flagged indicating she is a study participant",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or adverse reaction to penicillin or ampicillin, gentamicin, or sulbactam",
+      "label": "unknown"
+    },
+    {
+      "criterion": "having received antibiotics for the treatment of preterm premature rupture of membranes or other condition within the last 7 days",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH. She has short stature, delayed puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00879190",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

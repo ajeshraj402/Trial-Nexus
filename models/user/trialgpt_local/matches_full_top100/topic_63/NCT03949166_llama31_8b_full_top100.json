@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03949166",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnancy at 37 weeks or more",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "After an epidural anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preterm delivery before 37 weeks of pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known anomalies or chromosomal abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient at increased risk for aspiration based on anesthesiologist assesment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A patient post epidural anesthesia with pain indicating the need for a new epidural insertion",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "54-year-old obese woman admitted to emergency department with abdominal pain, nausea and vomiting. Ultrasound revealed several gallstones, biliary sludge and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT03949166",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04423055",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Women 18 years and older currently using COCs or who have a COC prescription",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intending to initiate COCs for contraception",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to using a COC or a contraceptive implant (Category 3 or 4 in the CDC Medical Eligibility Criteria [MEC])",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently participating in a clinical trial or have participated within the past 30 days",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than 2 weeks from the end of a pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is considering a laparoscopic gastric bypass, which may be relevant to her eligibility for the trial.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT04423055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

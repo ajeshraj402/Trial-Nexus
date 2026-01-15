@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01043913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of Breast Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing Chemotherapy (First Cycle)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypothyroidism",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical Depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Chemotherapy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anemia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to sign informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe Fatigue",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "16-year-old girl with Hashimoto disease, complaining of weight gain and abnormal menstrual cycles.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT01043913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT00504660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically proven supratentorial anaplastic oligodendrogliomas, anaplastic mixed oligoastrocytomas anaplastic astrocytomas or glioblastoma multiforme",
+      "label": "met",
+      "evidence": "anaplastic astrocytoma of the spine"
+    },
+    {
+      "criterion": "unequivocal evidence for tumor recurrence or progression by MRI scan performed within 14 days prior to enrollment or documented recurrence by tumor resection",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma"
+    },
+    {
+      "criterion": "radiation therapy previously",
+      "label": "met",
+      "evidence": "therapy included field radiation t10-l1 followed by 11 cycles of temozolomide"
+    },
+    {
+      "criterion": "baseline on-study MRI is performed within 14 days of enrollment and on a steroid dosage that has been stable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status of equal to or greater than 60",
+      "label": "met",
+      "evidence": "none (implied by patient's ability to walk and communicate)"
+    },
+    {
+      "criterion": "adequate bone marrow function, adequate liver function, and adequate renal function prior to starting therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or become pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active infection, disease that will obscure toxicity or dangerously alter drug metabolism, serious intercurrent medical illness, acute or chronic pulmonary disease, pulmonary embolus, hypertension, diabetes, metabolic syndrome, stroke, heart disease, myocardial infarction, angina, coronary angioplasty, congestive heart failure, or coronary bypass surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergies to sulfa drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe psychiatric illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "uncontrolled hypertension (i.e. ->135/>85 mm Hg) on three repeated measurements during the 6 weeks prior to enrollment on the study",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's history of anaplastic astrocytoma and treatment with radiation and temozolomide suggest eligibility. However, patient's liver function and renal function are unknown.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00504660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

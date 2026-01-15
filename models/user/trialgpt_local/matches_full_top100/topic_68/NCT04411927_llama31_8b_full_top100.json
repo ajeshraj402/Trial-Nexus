@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04411927",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "medically diagnosed with CKD",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age ranged from eight to fifteen years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "both genders",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "communication problems such as intellectual disability, autism, Down syndrome, or cerebral palsy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant visual or hearing problems",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "any neurological and/or musculoskeletal disorders which influence postural stability",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic cardiovascular or pulmonary disorders",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has atypical hemolytic uremic syndrome and was treated with plasma exchange and corticosteroids. He has a history of vaccination.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04411927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

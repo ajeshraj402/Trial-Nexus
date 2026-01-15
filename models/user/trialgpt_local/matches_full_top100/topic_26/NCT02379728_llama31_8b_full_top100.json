@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "2 children"
+    },
+    {
+      "criterion": "pregnancy_weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence_area",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language_fluency",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

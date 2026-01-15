@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04701034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with \u2265 2 consecutive pregnancy losses (miscarriages or biochemical pregnancies)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u2264 completed gestational week 10 after ART with the present partner or with an egg/semen donor",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI \u226535",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226541",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant uterine malformation(s)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known parental balanced chromosomal translocations",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u22652 previous pregnancies with fetuses with known abnormal karyotype",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04701034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

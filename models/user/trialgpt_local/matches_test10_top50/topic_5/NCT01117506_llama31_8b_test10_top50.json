@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01117506",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ages 45-90 for women; 35-90 for men.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stable chest pain syndrome (typical or atypical) or anginal equivalent in the judgment of the investigator (e.g., pain in the neck, jaw, arm or shoulder or dyspnea possibly due to cardiac ischemia).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patient has signed the appropriate Institutional Review Board approved Informed Consent Form.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of known MI or significant CAD.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current MI or acute coronary syndrome.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe regurgitant or stenotic cardiac valvular lesion.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, but no current MI or acute coronary syndrome. He also has carotid bruits and significant bilateral carotid stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01117506",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

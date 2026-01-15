@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03299673",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female patients over 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Compliance with treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Compliance with study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Men or women under 18 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-compliance with treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inappropriate use of inhaled therapies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-compliance in study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unsigned patient consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently using ICS and fluticasone. He doubled his oral corticosteroids in the past week, which may be relevant for eligibility.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT03299673",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

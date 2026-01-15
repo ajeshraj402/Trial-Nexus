@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02874937",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "\u22651 syncopal spells in the year preceding enrolment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2265-2 points on the Calgary Syncope Symptom Score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age \u226518 years with informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The Calgary Syncope Symptom Score is used to diagnose VVS in patients with structurally normal hearts",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other causes of syncope, such as ventricular tachycardia",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "An inability to give informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02874937",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

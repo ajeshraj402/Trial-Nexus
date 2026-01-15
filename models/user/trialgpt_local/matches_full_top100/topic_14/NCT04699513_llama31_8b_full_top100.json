@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04699513",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "required invasive mechanical ventilation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "initially diagnosed with ARDS",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lung Injury Prediction Score of > 7",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "staying in the ICU for more than 24 hours",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "intracranial hypertension",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe chronic obstructive pulmonary disease or type II respiratory failure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "confirmed bronchopleural fistula",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "documented barotrauma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of pneumonectomy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe chronic obstructive pulmonary disease or type II respiratory failure, which is a likely exclusion criterion. Additionally, the patient's age (70 years) is above 85 years, which is another exclusion criterion.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04699513",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

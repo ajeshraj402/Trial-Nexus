@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02395107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asymptomatic severe aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Severe global hypokinesis",
+      "label": "met",
+      "evidence": "echo"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Moderate LV systolic dysfunction",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Concomitant moderate-severe aortic valve regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and global hypokinesis, but no moderate LV systolic dysfunction or concomitant moderate-severe aortic valve regurgitation.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02395107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

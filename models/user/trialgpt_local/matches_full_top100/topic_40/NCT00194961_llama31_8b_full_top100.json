@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00194961",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic renal insufficiency as defined by the North American Pediatric Renal Transplant Cooperative Study (NAPRTCS; estimated creatinine clearance < 75 ml/min/1.73 m2 by the Schwartz formula)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tanner Stage I or II",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable or unwilling to adhere to the protocol",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Additional diagnoses that could impair responsiveness to GH, e.g. dwarfism syndromes or significant extra-renal organ disease, e.g. chronic liver disease, diabetes mellitus, AIDS",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00194961",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

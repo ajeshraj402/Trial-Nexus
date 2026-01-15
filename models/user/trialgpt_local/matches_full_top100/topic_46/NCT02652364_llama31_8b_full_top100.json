@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02652364",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with any form of shock on admission to ICU",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has a positive sputum culture for Mycobacterium tuberculosis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CKD stage 3 and above (GFR> 60)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic liver failure( Child's B grade and above)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who were already recruited for this study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients expected to die within next 48 hrs upon admission",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a positive sputum culture for Mycobacterium tuberculosis, but no other exclusion criteria are met.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02652364",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

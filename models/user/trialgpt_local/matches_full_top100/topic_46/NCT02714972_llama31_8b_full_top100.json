@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT02714972",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes and using daily insulin therapy for at least one year and an insulin infusion pump for at least 6 months.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Age 6.0 to <15.0 years",
+      "label": "met"
+    },
+    {
+      "criterion": "HbA1c < 10.0%",
+      "label": "met"
+    },
+    {
+      "criterion": "Uninterrupted internet access while study system is being used overnight and for upload of study data in the morning",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Living with a family member/guardian (\"companion\") committed to participating in all study activities, and being present and available to provide assistance when the system is being used at night",
+      "label": "met"
+    },
+    {
+      "criterion": "An understanding of and willingness to follow the protocol and sign the informed consent",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 6 months",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of seizure disorder (except for hypoglycemic seizure)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of any heart disease including coronary artery disease, heart failure, or arrhythmias",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Cystic fibrosis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Current use of oral/inhaled glucocorticoids, beta-blockers or other medications, which in the judgment of the investigator would be a contraindication to participation in the study.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of ongoing renal disease (other than microalbuminuria). Creatinine level must have been obtained within the last year if subject has diabetes of >10 years duration.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with TB. He has not had diabetic ketoacidosis or hypoglycemic seizure in the past 6 months, and does not have heart disease or cystic fibrosis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02714972",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

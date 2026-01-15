@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00171886",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pituitary_tumor",
+      "label": "met",
+      "evidence": "MRI quote"
+    },
+    {
+      "criterion": "gh_suppression",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "igf1_levels",
+      "label": "met",
+      "evidence": "lab quote"
+    },
+    {
+      "criterion": "octreotide_tolerance",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "optic_chiasm_impairment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "surgery_needed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "octreotide_intolerance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic_condition",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00171886",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

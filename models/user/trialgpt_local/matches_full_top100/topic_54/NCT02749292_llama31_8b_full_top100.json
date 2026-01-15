@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02749292",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis: ANCA vasculitis",
+      "label": "met",
+      "evidence": "positive MPO-ANCA test together with clinical features characteristic of ANCA-positive diseases as detailed in the 2012 Chapel Hill Consensus Conference Definitions"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "eGFR \u2265 30 cc/min/1.73m2",
+      "label": "met",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Treated with rituximab-induced continuous B cell depletion and in remission for at least 24 months",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "CD20 (B cells) undetectable at time of enrollment/randomization",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Urine Hcg negative for women of child bearing potential and not planning to become pregnant for at least 12 months from enrollment and at least 12 months after any study related rituximab dose",
+      "label": "met",
+      "evidence": "57-year-old man, non-icteric"
+    },
+    {
+      "criterion": "Judged to be otherwise healthy by the Investigator, based on medical history and physical examination (no known active disease process for which life expectancy is less than 36 months)",
+      "label": "unknown",
+      "evidence": "not stated"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Secondary Disease: disease suspected to be induced by levamisole-adulterated cocaine",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "All transplanted patients",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Treatment: additional immunosuppressive agents other than rituximab and/or total daily prednisone dose \u2265 7.5 milligrams",
+      "label": "triggers",
+      "evidence": "treated with corticosteroid and cyclophosphamides"
+    },
+    {
+      "criterion": "Hypogammaglobulinemia: IgG level < 250 mg/dL",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Terminal cancer or other primary illness with life expectancy of less than 36 months",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Active anti-GBM disease and other known autoimmune disease for which the need for additional immunosuppression is likely",
+      "label": "triggers",
+      "evidence": "Wegener's granulomatosis was diagnosed for him"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": "57-year-old man"
+    }
+  ],
+  "notes": "Patient has a history of Wegener's granulomatosis and is currently being treated with corticosteroid and cyclophosphamides. He also has a high Birmingham Vasculitis Activity Score (BVAS) which may indicate active disease.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02749292",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

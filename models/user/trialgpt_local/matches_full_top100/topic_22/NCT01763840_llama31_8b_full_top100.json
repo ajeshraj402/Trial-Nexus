@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT01763840",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hemodynamically stable",
+      "label": "met",
+      "evidence": "normal vital signs"
+    },
+    {
+      "criterion": "Age 10-18 years",
+      "label": "not_met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Transferred to BCH Emergency Department to the Trauma Service for evaluation and management",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Concern for blunt abdominal injury",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix"
+    },
+    {
+      "criterion": "CT A/P performed at referring institution",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix"
+    },
+    {
+      "criterion": "Planned for admission to the hospital on the trauma service",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Patient is a woman",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 31 years",
+      "label": "not_met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Abdominal pain",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman complaining of abdominal pain."
+    },
+    {
+      "criterion": "Focal tenderness and guarding were observed during palpation of the right lower quadrant",
+      "label": "met",
+      "evidence": "Focal tenderness and guarding were observed during palpation of the right lower quadrant."
+    },
+    {
+      "criterion": "Lab work is remarkable for leukocytosis",
+      "label": "met",
+      "evidence": "Her lab work is remarkable for leukocytosis."
+    },
+    {
+      "criterion": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix without perforation, abscess or gangrene",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are hemodynamically unstable",
+      "label": "not_met",
+      "evidence": "The temperature is within the normal limits with normal vital signs."
+    },
+    {
+      "criterion": "Known cardiac abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pulmonary hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known sensitivity to human albumin or blood products",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to roll over",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to assent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "not_met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "Lactating",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and leukocytosis, but no other concerning features.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01763840",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02580565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed SCD diagnosis",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "treated for SCD at a RSCCA participating in the study",
+      "label": "met",
+      "evidence": "PCP sent him to the emergency department"
+    },
+    {
+      "criterion": "under the age of 26",
+      "label": "met",
+      "evidence": "34-year-old"
+    },
+    {
+      "criterion": "written consent from adult subjects",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "telephone interview with the patient suited to the child's, adolescent's or young adult's age, maturity and comprehension skills",
+      "label": "met",
+      "evidence": "The interview is suited"
+    },
+    {
+      "criterion": "subject treated for SCD at a RSCCA participating in the study regardless of the duration of the illness",
+      "label": "met",
+      "evidence": "PCP sent him to the emergency department"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "state-protected adult (under guardianship)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "subject not having the general aptitude to participate in the study assessment",
+      "label": "not_met",
+      "evidence": "The patient is afebrile within the normal blood pressure. No splenomegaly was detected"
+    }
+  ],
+  "notes": "Patient has had positive history of sickle cell crises since childhood and severe pain in his lower back that radiated to both thighs scored 9 out of 10.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02580565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

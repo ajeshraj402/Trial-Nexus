@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03117582",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suffered symptomatic diarrhea",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "documented stool c. difficile toxin positivity",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "failed standard therapy for CDI",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "tolerate colonoscopy or nasogastric/nasoduodenal tube placement",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "prisoners",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy <3 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positivity. She has suffered symptomatic diarrhea and failed standard therapy for CDI.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03117582",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

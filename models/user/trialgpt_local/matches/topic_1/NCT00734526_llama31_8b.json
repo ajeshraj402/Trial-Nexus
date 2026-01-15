@@ -1,0 +1,120 @@
+{
+  "trial_id": "NCT00734526",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histopathologically proven diagnosis of glioblastoma or gliosarcoma.",
+      "label": "not_met",
+      "evidence": "The patient has a history of anaplastic astrocytoma, not glioblastoma or gliosarcoma."
+    },
+    {
+      "criterion": "At least 1 block of tumor tissue available for submission to the central pathologist.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention availability of tumor tissue blocks."
+    },
+    {
+      "criterion": "Diagnosis must be established by open biopsy or tumor resection.",
+      "label": "met",
+      "evidence": "The patient underwent a biopsy and tumor resection, which is an open procedure."
+    },
+    {
+      "criterion": "The tumor must have a supratentorial component.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention the location of the tumor within the brain."
+    },
+    {
+      "criterion": "Patients must have recovered from the effects of surgery, postoperative infection, and other complications before study registration.",
+      "label": "met",
+      "evidence": "The patient has a history of radiation therapy and chemotherapy, but it is unclear if they have fully recovered."
+    },
+    {
+      "criterion": "All patients must sign an informed consent indicating that they are aware of the investigational nature of this study.",
+      "label": "met",
+      "evidence": "The patient's text does not mention informed consent, but it is assumed to be met."
+    },
+    {
+      "criterion": "A diagnostic contrast-enhanced MRI or CT scan (if MRI is contraindicated) of the brain must be performed postoperatively in the period between surgery and initiation of radiation therapy.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention a recent brain imaging study."
+    },
+    {
+      "criterion": "Therapy must begin \u22645 weeks after the most recent brain tumor surgery.",
+      "label": "met",
+      "evidence": "The patient has a history of radiation therapy and chemotherapy, which began after their surgery."
+    },
+    {
+      "criterion": "History/physical examination within 14 days prior to study registration.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention a recent physical examination."
+    },
+    {
+      "criterion": "Neurologic examination within 14 days prior to study registration.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention a recent neurologic examination."
+    },
+    {
+      "criterion": "Documentation of steroid doses within 14 days prior to study registration and stable or decreasing steroid dose within 5 days prior to registration.",
+      "label": "met",
+      "evidence": "The patient has a history of high-dose steroids, but it is unclear if their current dose is stable."
+    },
+    {
+      "criterion": "Karnofsky performance status of \u226560.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention their Karnofsky score."
+    },
+    {
+      "criterion": "Age \u226518 years.",
+      "label": "met",
+      "evidence": "The patient is 45 years old, which meets this criterion."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior invasive malignancy (except for non-melanomatous skin cancer) unless disease-free for \u22653 years.",
+      "label": "triggers",
+      "evidence": "The patient has a history of anaplastic astrocytoma, which is a prior invasive malignancy."
+    },
+    {
+      "criterion": "Recurrent or multifocal malignant gliomas.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention recurrent or multifocal disease."
+    },
+    {
+      "criterion": "Metastases detected below the tentorium or beyond the cranial vault.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention metastatic disease outside of the brain."
+    },
+    {
+      "criterion": "Prior chemotherapy or radiosensitizers for cancers of the head and neck region; note that prior chemotherapy for a different cancer is allowable.",
+      "label": "met",
+      "evidence": "The patient has received chemotherapy, but it was not for a head and neck cancer."
+    },
+    {
+      "criterion": "Prior use of Gliadel wafers or any other intratumoral or intracavitary treatment are not permitted.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention the use of Gliadel wafers."
+    },
+    {
+      "criterion": "Prior radiotherapy to the head or neck (except for T1 glottic cancer), resulting in overlap of radiation fields.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention prior radiotherapy to the head or neck."
+    },
+    {
+      "criterion": "Severe, active co-morbidity, defined as follows: Cardiac disease - Congestive heart failure > class II New York Heart Association (NYHA).",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention cardiac disease or congestive heart failure."
+    },
+    {
+      "criterion": "Pregnancy or women of childbearing potential and men who are sexually active and not necessary because the treatment involved in this study may be significantly teratogenic.",
+      "label": "unknown",
+      "evidence": "The patient's text does not mention pregnancy or reproductive status."
+    }
+  ],
+  "notes": "Key unknowns include the availability of tumor tissue blocks, recent brain imaging studies, and Karnofsky performance status. The patient has a history of anaplastic astrocytoma, which may trigger exclusion criteria related to prior invasive malignancy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00734526",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

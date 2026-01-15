@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT02317926",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between 18 to 65"
+    },
+    {
+      "criterion": "levothyroxine treatment duration",
+      "label": "met",
+      "evidence": "at least 6 months for primary hypothyroidism"
+    },
+    {
+      "criterion": "geographic location",
+      "label": "met",
+      "evidence": "living within 60 miles of Besthesda, MD"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "cardiac disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic obstructive lung disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malabsorption disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gastrointestinal surgeries",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant renal or liver dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "seizure disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "thyroid and non-thyroid active cancers",
+      "label": "not_met",
+      "evidence": "no mention of cancer"
+    },
+    {
+      "criterion": "uncontrolled psychosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychotropic medication use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "steroid use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "amiodarone",
+      "label": "not_met",
+      "evidence": "no mention of amiodarone"
+    },
+    {
+      "criterion": "chemotherapy for cancer",
+      "label": "not_met",
+      "evidence": "no mention of chemotherapy"
+    },
+    {
+      "criterion": "iron supplement more than 325mg per day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "carafate/proton pump inhibitor use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cholestyramine use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, on levothyroxine treatment for primary hypothyroidism, and living within 60 miles of Besthesda, MD. No mention of pregnancy, cardiac disease, chronic obstructive lung disease, malabsorption disorder, gastrointestinal surgeries, significant renal or liver dysfunction, seizure disorders, thyroid and non-thyroid active cancers, uncontrolled psychosis, psychotropic medication use, steroid use, amiodarone, chemotherapy for cancer, iron supplement more than 325mg per day, carafate/proton pump inhibitor use, or cholestyramine use.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02317926",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

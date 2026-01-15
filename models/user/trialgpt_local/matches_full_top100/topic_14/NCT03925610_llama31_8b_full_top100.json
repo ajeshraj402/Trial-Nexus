@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03925610",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "BMI equal or greater than 35 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) physical status I - III patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Scheduled to undergo laparoscopic roux-en-Y gastric bypass or gastric sleeve placement",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic obstructive pulmonary disorder (COPD)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with continuous positive airway pressure (CPAP) in the past three months",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has COPD and is on CPAP, which are exclusion criteria. Overall assessment is likely ineligible due to these conditions.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03925610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

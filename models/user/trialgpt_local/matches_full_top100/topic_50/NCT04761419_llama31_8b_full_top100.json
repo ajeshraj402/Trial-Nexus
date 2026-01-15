@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04761419",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Born at 34 weeks of gestation or earlier in Nagano Children's Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admission into NICU in the same hospital",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having any major anomalies including suspicion of chromosomal disorder on admission",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At least one parent is Not Japanese",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The consent is not obtained by day 7",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Do not survive until discharge home",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, born at 38 weeks with no complications.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04761419",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

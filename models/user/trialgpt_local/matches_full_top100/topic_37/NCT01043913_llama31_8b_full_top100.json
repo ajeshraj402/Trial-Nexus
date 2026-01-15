@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01043913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of Breast Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing Chemotherapy (First Cycle)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical Depression",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to sign informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe Fatigue",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has RRMS and is under treatment. She smokes and drinks occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT01043913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01770210",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatients (External Ambulatory) Patients",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Male or female patients",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 to 99 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with Hypercholesterolemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with and without treatment with statin",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients enrolled in any of the study sites with acute cardiovascular event",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients discharged with study medication (Antorcin )",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have agreed and signed the consent form for the recording and processing of their personal data.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under 18 and over 99 years.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women in pregnancy or lactation period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients enrolled in any of the study sites for any reason other than an acute cardiovascular event",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who discharged and take another statin drug formulation other than the study drug formulation (Antorcin )",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have not consented and signed the consent form for the recording and processing of their personal data.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite. Lab results show anemia, thrombocytopenia, renal impairment, and elevated LDH.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01770210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

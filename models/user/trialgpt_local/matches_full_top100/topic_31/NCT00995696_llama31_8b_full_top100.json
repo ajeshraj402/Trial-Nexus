@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00995696",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "received a new prescription for an antidepressant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recruited from families receiving care at Nationwide Children's Hospital or Community Physician Practices affiliated with Nationwide Children's Hospital",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "families who speak do not speak English",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "children who are actively psychotic",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and smokes heavily, but these factors do not appear to be relevant to the trial. The patient's age and sex also do not match the inclusion criteria.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00995696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

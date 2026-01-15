@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02543905",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with either: A positive family history of PrCa defined as:",
+      "label": "met",
+      "evidence": "His family history is positive for hyperlipidemia in her mother and MI in her father."
+    },
+    {
+      "criterion": "Of African or Caribbean ancestry defined as:",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 40- 69 years",
+      "label": "met",
+      "evidence": "He is a 41 year man."
+    },
+    {
+      "criterion": "WHO performance status 02 (see Appendix A)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of any psychological, familial, sociological or geographical situation potentially hampering compliance with the study protocol and follow up schedule.",
+      "label": "met",
+      "evidence": "His physical exam and lab studies were normal otherwise."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous cancer with a life expectancy of less than five years.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous PrCa",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative biopsy within one year before recruitment",
+      "label": "not_met",
+      "evidence": "Tinea pedis infection confirmed as his diagnosis by the observation of segmented fungal hyphae during a microscopic KOH wet mount examination."
+    }
+  ],
+  "notes": "The patient has a history of smoking and drinking, but no underlying disease such as DM. He is in relation with several partners and uses condom during intercourse.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02543905",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

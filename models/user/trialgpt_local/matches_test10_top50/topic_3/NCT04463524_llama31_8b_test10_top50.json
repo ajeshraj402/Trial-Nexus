@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "suspected heart rhythm disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no previous diagnosis of rhythm disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "on examination on the ECG, the patient was not in sinus rhythm",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "that the patient has a known heart rhythm disorder and / or is being treated for it",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient had a severe 'exploding' headache, which was likely caused by hitting her head on a cabinet. She was diagnosed with an AVM and underwent cerebral angiogram.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

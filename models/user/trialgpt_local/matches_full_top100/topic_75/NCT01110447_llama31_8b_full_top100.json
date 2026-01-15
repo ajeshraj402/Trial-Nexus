@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01110447",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed as having cirrhosis of liver",
+      "label": "met",
+      "evidence": "clinical, biochemical, and ultrasonographical or liver histological data"
+    },
+    {
+      "criterion": "patients diagnosed at Inpatient/Outpatient Liver Clinic of Department of Hepatology, PGIMER, Chandigarh",
+      "label": "met",
+      "evidence": "clinical, biochemical, and ultrasonographical or liver histological data"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alcohol intake during the past 6 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous transjugular intrahepatic portosystemic shunt or shunt surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant comorbid illness such as heart, respiratory, or renal failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any neurologic diseases such as Alzheimer's disease, Parkinson's disease, and nonhepatic metabolic encephalopathies",
+      "label": "triggers",
+      "evidence": "Parkinson's disease"
+    }
+  ],
+  "notes": "The patient has a history of hypertension and hypercholesterolemia. He is an alert and cooperative man who does not have any signs of dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01110447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

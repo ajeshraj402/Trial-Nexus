@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00120848",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participated_in_study_580299/001",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "received_all_three_doses_of_vaccine/placebo",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "written_informed_consent_obtained",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "decoding_of_subject's_treatment_allocation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16, but she underwent tubal ligation and smokes heavily.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00120848",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

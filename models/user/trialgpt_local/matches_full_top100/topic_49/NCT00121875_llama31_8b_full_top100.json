@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00121875",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Girls with Turner syndrome",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "ISS",
+      "label": "met",
+      "evidence": "diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "height standard deviation score (SDS) \u2264 -2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bone age \u2264 12 years",
+      "label": "met",
+      "evidence": "Her breast bulb were in stage 1 with no course hair in the pubic or axillary"
+    },
+    {
+      "criterion": "Normal birthweight",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Body mass index (BMI) = 10th-90th percentile",
+      "label": "not_met",
+      "evidence": "She is an obese girl in the physical exam"
+    },
+    {
+      "criterion": "Normal childhood activity; no physical or other limitations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Normal, balanced diet (20-40% calories from fat)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Puberty (beyond Tanner Stage 1)",
+      "label": "triggers",
+      "evidence": "Her breast bulb were in stage 1 with no course hair in the pubic or axillary"
+    },
+    {
+      "criterion": "Diabetes in subject or first degree relative",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sex steroid therapy",
+      "label": "does_not_trigger",
+      "evidence": "She is treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height"
+    },
+    {
+      "criterion": "Chronic conditions requiring medication (treatment for hypothyroidism is permissible)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant systemic disease (pulmonary, cardiac, renal, or other)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non-removable metal",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome and is being treated with GH. She is obese and has developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00121875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

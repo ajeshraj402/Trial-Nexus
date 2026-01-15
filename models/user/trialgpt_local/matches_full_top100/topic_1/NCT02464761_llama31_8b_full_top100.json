@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02464761",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 20 and 85",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Established metastatic vertebral bony disease in the spine",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Eligible for single level vertebral osteoplasty (i.e. percutaneous vertebroplasty, kyphoplasty)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are symptomatic with axial pain from vertebral metastatic involvement and are at risk for pathologic fracture; or have had a symptomatic pathologic fracture",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who have shown radiographic progression and/or pain symptoms of a documented vertebral metastasis despite non-surgical therapies",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Progressive neurological compromise",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Osteoblastic vertebral metastatic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Posterior vertebral cortical/body wall involvement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spinal canal compromise / neurologic compression",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anticipated life expectancy of less than twelve weeks to live",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is experiencing progressive neurological compromise, which makes them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02464761",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

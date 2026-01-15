@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT02659943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Malignancy criteria",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18-73 years old"
+    },
+    {
+      "criterion": "Clinical performance status",
+      "label": "met",
+      "evidence": "ECOG 0-1"
+    },
+    {
+      "criterion": "Room air oxygen saturation",
+      "label": "met",
+      "evidence": "92% or greater"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Urgent therapy due to tumor mass effects",
+      "label": "not_met",
+      "evidence": "no mention of urgent therapy"
+    },
+    {
+      "criterion": "Active hemolytic anemia",
+      "label": "unknown",
+      "evidence": "no mention of active hemolytic anemia"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02659943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

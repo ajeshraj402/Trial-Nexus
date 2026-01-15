@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04618666",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of chronic appendicitis",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Patients who are fit for laparoscopy and general anaesthesia",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman complaining of abdominal pain. The temperature is within the normal limits with normal vital signs."
+    },
+    {
+      "criterion": "Patients who provide a written informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Patient who agree to provide short term outcome data and agree to provide",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anesthesia",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients suffering from an ongoing infections including chest infections ",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04618666",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

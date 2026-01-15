@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02266199",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signing the consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with \u2265 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of signature of the informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "<18 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, but no underlying disease or impairment.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02266199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

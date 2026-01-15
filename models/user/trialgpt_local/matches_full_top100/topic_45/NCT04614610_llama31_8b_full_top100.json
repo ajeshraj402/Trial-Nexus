@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04614610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "sickle cell disease",
+      "label": "met",
+      "evidence": "known history of Sickle cell disease"
+    },
+    {
+      "criterion": "severe pain",
+      "label": "met",
+      "evidence": "severe bone pain scored 9 out of 10"
+    },
+    {
+      "criterion": "previous treatment with oxycodone",
+      "label": "not_met",
+      "evidence": "treated with oxycodone which was not beneficial to his pain"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "does_not_trigger",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute chest syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lidocaine allergy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has had positive history of sickle cell crises since childhood and severe pain in his lower back that radiated to both thighs.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04614610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

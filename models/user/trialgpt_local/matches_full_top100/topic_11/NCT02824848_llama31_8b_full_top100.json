@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02824848",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age between birth and 9 months at the time of recruitment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of congenital muscular torticollis as documented in the medical record",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other types of torticollis, such as neuromuscular torticollis, Sandifer syndrome,",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "being seen for torticollis by another health care provider",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and is experiencing worsening dysphagia, poor oral intake, weight loss, and lethargy. They have undergone multiple treatments including XRT and RAI ablation.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02824848",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

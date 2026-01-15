@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT03883490",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participant is willing and able to give informed consent for participation in the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18 years or above.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Planned surgical AVR (+/- CABG or aortic root surgery) for severe AS.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to understand the written information in English.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to MRI (e.g., non-compatible pacemaker or other device).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe claustrophobia (unable to have MRI scan).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "eGFR<30ml/min (contra-indication to have contrast agent during MRI).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindication to Adenosine (severe asthma).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant arrhythmia.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other valve disease > moderate in severity.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. RV pressure was 41 and had biatrial enlargement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03883490",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

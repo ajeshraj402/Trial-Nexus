@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03174782",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "patients who require major lower extremity amputations",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "less than 18 years old, pregnant",
+      "label": "does_not_trigger",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "emergency amputation, staged amputation, amputations performed by non-vascular surgeons",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who are allergic to bupivacaine",
+      "label": "does_not_trigger",
+      "evidence": "no mention of allergy"
+    },
+    {
+      "criterion": "who are unable to communicate symptoms of pain",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's amputation status is unknown, but they have a history of severe lower extremity weakness and urinary retention which may indicate the need for an amputation. However, there is no explicit mention of an amputation being required or performed.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03174782",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01170416",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sustained monomorphic VT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "VT ablation amenable",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ventricular tachycardia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sustained tachycardia induction possible",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presents with sustained monomorphic VT and is amenable to VT ablation. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01170416",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

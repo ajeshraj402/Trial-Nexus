@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02400034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postoperative patients after placement of midurethral sling",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to provide informed consent and complete all study requirements",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who underwent a surgery that requires long term catheterization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who sustained a cystotomy during surgery as our divisional protocol is to send these patients home with a Foley catheter for 5-14 days without a voiding trial",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient had severe 'exploding' headache after hitting her head on a cabinet, but was improving with pain medication and ambulating independently.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02400034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

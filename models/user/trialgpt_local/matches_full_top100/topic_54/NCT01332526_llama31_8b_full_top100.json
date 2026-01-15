@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01332526",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI>30",
+      "label": "met",
+      "evidence": "Patient with BMI>30"
+    },
+    {
+      "criterion": "CKD stage III (GFR 30-59 ml/min/1,73 m2)",
+      "label": "met",
+      "evidence": "CKD: nondiabetic nephropathy"
+    },
+    {
+      "criterion": "Hb-11-13 g/dl",
+      "label": "met",
+      "evidence": "Hgb: 13 g/dl"
+    },
+    {
+      "criterion": "well controlled hypertension (<140/90 mmHg)",
+      "label": "met",
+      "evidence": "BP: 120/80"
+    },
+    {
+      "criterion": "asymptomatic hyperuricemia, uric acid > 7 mg/dl with normal renal function",
+      "label": "met",
+      "evidence": "MPO-ANCA: 153 EU"
+    },
+    {
+      "criterion": "Hemodialysis patients",
+      "label": "met",
+      "evidence": "Patient is treating with corticosteroid and cyclophosphamides since 4 months ago."
+    },
+    {
+      "criterion": "duration hemodialysis 3-48 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "normal renal function",
+      "label": "met",
+      "evidence": "ESR: 120 mm/hr"
+    },
+    {
+      "criterion": "uric acid < 7 mg/dl",
+      "label": "not_met",
+      "evidence": "MPO-ANCA: 153 EU"
+    },
+    {
+      "criterion": "proteinuria < 3,5 g/24 h",
+      "label": "met",
+      "evidence": "WBC: 8000 /mm3 (Neutrophil: 2700/mm3)"
+    },
+    {
+      "criterion": "without immunosuppressives agents",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ACEi, ARB, allopurinol treatment well controlled hypertension (<140/90 mmHg)",
+      "label": "not_met",
+      "evidence": "Patient is treating with corticosteroid and cyclophosphamides since 4 months ago."
+    },
+    {
+      "criterion": "without diabetes mellitus",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "immunosuppressive agents, ACEi, ARB, allopurinol treatment",
+      "label": "triggers",
+      "evidence": "Patient is treating with corticosteroid and cyclophosphamides since 4 months ago."
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "not well controlled hypertension (>140/90 mmHg)",
+      "label": "triggers",
+      "evidence": "BP: 120/80"
+    },
+    {
+      "criterion": "proteinuria > 3,5 g/24 h",
+      "label": "triggers",
+      "evidence": "WBC: 8000 /mm3 (Neutrophil: 2700/mm3)"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01332526",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

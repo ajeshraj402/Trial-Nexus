@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01581216",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "Spanish man"
+    },
+    {
+      "criterion": "understand_study_protocol",
+      "label": "met",
+      "evidence": "oriented and conscious"
+    },
+    {
+      "criterion": "functional_capacity",
+      "label": "met",
+      "evidence": "Karnofsky scale = 60%"
+    },
+    {
+      "criterion": "life_expectancy",
+      "label": "met",
+      "evidence": "3-12 months"
+    },
+    {
+      "criterion": "ambulation_independence",
+      "label": "met",
+      "evidence": "able to ambulate independently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "fatigue_control_drugs",
+      "label": "not_met",
+      "evidence": "no mention of Methylphenidate or Modafinil"
+    },
+    {
+      "criterion": "anemia",
+      "label": "unknown",
+      "evidence": "HB not mentioned"
+    },
+    {
+      "criterion": "cognitive_deficit",
+      "label": "unknown",
+      "evidence": "no mention of cognitive deficit"
+    },
+    {
+      "criterion": "uncontrolled_pain",
+      "label": "not_met",
+      "evidence": "BP: 135/80, no pain mentioned"
+    },
+    {
+      "criterion": "exercise",
+      "label": "met",
+      "evidence": "no mention of exercise"
+    },
+    {
+      "criterion": "CHF_or_angina",
+      "label": "unknown",
+      "evidence": "no mention of CHF or angina"
+    }
+  ],
+  "notes": "Patient is a 60-year-old Spanish man with COPD, presenting with shortness of breath. He has a history of BPH and uses Flomax.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01581216",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

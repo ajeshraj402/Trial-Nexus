@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT00670631",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of active MM requiring treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "Protein criteria present (quantifiable M-component)",
+      "label": "met"
+    },
+    {
+      "criterion": "Received no more than 12 months of prior chemotherapy",
+      "label": "met"
+    },
+    {
+      "criterion": "Age between 18-75 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Ejection fraction \u2265 40% performed within 60 days prior to registration",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate pulmonary function studies > 50% of predicted on mechanical aspects",
+      "label": "met"
+    },
+    {
+      "criterion": "Creatinine < 3 mg/dl and creatinine clearance >30mL/min",
+      "label": "met"
+    },
+    {
+      "criterion": "Performance status of 0-2 based on SWOG criteria",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient informed of investigational nature and signed IRB-approved informed consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Platelet count < 30 x 10^9/L, unless myeloma-related",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Greater than a grade 2 peripheral neuropathy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Hypersensitivity to bortezomib, boron, or mannitol",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Uncontrolled diabetes",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Recent (< 6 months) myocardial infarction, unstable angina, difficult to control congestive heart failure, uncontrolled hypertension, or difficult to control cardiac arrhythmias",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and has a history of chemotherapy and radiotherapy.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00670631",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

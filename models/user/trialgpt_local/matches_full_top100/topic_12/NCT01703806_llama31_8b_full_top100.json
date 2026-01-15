@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01703806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe degenerative MR",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "preserved left ventricular systolic function",
+      "label": "met",
+      "evidence": "EF of 65% on TTE"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cardiology/American Heart Association (ACC/AHA) guidelines for surgical indications of patients with the presence of exertional dyspnea, or angina",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "left ventricular ejection fraction < 0.60",
+      "label": "not_met",
+      "evidence": "EF of 65% on TTE"
+    },
+    {
+      "criterion": "left ventricular end-systolic dimension > 40 mm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "atrial fibrillation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant aortic valve disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Doppler-estimated systolic pulmonary artery pressure > 50 mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who were not candidates for early surgery based on age > 80 years and coexisting malignancies",
+      "label": "not_met",
+      "evidence": "age is < 80, no mention of malignancy"
+    },
+    {
+      "criterion": "patients who did not consent to participate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01703806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

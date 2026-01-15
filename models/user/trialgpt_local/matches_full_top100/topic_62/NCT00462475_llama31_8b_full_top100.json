@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00462475",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male gender",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age <50 yrs",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "body mass index <30 Kg/m2",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no familial or personal history of cardiovascular diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no concomitant treatment with drugs known to interfere with glucose or lipid metabolism or to influence blood pressure at the time of study entry",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no previous GH treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "female gender",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >50 yrs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "body mass index \u226530",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "familial or personal history of cardiovascular diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous and present treatments with drugs known to interfere with glucose or lipid metabolism or to influence blood pressure",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "previous GH treatment in adult age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "GHD of childhood onset",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "GHD due to previous Cushing's disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He is physically active and has no other cardiovascular risk factors.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00462475",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

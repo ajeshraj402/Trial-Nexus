@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03562741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Two or more recurrences of C. difficile infection (CDI) with recurrence defined as a positive test result, e.g. Polymerase Chain Reaction (PCR) test and with appropriate symptoms within 2-8 weeks of last positive result, provided that symptoms from earlier episode resolved with or without therapy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failed standard therapy with oral metronidazole and/or oral vancomycin",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <16 years old",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with acute severe colonic dilation at risk for colonic perforation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03562741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

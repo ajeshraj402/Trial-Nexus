@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04246450",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of syncope and/or presyncope in the absence of prodromal symptoms typical of vagally-mediated events",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LV end diastolic diameter >60mm on echocardiography",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of non-sustained ventricular tachycardia on 24-hour electrocardiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Permanent atrial fibrillation",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Expected survival <12months",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04246450",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

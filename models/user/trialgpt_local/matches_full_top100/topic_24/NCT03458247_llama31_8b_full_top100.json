@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03458247",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Voluntary signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically confirmed prostate adenocarcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of bone and/or soft-tissue and/or visceral metastases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Progressive disease assessed by PSA, CT scan, MRI or bone scan",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with no or moderate symptoms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Effective castration confirmed by testosterone plasma level < 50 ng/dL",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status: 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy > 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient affiliate to french social assurance",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SGPT and SGOT < 5 fold the upper normal value",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pure small cell carcinoma of the prostate or predominant histology of neuro-endocrine carcinoma",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed brain and/or leptomeningeal metastases",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT03458247",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT03597451",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participants who are 18-65 years of age",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "MS patients who are ambulatory (Expanded Disability Status Scale score \u2264 5,5 ) in a stable phase of the disease, without relapses in the last 3 month.",
+      "label": "met",
+      "evidence": "Patient has lower extremity weakness and urinary retention but is still ambulatory"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participants who have orthopedic problems",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participants who have vision, hearing, or perception problems",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's exact Expanded Disability Status Scale score is unknown. No information about relapses in the last 3 months.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03597451",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

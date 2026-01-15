@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01687543",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Anticipated need for intensive care 3 days or longer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients condition allowing enteral nutrition to be started within 24 h from ICU",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "admission",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Antibiotics on-going or planned",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known positive test for Clostridium difficile within the last week",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known ulcers in the mouth, oropharynx, esophagus and stomach",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known immune deficiencies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Enteral nutrition contra indicated",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pancreatitis as admission diagnosis at the hospital or at the ICU",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time).",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01687543",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

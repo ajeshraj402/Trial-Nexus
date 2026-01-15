@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03577743",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female patient firstly diagnosed with metastatic TNBC or after adjuvant treatment OF",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TNBC by immune histochemistry and biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18 Y",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Performance status (PS ) 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Did not have any bleeding disorders.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receive only one line of chemotherapy in adjuvant ttt",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Male patient",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PS >2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Uncontrolled HPTN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have history of bleeding disorders",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receive > one line of chemotherapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have other type of malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with a history of smoking and alcohol consumption, but no other significant medical conditions.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03577743",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

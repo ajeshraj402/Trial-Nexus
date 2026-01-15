@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01309750",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ICU patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "positive c. diff PCR or visualization of pseudomembranes on colonoscopy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to give consent or have representative to give consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ability to drink contrast or have a previously placed nasogastric tube",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "approval from the intensivist on duty/ICU Attending physician",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under age 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "need for gastric motility medications",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "need for anti-diarrheal medication",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "need for surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous small bowel or gastric surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inability to drink nuclear tracer without nasogastric tube in place",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hypotension requiring vasoactive agents",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples. She is febrile, tachycardic, and hypotensive.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01309750",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

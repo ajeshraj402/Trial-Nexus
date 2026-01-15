@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04207593",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "WHO class I -IV (mPAP \u2265 25 mm Hg, pulmonary arterial occlusion pressure \u226415 mm Hg)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "stable on optimized pharmacological treatment for at least six weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "men and women 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient is diagnosed with Pulmonary Arterial Hypertension (World Health Organization (WHO) Category Group 1)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient has a stable functional class of PAH with no changes of medication during the trial",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant left heart disease, requiring acute pharmacological or interventional treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04207593",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

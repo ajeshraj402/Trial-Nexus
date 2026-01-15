@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01624155",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age of participants",
+      "label": "met",
+      "evidence": "16-year-old"
+    },
+    {
+      "criterion": "Gender of participants",
+      "label": "met",
+      "evidence": "Female"
+    },
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "No limitation, will include minorities and Spanish speaking"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no limitation"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "unknown",
+      "evidence": "not stated"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "does_not_trigger",
+      "evidence": "Beta hcg: negative for pregnancy"
+    },
+    {
+      "criterion": "Not sexually active with men",
+      "label": "triggers",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "unknown",
+      "evidence": "not stated"
+    },
+    {
+      "criterion": "Removal of both ovaries",
+      "label": "unknown",
+      "evidence": "not stated"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She is on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01624155",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

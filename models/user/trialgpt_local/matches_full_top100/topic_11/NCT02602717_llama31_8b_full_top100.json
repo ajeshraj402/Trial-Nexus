@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02602717",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Subject aged 18 years and above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject willing to participate in the study with a signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject being operated for a papillary thyroid cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject having had a blood test for plasma Tg levels and circulating anti-Tg antibodies in the week preceding the surgical intervention",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects presenting with thyroid cancers of non follicular origin",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone multiple treatments, including XRT. However, the patient's condition may not meet all inclusion criteria due to lack of recent blood tests for plasma Tg levels and circulating anti-Tg antibodies.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02602717",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

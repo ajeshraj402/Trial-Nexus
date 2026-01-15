@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01891149",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "presentation to Fistula Care Centre in Lilongwe",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to consent for study participation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "female aged 18-45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness to undergo pelvic ultrasound",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "current pregnancy or pregnancy within the past six weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and is menopausal, but has a history of hysterectomy.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01891149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT00083876",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have previously treated (> 1 cycle prior therapy), active multiple myeloma requiring treatment.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have measurable disease defined as one of the following: serum monoclonal protein >/= 1.0 mg/dl, OR urine monoclonal protein >/= 1.0 grams/24 hour, OR >/= 20% bone marrow plasmacytosis.",
+      "label": "met"
+    },
+    {
+      "criterion": "All necessary baseline studies for determining eligibility must be obtained within 35 days prior to registration.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must have a performance status of 0-2 based on SWOG criteria.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients with a poor performance status (3-4), based solely on bone pain, will be eligible.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must have a platelet count > or = 100,000/microliters.",
+      "label": "met"
+    },
+    {
+      "criterion": "All patients must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients must not have received a prior autotransplant or allograft.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients with recent (< o= 6 months) myocardial infarction, unstable angina, difficult to control congestive heart failure, uncontrolled hypertension, or difficult to control cardiac arrythmias are ineligible.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis and is on hemodialysis. She has a history of relapse and has received various treatments including melphalan, prednisone, VAD regimen, autologous stem cell transplant, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00083876",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

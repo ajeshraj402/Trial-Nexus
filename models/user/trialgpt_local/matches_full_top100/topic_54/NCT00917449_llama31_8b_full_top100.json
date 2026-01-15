@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00917449",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent must be obtained before any procedure of the study is done.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or Female aged more than 35 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of IGT after a standard Glucose Tolerance Test (OGTT, 75 g).",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of type 1 or type 2 diabetes mellitus.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Fasting glucose levels >126 mg/dl.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of Wegener's granulomatosis and is currently being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4, indicating active disease.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00917449",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

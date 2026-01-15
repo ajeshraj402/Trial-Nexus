@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01969071",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of mitral valve insufficiency with or without coronary artery disease and a",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF of \u2264 45 %",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "findings of acute or chronic renal failure (serum creatinine (sCr)> 1.5 mg/dL)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe hepatic disease (alanine aminotransferase or aspartate aminotransferase > 100 U litre/L)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe chronic obstructive pulmonary disease (forced expired volume in 1 s < 50 % of predicted or < 2.0 litre)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of prior coronary artery bypass graft (CABG) surgery or myocardial infarction (MI) within the previous month",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Lab results show hemoglobin: 9.7 g/dL, platelet: 110,000 /cu.mm, creatinine: 3.6 mg/dL, BUN: 73 mg/dL, direct bilirubin: 2.4 mg/dL, LDH: 881 IU/L. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01969071",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

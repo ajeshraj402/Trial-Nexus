@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01624155",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age of participants",
+      "label": "met",
+      "evidence": "19 yo"
+    },
+    {
+      "criterion": "Gender of participants",
+      "label": "met",
+      "evidence": "Hispanic female"
+    },
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "Hispanic"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no specific past medical issues"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "met",
+      "evidence": "only have one partner in past 2 years"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "not_met",
+      "evidence": "32+ 6 weeks of gestational age"
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Removal of both ovaries",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with no specific past medical issues, currently pregnant at 32+6 weeks gestational age.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01624155",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

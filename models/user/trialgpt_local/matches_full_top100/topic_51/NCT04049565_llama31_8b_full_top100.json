@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04049565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 and less than 70",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with sepsis or septic shock who received their first doses of antibiotics no",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Elderly (defined as older than 70)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy and lactation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Immunocompromised patients or who had high doses of corticosteroids",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with chronic organ failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infections that required long-term treatment, regardless of the etiologic agent (e.g., bacterial endocarditis).",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "25-year-old pregnant woman with sepsis and fever. No history of recurrent UTI or underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04049565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

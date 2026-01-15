@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00473460",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomly to one of the following treatment groups at the second visit",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female out-patients >/= 45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects suffering from chronic bronchitis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "FEV1</= 70% and FEV1/FVC </= 70% predicted from age, height and sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No documented episode of AECB (requiring treatment) within 6 weeks of randomization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sputum production on most days, even when exacerbation free",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects presented with at least two documented (i.e. requiring antibiotics and/or systemic steroid administration) acute exacerbation episodes during the last 12 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "If receiving chronic therapy with inhaled long acting bronchodilators and/or inhaled or systemic steroids, the treatment must have remained stable for the preceding 6 weeks prior to screening",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Smoking history of at least 20 pack-years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects willing and able to give fully informed written consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with contra-indications to moxifloxacin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known bronchial carcinoma, pulmonary tuberculosis, cystic fibrosis, documented chronic bronchial asthma or diffuse bronchiectasis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma and recent surgery. He takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00473460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

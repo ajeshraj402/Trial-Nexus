@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03603405",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Frozen section biopsy proven anaplastic astrocytoma or glioblastoma multiforme",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Life expectancy \u2265 12 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient can receive second treatment of HSV-tk after 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Newly diagnosed anaplastic astrocytoma or glioblastoma demonstrated by frozen section biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status of 0-1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of other active malignancy (except squamous or basal cell skin cancers)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent to participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to provide biopsies as required by the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate baseline organ function (serum creatinine < 1.5 mg/dL, T. bilirubin < 2.5 mg/dL, etc.)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment with immunomodulatory therapy, immunotherapy, and/or gene vector therapy in the past 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any cytotoxic chemotherapy, RT, or immunotherapy or any investigational drug within 3 weeks of study treatment start",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. However, they have received prior treatment with high-dose steroids, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03603405",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

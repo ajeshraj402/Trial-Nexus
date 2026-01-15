@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01959048",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antibiotics",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "fever_diarrhea_vomiting",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "hiv_hepatitis_exposure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has symptoms of infection and recent antibiotic use, making them likely ineligible for the study.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01959048",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

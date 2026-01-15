@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02724176",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed_with_ptc",
+      "label": "met",
+      "evidence": "preoperative fine needle aspiration cytology"
+    },
+    {
+      "criterion": "initial_operation_in_our_department",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "all_tumors_located_in_one_lobe",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ptc_with_tumor_between_1_and_4_cm",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "nonthyroid_cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous_thyroid_or_parathyroid_surgery",
+      "label": "met",
+      "evidence": "s/p neck mass resection; unable to perform thyroidectomy"
+    },
+    {
+      "criterion": "preoperative_hypoparathyroidism_or_hypocalcemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy_or_lactation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence_or_suspicion_of_lateral_neck_lymph_node_metastasis",
+      "label": "met",
+      "evidence": "Metastatic to lymph nodes and adrenal glands"
+    },
+    {
+      "criterion": "age_under_18_years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with high bleed risk, proximity to trachea and recurrent laryngeal nerve, and large tumor size.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02724176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

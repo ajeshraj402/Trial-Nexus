@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04297839",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "3-day-old"
+    },
+    {
+      "criterion": "breastfed",
+      "label": "met",
+      "evidence": "The baby is breastfed."
+    },
+    {
+      "criterion": "weight",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "length",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "head circumference",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute liver failure",
+      "label": "not_met",
+      "evidence": "She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy."
+    },
+    {
+      "criterion": "hemorrhagic stroke in the last 30 days",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet levels below 20,000/mm3",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active bleeding requiring transfusion (two or more red blood cell packs within 24 hours)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04297839",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

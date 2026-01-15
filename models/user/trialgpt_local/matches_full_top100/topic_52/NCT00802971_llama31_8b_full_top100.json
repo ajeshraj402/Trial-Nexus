@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00802971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ideopathic reactive hypoglycaemia",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "mmol/l or 1h or 2h glucose values during OGTT < fasting glucose",
+      "label": "met",
+      "evidence": "lab study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes mellitus, impaired glucose tolerance, other reason for reactive hypoglycaemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "than ideopacy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptoms of dizziness and severe diarrhea, with a lab study showing V. cholerae in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00802971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00186537",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Insulin Resistant Triglyceride 150 mg/dL or greater or triglyceride HDL-C ratio 3 or greater",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI 25-35",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes Mellitus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of gall stones",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of CHF",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of CAD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe anemia,kidney, or liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes confirmed with molecular analysis and is being treated with ACE inhibitors and Beta blockers for cardiomyopathy.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00186537",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

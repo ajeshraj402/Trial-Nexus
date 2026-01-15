@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_choice",
+      "label": "met",
+      "evidence": "desires IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI_history",
+      "label": "unknown",
+      "evidence": "no mention of STI history"
+    },
+    {
+      "criterion": "desire_for_another_pregnancy",
+      "label": "unknown",
+      "evidence": "no mention of desire for another pregnancy within 6 months"
+    },
+    {
+      "criterion": "contraindication_to_IUD",
+      "label": "unknown",
+      "evidence": "no mention of uterine fibroids or anomalies, neoplasia, liver disease, or breast cancer"
+    }
+  ],
+  "notes": "Patient has unremarkable past medical and drug history. Laboratory studies show low Vit D level but otherwise healthy.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

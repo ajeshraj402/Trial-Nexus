@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI safety",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic musculoskeletal diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "neurological conditions",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "depression",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy/nursing",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of recurrent bilateral headache, diagnosed with migraine headache and under treatment. She is a high-school student living with her parents.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

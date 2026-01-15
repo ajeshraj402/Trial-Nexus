@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01599546",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-term",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Full-term",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital anomalies or recognizable malformation syndromes",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mother's self-reported use of illicit drugs or alcohol during pregnancy;",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01599546",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

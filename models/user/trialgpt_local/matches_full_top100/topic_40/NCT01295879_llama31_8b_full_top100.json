@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01295879",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of nephrolithiasis",
+      "label": "met",
+      "evidence": "medical record"
+    },
+    {
+      "criterion": "Urinary calcium excretion between 150 and 400 mg/day",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "25(OH)D deficiency or insufficiency",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known uric acid, cystine, or struvite stone disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of nephrolithiasis and meets the inclusion criteria. However, there is no information on urinary calcium excretion or 25(OH)D levels.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01295879",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01017718",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children and adolescents with diabetes mellitus type 1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 8 to 18a",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "insulin requirement > 0.5 IU/kg/d",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetic children with duration of diabetes < 1 year",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age <8 or >18 year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "insulin requirement > 0.5 IU/kg/d",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Blood glucose levels <50 or >350 mg/dl",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children with chronic diseases, handicapped children, children with cancer, chronic renal impairment, or neurological diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01017718",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

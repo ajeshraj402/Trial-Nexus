@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT01057173",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe degenerative aortic valve stenosis (echocardiographic criteria: AV effective orifice area (EOA) of < 1 cm2, mean AV gradient of > 40 mmHg, or AV peak systolic velocity of > 4.0 m/s)",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "symptomatic from the aortic valve stenosis (dyspnoea in NYHA-class II or greater, angina pectoris, or syncope)",
+      "label": "met",
+      "evidence": "He presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema."
+    },
+    {
+      "criterion": "70 years or older",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "technical and anatomical eligible for both interventions (as specified by Medtronic CoreValve(TM) for the TAVI procedure) after a formal consult by a cardiologist and a cardiovascular surgeon",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "expected to survive more than one year after the intervention",
+      "label": "met",
+      "evidence": "The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US (showing moderate heterogeneous plaque with bilateral 1-39% ICA stenosis)."
+    },
+    {
+      "criterion": "able to provide written informed consent as approved by the regional ethical committee after having received adequate information about the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other significant valve disease, coronary artery disease requiring revascularisation at the time of referral",
+      "label": "does_not_trigger",
+      "evidence": "The patient underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "previous open heart surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "myocardial infarction or percutaneous coronary intervention within the last year",
+      "label": "does_not_trigger",
+      "evidence": "The cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "stroke or TIA within the last 30 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal insufficiency requiring hemodialysis",
+      "label": "does_not_trigger",
+      "evidence": "The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US (showing moderate heterogeneous plaque with bilateral 1-39% ICA stenosis)."
+    },
+    {
+      "criterion": "pulmonary insufficiency (FEV1 or diffusion capacity < 40% of expected)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient's age and symptoms suggest eligibility, but the formal consult by a cardiologist and a cardiovascular surgeon is unknown. Additionally, the patient's ability to provide written informed consent is also unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01057173",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

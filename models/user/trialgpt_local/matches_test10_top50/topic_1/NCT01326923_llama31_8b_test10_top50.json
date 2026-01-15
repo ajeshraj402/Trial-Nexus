@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01326923",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients 18 years and older with histologically proven locally advanced stage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "III or IV unresectable Squamous cell head and neck cancer SCCHN (including cancers of oral cavity, oropharynx, larynx and hypopharynx) with no evidence of distant metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A careful evaluation for resection is required from the surgeon and criteria for unresectability carefully defined for individual primary sites as follows:",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient who have had prior treatment for head and neck cancer",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior history of radiation to head and neck area",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of anaplastic astrocytoma, but the current cancer is Squamous cell head and neck cancer. The patient's age is not mentioned, but it is assumed to be over 18 years old.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01326923",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

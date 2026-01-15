@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT01346059",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "SICU patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive c. diff toxin assay",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "visualization of pseudomembranes on colonoscopy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to give consent or have representative to give consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under age 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absence of a colon or surgical discontinuity of bowel",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "allergy to vancomycin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "need for anti-diarrheal medication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C. diff infections and was treated with an extended course of vancomycin.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01346059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

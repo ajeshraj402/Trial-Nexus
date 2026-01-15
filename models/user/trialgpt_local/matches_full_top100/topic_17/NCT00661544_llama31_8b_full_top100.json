@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00661544",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Multiple Myeloma in any of the following disease categories",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age up to 70 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Zubrod Performance Status (PS) of <2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction >40%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Forced vital capacity (FVC); Forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC) and Carbon Monoxide Diffusing Capacity (DL CO) >40%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum bilirubin <2 times upper limit of normal, SGPT <4 times upper limit of normal",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of chronic active hepatitis or cirrhosis. No effusion or ascites >1L prior to drainage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV-negative",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is not pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient or guardian able to sign informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Corrected QT interval less than 500 msec",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Corrected QT interval greater than 500 msec",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients in complete remission (defined as the absence of monoclonal protein on serum and urine immunofixation electrophoresis, and the absence of plasmacytosis in bone marrow aspirate and biopsy)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with non-secretory myeloma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma, s/p allogeneic transplant with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and represents for malaise, weakness, and generalized body aching x 2 days.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00661544",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

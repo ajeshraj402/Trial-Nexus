@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02946918",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "patient's age is 33"
+    },
+    {
+      "criterion": "Presumed AJCC tumor Stage I or II",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Planned total or near-total thyroidectomy",
+      "label": "met",
+      "evidence": "the patient underwent a planned total thyroidectomy"
+    },
+    {
+      "criterion": "Planned goal TSH suppression 0.1-0.5 mU/L for at least 18 weeks postoperatively",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Normal serum TSH within 12 months preceding surgery",
+      "label": "met",
+      "evidence": "the patient's most recent thyroid profile revealed a normal TSH level"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "AJCC Stage III or greater",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Undifferentiated, Anaplastic or Medullary Thyroid Cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Planned postoperative TSH goal other than 0.1-0.5 mU/L",
+      "label": "not_met",
+      "evidence": "the patient's planned postoperative TSH goal is within the specified range"
+    },
+    {
+      "criterion": "History of gastrointestinal malabsorption or gastric bypass surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "the patient's age and symptoms suggest she is not pregnant"
+    },
+    {
+      "criterion": "Use of medications that alter the absorption or metabolism of levothyroxine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior use of levothyroxine",
+      "label": "met",
+      "evidence": "the patient was prescribed 250 mcg Levothyroxine per day"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis and a family history of the disease. She underwent a planned total thyroidectomy and is taking levothyroxine.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02946918",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

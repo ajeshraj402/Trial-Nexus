@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02904863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of typical or atypical HUS in acute phase",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical diagnosis of typical or atypical HUS in acute phase",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "positive serological screening test for infection with the HIV",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "organ transplantation or bone marrow",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "autoimmune thrombotic thrombocytopenic purpura",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a clinical diagnosis of atypical hemolytic uremic syndrome in the acute phase. There is no history of cancer or organ transplantation.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02904863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04359069",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Elective procedures involving total mesorectal excision",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) class I-III",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who received neoadjuvant chemotherapy and/or radiation treatments will be included",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients undergoing emergent or urgent surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of urinary retention after previous procedure, surgery, or urinary catheter removal",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a small catheter in place due to severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04359069",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

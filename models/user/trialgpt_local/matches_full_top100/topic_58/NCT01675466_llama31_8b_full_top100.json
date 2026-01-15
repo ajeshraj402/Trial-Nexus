@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01675466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age greater than 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "admission with abdominal pain for up to one week prior to admission deemed to be non-specific by senior surgical team member",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient willing to give full informed consent for participation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients less than 18 years of age",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pain of greater than 7 days duration",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. CT scan showed evidence of acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT01675466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

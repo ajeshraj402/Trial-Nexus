@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01147978",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stay",
+      "label": "met"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "more than 48 hours of mechanical ventilation",
+      "label": "met"
+    },
+    {
+      "criterion": "accepting to be called back 3-month and on one year after discharge of ICU.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic cognitive deterioration before ICU admission",
+      "label": "does_not_trigger"
+    }
+  ],
+  "notes": "41-year-old man with Acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN and random GH level is 4 ug/L.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01147978",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

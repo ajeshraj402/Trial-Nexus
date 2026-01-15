@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03663959",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "myasthenia gravis, class IIa",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test"
+    },
+    {
+      "criterion": "diplopia and fatigue and weakness that affects mainly her upper limbs",
+      "label": "met",
+      "evidence": "physical exam"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery for malignancy suspicion or pelvic inflammatory disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pectouteropexy procedure",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT03663959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02687464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children",
+      "label": "met",
+      "evidence": "age 17"
+    },
+    {
+      "criterion": "clinical and/or radiological diagnosis of acute non-perforated appendicitis",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis, but diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "written informed parental/legal guardian permission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written informed child assent or waiver",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "suspicion of perforated appendicitis",
+      "label": "not_met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    },
+    {
+      "criterion": "presentation with an appendix mass or phlegmon",
+      "label": "met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "non-operative management initiated at an outside institution",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous episode of appendicitis or appendix mass/phlegmon treated non-operatively",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02687464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

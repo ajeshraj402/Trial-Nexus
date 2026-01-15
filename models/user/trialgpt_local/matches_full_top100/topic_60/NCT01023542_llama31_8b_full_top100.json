@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01023542",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and female liver transplant recipients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed, written informed consent prior to randomization",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "MELD scores \u226525",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients transplanted for autoimmune hepatitis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV positive patients",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with pre-transplant immunosuppressive treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine, and is a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01023542",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

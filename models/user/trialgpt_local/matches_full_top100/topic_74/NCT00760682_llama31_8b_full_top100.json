@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00760682",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age > 18",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no contraindications for hyperbaric oxygen treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "osteoradionecrosis grade 2, 3 or 4 according to the CTCAE v 3.0 criteria",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "localized to the mandibula",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malignancy/residual cancer",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous HBO treatment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or lactation (fertile female participants are required to use safe anticonception)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone and is being treated with Bisphosphonate. The diagnosis was confirmed by a sister who had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00760682",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01254851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Independent ambulation pre-operatively",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing gynecologic procedure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Expected to ambulate within 12 hours of their procedure",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children under the age of 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to ambulate independently prior to their surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Primary surgeon does not want patient to ambulate within 12 hours of procedure",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, undergoing a gynecologic procedure. However, the primary surgeon's preference for limited mobility may be a concern.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01254851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

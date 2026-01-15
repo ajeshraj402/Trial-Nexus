@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03758092",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-month old"
+    },
+    {
+      "criterion": "birth_weight",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gestational_age",
+      "label": "met",
+      "evidence": "born at term"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "heart_disease",
+      "label": "triggers",
+      "evidence": "systolic murmur 3+/6+ in the neck"
+    },
+    {
+      "criterion": "respiratory_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03758092",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

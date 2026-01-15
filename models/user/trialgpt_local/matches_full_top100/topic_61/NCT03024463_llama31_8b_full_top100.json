@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03024463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "over-treatment and under-treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Internal mammary sentinel lymph node biopsy (IM-SLNB)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have received neoadjuvant therapy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a previous history of breast cancer",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03024463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

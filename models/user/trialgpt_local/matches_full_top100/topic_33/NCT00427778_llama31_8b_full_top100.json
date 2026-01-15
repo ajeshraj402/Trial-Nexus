@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00427778",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptoms of urinary stress urinary incontinence",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "urodynamic stress urinary incontinence confirmed by urodynamic studies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to understand spoken and written English",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe pelvic organ prolapse",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications to pessary use",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to properly fit the incontinence ring",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, and she has symptoms of urinary stress urinary incontinence. She can understand spoken and written English.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00427778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

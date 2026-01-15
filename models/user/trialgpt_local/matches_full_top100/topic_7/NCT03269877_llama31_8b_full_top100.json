@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03269877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "liver cirrhosis of any etiology other than alcoholic cirrhosis",
+      "label": "met",
+      "evidence": "clinical examination, abdominal ultrasound examination, upper gastrointestinal endoscopy"
+    },
+    {
+      "criterion": "portal hypertension",
+      "label": "met",
+      "evidence": "clinical examination, abdominal ultrasound examination, upper gastrointestinal endoscopy"
+    },
+    {
+      "criterion": "male and female patients aged between 18-60 years",
+      "label": "met",
+      "evidence": "patient's age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "splenomegaly of any cause other than liver cirrhosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lymphoproliferative disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "extrahepatic malignancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients younger than 18 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "any associated cardiovascular disease",
+      "label": "not_met",
+      "evidence": "HTN"
+    }
+  ],
+  "notes": "Patient has documented evidence of liver cirrhosis and portal hypertension, meets inclusion criteria. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03269877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

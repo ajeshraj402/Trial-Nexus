@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01262196",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult male or female (surgically sterile or post-menopausal or confirmed not to be pregnant)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Trauma injury (blunt and/or penetrating) resulting in lactic acidosis due to hemorrhagic shock",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acidosis (blood lactate level \u2265 5 mmol/L; equivalent to 45 mg/dL) arterial or venous",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Massive injury incompatible with life",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normalization of lactate prior to dosing (\u2264 2.2 mmol/L)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 23-year-old man who came to the hospital with high blood pressure and signs of septicemia.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT01262196",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02652364",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with any form of shock on admission to ICU",
+      "label": "met",
+      "evidence": "patient looks ill with dry mucosa, blood pressure is 95/62 lying down and drops to 75/40 standing"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CKD stage 3 and above (GFR> 60)",
+      "label": "not_met",
+      "evidence": "lab study: Sodium 137 meq/L, Potassium 2 meq/L, Chloride 94meq/L, CO2 15 meq/L"
+    },
+    {
+      "criterion": "Chronic liver failure( Child's B grade and above)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who were already recruited for this study",
+      "label": "not_met",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Patients expected to die within next 48 hrs upon admission",
+      "label": "not_met",
+      "evidence": "patient is alive"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever and lab results are normal except for low potassium.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02652364",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

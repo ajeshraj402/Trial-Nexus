@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03152188",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "21-75 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "(a) Liver Biopsy (b) Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "not_met"
+    },
+    {
+      "criterion": "(c) Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "met"
+    },
+    {
+      "criterion": "(d) Endoscopic evidence of varices or portal gastropathy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "At least two HE episodes, one within the last year but not within the last month",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patient can be on lactulose and rifaximin",
+      "label": "met"
+    },
+    {
+      "criterion": "Able to give written, informed consent (mini-mental status exam>25 at the time of consenting)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Disease-related: (1) MELD score>17",
+      "label": "not_met"
+    },
+    {
+      "criterion": "(2) WBC count<1000",
+      "label": "met"
+    },
+    {
+      "criterion": "(3) TIPS, non-elective hospitalization or HE within last month",
+      "label": "unknown"
+    },
+    {
+      "criterion": "(4) on dialysis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "(5) known untreated, in-situ luminal GI cancers",
+      "label": "met"
+    },
+    {
+      "criterion": "Endoscopy-related: (1) Platelet count<50,000",
+      "label": "unknown"
+    },
+    {
+      "criterion": "(2) adverse reactions to sedation",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Safety-related: (1) Dysphagia",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples. She has abdominal pain, diarrhea, fever, tachycardia, and hypotension.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03152188",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT01029561",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "OSA (AHI >= 15)",
+      "label": "met"
+    },
+    {
+      "criterion": "Metabolic syndrome presence/absence",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe or unstable cardiovascular disease",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Congestive cardiac insufficiency or significant valvulopathy",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has OSA and metabolic syndrome, but has severe cardiovascular disease which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01029561",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

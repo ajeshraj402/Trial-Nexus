@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04269174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diarrhea > 4 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age above 18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age below 18 years old and diarrhea < 4 weeks",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has been experiencing severe diarrhea for an extended period, which meets the inclusion criteria. However, their age is above 18, but they have a condition that triggers exclusion.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04269174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

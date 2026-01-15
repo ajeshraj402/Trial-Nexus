@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02712346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "SS or S\u03b2o-thalassemia",
+      "label": "met",
+      "evidence": "known history of sickle cell disease"
+    },
+    {
+      "criterion": "Age 18-65 years",
+      "label": "met",
+      "evidence": "34-year-old man"
+    },
+    {
+      "criterion": "Microalbuminuria (24-hour albumin 150-300 mg) or macroalbuminuria (24-hour albumin >300 mq)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects can have Stage 1, II, or III chronic kidney disease (CKD)",
+      "label": "met",
+      "evidence": "no information on CKD stage"
+    },
+    {
+      "criterion": "Subjects can be on hydroxyurea, ACE inhibitors (ACEi), or angiotensin receptor blockers (ARBs) for a period of 3 months or greater",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females of child bearing potential must agree to use two forms of birth control with one being a barrier method; abstinence is an acceptable form of birth control",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other genotypes of SCD",
+      "label": "not_met",
+      "evidence": "known history of sickle cell disease"
+    },
+    {
+      "criterion": "History of renal transplant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic kidney disease (Stage IV and V including patients on hemo dialysis or peritoneal dialysis)",
+      "label": "not_met",
+      "evidence": "no information on CKD stage"
+    },
+    {
+      "criterion": "Patients on chronic transfusion therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled/poorly controlled hypertension or history of hypertension pre-dating proteinuria or",
+      "label": "not_met",
+      "evidence": "within normal blood pressure"
+    },
+    {
+      "criterion": "Known history of HIV, Hepatitis C, and/or diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Peripheral edema",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of congestive heart failure or pulmonary edema",
+      "label": "not_met",
+      "evidence": "no information on heart conditions"
+    }
+  ],
+  "notes": "Patient has severe bone pain, but no other significant medical history.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02712346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

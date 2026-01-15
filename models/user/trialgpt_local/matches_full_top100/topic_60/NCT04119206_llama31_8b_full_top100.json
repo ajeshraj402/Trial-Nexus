@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04119206",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed written consent",
+      "label": "met",
+      "evidence": "given by the participant or the next-of-kin"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Gender",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "Drug intolerance",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Years of age",
+      "label": "triggers",
+      "evidence": null
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He is a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04119206",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

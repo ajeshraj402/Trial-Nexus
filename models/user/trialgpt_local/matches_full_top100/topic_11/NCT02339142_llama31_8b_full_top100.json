@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02339142",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Active TED: Onset less than 6 months AND: Progressive with historic or measured worsening in one or more of VISA parameters in past 2 months",
+      "label": "met",
+      "evidence": "historic or measured worsening"
+    },
+    {
+      "criterion": "Moderately severe TED (all of the following criteria must be met): V: No optic neuropathy I: Inflammatory score >/= 4/10 S: Intermittent or constant diplopia in any direction except primary gaze AND/OR restriction in ductions to < 30 degrees in any cardinal direction on clinical examination",
+      "label": "met",
+      "evidence": "No optic neuropathy, inflammatory score >/= 4/10, intermittent or constant diplopia, and/or restriction in ductions"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 35 yrs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous orbital surgery or radiotherapy for TED",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Corticosteroid or immunotherapy within previous 2 months for TED",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable or unwilling to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and is experiencing worsening dysphagia, poor oral intake, weight loss, and lethargy. They have undergone XRT and RAI ablation.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02339142",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

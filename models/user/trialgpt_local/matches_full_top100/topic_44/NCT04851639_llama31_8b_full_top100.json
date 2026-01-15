@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04851639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born male",
+      "label": "met",
+      "evidence": "The patient is a 14-year-old boy"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "Patient is alert and cooperative"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "born male",
+      "label": "triggers",
+      "evidence": "The patient is a 14-year-old boy"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "Patient is alert and cooperative"
+    }
+  ],
+  "notes": "The patient has scoliosis and back pain, but no other medical conditions. He is a candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04851639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

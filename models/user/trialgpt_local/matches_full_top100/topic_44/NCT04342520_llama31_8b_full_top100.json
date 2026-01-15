@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04342520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "medical_condition",
+      "label": "not_met",
+      "evidence": "no other medical condition"
+    },
+    {
+      "criterion": "physical_activity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "scoliosis_surgery_candidate",
+      "label": "met",
+      "evidence": "candidate for scoliosis surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "care_home_resident",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "legal_protection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04342520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "approached until 100 of them signs the Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted for rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "65 years old or older",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Speaks English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read (even with glasses)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to write",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The expected results of the research: Results of this study will be published in a scientific journal.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, drinks 60 units of alcohol per week, smokes 22 cigarettes per day. Family history is positive for type 2 diabetes.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

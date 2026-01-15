@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03740789",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic HBV infection",
+      "label": "met",
+      "evidence": "presence of serum hepatitis B surface (HBsAg) for more than 6 months"
+    },
+    {
+      "criterion": "liver biopsy",
+      "label": "met",
+      "evidence": "underwent a liver biopsy"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "signed the informed consent before liver biopsy"
+    },
+    {
+      "criterion": "no interferon or Nucleoside analogue treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "co-infection with hepatitis A virus (HAV), hepatitis C virus (HCV), hepatitis D virus (HDV) and/or human immunodeficiency virus (HIV)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "decompensated cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of hepatocellular carcinoma (HCC)",
+      "label": "not_met",
+      "evidence": "negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "history of liver transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient with a history of antiviral treatment",
+      "label": "met",
+      "evidence": "on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months"
+    },
+    {
+      "criterion": "patient has medical condition that requires concurrent use of systemic prednisolone or other immunosuppressive agent (including chemotherapeutic agent)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient has one or more additional known primary or secondary causes of liver disease, other than hepatitis B",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 53-year-old man with chronic HCV infection. He is on combination therapy for the past 9 months and has no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03740789",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

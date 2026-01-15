@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04737655",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Maintenance therapy (LAMA or LABA) for COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission for AE of COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed Inform consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admitted in ICU >24h",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No CI for studied medication",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not treated with studied medication for at least 3 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04737655",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

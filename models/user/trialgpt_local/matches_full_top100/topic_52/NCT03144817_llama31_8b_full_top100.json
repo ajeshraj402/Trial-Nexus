@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03144817",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients undergoing thrice weekly in-center conventional HD",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 90 days since start of hemodialysis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absence of pulmonary edema / signs of fluid overload on physical exam",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Currently dialyzing at a DNa >=137 mEq/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Single session Kt/V >=1.3 each month for the past 2 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hypertensive, defined by a pre-dialysis BP of >140/90 or treatment with 1 or more antihypertensive agents",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No more than 1 skipped treatment and no more than 1 session per month shortened by >10",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life expectancy >12 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to provide Informed Consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Speaks and understands English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prone to IDH, defined as IDH occurring in >10% of treatments in the past 3 months.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever or blood in stool.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03144817",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03566667",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "follow-up visits, a reduced complexity at the visits, and an intervention that is additional to standard care but with no placebo control",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients managed at the Department of Respiratory Medicine at Orebro University Hospital or primary health care centers in Region Orebro County, with a doctor's diagnosis of COPD",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no International Classification of Diseases (ICD) codes for cardiovascular diseases and no present beta-blocker therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrioventricular (AV) block II or III without pacemaker, atrial fibrillation or flutter, clinical signs of or previously known cardiovascular disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "systolic blood pressure < 90, severe asthma, present beta-blocker therapy or ongoing COPD exacerbation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient refused right heart cath for evaluation of response to sildenafil but tolerated an inpatient trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03566667",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

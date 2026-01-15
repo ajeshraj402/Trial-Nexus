@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03667365",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic and severe AS defined by an effective AVA \u22641 cm\u00b2 and indexed AVA \u22640.6 cm2/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF \u226550%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MAG <40 mm Hg (measure confirmed by the multi-window continuous-wave Doppler interrogation and use of Pedoff probe)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Confirmation of the presence of severe AS at DSE and MDCT aortic calcium score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Feasibility of AVR by surgery or TAVR according to the \"heart team\"",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signature of an informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncontrolled atrial of ventricular arrhythmias",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient having a life expectancy <1 year, independently from their aortic pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coronary artery disease necessitating a percutaneous or surgical revascularisation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of a concomitant valve disease needing surgical treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient who are included in another research protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Protected person (adults legally protected (under judicial protection, guardianship or supervision), person deprived of their liberty, pregnant woman, lactating woman and minor)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient with severe aortic stenosis, symptoms, and severe AS confirmed by echo. No coronary artery disease necessitating revascularisation.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03667365",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

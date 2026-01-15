@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00216060",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically confirmed adenocarcinoma of the prostate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metastatic bone disease (by CT, MRI or bone scan) with plans to start or be < 30 days from beginning androgen deprivation therapy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No neuroendocrine, small cell or transitional cell cancer of the prostate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No abnormal bone metabolism (i.e., Paget's disease, untreated hyperthyroidism, untreated hyperprolactinemia, untreated Cushing's disease)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00216060",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

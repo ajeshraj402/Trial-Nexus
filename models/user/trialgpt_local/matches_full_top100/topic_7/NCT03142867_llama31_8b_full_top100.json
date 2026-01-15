@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03142867",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "liver biopsy, are consented to phase II, and do not have known CAD defined as prior",
+      "label": "met"
+    },
+    {
+      "criterion": "percutaneous coronary intervention (PCI) or coronary artery bypass graft (CABG) or have",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Subjects undergoing this portion of the analysis will need a renal function panel within 30 days of the scan date with a glomerular filtration rate (GFR) of \u2265 60 mls/min/1.73m2 by the Cockcroft-Gault equation",
+      "label": "met"
+    },
+    {
+      "criterion": "no prior history of an allergic reaction to intravenous CT contrast, and no contraindications to administration of sublingual nitroglycerin and nodal blocking agents",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the subject. This questionnaire will include data such as race and ethnic group, past medical history, current medications, etc.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "greater or equal to 5% steatosis on MRI or liver stiffness greater than 7 kPa on Fibroscan\u00ae, or evidence of fibrosis on MRE or LIF score of 2.0 or greater",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03142867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

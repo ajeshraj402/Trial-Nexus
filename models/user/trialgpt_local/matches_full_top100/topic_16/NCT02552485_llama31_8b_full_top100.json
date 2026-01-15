@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02552485",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Previous repair for secundum ASD, VSD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diastolic CHF",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other congenital heart disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic lung disease or total lung capacity < 80% of predicted value",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of diastolic CHF and pulmonary hypertension thought secondary to a chronic ASD. They have also been diagnosed with COPD on home oxygen.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02552485",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

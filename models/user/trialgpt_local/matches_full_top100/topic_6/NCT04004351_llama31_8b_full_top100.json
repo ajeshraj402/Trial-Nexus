@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04004351",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hdm-associated-allergic-rhinitis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "conjunctivitis-and-or-asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sensitization-to-hdms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eligible-for-hdm-sublingual-immunotherapy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "never-received-hdm-sublingual-allergen-immunotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "informed-consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient-agreement-to-participate",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "received-hdm-sublingual-allergen-immunotherapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "immune-disorder-or-immunodeficiency-or-malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participation-in-any-clinical-study",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, which may be relevant to the study. However, she also has a history of recurrent C diff infections, which could be a contraindication for participation.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04004351",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02586948",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical exacerbation of a known or suspected COPD",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "intubation and invasive mechanical ventilation since less than 72 hrs.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ACV or CV mode (VT 8 ml/kg, RR 12/min., PEEP : 0 cmH20)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pH < 7.30 and PaCO2 > 55 mm Hg and PEEPi (end-expiratory occlusion) > 5 cmH20",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "written inform consent (patient, patient's legal surrogate)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "affiliation to a social security regime",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Body Mass Index (BMI) > 35 kg/m2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PaO2/FiO2 < 200 mm Hg",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of hemorrhagic stroke",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "heparin-induced thrombocytopenia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe thrombopenia type II history",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, but no other exclusion criteria are mentioned.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02586948",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

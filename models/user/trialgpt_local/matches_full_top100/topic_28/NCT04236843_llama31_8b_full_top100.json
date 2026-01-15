@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04236843",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Rome IV criteria for the diagnosis of IBS",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "investigated to exclude other gastrointestinal organic cause(s)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Moderate-to-severe IBS symptoms, as indicated by a score of \u2265175 on the IBS Severity Scoring System (IBS-SSS)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The use of antibiotics or probiotics within 1 month prior to FMT",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immunocompromised patients defined as those treated by immune-suppressive medications",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with co-morbidity such as kidney failure or chronic heart disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "System disease such as diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with serious psychiatric disorders or drug abuse",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04236843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

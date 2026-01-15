@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01781507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 to 65 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Physician diagnosis of mild asthma based on the NIH guidelines",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Physician diagnosis of allergic rhinitis and confirmed by at least 3+ skin test response to at least one allergen",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Evidence of abnormal, reversible airway function on impulse oscillometry",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with inhaled or oral corticosteroids within one month of screening visit",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Change in dosage of intranasal corticosteroids, or oral anti-leukotrienes within one month of screening visit",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath. History of asthma for 3 years.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01781507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

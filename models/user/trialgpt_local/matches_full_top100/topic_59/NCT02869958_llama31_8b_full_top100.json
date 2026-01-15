@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02869958",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "asthma diagnosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe exacerbation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "internet connexion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "smartphone/tablet computer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no written action plan",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "social security affiliation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atypical asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other respiratory disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe heart disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "smoking > 15 pack-years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asthma requiring regular oral corticosteroids treatment",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and presents with shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02869958",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

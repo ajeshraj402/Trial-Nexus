@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00427778",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "urinary stress urinary incontinence",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "urodynamic Stress urinary incontinence confirmed by urodynamic studies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to understand spoken and written English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe pelvic organ prolapse (> or = stage 3 on the Pelvic Organ Prolapse Quantification System - POP-Q)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to pessary use (including acute vaginal/urinary or pelvic infections, vaginal or cervical lesions or unexplained vaginal bleeding)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to properly fit the incontinence ring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has symptoms of urinary stress urinary incontinence and is able to understand spoken and written English. However, she may have severe pelvic organ prolapse or contraindications to pessary use.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00427778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

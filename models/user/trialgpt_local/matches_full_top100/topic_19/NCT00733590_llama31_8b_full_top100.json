@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00733590",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of acute MI at least 4 weeks old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Non-ischemic LV dysfunction for at least 9 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "EF < or = to 35%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Undergone ERI generator replacement of an FDA-approved ICD for primary prevention of SCD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SCD within 24 months of enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary prevention implants",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ICD generator replacement for secondary prevention",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability or unwillingness to provide valid informed consent",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "New York Heart Association Class IV heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with pre-existing Class 1 indications for pacemaker therapy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00733590",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

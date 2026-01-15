@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT02717949",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Willing and able to provide written informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Male or female >18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "HCV treatment experienced or na\u00efve",
+      "label": "met"
+    },
+    {
+      "criterion": "Chronic Hepatitis C based on the judgment of the investigator",
+      "label": "met"
+    },
+    {
+      "criterion": "HCV genotype 1, 2, 3, 4",
+      "label": "met"
+    },
+    {
+      "criterion": "Indolent Non-Hodgkin's lymphoma",
+      "label": "met"
+    },
+    {
+      "criterion": "Karnofsky performance status > 70%",
+      "label": "met"
+    },
+    {
+      "criterion": "Creatinine clearance \u226560 mL/min",
+      "label": "met"
+    },
+    {
+      "criterion": "Hg >12 g/dL for male",
+      "label": "unknown"
+    },
+    {
+      "criterion": "All women of child-bearing potential who take ribavirin will need to have a negative urine pregnancy test",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy < 6 months",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Co-infection with hepatitis B",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Prior chemotherapy for lymphoma",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Female who is pregnant or breast feeding and HCV treatment requires use of ribavirin",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of Burkitt's Lymphoma, but no prior chemotherapy. They also have a large pericardial effusion which may be related to their lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02717949",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

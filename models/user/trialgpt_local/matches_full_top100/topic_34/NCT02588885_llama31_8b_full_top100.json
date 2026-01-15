@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02588885",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fluent_in_english",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "history_of_sexual_abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "premenopausal",
+      "label": "not_met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "chronic_pelvic_pain",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not_menstruating_for_reasons_other_than_birth_control",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current_trauma-focused_psychological_treatment",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "psychotic_symptoms_or_anti-psychotic_medications",
+      "label": "not_met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "suicidal_ideation_in_past_month",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "currently_pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness, loss of interest in activities, and weight loss. She also has a history of digestive issues.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT02588885",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

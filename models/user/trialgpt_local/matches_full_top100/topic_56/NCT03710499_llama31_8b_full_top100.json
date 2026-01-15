@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03710499",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acromegaly",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 and < 65",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active or controlled disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinical stability",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "eligible for treatment protocol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "signature of Informed Consent Term (TCLE)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability to perform the 6MWT according to ATS criteria",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cognitive impairment by mini mental state examination (MEEN)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abandonment of treatment during the application of the protocol",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "uncontrolled hypertension (> 180/100 mmHg with medication use)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "use of psychotropic drugs",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He has clinical stability and is eligible for the treatment protocol.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03710499",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

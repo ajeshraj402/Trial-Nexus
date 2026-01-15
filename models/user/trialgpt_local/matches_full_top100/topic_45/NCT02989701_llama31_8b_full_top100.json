@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02989701",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of sickle cell disease with genotype HbSS, HbS/ Beta 0 thalassemia, HbSD, or HbSO.",
+      "label": "met",
+      "evidence": "Hemoglobine electrophoresis: 91% HbS 6%HbF 3%HbA2"
+    },
+    {
+      "criterion": "Age 18-35 years.",
+      "label": "met",
+      "evidence": "The patient is a 34-year-old African American man."
+    },
+    {
+      "criterion": "Receiving regularly-scheduled blood transfusions as part of existing medical care.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adequate hematologic parameters including: White blood cell (WBC) count within the range of 2.5 - 25.0 x 10^9 /L",
+      "label": "met",
+      "evidence": "WBC: 10000 /mm3"
+    },
+    {
+      "criterion": "Adequate hematologic parameters including: Hemoglobin within the range of 5 - 11 g/dL",
+      "label": "not_met",
+      "evidence": "Hgb: 8 g/dl"
+    },
+    {
+      "criterion": "Adequate organ function and performance status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Karnofsky performance status \u226570%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum creatinine \u2264 1.5 times the upper limit of normal for age, and calculated creatinine clearance or GFR \u2265 60 mL/min/1.73 m2.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who are taking hydroxyurea are allowed to be included in this study.",
+      "label": "met",
+      "evidence": "The patient has had positive history of sickle cell crises since childhood."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have uncontrolled illness including, but not limited to: Ongoing or active infection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Emergency room admission or hospitalization for SCD-related reason in the past 30 days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major surgery in the past 30 days",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medical/psychiatric illness/social situations that would limit compliance with study requirements as determined by the treating physician.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known myelodysplasia of the bone marrow or abnormal bone marrow cytogenetics.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Receipt of an investigational study drug or procedure within 90 days of study enrollment.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or breastfeeding.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02989701",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

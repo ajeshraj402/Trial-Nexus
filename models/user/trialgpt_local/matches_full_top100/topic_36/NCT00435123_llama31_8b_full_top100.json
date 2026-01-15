@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00435123",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "serum albumin for the previous month is < 3.7 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Protein catabolic rate less than 1.0 g/kg/d on at least 2 occasions over the past 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Progressive unintentional weight loss more than 2.5% of the initial or ideal body weight and/or patients who are less than 90% of Standard Body Weight",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjective Global Assessment Score consistent with Moderate to Severe Malnutrition within the last month",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Biochemical parameters of malnutrition defined by 1 of 2 of the following: Serum transferrin concentration less than 225 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is able to transfer with minimal or no assistance",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Not taking a caloric nutritional supplement for the last 30 days (e.g. Nepro, ProStat, Boost,etc)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active auto-immune, inflammatory or infectious disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented malignancy within the last 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on unusual dietary restrictions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00435123",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

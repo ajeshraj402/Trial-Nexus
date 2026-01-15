@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00278083",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Have a diagnosis of moderate asthma as defined by the American Thoracic Society criteria (NIH, 1997) for > 1 year.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Men and women, >/= 18 to </= 60 years of age and within 60-140% of desirable height and weight range established by the 1983 Metropolitan Life Insurance Company standards.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-smoker for at least 1 year and less than a 10 pack year history of smoking.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Screening values for haematology, biochemistry and urinalysis should be within clinically acceptable limits for this patient group.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chest radiograph at screening must show no evidence of malignancy, infection, or fibrosis. The chest radiographs should also show no apical scarring, cavitary lesions, or calcified granulomas, as evidence of past tuberculosis infections.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serological assays for hepatitis B and C must be negative for active infection.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Are pregnant, nursing, or planning a pregnancy within 12 months of enrolment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of chronic obstructive pulmonary disease, cystic fibrosis or other significant respiratory disorder (excluding asthma).",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of COPD and is currently experiencing shortness of breath, which may indicate an exacerbation of asthma symptoms requiring hospitalization within the previous 12 weeks.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00278083",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

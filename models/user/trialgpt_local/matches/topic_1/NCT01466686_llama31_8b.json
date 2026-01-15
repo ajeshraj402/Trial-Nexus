@@ -1,0 +1,115 @@
+{
+  "trial_id": "NCT01466686",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have recurrent GBM (Glioblastoma Multiforme)or Anaplastic Astrocytoma.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine."
+    },
+    {
+      "criterion": "The diagnosis of GBM or Anaplastic Astrocytoma.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Patients must have been previously treated with surgical resection (any extent okay) and adjuvant radiation therapy plus temozolomide.",
+      "label": "met",
+      "evidence": "Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off."
+    },
+    {
+      "criterion": "Patients must be at least 12 months from completion of radiation therapy.",
+      "label": "met",
+      "evidence": "Patient has been previously treated with radiation, but no mention of time since treatment."
+    },
+    {
+      "criterion": "At least 2 months from completion of temozolomide (to be consistent with the the 'rechallenge' group from Perry et al. JCO 2010).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age >18 years.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "ECOG performance status <2 (Karnofsky >60%, see appendix A).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "There must be measurable disease on MRI.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass."
+    },
+    {
+      "criterion": "Patients must have normal organ and marrow function as defined below:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women must not be pregnant.",
+      "label": "met",
+      "evidence": "Patient is a man."
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Temozolomide re-treatment is planned by the treating neuro-oncologist.",
+      "label": "met",
+      "evidence": "Therapy included 11 cycles of temozolomide."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Must be able to receive an MRI.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients may not be receiving any other investigational cancer treatment agents at the time of enrollment.",
+      "label": "met",
+      "evidence": "Patient has only mentioned standard treatments."
+    },
+    {
+      "criterion": "Patients may not have previously failed treatment with salvage temozolomide.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients may not have previously failed treatment with a VEGF inhibitor.",
+      "label": "met",
+      "evidence": "Patient has only mentioned standard treatments."
+    },
+    {
+      "criterion": "Patients may not have previously been treated with >1 course of radiotherapy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients may not have previously been treated with radiosurgery to the brain.",
+      "label": "met",
+      "evidence": "Patient has only mentioned standard treatments."
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant and breastfeeding women are excluded. Women of child-bearing potential who are unwilling or unable to use and acceptable method of birth control to avoid pregnancy for the entire study period and up to 12 weeks after the study are excluded.",
+      "label": "met",
+      "evidence": "Patient is a man."
+    }
+  ],
+  "notes": "ECOG performance status, organ and marrow function, previous treatment with salvage temozolomide or VEGF inhibitor, number of courses of radiotherapy, and radiosurgery to the brain are unknowns.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01466686",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

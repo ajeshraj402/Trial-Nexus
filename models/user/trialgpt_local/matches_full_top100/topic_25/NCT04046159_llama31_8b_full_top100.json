@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04046159",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New histologically diagnosed breast ductal carcinoma in situ (DCIS)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 40 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Low risks of BRCA (breast cancer)1 and BRCA2: Manchester Score < 10",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The DCIS must be detected by mammogram and must be unicentric, and no-mass lesion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Status post breast conserving surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pathological characteristics (all characteristics) 7.1 Lesions \u2264 2.5 cm in greatest dimension on pathologic specimen",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "7.2 Must be classified as low or intermediate nuclear grade DCIS but without comedo necrosis according to Pathologic Guidelines (section 9.2.2)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "7.3 Margins as assessed by the ink method will be 3 mm or greater",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "7.4 Must be estrogen receptor (ER)-positive DCIS, ER percentage must be \u226510%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically node negative",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known BRCA1 or BRCA2 mutation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age < 40 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women whose DCIS is palpable at the time of diagnosis, or multi-centric (mammography), or mass (mammography), or who have bloody nipple discharge.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pathological characteristics 4.1 Lesions measuring greater than 2.5 cm in greatest dimension on pathologic specimen",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "4.2.High-grade lesions or low to intermediate grade with comedo necrosis as classified by the Guidelines.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "4.3. Margins as assessed by the ink method will be less than 3 mm",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "4.4. ER-negative DCIS or ER-positive percentage < 10% in tumor cells",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 42 year-old postmenopausal woman who had a screening sonogram which revealed an abnormality in the right breast. She had no palpable masses on breast exam.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04046159",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

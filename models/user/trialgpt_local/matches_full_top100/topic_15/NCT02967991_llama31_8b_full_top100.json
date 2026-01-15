@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02967991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "Platelet count",
+      "label": "met",
+      "evidence": "> 50,000 (HCT 30.7)"
+    },
+    {
+      "criterion": "INR",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non-pregnant patients",
+      "label": "met",
+      "evidence": "patient is a woman"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant Patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to obtain consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anticoagulants or anti-platelet agents use (excluding aspirin) within the last 7-10 days",
+      "label": "not_met",
+      "evidence": "treated with IV antibiotics"
+    },
+    {
+      "criterion": "Platelet count < 50,000",
+      "label": "met",
+      "evidence": "> 50,000 (HCT 30.7)"
+    },
+    {
+      "criterion": "INR > 1.5",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of ascites",
+      "label": "not_met",
+      "evidence": "no mention of ascites"
+    },
+    {
+      "criterion": "Known liver cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic flecture/pancreatic tail mass likely diverticular abscess.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02967991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

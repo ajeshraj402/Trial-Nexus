@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01025583",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children 3-36 months old seen in the pediatrician offices presenting acute diarrhea",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "lasting less than 48 h are considered eligible for the study",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "body weight/height ratio below the 5th percentile",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinical signs of severe dehydration",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "clinical signs of a coexisting severe acute systemic illness (meningitis, sepsis, pneumonia)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immunodeficiency",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "underlying severe chronic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malnutrition",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "cystic fibrosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "food allergy or other chronic gastrointestinal diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, with profuse watery diarrhea without odor. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01025583",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00848731",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "SBP > 89 mm Hg unless patient has a known prior history of low blood pressure, and blood oxygen saturation of >80%",
+      "label": "met"
+    },
+    {
+      "criterion": "Diagnosis of acute PE requires symptoms of PE present <14 days with CT angiography interpreted as positive for acute PE",
+      "label": "unknown"
+    },
+    {
+      "criterion": "All patients must have CT chest angiography with <2 mm collimation, with or without indirect venography",
+      "label": "met"
+    },
+    {
+      "criterion": "SBP > 89 mm Hg at the time of enrollment. We will allow enrollment for a patient with an SBP < 90 mm Hg prior to enrollment, or a patient with a SBP>80 mm Hg, if the patient has a documented or patient-identified history of low blood pressure and has no symptoms of shock",
+      "label": "met"
+    },
+    {
+      "criterion": "SaO2% >80% at time of enrollment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must have a Borg score greater than 4/10",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "large need for supplemental oxygen",
+      "label": "not_met"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "pneumothorax with decompression",
+      "label": "unknown"
+    },
+    {
+      "criterion": "A serum mtHb greater than 10%",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient trial of sildenafil without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00848731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

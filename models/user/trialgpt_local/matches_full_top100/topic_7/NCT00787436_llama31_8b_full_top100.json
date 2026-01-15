@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00787436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Endoscopic confirmation or portal hypertension related GI bleeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Over the age of 18 with the ability to willingly sign an informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate performance status and cognitive ability",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must be willing to comply with all FDA-mandated prescribing and safety while taking Thalidomide",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemodynamically stable with no evidence of ongoing bleeding (defined as a Hgb that has not varied by more than 10% over 12 hour period.)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No other serious illness or medical condition including unstable cardiac disease requiring treatment, new onset crescendo or rest angina. Stable exertional angina is acceptable.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No history of significant neurological or psychiatric disorders including psychotic disorders, dementia, or seizures or active infection",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis and grade II esophageal varices. Recent admission for UGIB due to NSAID gastritis.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00787436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

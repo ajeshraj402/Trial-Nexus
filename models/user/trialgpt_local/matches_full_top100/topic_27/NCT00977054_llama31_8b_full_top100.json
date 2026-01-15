@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00977054",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Treatment na\u00efve",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Age 18 and older",
+      "label": "met"
+    },
+    {
+      "criterion": "Anti-HCV (Abbott HCV EIA 2.0, Abbott Diagnostic, Chicago, IL) positive > 6 months",
+      "label": "met"
+    },
+    {
+      "criterion": "Detectable serum quantitative HCV-RNA (Cobas Taqman v2.0, Roche Diagnostics) with HCV",
+      "label": "met"
+    },
+    {
+      "criterion": "RNA > 800,000 IU/mL",
+      "label": "unknown"
+    },
+    {
+      "criterion": "HCV genotype 1 (Inno-LiPA, Innogenetics)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "A liver biopsy consistent with the diagnosis of chronic hepatitis C",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anemia (hemoglobin < 13 gram per deciliter for men and < 12 gram per deciliter for women)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Neutropenia (neutrophil count <1,500 per cubic milliliter)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Thrombocytopenia (platelet <90,000 per cubic milliliter)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Co-infection with hepatitis B virus (HBV) or human immunodeficiency virus (HIV)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Chronic alcohol abuse (daily consumption > 20 gram per day)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Decompensated liver disease (Child-Pugh class B or C)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Serum creatinine level more than 1.5 times the upper limit of normal",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Autoimmune liver disease",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00977054",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

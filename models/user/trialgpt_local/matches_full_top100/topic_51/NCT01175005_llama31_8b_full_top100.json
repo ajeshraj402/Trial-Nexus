@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01175005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age and younger",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fever and a central venous catheter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presentation to an Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Central line secondary to Hematologic/Oncologic, Renal or Gastrointestinal disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Intravenous antibiotics in the 24 hours prior to presentation",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PICC line",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Gram-negative rod-shaped bacterial cells in urine culture.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT01175005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

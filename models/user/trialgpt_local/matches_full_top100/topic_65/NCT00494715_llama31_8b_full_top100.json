@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00494715",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >40",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Type 2 diabetes (WHO criteria)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine concentration of 1.8 mg/dl or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Urinary albumin to creatinine ratio >1000mg/g for patients without previous ACE inhibitor or ARB therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Legal capacity",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Specific contraindications or history of hypersensitivity to the study drugs or other",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum potassium \u2265 6 mEq/L despite diuretic therapy, and optimized metabolic and acid/base control",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bilateral renal artery stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of allergy or intolerance, or evidence of immunologically-mediated renal disease, systemic diseases, cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00494715",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

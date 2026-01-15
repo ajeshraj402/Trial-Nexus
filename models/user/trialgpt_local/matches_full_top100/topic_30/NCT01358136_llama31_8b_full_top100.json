@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01358136",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI 20-40",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No past thyroid diseases",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No medication with influence on the pituitary-thyroid axis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No hormone replacement therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No childbirth or pregnancy within the last year",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Not currently breastfeeding",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Going to undergo hemithyroidectomy for nontoxic goiter at the department of otorhinolaryngology at Slagelse Hospital, Denmark.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Malignant goiter, diagnosed by histological examination of the resected tissue",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and is taking Levothyroxine. Her symptoms improved significantly after treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01358136",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

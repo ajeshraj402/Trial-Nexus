@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01264315",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "off IV antibiotics and amphotericin for documented infections",
+      "label": "met"
+    },
+    {
+      "criterion": "patients should be CMV antigenemia negative",
+      "label": "unknown"
+    },
+    {
+      "criterion": "should have completed administration of any radiotherapy",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient must have the capacity to give informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Age >18 and < 65",
+      "label": "met"
+    },
+    {
+      "criterion": "If female, the patient is either postmenopausal since at least 24 consecutive months or surgically sterilized or she agrees to practice sexual abstinence or to use two reliable methods for contraception (e.g. a hormonal contraceptive, intra-uterine device, diaphragm with spermicide, condom with spermicide) for the duration of study",
+      "label": "unknown"
+    },
+    {
+      "criterion": "If male, the patient agrees to practice sexual abstinence or to use a latex condom during any sexual contact with women of childbearing potential for the duration of study",
+      "label": "met"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Newly diagnosed multiple myeloma patients with an HLA identical sibling suitable for PBSC donation and treated in induction with thalidomide or bortezomib or lenalidomide containing regimes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Complete cytogenetic analysis at diagnosis, including FISH analysis for chromosome deletions 13 and 17, and translocations (4;14) (11;14) and (14;16)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Karnofsky score less than 60 (see appendix C), unless due solely to myeloma",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction less than 40%, or symptomatic coronary artery disease or other cardiac failure requiring therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Bilirubin greater than 2 X the upper limit of normal, or SGPT and SGOT > 4 X the upper limit of normal",
+      "label": "unknown"
+    },
+    {
+      "criterion": "DLCO < 40% (corrected) or receiving continuous supplemental oxygen.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Creatinine clearance < 40 cc/min at the time of initial autografting evaluation.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens including melphalan, prednisone, VAD, thalidomide, velcade, and pamidronate.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01264315",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

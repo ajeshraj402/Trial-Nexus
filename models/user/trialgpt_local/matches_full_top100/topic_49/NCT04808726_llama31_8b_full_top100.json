@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04808726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "know reading",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primiparity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "term and healthy birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having a healthy newborn",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "vaginal delivery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not knowing Turkish",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiparousness",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "early childbirth",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the health status of the newborn is not good",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, treating with GH. Mentally retarded and obese.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04808726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

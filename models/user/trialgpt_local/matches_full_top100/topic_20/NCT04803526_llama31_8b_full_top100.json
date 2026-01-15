@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04803526",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Currently married women within reproductive age group (15-49 years)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with history of acne and mild hirsutism",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnant women, breast feed women (till 6 months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intension to get pregnant within the next 12 months and husband is traveler",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne, mild hirsutism, and elevated testosterone levels. She also has a macroadenoma with no invasion.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT04803526",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

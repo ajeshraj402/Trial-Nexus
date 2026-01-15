@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00128869",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary complaint of neck pain",
+      "label": "met",
+      "evidence": "The patient is a 15 year old girl with the history of recurrent bilateral headache."
+    },
+    {
+      "criterion": "Age between 18-60 years old",
+      "label": "met",
+      "evidence": "She is a high-school student"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Red flags from the medical neck screening questionnaire to include tumor, fracture, metabolic disease, rheumatoid arthritis (RA), osteoporosis, prolonged history of steroid use.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of whiplash injury",
+      "label": "not_met",
+      "evidence": "There is nothing remarkable in her physical exam."
+    },
+    {
+      "criterion": "Diagnosis of cervical spinal stenosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bilateral upper extremity symptoms",
+      "label": "not_met",
+      "evidence": "The attacks are associated with nausea and photophobia."
+    },
+    {
+      "criterion": "Evidence of central nervous system involvement to include hyperreflexia, sensory disturbances in the hand, intrinsic muscle wasting of the hands, unsteadiness during walking, nystagmus, loss of visual acuity, impaired sensation of the face, altered",
+      "label": "not_met",
+      "evidence": "There is nothing remarkable in her physical exam."
+    }
+  ],
+  "notes": "The patient has a history of recurrent bilateral headache and is diagnosed with migraine headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT00128869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT03936881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patient (18 years of age or older) attending the dental care centre at the Rennes University Hospital;",
+      "label": "met"
+    },
+    {
+      "criterion": "Who had an orthopantomogram radiological examination at the Rennes Dental Care Centre between 1 September 2018 and 31 December 2018;",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Orthopantomogram not usable, not allowing to visualize the sub-mandibular region (due to poor patient positioning);",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Persons of full age who are subject to legal protection (protection of justice, guardianship, guardianship), persons deprived of their liberty.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "46-year-old man with dizziness and frequent headaches. Severe stenosis in the left internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03936881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

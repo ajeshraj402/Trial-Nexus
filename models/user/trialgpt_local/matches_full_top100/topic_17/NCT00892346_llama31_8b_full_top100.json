@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00892346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Man or woman between age 18-65 with newly diagnosed Multiple Myeloma for whom stem cell transplantation is considered appropriate",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Measurable serum and/or urinary paraprotein",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "European Cooperative Oncology Group performance status 0-3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum bilirubin < 1.5x the upper limit of normal (ULN)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Serum alanine transaminase (ALT)/aspartate transaminase values < 2.5 x ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects (or their legally acceptable representatives) must signed an informed consent document indicating that they understanding the purpose of and procedures required for the study and are willing to participate in the study",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Woman of child bearing potential",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-secretory MM",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine > 400 Micromol/l after initial resuscitation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients with previous Grade 2-4 peripheral neuropathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma, s/p allogeneic transplant with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00892346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

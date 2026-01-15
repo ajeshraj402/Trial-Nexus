@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00506181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hospitalized in Department of Internal Medicine for minimum duration of 3 days",
+      "label": "met",
+      "evidence": "physical exam and lab studies were normal otherwise"
+    },
+    {
+      "criterion": "age >18",
+      "label": "met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "gender has no impact on usage of drug",
+      "label": "met",
+      "evidence": "no mention of gender impacting treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient does not agree to participate in study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient on NPO order including medications",
+      "label": "not_met",
+      "evidence": "no mention of NPO order"
+    },
+    {
+      "criterion": "patient suffers from Celiac disease",
+      "label": "not_met",
+      "evidence": "no mention of Celiac disease"
+    }
+  ],
+  "notes": "41 year old man with tinea pedis infection, no underlying diseases mentioned",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00506181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

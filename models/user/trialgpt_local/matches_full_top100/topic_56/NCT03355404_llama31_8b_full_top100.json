@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03355404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "major_patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_hospitalized_for_surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients_agreeing_to_participate_in_the_study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_supports_in_the_south_block",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_speaking_and_understanding_French",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient_with_reduced_mobility",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_with_a_mental_disability",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_suffering_from_a_severe_psychiatric_pathology",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "major_patient_protected",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03355404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

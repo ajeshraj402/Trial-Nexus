@@ -1,0 +1,92 @@
+{
+  "trial_id": "NCT03011775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "screening examination to verify the diagnosis of coronary heart disease and type 2 diabetes",
+      "label": "met"
+    },
+    {
+      "criterion": "standard medical therapy complex: isosorbide dinitrate, acetylsalicylic acid, bisoprolol, rosuvastatin, ramipril",
+      "label": "met"
+    },
+    {
+      "criterion": "conventional treatment for at least one month to achieve stable parameters",
+      "label": "met"
+    },
+    {
+      "criterion": "randomization by gender, age and severity of clinical manifestations of coronary heart disease",
+      "label": "met"
+    },
+    {
+      "criterion": "study group will include pioglitazone 15 mg 1 time per day for 6 months",
+      "label": "met"
+    },
+    {
+      "criterion": "control group will continue to receive only a standard set of drug therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "ultrasonography of neck vessels on ULTIMA PA, sensor L5 - 12/40, in accordance with standard protocols",
+      "label": "met"
+    },
+    {
+      "criterion": "contour of the carotid arteries will register, their inner lumen, indicators for ASP presence (size, localization) will record",
+      "label": "met"
+    },
+    {
+      "criterion": "IMT of the carotid arteries will measure as the distance between the first and the second echogenic lines of located site according to the procedure Pignoli P. et al.",
+      "label": "met"
+    },
+    {
+      "criterion": "laboratory tests will include general clinical and biochemical blood analysis",
+      "label": "met"
+    },
+    {
+      "criterion": "glycemic profiles will study determining fasting glucose and after 1 hour after taking 75 g of glucose (oral glucose tolerance test, OGTT) via glucose oxidase method",
+      "label": "met"
+    },
+    {
+      "criterion": "lipid profile will studied: total cholesterol (TC), triglycerides (TG) and cholesterol of high-density lipoproteins (HDL)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of myocardial infarction history, intervention",
+      "label": "triggers"
+    },
+    {
+      "criterion": "malignant arterial hypertension (AH)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "chronic heart failure (HF) of III-IV functional class (FC)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "systemic connective tissue diseases",
+      "label": "unknown"
+    },
+    {
+      "criterion": "cancer and oncohematological diseases, severe infectious diseases, chronic inflammatory diseases",
+      "label": "unknown"
+    },
+    {
+      "criterion": "history of acute cerebrovascular accidents",
+      "label": "triggers"
+    },
+    {
+      "criterion": "disorders of cardiac rhythm by atrial fibrillation type",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of myocardial infarction, malignant arterial hypertension and chronic heart failure, which are exclusion criteria. However, the patient's overall assessment is likely eligible due to the presence of met inclusion criteria.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03011775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

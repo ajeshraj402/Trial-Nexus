@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04303715",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "breast_exam",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "biopsy_result",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma in the left upper outer quadrant"
+    },
+    {
+      "criterion": "surgical_treatment",
+      "label": "met",
+      "evidence": "Lumpectomy was done and the surgical margins were clear"
+    },
+    {
+      "criterion": "hormone_receptor_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HER2_status",
+      "label": "met",
+      "evidence": "The tumor was HER2-positive"
+    },
+    {
+      "criterion": "lymph_node_status",
+      "label": "not_met",
+      "evidence": "Axillary sampling revealed 1 positive lymph node out of 12 sampled"
+    },
+    {
+      "criterion": "radiation_treatment",
+      "label": "met",
+      "evidence": "All patients are planned to receive ipsilateral whole breast radiation"
+    },
+    {
+      "criterion": "performance_status",
+      "label": "met",
+      "evidence": "Performance status corresponding to ECOG grade 0-2"
+    },
+    {
+      "criterion": "tumor_size",
+      "label": "met",
+      "evidence": "Tumor size clinically and radiologically \u2264 5cm"
+    },
+    {
+      "criterion": "axillary_lymph_node_status",
+      "label": "not_met",
+      "evidence": "Clinically and sonographically negative axillary lymph nodes before biopsy"
+    },
+    {
+      "criterion": "breast_cancer_history",
+      "label": "met",
+      "evidence": "History of invasive breast cancer"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_cancer",
+      "label": "triggers",
+      "evidence": "History of any cancer in the previous 5 years"
+    },
+    {
+      "criterion": "bilateral_breast_cancer",
+      "label": "triggers",
+      "evidence": "Bilateral breast cancer"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04303715",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

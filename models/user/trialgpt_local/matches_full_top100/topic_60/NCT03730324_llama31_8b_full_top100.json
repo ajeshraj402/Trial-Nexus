@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03730324",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to provide informed written consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA < 20.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Referred for prostate biopsy.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previously diagnosed with prostate cancer.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active use of anticoagulant (excluding platelet inhibitors) or other contraindication for prostate biopsies.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previously undergone prostate biopsies.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to undergo mpMRI scan (pacemaker , claustrophobia, impaired renal function, allergy towards contrast agent etc).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any, previous or current, therapy for benign prostate hyperplasia including surgery or medical therapy (except alpha adrenal blockers).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "They withdraw their consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He is a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03730324",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

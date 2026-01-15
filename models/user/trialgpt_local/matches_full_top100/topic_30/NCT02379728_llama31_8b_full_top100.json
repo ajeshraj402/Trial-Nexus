@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33 years old"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "low-risk singleton pregnancy"
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

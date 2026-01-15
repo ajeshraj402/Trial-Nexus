@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02380898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulligravida",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "healthy women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "delivered single term baby",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists physical status 1 or 2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous caesarean section",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pre-eclampsia",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "gestational diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "trauma",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "fractures or chronic pain in shoulder joints, forearms, upper limbs",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "cardiovascular or biliary system disorders",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "women undergoing emergency caesarean",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous history of abdominal surgery",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and two C/sections, but no previous caesarean section. She is menopausal and does not have any conditions preventing spinal block.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02380898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

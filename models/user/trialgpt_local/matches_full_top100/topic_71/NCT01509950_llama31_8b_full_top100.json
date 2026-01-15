@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01509950",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "study staff member will describe the study and offer participation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient agrees to participate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient signs research protocol and HIPAA consent forms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient receives a copy of the forms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant women undergoing primary or repeat cesarean section",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "maternal age greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age greater than or equal to 34 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective and non-elective cesarean section",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 or Type 2 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI greater than 35",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-operative diagnosis of chorioamnionitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of drug or alcohol abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to NSAIDs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic pain diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Narcotic use prior to pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Maternal age less than 18 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01509950",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

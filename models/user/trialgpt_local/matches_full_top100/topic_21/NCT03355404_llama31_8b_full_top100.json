@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03355404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "major_patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_hospitalized_for_surgery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients_agreeing_to_participate_in_the_study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_supports_in_the_south_block",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_speaking_and_understanding_french",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "reduced_mobility",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mental_disability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe_psychiatric_pathology",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03355404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

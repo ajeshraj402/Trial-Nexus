@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01804517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "32 yo woman"
+    },
+    {
+      "criterion": "Diagnosis of migraine, chronic or episodic",
+      "label": "met",
+      "evidence": "severe 'exploding' headache"
+    },
+    {
+      "criterion": "Consent to participate in the CHUM Migraine Clinic IMPACT project",
+      "label": "met",
+      "evidence": "no evidence provided"
+    },
+    {
+      "criterion": "<6 headache days per month",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "6 to 14 headache days per month",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "15 or more headache days per month",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients whom first headache diagnosis is not migraine",
+      "label": "not_met",
+      "evidence": "severe 'exploding' headache"
+    },
+    {
+      "criterion": "Women with ongoing or planned pregnancy",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Patient with an active psychiatric condition (needing hospitalisation or psychosis)",
+      "label": "not_met",
+      "evidence": "no evidence provided"
+    },
+    {
+      "criterion": "Patient with mental retardation impairing assessment or follow-up",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Patient with an active medical condition which may lead to frequent hospitalisations",
+      "label": "not_met",
+      "evidence": "head CT showed a significant amount of blood in her right ventricle, but no indication of frequent hospitalizations"
+    },
+    {
+      "criterion": "Active drug addiction or alcoholism",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Active follow-up at a pain clinic",
+      "label": "not_met",
+      "evidence": "no evidence provided"
+    },
+    {
+      "criterion": "Patient speaking a language other than french and incapable to communicate in a reliable way",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "notes": "The patient presented with a severe 'exploding' headache following a head injury. She was diagnosed with an AVM and had improving headaches with pain medication.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01804517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02683174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "syncope_within_6_hours",
+      "label": "met",
+      "evidence": "admitted earlier today evaluation of syncope and ventricular arrhythmias"
+    },
+    {
+      "criterion": "unexplained_syncope_after_ED_assessment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obvious_underlying_cause_after_ED_assessment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol_or_illicit_drugs_as_presumptive_cause_of_TLOC",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "epileptic_seizure_as_presumptive_cause_of_TLOC",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stroke_transient_ischemic_attack_as_presumptive_cause_of_TLOC",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "head_trauma_followed_by_TLOC",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypoglycemia_as_presumptive_cause_of_TLOC",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02683174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

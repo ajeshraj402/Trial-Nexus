@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "uncomplicated caesarean section under spinal anaesthesia",
+      "label": "met",
+      "evidence": "surgery consultation"
+    },
+    {
+      "criterion": "elective cholecystectomy",
+      "label": "met",
+      "evidence": "surgery consultation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diseases of pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "grand multiparity",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pre-operative pyrexia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "co-existing maternal disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "trial_id": "NCT00618904",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "outpatient",
+      "label": "met",
+      "evidence": "ambulatory outpatient"
+    },
+    {
+      "criterion": "ibs_diarrhea_bloating",
+      "label": "met",
+      "evidence": "IBS, or functional diarrhea, or functional bloating according to the Rome II criteria for functional GI disorders."
+    },
+    {
+      "criterion": "symptoms_duration",
+      "label": "met",
+      "evidence": "symptoms for at least two weeks, despite current therapy"
+    },
+    {
+      "criterion": "diarrhea_definition",
+      "label": "met",
+      "evidence": "mean of >2 bowel movements per day, or a mean score of > 4 on the Bristol Stool Form Scale per week"
+    },
+    {
+      "criterion": "bloating_definition",
+      "label": "met",
+      "evidence": "a feeling of abdominal fullness or bloating"
+    },
+    {
+      "criterion": "colonoscopy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symptoms_severity",
+      "label": "met",
+      "evidence": "mild to moderate symptoms in severity"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "not_met",
+      "evidence": "no mention of IBD"
+    },
+    {
+      "criterion": "obstruction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_fbd_symptoms",
+      "label": "not_met",
+      "evidence": "symptoms are described as mild to moderate"
+    },
+    {
+      "criterion": "serious_medical_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "insulin_dependent_diabetes",
+      "label": "not_met",
+      "evidence": "no mention of diabetes"
+    },
+    {
+      "criterion": "major_psychiatric_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol_substance_abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abnormal_laboratory_results",
+      "label": "not_met",
+      "evidence": "lab results are normal"
+    },
+    {
+      "criterion": "malignancy_treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lactase_deficiency",
+      "label": "not_met",
+      "evidence": "no mention of lactose intolerance"
+    },
+    {
+      "criterion": "drug_study_participation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "antibiotic_treatment",
+      "label": "met",
+      "evidence": "patient has been on antibiotic treatment during the last 8 weeks"
+    },
+    {
+      "criterion": "previous_intestinal_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_lactation",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or lactation"
+    },
+    {
+      "criterion": "infection_predisposition",
+      "label": "not_met",
+      "evidence": "no mention of compromised immune system"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00618904",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02776150",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "During the study of all smear positive pulmonary tuberculosis with suspicious symptoms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Can provide 3-4ml sputum samples three times in 2 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the quality of sputum specimen is not qualified (sputum sample is less than 3ml or saliva sputum)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sample estimate Method and formula: according to the national tuberculosis drug resistance in the baseline survey results, isoniazid, rifampicin, fluoroquinolones and streptomycin anti tuberculosis drugs, fluoroquinolones resistance rate is low; using fluoroquinolones detection estimation sample content, can meet the needs of other anti tuberculosis drug resistance rate analysis.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A has smear-positive pulmonary TB with suspicious symptoms and can provide sputum samples. However, the quality of the sputum specimen is not qualified due to low fluoroquinolones resistance rate.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02776150",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

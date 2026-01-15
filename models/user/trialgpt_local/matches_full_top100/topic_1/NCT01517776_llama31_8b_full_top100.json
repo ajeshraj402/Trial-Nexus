@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01517776",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of high-grade malignant glioma confirmed by central neuropathological review",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "Patient aged 3 years and older but under 18 years at time of relapse diagnosis",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Written informed consent of the patient (mandatory from 15 years of age) or the parents (mandatory till 18 years of age)",
+      "label": "met",
+      "evidence": "consent"
+    },
+    {
+      "criterion": "Platelets < 100 000/\u00b5l (< 100 Gpt/l) PT, INR and PTT above normal range Absulute neutrophil count \u2264 1 500/\u00b5l (< 1,5 Gpt/l)",
+      "label": "unknown",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Hemoglobin < 10g/dl (< 6,4 mmol/L) Serum creatinine \u2265 1,5 x upper limit of normal range or creatinine clearance rate \u2264 60 ml/min/m2 (corrected for body surface area)",
+      "label": "unknown",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Total bilirubin \u2265 1,5 x upper limit of normal range SGOT (ASAT) and SGPT (ALAT) \u2265 2,5 x upper limit of normal range Alkaline phosphatase \u2265 2,5 x upper limit of normal range",
+      "label": "unknown",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Hereditary Intrinsic Platelet Disorders",
+      "label": "met",
+      "evidence": "diagnosis"
+    },
+    {
+      "criterion": "Ongoing irradiation or chemotherapy (within the last 4 weeks)",
+      "label": "met",
+      "evidence": "treatment history"
+    },
+    {
+      "criterion": "Estimated life expectancy of less than 2 months",
+      "label": "unknown",
+      "evidence": "clinical assessment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known hypersensitivity or contraindication to any study drugs",
+      "label": "unknown",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Other (simultaneous) malignancies",
+      "label": "unknown",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Pregnancy and / or lactation",
+      "label": "unknown",
+      "evidence": "pregnancy status"
+    },
+    {
+      "criterion": "Current or recent (within 30 days prior to start of trial treatment) treatment with another investigational drug or participation in another investigational trial",
+      "label": "unknown",
+      "evidence": "treatment history"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. They have a life expectancy of less than 2 months.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01517776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

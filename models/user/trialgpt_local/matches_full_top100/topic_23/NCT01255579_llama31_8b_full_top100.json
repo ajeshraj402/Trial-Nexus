@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01255579",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Moderate persistent bronchial asthma according to GINA guidelines",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Associated respiratory diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smoking history",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Oral corticosteroid in the previous six months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, history of asthma for 3 years.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01255579",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

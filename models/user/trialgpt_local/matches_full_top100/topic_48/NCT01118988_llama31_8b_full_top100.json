@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "any patient who has been successfully treated in the UCLA Pediatric Pain Program",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "access to internet enabled computer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "between the ages of 12 and 17",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "new to UCLA Pediatric Pain Clinic",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "plans to utilize program CAM therapies",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "older than 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "new patient",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no access to telephone",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no access to internet enabled computer",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic pain diagnosis, but is older than 18 and new patient.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

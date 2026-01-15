@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03935906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "injecting drug user",
+      "label": "met",
+      "evidence": "diagnosed with HCV 2 years ago and recent coinfection with HBV"
+    },
+    {
+      "criterion": "stable OST dose",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "glecaprevir/pibrentasvir treatment na\u00efve",
+      "label": "met",
+      "evidence": "no previous treatment with glecaprevir/pibrentasvir"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "study visit schedule and protocol requirements",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or planning to become pregnant",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "known current HIV infection",
+      "label": "not_met",
+      "evidence": "no mention of HIV infection"
+    },
+    {
+      "criterion": "known current HBV infection",
+      "label": "met",
+      "evidence": "recent coinfection with HBV"
+    },
+    {
+      "criterion": "previous treatment with glecaprevir/pibrentasvir",
+      "label": "not_met",
+      "evidence": "no previous treatment with glecaprevir/pibrentasvir"
+    },
+    {
+      "criterion": "clinically significant abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "decompensated liver disease or symptoms/signs of decompensation",
+      "label": "not_met",
+      "evidence": "no ascites, no use of beta-blockers for portal hypertension"
+    },
+    {
+      "criterion": "severe, life-threatening or other significant sensitivity to study drugs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "drug-drug interaction with concomitant medication",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03935906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

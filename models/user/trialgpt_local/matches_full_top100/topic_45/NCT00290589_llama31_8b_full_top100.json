@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00290589",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "21-50 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non-traumatic low back pain for one week or less",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "fever",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lactation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "allergy or intolerance to study medication",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "suspected active oncologic, urologic, or gynecologic disease",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell disease and is experiencing severe bone pain. He has no positive history of drug allergy.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00290589",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01984866",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent Form signed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate Performance status (ECOG 0-1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female patients with unifocal breast tumors (stages II-III, TN, HER2+ or Luminal B)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "very sensitive to neoadjuvant medical treatment (5 to 6 months in accordance with the current standard)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who submit clinical-radiologic greater response to the treatment administered (equal to or less than 1.5 cm in NMR residual tumor)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ki67<14%",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Excisional biopsy Contraindications",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01984866",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04690842",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "total thyroidectomy",
+      "label": "met",
+      "evidence": "s/p neck mass resection"
+    },
+    {
+      "criterion": "total thyroidectomy",
+      "label": "met",
+      "evidence": "s/p neck mass resection"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hyper or hypoparathyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "kidney failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medications known to affect TCa, PTH, or vitamin D levels",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent neck mass resection. No information on hyper/hypoparathyroidism, kidney failure, or medications affecting calcium metabolism.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04690842",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

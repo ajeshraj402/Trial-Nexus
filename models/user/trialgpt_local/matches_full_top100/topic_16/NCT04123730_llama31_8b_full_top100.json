@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04123730",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Verified history of COPD with FEV1/FVC < 0,70",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hypoxemic at rest (SpO2 \u2264 90 %) and fulfilment of criteria for LTOT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to walk at least 70 meters",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitively able to participate in the study and willing to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pulmonary or cardiac condition other than COPD limiting exercise performance",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unstable heart condition or stenotic aortic valve disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A physical condition including paralysis, lower extremity pain, or back problem limiting exercise performance",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Exacerbation in COPD treated with either antibiotics or prednisolone within the last 3 weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04123730",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

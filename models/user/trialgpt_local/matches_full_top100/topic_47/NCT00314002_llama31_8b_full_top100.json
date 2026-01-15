@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00314002",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients >=18 years of age with pulmonary embolism and cardiogenic shock, defined as a systolic arterial pressure <= 90 mmHg, a drop in systolic arterial pressure >= 40 mmHg for >= 15 minutes, or ongoing administration of catecholamines for systemic arterial hypotension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subtotal or total filling defect in the left and/or right main pulmonary artery due to massive PE, as assessed by chest computed tomography or by conventional pulmonary angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systemic embolism in the presence of an arterial septal defect or patent foramen ovale.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life expectancy, due to underlying disease, less than one month.",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has pulmonary embolism and cardiogenic shock, but also has systemic embolism in the presence of an arterial septal defect or patent foramen ovale.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00314002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

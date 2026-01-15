@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01723943",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Spouse of woman diagnosed with stage 0, I, II or III breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Spouses and patients must be married or cohabiting for at least 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Spouses and patients must have English as one of their languages of choice",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Spouses and patients must live within 25 miles of the University of Washington (UW) study center",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spouses/partners must be willing to give a sample of blood and/or sputum at time of first and second data collections",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Woman diagnosed with stage IV or recurrent breast cancer",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Woman and/or spouse not able to read and write in English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion, tested positive for HPV 16, smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01723943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

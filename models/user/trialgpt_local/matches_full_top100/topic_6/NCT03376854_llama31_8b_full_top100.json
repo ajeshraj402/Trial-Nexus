@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03376854",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness.",
+      "label": "met"
+    },
+    {
+      "criterion": "She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Recent antibx use in the last month on prior admission.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Missed ARDS window (>48hrs)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patient is unable to give consent and no legally authorized representative is available;",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of C diff infections, recent antibx use, and missed ARDS window. Patient is also unable to give consent.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03376854",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

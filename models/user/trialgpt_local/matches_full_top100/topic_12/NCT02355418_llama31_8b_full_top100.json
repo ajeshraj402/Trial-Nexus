@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02355418",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic chronic, severe primary degenerative MR known to the Queen Elizabeth Hospital Birmingham",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "symptoms due to severe MR",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LV endsystolic diameter >45mm at baseline",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LV ejection fraction <60%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of myocardial infarction, previous coronary artery bypass graft, or valve surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inherited or acquired cardiomyopathy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "congenital heart disease; including common atrio-ventricular canal defects",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "more than mild coexisting aortic valve stenosis or regurgitation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "primary mitral regurgitation not due to degenerative disease, including rheumatic disease and infective endocarditis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncontrolled atrial fibrillation (resting HR>100/min average on 24 hour Holter )",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to undergo CMR",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to walk on treadmill or use supine bicycle",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and remains symptomatic. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02355418",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03882307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "HCV RNA positivity",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "Any Body Mass Index (BMI)",
+      "label": "met",
+      "evidence": "BMI: 27"
+    },
+    {
+      "criterion": "Treatment-naive or treatment experienced",
+      "label": "met",
+      "evidence": "on IFN plus RBV combination therapy for the past 9 months"
+    },
+    {
+      "criterion": "all fibrosis stages",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Direct serum bilirubin greater than 2 mg/dl",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum albumin less than 2.8 g/dl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "International normalization ratio (INR) greater than or equal to 1.7",
+      "label": "not_met",
+      "evidence": "BP: 130/75"
+    },
+    {
+      "criterion": "Platelet count less than 50 000/mm3",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ascites or history of ascites",
+      "label": "not_met",
+      "evidence": "abdomen is soft with no ascites"
+    },
+    {
+      "criterion": "Hepatic encephalopathy or history of hepatic encephalopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "The recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "Serum creatinine greater than 2.5 mg/dl ",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Chronic HCV infection for the past 2 years, on IFN plus RBV combination therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03882307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

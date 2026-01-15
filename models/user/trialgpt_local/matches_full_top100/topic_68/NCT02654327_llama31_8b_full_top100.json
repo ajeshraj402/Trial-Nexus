@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02654327",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Invasive mechanical ventilation using positive end expiratory pressure (PEEP) \u2265 5cmH2O",
+      "label": "met"
+    },
+    {
+      "criterion": "Acute and potentially reversible cause of acute respiratory failure as determined by the treating physician",
+      "label": "met"
+    },
+    {
+      "criterion": "Within 48 hours of the onset of hypoxemia as defined by Pa02/Fi02 less than or equal to 20kPA",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 16 years old",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Intubated and mechanically ventilated via an endotracheal or tracheostomy tube \u2265 7 days up to the time of randomisation",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 23-year-old man who came to the hospital with high blood pressure (175/95\u2009mmHg) and signs of septicemia. He developed respiratory failure requiring mechanical ventilation and renal failure requiring hemodialysis.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02654327",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

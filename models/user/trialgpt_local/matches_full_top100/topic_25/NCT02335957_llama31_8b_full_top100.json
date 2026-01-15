@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02335957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Infiltrating, ductal carcinoma of the breast.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treated with conservative surgery (tumorectomy or quadrantectomy) without lymphadenectomy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sentinel lymph node assessed by OSNA, with TTL in the range 250 - 15,000 copies/\u03bcL.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u2265 18 yrs old.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky Index \u2265 70 %.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed Informed Consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other types of breast cancer different from infiltrating ductal carcinoma.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilateral breast cancer.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Males.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mastectomy or axillary homolateral lymph node dissection.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with infiltrating ductal breast carcinoma, treated with lumpectomy and clear margins. No other significant medical history.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02335957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

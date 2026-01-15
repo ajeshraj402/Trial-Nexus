@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT03043391",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have a recurrent supratentorial WHO Grade III malignant glioma or WHO Grade IV malignant glioma, medulloblastoma, or atypical teratoid/rhabdoid tumor (ATRT) based on imaging studies with measurable disease",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, but it's not specified as supratentorial. Also, there is no mention of measurable disease."
+    },
+    {
+      "criterion": "Prior histopathology must be consistent with a World Health Organization (WHO) Grade III or IV malignant tumor confirmed by the study pathologist",
+      "label": "unknown",
+      "evidence": "Patient has anaplastic astrocytoma, but it's not clear if it's WHO Grade III or IV."
+    },
+    {
+      "criterion": "There is no standard of care treatment for children with Grade III/IV gliomas; however, patients must have received some form of definitive treatment prior to their recurrence/progression",
+      "label": "met",
+      "evidence": "Patient has received radiation therapy and chemotherapy."
+    },
+    {
+      "criterion": "The patient must be \u2265 12 years of age and \u2264 21 years of age at the time of entry into the study",
+      "label": "unknown",
+      "evidence": "Patient is a 45-year-old man, so he's outside the age range."
+    },
+    {
+      "criterion": "The patient must have a Lansky or Karnofsky Performance Score (KPS) of \u2265 70% at the time of entry",
+      "label": "unknown",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, so it's unclear if his KPS is \u2265 70%"
+    },
+    {
+      "criterion": "Laboratory Studies: Platelet count \u2265 125,000 per microliter prior to biopsy",
+      "label": "unknown",
+      "evidence": "No mention of platelet count."
+    },
+    {
+      "criterion": "The patient must have received a boost immunization with trivalent inactivated IPOL\u2122 \u2265 1 week prior to administration of the study agent",
+      "label": "met",
+      "evidence": "Patient has received radiation therapy and chemotherapy, which likely includes a boost immunization."
+    },
+    {
+      "criterion": "Able to undergo brain MRI with and without contrast without requiring general anesthesia",
+      "label": "unknown",
+      "evidence": "No mention of patient's ability to undergo MRI."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breast-feeding",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a man, so this criterion does not apply."
+    },
+    {
+      "criterion": "Patients with an impending, life-threatening cerebral herniation syndrome",
+      "label": "unknown",
+      "evidence": "No mention of patient's condition being life-threatening."
+    },
+    {
+      "criterion": "Patients with known immunosuppressive disease or known human immunodeficiency virus infection",
+      "label": "does_not_trigger",
+      "evidence": "No mention of patient having immunosuppressive disease or HIV infection."
+    },
+    {
+      "criterion": "Current or history of anaphylactic reaction to gadolinium",
+      "label": "unknown",
+      "evidence": "No mention of patient's allergy to gadolinium."
+    }
+  ],
+  "notes": "Patient is outside the age range and has severe lower extremity weakness and urinary retention, which may affect his KPS. Also, it's unclear if he meets the laboratory studies criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03043391",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

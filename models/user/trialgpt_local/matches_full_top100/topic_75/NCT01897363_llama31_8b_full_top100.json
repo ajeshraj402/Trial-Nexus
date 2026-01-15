@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01897363",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed with Prader-Willi Syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Between ages 2-12 months of age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with growth hormone",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, but no mention of Prader-Willi Syndrome treatment or nutritional phase.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01897363",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 57 years old"
+    },
+    {
+      "criterion": "english literacy",
+      "label": "met",
+      "evidence": "patient can read and understand English"
+    },
+    {
+      "criterion": "hiv status",
+      "label": "met",
+      "evidence": "patient is HIV infected on stable ART regimen for 5 months or greater"
+    },
+    {
+      "criterion": "cognitive function",
+      "label": "met",
+      "evidence": "patient has a Beck Depression Inventory score <16 and a documented HIV-1 RNA PCR <50 copies/mL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "informed consent",
+      "label": "not_met",
+      "evidence": "patient is able to give informed consent"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "unknown",
+      "evidence": "patient's blood pressure is 110/75 mmHg"
+    }
+  ],
+  "notes": "The patient has a history of type 2 diabetes in his family, but no personal history of allergies or medication use. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

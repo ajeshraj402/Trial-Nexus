@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03284801",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "manifestation of acute disseminating encephalomyelitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admitted in Assiut University Children Hospital",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "viral encephalitis,bacterial meningitis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cases not fulfilling MRI criteria for diagnosis of acute disseminated",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. Hypertension, hyperlipidemia and hypothyroidism medical history.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03284801",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

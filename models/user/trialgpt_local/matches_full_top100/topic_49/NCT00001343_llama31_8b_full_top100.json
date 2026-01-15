@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00001343",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Karyotype diagnosis compatible with Turner syndrome.",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "No treatment with estrogen, androgen or growth hormone exceeding twelve months.",
+      "label": "not_met",
+      "evidence": "treating with GH since 6 months ago without estrogen therapy"
+    },
+    {
+      "criterion": "Chronological age of 10.0 to 14.9 years.",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Bone age less than or equal to 12 years.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment with estrogen, androgen, or growth hormone for more than twelve months.",
+      "label": "not_met",
+      "evidence": "treating with GH since 6 months ago without estrogen therapy"
+    },
+    {
+      "criterion": "Y component in peripheral karyotype.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome, is being treated with GH for short stature and developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00001343",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

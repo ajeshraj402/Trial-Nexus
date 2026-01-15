@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03788460",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55yo woman"
+    },
+    {
+      "criterion": "general_health",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ptt",
+      "label": "not_met",
+      "evidence": "normal PTT value"
+    },
+    {
+      "criterion": "pt",
+      "label": "met",
+      "evidence": "elongated PT value"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "background_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medication_use",
+      "label": "not_met",
+      "evidence": "Recent antibx use in the last month"
+    },
+    {
+      "criterion": "anti_coagulation_drugs",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03788460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

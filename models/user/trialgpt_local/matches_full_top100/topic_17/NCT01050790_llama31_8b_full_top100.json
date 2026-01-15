@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01050790",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of multiple myeloma",
+      "label": "met"
+    },
+    {
+      "criterion": "Residual measurable disease in partial remission or with stable disease",
+      "label": "met"
+    },
+    {
+      "criterion": "Eligible to undergo an autologous stem cell transplant",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable disease defined by quantifiable serum or urinary M protein or free light chains in the presence of a positive immunofixation or bone marrow plasma cells > 5%",
+      "label": "met"
+    },
+    {
+      "criterion": "Prior lenalidomide therapy with >= partial response (PR) observed on a prior lenalidomide containing regimen and patients did not progress while receiving lenalidomide",
+      "label": "met"
+    },
+    {
+      "criterion": "Minimum period of two weeks elapsed following the prior myeloma therapy; this does not include therapy with bisphosphonates",
+      "label": "met"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status =< 2",
+      "label": "met"
+    },
+    {
+      "criterion": "No clinical evidence of uncontrolled viral, fungal, bacterial infection",
+      "label": "met"
+    },
+    {
+      "criterion": "Negative serology for human immunodeficiency virus (HIV)",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum bilirubin =< 1.5 times upper limit of normal (ULN)",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT)/serum glutamic pyruvic transaminase (SGPT) =< 3x ULN",
+      "label": "met"
+    },
+    {
+      "criterion": "Calculated creatinine clearance >= 60ml/min by Cockcroft-Gault formula; creatinine clearance >= 60 ml/min or serum creatinine =< 2.0 mg/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1500/uL",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known or suspected hypersensitivity to azacitidine or mannitol",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Pregnant or breast feeding",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with residual measurable disease and meets several inclusion criteria. However, she is pregnant which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01050790",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

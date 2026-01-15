@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00287430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "less than 100% of ideal body weight",
+      "label": "met",
+      "evidence": "currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Colonization with Burkholderia cepacia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis, but appears well and does not have any nausea, vomiting, or abdominal discomfort.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00287430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

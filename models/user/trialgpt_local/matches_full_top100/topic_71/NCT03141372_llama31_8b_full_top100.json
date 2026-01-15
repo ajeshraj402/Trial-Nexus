@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03141372",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Females at least 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Understand and voluntarily sign an informed consent form",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English-speaking (able to read and understand English)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing total laparoscopic hysterectomy for benign indication",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Undergoing concomitant procedures in addition to hysterectomy which may cause urinary dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Undergoing robotic-assisted laparoscopy or laparotomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known history of pre-operative urinary incontinence or retention",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of prior bladder or prolapse surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurologic or spinal cord injury affecting bladder function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of gynecologic malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently taking anticholinergic medications",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is considering a laparoscopic gastric bypass, but has sleep apnea and PCO which may be relevant to her eligibility.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT03141372",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

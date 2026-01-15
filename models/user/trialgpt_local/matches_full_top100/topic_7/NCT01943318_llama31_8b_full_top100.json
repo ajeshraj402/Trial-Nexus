@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01943318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226519years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proven cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No previous hepatocellular carcinoma (treated or not)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serious associated short-term life threatening disease (except associated HIV viral infection and the liver disease itself)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "liver focal lesion suggestive of hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient under guardianship",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inability to regular monitoring, for whatever reason",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has cirrhosis and is being monitored. No previous HCC or guardianship.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01943318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

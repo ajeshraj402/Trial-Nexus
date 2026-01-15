@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04155398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "radiologic features suggestive of cirrhosis on abdominal imaging studies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suspected advanced liver fibrosis as detected by Fibroscan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical evidence of hypersplenism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent available",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of ascites",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior variceal bleeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic encephalopathy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatorenal syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of liver transplant or TIPS or shunting surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "portal and/or mesenteric vein thrombosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moribund patients from terminal illnesses",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04155398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

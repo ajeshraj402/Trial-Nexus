@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03223441",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "elective major surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 40 and up",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "general surgery - cholecystectomy, esophagectomy, gastric or bowel resection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastric sleeve resections, liver resection, pancreatectomy, pheochromocytoma excision",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "head & neck surgery - laryngectomy radical neck dissection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurosurgery - craniotomy for brain tumor resection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "orthopedic surgery - total hip, total knee, total shoulder repair",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "spine surgery - multilevel lumbar or thoracic laminectomy, spinal stenosis decompression and stabilization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thoracic surgery - open lobectomy, pneumonectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "urology - cystoprostatectomy, nephrectomy, and prostatectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vascular surgery - carotic endarterectomy, endovascular or open AAA repair, aortofemoral bypass, axillo-femoral bypass",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gynecology surgery - hysterectomy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiac surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "emergency surgical procedure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "poorly or nonpalpable carotic, radial and/or femoral pulses",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery (LICA) and moderate stenosis in the right internal carotid artery (RICA). He also has a systolic murmur 3+/6+ in the neck, radiating to the skull. These findings suggest that he may be at risk for complications during surgery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03223441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

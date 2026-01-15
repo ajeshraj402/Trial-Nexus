@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04411927",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Medically diagnosed with CKD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age ranged from eight to fifteen years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Communication problems such as intellectual disability, autism, Down syndrome, or cerebral palsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant visual or hearing problems",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any neurological and/or musculoskeletal disorders which influence postural stability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic cardiovascular or pulmonary disorders",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation, but no mention of CKD, intellectual disability, visual or hearing problems, neurological and/or musculoskeletal disorders, or chronic cardiovascular or pulmonary disorders.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04411927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

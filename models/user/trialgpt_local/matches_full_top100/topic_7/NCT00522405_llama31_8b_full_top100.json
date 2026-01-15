@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00522405",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Unresectable HCC with underlying Child's A/B cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal Main portal vein and its branches",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal Inferior vena cava",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No history of drug allergy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed written consent of patient.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Less than 50% involvement of liver by HCC",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unresectable HCC with underlying Child's C cirrhosis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Performance status 3-5",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has unresectable HCC with underlying Child's A/B cirrhosis, normal main portal vein and its branches, and informed written consent. However, they have a history of UGIB in the last six months which may be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00522405",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02209857",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Oestrogen receptor positive",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Invasive ductal breast cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Female breast cancer patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Benefit of adjuvant chemotherapy is uncertain based on traditional prognostic factors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Multicentric or contralateral disease",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of malignancy (in the five years before breast cancer diagnosis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed distant metastasis",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Neoadjuvant systemic treatment",
+      "label": "does_not_trigger",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02209857",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

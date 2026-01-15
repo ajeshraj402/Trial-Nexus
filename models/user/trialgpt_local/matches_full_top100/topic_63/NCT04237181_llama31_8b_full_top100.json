@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04237181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "emergency_department_visit_for_acute_diarrhoea",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "blood_test_in_emergency_department",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "emergency_department_visit_for_colitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abdominal_pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diarrhoea",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_abdominal_surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "curatorship_or_guardianship",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain, fever, and elevated white blood cell count. Ultrasound revealed gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04237181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

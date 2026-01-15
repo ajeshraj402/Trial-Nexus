@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04542629",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Epileptic patient on two tolerated and appropriately chosen and used antiepilptic drugs with no response",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonate",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Epieptic patient on monotherapy",
+      "label": "met",
+      "evidence": "patient was maintained on Dilantin and phenobarbital"
+    },
+    {
+      "criterion": "Conditions mimic epilepsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pseudo-refractioness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Carnitine deficiency (primary), carnitine palmitoyltransferase (CPT) I OR II deficiency, carnitine translocase deficiency, \u03b2-oxidation defects, pyruvate carboxylase deficiency, and porphyria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypersensitivity to any component, murine proteins. b. Heart failure c. Active infection",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04542629",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

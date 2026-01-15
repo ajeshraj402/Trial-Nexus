@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01415882",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Calculated creatinine clearance (using Cockcroft-Gault equation) >= 30 mL/min",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1000/mL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Untransfused platelet count >= 75000/mL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemoglobin >= 8.0 g/dL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Total bilirubin =< 1.5 x the upper limit of the normal range (ULN)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) =< 3 x ULN",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recent prior chemotherapy: Alkylators (e.g. melphalan, cyclophosphamide) =< 14 days prior to registration",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior therapy with any proteasome inhibitor other than bortezomib or carfilzomib",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01415882",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

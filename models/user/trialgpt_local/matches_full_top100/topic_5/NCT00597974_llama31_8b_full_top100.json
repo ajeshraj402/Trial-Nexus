@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00597974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ability to speak English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "scheduled to undergo carotid artery angioplasty and/or stent-supported angioplasty",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "coronary angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of permanent neurological impairment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Axis I psychiatric diagnosis or drug abuse",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has carotid bruits and significant bilateral carotid stenosis, but no residual deficits from prior CVA. Scheduled for carotid artery angioplasty and/or stent-supported angioplasty.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00597974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

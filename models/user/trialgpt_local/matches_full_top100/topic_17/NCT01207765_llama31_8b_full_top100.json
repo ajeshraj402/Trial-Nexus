@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01207765",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "multiple myeloma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Durie-Salmon stage II or III disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Measurable disease in the serum and/or urine",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Scheduled to receive high dose chemotherapy and autologous stem cell transplant for multiple myeloma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Individuals who have previously undergone autologous stem cell transplant are eligible for this study provided more than 6 months have elapsed from the prior transplant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Minimum stem cell dose of 4x10^6 CD34+ MNC / kg stored for autologous stem cell rescue.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Adequate hematologic reserve as evidenced by ANC \u2265 1500/mm3 and platelets \u2265 100,000/mm3.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum direct bilirubin \u2264 2.0 mg/dl and transaminases \u2264 3x institution upper limit of normal.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Serum creatinine \u2264 2 mg/dl with creatinine clearance \u2265 60 ml/min (either calculated or measured).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Stage I or smoldering myeloma, isolated plasmacytoma, or benign monoclonal gammopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-secretory multiple myeloma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Males and females who do not agree to practice approved methods of birth control for the duration of the study",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presence of active infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receipt of previous radiation therapy to critical organs exceeding any of the following limits: kidney 500 cGy, liver 1000 cGy, lungs 500 cGy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and represents for malaise, weakness, and generalized body aching.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01207765",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

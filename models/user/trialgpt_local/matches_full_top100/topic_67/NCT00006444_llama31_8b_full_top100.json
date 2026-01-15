@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00006444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 13 years of age and menstruating",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willing to enroll in another drug study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "written consent of a parent or guardian if under 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HAART-based therapy prescribed by a personal physician or participating in an antiretroviral trial",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intend to start antiretroviral therapy within 14 days of study entry",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "been on anti-HIV treatment for more than 14 days",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "abusing drugs or alcohol",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "receiving medication that affects the immune system, fights HPV, or is investigational",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00006444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

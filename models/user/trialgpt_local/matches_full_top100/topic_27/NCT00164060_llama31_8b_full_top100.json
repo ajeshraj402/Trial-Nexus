@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00164060",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sera available and appropriate for testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV serology positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unequivocal HCV antibody positive or HCV RNA positive",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Those without sera available",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those unwilling to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Persons with Hepatitis B Virus infection",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection, on IFN and RBV combination therapy for 9 months. Direct antiviral drugs added 6 months ago.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00164060",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03062475",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-smoking",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "before 12+6 weeks gestation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "less than 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unwilling to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cervical insufficiency",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old obese woman with abdominal pain and vomiting, acute edematous interstitial pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT03062475",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

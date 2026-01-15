@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04231760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD on home O2 (5L NC) with baseline saturation high 80's to low 90's on this therapy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pulm HTN (RSVP 75 in [**11-24**]) thought secondary to longstanding ASD",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "COPD participants currently on oral steroids (i.e. prednisone), phosphodiesterase type 5 (PDE5) inhibitors or supplemental O2 therapy will be excluded.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04231760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

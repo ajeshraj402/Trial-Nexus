@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00201318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven NHL, and for which intensive chemotherapy is considered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treatment-of-choice",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HBsAg-positive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No previous chemotherapy and radiotherapy, no concurrent radiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AGC \u2267 2,000/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet \u2267 100,000/mm3 of peripheral blood",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Total bilirubin < 2.5 mg/dl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Alanine aminotransferase (SGPT) < 200 I.U./L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum creatinine \u22661.5 mg/dl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Blood urea nitrogen (BUN) \u2266 25 mg/dl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Objectively measurable or valuable disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age > 75 years old, or Age < 15 years old",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or breast-feeding women.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with history of brain metastasis or CNS involvement.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Child's class B or C in patients with liver cirrhosis.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Impaired cardiac function with NYHA (New York Heart Association) classification \u2267 Gr II.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00201318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

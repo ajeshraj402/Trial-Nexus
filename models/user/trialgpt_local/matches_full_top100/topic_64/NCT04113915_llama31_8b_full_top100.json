@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04113915",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ITP patients received triple therapy or steroids only more than 18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ITP patients received triple therapy or steroids only more than 18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "All ITP patient less than 18 years old or treated with other regimens except triple therapy or steroids",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with other bleeding disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ITP patients with known viral hepatitis B & C infection before triple therapy",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. No evidence of other liver diseases.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT04113915",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

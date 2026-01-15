@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04236232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "healthy adult",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diagnosed with SCH",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age \u226518",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "gender-matched",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "healthy relatives with normal thyroid function",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "screened for evidence of high cardiovascular risk",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypo or hyper-thyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiovascular disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "smokers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant and lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis, but her symptoms improved significantly after starting Levothyroxine per day. She is still overweight with BMI of 31.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04236232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

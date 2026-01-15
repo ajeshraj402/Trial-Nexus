@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04834362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years of both sexes"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "both sexes"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "Patients or their attendants giving consent to take part in the study"
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "history of treatment for DM"
+    },
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "having hyperglycemia (capillary blood glucose \u226510 mmol/L in 2 or more occasions)"
+    },
+    {
+      "criterion": "admission_to_adult_neurology_ward",
+      "label": "not_met",
+      "evidence": "Patients admitted to adult neurology ward with acute stroke"
+    },
+    {
+      "criterion": "Paget's_Disease_of_Bone",
+      "label": "met",
+      "evidence": "The diagnosis of Paget's Disease of Bone was confirmed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hyperglycemic_emergencies",
+      "label": "not_met",
+      "evidence": "Patients with hyperglycemic emergencies (hyperglycemic hyperosmolar state or diabetic ketoacidosis)"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent",
+      "label": "not_met",
+      "evidence": "Those not giving consent to participate in the study"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is being treated with Bisphosphonate. They have a history of hypertension and DM type 2 in their family.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04834362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

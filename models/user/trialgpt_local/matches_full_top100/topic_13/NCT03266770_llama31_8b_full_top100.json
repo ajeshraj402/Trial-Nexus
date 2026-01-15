@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03266770",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ureteral stone of 5-25 mm measured on plain abdomen X-ray KUB (Kidney Ureter Bladder)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Upper or middle third ureteral stricture.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with distal ureteral obstruction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with urinary reflux",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients requiring bilateral surgical stone management procedure",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a non-obstructing stone in the L ureter, no evidence of urethral strictures. Urologist not concerned with leaking and will f/u with pt next week.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03266770",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

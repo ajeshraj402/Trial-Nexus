@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04452890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "78 year-old male"
+    },
+    {
+      "criterion": "Anterior urethral strictures (except for meatal strictures)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Posterior urethral strictures",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Meatal strictures",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of hypospadias repair",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of phalloplasty",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including Suprapubic prostatectomy. He also has a severe bulbar urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04452890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

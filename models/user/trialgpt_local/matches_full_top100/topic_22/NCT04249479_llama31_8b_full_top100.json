@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04249479",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred for abdominal CT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient \u2265 18 years old and competent to sign informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal insufficiency defined as glomerular filtration rate (GFR) < 30ml/min/1.73m2",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "(Odin protocol 004720)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "iodine allergy (Odin protocol 022199)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age < 18 year",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unable to give informed consent or no informed consent obtained",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inability to position an 18 gauge cannula in an antecubital vein",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography of the abdomen shows a distended appendix without perforation, abscess or gangrene.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04249479",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

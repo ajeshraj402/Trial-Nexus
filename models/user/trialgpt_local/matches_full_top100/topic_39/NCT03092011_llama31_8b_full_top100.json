@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03092011",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born_at_cooper_university_hospital",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "gestation_age_35_weeks_or_more",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "admitted_to_nicu_or_transitional_nursery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "premature_infants_less_than_35_week_gestational_age",
+      "label": "not_met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "infants_with_major_congenital_abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She was born at 38w3d of gestation and has no family history of note.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03092011",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

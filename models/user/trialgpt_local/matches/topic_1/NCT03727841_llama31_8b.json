@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT03727841",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed by NCI Laboratory of Pathology intra-cranial or spinal RELA-fusion ependymoma of grade I, II or III.",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not RELA-fusion ependymoma."
+    },
+    {
+      "criterion": "Has received two or fewer prior chemotherapy regimens",
+      "label": "unknown",
+      "evidence": "No information provided about number of prior chemotherapy regimens."
+    },
+    {
+      "criterion": "Patients must have an evidence of tumor progression.",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but no mention of tumor progression."
+    },
+    {
+      "criterion": "Patients must have had prior radiation therapy.",
+      "label": "met",
+      "evidence": "Patient received field radiation t10-l1 followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle."
+    },
+    {
+      "criterion": "Patients must be greater than or equal to 18 years old.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Patients must have a Karnofsky performance status of greater than or equal to 60.",
+      "label": "unknown",
+      "evidence": "No information provided about Karnofsky performance status."
+    },
+    {
+      "criterion": "Adequate organ and marrow function as defined below:",
+      "label": "unknown",
+      "evidence": "No information provided about organ and marrow function."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anticancer treatment within designated period of time before enrollment including: surgery within 14 days",
+      "label": "does_not_trigger",
+      "evidence": "Patient received radiation therapy, but no recent surgery mentioned."
+    },
+    {
+      "criterion": "Treatment with any investigational agent within 28 days before enrollment.",
+      "label": "unknown",
+      "evidence": "No information provided about treatment with investigational agents."
+    },
+    {
+      "criterion": "History of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix), unless patient is in complete remission and off all therapy for that disease for a minimum of 3 years.",
+      "label": "unknown",
+      "evidence": "No information provided about history of other cancers."
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "label": "unknown",
+      "evidence": "No information provided about uncontrolled intercurrent illnesses."
+    },
+    {
+      "criterion": "Pregnant women are excluded from this study because marizomib's potential for teratogenic or abortifacient effects is unknown.",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man, no mention of pregnancy."
+    }
+  ],
+  "notes": "Unknown number of prior chemotherapy regimens and Karnofsky performance status. No information provided about organ and marrow function or treatment with investigational agents.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03727841",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

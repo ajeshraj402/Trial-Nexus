@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00350298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient > 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diarrhea associated with a positive stool test for C. difficile toxin(s)",
+      "label": "met",
+      "evidence": "quote: The stool samples must were positive for Clostridium difficile toxin."
+    },
+    {
+      "criterion": "Patient receives standard of care treatment for C. difficile associated disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Standard of care treatment includes metronidazole by mouth or intravenously or vancomycin by mouth",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient or legal representative has read, understood, and provided written informed consent and HIPAA authorization",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of chronic diarrheal illness such as ulcerative colitis or Crohn's disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Score of 4 on modified Horn's index",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe C. difficile colitis with planned surgery in less than 24 hours",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Positive pregnancy test within 24 hours of study infusion or an unwillingness to undergo pregnancy testing in females of child-bearing potential",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman admitted to the stroke department with recent history of aspiration pneumonia and febrile, tachycardic, and hypotensive. Stool samples positive for C. difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00350298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03003468",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically or cytologically confirmed non-small cell lung cancer (NCSLC)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Surgery within 4 weeks prior to study registration",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known active central nervous system (CNS) metastases and/or carcinomatous meningitis",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice, which may require phototherapy. The patient's age and condition do not meet the inclusion criteria for this trial.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03003468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

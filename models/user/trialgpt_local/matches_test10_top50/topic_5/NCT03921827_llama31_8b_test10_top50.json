@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT03921827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recent stroke/TIA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe stenosis of intracranial ICA or MCA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "impaired CVR within previous three months but not before 3 weeks after acute stroke",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >21 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrial fibrillation/ arrhythmias",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "within 2 weeks of cardiac catheterization or arterial puncture at femoral puncture site",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "decompensated heart failure , usually class 3 or 4",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LV EF <30%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate or severe AR",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Persistent and uncontrolled hypertension (BP persistently >160/100 mmHg)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA without residual deficits, HTN, HL, DMII, Moderate to Severe PVD. He reports occasional dizziness and HA, denies CP/SOB. Carotid U/S showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03921827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

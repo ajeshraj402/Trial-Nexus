@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00323973",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Males or females aged 18 to 70 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Heart failure symptoms NYHA functional class II to IV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction lower than 40 percent determined by bi-dimensional echocardiography using modified Simpsons rule for ventricular volumes.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CHF due to ischemic heart disease, valvular disease or any other etiology different than pulmonary hypertension.",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe aortic insufficiency",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe dyspneic symptomology preventing outpatient living, but refused right heart cath for evaluation of response to sildenafil. Pulmonology recommended an empiric, compassionate sildenafil trial.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00323973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

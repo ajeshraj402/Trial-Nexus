@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04662827",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [],
+  "exclusion": [
+    {
+      "criterion": "Chronic pain",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Analgesic intake",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dermatological illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiovascular illness",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PEA Allergy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic pain, analgesic intake, and cardiovascular illness which likely triggers exclusion. Surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04662827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

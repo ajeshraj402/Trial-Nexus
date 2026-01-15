@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03908983",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "primary or secondary mitral regurgitation recorded by TTE and confirmed during TEE where surgery for mitral valve repair is required with indications consistent with AHA/ACC and ESC/EACTS guidelines",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primary (degenerative) : severe MR grade parameters (R Vol and EROA measured by PISA methods): EROA regurgitant >60 ml and Vena contracta width > 7mm and Regurgitant fraction >50%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Secondary (functional) : severe MR (EROA \u226530 mm\u00b2; R Vol > 30ml) may differ from the primary MR and are based on the prognostic value of these thresholds to predict the poor outcome, or for patients undergoing CABG",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with LVEF \u2265 30%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "in satisfactory condition, based on the physical examination and investigator's experience, with a life expectancy above one year after the intervention",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with or without concomitant procedures as: CABG, other valve repair/replacement",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Maze (or PVI) procedure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "of age < 21 years;",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03908983",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

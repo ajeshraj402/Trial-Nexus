@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 yo"
+    },
+    {
+      "criterion": "upper or lower extremity lymphedema",
+      "label": "met",
+      "evidence": "lymphedema patients with stage I,II,II stage"
+    },
+    {
+      "criterion": "primary or secondary lymphedema",
+      "label": "met",
+      "evidence": "lymphedema patients with stage I,II,II stage"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "32 yo"
+    },
+    {
+      "criterion": "patients who do not accept phone calls",
+      "label": "unknown",
+      "evidence": "Patients who do not accept phone calls"
+    }
+  ],
+  "notes": "Patient has lymphedema and is over 18 years old. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00498719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "school_enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment_status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "iq_score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "physical_condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurologic_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric_condition",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on anti-depressants for the past 6 months. She also complains of loss of energy and feelings of worthlessness nearly every day.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00498719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

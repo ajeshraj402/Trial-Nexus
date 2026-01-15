@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02752906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participant has documented record of having received 1 dose of a quadrivalent meningococcal conjugate vaccine 4 to 10 years prior to study vaccination.",
+      "label": "met"
+    },
+    {
+      "criterion": "Participant aged 15 to < 18 years: assent form signed and dated by the participant and informed consent form (ICF) signed and dated by the parent or guardian.",
+      "label": "met"
+    },
+    {
+      "criterion": "Participant aged >=18 years: ICF signed and dated by the participant.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receipt of oral or injectable antibiotic therapy within 72 hours prior to the first blood draw.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Previous vaccination against meningococcal disease with either an investigational or approved meningococcal B vaccine.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has a history of atypical hemolytic uremic syndrome and was treated with plasma exchange and corticosteroids. He has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02752906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

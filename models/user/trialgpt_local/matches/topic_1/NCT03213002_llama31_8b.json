@@ -1,0 +1,110 @@
+{
+  "trial_id": "NCT03213002",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Be capable of giving informed consent.",
+      "label": "met",
+      "evidence": "Patient text does not mention any issues with informed consent."
+    },
+    {
+      "criterion": "Have a pathology proven diagnosis of any of newly diagnosed Glioblastoma Multiforme",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not glioblastoma multiforme."
+    },
+    {
+      "criterion": "WHO IV",
+      "label": "unknown",
+      "evidence": "No mention of WHO classification in patient text."
+    },
+    {
+      "criterion": "Have completed the first part of standard of care chemo-radiation (Stupp), for 6 weeks, and not started the maintenance phase of temozolomide",
+      "label": "unknown",
+      "evidence": "Patient received radiation followed by temozolomide, but duration is unclear."
+    },
+    {
+      "criterion": "Agree to use effective barrier contraception while on treatment and for 2 months thereafter, if of childbearing potential",
+      "label": "unknown",
+      "evidence": "No mention of patient's reproductive status or plans in patient text."
+    },
+    {
+      "criterion": "Have a life expectancy > 3 months",
+      "label": "met",
+      "evidence": "Patient has unresectable anaplastic astrocytoma, but no clear indication of limited life expectancy."
+    },
+    {
+      "criterion": "Be between the ages of 18 to 74",
+      "label": "met",
+      "evidence": "Patient is 45 years old, within the specified age range."
+    },
+    {
+      "criterion": "Have a performance status KPS 70 or greater",
+      "label": "unknown",
+      "evidence": "No mention of patient's performance status in patient text."
+    },
+    {
+      "criterion": "Be able to swallow pills and capsules",
+      "label": "met",
+      "evidence": "Patient is described as having severe lower extremity weakness, but no indication of difficulty swallowing."
+    },
+    {
+      "criterion": "Be able to tolerate oral chemotherapeutic medications, with no health threatening allergies or side effects, based on lab and clinical findings",
+      "label": "unknown",
+      "evidence": "Patient has chronic pain and hypertension, but no clear indication of intolerance to oral chemotherapy."
+    },
+    {
+      "criterion": "Have adequate bone marrow function, liver function and renal function before commencing therapy",
+      "label": "unknown",
+      "evidence": "No mention of patient's laboratory values in patient text."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior chemotherapy with capecitabine or temozolomide for other prior malignancies.",
+      "label": "met",
+      "evidence": "Patient received temozolomide during radiation, but this is allowed per trial criteria."
+    },
+    {
+      "criterion": "Patients previously treated with continuous infusion 5-FU or any schedule of DTIC, which are similar to capecitabine and temozolomide, respectively, will be excluded.",
+      "label": "unknown",
+      "evidence": "No mention of patient's prior chemotherapy regimens in patient text."
+    },
+    {
+      "criterion": "Prior chemotherapies for newly diagnosed GBM or AA, other than temozolomide during radiation.",
+      "label": "met",
+      "evidence": "Patient received temozolomide during radiation, which is allowed per trial criteria."
+    },
+    {
+      "criterion": "Patients with a history of severe hypersensitivity reaction to capecitabine, 5-FU, temozolomide (i.e. anaphylaxis or anaphylactic reactions),",
+      "label": "unknown",
+      "evidence": "No mention of patient's prior hypersensitivity reactions in patient text."
+    },
+    {
+      "criterion": "Serious medical or psychiatric illness preventing informed consent or treatment (e.g., serious infection)",
+      "label": "unknown",
+      "evidence": "Patient has chronic pain and hypertension, but no clear indication of a serious medical or psychiatric illness."
+    },
+    {
+      "criterion": "Prior malignancies in the last 5 years other than curatively treated carcinoma in-situ previously treated with curative intent (cancer free for the past one year).",
+      "label": "unknown",
+      "evidence": "No mention of patient's prior malignancies in patient text."
+    },
+    {
+      "criterion": "Performance status, KPS < 70",
+      "label": "unknown",
+      "evidence": "No mention of patient's performance status in patient text."
+    },
+    {
+      "criterion": "Inability to swallow pills and capsules",
+      "label": "met",
+      "evidence": "Patient is described as having severe lower extremity weakness, but no indication of difficulty swallowing."
+    }
+  ],
+  "notes": "Key unknowns include patient's WHO classification, performance status, and laboratory values. Additionally, the duration of standard of care chemo-radiation completed by the patient is unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03213002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

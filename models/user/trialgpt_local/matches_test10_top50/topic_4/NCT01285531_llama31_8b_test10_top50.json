@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT01285531",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "44 year old"
+    },
+    {
+      "criterion": "Seattle Children's Hospital (SCH) Emergency Department (ED)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lumbar puncture within 24 hours of arrival to the ED",
+      "label": "met",
+      "evidence": "performed in the ED or inpatient, within 24 hours of arrival"
+    },
+    {
+      "criterion": "Parent is able to read English or Spanish",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "A provider who is trained in the use of the Compass device is willing and able to use it during the LP",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child is a foster child or ward of the state or is unaccompanied by their legal guardian",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "The child is pregnant, by verbal report or clinically available test results",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01285531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

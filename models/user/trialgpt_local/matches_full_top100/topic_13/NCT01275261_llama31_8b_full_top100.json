@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01275261",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults aged \u226518",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission to the neurovascular service at UCSF (from the ED or from an outside hospital)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of acute stroke or intracerebral hemorrhage",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Glasgow Coma Scale (GCS) <9",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Need for intubation or sedation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "An active medical problem requiring the use of a bladder catheter (e.g., congestive heart failure exacerbation, acute bladder outlet obstruction)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subarachnoid hemorrhage",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are asymptomatic or have minimal symptoms from stroke",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bladder catheter already in place for >12 hours",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindication for bladder catheterization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of UTI on admission",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01275261",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

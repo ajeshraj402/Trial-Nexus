@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00879190",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women in labor or undergoing induction of labor",
+      "label": "met"
+    },
+    {
+      "criterion": "Greater than or equal to 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Diagnosed with chorioamnionitis as defined by maternal temperature > or = 38.0 degrees Centigrade plus at least one of the following: maternal tachycardia (heart rate >110), fetal tachycardia (fetal heart rate baseline >160), purulent amniotic fluid, uterine tenderness",
+      "label": "met"
+    },
+    {
+      "criterion": "A study staff member will describe the study and offer participation. If a patient agrees to participate, she will sign research protocol and HIPAA consent forms and receive a copy of these forms.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy or adverse reaction to penicillin or ampicillin, gentamicin, or sulbactam",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Having received antibiotics for the treatment of preterm premature rupture of membranes or other condition within the last 7 days",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has a history of hypercholesterolemia and two C/sections, but no known allergies or adverse reactions to penicillin or ampicillin.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT00879190",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

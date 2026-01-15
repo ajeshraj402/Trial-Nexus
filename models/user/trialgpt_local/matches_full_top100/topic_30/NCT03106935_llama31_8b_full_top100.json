@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03106935",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "having a diagnosis of RPL (two or more consecutive or non-consecutive first-trimester losses)",
+      "label": "met",
+      "evidence": "diagnosis"
+    },
+    {
+      "criterion": "being aged 18-39 years at randomisation",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "trying to conceive naturally",
+      "label": "met",
+      "evidence": "trying to conceive"
+    },
+    {
+      "criterion": "willing and able to give informed consent",
+      "label": "met",
+      "evidence": "consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "they were unable to conceive naturally (as confirmed by urinary pregnancy tests)",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "within 1 year of recruitment or before the end of the randomisation period in the trial, whichever came earlier",
+      "label": "unknown",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "they had antiphospholipid syndrome [lupus anticoagulant and/or anticardiolipin antibodies (immunoglobulin G or immunoglobulin M)]",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "other recognised thrombophilic conditions (testing according to usual clinic practice)",
+      "label": "unknown",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "they had uterine cavity abnormalities (as assessed by ultrasound, hysterosonography, hysterosalpingogram or hysteroscopy)",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "they had abnormal parental karyotype",
+      "label": "unknown",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "they had other identifiable causes of RPL (tests initiated only if clinically indicated) such as diabetes or systemic lupus erythematosus",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "they had any contraindications to Levothyroxine use",
+      "label": "unknown",
+      "evidence": "no evidence"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, which is a known cause of RPL. She has been treated with Levothyroxine and her symptoms have improved.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03106935",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

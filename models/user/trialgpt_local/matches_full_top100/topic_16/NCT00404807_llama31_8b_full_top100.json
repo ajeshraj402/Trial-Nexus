@@ -1,0 +1,38 @@
+{
+  "trial_id": "NCT00404807",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CHF subjects without obvious comorbidity",
+      "label": "met",
+      "evidence": "figure 1"
+    },
+    {
+      "criterion": "AHI > 10 measured by conventional polysomnography",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous diagnosis of OSA or had been exposed to CPAP therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "uncontrolled arterial hypertension",
+      "label": "triggers"
+    },
+    {
+      "criterion": "valvular or congenital cardiopathy, unstable angina, acute myocardial infarction or cardiac surgery in the three months prior to enrolment",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00404807",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

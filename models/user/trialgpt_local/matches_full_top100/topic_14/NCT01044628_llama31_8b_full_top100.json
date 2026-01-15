@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01044628",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "smoking and obstructive disease with FEV1/FVC < 70%",
+      "label": "met"
+    },
+    {
+      "criterion": "presence of mild-to-moderate daytime hypoxemia with a daytime PaO2 in the range of 56-69 mmHg",
+      "label": "met"
+    },
+    {
+      "criterion": "patients fulfilling our definition of nocturnal oxygen desaturation: >= 30% of the recording time with transcutaneous arterial oxygen saturation < 90%",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe hypoxemia fulfilling the usual criteria for continuous oxygen therapy at study entry",
+      "label": "unknown"
+    },
+    {
+      "criterion": "PaO2 <=55 mmHg; or PaO2 <= 59 mmHg with clinical evidence of right ventricular hypertrophy (P pulmonale on ECG:3 mm leads ll, lll, aVf)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD and obstructive sleep apnea, but no severe hypoxemia or known left heart disease. Patient is currently using BiPap at night.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01044628",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

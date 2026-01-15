@@ -1,0 +1,115 @@
+{
+  "trial_id": "NCT01721577",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Be informed of the nature of the study and have provided written informed consent",
+      "label": "met",
+      "evidence": "Patient text does not explicitly mention this, but it is a standard requirement for clinical trials."
+    },
+    {
+      "criterion": "At least 18 years of age",
+      "label": "met",
+      "evidence": "Patient is 45 years old, which meets the criterion."
+    },
+    {
+      "criterion": "ECOG performance of 0, 1, or 2, or KPS \u2265 60",
+      "label": "unknown",
+      "evidence": "Patient text does not mention ECOG or KPS scores."
+    },
+    {
+      "criterion": "Pathological verification of a WHO grade 4 astrocytoma (glioblastoma or gliosarcoma)",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma, which is a type of WHO grade 3 tumor."
+    },
+    {
+      "criterion": "Documented recurrent glioblastoma, gliosarcoma, anaplastic astrocytoma, anaplastic oligodendroglioma, anaplastic oligoastrocytoma, or anaplastic ependymoma after at least one failed treatment of chemotherapy and radiation",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma that is unresectable and has received radiation therapy."
+    },
+    {
+      "criterion": "Expected survival of at least 3 months",
+      "label": "unknown",
+      "evidence": "Patient text does not mention expected survival time."
+    },
+    {
+      "criterion": "At least 2-weeks from cytoreductive surgery, if performed, 4-weeks from bevacizumab or other chemotherapy (6-weeks if prior chemotherapy was nitrosourea) and 12-weeks from completion of radiotherapy",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent surgeries, chemotherapy, or radiation therapy."
+    },
+    {
+      "criterion": "Ability to undergo MRI scanning without and with imaging dye on a periodic basis as defined in the protocol",
+      "label": "met",
+      "evidence": "Patient has undergone MRI scans in the past, which suggests they can tolerate them."
+    },
+    {
+      "criterion": "Preserved major organ functions, i.e: Blood leukocyte count \u2265 3.0 x 10^9/L Blood absolute neutrophil count \u2265 1.5 x 10^9/L Blood platelet count \u2265 100 x 10^9/L Blood hemoglobin \u2265 100 g/L (transfusions are allowed) Plasma total bilirubin level \u2264 1.5 times the upper institutional limit (ULN) of the \u2016normal\u2016 range Plasma AST (aspartate aminotransferase) or ALT \u2264 2.5 times upper institutional limit (ULN) of the \u2016normal\u2016 range Plasma creatinine \u2264 1.5 times upper institutional limit (ULN) of the \u2016normal\u2016 range",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent blood work or organ function tests."
+    },
+    {
+      "criterion": "12-lead ECG with normal tracings; or changes that are not clinically significant and do not require medical intervention, and QTc < 500 ms",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent ECG results."
+    },
+    {
+      "criterion": "At least seven (7) days off of medications which inhibit or induce CYP2C9 or CYP3A4 before first study treatment day",
+      "label": "unknown",
+      "evidence": "Patient text does not mention current medication regimen."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any other major recent or ongoing disease that, according to the Investigator, poses an unacceptable risk to the patient",
+      "label": "unknown",
+      "evidence": "Patient text mentions a history of severe lower extremity weakness and urinary retention, but it is unclear if this is current."
+    },
+    {
+      "criterion": "Grade 3 or higher constipation within the past 28 days or grade 2 constipation within the past 14 days before randomization",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent bowel movements or constipation issues."
+    },
+    {
+      "criterion": "Coexisting uncontrolled medical condition",
+      "label": "unknown",
+      "evidence": "Patient text mentions hypertension and chronic pain, but it is unclear if these are well-controlled."
+    },
+    {
+      "criterion": "Hepatitis B or Hepatitis C, or HIV infection requiring anti-retroviral therapy",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent liver function tests or HIV status."
+    },
+    {
+      "criterion": "Active malignancy other than basal cell skin cancer",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but it is unclear if this is active."
+    },
+    {
+      "criterion": "Other active malignancy during the previous 3 years",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent cancer diagnoses or treatments."
+    },
+    {
+      "criterion": "Major surgical procedure within 4 weeks",
+      "label": "unknown",
+      "evidence": "Patient text does not mention recent surgeries."
+    },
+    {
+      "criterion": "Prior stereotactic or gamma knife radiosurgery or proton radiation, unless unequivocal progression by functional neuro-imaging (PET, dynamic MRI, MRS, SPECT) or by re-operation with documented histologic confirmation of recurrence",
+      "label": "unknown",
+      "evidence": "Patient text mentions radiation therapy in the past, but it is unclear if this was recent."
+    },
+    {
+      "criterion": "Prior anti-tumor therapy, as follows: at least 12-weeks from radiation therapy; at least 4-weeks from prior treatment with temozolomide or bevacizumab, 6-weeks from BCNU or CCNU",
+      "label": "unknown",
+      "evidence": "Patient text mentions recent chemotherapy and radiation therapy."
+    }
+  ],
+  "notes": "Key unknowns include expected survival time, recent blood work and organ function tests, current medication regimen, and recent ECG results. Additionally, it is unclear if the patient's anaplastic astrocytoma is active or recurrent.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01721577",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01109849",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "5-12 years"
+    },
+    {
+      "criterion": "ADHD subtype",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stimulant naive",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "IQ",
+      "label": "triggers",
+      "evidence": "<70"
+    },
+    {
+      "criterion": "school attendance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "seizures or neurological problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiac arrhythmias, hypertension",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tourette's Disorder or history of severe tic exacerbations",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, which may impact eligibility.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01109849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03424902",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Intermediate or high risk patient for surgical aortic valve replacement (SAVR)",
+      "label": "met"
+    },
+    {
+      "criterion": "STS/EuroSCORE II >4% or logistic EuroSCORE I >10%",
+      "label": "met"
+    },
+    {
+      "criterion": "Contraindications for open chest surgery",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active endocarditis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "myocardial infarction within 14 days",
+      "label": "not_met"
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He underwent cardiac cath and right heart cath to evaluate pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03424902",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

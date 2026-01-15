@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00361179",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomized",
+      "label": "met",
+      "evidence": "ML17862"
+    },
+    {
+      "criterion": "treated",
+      "label": "met",
+      "evidence": "ML17862"
+    },
+    {
+      "criterion": "returned for follow up",
+      "label": "met",
+      "evidence": "ML17862"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unwilling to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "already initiated anti-HCV treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "already initiated HBV treatment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. He has a history of inguinal hernia surgery but no other significant medical conditions.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00361179",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

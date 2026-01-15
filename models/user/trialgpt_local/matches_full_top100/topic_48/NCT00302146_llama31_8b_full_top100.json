@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00302146",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "GBA mutations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "parkinsonism or unaffected subject at risk",
+      "label": "met",
+      "evidence": "first degree family member with parkinsonism"
+    },
+    {
+      "criterion": "healthy volunteers and control subjects matched for age, gender and handedness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe cognitive deficits impairing decision making",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable or medically unsafe to withdraw from current medications",
+      "label": "not_met",
+      "evidence": "no SSRIs and other psychoactive drugs mentioned"
+    },
+    {
+      "criterion": "pregnant or nursing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of neurologic conditions such as stroke or focal brain lesion",
+      "label": "not_met",
+      "evidence": "no history of stroke or focal brain lesion mentioned"
+    },
+    {
+      "criterion": "cannot lie on his/her back for a prolonged period of time",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, but no underlying disease such as DM. He smokes and drinks moderately.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00302146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

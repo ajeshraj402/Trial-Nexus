@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02264392",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects enrolled in this study will include patients presenting to the emergency department",
+      "label": "met",
+      "evidence": "patient history and physical exam"
+    },
+    {
+      "criterion": "with a diagnosis of soft tissue abscess.",
+      "label": "met",
+      "evidence": "bedside ultrasound"
+    },
+    {
+      "criterion": "Able to provide written consent/ assent",
+      "label": "met",
+      "evidence": "patient history"
+    },
+    {
+      "criterion": "Incision and drainage to be performed by ED physician",
+      "label": "met",
+      "evidence": "treatment plan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Peritonsillar abscess",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pilonidal cyst, genital or perirectal abscess",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass with fevers/rigors and bandemia. She underwent EUS with biopsy showing pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02264392",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

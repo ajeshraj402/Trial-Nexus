@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00147797",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "minimum sample size needed for detection of a 6.5% difference in CCA-IMT",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "protocol approved by Committee for the Protection of Human Subjects in Biomedical Research",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV-infected patients treated with HAART for > 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dyslipidemia, defined as LDL cholesterol > 160 mg/dL before initiation of statin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with pravastatin > 12 months and one more coronary risk factor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients in the control group were selected consecutively in the same departments among HIV-infected patients treated with HAART > 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LDL cholesterol > 160 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without lipid-lowering drugs and one more coronary risk factor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cases and control patients were matched for age, gender and tobacco consumption",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of coronary artery disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "peripheral artery disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "endarterectomy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aortic dissection",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of CAD, which is a coronary risk factor. He also has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00147797",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT02241109",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient referred to routine clinical echocardiography at the Department of Cardiology, Inselspital Bern",
+      "label": "met",
+      "evidence": "The patient presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema."
+    },
+    {
+      "criterion": "Aortic sclerosis with or without stenosis",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any aortic valvular disease other than degenerative sclerotic, bi- or unicuspid valves",
+      "label": "met",
+      "evidence": "The patient has a bicuspid aortic valve."
+    },
+    {
+      "criterion": "Known disease with expected survival <1 year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known malignant tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subvalvular obstruction (in LVOT) with mean pressure gradient >10mmHg",
+      "label": "met",
+      "evidence": "The patient underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "Echocardiography",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 years",
+      "label": "does_not_trigger",
+      "evidence": "The patient is a 48-year-old male."
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "does_not_trigger",
+      "evidence": "The patient is a 48-year-old male."
+    }
+  ],
+  "notes": "Unknown disease with expected survival <1 year and known malignant tumor. The T50-Test is not mentioned in the patient's text, but it is not an exclusion criterion that would likely trigger ineligibility based on the provided information.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02241109",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

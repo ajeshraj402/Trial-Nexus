@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "STH positive",
+      "label": "met",
+      "evidence": "lab study: V. cholerae seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "no antehelminthic drug in previous six months",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 2 years old and more than 5 years old",
+      "label": "not_met",
+      "evidence": "patient age: 34 years"
+    },
+    {
+      "criterion": "stool test negative for any intestinal helminth",
+      "label": "not_met",
+      "evidence": "lab study: V. cholerae seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "serious chronic illness",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has dizziness, severe diarrhea, and abdominal pain since yesterday. He has returned from an international trip few days ago and was living in a camp in Sudan for a month.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00638482",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Children > 3 yrs old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dent's disease confirmed by direct sequencing of the CLCN5 gene",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hyponatremia (< 135 mM)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hypokalaemia (< 3.3 mM)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe fanconi syndrome",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic renal failure (GFR estimated with the Schwartz formula < 30 mL.min-1.1.73m-2)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which is a different condition from Dent's disease.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00638482",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

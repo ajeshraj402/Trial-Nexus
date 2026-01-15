@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00555477",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "breast cancer confined to breast and lymph nodes under arm",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence of cancer elsewhere",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgical removal of tumor with radiation therapy completed or planned",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tumor expresses estrogen and/or progesterone receptors",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual period within 6 months before starting chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chemotherapy regimen includes cyclophosphamide (Cytoxan)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual periods stopped for at least 8 weeks during or after chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ovaries surgically removed, treated with radiation therapy, or taking medications to block function of ovaries",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease and high TSH levels, which may indicate ovarian dysfunction.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00555477",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

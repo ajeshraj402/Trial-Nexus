@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01453114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years and older"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "planning_pregnancy_or_already_pregnant",
+      "label": "met",
+      "evidence": "already pregnant"
+    },
+    {
+      "criterion": "stable_remission_from_depression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "current_or_recent_treatment_with_antidepressant",
+      "label": "met",
+      "evidence": "takes pyridostigmine 60 mg three times a day"
+    },
+    {
+      "criterion": "history_of_major_depressive_episode",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "decide_to_discontinue_antidepressant_medication_for_pregnancy",
+      "label": "met",
+      "evidence": "She does not smoke or use illicit drugs"
+    },
+    {
+      "criterion": "current_receiving_psychiatric_care_outside_MGH_Center_for_Women_s_Mental_Health",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant_risk_for_self_harm_or_harm_to_others",
+      "label": "not_met",
+      "evidence": "She does not smoke or use illicit drugs"
+    },
+    {
+      "criterion": "psychotic_symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "meeting_criteria_for_primary_SCID-I/P_diagnosis_of_schizophrenia_bipolar_disorder_an_active_eating_disorder_dementia_delirium_or_other_cognitive_disorder",
+      "label": "not_met",
+      "evidence": "Her physical exam and lab studies were not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "presence_of_active_substance_and/or_alcohol_abuse_disorder_within_six_months_prior_to_screening_visit",
+      "label": "not_met",
+      "evidence": "She does not smoke or use illicit drugs"
+    },
+    {
+      "criterion": "current_use_of_mood_stabilizers_antipsychotics_or_antiepileptics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "have_received_cognitive-behavioral_or_interpersonal_therapy_within_last_year",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosed_with_medical_disorder_associated_with_depressive_symptoms",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT01453114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

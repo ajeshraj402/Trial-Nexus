@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02358798",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suffering from cystic fibrosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "height between 90 et 130cm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no respiratory exacerbation since 4 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "benefit from an insurance disease regime",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "law-protected patient",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient's parent don't understand french language",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "opposition to participation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02358798",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

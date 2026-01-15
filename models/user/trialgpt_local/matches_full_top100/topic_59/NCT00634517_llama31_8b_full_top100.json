@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00634517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TREATMENT REGIMENS",
+      "label": "met",
+      "evidence": "The patient will be randomized to receive one of the 2 double-blinded treatments: Albuterol-HFA (Treatment T) or Proventil-HFA (Treatment R)."
+    },
+    {
+      "criterion": "CLINICAL VISITS",
+      "label": "met",
+      "evidence": "The entire study consists of a Screening Period, a Run-in Period, and a Study Period which consists of three (3) Clinical Visits."
+    },
+    {
+      "criterion": "METHODOLOGIES AND SPECIFIC MEASUREMENTS",
+      "label": "met",
+      "evidence": "Forced Expiratory Volume at 1st Second (FEV1) will be measured in triplicate, with additional attempts if necessary."
+    },
+    {
+      "criterion": "SCREENING BASELINE FEV1",
+      "label": "met",
+      "evidence": "The Screening Baseline FEV1 should fall within 50.0%-100.0% of the predicted value to qualify the subject."
+    },
+    {
+      "criterion": "REVERSIBILITY FEV1 TEST",
+      "label": "met",
+      "evidence": "The patient needs to demonstrate an FEV1 reversibility of greater than or equal to 12.0%, from the (same-day) Screening Baseline FEV1."
+    },
+    {
+      "criterion": "SERIAL FEV1 MEASUREMENTS OF STUDY DRUG EFFICACY",
+      "label": "met",
+      "evidence": "Serial FEV1 measurements of study drug efficacy will be performed at Visit 1 and 3."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "SIGNIFICANT SYSTEMIC OR RESPIRATORY DISEASES",
+      "label": "not_met",
+      "evidence": "The patient has asthma diagnosed a year ago, but it is not mentioned as significant or nonreversible."
+    },
+    {
+      "criterion": "CONCURRENT CLINICALLY SIGNIFICANT CARDIOVASCULAR, HEMATOLOGICAL, RENAL, NEUROLOGICAL, HEPATIC, AND ENDOCRINE DISORDERS",
+      "label": "unknown",
+      "evidence": "The patient's past medical history is non-significant."
+    },
+    {
+      "criterion": "KNOWN INTOLERANCE OR HYPERSENSITIVITY TO ANY COMPONENT OF THE MDI FORMULATION",
+      "label": "not_met",
+      "evidence": "There is no mention of known intolerance or hypersensitivity to any component of the MDI formulation."
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and presents with shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00634517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

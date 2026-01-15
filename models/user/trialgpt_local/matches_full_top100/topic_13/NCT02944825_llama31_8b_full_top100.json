@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02944825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "indwelling ureteral stents",
+      "label": "met",
+      "evidence": "within the 2 weeks prior to the procedure visit for removal"
+    },
+    {
+      "criterion": "kidney stone treatment surgery",
+      "label": "met",
+      "evidence": "shockwave lithotripsy [SWL], ureteroscopy [URS], retrograde intrarenal surgery [RIRS], percutaneous nephrolithotomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "indwelling suprapubic catheter",
+      "label": "not_met",
+      "evidence": "significant leaking around suprapubic cath site"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. Started on ditropan changed over to detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02944825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

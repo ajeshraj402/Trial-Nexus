@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00046436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Late Presenter Group",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unknown HIV serostatus",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": ">= 34 weeks gestation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous or current antiretroviral therapy for treatment of HIV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In active labor",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient presented with severe 'exploding' headache after hitting her head on a cabinet. Head CT showed significant blood in right ventricle, and cerebral angiogram revealed abnormal vasculature consistent with AVM.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT00046436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

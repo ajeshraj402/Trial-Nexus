@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04618666",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of chronic appendicitis",
+      "label": "met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Male or Female patients with chronic appendicitis",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who are fit for laparoscopy and general anaesthesia",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Patients who provide a written informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient who agree to provide short term outcome data and agree to provide",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anesthesia",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients suffering from an ongoing infections including chest infections ",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who didn't give concent ",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Children and pregnant women",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cases of complicated appendicitis ",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04618666",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

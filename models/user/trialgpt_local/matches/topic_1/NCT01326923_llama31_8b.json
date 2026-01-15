@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01326923",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients 18 years and older with histologically proven locally advanced stage III or IV unresectable Squamous cell head and neck cancer SCCHN (including cancers of oral cavity, oropharynx, larynx and hypopharynx) with no evidence of distant metastasis",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, not Squamous cell head and neck cancer"
+    },
+    {
+      "criterion": "A careful evaluation for resection is required from the surgeon and criteria for unresectability carefully defined for individual primary sites as follows:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG Performance status 0-1",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, but no mention of ECOG performance status"
+    },
+    {
+      "criterion": "Adequate organ function (All labs should be obtained within 14 days prior to start of study drug treatment)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient who have had prior treatment for head and neck cancer",
+      "label": "does_not_trigger",
+      "evidence": "Patient has received radiation therapy, but no mention of prior treatment for head and neck cancer"
+    },
+    {
+      "criterion": "Prior history of radiation to head and neck area",
+      "label": "triggers",
+      "evidence": "Patient has a history of radiation therapy to the T-L spine"
+    }
+  ],
+  "notes": "Patient's cancer is not Squamous cell head and neck cancer, but rather anaplastic astrocytoma. Prior radiation therapy may be a concern for eligibility.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01326923",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

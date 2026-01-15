@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02353572",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with symptomatic active multiple myeloma requiring treatment, including those whose prior smoldering myeloma progressed to symptomatic disease requiring chemotherapy; both newly diagnosed and previously treated patients are eligible for the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of quantifiable M-component of immunoglobulin G (IgG), IgA, IgD, or IgE and/or urinary kappa or lambda light chain or Bence Jones protein, in order to evaluate response; non-secretory patients are eligible provided the patient has > 20% plasmacytosis or multiple (> 3) focal plasmacytomas on magnetic resonance imaging (MRI) or diffuse hyperintense signal on short tau inversion recovery (STIR) weighted images",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Performance status of 0-2 based on Southwest Oncology Group (SWOG) criteria; patients with a poor performance status (3-4) are also eligible after having improved their performance to 0-2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient evaluation should be done within 35 days prior to registration; signed informed consent should be obtained from all patients in accordance with institutional and federal guidelines",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a history of recent (< 6 months) myocardial infarction, unstable angina, difficult to control congestive heart failure, uncontrolled hypertension, difficult to control significant cardiac arrhythmias, or arrhythmia associated with prolonged QT interval",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a history of moderate to severe chronic obstructive and/or restrictive pulmonary disease, with a forced expiratory volume in 1 second (FEV1) or forced vital capacity (FVC) < 50% of the predicted values; diffusing capacity of the lung for carbon monoxide (DLCO) < 50%; partial pressure of oxygen (P02) < 70 mmHg",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a prior history of malignancy except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or other cancer for which the patient has been disease free for at least three years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or nursing women; women of child-bearing potential must have a negative pregnancy documented within one week of registration; women/men of reproductive potential may not participate unless they have agreed to use two forms of effective contraceptive method",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Human immunodeficiency virus (HIV) positive patients",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT02353572",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

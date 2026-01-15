@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02737241",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BPH surgical candidates",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative work up: All patients will be thoroughly evaluated by medical history and physical exam, digital rectal exam (DRE), prostate specific antigen (PSA), urinalysis and urine culture, international index of prostate symptom score (IPSS), transrectal ultrasound (TRUS) measurement of prostatic volume and biopsy whenever indicated, measurement of post-void residual assessment (PVR), and maximum urinary flow rate (Qmax).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Randomization: Patients will be randomly assigned to the study groups on the day of the surgery after signing the informed consent for participation in the study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with neurological disorder which might affect bladder function as cerebrovascular stroke or Parkinson disease.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active urinary tract infection.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He currently has a severe bulbar urethral stricture, which requires surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02737241",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

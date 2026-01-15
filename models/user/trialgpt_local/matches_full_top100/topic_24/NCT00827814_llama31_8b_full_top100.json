@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00827814",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age\u226550 and <80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of LUTS for at least 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "IPSS\u226515",
+      "label": "met",
+      "evidence": "quote: IPSS score : 15"
+    },
+    {
+      "criterion": "Bladder outlet obstruction confirmed by pressure-flow study (BOOI > 20)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prostate volume measured by TRUS \u2265 30ml and < 100ml",
+      "label": "met",
+      "evidence": "quote: Prostate volume (TRUS): 60 mL"
+    },
+    {
+      "criterion": "Able to comply with the prescribed treatment protocol and evaluations.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with neurogenic voiding disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with prostate or bladder cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients underwent urethral, prostate or bladder neck surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with urethral stricture or bladder neck contracture",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum PSA\u22654ng/ml (if the patient confirmed as no malignancy by prostate biopsy can be included).",
+      "label": "not_met",
+      "evidence": "quote: Prostate-specific antigen (PSA) level: 3.2 ng/mL"
+    },
+    {
+      "criterion": "Patients who medicated with 5ARI within 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who do not agree with the informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT00827814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

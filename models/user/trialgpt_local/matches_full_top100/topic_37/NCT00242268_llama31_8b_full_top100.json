@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00242268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "relapsing-remitting MS using the MacDonald criteria",
+      "label": "met"
+    },
+    {
+      "criterion": "taking some form of interferon therapy (Rebif, Avonex or Betaseron) for a duration of 12 months with documented breakthrough disease as defined: or = 1 documented clinical relapse in past 12 months while on interferon therapy.",
+      "label": "met"
+    },
+    {
+      "criterion": "pre-study relapse is defined as neurologic symptoms and signs documented by review of the history with the subject or in the medical record, of sufficient severity and duration to be determined by the investigator as consistent with an acute MS relapse",
+      "label": "unknown"
+    },
+    {
+      "criterion": "> or = 1 documented Gd-enhancing lesion on cranial or spinal MRI",
+      "label": "met"
+    },
+    {
+      "criterion": "The Kurtzke EDSS score must be between 0- 5.0",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with primary or secondary progressive MS.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Female patients may not be pregnant, attempting pregnancy or breastfeeding.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Abnormal baseline blood test exceeding any of the limits defined below: ALT or AST > 2x upper limit of normal (ULN)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has relapsing-remitting MS and is taking interferon therapy. She has a pre-study relapse, but it's not clear if it meets the criteria for an acute MS relapse.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00242268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

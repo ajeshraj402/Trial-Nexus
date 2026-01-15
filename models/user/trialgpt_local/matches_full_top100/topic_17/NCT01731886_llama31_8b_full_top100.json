@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT01731886",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically confirmed Multiple Myeloma, Salmon-Durie Stage II or III or International Staging System II or III that has not been previously treated.",
+      "label": "met"
+    },
+    {
+      "criterion": "Bone marrow plasmacytosis with > or = 10% plasma cells, or sheets of plasma cells or a biopsy-proven plasmacytoma.",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable levels of monoclonal protein (M protein): 1 g/dL Immunoglobulin G (IgG) or .5 g/dL Immunoglobulin A (IgA) on serum protein electrophoresis or > 200 mg of monoclonal light chain on a 24 hour urine protein electrophoresis.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age > or = 18 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "Life expectancy of greater than 12 months.",
+      "label": "met"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status < or = 2 (Karnofsky > or = 60%).",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate organ and marrow function as defined below: Hgb > or = 9 g/dL.",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute Neutrophil Count > or = 1,500/ ml.",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelets > or = 50,000/mm3.",
+      "label": "met"
+    },
+    {
+      "criterion": "Total Bilirubin < or = 1.5 mg/dL.",
+      "label": "met"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST)(SGOT) / alanine aminotransferase (ALT)(SGPT) < or = 2.5 X upper limit of normal (ULN).",
+      "label": "met"
+    },
+    {
+      "criterion": "Creatinine < 2.0 mg/dL.",
+      "label": "met"
+    },
+    {
+      "criterion": "Creatinine Clearance > or = 50 ml/min.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have had chemotherapy or radiotherapy for multiple myeloma within 4 weeks of baseline.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Receiving any other investigational agents or therapy within 28 days of baseline.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Brain metastases.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of multiple myeloma, with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and was recently treated with pamidronate, calcitonin, and dialysis.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01731886",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

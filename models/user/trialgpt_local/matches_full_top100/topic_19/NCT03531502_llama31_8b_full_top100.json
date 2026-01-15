@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03531502",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-80 years old, both males and females",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Single or dual chamber ICD or BiVentricular ICD in situ",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ischemic or non-ischemic cardiomyopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receive a single shock from their ICD for monomorphic ventricular tachycardia",
+      "label": "met",
+      "evidence": "quote: 40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ICD shock for polymorphic VT/VF or inappropriate shock",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous ventricular tachycardia ablation within 1 year",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NYHA Class IV heart failure or current inotrope therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ventricular tachycardia storm",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Listed for heart transplant or LVAD",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant as determined by urine pregnancy test prior to NIPS",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He received a cardiac monitoring device which showed VT and bradycardia corresponding with symptoms.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03531502",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

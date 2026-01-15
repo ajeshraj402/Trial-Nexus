@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT01308827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pneumonia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal chest radiographs",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "children younger than 28 days or older than 36 months of age at enrollment",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suspected dengue fever as determined by local standard of care",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01308827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

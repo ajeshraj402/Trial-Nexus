@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00056433",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "documented hemoglobin S-only, S-beta-thalassemia, or other sickle cell disease genotype",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "relatively well preserved renal and hepatic function (creatinine less than 1.6 mg/dl and normal liver function test less than 5 X normal ALT)",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "severe sickle cell anemia with recurrent pain crisis (greater than or equal to 2 ER visits per year)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to provide informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemoglobin S and A (trait) or hemoglobin A-only (non-sickle cell)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic transfusion program",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic nitrates, such as nitroglycerin",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell crises since childhood and severe pain in his lower back that radiated to both thighs. He is afebrile within the normal blood pressure.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00056433",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

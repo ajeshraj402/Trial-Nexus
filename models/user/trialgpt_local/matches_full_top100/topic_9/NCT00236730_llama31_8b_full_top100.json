@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00236730",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "History of simple or complex partial epilepsy that has been documented or witnessed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "during a 12-week baseline phase, patient must have at least 12 partial seizures while maintaining therapeutic levels of antiepileptic drugs (AEDs)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "and have no more than one seizure-free interval of up to 3 weeks and none longer than 3 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "good physical health",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients having solely generalized seizures or lacking documentation of partial epilepsy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with generalized tonic-clonic seizures or other generalized epilepsies in the absence of an EEG consistent with partial epilepsy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "generalized seizures, which are defined by the EEG wave pattern",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "seizures that lack an abnormal pulsation pattern on EEG",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "females who are capable of having children",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in his NH which required valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00236730",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

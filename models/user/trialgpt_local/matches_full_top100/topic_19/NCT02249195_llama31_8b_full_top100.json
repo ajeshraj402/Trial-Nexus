@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02249195",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant or postpartum women",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presenting to Groote Schuur Hospital",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with cardiovascular disease",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Individuals with structural heart disease",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02249195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

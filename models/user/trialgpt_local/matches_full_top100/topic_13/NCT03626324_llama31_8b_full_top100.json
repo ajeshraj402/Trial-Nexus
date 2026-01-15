@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT03626324",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males age \u2265 18 with clinical diagnosis of neurogenic lower urinary tract dysfunction",
+      "label": "met"
+    },
+    {
+      "criterion": "Must be clinically suitable and capable of safely managing bladder using an intermittent voiding or indwelling strategy",
+      "label": "met"
+    },
+    {
+      "criterion": "Must have stable urinary management history: no significant changes in bladder management regimen within past 12 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Must have urodynamic profile suitable for C2P, as assessed via urodynamics study within past 12 months (including bladder capacity > 200mL without uninhibited bladder contractions)",
+      "label": "met"
+    },
+    {
+      "criterion": "Subject's lower urinary tract anatomy must fall within the ranges serviceable by the C2P device, as specified in the investigational device instructions for use (IFU)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active symptomatic urinary tract infection",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Significant risk profile or recent history of urethral stricture (e.g. stricture within past 90 days)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Significant risk profile or recent history of clinically significant autonomic dysreflexia (AD) (e.g. History of hospitalization due to AD within past 12 months)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. However, the urosepsis is now resolved after treatment.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03626324",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

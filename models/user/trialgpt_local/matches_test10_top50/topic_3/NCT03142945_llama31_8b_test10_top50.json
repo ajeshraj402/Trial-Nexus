@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT03142945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-65 years old",
+      "label": "met",
+      "evidence": "driver's license"
+    },
+    {
+      "criterion": "Decrease in active cervical range of motion",
+      "label": "met",
+      "evidence": "Cervical Range of Motion inclinometer (i.e., the CROM)"
+    },
+    {
+      "criterion": "Headache symptoms change based on manual pressure to cervical spine, posture, or neck movement",
+      "label": "met",
+      "evidence": "Tested by Mary Free Bed physical therapist during evaluation"
+    },
+    {
+      "criterion": "Cognition adequate for understanding (alert and oriented x3)",
+      "label": "met",
+      "evidence": "Tested by Mary Free Bed physical therapists"
+    },
+    {
+      "criterion": "English-speaking, or able to understand English well enough to follow directions",
+      "label": "met",
+      "evidence": "Determined at initial evaluation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cervical spine fusion less than 6 months",
+      "label": "not_met",
+      "evidence": "Medical documentation and history portion of initial evaluation"
+    },
+    {
+      "criterion": "Trauma to neck or head within the past 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Concussion currently undergoing treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03142945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

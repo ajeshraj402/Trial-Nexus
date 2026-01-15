@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02789579",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "urinary tract lithiasis (stones \u2265 2cm) or urolithiasis with hydronephrosis",
+      "label": "met",
+      "evidence": "physical examination reveals tenderness on palpation of both costovertebral angles"
+    },
+    {
+      "criterion": "urinary tract lithiasis (stones \u2265 2cm) or urolithiasis with hydronephrosis",
+      "label": "met",
+      "evidence": "urine culture showed Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antimicrobial drugs been administered in the latest month",
+      "label": "unknown"
+    },
+    {
+      "criterion": "immunosuppressor been administered in the latest month",
+      "label": "unknown"
+    },
+    {
+      "criterion": "urinary tract infection or positive urine culture results",
+      "label": "not_met",
+      "evidence": "negative blood culture"
+    },
+    {
+      "criterion": "history of urinary calculi surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "diabetes",
+      "label": "unknown"
+    },
+    {
+      "criterion": "chronic renal failure patients",
+      "label": "unknown"
+    },
+    {
+      "criterion": "neurogenic bladder dysfunction",
+      "label": "unknown"
+    },
+    {
+      "criterion": "abnormal anatomy of the kidney",
+      "label": "unknown"
+    },
+    {
+      "criterion": "neuromuscular dysfunction (spina bifida, paraplegia, green Barry syndrome, or quadriplegia)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "more than 90 minutes operation time",
+      "label": "unknown"
+    },
+    {
+      "criterion": "more than 1000 ml blood loss",
+      "label": "unknown"
+    }
+  ],
+  "notes": "25-year-old G1 P1 pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. Physical examination reveals tenderness on palpation of both costovertebral angles.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02789579",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT04298775",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients undergoing elective orthopedic surgeries of the lower limbs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Possibility and acceptance of performing the surgical procedure under spinal anesthesia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Minimum hospital stay of 24 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acceptance and signature of the informed consent form",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects who did not understand the Portuguese language",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who did not agree with the informed consent term and / or did not sign",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a history of urological problems",
+      "label": "triggers",
+      "evidence": "urinary retention s/p Foley catheter"
+    },
+    {
+      "criterion": "Severe cognitive disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who were unable to urinate spontaneously before surgery",
+      "label": "triggers",
+      "evidence": "urinary retention s/p Foley catheter"
+    }
+  ],
+  "notes": "Patient's history of urological problems and inability to urinate spontaneously before surgery may trigger exclusion criteria. However, the patient's language understanding is unknown.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04298775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

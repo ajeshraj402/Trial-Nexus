@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00587132",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "recently diagnosed diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal discomfort",
+      "label": "met",
+      "evidence": "mid-abdominal pain, radiating to the left flank"
+    },
+    {
+      "criterion": "anorexia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "weight loss",
+      "label": "met",
+      "evidence": "over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain"
+    },
+    {
+      "criterion": "elevated serum CA 19-9",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "EUS with or without Fine Needle Aspiration (FNA) for pancreatic cancer screening",
+      "label": "met",
+      "evidence": "Patient underwent a EUS with biopsy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication to iodinated contrast",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergy to iodinated contrast",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal insufficiency (serum creatinine > 1.5 mg/dl)",
+      "label": "not_met",
+      "evidence": "Chronic kidney disease (SCr 2.1 in [**3-17**])"
+    },
+    {
+      "criterion": "patients with previous pancreatic surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass, presenting with fevers/rigors and bandemia. She underwent EUS with biopsy, which was consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00587132",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

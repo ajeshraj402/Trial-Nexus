@@ -1,0 +1,120 @@
+{
+  "trial_id": "NCT03022578",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically-proven, recurrent supratentorial grade IV glioblastoma (or grade III IDH-wildtype anaplastic astrocytoma)",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, but it's not specified as supratentorial or grade IV glioblastoma."
+    },
+    {
+      "criterion": "unsafe to perform complete surgical resection due to tumor location, shape, or size",
+      "label": "unknown",
+      "evidence": "Patient has a tumor in the T-L spine, but it's not clear if it's safe to perform complete surgical resection."
+    },
+    {
+      "criterion": "Karnofsky performance score (KPS) > 60",
+      "label": "met",
+      "evidence": "Patient is described as having severe lower extremity weakness and urinary retention, but no mention of KPS."
+    },
+    {
+      "criterion": "received standard of care therapy with chemoradiation with temozolomide followed by adjuvant chemotherapy with temozolomide",
+      "label": "met",
+      "evidence": "Patient received field radiation t10-l1 followed by 11 cycles of temozolomide."
+    },
+    {
+      "criterion": "single, enhancing, supratentorial lesion > 2 cm from inner table of skull over the hemispheric convexity and > 1 cm but < 4 cm in cross-sectional dimension",
+      "label": "unknown",
+      "evidence": "Patient has a tumor in the T-L spine, but it's not clear if it meets these criteria."
+    },
+    {
+      "criterion": "stable cardiovascular, neurovascular and neurological status",
+      "label": "unknown",
+      "evidence": "Patient is described as having severe lower extremity weakness and urinary retention, but no mention of stable cardiovascular or neurovascular status."
+    },
+    {
+      "criterion": "not receiving concurrent anti-tumor treatment",
+      "label": "met",
+      "evidence": "No mention of concurrent anti-tumor treatment."
+    },
+    {
+      "criterion": "minimum interval required: > 6 weeks following nitrosourea chemotherapy; > 4 weeks after recovering from any non-nitrosourea drug or systemic investigational agent; > 2 weeks after receiving any non-cytotoxic anti-tumor drug",
+      "label": "unknown",
+      "evidence": "Patient received temozolomide, but no mention of nitrosourea chemotherapy or other treatments."
+    },
+    {
+      "criterion": "not previously undergone an intracranial LITT procedure",
+      "label": "met",
+      "evidence": "No mention of previous LITT procedure."
+    },
+    {
+      "criterion": "WBC > 3,000/ul (performed within 14 days (+ 3 working days) prior to registration)",
+      "label": "unknown",
+      "evidence": "No mention of WBC count or recent lab results."
+    },
+    {
+      "criterion": "ANC > 1,500/mm^3 (performed within 14 days (+ 3 working days) prior to registration)",
+      "label": "unknown",
+      "evidence": "No mention of ANC count or recent lab results."
+    },
+    {
+      "criterion": "Platelet count of > 100,000/mm^3 (may be reached by transfusion) (performed within 14 days (+ 3 working days) prior to registration)",
+      "label": "unknown",
+      "evidence": "No mention of platelet count or recent lab results."
+    },
+    {
+      "criterion": "Hemoglobin > 10 gm/dl (may be reached by transfusion) (performed within 14 days (+ 3 working days) prior to registration)",
+      "label": "unknown",
+      "evidence": "No mention of hemoglobin or recent lab results."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior treatment with bevacizumab",
+      "label": "does_not_trigger",
+      "evidence": "No mention of prior bevacizumab treatment."
+    },
+    {
+      "criterion": "prior treatment of glioblastoma with stereotactic radiosurgery, brachytherapy, or carmustine-impregnated wafers (Gliadel)",
+      "label": "does_not_trigger",
+      "evidence": "No mention of prior treatment with these modalities."
+    },
+    {
+      "criterion": "symptoms attributed to mass effect of the tumor that would be better treated with debulking surgery",
+      "label": "triggers",
+      "evidence": "Patient has symptoms attributed to mass effect, such as severe lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "previous treatment with lomustine",
+      "label": "does_not_trigger",
+      "evidence": "No mention of prior lomustine treatment."
+    },
+    {
+      "criterion": "significant medical illnesses that cannot be adequately controlled with appropriate therapy or would compromise the patient's ability to tolerate this therapy",
+      "label": "triggers",
+      "evidence": "Patient has hypertension, chronic pain, and other conditions that may require ongoing management."
+    },
+    {
+      "criterion": "history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix), unless in complete remission and off of all therapy for that disease for a minimum of 3 years",
+      "label": "does_not_trigger",
+      "evidence": "No mention of prior cancer diagnosis."
+    },
+    {
+      "criterion": "active infection or serious intercurrent medical illness",
+      "label": "triggers",
+      "evidence": "Patient has hypertension, chronic pain, and other conditions that may require ongoing management."
+    },
+    {
+      "criterion": "pregnant/breast feeding",
+      "label": "does_not_trigger",
+      "evidence": "No mention of pregnancy or breastfeeding status."
+    }
+  ],
+  "notes": "Patient's tumor is not specified as supratentorial or grade IV glioblastoma, and it's unclear if they meet the criteria for a single, enhancing lesion. Patient has symptoms attributed to mass effect that may be better treated with debulking surgery, and they have significant medical illnesses that require ongoing management.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03022578",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

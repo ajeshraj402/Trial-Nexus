@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT04620187",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject must have histologically or cytologically confirmed, resectable stage II (with positive margins), III, IVA, or IVB locoregionally advanced salivary gland carcinoma",
+      "label": "met"
+    },
+    {
+      "criterion": "Willing to provide tissue from a diagnostic biopsy or at the time of cancer resection, and blood samples before, during, and after treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "HER2 positive disease as defined by any of the following: Tumor HER2 expression staining intensity of 2 or 3+ by IHC (from either a preoperative biopsy or resection specimen at the time of oncologic surgery)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Age 18 years or older",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance status \u2264 1 (Karnofsky \u2265 60%, see Appendix A)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Participant must have normal organ and marrow function as defined below within 14 days prior to study registration: leukocytes \u2265 3,000/mcL",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum calcium (corrected for albumin value), magnesium, and potassium levels within normal limits per institutional standards.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document.",
+      "label": "met"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 72 hours prior to the start of T-DM1",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with AJCC 2017 8th edition stage I or stage IVC (metastatic) disease, or unresectable disease.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Subject who has had prior radiation and/or chemotherapy for head and neck cancer.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT04620187",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

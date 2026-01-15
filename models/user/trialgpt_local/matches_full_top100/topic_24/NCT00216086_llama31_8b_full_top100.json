@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00216086",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed adenocarcinoma of the rectum < 15 cm from the anal verge",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without evidence of distant metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Either mobile cancers (with clinical stage T3 or T4 by endorectal ultrasound) or fixed cancer (defined as clinical T4 for this study) on palpation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Malignant disease may not extend to the anal canal (across the dentate line)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No prior chemotherapy or radiation therapy to the pelvis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with clinical stage T 1-2, N0 rectal cancer who are candidates for primary resection are not eligible",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms and is otherwise healthy. Recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT00216086",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

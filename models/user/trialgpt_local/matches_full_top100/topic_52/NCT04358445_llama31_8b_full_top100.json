@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT04358445",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "be recruited in the intervention group, if they and their relatives are willing to join in the study",
+      "label": "met"
+    },
+    {
+      "criterion": "the patient is between 18 and 80 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "aSAH is diagnosed by CTA, DSA or other cranial imaging examination",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient is admitted to hospital within 72 hours after aSAH onset",
+      "label": "met"
+    },
+    {
+      "criterion": "Aneurysm is clipped within 36 hours after admission",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient and his/her relatives are informed and agree to accept the above treatment plan",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cause of the SAH is not rupture of an intracranial aneurysm",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Time from SAH onset to admission is longer than 72 hours",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever or blood in stool.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04358445",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

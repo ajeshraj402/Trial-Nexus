@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "able_to_give_informed_consent",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "right_handed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age_between_18_and_50_years_old",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "physically_and_neurologically_healthy",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "current_ptsd_diagnosis",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically_significant_medical_or_neurologic_condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current_medication_interacting_with_dronabinol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "risk_of_harm_to_self_or_others",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications_to_cannabinoid_like_substances",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "notes": "Patient has a history of smoking and drinking, but no underlying disease. He is in relation with several partners and uses condom during intercourse.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

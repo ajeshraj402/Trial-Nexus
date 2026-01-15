@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02588885",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fluent in English",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of sexual abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "premenopausal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic pelvic pain defined as pelvic pain with a duration of six months of at least a moderate severity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not menstruating for reasons other than birth control",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently receiving any current trauma-focused psychological treatment (i.e., prolonged exposure therapy, cognitive processing therapy, eye movement desensitization reprocessing)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current psychotic symptoms or current use of anti-psychotic medications",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "suicidal ideation in the past month",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently pregnant",
+      "label": "met",
+      "evidence": "negative beta hcg test"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02588885",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

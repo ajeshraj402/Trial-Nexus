@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00584636",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 15-year-old boy"
+    },
+    {
+      "criterion": "asthma_diagnosis",
+      "label": "met",
+      "evidence": "he presents with shortness of breath, chest tightening and cough. According to his mother, he didn't respond to the usual corticosteroid inhaler."
+    },
+    {
+      "criterion": "asthma_exacerbation",
+      "label": "met",
+      "evidence": "He was admitted to the emergency department with diagnosis of severe asthma exacerbation."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "oral_corticosteroids_last_week",
+      "label": "not_met",
+      "evidence": "His past medical history is non-significant."
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_lung_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and presented with an exacerbation, but his past medical history is non-significant.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00584636",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

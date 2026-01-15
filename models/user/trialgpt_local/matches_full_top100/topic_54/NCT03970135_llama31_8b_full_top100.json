@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03970135",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "low skeletal muscle mass",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "low skeletal muscle mass",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "competing disorders interfering with interpretation of results",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medication that will interfere with results",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been diagnosed with Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03970135",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

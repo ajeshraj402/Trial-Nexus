@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01847235",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven anaplastic oligodendroglioma or oligoastrocytoma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Progressed or relapsed after surgery or radiation therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Female or male aged 20 years or over",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 1 measurable mass lesion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status 0-3",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Adequate organ function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absolute neutrophil count > 1,500/\u03bcL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "platelet count > 75,000/\u03bcL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hemoglobin greater than 9 g/dL or 900g/L",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "serum creatinine less than 1.5 times the upper limit of laboratory normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "total serum bilirubin less than 1.5 times the upper limit of laboratory normal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "AST or ALT less than three times the upper limit of laboratory normal",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior course of temozolomide",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Combined glioblastoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant woman",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy. The patient's current condition is complicated by progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01847235",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

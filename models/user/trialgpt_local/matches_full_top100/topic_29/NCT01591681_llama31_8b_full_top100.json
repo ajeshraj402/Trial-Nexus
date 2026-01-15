@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01591681",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes and using daily insulin therapy for at least one year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >/= 15.0 - 45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HbA1c </= 8.0%",
+      "label": "met",
+      "evidence": "lab studies (A1c: 11.3%)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis, but this episode is not within the past 3 months. He does not have a history of hypoglycemic seizure or loss of consciousness.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01591681",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

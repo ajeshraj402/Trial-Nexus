@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01503671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatients \u2265 20 year of age, male or female with essential hypertension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must be on a stable condition of CAPD for at least 6 months.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute coronary syndrome, stroke, transient ischemic attack, cardiac, carotid or major vascular surgery, percutaneous coronary intervention (PCI) or carotid angioplasty, within the past 3 months prior to visit 1.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Coronary or carotid artery disease likely to require surgical or percutaneous intervention within the 6 months after Visit 1.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01503671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

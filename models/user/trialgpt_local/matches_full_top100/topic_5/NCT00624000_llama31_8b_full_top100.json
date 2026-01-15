@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00624000",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NIHSS \u2265 4 or isolated aphasia or isolated hemianopsia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of stroke in the last 6 weeks",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Seizure at onset",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subarachnoid Hemorrhage (SAH ) or suspected SAH",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any history of Intracrannial Hemorrhage (ICH)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neoplasm",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Septic embolism",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Surgery, biopsy, trauma or LP in last 30 days",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Head trauma in the last 90 days",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He reports occasional dizziness and denies chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00624000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00362570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "anaplastic oligodendroglioma or mixed oligoastrocytoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky status > 70%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate bone marrow, liver and renal function",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior chemotherapy or cranial irradiation",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation, but it was not cranial. He also received chemotherapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00362570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

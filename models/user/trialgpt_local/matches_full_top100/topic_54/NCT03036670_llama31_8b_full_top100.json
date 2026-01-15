@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03036670",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "care_provider",
+      "label": "met",
+      "evidence": "Portsmouth Hospitals NHS Trust"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "Wegener's granulomatosis (EGPA/HASM)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "medical_notes",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago, and his Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03036670",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

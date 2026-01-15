@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04850495",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed DLBCL",
+      "label": "met",
+      "evidence": "patient's diagnosis"
+    },
+    {
+      "criterion": "age >= 18 years",
+      "label": "met",
+      "evidence": "patient is 22yo"
+    },
+    {
+      "criterion": "measurable disease",
+      "label": "met",
+      "evidence": "patient has a high value at 84. Serum tryptase revealed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major surgery within 4 weeks before Day 1, Cycle 1 of treatment",
+      "label": "not_met",
+      "evidence": "no recent surgeries mentioned"
+    },
+    {
+      "criterion": "prior anthracycline use >= 150 mg/m^2",
+      "label": "unknown",
+      "evidence": "no mention of prior anthracycline use"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is currently stable on medication. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04850495",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

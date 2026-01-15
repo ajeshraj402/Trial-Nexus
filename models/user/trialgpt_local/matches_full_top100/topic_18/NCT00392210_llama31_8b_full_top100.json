@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00392210",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "All women > 18 years of age",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presenting to the Division of Urogynecology at the University of Rochester Medical Center/Strong Memorial Hospital",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "undergoing gynecologic surgery which requires postoperative placement of a transurethral catheter",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects must be competent to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any patient less than 18 years of age",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with suprapubic catheters postoperatively",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing surgery that does not require transurethral catheterization postoperatively",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients not competent to give informed consent",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing procedures requiring prolonged bladder decompression (i.e. fistula repair)",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00392210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

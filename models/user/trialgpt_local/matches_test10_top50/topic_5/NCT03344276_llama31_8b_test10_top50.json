@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03344276",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "carotid_stenosis_symptomatic",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "carotid_stenosis_asymptomatic",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "mri_incompatible",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "carotid_stenting_emergency",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03344276",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

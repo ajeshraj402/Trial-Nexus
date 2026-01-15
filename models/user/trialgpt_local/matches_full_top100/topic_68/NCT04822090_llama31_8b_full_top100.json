@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04822090",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hereditary hemolytic anemias",
+      "label": "met",
+      "evidence": "genetic survey revealed ADAMTS13 >10%"
+    },
+    {
+      "criterion": "age above 12 years",
+      "label": "met",
+      "evidence": "23-year-old man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autoimmune hemolytic anemia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "microangiopathic hemolytic anemia (MAHA)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04822090",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

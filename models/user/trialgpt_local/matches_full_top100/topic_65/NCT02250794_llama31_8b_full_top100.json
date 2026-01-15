@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02250794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "Type 2 diabetes for \u2265 3 months treated with metformin (\u2265 1000 mg/day) alone or",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood glucose>140 mg and < 400 mg/dL",
+      "label": "met",
+      "evidence": "FBS: 100 mg/dl"
+    },
+    {
+      "criterion": "Males or females between the ages of 18 and 80 years admitted to a general medicine services not requiring intensive care and not expected to require surgery.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Type 1 diabetes confirmed with molecular analysis 7 years ago",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute critical illness expected to require admission to a critical care unit",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients expected to require major surgery (requiring general anesthesia)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients treated with less than 1000 mg/day of metformin prior to admission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncompensated heart failure",
+      "label": "not_met",
+      "evidence": "New York Heart Association class 2"
+    },
+    {
+      "criterion": "Myocardial or peripheral muscle ischemia",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has type 1 diabetes, but meets the inclusion criteria for age and blood glucose levels. He does not meet the exclusion criteria for uncompensated heart failure.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02250794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

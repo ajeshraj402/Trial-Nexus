@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04478669",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed women with biopsy-verified invasive breast cancer planned for breast conserving surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 year",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous surgery for pre-malignant or malignant lesions in the breast",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned mastectomy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative, 5 positive lymph nodes, metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04478669",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

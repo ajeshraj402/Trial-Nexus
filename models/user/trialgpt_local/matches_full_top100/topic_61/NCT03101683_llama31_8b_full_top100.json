@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03101683",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed diagnosis of in situ ductal carcinoma (pTis) or invasive breast carcinoma (pT1 and pT2)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Negative sentinel node dissection or axillary clearance (pN0)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Close (less than 1 mm) or positive (ink on tumor margin) surgical margin in a single breast quadrant",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Tumor diameter >2 cm",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age \u226450 years",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Stages IIIB, IIIC and IV (any T4, any N3 or M1)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pathological metastasis in \u22652 axillary lymph nodes",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. She has a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant, which is HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03101683",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

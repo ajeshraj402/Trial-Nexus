@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01818557",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "blood glucose testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age between 20 weeks 0 days and 32 weeks 0 days of gestation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "singleton pregnancies",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "maternal age over 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients able to read and write in English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of gestational diabetes mellitus using criteria supported by the American College of Obstetrics and Gynecology (ACOG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients identified as not requiring medical therapy (insulin or glyburide) after the first week of initial blood glucose monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis of GDM made by any method or criteria other than the one outlined above",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with pre-existing diabetes mellitus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients under the age of 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients known to be carrying a fetus with a fetal anomaly that requires either prenatal or postnatal surgery, requires early delivery or is at risk for intrauterine growth restriction (IUGR)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients carrying multiple gestations",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients with past history of gastric bypass",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01818557",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

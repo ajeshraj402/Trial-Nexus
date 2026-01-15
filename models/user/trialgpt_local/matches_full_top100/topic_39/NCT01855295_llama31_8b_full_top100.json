@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01855295",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hemodialysis for at least 3 months",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "high sensitivity CRP > 3 mg/dL",
+      "label": "met",
+      "evidence": "CRP: 3 mg/L"
+    },
+    {
+      "criterion": "Body Mass Index < 23 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "low muscle mass as evidenced by serum creatinine < 8 mg/dL in the presence of anuria (urine output < 200 ml/d) and adequate dialysis (Urea Reduction Ratio > 65%)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant subjects",
+      "label": "not_met",
+      "evidence": "unremarkable family history"
+    },
+    {
+      "criterion": "subjects who are prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She does not meet the exclusion criteria of being pregnant or a prisoner.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT01855295",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

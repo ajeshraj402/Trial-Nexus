@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02944799",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients (> 18 years) with rheumatoid arthritis according to the ACR(1987 or 2010)/EULAR (2010) classification criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with alendronate for five years or more",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current T-score on DXA better than or equal to -2,5 (femoral) and -3,0 (vertebral)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving treatment on an outpatient basis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "negative pregnancy test (serum HCG) prior to trial start and the use of contraception throughout the study period and for 1 month after conclusion of the study period for women of childbearing potential.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Plasma T1/2 of ALN is less than 2 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability and willingness to give written informed consent and to meet the requirements of the trial protocol.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of hip fracture due to osteoporosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of vertebral fracture of more than one vertebrae or other fragility fractures within the last three years (fingers and toes not included)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "osteonecrosis of the jaw.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of or ongoing systemic GC treatment within the last 6 months (intraarticular injections are approved)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known allergy toward any components of the study medicine",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of Paget's Disease of Bone and is being treated with Bisphosphonate. However, they have a history of hip fracture due to osteoporosis, which makes them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02944799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

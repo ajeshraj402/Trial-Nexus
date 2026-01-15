@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT03005444",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female patients with an age of 18 to 75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Liver cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of variceal bleeding > 5 days",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of ascites",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Successful TIPS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of Viatorr stent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child-Pugh score within B7-C13",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilirubin level of 3 mg/dL or less (51.3 umol/L)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatocellular carcinoma or other intrahepatic/extrahepatic cancers.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spontaneous overt hepatic encephalopathy.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous or current portal venous system thrombosis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Budd-Chiari syndrome.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known coagulation disorder besides liver cirrhosis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe thrombocytopenia <15,000 platelets/dl.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Peptic ulcer disease in the last 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unstable angina or myocardial infarction (MI) within the past 6 months before randomization.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of variceal bleeding, but it is not clear if it was >5 days ago. He also has liver cirrhosis and ascites, which are both inclusion criteria.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03005444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

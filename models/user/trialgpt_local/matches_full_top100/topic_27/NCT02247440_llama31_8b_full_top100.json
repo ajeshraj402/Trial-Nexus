@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02247440",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Evidence of chronic HCV infection for at least 6 months before study entry (at least one detectable HCV viral load, i.e. \u226517 IU/mL, with an antibody test positive at least 6 months before the HCV RNA load result)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fibrosis Stage F2-3-4 determined by transient elastography (Fibroscan or other similar equipment). During the first part of the study, priority will be given to patients with Fibrosis Stage F2-3.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anemia and thrombocytopenia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any conditions that, in the investigator's judgment, may compromise the follow up.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contra-indication to study treatment (including pregnancy or lack of effective contraception in the participant or female partner)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection for at least 6 months and fibrosis stage F2-3. However, there is no clear indication of severe liver damage, advanced stage cirrhosis or cancer.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02247440",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

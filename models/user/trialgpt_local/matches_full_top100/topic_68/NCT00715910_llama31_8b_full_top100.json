@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00715910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age at primary vaccination",
+      "label": "met",
+      "evidence": "The patient was between and including 10 and 25 years of age at the time of primary vaccination."
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Written informed consent obtained from parents/guardian of the subject and written informed assent obtained from the subject if the subject is less than 18 years of age, or written informed consent obtained from the subject if the subject has achieved the 18th birthday."
+    },
+    {
+      "criterion": "Healthy subjects",
+      "label": "met",
+      "evidence": "The patient was healthy as established by medical history."
+    },
+    {
+      "criterion": "Completed active phase of vaccination study",
+      "label": "met",
+      "evidence": "The patient had completed the active phase of the vaccination study with NCT number = 00454909."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of investigational or non-registered product",
+      "label": "not_met",
+      "evidence": "There is no mention of use of any investigational or non-registered product within 30 days of each persistence time point."
+    },
+    {
+      "criterion": "Vaccination with meningococcal polysaccharide or conjugate vaccine",
+      "label": "not_met",
+      "evidence": "There is no mention of vaccination with meningococcal polysaccharide or conjugate vaccine of serogroup A, C, W-135, and/or Y outside of study with NCT number = 00454909."
+    },
+    {
+      "criterion": "History of meningococcal disease",
+      "label": "not_met",
+      "evidence": "There is no mention of history of any meningococcal disease due to serogroup A, B, C, W-135, or Y."
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. There is no mention of any exclusion criteria that would make the patient likely ineligible for the study.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00715910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

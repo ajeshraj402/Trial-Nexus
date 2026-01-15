@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00381914",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy singleton term born infants of appropriate size for gestational age (AGA)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "according to the Centers for Disease Control growth charts based on weight at birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "between the 5th and 95th percentiles for sex",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "born to healthy breastfeeding women",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "This allows us to assess growth and bone mineral accretion without bias of intrauterine growth restriction.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infants of mothers with history of gestational diabetes or hypertension in pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic alcohol use",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malabsorption syndromes due to malabsorption of vitamin D (celiac disease, Crohn's etc.)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and multiple births",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00381914",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

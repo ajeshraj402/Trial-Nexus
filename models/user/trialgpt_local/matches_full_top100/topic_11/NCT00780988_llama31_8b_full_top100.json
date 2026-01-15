@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00780988",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "surgically accessible primary or metastatic site",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Estimated survival of 6 months or greater",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary may be in place",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age 18-70",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must have an ECOG performance status of 0 or 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Must have adequate organ and marrow function. Specifically:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) > 1500/uL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Platelet count >= 100 x 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total bilirubin <= 2.0 x the upper limit of normal (ULN)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alkaline phosphatase, AST, and/or ALT <2.5 x the ULN for patients without evidence of liver metastases; <5 X ULN for patients with documented liver metastases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine < 2.0 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin > 9 g/dL",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Radiotherapy within 28 days prior to the day of tumor resection (Day 1).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No myelosuppressive chemotherapy within 28 days prior to the day of tumor resection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone radiotherapy, which is a contraindication for this trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00780988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

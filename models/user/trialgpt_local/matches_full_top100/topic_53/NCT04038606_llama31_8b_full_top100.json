@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04038606",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "quote: Female"
+    },
+    {
+      "criterion": "breast cancer with surgical indication for mastectomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to understand and give freely consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed consent signed",
+      "label": "met",
+      "evidence": "quote: Her past medical and drug history are unremarkable."
+    },
+    {
+      "criterion": "patient affiliated to the social security or entitled",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "quote: She is a 34-year-old woman"
+    },
+    {
+      "criterion": "gender",
+      "label": "does_not_trigger",
+      "evidence": "quote: Female"
+    },
+    {
+      "criterion": "patients under legal protection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT04038606",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

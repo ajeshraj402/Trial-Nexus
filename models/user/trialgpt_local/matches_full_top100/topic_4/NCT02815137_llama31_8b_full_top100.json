@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02815137",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pathologically confirmed, recent diagnosis of classical Hodgkin Lymphoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment planned with Adriamycin Bleamycin Vinblastine Dacarbazine (ABVD) or Bleomycin Etoposide Adriamycin Cyclophosphamide Vincristine Procarbazine Prednisone regimen (and radiotherapy if applicable)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "all stages (Ann Arbor I - IV)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient affiliated or beneficiary of a benefit system",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "untreated patient (no corticosteroids or chemotherapy)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No informed consent",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment by ABVD or BEACOPP not indicated",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previously treated Hodgkin lymphoma (including corticosteroids)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who are pregnant or lactating",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active Hepatitis B or Hepatitis C infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known human immunodeficiency virus (HIV) infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with no social protection",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient under tutorship or curatorship",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of PCOS, Obesity, HTN and was diagnosed with Burkitt's lymphoma. However, they have not received treatment for Hodgkin lymphoma and do not meet the criteria for inclusion in this trial.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02815137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

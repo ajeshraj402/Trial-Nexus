@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03099993",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hemiparesis",
+      "label": "met",
+      "evidence": "physical exam"
+    },
+    {
+      "criterion": "age between 6 and 17 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "enrolled in a health insurance plan",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability to understand or follow instructions during 1h30",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "physical incapacity to carry out the requested movements",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Wilson disease, confirmed by high liver copper concentration. He is a Caucasian man with tremors and jaundice.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03099993",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal function of liver",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal function of kidney",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 3 sites matched within 6 HLA sites",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abnormal function of liver",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abnormal function of kidney",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation, but has had excellent response to therapy and continues to have an excellent performance status.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

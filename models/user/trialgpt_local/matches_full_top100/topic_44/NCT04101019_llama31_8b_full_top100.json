@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04101019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gynecologic procedures",
+      "label": "met",
+      "evidence": "The patient is a well-dressed and well-nourished adolescent who is alert and cooperative."
+    },
+    {
+      "criterion": "Presence of post-operative STP, VAS > 4/10",
+      "label": "not_met",
+      "evidence": "The pain is in his leg and back and aggravated by physical activities. He prefer lying down most of the time."
+    },
+    {
+      "criterion": "American Society of Anesthesiologists Class 1 - 3",
+      "label": "met",
+      "evidence": "Patient is a well-dressed and well-nourished adolescent who is alert and cooperative."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to lidocaine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Shoulder pain prior to surgery",
+      "label": "not_met",
+      "evidence": "The patient is a 14-year-old boy complaining of scoliosis and back pain."
+    }
+  ],
+  "notes": "Patient has scoliosis and back pain, but no other medical conditions. He is a candidate for scoliosis surgery according to perioperative MEP monitoring.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04101019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

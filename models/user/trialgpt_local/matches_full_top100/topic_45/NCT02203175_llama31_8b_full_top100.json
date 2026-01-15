@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02203175",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-65 age",
+      "label": "met",
+      "evidence": "patient is 34 years old"
+    },
+    {
+      "criterion": "ASA status I-II",
+      "label": "met",
+      "evidence": "no history of drug allergy, no severe pain in past two weeks treated with oxycodone which was not beneficial to his pain"
+    },
+    {
+      "criterion": "Scheduled for elective surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "psychiatric disorders",
+      "label": "not_met",
+      "evidence": "no history of psychiatric disorders mentioned"
+    },
+    {
+      "criterion": "neurologic disorders",
+      "label": "not_met",
+      "evidence": "no history of neurologic disorders mentioned"
+    },
+    {
+      "criterion": "history of allergy",
+      "label": "not_met",
+      "evidence": "no history of drug allergy mentioned"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02203175",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

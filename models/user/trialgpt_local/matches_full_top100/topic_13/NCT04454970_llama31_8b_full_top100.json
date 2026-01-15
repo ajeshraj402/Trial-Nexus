@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04454970",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female to male transgender men following penile reconstruction",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On waiting list for insertion of inflatable penile prosthesis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to provide written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Transgender men prior to undergoing penile reconstruction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cisgender men or women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known urethral fistula or stricture that has not been treated",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Declines to be enrolled in trial",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Does not require a urethral catheter for clinical reasons",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Urinary tract infection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has neurogenic bladder with indwelling suprapubic catheter and history of recurrent UTIs, but is currently asymptomatic. Urologist not concerned with leaking around cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04454970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

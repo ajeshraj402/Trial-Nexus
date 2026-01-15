@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI safety",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study instructions",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic musculoskeletal diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurological conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "depression response",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy/nursing",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness, loss of interest in activities, and weight loss. She is not using any drugs or smoking.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

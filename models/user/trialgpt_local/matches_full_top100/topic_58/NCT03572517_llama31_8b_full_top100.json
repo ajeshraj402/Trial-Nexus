@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03572517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Oncologic patients submitted to elective videolaparoscopic surgery in Trendelenburg position",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ASA lesser than 3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "period of at least 2 hours in Trendelenburg position",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "With absolute contraindication and related to spinal anesthesia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "With difficult airway prediction with possibility of awake intubation.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "With previous diagnosis of: cognitive disorder and / or depression.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic use of benzodiazepines (use during the last 12 weeks).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Referred to perform the postoperative ICU.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in right lower quadrant of abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils. CT scan shows acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03572517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

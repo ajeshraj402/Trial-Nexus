@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04766268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "International Prostate Symptom Score",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Quality of Life Assessment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Prostate Volume",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Indwelling Urinary Catheter",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Tortuous or Severe Atherosclerotic Vessels on CT",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurogenic Bladder",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. Urologist not concerned with leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04766268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

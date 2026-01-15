@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01100723",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years of age or older"
+    },
+    {
+      "criterion": "hemodialysis",
+      "label": "met",
+      "evidence": "on outpatient hemodialysis"
+    },
+    {
+      "criterion": "understanding and cooperation",
+      "label": "met",
+      "evidence": "have a level of understanding and willingness to cooperate with the study personnel"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "able to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current clinical trial enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "planned parathyroidectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "planned kidney transplant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life expectancy < 6 months",
+      "label": "not_met",
+      "evidence": "life expectancy > 6 months"
+    },
+    {
+      "criterion": "patient declines participation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01100723",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

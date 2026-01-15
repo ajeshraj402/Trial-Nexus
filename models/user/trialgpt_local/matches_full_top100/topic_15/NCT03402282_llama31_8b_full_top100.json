@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03402282",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intravenous contrast)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with aortic atherosclerosis (femoral pulse and difference Doppler angiography or with stenosis 20%)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma, which is likely to be the cause of her symptoms. She was treated with IV antibiotics and will continue on them until seen by ID as an outpatient.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03402282",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

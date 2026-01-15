@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35 years old"
+    },
+    {
+      "criterion": "myasthenia gravis diagnosis",
+      "label": "met",
+      "evidence": "class IIa myasthenia gravis"
+    },
+    {
+      "criterion": "positive anti-AChR antibody test",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test"
+    },
+    {
+      "criterion": "single fiber electromyography (SFEMG) positive",
+      "label": "met",
+      "evidence": "positive SFEMG"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial anesthesia for cesarean delivery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "external cephalic version",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "non-labor procedure",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has myasthenia gravis and is a research coordinator with 3 children. She does not smoke or use illicit drugs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00123799",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "biopsy_proven_breast_carcinoma",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    },
+    {
+      "criterion": "tumour_size_T1-3_N0_clinically",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pre-operative_mammography_+/-_ultrasound_of_the_breast",
+      "label": "met",
+      "evidence": "All patients will have pre-operative mammography +/- ultrasound of the breast"
+    },
+    {
+      "criterion": "age_equal_to_or_greater_than_18_years",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "able_and_willing_to_follow_instructions_and_comply_with_the_protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "provide_written_informed_consent_prior_to_participation_in_this_study",
+      "label": "met",
+      "evidence": "She is a candidate for tumor resection and agrees to do so prior to chemotherapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "nursing_or_pregnant_females",
+      "label": "not_met",
+      "evidence": "The patient does not mention being pregnant or nursing"
+    },
+    {
+      "criterion": "previous_malignancy_or_diagnosis_less_than_10_years_ago",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "excisional_biopsy_of_the_tumour_has_been_performed",
+      "label": "not_met",
+      "evidence": "The patient mentions a core biopsy, not excisional biopsy"
+    },
+    {
+      "criterion": "age_less_than_18_years",
+      "label": "not_met",
+      "evidence": "The patient is 45 years old"
+    },
+    {
+      "criterion": "patient_has_diabetes",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HER2-positive and ER/PR negative breast cancer, with metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00123799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

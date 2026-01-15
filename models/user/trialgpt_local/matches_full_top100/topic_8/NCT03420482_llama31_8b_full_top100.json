@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03420482",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of cirrhosis: Based on liver biopsy or clinical assessment of a hepatologist",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of at least one episode of overt HE, defined by West Haven Criteria Grades II to IV",
+      "label": "met"
+    },
+    {
+      "criterion": "Compliant with lactulose and rifaximin treatment (lactulose: at least one dose at least 5 days per week; rifaximin: at least one dose at least 5 days per week)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current episode of overt HE as defined by West Haven Criteria Grades II to IV",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Expectation of liver transplantation within two months of the screening visit",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of overt HE and is currently on lactulose and rifaximin treatment. However, they have an expectation of liver transplantation within two months.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03420482",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

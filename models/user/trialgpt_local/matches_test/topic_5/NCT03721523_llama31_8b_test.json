@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03721523",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "capacity to give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Partial Anterior Circulatory Stroke (PACS) or Transient Ischaemic Attack (TIA)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Carotid Stenosis >50%",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lacking capacity",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Carotid Artery occlusion",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allergy to contrast agent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has carotid bruits and significant bilateral carotid stenosis, but no residual deficits from prior CVA.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03721523",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

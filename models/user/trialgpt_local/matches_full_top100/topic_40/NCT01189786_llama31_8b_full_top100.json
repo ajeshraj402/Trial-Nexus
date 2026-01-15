@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01189786",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient requiring allogeneic SCT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between birth and 70 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient and/or responsible person able to understand and sign consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active, acute GvHD > grade II or extensive, chronic GvHD",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe life, threatening infection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01189786",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

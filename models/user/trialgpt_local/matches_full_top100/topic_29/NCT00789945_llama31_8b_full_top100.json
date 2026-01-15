@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00789945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 1 diabetic participants",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of insulin dependance for at least one year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A1C 7%-9%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal CBC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chemistry Profile normal",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "children",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "mentally ill individuals",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients currently utilizing continuous glucose monitors",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of insulin dependence and stable A1C levels. However, they are currently using continuous glucose monitors which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00789945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

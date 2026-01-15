@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02646436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "dialysis treatment immediately",
+      "label": "met",
+      "evidence": "patient has h/o ESRD on HD and peritoneal dialysis"
+    },
+    {
+      "criterion": "unplanned PD as initiation in less than 48 hours after implantation of the peritoneal catheter",
+      "label": "met",
+      "evidence": "patient was placed on Vanco po, Flagyl IV and Flagyl po initially, and when patient improved she was transitioned to Vanco oral and Flagyl oral"
+    },
+    {
+      "criterion": "absolute contraindication to PD method are: presence of recent abdominal surgery (less than 30 days)",
+      "label": "not_met",
+      "evidence": "patient has no history of recent abdominal surgery"
+    },
+    {
+      "criterion": "severe respiratory insufficiency (FiO2> 70%)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal infections",
+      "label": "met",
+      "evidence": "C diff assay positive on admission, and pt had leukocytosis consistent with C diff"
+    },
+    {
+      "criterion": "severe hyperkalemia with changes characteristic in EKG",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute pulmonary edema",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of recent abdominal surgery (less than 30 days)",
+      "label": "not_met",
+      "evidence": "patient has no history of recent abdominal surgery"
+    },
+    {
+      "criterion": "multiple previous abdominal surgery (more than two)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe respiratory insufficiency (FiO2> 70%)",
+      "label": "not_met",
+      "evidence": "patient was not on pressors (levophed)"
+    },
+    {
+      "criterion": "abdominal infections",
+      "label": "met",
+      "evidence": "C diff assay positive on admission, and pt had leukocytosis consistent with C diff"
+    },
+    {
+      "criterion": "severe hyperkalemia with changes characteristic in EKG",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute pulmonary edema",
+      "label": "not_met",
+      "evidence": "patient was not on pressors (levophed)"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02646436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

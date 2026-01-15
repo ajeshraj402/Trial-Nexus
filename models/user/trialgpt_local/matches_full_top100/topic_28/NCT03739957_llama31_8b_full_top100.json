@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03739957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD with two or more exacerbations every year or at least one leading to hospitalization.",
+      "label": "met",
+      "evidence": "The patient has a history of COPD and has had multiple exacerbations in the past year."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the study is designed for a real life dimension and the algorithm can be used to convey information of interest for worsening of non-respiratory pathology.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Each patient will be provided with the BPCOmedia Kit for measuring the status of patient's health COPD.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of COPD and multiple exacerbations in the past year. However, the study is designed for real-life conditions and may not be suitable for this patient.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03739957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

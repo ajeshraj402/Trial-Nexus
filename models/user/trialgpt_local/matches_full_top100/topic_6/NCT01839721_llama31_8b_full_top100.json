@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01839721",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pelvic cancer",
+      "label": "met",
+      "evidence": "gynecologic, rectal, or prostatic"
+    },
+    {
+      "criterion": "radiotherapy treatments for a minimum of 40 Gy at the pelvic level",
+      "label": "met",
+      "evidence": "with or without chemotherapy"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group(ECOG) performance status of 0 or 1",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous radiotherapy treatments in the pelvic or abdominal region",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical history of gastro-intestinal inflammation, malabsorption syndrome or inflammatory bowel disease or coeliac disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ileostomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "daily use of anti-diarrheal medication before radiotherapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neutropenia or probiotics intolerance",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01839721",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

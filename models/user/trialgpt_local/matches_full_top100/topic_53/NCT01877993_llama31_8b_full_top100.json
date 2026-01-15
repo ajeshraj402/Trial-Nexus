@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01877993",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "resting chest pain without significant coronary lesions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "underwent a provocation test with Ach infusion during coronary angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "documented cardiovascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serious medical condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "increased serum creatinine level (>2mg/dl)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "incomplete data",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypertension diagnosis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently using antihypertensive medications",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01877993",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

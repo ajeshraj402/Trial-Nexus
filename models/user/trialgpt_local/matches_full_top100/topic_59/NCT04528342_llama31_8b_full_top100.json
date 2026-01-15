@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04528342",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of acute asthma exacerbations",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "age > 2 years and < 16 years",
+      "label": "met",
+      "evidence": "The patient is a 15-year-old boy"
+    },
+    {
+      "criterion": "information and written consent of a legal representative",
+      "label": "met",
+      "evidence": "He is a candidate for general corticosteroid therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic lung diseases other than asthma (cystic fibrosis, bronchopulmonary Dysplasia)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Congenital heart disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient presents with shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04528342",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03845777",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgical staff",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "iodized medications",
+      "label": "triggers",
+      "evidence": "study protocol"
+    },
+    {
+      "criterion": "thyroid hormone replacement",
+      "label": "triggers",
+      "evidence": "study protocol"
+    },
+    {
+      "criterion": "salt restrictions",
+      "label": "triggers",
+      "evidence": "study protocol"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may be relevant to the study. However, the patient's use of iodized medications and thyroid hormone replacement may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03845777",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

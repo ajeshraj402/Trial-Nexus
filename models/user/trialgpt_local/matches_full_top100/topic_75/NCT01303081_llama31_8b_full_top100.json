@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01303081",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "interested in quitting smoking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "current employment at Walgreens",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "plan to stop working at Walgreens in the next 12 months",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "use a form of tobacco other than cigarettes",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, ranked as mild. He is offered Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01303081",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

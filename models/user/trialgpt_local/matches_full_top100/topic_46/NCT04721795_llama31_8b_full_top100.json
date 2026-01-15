@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04721795",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed, uncomplicated, drug-susceptible pulmonary TB",
+      "label": "met",
+      "evidence": "sputum smear positive for Mycobacterium tuberculosis"
+    },
+    {
+      "criterion": "Sputum Smear, culture or GenXpert result positive for pulmonary TB",
+      "label": "met",
+      "evidence": "sputum smear positive for Mycobacterium tuberculosis"
+    },
+    {
+      "criterion": "Ability to provide written, informed consent prior to trial initiation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male or and non pregnant female participants between 18 and 65 years of age",
+      "label": "met",
+      "evidence": "30-year-old male"
+    },
+    {
+      "criterion": "Body mass index 16.0 and 32.0 kg/m2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to produce an adequate volume of sputum (approximately 10 -15mL or more",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participants known or suspected of having any form of drug resistance TB.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients co infected with HIV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those with poor general condition where no delay in treatment can be tolerated",
+      "label": "met",
+      "evidence": "febrile (38 c) with heart rate of 115 b/min, respiratory rate of 22"
+    },
+    {
+      "criterion": "Evidence of clinically significant metabolic or co morbid medical conditions ; malignancy; or other diseases like history of or current cardiovascular disorder such as heart failure, coronary heart disease, arrhythmia.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known or family history of bleeding disorders.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any renal impairment characterized by serum creatinine clearance of 1.5 x upper limit of normal of the clinical laboratory reference range at screening.",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "Myositis and or Creatinine phosphokinase three times upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has newly diagnosed, uncomplicated, drug-susceptible pulmonary TB with positive sputum smear for Mycobacterium tuberculosis. He is a male participant between 18 and 65 years of age.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT04721795",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

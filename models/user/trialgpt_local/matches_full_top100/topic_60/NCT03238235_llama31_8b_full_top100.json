@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03238235",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ambulant patients with BMD diagnosis confirmed by genetic testing.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able and willing to give informed consent in writing.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to perform 6MWT at screening with a minimum distance of 200 m and maximum distance of 450 m.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Exposure to another investigational drug within 3 months prior to the start of study treatment.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of any pharmacologic treatment, other than corticosteroids, that might have an effect on muscle strength or function within 3 months prior to the start of study treatment (e.g., growth hormone).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03238235",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

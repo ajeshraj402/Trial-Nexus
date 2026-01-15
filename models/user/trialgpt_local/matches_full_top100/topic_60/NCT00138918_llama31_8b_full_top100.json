@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT00138918",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed adenocarcinoma of the prostate, previously untreated",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Males \u2265 18 years of age.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Potential candidate for radical prostatectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical stage T3",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum PSA > 10 ng/ml",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gleason score 7-10",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gleason score 6 and > 3 positive biopsies",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status 0-1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "WBC \u2265 3.0 x 10^9/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 100 g/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Platelets \u2265 100 x 10^9/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PTT, INR, AST, ALT, creatinine, total bilirubin within normal limits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior hormone, radiation, or chemotherapy for prostate cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of active infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients receiving therapeutic doses of warfarin or heparin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe end organ disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who otherwise would not be candidates for radical prostatectomy because of health or tumour factors",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior malignancy unless the prior malignancy was diagnosed and definitively treated at least five years previously and there has never been any evidence of recurrence.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other serious illness, psychiatric, or medical condition that would not permit the patient to be managed according to the protocol",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a candidate for urethral catheterization and TURP. He has a history of acute urinary retention in the past 2 days.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT00138918",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

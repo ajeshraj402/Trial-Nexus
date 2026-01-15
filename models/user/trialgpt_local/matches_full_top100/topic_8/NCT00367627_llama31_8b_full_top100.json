@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57-year-old gentleman"
+    },
+    {
+      "criterion": "disease",
+      "label": "met",
+      "evidence": "CLL and large cell transformation"
+    },
+    {
+      "criterion": "previous_treatment",
+      "label": "met",
+      "evidence": "completed four cycles of FCR therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "57-year-old gentleman"
+    },
+    {
+      "criterion": "serious_chronic_illness",
+      "label": "unknown",
+      "evidence": "suffering from CLL and large cell transformation"
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, but is otherwise eligible for the study.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

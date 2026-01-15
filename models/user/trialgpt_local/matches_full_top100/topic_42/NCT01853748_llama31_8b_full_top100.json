@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01853748",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HER2-positive Stage I histologically confirmed invasive carcinoma of the breast",
+      "label": "met"
+    },
+    {
+      "criterion": "ER/PR determination is required",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Bilateral breast cancers that individually meet eligibility criteria are allowed",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breastfeeding",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Use of potent CYP3A4 inhibitors during the study treatment period",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Locally advanced tumors at diagnosis",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has hypertension (BP 146/99) and proteinuria (3+ proteins). Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01853748",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

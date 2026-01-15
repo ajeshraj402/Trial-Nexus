@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03968224",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "BMI greater than or equal to 40 kg/m^2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of diabetes or prediabetes according to the criteria of the ADA",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who sign informed consent letter",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of insulin or sulfonylureas",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic renal failure with glomerular filtration rate <60 ml/min/1.73 m^2",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of loop diuretics with no possibility to suspend",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active genitourinary tract infections determined by symptomatology or urinalysis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of drugs for weight control",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with untreated or uncontrolled hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She has chronic kidney disease (SCr 2.1) and hypothyroidism (TSH 10).",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03968224",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

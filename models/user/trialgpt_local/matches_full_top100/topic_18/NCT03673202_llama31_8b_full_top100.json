@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03673202",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "undergoing investigative cystoscopies for the monitoring of recurrence of urinary tract UC",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients on an all-comers basis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive diagnosis for primary or recurrent bladder tumour within the past 5 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to provide a voided urine sample of the required minimum volume",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able and willing to comply with study requirements",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aged 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior genitourinary manipulation (flexible or rigid cystoscopy / catheterisation, urethral dilation)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recent history of glomerulonephritis, nephrosis or other renal inflammatory disorders",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He had a severe urethral stricture that was treated with a flexible cystoscopy in the ICU.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03673202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

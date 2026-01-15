@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01864473",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "major_illness",
+      "label": "not_met",
+      "evidence": "Diabetes, Hypertension, Asthma, Tuberculosis"
+    },
+    {
+      "criterion": "multiple_track",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major_illness",
+      "label": "triggers",
+      "evidence": "leukocytosis"
+    },
+    {
+      "criterion": "associated_anorectal_conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain and leukocytosis, but no major illness or anorectal conditions mentioned.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01864473",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

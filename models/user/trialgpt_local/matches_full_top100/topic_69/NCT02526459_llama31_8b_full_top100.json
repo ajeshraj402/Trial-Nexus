@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02526459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "baby_with_cephalic_presentation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "less_than_34_weeks_gestation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "planned_caesarean_section",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "planned_pre_existing_birth_plan",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intrauterine_fetal_demise",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, taking multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT02526459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

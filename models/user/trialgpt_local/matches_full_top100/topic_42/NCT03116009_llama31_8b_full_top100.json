@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03116009",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obese pregnant women with BMI > 30 kg/m2",
+      "label": "met",
+      "evidence": "BMI was 24 at the first visit when she was at 6 weeks of gestational age"
+    },
+    {
+      "criterion": "First prenatal visit or subsequent visit prior to 20 weeks of gestation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Maternal age > 18 years",
+      "label": "met",
+      "evidence": "19 yo Hispanic female"
+    },
+    {
+      "criterion": "Willingness to participate in the study and give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pre-existing DM or pre-gestational diabetes mellitus,",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gestational age more than 20 weeks at time of enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unknown or inability to determine gestational age even with last menstrual period",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous medical history of gestational diabetes mellitus.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known impaired glucose metabolism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HbA1C > 6.5 %",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has no specific past medical issues and only uses prenatal vitamins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03116009",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

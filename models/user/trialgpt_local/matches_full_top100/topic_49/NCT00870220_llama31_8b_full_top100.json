@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00870220",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "11.5-13.0 years of age"
+    },
+    {
+      "criterion": "GH therapy duration",
+      "label": "met",
+      "evidence": "6 months prior to the study"
+    },
+    {
+      "criterion": "estrogen therapy",
+      "label": "not_met",
+      "evidence": "no estrogen prior to the study"
+    },
+    {
+      "criterion": "breast stage",
+      "label": "met",
+      "evidence": "stage 1"
+    },
+    {
+      "criterion": "thyroid status",
+      "label": "met",
+      "evidence": "euthyroid prior to the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "estrogen therapy",
+      "label": "triggers",
+      "evidence": "treats with GH since 6 months ago without estrogen therapy"
+    },
+    {
+      "criterion": "breast stage",
+      "label": "not_met",
+      "evidence": "stage 1"
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00870220",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

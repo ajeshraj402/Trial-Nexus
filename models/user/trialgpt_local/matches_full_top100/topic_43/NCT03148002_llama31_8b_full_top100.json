@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03148002",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "peritoneal dialysis program",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "taking laxatives",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or intolerance to study laxatives",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cognitive impairment or inability to document symptoms",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastrointestinal obstruction or ileus",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known or planned pregnancy",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no laxative use in the last 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin-positive stool samples. She is febrile, tachycardic, and hypotensive.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03148002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

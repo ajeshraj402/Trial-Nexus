@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02069366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age between 21-45 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current PTSD diagnosis [related to civilian trauma]",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Experience with a civilian trauma without a PTSD diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Free of a lifetime Axis I or Axis II diagnosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant medical or neurological condition",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Less than a high school education",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lack of fluency in English",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Night shift work",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02069366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

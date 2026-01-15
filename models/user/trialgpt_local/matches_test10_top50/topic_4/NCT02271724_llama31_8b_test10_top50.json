@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT02271724",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients diagnosed with CIDP or MMN or patients suspected to have CIDP or MMN",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "analyses of the spinal fluid, the patient will be replaced by a new patient.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The research project will be carried out according to the Act on Processing of Personal Data and, furthermore, the project will be submitted to the common regional information system for Region Midtjylland.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN, and viral encephalitis/meningitis with residual deficits.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02271724",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

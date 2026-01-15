@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01649167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women in the first trimester of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "between 16 and 46 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "singleton gestation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previously known chronic metabolic disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregestational dyslipidemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with TB, but meets inclusion criteria for pregnancy trial.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01649167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03305861",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "63-year-old man"
+    },
+    {
+      "criterion": "LUTS secondary to BOO due to BPH who failed medical treatment",
+      "label": "met",
+      "evidence": "history of acute urinary retention in the past 2 days, Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine"
+    },
+    {
+      "criterion": "International prostate symptom scores (IPSS) >15 and bother score (QOL) \u2265 3",
+      "label": "met",
+      "evidence": "Post-void residual: 71 mL, Prostate volume (TRUS): 63 mL, Prostate-specific antigen (PSA) level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "Peak urinary flow rate (Qmax) <15 ml/sec with at least 125 ml voided volume",
+      "label": "met",
+      "evidence": "Peak urinary flow rate (Qmax)"
+    },
+    {
+      "criterion": "Patients with acute urine retention secondary to BPH who failed trial of voiding on medical treatment",
+      "label": "met",
+      "evidence": "history of acute urinary retention in the past 2 days"
+    },
+    {
+      "criterion": "ASA (American society of anaesthesiologists) score \u22643",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "TRUS prostate size > /= 80 ml",
+      "label": "met",
+      "evidence": "Prostate volume (TRUS): 63 mL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with neurological disorder which might affect bladder function as cerebrovascular stroke, Parkinson disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active urinary tract infection",
+      "label": "not_met",
+      "evidence": "U/A: Color: yellow, Appearance: cloudy, PH: 5.3, Specific gravity: 1.010, Glc: 100, Nitrite: negative, Ketone: none, Leukocyte esterase: negative, RBC: negative, WBC: 2 WBCs/hpf"
+    },
+    {
+      "criterion": "Presence of active bladder cancer (within the last 2 years)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known prostate cancer patients will be excluded preoperatively on the basis of digital rectal examination, prostate specific antigen level, and TRUS imaging followed by prostate biopsies if necessary.",
+      "label": "not_met",
+      "evidence": "Prostate-specific antigen (PSA) level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "Patient has a disorder of the coagulation cascade (e.g., liver cell failure) or disorders that affect platelet count or function (e.g., von Willebrand disease) that would put the subject at risk for intraoperative or postoperative bleeding.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is unable to discontinue anticoagulant and antiplatelet therapy preoperatively (3-5 d) except for low-dose aspirin (e.g., 100 mg).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has had an acute myocardial infarction or open-heart surgery <180 days prior to the date of informed consent.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for urethral catheterization and TURP. Further evaluation revealed normal recent blood chemistry.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03305861",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

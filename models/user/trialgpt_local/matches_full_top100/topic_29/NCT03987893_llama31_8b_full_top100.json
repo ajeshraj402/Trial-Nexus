@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03987893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "ACLF with presence of hepatic encephalopathy > grade 2 as per WHC",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or those who are suspected to be having acute fatty liver of pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Malarial hepatopathy, enteric hepatitis, or ischemic hepatitis.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Na <125 mEq/litre",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL"
+    },
+    {
+      "criterion": "Gastrointestinal (GI) obstruction, ileus, or gastric retention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bowel perforation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Toxic colitis or toxic megacolon",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Structural brain lesions (as indicated by computed tomography imaging if available and confirmed by neurological exam)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other causes of altered mental status (i.e. not meeting the definition of hepatic encephalopathy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes, currently homeless and without insulin supply. He has had previous episodes of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03987893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

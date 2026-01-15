@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04364087",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Vietnamese women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "polycystic ovarian syndrome diagnosed by Rotterdam criteria (2003)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "indications for infertility treatments",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid-stimulating hormone (TSH) >5mIU/mL",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "serum prolactin (PRL) >30ng/mL",
+      "label": "unknown",
+      "evidence": "no evidence"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment and thyroid profile is mostly within normal range.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04364087",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00353340",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 year or older"
+    },
+    {
+      "criterion": "GFR",
+      "label": "met",
+      "evidence": "15-60ml/min calculated by MDRD formula"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serum creatinine levels",
+      "label": "not_met",
+      "evidence": "<8mg/dl"
+    },
+    {
+      "criterion": "GFR",
+      "label": "met",
+      "evidence": ">15ml/min"
+    },
+    {
+      "criterion": "preexisting dialysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple myeloma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pulmonary edema",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00353340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

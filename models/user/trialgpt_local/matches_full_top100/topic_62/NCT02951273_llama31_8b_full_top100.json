@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02951273",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "patient's age is 46"
+    },
+    {
+      "criterion": "Patients planned for major abdominal surgery that require placement of an arterial line and central venous catheter, including oesophageal- or ventricular resection",
+      "label": "unknown",
+      "evidence": "no mention of surgical plans"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No informed consent",
+      "label": "not_met",
+      "evidence": "patient reported no use of lipid-lowering medications"
+    },
+    {
+      "criterion": "Treatment with anti-inflammatory medication, including NSAID and corticosteroids",
+      "label": "unknown",
+      "evidence": "no mention of medication"
+    }
+  ],
+  "notes": "Patient has severe stenosis in the left internal carotid artery but is physically active and has no other cardiovascular risk factors.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02951273",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

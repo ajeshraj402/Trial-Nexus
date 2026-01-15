@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient states she is not using any drugs and does not smoke"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age between 18-50 years old",
+      "label": "met",
+      "evidence": "47-year-old Asian woman"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "nothing remarkable in her past medical history"
+    },
+    {
+      "criterion": "Current PTSD diagnosis",
+      "label": "met",
+      "evidence": "HAM-D score is 20"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition or neurocognitive dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "risk of harm to self or others that requires immediate intervention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of contraindications, current or past allergic or adverse reaction, or known sensitivity to cannabinoid-like substances",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "lack of fluency in English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive drug screen or alcohol breathalyzer",
+      "label": "not_met",
+      "evidence": "she is not using any drugs and does not smoke"
+    },
+    {
+      "criterion": "unwilling/unable to sign informed consent document",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "currently pregnant (positive pregnancy test), planning pregnancy, or lactating (women)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "under 18 or over 50 years of age",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness, loss of interest in activities, and weight loss. She has a current PTSD diagnosis and no contraindications to cannabinoid-like substances.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

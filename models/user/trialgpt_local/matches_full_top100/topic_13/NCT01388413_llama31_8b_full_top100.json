@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01388413",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "subject over 18 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "having a neurogenic bladder with automatic catheter and pharmacologic disconnection of the detrusor muscle",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "having at least 4 symptomatic UTIs per year with bacterial sensitivity to the chosen antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "having given full consent to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "being the recipient of social security benefits",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known allergy or hypersensitivity to useful antibiotics (to which the bacterium or bacteria are sensitive) or to one of their components",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "other contraindication in the administering of useful antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "urinary volume flow >500 ml during automatic catheter",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "different urinary drainage method than automatic catheter",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "occurrence of stones in the urinary tract",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infection due to endo urinary material (urinary prosthesis, ureteral stent)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "creatinine clearance <60 ml/min",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient under guardianship",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. They have been treated with vanc/meropenem and are currently on ditropan changed over to detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01388413",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

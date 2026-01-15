@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04112108",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "PTMC",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "immediate post-PTMC mitral valve area (IMVA) \u22651.5 cm2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "50% increase in pre-PTMC mitral valve area (MVA)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "an initial cardiovascular event-free period of at least 6 months after the procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "each patient with mitral stenosis undergone successful PTMC",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "after the procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immediate cardiovascular event during the hospital stay after the procedure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "more than mild aortic stenosis or sufficiency before PTMC",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of previous PTMC or surgical mitral procedures",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04112108",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

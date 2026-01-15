@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02169830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men and women aged 18 to 70",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "with untreated vestibular migraine variant as diagnosed by history",
+      "label": "met",
+      "evidence": "history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergies to nortriptyline or topiramate and their analogs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Medication interactions that preclude use of nortriptyline or topiramate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or trying to become pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Taking more than 5 prescription medications",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of immunodeficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of substance abuse within the preceding 6 months prior to screening",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "Used an investigational drug or device in the 3 months prior to screening",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Using marijuana for medical or other uses",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and was treated with Vanco for an extended course of 6 weeks. Pt was also encouraged to take probiotics and bleach her home when she was discharged.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02169830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

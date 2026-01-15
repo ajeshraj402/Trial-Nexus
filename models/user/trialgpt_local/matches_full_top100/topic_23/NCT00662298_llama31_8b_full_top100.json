@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00662298",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Physician diagnosis of asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 18 - 70",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-smokers or ex-smokers with less than 5 pack/year history",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with continuous or near continuous (>50% of year) oral corticosteroids",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Requirement for treatment with high dose inhaled corticosteroids (ICS)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current smokers, or less than 3 years since quitting smoking",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than 4 weeks from an exacerbation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently using inhaled corticosteroids. However, they have had recent symptoms that are not relieved by their inhaler.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00662298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

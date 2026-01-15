@@ -1,0 +1,43 @@
+{
+  "trial_id": "NCT00238667",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Extracranial carotid or vertebral artery dissection with symptom onset within the last 7 days.",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "Ipsilateral TIA or stroke",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Imaging evidence of definite or probable dissection on MRI/MRA, CTA or ultrasound.",
+      "label": "met",
+      "evidence": "Cerebral angiography further revealed patent right ACA and MCA and patent left ACA and left MCA."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Intracranial cerebral artery dissection",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Symptom onset after 7 days",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Contraindications to either antiplatelet agents or anticoagulation therapy",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00238667",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02745977",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "exclusively breast fed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "infant age < 4 months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "formula fed",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5-month-old male with an undescended testis, exclusively breastfed and no developmental delay.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02745977",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

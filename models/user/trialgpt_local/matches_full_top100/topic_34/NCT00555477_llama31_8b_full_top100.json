@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00555477",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "breast cancer confined to breast and lymph nodes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence of cancer elsewhere",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgical removal of tumor with radiation therapy completed or planned",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tumor expresses estrogen and/or progesterone receptors",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual period within 6 months before starting chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chemotherapy regimen includes cyclophosphamide (Cytoxan)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual periods stopped for at least 8 weeks starting during or after chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age between 18 and 60 years old",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ovaries surgically removed or treated with radiation therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "taking medications (Zoladex\u2122 or Lupron\u2122) to block the function of ovaries",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has breast cancer, meets most inclusion criteria, but exclusion criteria not met due to lack of ovarian removal or medication use.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00555477",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

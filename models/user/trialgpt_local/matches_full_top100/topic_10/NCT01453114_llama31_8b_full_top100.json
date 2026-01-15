@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01453114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "F"
+    },
+    {
+      "criterion": "systemic_mastocytosis_history",
+      "label": "met",
+      "evidence": "5 yr history of systemic mastocytosis"
+    },
+    {
+      "criterion": "flare_frequency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "steroid_taper",
+      "label": "not_met",
+      "evidence": "still on steroid taper which is new for her"
+    },
+    {
+      "criterion": "response_to_therapy",
+      "label": "met",
+      "evidence": "responded well to 125 mg IV steroids q 8 hrs and IV diphenydramine"
+    },
+    {
+      "criterion": "CBC_results",
+      "label": "met",
+      "evidence": "normal differential"
+    },
+    {
+      "criterion": "serum_trypatase_level",
+      "label": "not_met",
+      "evidence": "high value at 84"
+    },
+    {
+      "criterion": "aspirin_challenge_result",
+      "label": "not_met",
+      "evidence": "failed aspirin challenge due to adverse reaction"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant_risk_for_self_harm_or_others",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychotic_symptoms",
+      "label": "not_met",
+      "evidence": "no mention of psychotic symptoms"
+    },
+    {
+      "criterion": "schizophrenia_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bipolar_disorder_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active_eating_disorder_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dementia_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "delirium_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "substance_abuse_disorder",
+      "label": "not_met",
+      "evidence": "no mention of substance abuse disorder"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is currently stable on medication. She failed an aspirin challenge due to adverse reaction.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT01453114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00104494",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 8-14 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have clinical pancreatic insufficiency (defined as the need for pancreatic enzyme replacement)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have no other medical problems except CF (and its complications)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Weigh > 25kg",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Are taking any medicines (other than for CF and its complications)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have known pancreatic endocrine dysfunction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Are taking more than 10 mg/d elemental zinc supplements",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have had major GI surgery, including gut resection, but not including surgery for decompression of meconium ileus (if this was the presenting feature of CF)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. No other medical problems except CF and its complications.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00104494",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

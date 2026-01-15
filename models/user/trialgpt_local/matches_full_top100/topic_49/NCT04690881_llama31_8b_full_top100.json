@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04690881",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-disabled",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Wijma Birth Experience / Expectation Scale A score",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "living with spouse",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "primipary",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no risky pregnancy diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "suitable weeks of gestation",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "risky pregnancy diagnosis during training",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "incomplete forms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "difficulty following group studies",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, is obese and mentally retarded. She is treating with GH.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04690881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

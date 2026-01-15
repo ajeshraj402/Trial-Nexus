@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03790384",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "centrally randomized",
+      "label": "met",
+      "evidence": "Methods: A consecutive series of patients with High Risk Non-Muscle Invasive Bladder Cancer will be enrolled in several centres"
+    },
+    {
+      "criterion": "BCG induction treatment",
+      "label": "met",
+      "evidence": "Patients selected for the study, are centrally randomized (randomization is performed at the Sant'Andrea Hospital) to receive BCG induction treatment according to the standard protocol"
+    },
+    {
+      "criterion": "High Risk Non-Muscle Invasive Bladder Cancer",
+      "label": "met",
+      "evidence": "Clinical evaluation: Patients with High Risk Non-Muscle Invasive Bladder Cancer will be enrolled"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Low Risk Non-Muscle Invasive Bladder Cancer",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Muscle Invasive Bladder Cancer",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 25-year-old pregnant woman with symptoms of fever, chills, nausea, vomiting, dysuria, urgency, and frequency. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03790384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

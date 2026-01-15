@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03272204",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-menopausal women between the ages of 18-50",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with either natural growth/distribution of pubic hair or complete removal of pubic hair through a reversible process.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who do not feel they have urinary or vaginal health problems and are not seeking care for these issues",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women must be willing and able to complete study documentation and study procedures.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hair has been removed through an irreversible process like laser or electrolysis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient feels they have bothersome urinary or pelvic floor conditions for which they are seeking care (for example: vaginal prolapse, frequent urinary incontinence, chronic pelvic pain, bladder pain)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient plans on having any type of surgery in the next 2 months (due to likely antibiotic use)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has a history of a transplant and is on immunosuppression",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has cancer for which she is currently getting chemotherapy or radiation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently taking or has taken antibiotics in the last 7 days for any reason",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has symptoms of a urinary tract or vaginal infection or is found on exam or culture to have a urinary tract infection or vaginal infection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is pregnant or breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis. Non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03272204",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

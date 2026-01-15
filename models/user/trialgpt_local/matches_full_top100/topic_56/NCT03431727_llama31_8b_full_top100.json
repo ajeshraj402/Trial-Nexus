@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03431727",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acromegaly",
+      "label": "met",
+      "evidence": "known case"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "written consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has acromegaly and underwent surgery, taking vitamins only.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03431727",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

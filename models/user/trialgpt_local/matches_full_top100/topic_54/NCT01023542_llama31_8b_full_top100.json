@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01023542",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and female liver transplant recipients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Signed, written informed consent prior to randomization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "MELD scores \u226525",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients transplanted for autoimmune hepatitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HIV positive patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with pre-transplant immunosuppressive treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients who are recipients of multiple solid organ or islet cell tissue transplants",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with renal failure or CKD/ESRD who require renal replacement therapy for more than 2 weeks prior to transplantation.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of coagulopathy and medical condition requiring long-term treatment, but this is not explicitly stated as an exclusion criterion.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01023542",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

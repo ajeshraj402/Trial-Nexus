@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03727412",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients suffering from infrarenal abdominal aortic aneurysm undergoing endovascular",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aneurysm repair",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Leukocytosis (white blood cell count [WBC]> 10,000 / mL) and elevated body temperature",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signs of gangrene",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Urine culture shows Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03727412",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

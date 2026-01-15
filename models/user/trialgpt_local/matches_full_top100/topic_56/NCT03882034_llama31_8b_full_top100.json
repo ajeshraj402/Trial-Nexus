@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03882034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active GH excess",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age, random GH level is 4 ug/L"
+    },
+    {
+      "criterion": "History of inadequate response to trans-sphenoidal surgery or radiation therapy for GH secreting pituitary tumor",
+      "label": "met",
+      "evidence": "The patient underwent transsphenoidal surgery 4 months ago and has a residual pituitary tumor"
+    },
+    {
+      "criterion": "Willingness to discontinue other medications for the treatment of GH excess for a 6-week washout period prior to initiating pegvisomant",
+      "label": "met",
+      "evidence": "The patient takes only vitamin D and multivitamins"
+    },
+    {
+      "criterion": "Able to provide consent/assent if developmentally appropriate",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to use non-hormonal method of contraception in patients of reproductive potential",
+      "label": "met",
+      "evidence": "The patient is a 41-year-old man"
+    },
+    {
+      "criterion": "Have a primary health care provider in home location who will perform regular height and weight measurements, vital signs, and safety labs",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Height and weight will be requested to be performed according to the published methods included in the CDC-NHANES manual on anthropometry procedures manual",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Liver function abnormalities (ALT, AST) greater than or equal to 3 times ULN",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Positive pregnancy test in females, current pregnancy and/or female patients who are breastfeeding",
+      "label": "not_met",
+      "evidence": "The patient is a 41-year-old man"
+    },
+    {
+      "criterion": "Patients currently using opioids. Opioids induce altered metabolism of pegvisomant.",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Acromegaly due to pituitary adenoma and underwent transsphenoidal surgery 4 months ago.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03882034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

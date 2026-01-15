@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03794765",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute severe ulcerative colitis",
+      "label": "met",
+      "evidence": "European Crohn's and Colitis Organisation (ECCO) guidelines"
+    },
+    {
+      "criterion": "Recent history of intravenous antibiotics for aspiration pneumonia",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age<=12 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe uncontrolled comorbidities like diabetes mellitus, hypertension, coronary artery disease, chronic liver disease, chronic kidney disease, etc",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of antibiotic use in the past one month, excluding those who may have received a single dose of antibiotic in past 24 hrs",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of hypersensitivity or contraindication to steroids or the test drugs",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of toxic megacolon as defined by transverse colon diameter more than 5.5cm on abdominal X-ray",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with evidence of sepsis or active infection",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of intravenous antibiotics for aspiration pneumonia. She has acute severe ulcerative colitis and does not have any exclusion criteria that would make her ineligible.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03794765",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

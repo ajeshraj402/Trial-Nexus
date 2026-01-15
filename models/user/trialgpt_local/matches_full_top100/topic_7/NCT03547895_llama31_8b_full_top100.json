@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03547895",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "treatment with DAAs after consent to participate in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "baseline laboratory investigation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver function tests, Prothrombin time, Prothrombin concentration (%), kidney function tests, complete Blood Count, fasting blood sugar, HBA1c if diabetes was present and serum AFP",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "quantitative assessment of HCV load in the serum by real-time Quantitative PCR (COBAS Ampliprep/Taqman HCV monitor version 2.0)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "genotyping for HCV using INNO-LiPA II",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abdominal ultrasonography (USG) to evaluate criteria of decompensated cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treatment exposure and outcome, including development of sustained virological response (SVR), occurrence of complications after DAAs, and effects of SVR on hepatic encephalopathy and ascites control",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "regular biweekly visits for 6 months, then every 2 months for 20 months, with full history taking and laboratory evaluation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic active HCV proved by the positivity of HCV RNA, elevated transaminases, CTP score >9, MELD score <29",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "decompensated cirrhosis with frequent hepatic encephalopathy (HE) or difficult to treat ascites",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "exposure to previous antiviral therapy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is currently being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03547895",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

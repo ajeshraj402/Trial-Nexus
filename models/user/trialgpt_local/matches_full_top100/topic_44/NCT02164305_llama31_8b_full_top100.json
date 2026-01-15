@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02164305",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy subjects",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Less than 135 degrees of active humeral elevation in the scapular plane",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior shoulder and cervical surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of shoulder and neck pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Had history of head, cervical or shoulder pain or pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Stroke and neurological impairment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of seizures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Taking anti-seizure and anti-depressive medication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "With pacemaker and other magnetic implant",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has scoliosis with a measured curve of 45 degrees, which may be a candidate for surgery. However, they have shoulder and neck pain, which could be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT02164305",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01075269",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "a minimally invasive follicular thyroid carcinoma \u22644 cm in diameter, or a papillary thyroid carcinoma \u22642 cm in diameter.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous neck operations; age <21 or >65 years; prior vocal fold paralysis or a history of voice or laryngeal disease requiring therapy;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "a malignancy with definite extrathyroid invasion, multiple lateral neck node metastasis, perinodal infiltration at a metastatic lymph node, or distant metastasis;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a lesion located in the thyroid dorsal area (especially adjacent to the tracheoesophageal groove) caused by possible injury to the trachea, esophagus, or recurrent laryngeal nerve (RLN).",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with worsening dysphagia and poor oral intake. Previous neck operations and age >65 years are potential exclusions, but patient's condition suggests they may be eligible.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01075269",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

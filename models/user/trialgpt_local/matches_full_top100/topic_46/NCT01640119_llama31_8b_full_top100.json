@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01640119",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "End stage renal disease",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sex",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neoplastic diseases",
+      "label": "not_met",
+      "evidence": "no history of cancer"
+    },
+    {
+      "criterion": "Autoimmune diseases",
+      "label": "not_met",
+      "evidence": "no history of autoimmune disease"
+    },
+    {
+      "criterion": "Decompensation class III-IV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrollable hypertension",
+      "label": "not_met",
+      "evidence": "BP 125/75 mmHg"
+    },
+    {
+      "criterion": "Amputation of the limbs",
+      "label": "not_met",
+      "evidence": "no history of amputation"
+    },
+    {
+      "criterion": "Previous ictus cerebri",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neobladder, ureterosigmoidostomy",
+      "label": "not_met",
+      "evidence": "no history of surgery"
+    },
+    {
+      "criterion": "Sever acidosis with bicarbonate < 18 mEq/l",
+      "label": "not_met",
+      "evidence": "Na: 137 mEq/l"
+    }
+  ],
+  "notes": "Patient has been diagnosed with pulmonary tuberculosis and is being treated. He does not have any other medical conditions that would make him ineligible for the study.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01640119",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

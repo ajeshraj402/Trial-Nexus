@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02212002",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Term newborns (gestational age \u2265 37 weeks)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "vaginally delivered newborn",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "birth weight adequate for gestational age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mothers screened for GBS at 35-37 weeks gestation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Obtained written parental consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preterm or small/large for gestational age infants;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Infants born by caesarean section;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Infants admitted to the Neonatal Intensive Care Unit;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infants with major congenital malformations;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infants who received any antibiotic treatment after birth;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Signs of infection and/or any serious clinical conditions that contraindicate the participation in the study;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a pregnant woman who developed symptoms of UTI, but has no history of recurrent UTIs. She was treated with antibiotics after birth.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02212002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

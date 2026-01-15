@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03626753",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant in singleton pregnancy with gestational age > 34 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "American society of anesthesiologists (ASA) physical status I-II",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of gastrointestinal disorders predisposing to bleeding disorders such as ulcerative colitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Crohn's disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastrointestinal cancers or diverticulitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "an active peptic ulcer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory gastrointestinal disorder or a gastrointestinal haemorrhage",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "parturients who present preeclampsia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "premature delivery (<32 weeks)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "constitutional or acquired coagulopathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of hypertension in her family. She drinks alcohol frequently but does not smoke.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT03626753",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

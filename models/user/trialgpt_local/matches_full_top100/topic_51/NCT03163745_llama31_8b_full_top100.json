@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03163745",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "decompensated liver cirrhosis with ascites",
+      "label": "met",
+      "evidence": "urine culture showed Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts"
+    },
+    {
+      "criterion": "regardless of the etiology of liver cirrhosis",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "symptomatic spontaneous bacterial peritonitis",
+      "label": "not_met",
+      "evidence": "The blood culture is negative"
+    },
+    {
+      "criterion": "Patients taking antibiotics for any other infections within 2 weeks e.g. pneumonia, urinary tract infection..etc",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients taking antibiotics as prophylaxis for spontaneous bacterial peritonitis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. Physical examination reveals tenderness on palpation of both costovertebral angles.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03163745",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

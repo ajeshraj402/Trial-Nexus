@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT04430595",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stage III, IV or relapsed breast cancer confirmed by histology and biopsy",
+      "label": "met",
+      "evidence": "histology"
+    },
+    {
+      "criterion": "Age: \u2265 18 years and \u2264 75 years",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "2 weeks at least since last chemotherapy or radiotherapy and 2 weeks at least since last systemic steroid hormone and other immunosuppressive therapy",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Side effects of chemotherapy have subsided",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "The target antigens GD2, CD44v6, or Her2 is expressed in malignancy tissues by immuno-histochemical or flow cytometry",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) PS of 0 or 1",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Expected survival \u2265 12 weeks",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Initial hematopoietic reconstitution with neutrophils (ANC) \u2265 1\u00d710^6/L; platelet (PLT) \u2265 1\u00d710^8/L",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proper renal and hepatic functions (ULN denotes \"upper limit of normal range\") with serum creatinine \u2264 2\u00d7ULN; serum bilirubin \u2264 3\u00d7ULN; AST/ALT \u2264 2.5\u00d7ULN",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Oxygen saturation \u2265 90%",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written, informed consent obtained prior to any study-specific procedures",
+      "label": "met",
+      "evidence": "medical history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Airway obstruction caused by tumor",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of epilepsy or other central nervous system diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who require systemic corticosteroid or other immunosuppressive therapy",
+      "label": "not_met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "History of prolonged or serious heart disease during QT",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current or recent treatment (within the 28-day period prior to Day 0) with another investigational drug or previous participation in this study",
+      "label": "not_met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Inadequate liver and renal function with serum creatinine > 1.5 mg/dl; serum (total) bilirubin > 2.0 mg/dl; AST & ALT > 3 x ULN",
+      "label": "not_met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Pregnant or lactating females",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serious active infection during screening",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with stage III breast cancer, HER2-positive and ER/PR negative. She has no palpable masses on breast exam and the surgical margins were clear after lumpectomy.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04430595",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

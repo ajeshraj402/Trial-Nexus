@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02851381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed Consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have adequate liver function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have adequate bone marrow function",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergy or hypersensitivity to human, humanized or chimeric monoclonal antibodies",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any medical or surgical condition that may place the subject at increased risk while on treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active systemic infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Symptomatic congestive heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unstable angina pectoris",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically significant cardiac arrhythmia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Psychiatric illness/social situations that would limit compliance with treatment requirements",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current abuse of alcohol or drugs",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of smoking and occasional alcohol consumption, but no other significant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02851381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

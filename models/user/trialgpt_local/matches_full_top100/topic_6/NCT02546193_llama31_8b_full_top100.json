@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02546193",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A 30 French Foley will be placed either digitally or with speculum assistance.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scheduled induction of labor with indication and timing supported by the Family Birth Center induction of labor guideline entitled \"Induction of labor: Indications and Timing\".",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Singleton gestation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cephalic presentation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Amniotic fluid index greater than or equal to 5 centimeters",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Formal prenatal ultrasound documenting the absence of placenta previa",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bishop score <6 and cervical dilation <3cm",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The woman is able to give appropriate consent and has undergone an informed consent process.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Maternal age \u2265 18 years old at the time of consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the patient may receive pharmacologic pain relief in the form of one dose of acetaminophen and/or fentanyl.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cesarean delivery will not be performed for arrest of labor or failed induction unless all criteria have been met as outlined by the Family Birth Center Workgroup protocol made effective 6/2/14.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02546193",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

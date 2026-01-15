@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01579058",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mild to moderate aortic stenosis defined by peak velocity of aortic jet between 2.0 and 3.5 m/sec",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Untreated hypertension: systolic BP \u2265 140 or diastolic BP \u2265 90 mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients received no beta-blocker therapy for more than 12 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symtomatic aortic stenosis: presence of exertional dyspnea, angina or syncope",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planned cardiac surgery (e.g., CABG, valve repair or replacement, or aneurysmectomy) or planned major non-cardiac surgery within the study period",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF of 25%. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01579058",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

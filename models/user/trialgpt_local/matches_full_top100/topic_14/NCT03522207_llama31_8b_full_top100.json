@@ -1,0 +1,38 @@
+{
+  "trial_id": "NCT03522207",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "painful TMD",
+      "label": "met",
+      "evidence": "chronic myalgia (>6 months) with/without accompanying arthralgia per DC/TMD"
+    },
+    {
+      "criterion": "poor sleep quality",
+      "label": "met",
+      "evidence": "PSQI questionnaire (response of fairly bad or very bad sleep quality in the last month)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of any dental or orofacial pain disorder not meeting the definition",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Use of other pharmacological treatment for TMD or sleep during duration of the study",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Use of any psychotropic medication or drug known to influence sleep or pain such as amphetamines, benzodiazepines, anticonvulsants, neuroleptics, or antidepressants",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome, dCHF. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03522207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

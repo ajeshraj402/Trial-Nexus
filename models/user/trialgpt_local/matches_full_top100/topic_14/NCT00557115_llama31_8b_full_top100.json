@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00557115",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of acute exacerbation of COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "radiological and microbiological evidence of pneumonia with co-existing COPD",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant co-morbidity that could limit exercise training & testing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "attendance at a pulmonary rehabilitation programme in the preceding year",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD and pneumonia, but no significant co-morbidity or attendance at pulmonary rehabilitation. Overall assessment is likely eligible.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00557115",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

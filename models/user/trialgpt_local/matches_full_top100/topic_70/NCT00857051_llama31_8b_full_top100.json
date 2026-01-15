@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00857051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy first-time mothers",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "singleton baby delivered at term",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no complications",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic health problems",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy complications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infants with congenital problems or conditions requiring admission to the intensive care nursery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on anti-depressants for 6 months. She also has some digestive issues recently.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00857051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

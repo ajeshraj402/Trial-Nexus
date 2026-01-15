@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04070898",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "elective surgery",
+      "label": "met",
+      "evidence": "operated electively and programmed by laparoscopic colon"
+    },
+    {
+      "criterion": "laparoscopic procedure",
+      "label": "met",
+      "evidence": "laparoscopically of the colon and upper rectum in which peritoneal reflection has not been opened"
+    },
+    {
+      "criterion": "duration of surgical act < 180 minutes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA I-III",
+      "label": "met",
+      "evidence": "Prior anesthetic assessment of ASA I-III"
+    },
+    {
+      "criterion": "IPSS < 19",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urinary tract infections > 3 episodes/year",
+      "label": "not_met",
+      "evidence": "Recurrent UTIs with Klebsiella/Pseudomonas"
+    },
+    {
+      "criterion": "positive urine culture in men",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "permanent bladder catheter or ureteral catheter",
+      "label": "not_met",
+      "evidence": "Neurogenic bladder s/p suprapubic cath"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and neurogenic bladder with an indwelling suprapubic catheter, which may make them ineligible for the study.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04070898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

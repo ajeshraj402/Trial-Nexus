@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01846806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ambulatory patients with HCV cirrhosis will be screened for participation in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to complete Number Connection Test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Creatinine <1.5mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients determined to possibly meet the West Haven criteria grade 0 or 1 for HE",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active interferon therapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of alcohol abuse within six months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active gastrointestinal bleeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of agents that alter intestinal motility, e.g., methadone, cholestyramine,",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tricyclic antidepressants, etc.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of Neomycin or other antibiotics within the past 2 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to provide informed consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, with a history of treatment with FCR, PCR, R-CVP, and Campath. He currently has a rising white count and mildly elevated LDH.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01846806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

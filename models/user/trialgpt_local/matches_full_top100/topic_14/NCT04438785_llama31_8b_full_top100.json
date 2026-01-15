@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04438785",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "previous experience with the app",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study protocol was provided",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI > 40 kg/m\u00b2",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensated Heart failure",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple comorbidities, including COPD, OSA, and CHF. They have a history of CAD and ventricular tachycardia. The patient's current condition may be exacerbated by the study protocol.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04438785",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

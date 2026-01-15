@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01425177",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CBD stones",
+      "label": "met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "CBD stone removal during therapeutic ERCP",
+      "label": "met",
+      "evidence": "treated with CBD stone removal during therapeutic ERCP after finding"
+    },
+    {
+      "criterion": "cholangitis or cholecystitis",
+      "label": "met",
+      "evidence": "because of cholangitis or cholecystitis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Younger than 18",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Received previous CBD stone removal",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemolytic anemia, IHD stone, parasites in hepatobiliary system",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Genetic, autoimmune, congenital biliary disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver or biliary surgery except cholecystectomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pancreatic cancer, cholangiocarcinoma, ampulla of vater cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain and nausea. Elevated ESR and leukocytosis with a left shift.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01425177",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

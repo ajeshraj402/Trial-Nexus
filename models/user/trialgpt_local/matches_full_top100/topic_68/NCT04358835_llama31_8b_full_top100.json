@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04358835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "23-year-old man"
+    },
+    {
+      "criterion": "COVID-19 positive and respiratory failure requiring intubation",
+      "label": "met",
+      "evidence": "came to the hospital with high blood pressure (175/95\u2009mmHg) and signs of septicemia, developed respiratory failure requiring mechanical ventilation"
+    },
+    {
+      "criterion": "legally authorized representative",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unstable metabolic condition",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver failure",
+      "label": "not_met",
+      "evidence": "blood tests revealed elevated lactate dehydrogenase and reduced human complement C3 levels with a normal coagulation profile"
+    },
+    {
+      "criterion": "acute pancreatitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to tolerate enteral feeds, ileus, gastrointestinal bleeding",
+      "label": "not_met",
+      "evidence": "treated with plasma exchange and corticosteroids"
+    },
+    {
+      "criterion": "known pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "received propofol infusion within 24 hours",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known fatty acid oxidation disorder or pyruvate carboxylase deficiency",
+      "label": "not_met",
+      "evidence": "The genetic survey revealed ADAMTS13 >10%"
+    }
+  ],
+  "notes": "Patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04358835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

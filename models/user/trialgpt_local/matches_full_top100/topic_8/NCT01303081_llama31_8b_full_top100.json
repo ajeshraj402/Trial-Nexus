@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01303081",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Active smoker of 5 cigarettes per day for at least 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Interested in quitting smoking",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current full-time employee of Walgreens",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Plan to stop working at Walgreens in the next 12 months",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently use a form of tobacco other than cigarettes (as this may influence biochemical testing)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Are unable or unwilling to access the internet",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Do not have reliable computer or internet access",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, with a history of smoking and current employment at Walgreens. However, he plans to stop working at Walgreens in the next 12 months and does not have reliable computer or internet access.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01303081",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

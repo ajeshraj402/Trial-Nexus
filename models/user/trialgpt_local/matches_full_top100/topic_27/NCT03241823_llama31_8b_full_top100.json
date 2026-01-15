@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03241823",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "Disease status",
+      "label": "met",
+      "evidence": "hepatitis C Virus related liver cirrhosis child A& B (scores 5-9)"
+    },
+    {
+      "criterion": "Previous treatment",
+      "label": "met",
+      "evidence": "treatment na\u00efve and treatment experienced"
+    },
+    {
+      "criterion": "HCV RNA",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Negative HBsAg and HIV antibody",
+      "label": "met",
+      "evidence": "negative HBsAg and HIV antibody"
+    },
+    {
+      "criterion": "Normal kidney function test",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child C liver cirrhosis (Child score \u2265 10)",
+      "label": "not_met",
+      "evidence": "chronic inflammation compatible with a chronic viral hepatitis"
+    },
+    {
+      "criterion": "HCV coinfection with HBV or HIV",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Patients with high risk of infection (I.V drug users, patients with blood disease requiring blood transfusion)",
+      "label": "not_met",
+      "evidence": "no evidence of I.V drug use or blood disease"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03241823",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

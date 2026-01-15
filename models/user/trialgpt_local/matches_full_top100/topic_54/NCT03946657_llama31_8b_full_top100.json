@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03946657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anaesthesiologists (ASA) physical status class II-III",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI of \u2265 35 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with preexisting cerebrovascular diseases",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Overt neurological signs",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alcohol or psychoactive drug addiction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03946657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

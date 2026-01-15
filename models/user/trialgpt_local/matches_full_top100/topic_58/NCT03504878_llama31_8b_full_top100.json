@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03504878",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Laparoscopic Appendectomy patients agree to participate in research and are paid by the mode of service charge",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Laparoscopic Appendectomy patients agree to participate in research and are paid according to package medical cases",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with combined pathology affecting surgical outcomes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patient did not agree to participate in research",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain, nausea, vomiting, and elevated WBC. CT scan showed acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03504878",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02190695",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "AML, relapsed or refractory to standard therapy or elderly patients with AML (age 65 or over)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who have AML and are younger than age 65 but considered unfit for conventional chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with de novo or treated MDS or CMML INT-1 or above",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Performance 0-2 (ECOG)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate cardiac functions assessed by 2D ECHO (NYHA cardiac III-IV excluded)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pre-treatment EKG",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate end organ function with creatinine </= 2mg/dL and total bilirubin </= 2mg/dL, AST and ALT </= or = 2.5 X institutional ULN",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of significant intercurrent illness such as uncontrolled heart failure, unstable angina, cardiac arrhythmia and psychiatric illness which precludes the giving of informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Nursing and pregnant females. Patients of childbearing potential should practice effective methods of contraception.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current uncontrolled infections.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, symptomatic congestive heart failure, unstable angina pectoris, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic kidney disease > stage 3.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV infection.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT02190695",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

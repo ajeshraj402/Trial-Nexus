@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01834898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postoperative head and neck oncologic surgery",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "2 and 3 American Society of Anesthesiologists physical status",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "moderate to severe postoperative pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective surgery",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to swallow tablets whole (not chewed, broken or crushed) in the immediate postoperative period after recovery of cognitive functions.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "allergic to oxycodone and other opioids",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gastrectomized or colostomized",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "asthmatics with severe organ dysfunction",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history or suspected paralytic ileus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history psychiatric disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe respiratory depression",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who are receiving opioid analgesics in baseline",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of sickle cell disease and has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01834898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

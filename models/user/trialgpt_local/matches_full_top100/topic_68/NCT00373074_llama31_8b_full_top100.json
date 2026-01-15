@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00373074",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "obstetric patients aged 18 or more years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "post-dural puncture headache (PDPH) after a confirmed or likely unintentional dural puncture",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "medically suitable for and have consented to epidural blood patch (EBP) for treatment of PDPH",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous epidural blood patch (EBP) related to the same unintentional dural puncture",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of significant low or radicular back pain during pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. He was treated with plasma exchange and corticosteroids for atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00373074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

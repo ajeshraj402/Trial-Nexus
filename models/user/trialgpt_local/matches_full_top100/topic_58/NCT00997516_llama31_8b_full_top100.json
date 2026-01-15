@@ -1,0 +1,53 @@
+{
+  "trial_id": "NCT00997516",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Suspected acute appendicitis on clinical and radiographic grounds",
+      "label": "met",
+      "evidence": "clinical and CT scan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Phlegmon, mass, peri-appendicecal abscess, or diffuse peritonitis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Prior open laparotomy with incision through the umbilicus",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Body Mass Index > 35",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Mental illness, dementia, or inability to provide informed consent",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Chronic pain requiring daily medication (including opiate and NSAIDs)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Alternative diagnosis found by diagnostic laparoscopy (post-randomization)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. CT scan showed evidence of acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00997516",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

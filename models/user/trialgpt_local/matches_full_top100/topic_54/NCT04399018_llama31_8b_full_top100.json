@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT04399018",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age at enrollment \u226518 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Clinical suspicion of MDS",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Indication for bone marrow examination",
+      "label": "met"
+    },
+    {
+      "criterion": "\u22651 peripheral blood cytopenia defined by hemoglobin concentration <12 g/dL for female and <13g/dL for male patients, platelet count <150 x109/L, absolute neutrophil count <1.8 x109/L",
+      "label": "met"
+    },
+    {
+      "criterion": "Inpatient and outpatient care patients",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recruitment: Participants will be included in the study once all the screening activities are completed.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of or active documented MDS",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a confirmed diagnosis of Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. He has a positive serum MPO-ANCA in his medical record.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT04399018",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

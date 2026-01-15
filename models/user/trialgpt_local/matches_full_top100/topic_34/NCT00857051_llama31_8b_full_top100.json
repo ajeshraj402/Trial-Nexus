@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00857051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy first-time mothers",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "singleton baby delivered at term",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no complications",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic health problems",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy complications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infants with congenital problems or conditions requiring admission to the intensive care nursery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has no chronic health problems, pregnancy complications, or infants with congenital problems. However, she does have some digestive issues recently.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00857051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

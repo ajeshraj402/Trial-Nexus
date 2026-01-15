@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02651272",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NYHA Class II or III by symptoms",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnancy or lactation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stroke within the last 6 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She has been experiencing mid-abdominal pain radiating to the left flank. CT abdomen without contrast showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02651272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

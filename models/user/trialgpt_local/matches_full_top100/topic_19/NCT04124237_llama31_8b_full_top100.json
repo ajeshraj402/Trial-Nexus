@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04124237",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Inherited Heart Rhythm (IHR) patient with breakthrough symptoms on best medical care",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Syncope or seizure that is suspected to be arrhythmic in nature with a Brugada pattern on ECG",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Long QT syndrome (LQTS)or Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) on beta blocker",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable or unwilling to give informed consent",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ICD or pacemaker in place or considered preferable by the treating physician and/or patient/parent.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04124237",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

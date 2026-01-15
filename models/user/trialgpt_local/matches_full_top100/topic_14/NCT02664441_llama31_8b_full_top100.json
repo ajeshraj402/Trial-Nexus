@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02664441",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age 10-25 years at time of enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of hypothalamic obesity with age- and sex adjusted BMI \u2265 95% or BMI \u226530",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of craniopharyngioma or another tumor located in the hypothalamic area",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypothalamic lesion documented by neuroradiology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u2265 6 months post-surgical or radiation treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Weight stable or increasing over 3 months prior to screening visit",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stable hormone replacement for at least 3 months prior to screening visit",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Renal impairment (GFR<60 ml/min/1.73m\u00b2 using the Schwarz formula)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of gastroparesis; pancreatitis or gallstones (unless status post cholecystectomy)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Family history of multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma metabolic disorders",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any insulin-treated diabetes mellitus, poorly controlled type 2 diabetes (HbA1c \u2265 10%), or any other chronic serious medical conditions such as cardiovascular disease, malignancy or hematologic disorder, complicated syndromic disorder, or psychiatric disorders",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Calcitonin >50 mg/L at screening",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Initiation of weight loss medications within 3 months of screening visit",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous donation of blood >10% of estimated blood volume within 3 months prior study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current warfarin use",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of schizophrenia, which is a chronic serious medical condition. They also have a history of cardiovascular disease (CHF) and malignancy (COPD). These conditions make them likely ineligible for the study.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02664441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

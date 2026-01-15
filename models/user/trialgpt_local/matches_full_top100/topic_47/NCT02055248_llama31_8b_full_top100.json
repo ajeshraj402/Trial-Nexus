@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02055248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 2-80 years, any gender, race or ethnic group, inclusive.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Subject has a diagnosis of congenital facial palsy, isolated or combined with other congenital anomalies.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is a family member of a patient with a diagnosis of congenital facial palsy, isolated or combined with other congenital anomalies.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has the ability to travel to the NIH Clinical Center for admissions.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Subject or subject s legal guardian is able to provide written informed consent.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has severe respiratory difficulties (i.e., requiring a tracheostomy or other assistive device to maintain respiration) or other disease manifestation that would interfere with the ability to comply with the requirements of this protocol and/or pose a severe anesthesia risk.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has a psychiatric illness or neurological disease that would interfere with the ability to comply with the requirements of this protocol. This includes, but is not limited to, uncontrolled/untreated psychotic depression, bipolar disorder, schizophrenia, substance abuse or dependence, antisocial personality disorder, or panic disorder.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject shows evidence of clinically significant cardiovascular, pulmonary, hepatic, renal, hematological, metabolic, or gastrointestinal disease, or has a condition that requires immediate surgical intervention.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is pregnant during the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject or subject s legal guardian is unable or unwilling to provide consent or assent.",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02055248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

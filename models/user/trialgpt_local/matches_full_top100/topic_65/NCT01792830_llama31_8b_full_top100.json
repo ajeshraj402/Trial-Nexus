@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01792830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male or female"
+    },
+    {
+      "criterion": "surgical_condition",
+      "label": "met",
+      "evidence": "CABG"
+    },
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "Blood glucose >140 mg/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal_function",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic_failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy, but no other significant medical issues.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01792830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

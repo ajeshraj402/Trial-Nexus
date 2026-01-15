@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00646308",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with a history of a nonsecreting pituitary tumor",
+      "label": "met",
+      "evidence": "past medical history"
+    },
+    {
+      "criterion": "with or without prior pituitary surgery",
+      "label": "met",
+      "evidence": "surgery 4 months ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current use of GH therapy or within the prior 3 months",
+      "label": "not_met",
+      "evidence": "takes only vitamin D and multivitamins"
+    },
+    {
+      "criterion": "Pituitary tumor necessitating surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acromegaly due to pituitary adenoma, underwent transsphenoidal surgery 4 months ago.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00646308",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

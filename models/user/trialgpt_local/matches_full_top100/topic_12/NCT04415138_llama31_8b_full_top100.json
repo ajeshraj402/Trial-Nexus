@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04415138",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged at least 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willing to complete the study follow-up",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "having signed the informed consent for participation and data management",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe mitral regurgitation due to degenerative disease with indication to mitral repair surgery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If of female gender, being neither pregnant nor lactating",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous right chest surgery or severe right intrapleural adhesions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diameter of femoral arteries equal or lesser than 6 mm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular systolic dysfunction (LVEF <60%)",
+      "label": "not_met",
+      "evidence": "quote: EF of 65% on TTE"
+    },
+    {
+      "criterion": "Severe right ventricular dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aortic valve regurgitation >1+/4+",
+      "label": "not_met",
+      "evidence": "quote: unknown severe mitral valve prolapse with regurgitation"
+    },
+    {
+      "criterion": "Pulmonary artery hypertension (PASP >50 mmHg)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chest deformities preventing either robotic-assisted or minimally invasive video-assisted surgery",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04415138",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

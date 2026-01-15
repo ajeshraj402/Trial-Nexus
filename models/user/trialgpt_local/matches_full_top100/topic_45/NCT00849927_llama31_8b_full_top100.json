@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00849927",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Surgical documentation of Pan Labral Lesion of shoulder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pre-operative documentation of outcomes scores",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lacking a Pan labral lesion",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "other confounding pathology such as nerve deficit, chondral damage, rotator cuff tear",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a known history of Sickle cell disease and is experiencing severe bone pain. He has been treated with oxycodone without benefit.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00849927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

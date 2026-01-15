@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00251316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients older than 16 years with well-differentiated papillary or follicular thyroid cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "thyroid cancer stage I or II, according to the NTCTCS classification at time of surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients younger than 45 years with any size of primary papillary or follicular tumor",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients older than 45 years with: primary papillary tumor less than 4 cm or primary follicular tumor less than 1 cm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with postsurgical thyroid remnant more than 5 g",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with distant metastases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients above 45 years of age having: known cervical lymph nodes metastases",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "microscopic multifocal follicular cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, but meets inclusion criteria for age and tumor size. Exclusion criterion of known cervical lymph nodes metastases is a concern.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00251316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

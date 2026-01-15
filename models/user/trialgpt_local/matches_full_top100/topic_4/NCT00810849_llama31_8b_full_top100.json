@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00810849",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed pericardial effusion on echocardiography",
+      "label": "met",
+      "evidence": "echocardiography"
+    },
+    {
+      "criterion": "evidence of definite or probable tuberculous pericarditis",
+      "label": "met",
+      "evidence": "fluid analysis"
+    },
+    {
+      "criterion": "within 1 week of starting antituberculosis treatment",
+      "label": "met",
+      "evidence": "treatment record"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of an alternative cause of pericardial disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of corticosteroids within the previous month",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypersensitivity or allergy to the Mycobacterium w vaccine",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and CSF leak with meningitis, but these conditions are not mentioned as exclusion criteria. The patient's age is not specified, but it is likely greater than 18 years based on the context.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00810849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

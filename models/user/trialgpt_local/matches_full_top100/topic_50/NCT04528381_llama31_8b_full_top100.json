@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04528381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient admitted to pediatric unit in Assuit University hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non palpable testis (NPT)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "below age of 6 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with NPT above age of 6 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with atrophic or vanishing testis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with previous failed laparoscopic orchiopexy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with empty scrotum at the right side. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04528381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

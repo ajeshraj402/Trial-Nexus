@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00539474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "breast_exam",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "tumor_size",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "surgical_treatment",
+      "label": "met",
+      "evidence": "lumpectomy was done and the surgical margins were clear"
+    },
+    {
+      "criterion": "hormone_receptor_status",
+      "label": "not_met",
+      "evidence": "ER/PR negative"
+    },
+    {
+      "criterion": "lymph_node_status",
+      "label": "met",
+      "evidence": "1 positive lymph node out of 12 sampled"
+    },
+    {
+      "criterion": "breast_cancer_type",
+      "label": "met",
+      "evidence": "infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "tumor_location",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient_status",
+      "label": "met",
+      "evidence": "postmenopausal woman"
+    },
+    {
+      "criterion": "breastfeeding_status",
+      "label": "not_met",
+      "evidence": "She breastfed all three children"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "She smokes frequently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_status",
+      "label": "triggers",
+      "evidence": "She is in a relation with only one partner and has a history of 3 pregnancies"
+    },
+    {
+      "criterion": "breastfeeding_status",
+      "label": "triggers",
+      "evidence": "She breastfed all three children"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00539474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

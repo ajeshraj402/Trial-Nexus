@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00840463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Catheterization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elevated pulmonary arterial pressure (PA mean >25mmHg)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elevated pulmonary vascular resistance (>240 dynes.cm.sec-5) or transpulmonary gradient (>12 mmHg)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elevated LVEDP (>15mmHg, but \u226423 mmHg)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of left ventricular diastolic dysfunction: LA>4.0, LVH or diastolic dysfunction by mitral filling pattern",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Echocardiogram: Normal or mildly reduced LV ejection fraction (greater than or equal to 40%)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic chronic HF (WHO functional class II-IV)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Baseline walk distance 100 to 400 meters",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 18 - 80 (increased from 70)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Maximal treatment of diastolic dysfunction as noted by the treating physicians with no change in medical therapy for one month prior to entry",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of endothelin receptor antagonist, prostacyclin or PDE-5 inhibitor within 4 weeks of enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Exercise capacity limited by other illness (other lung disease, arthritis, mobility limitations)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00840463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

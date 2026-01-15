@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04665128",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "presentation_to_emergency_department",
+      "label": "met",
+      "evidence": "presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidemia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "referral_from_another_center",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intravenous_glucose_treatment",
+      "label": "not_met",
+      "evidence": "lab studies showed: Beta-hydroxybutyrate: 0.1 mmol/L"
+    },
+    {
+      "criterion": "systemic_glucocorticoids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic_insufficiency",
+      "label": "not_met",
+      "evidence": "lab studies showed: Aspartate aminotransferase (AST): 17 U/L, Alanine aminotransferase (ALT): 14 U/L"
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "met",
+      "evidence": "lab studies showed: Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    }
+  ],
+  "notes": "The patient reports that he is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04665128",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04697043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary confirmed distant metastatic breast cancer (M1)",
+      "label": "met",
+      "evidence": "A histologically proven diagnosis of the breast tumor"
+    },
+    {
+      "criterion": "A known hormonal and HER2Neu status",
+      "label": "met",
+      "evidence": "The tumor is  HER2-positive and ER/PR negative."
+    },
+    {
+      "criterion": "Having TNM classification: T1-T3, resectable T4 status, and N0-N3",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant. Axillary sampling revealed 5 positive lymph nodes."
+    },
+    {
+      "criterion": "performance status and comorbidity should allow surgery and/or systemic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Accepting the surgery by written informed consent.",
+      "label": "met",
+      "evidence": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary invasive breast cancer in the medical history",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "another malignancy within the last 10 years, besides basal cell carcinoma of the skin or early-stage cervical cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical treatment and/or radiotherapy of the breast tumor before randomization",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "irresectable T4 breast tumor",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04697043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

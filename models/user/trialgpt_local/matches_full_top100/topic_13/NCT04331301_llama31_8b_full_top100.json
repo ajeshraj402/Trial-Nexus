@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04331301",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BPH",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe LUTS/BPH requiring surgical treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS)>7 due to BPH",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active urinary tract infection (UTI)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "men with neurogenic voiding dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prostate and/or bladder cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter, and recurrent UTIs. He presents with urosepsis now resolved after treatment.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04331301",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

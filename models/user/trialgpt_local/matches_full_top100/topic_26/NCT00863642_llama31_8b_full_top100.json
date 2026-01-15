@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00863642",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "mild to moderate gallstone pancreatitis",
+      "label": "met",
+      "evidence": "upper abdominal pain, nausea, vomiting and epigastric tenderness; absence of ethanol abuse; elevated amylase level to at least twice the upper limit of normal and elevated lipase level to at lease three times the upper limit of normal; imaging confirmation of gallstones"
+    },
+    {
+      "criterion": "mild pancreatitis",
+      "label": "met",
+      "evidence": "three or fewer Ranson's criteria on admission: age > 55 years, glucose > 200 mg/dL , LDH> 350 mg/dL, AST > 250 units/L, and WBC>16 K/mm3; clinical stability with admission to a non-monitored ward bed"
+    },
+    {
+      "criterion": "absence of acute cholangitis",
+      "label": "met",
+      "evidence": "temperature <38.6\u00b0C, right upper quadrant pain and tenderness, and total bilirubin <4 mg/dl on admission"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe pancreatitis",
+      "label": "not_met",
+      "evidence": "presence of three or fewer Ranson's criteria on admission"
+    },
+    {
+      "criterion": "suspected concomitant acute cholangitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "high suspicion for retained common bile duct stone",
+      "label": "not_met",
+      "evidence": "total bilirubin <4 mg/dl on admission"
+    }
+  ],
+  "notes": "Patient has gallstones and pancreatitis, but no severe pancreatitis or suspected cholangitis. She is a candidate for elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT00863642",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

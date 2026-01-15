@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02707172",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "healthy adult over age of 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI>18",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis of any type of cancers, dermatitis, asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cut, abrasion, and trauma on hands",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI <18",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient had a severe 'exploding' headache after hitting her head. She has abnormal vasculature with AVM, but was ambulating independently without difficulty.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02707172",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

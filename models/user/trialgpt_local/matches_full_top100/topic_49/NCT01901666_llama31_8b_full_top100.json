@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01901666",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe short stature",
+      "label": "met",
+      "evidence": "45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "severe growth deceleration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Height <-2 SD and height velocity <-1.0 SD over 12 months",
+      "label": "met",
+      "evidence": "height SDS <-3 SD"
+    },
+    {
+      "criterion": "Height <-1.5 SD and height velocity <-1.5 SD over 2 years",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "coexisting systemic illness",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "CML not receiving Imatinib therapy as prescribed",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, short stature and delayed puberty. She is on GH therapy for 6 months.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01901666",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

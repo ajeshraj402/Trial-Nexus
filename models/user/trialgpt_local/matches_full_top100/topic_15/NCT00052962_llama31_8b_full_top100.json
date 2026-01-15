@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT00052962",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically or cytologically proven peritoneal carcinomatosis from low-grade mucinous adenocarcinoma of the gastrointestinal tract",
+      "label": "met"
+    },
+    {
+      "criterion": "radiologic workup must demonstrate that there is no imageable disease outside of the peritoneal cavity",
+      "label": "met"
+    },
+    {
+      "criterion": "radiologic workup or prior abdominal exploration must show abnormalities consistent with disease which can be debulked to a residual size of less than 1 cm in diameter per tumor deposit in the judgement of the investigators",
+      "label": "unknown"
+    },
+    {
+      "criterion": "patients must have an Eastern Cooperative Oncology Group (ECOG) performance status of less than or equal to 2 on study entry and on the day prior to planned treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "patients must have a minimum expected duration of survival of greater than 16 weeks",
+      "label": "unknown"
+    },
+    {
+      "criterion": "patients must have recovered from any severe toxicity from all prior chemotherapy, immunotherapy or radiotherapy except as outlined in appendix 1 of the protocol and be at least 30 days past the date of their last treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "patients must have a serum aspartate aminotransferase (AST) and alanine aminotransferase (ALT) within 5 times the upper limit of normal and a total serum bilirubin of less than 3 times the upper limit of normal, both of which define the upper limit of grade 2 treatment related toxicities",
+      "label": "unknown"
+    },
+    {
+      "criterion": "patients must have an absolute neutrophil count (ANC) greater than 1,500/microliter",
+      "label": "met"
+    },
+    {
+      "criterion": "patients must be age greater than or equal to 18 years",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant medical problems that would place them at unacceptable risk for a major surgical procedure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "age greater than 65, and a history of hypertension, first degree relative with atherosclerotic coronary artery evaluation and will not be eligible if they demonstrate significant irreversible ischemia on a stress thallium study or an ejection fraction of less than 40%",
+      "label": "triggers"
+    },
+    {
+      "criterion": "shortness of breath with minimal exertion or who are at risk for pulmonary disease (e.g., chronic smokers) will undergo pulmonary function testing and will not be eligible if their forced expiratory volume 1 (FEV1) is less than 1.2 liters or their maximum voluntary ventilation is less than 50% of expected",
+      "label": "triggers"
+    },
+    {
+      "criterion": "neurological toxicity of Grade 3 or greater will be excluded because of the potential neurotoxicity associated with platinum and paclitaxel therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "serum creatinine of greater than 1.5 mg/dL unless the measured creatinine clearance is greater than 60mL/min/1.73m^2",
+      "label": "triggers"
+    },
+    {
+      "criterion": "platelets are less than 75,000/mm^3",
+      "label": "triggers"
+    },
+    {
+      "criterion": "failed previous intraperitoneal chemotherapy",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of CAD and hypertension, which may increase the risk for coronary artery disease or cardiac dysfunction. Additionally, patient has shortness of breath with minimal exertion, which may indicate pulmonary disease.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00052962",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

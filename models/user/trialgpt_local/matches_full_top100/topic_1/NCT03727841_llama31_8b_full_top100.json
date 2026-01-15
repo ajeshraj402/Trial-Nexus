@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT03727841",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed by NCI Laboratory of Pathology intra-cranial or spinal RELA-fusion ependymoma of grade I, II or III.",
+      "label": "met"
+    },
+    {
+      "criterion": "Has received two or fewer prior chemotherapy regimens",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must have an evidence of tumor progression",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must be greater than or equal to 18 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have a Karnofsky performance status of greater than or equal to 60",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Leukocytes: greater than or equal to 3,000/microliters",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute neutrophil count: greater than or equal to 1,500/microliters",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Platelets: greater than or equal to 100,000/microliters",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin: greater than or equal to 10 gm/dL (can be achieved by transfusion)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "AST(SGOT)/ALT(SGPT): less than or equal to 2.5 X institutional upper limit of normal",
+      "label": "met"
+    },
+    {
+      "criterion": "Bilirubin: <1.5 mg/dL",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Creatinine up to 1.5-times upper institutional limits OR eGFR within normal as predicted by the CKD-EPI equation (greater than or equal to 60 mL/min/1.73m(2).",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anticancer treatment within designated period of time before enrollment including: surgery within 14 days",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Treatment with any investigational agent within 28 days before enrollment.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has received high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine and is unresectable.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03727841",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

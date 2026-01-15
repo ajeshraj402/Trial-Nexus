@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02673528",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acute_appendicitis",
+      "label": "met",
+      "evidence": "laparoscopy"
+    },
+    {
+      "criterion": "total_laparoscopic_appendectomy_or_laparoscopic_assisted_appendectomy",
+      "label": "met",
+      "evidence": "surgical_report"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "written_informed_consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has acute perforated appendicitis and is a candidate for emergent laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02673528",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

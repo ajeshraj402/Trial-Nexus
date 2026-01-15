@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02545114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with euvolemic or hypervolemic hyponatremia: serum Na <135 meq/dl",
+      "label": "met",
+      "evidence": "serum Na = 137 mEq/l"
+    },
+    {
+      "criterion": "Inappropriately high urinary sodium excretion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically evident hypovolemic hyponatremia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent myocardial infarction or cardiac surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has euvolemic hyponatremia with serum Na = 137 mEq/l. No history of recent myocardial infarction or cardiac surgery.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02545114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00380614",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acute hepatitis B",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bilirubin > 5 mg/dl at presentation.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with co-infection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of hepatotoxic drug intake or alcohol use",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": ">20g/day, or any evidence of chronic liver disease in the past, at presentation or during follow-up",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00380614",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

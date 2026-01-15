@@ -1,0 +1,42 @@
+{
+  "trial_id": "NCT04472468",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed active malignancy",
+      "label": "met",
+      "evidence": "Burkitt's lymphoma"
+    },
+    {
+      "criterion": "presence of at least moderate (>10cm) pericardial effusion on CT or Echocardiography",
+      "label": "met",
+      "evidence": "3cm x 1cm mass on the lateral wall of the right atrium"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous history of open-heart surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "previous history of pericardial window or pericardial instillation of sclerosing therapy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "scheduled thoracic or cardiac surgery within the next 3 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "contraindications for endovascular procedure such as disseminated intravascular coagulopathy or significant ongoing bleeding tendency, and systemic septicaemia",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma with a large pericardial effusion. No contraindications noted.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04472468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

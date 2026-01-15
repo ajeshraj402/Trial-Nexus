@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02522364",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Newly documented POAF of more than 5 minute duration",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cardiac surgery during index hospitalization, including (CABG, valvular replacement or repair, a combination) without Maze procedure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CHA2DS2-VASc\u22652",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sinus rhythm at the time of BioMonitor implantation or definite intention to cardiovert prior to discharge",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed Informed Consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of atrial fibrillation/flutter prior to cardiac surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication for anticoagulation therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dual chamber pacemaker or ICD implanted or planned",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active systemic infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Another (non-AF) indication for long term anticoagulation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Maze procedure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to attend scheduled, periodic office visits for follow-up",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02522364",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02746432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "57-year-old man"
+    },
+    {
+      "criterion": "Documented CRC by histopathology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient not consenting to the study or refused.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metastatic disease at the time of diagnosis.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to insulin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02746432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

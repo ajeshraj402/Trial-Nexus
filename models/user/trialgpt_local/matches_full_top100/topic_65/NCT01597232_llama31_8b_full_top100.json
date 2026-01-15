@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01597232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Perioperative hemoglobin level",
+      "label": "unknown",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency operation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ASA classification V or VI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypervolemic hemodilution",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse to sign consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical issues. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01597232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

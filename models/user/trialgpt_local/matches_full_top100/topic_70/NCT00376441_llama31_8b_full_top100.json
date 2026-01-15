@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00376441",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "Asian woman"
+    },
+    {
+      "criterion": "urinary_incontinence_or_pelvic_organ_prolapse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "capable of giving informed consent"
+    },
+    {
+      "criterion": "study_procedures",
+      "label": "met",
+      "evidence": "willing to follow all study related procedures"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urethral_obstruction",
+      "label": "not_met",
+      "evidence": "no history of urethral obstruction"
+    },
+    {
+      "criterion": "bladder_calculi_or_tumor",
+      "label": "not_met",
+      "evidence": "no bladder calculi or tumor in the last 2 years"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "breast_feeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinical_investigation",
+      "label": "not_met",
+      "evidence": "no clinical investigation involving urinary or renal function in the past 30 days"
+    },
+    {
+      "criterion": "questionnaires",
+      "label": "met",
+      "evidence": "capable of independently comprehending and completing questionnaires"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness, loss of interest in daily activities, and depressive symptoms despite being on anti-depressants for the past 6 months. She does not have any exclusion criteria that would make her ineligible.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00376441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

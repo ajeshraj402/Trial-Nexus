@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01011426",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetrical and gynecological patients undergoing abdominal surgery.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects undergoing a bowel resection.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects who have a nasogastric tube for bowel decompression.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects allergic to Bisacodyl.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with mechanical bowel obstruction undergoing bowel resection.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has watery diarrhea without odor, reduced skin turgor and dry mucosa. V. cholerae seen in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01011426",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

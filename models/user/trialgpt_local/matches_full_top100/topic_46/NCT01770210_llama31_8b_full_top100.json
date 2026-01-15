@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01770210",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatients (External Ambulatory) Patients.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18 to 99 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with Hypercholesterolemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with and without treatment with statin",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients enrolled in any of the study sites with acute cardiovascular event",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients discharged with study medication (Antorcin )",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who have agreed and signed the consent form for the recording and processing of their personal data.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under 18 and over 99 years.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women in pregnancy or lactation period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients enrolled in any of the study sites for any reason other than an acute cardiovascular event",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who discharged and take another statin drug formulation other than the study drug formulation (Antorcin )",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have not consented and signed the consent form for the recording and processing of their personal data.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with TB symptoms, positive sputum culture, and signs of cavitation on chest X-ray. He has not been vaccinated against TB and does not have any history of illicit drug use.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01770210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

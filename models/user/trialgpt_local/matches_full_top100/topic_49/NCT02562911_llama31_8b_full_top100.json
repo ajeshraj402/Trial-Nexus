@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02562911",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with cystic fibrosis",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "girl aged 8 years of age, adolescents and young adults",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "visit the Reference and Competence Center of Cystic Fibrosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Affiliated to a social security scheme",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of consent of the legal representative or the relevant patient",
+      "label": "met",
+      "evidence": "no mention of consent"
+    },
+    {
+      "criterion": "Patient majoring in legal disability or minor patient whose legal representative is legal disability",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome, not cystic fibrosis. Patient's legal status unclear.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02562911",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

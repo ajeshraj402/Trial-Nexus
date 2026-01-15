@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02714439",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "abnormal Pap test",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "positive HPV test",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of cervical dysplasia",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intact cervix",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "negative urine or serum pregnancy test",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >= 21 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to understand and provide informed consent",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or nursing",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hysterectomy with removal of the cervix",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy to proflavine, acriflavine, or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable or unwilling to provide informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease and does not smoke or have a sexual partner.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT02714439",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

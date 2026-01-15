@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03677349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient eligible for reconstructive surgery after carcinological excision following a decision taken in a multidisciplinary consultation, and for whom the envisaged oral defect concerns either the soft tissues of the oral cavity and oropharynx, or the mandibular bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scheduled post-operative radiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Coverage by the Social Security system",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Capacity to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Post-traumatic substance loss (ballistic autolysis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Surgical or anesthetic contraindication (physiological age, other proposed therapeutic options)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding woman",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject incapable of full age or deprived of liberty",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with mild Parkinson's disease. He has hypertension and hypercholesterolemia, but no dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03677349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

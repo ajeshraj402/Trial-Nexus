@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00101114",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically or cytologically confirmed renal cell carcinoma",
+      "label": "met",
+      "evidence": "papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "metastatic (M1) or unresectable (M0)",
+      "label": "met",
+      "evidence": "Metastatic to lymph nodes and adrenal glands"
+    },
+    {
+      "criterion": "component of conventional clear cell renal carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "measurable disease",
+      "label": "met",
+      "evidence": "X-rays, scans, or physical examinations used for tumor measurement must have been completed within 28 days prior to registration"
+    },
+    {
+      "criterion": "no prior systemic therapy for renal cell carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "total bilirubin =< institutional upper limit of normal",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "SGOT or SGPT =< 2.5 x institutional upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum creatinine =< institutional upper limit of normal or calculated creatinine clearance >= 60 mL/min for patients with creatinine levels above institutional normal",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Zubrod performance status of 0-1",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "brain metastases or treated/untreated brain metastases",
+      "label": "triggers",
+      "evidence": "Patients with a history of brain metastases or who currently have treated to untreated brain metastases are not eligible"
+    },
+    {
+      "criterion": "ongoing requirement for systemic corticosteroid therapy",
+      "label": "triggers",
+      "evidence": "Any ongoing requirement for systemic corticosteroid therapy is not permitted"
+    },
+    {
+      "criterion": "drugs known to be potent inhibitors of the CYP 3A4 enzyme",
+      "label": "triggers",
+      "evidence": "Patients must not be on drugs known to be potent inhibitors of the CYP 3A4 enzyme as BAY 43-9006 is at least partially metabolized by this enzyme in the liver"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and a history of brain metastases, which makes them ineligible for the trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00101114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00476736",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "30 Moderate COPD (GOLD classification)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AGE 45-70, both sexes",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active ischemic heart disease",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heart failure",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "orthopedic problems that preclude ergometric bicycle activity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00476736",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01349738",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25-year-old"
+    },
+    {
+      "criterion": "kidney_transplant",
+      "label": "met",
+      "evidence": "has a kidney transplant"
+    },
+    {
+      "criterion": "post_operation_days",
+      "label": "met",
+      "evidence": "at least 30 days post operation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "24W3D gestational old"
+    },
+    {
+      "criterion": "renal_transplant_post_days",
+      "label": "met",
+      "evidence": "has a kidney transplant (no timeframe given)"
+    },
+    {
+      "criterion": "indwelling_catheter",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_transplant",
+      "label": "not_met",
+      "evidence": "has a kidney transplant"
+    },
+    {
+      "criterion": "surgical_infection_dissemination",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a pregnant woman with a kidney transplant, who developed a sudden onset of fever and chills. She also complains of dysuria, urgency and frequency.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT01349738",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

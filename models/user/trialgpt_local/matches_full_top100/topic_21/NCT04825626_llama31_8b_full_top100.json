@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04825626",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical diagnosis of Traumatic Spinal Cord Injury",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has mesenchymal stem cells banked at Hope Biosciences",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The patient accepts to receive treatment and to comply with follow-up visits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant, uncontrolled cardiovascular, lung, renal, hepatic, or endocrine disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active Alcohol or Drug addiction",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participation in concurrent interventional research studies during this study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe organ failure (heart, kidney or liver)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of heavy alcohol consumption and smokes cigarettes daily. However, he is otherwise healthy with no significant medical conditions.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04825626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

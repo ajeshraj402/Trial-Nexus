@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02679261",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "BAV confirmed by transthoracic echocardiography",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "Valve dysfunction only moderate",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Aortic valve not show severe calcification by transthoracic echocardiography",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "Ascending aortic diameter (Valsalva sinus or tubular ascending aorta) \u2264 50 mm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patient must give the consent form signed",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients younger than 18",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with uncontrolled hypertension and a history or risk of diabetes mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous cardiac surgery or any surgery of other segments of the aorta",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "NYHA functional class III or IV",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and is being evaluated for valvular replacement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02679261",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

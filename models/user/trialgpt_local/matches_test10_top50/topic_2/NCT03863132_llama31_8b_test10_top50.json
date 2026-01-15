@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03863132",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic native aortic valve stenosis and age \u226518 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "aortic valve area (AVA) \u2264 1 cm2 or indexed AVA \u2264 0.6 cm2/m2, mean aortic gradient < 40 mmHg and stroke volume index (SVI) < 35ml/m2",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "left ventricular ejection fraction \u2265 50%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MDCT aortic valve calcium score men > 2000AU, women > 1200AU OR the likelihood criteria are fulfilled (symptoms without other explanation and LV hypertrophy; age < 70 yrs., AVS < 0.8 cm2; SVI < 35ml/m2 confirmed by 3D TOE, MRI or invasive; reduced LV longitudinal function without other reason)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heart team agrees on eligibility for TAVR",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "negative pregnancy test in women with childbearing potential",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-existing mechanical or bio-prosthetic valve in any position",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant severe valvular heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-existing or active endocarditis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "need for heart surgery due to other conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "patient has severe aortic stenosis with worsening LV function, EF was 25%, and had biatrial enlargement",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03863132",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

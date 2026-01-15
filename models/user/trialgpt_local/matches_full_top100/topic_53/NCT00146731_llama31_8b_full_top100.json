@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT00146731",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant woman with P.falciparum parasitaemia at any density",
+      "label": "met",
+      "evidence": "positive blood smear for P.falciparum with at least 1000 asexual parasites/uL"
+    },
+    {
+      "criterion": "asymptomatic woman or symptoms within 2 days prior to consultation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "14-34 weeks pregnant on the day of attending the ANC clinic or OPD",
+      "label": "not_met"
+    },
+    {
+      "criterion": "viable foetus, defined by presence of foetal heartbeat by sonicaid or pinnard",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00146731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00147433",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "weeks or later, weighing at least 2,500 grams, and with no reported congenital anomalies.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal TSH in second trimester",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Term infant weighing 2500g or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No congenital abnormalities noted on birth record",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Delivery in Maine at 36 weeks or later",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "TSH levels outside normal range in second trimester",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing hypothyroidism, treated",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis and was diagnosed with high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl). However, after starting Levothyroxine per day, her symptoms improved significantly and her periods are normal.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00147433",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

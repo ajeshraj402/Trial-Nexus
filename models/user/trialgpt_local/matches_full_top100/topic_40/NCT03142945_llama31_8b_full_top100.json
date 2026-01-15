@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03142945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-65 years old",
+      "label": "met",
+      "evidence": "documentation ie: driver's license"
+    },
+    {
+      "criterion": "Decrease in active cervical range of motion",
+      "label": "met",
+      "evidence": "Measured by Mary Free Bed physical therapists using the Cervical Range of Motion inclinometer (i.e., the CROM)"
+    },
+    {
+      "criterion": "Headache symptoms change based on manual pressure to cervical spine, posture, or neck movement",
+      "label": "met",
+      "evidence": "Tested by Mary Free Bed physical therapist during evaluation"
+    },
+    {
+      "criterion": "Cognition adequate for understanding",
+      "label": "met",
+      "evidence": "Tested by Mary Free Bed physical therapists"
+    },
+    {
+      "criterion": "English-speaking, or able to understand English well enough to follow directions",
+      "label": "met",
+      "evidence": "Determined at initial evaluation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cervical spine fusion less than 6 months",
+      "label": "not_met",
+      "evidence": "Medical documentation and history portion of initial evaluation"
+    },
+    {
+      "criterion": "Trauma to neck or head within the past 3 months",
+      "label": "unknown",
+      "evidence": "Medical documentation and history portion of initial evaluation"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone, which is being treated with Bisphosphonate. The patient's symptoms have been worsening over the past 6 years.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03142945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

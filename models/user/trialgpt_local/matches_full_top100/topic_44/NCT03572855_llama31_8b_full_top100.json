@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03572855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "30-75 years and older"
+    },
+    {
+      "criterion": "Spinal deformity",
+      "label": "met",
+      "evidence": "Clinically diagnosed thoracolumbar and/or lumbo-sacro-pelvic deformity as defined by the SRS/Schwab classification systems as Cobb angle of 25\u00b0 or greater"
+    },
+    {
+      "criterion": "Ambulation",
+      "label": "met",
+      "evidence": "Able to ambulate without assistance and stand without assistance with their eyes open for a minimum of 10 seconds"
+    },
+    {
+      "criterion": "Willingness to participate",
+      "label": "met",
+      "evidence": "Able and willing to attend and perform the activities described in the informed consent process"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior fusion attempt",
+      "label": "not_met",
+      "evidence": "History of prior attempt at fusion (successful or not) at the indicated levels"
+    },
+    {
+      "criterion": "Major lower extremity surgery",
+      "label": "unknown",
+      "evidence": "Major lower extremity surgery or previous injury that may affect gait"
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "BMI higher than 35"
+    },
+    {
+      "criterion": "Neurological disorder",
+      "label": "not_met",
+      "evidence": "Neurological disorder, diabetic neuropathy or other disease that impairs the patient's ability to ambulate or stand without assistance"
+    },
+    {
+      "criterion": "Major trauma to pelvis",
+      "label": "unknown",
+      "evidence": "Major trauma to the pelvis"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03572855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

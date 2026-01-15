@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00661557",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age at study vaccination",
+      "label": "met",
+      "evidence": "4.5 to 34 years of age"
+    },
+    {
+      "criterion": "Previous vaccination in GSK Biologicals' study 102394",
+      "label": "met",
+      "evidence": "vaccinated in GSK Biologicals' study 102394"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "written informed consent obtained from the subject"
+    },
+    {
+      "criterion": "Healthy subjects as established by medical history and clinical examination",
+      "label": "met",
+      "evidence": "established by medical history and clinical examination before entering into the study"
+    },
+    {
+      "criterion": "Completed routine childhood vaccinations",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous vaccination against meningococcal disease (of any serogroup)",
+      "label": "triggers",
+      "evidence": "vaccinated in GSK Biologicals' study 102394"
+    },
+    {
+      "criterion": "History of meningococcal disease",
+      "label": "triggers",
+      "evidence": null
+    }
+  ],
+  "notes": "The patient has a history of septicemia and respiratory failure, but no other exclusion criteria are mentioned.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00661557",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

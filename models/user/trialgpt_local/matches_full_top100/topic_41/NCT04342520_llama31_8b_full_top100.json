@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04342520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient received for the first time in Memory Consultation and not aware of his diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with a Mini-Mental State Assessment score (MMSE) \u2265 20",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient able to provide consent to participate in research",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Man or woman 55 years and over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient accompanied by a primary caregiver",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Caregiver: The caregiver accompanies the patient and is considered as the main caregiver during the consultation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Caregiver: is able to provide consent to participate in research",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient lives with his wife",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "They have three children",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "He used to be active with planting and taking care of their farm animals before his diagnosis",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The patient complains of shaking and slow movement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "He had difficulty entering through a door, as he was frozen and needed guidance to step in",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient living in a care homes",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient protected by law (under legal protection, guardianship or trusteeship)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with a hearing or visual impairment that does not allow to carry out assessments in Memory Consultation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient opposing research",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT04342520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

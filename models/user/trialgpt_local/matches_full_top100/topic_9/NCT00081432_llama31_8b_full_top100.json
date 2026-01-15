@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00081432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Temporal lobe epilepsy (right-sided, left-sided foci) with or without lesion on a structural MRI scan.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Native English speaker.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 18 years or older.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of mental retardation.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Claustrophobia.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to comply with the protocol.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He is a native English speaker and is over 18 years old.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00081432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

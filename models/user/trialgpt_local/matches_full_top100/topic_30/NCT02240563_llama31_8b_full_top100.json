@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02240563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hypothyroidism caused by autoimmune thyroiditis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "randomized, placebo controlled clinical trial (NCT01129492)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypothyroidism caused by autoimmune thyroiditis included in the aforementioned trial (NCT01129492)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgery and/or therapeutic administration of radioiodine for thyroid diseases during the period between the initial assessment of patients up to the present study",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, which is an autoimmune cause of hypothyroidism. She was included in a randomized, placebo controlled clinical trial (NCT01129492). However, she underwent surgery and/or therapeutic administration of radioiodine for thyroid diseases during the period between the initial assessment of patients up to the present study.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02240563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

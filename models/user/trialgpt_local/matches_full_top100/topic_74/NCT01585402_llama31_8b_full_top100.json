@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01585402",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with ACDC",
+      "label": "met",
+      "evidence": "genetic tests confirming mutation(s) in NT5E and evidence of lower extremity arterial calcifications"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "either gender"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years"
+    },
+    {
+      "criterion": "willingness to give informed consent",
+      "label": "met",
+      "evidence": "willingness and legal ability to give and sign informed study consent"
+    },
+    {
+      "criterion": "travel to NIH and local sites",
+      "label": "met",
+      "evidence": "willingness to travel to NIH and local sites for scheduled protocol studies and treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed with ACDC",
+      "label": "not_met",
+      "evidence": "confirmed diagnosis of Paget's Disease of Bone"
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "53 years old"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and meets the age criteria. However, they do not meet the exclusion criterion for diagnosed with ACDC.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01585402",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

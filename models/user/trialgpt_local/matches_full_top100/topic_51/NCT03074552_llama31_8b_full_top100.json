@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03074552",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adults >18 and < 80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "multitrauma patients with at least two organ-system injury",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "injury",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "intubated immediately after injury",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "likelihood that the patient would require mechanical ventilation with an endotracheal tube (or tracheostomy) for >10 days",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "life expectancy > 15 days",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy; lactation; immunosuppression; hematologic disease; prosthetic cardiac valve or vascular graft; cardiac trauma; history of rheumatic fever, endocarditis, or congenital cardiac abnormality",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "obesity [BMI > 40]",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "administration of antibiotics for > 3 days before recruitment into the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of infection from Hepatis B or C and HIV",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Gram-negative rod-shaped bacterial cells in urine culture.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03074552",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

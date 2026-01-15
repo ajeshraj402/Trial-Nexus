@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03232359",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "older_than_20_years_of_age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant_with_singleton_intrauterine_pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "more_than_20_weeks_of_gestation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital_malformation_and_fetuses_with_chromosomal_or_genetic_syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent_blood_transfusion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refusal_to_participate_in_the_study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI_less_than_18",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "placental_abnormalities_like_velamentous_insertion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiple_pregnancies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known_kidney_disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history_of_autoimmune_disease",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has atypical hemolytic uremic syndrome and was treated with plasma exchange and corticosteroids. He has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03232359",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

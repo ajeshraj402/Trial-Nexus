@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01852968",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of type 1 diabetes",
+      "label": "met",
+      "evidence": "molecular analysis"
+    },
+    {
+      "criterion": "hemoglobin A1C <9%",
+      "label": "met",
+      "evidence": "lab study (HbA1c: 6.5%)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neurosurgical procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "arrhythmias",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and meets hemoglobin A1C criteria. No other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01852968",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

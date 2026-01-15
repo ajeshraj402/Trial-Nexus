@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02888639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age >= 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient on hemodialysis or peritoneal dialysis for 3 months or more in one of the 12 dialysis units in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient included in the REIN registry in the Lorraine region.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Parathormone greater than or equal to 500 pg / ml for the first time after 01/04/2009 (patient incident for secondary hyperparathyroidism).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 18 years.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient living in Lorraine but dialysed in a unit outside Lorraine.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of secondary hyperparathyroidism with higher parathormone or equal to 500 pg / ml placed before 1/4/2009.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient who have received medical treatment with cinacalcet or by surgical parathyroidectomy for secondary hyperparathyroidism.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient expressing opposition to the collection of information.",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "34-year-old woman from Jordan with general and non-specific bones and joints pain. Unremarkable past medical and drug history.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02888639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

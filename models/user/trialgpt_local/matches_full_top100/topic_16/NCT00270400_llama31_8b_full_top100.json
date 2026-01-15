@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00270400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of NYHA (New York Heart Association) Class III or IV congestive heart failure",
+      "label": "met",
+      "evidence": "thought due to diastolic CHF"
+    },
+    {
+      "criterion": "Has symptomatic, decompensated CHF for which inpatient therapy with either dobutamine or Natrecor\u00ae, administered as a single intravenous vasoactive agent (drugs that influence the tone and caliber of blood vessels) with or without diuretics, is deemed appropriate",
+      "label": "met",
+      "evidence": "thought due to diastolic CHF"
+    },
+    {
+      "criterion": "Receiving stable doses of oral antiarrhythmic medications (medications that help regulate irregular heart beats) for at least the 48 hours before starting study drug, or receiving no antiarrhythmic medications",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cannot tolerate a 24-Hour Baseline Holter Monitoring Period without intravenous vasoactive medications, and/or cannot tolerate the specified washout period (if applicable) of intravenous vasoactive medications before starting the baseline Holter monitoring",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Has systolic blood pressure consistently < 85 mm Hg, cardiogenic shock, or other evidence of significant hemodynamic instability requiring the immediate institution of inotropic/pressor support",
+      "label": "not_met",
+      "evidence": "systolic CHF"
+    },
+    {
+      "criterion": "Has a clinical condition expected to require therapy with more than one intravenous vasoactive agent or Dopamine during the 24-Hour Treatment Holter Monitoring Period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Has received treatment with Dopamine or any intravenous vasoactive medication such as Dobutamine, Milrinone, Nitroprusside or intravenous Nitroglycerin for more than 4 hours for the current episode of decompensated CHF or related illness",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Requires an intravenous antiarrhythmic medication during the 48 hours before starting the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00270400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

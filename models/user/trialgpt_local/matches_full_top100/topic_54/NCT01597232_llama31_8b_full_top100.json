@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01597232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "177 cm"
+    },
+    {
+      "criterion": "Perioperative hemoglobin level",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency operation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA classification V or VI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "not_met",
+      "evidence": "Wegener's granulomatosis"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "Hgb: 13 g/dl"
+    },
+    {
+      "criterion": "Hypervolemic hemodilution",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides for 4 months, and his Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01597232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

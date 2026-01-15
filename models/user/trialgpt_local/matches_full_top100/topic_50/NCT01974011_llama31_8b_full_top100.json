@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01974011",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male infant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 1-17 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to local anaesthetics",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sepsis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Congenital or acquired bleeding disorders",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male infant with undescended testis, no developmental delay. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01974011",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01752140",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "PSA elevation",
+      "label": "met",
+      "evidence": "3.5 ng/mL"
+    },
+    {
+      "criterion": "Abnormal digital rectal examination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abnormal findings on prostate imaging",
+      "label": "met",
+      "evidence": "large prostate and a bladder filled with urine"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active urinary tract infection",
+      "label": "not_met",
+      "evidence": "U/A: Color: yellow, Appearance: cloudy, PH: 5.3"
+    },
+    {
+      "criterion": "Documented previous pathological prostatitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of urinary retention",
+      "label": "met",
+      "evidence": "past 2 days"
+    },
+    {
+      "criterion": "Recent lower urinary tract surgery",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and abnormal prostate findings.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01752140",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

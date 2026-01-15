@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02000375",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological-documented diagnosis of invasive breast cancer.",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer."
+    },
+    {
+      "criterion": "Clinical diagnosis of metastatic breast cancer.",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    },
+    {
+      "criterion": "AR receptor positivity of primary tumor cells or tumor cells of a metastatic site is required.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumors with \u226510% positively nuclear-stained cells by immunohistochemistry (IHC) are considered positive for AR.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Primary tumor cells or tumor cells of a metastatic site can be ER-positive and/or PgRpositive or ER-negative/PgR-negative . Hormone receptor positivity is defined as ER and/or PgR greater than 10 fmol/mg by biochemical assay or greater or equal than 10 percent positive cells by immunohistochemistry.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Primary tumor cells or tumor cells of a metastatic site must be HER2 negative.",
+      "label": "met",
+      "evidence": "The tumor is  HER2-positive and ER/PR negative."
+    },
+    {
+      "criterion": "Measurable disease, defined in accord to RECIST criteria (version 1.1) as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >10 mm with CT scan or MRI (if slice thickness no grater than 5 mm.",
+      "label": "met",
+      "evidence": "CXR was remarkable for metastatic lesions."
+    },
+    {
+      "criterion": "In case of ER-pos disease, previous endocrine treatment in adjuvant or metastatic setting is required and patients must be resistant to aromatase inhibitors that means: AI in adjuvant setting: patients should have been treated for at least 1 year and have had a recurrence during this treatment or in the first year after finishing adjuvant treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No more than 2 previous lines of chemotherapy for ER-pos tumors and not more than 3 lines of chemotherapy for ER-neg tumors are allowed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Post-menopausal status defined as: Patients of any age who have had a bilateral oophorectomy (including radiation castration)",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "At least 18 years of age",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old postmenopausal woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "AR-receptor negativity of primary tumor cells or tumor cells of a metastatic site. AR is reported as negative if less than 10% of cells immunostained in a tumor.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HER2 positivity of primary tumor cells or tumor cells of a metastatic site",
+      "label": "triggers",
+      "evidence": "The tumor is  HER2-positive and ER/PR negative."
+    }
+  ],
+  "notes": "Patient has cytologically confirmed breast cancer, metastatic lesions on CXR, and is postmenopausal. However, the patient's HER2 status is positive, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02000375",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

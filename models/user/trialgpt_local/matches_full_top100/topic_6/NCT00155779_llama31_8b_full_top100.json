@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00155779",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical Data Collection and Outcome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ACE Polymorphism",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "enzyme inhibitor or angiotensin receptor antagonist within one month before the development of ARDS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving mechanical ventilation due to chronic respiratory failure",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00155779",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

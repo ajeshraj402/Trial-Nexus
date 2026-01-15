@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01515995",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "previous_diagnosis_of_asthma_or_previous_episode_of_wheezing_treated_with_beta-agonist",
+      "label": "met",
+      "evidence": "diagnosed a year ago, treated with combination of inhaled corticosteroids and Zafirlukast"
+    },
+    {
+      "criterion": "able_to_complete_bedside_spirometry",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "fev1_less_than_70_percent_predicted",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known_allergy_to_magnesium_sulfate",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known_contra-indication_to_albuterol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "respiratory_distress_occurring_as_a_result_of_bedside_spirometry",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_neuromuscular_disease_cardiac_disease_renal_disease_or_underlying_chronic_lung_disease",
+      "label": "unknown",
+      "evidence": "His past medical history is non-significant"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "use_of_oral_steroid_medication_within_72_hours_of_presentation",
+      "label": "not_met",
+      "evidence": "He is a candidate for general corticosteroid therapy"
+    },
+    {
+      "criterion": "radiographic_evidence_of_pneumonia_at_presentation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intubation_during_the_current_encounter_prior_to_study_enrollment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "administration_of_intravenous_magnesium_sulfate_prior_to_study_enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "prior_participation_in_this_study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for general corticosteroid therapy. Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01515995",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04297839",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age above 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal replacement therapy using the extended dialysis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute liver failure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hemorrhagic stroke in the last 30 days",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT04297839",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04647825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "drug-resistant epilepsy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-invasive EEG monitoring",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "at least one recorded seizure during the EEG monitoring",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "drug-resistant epilepsy candidate to surgery underwent non-invasive EEG monitoring",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no recorded seizure during the EEG monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04647825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03666520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Inpatient",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Over 18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to tolerate oral medications",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Currently taking one of our eight medications under research intravenously",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children (<18)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to tolerate an oral medication (or NPO)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of ESRD and recurrent C diff infections, but is currently being treated with antibiotics and probiotics.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03666520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

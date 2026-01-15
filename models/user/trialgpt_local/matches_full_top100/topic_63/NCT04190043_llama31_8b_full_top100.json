@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04190043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women > 18 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "French speaker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis and management of miscarriage / pregnancy loss in the emergency department",
+      "label": "met",
+      "evidence": "patient was admitted to ED with abdominal pain related to miscarriage"
+    },
+    {
+      "criterion": "Miscarriage / pregnancy loss < 15 SA",
+      "label": "met",
+      "evidence": "patient experienced similar pain twice in the past year"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject unable to read or/and write",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy loss > 15 SA",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain, nausea and vomiting. Ultrasound revealed gallstones, biliary sludge and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04190043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

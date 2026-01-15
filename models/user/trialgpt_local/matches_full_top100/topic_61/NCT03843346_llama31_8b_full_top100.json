@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT03843346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "ER Positive Tumours",
+      "label": "met",
+      "evidence": "HER2-positive and ER/PR negative"
+    },
+    {
+      "criterion": "Human Epidermal Growth Factor Receptor 2 (HER2) negative breast cancer",
+      "label": "not_met",
+      "evidence": "HER2-positive"
+    },
+    {
+      "criterion": "No evidence of metastatic disease on CT, bone scan or other imaging",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Fit for consideration of chemotherapy as determined by the Investigator",
+      "label": "met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "Adequate performance status (Eastern Cooperative Oncology Group (ECOG) 0 or 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adequate surgical excision of breast tumour (mastectomy or lumpectomy) and lymph nodes",
+      "label": "met",
+      "evidence": "axillary sampling revealed 5 positive lymph nodes"
+    },
+    {
+      "criterion": "Any tumour size (T stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Involvement of 1-3 lymph nodes (N1, including micrometastases)",
+      "label": "met",
+      "evidence": "axillary sampling revealed 5 positive lymph nodes"
+    },
+    {
+      "criterion": "Candidates for preoperative therapy for early breast cancer",
+      "label": "met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "T2-T4 tumours",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Involvement of at least one lymph node, (including micrometastases) on biopsy",
+      "label": "met",
+      "evidence": "axillary sampling revealed 5 positive lymph nodes"
+    },
+    {
+      "criterion": "Adequate tissue from core biopsy for 21 gene RS testing (approximate minimum 5mm)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ER negative tumour",
+      "label": "not_met",
+      "evidence": "HER2-positive and ER/PR negative"
+    },
+    {
+      "criterion": "HER2 positive tumours as defined by IHC 3+ or FISH \u2265 2.0",
+      "label": "met",
+      "evidence": "HER2-positive"
+    },
+    {
+      "criterion": "Node negative disease, including those with Isolated tumour cells only (node negative i+/i-)",
+      "label": "not_met",
+      "evidence": "axillary sampling revealed 5 positive lymph nodes"
+    },
+    {
+      "criterion": "Known metastatic breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Performance status \u2265 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients not considered by their treating physician to be fit to undergo chemotherapy.",
+      "label": "not_met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "Men with breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03843346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

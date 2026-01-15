@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03808155",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male adults undergoing elective hip- or knee arthroplasty",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "male adults undergoing elective hip- or knee arthroplasty",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "underage patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-existing treatment with tamsulosin or other prostate affecting medication",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients who underwent transurethral resection of the prostate or prostatectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients with urethral strictures",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients with neurological bladder dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known allergy to tamsulosin",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hypotensive disorder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Urethral stricture found during flexible cystoscopy.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03808155",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

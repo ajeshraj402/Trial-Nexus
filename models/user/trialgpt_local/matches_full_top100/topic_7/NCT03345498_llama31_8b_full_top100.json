@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03345498",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "decompensated liver cirrhosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "replicative HBV infection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior exposure to NAs or other specific treatment for HBV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has decompensated liver cirrhosis, but prior exposure to NAs or other specific treatment for HBV infection is not mentioned. Hepatocellular carcinoma status is unknown.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03345498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

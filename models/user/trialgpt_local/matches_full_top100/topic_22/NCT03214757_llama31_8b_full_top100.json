@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03214757",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "location",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hemolytic anemia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "congestive heart failure due to congenital heart disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03214757",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

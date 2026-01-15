@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04614519",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acute appendicitis uncomplicated by computed tomography",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    },
+    {
+      "criterion": "computed tomography with injection of contrast product",
+      "label": "met",
+      "evidence": "CT scan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "coagulopathy or thrombopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "arguments for a complicated appendicitis: fever> 38.5 \u00b0 C, hyperleucytosis> 15,000,",
+      "label": "not_met",
+      "evidence": "The patient is febrile with tenderness, rebound tenderness and guarding on palpation"
+    },
+    {
+      "criterion": "CRP> 100",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of an intraperitoneal abscess",
+      "label": "not_met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "a plastron",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "a fluid effusion of medium or great abundance",
+      "label": "not_met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    },
+    {
+      "criterion": "pneumoperitoneum on the CT scan",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of abdominal surgery by laparotomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Obese patients (BMI> 30kg / m2)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "minor patients",
+      "label": "met",
+      "evidence": "The patient is a 17-year-old boy"
+    },
+    {
+      "criterion": "patients without health insurance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant patient",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient incarcerated or in detention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient under guardianship or curatorship",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "rapid sequence induction with the use of ketamine",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04614519",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02134392",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Documented laboratory-confirmed clostridium difficile infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documentation of ongoing diarrhea at time of recruitment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2265 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "In good health",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe comorbid condition (at discretion of the principal investigator)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On immunosuppressive medications (high dose steroids 30 mg/kg of methylprednisolone)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no other severe comorbid conditions mentioned. No immunosuppressive medications are currently being used.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02134392",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

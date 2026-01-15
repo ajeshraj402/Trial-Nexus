@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01592006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female patients > 18 years of age.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Detectable plasma HCV-RNA by qualitative PCR assay.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HCV genotype 1 infection,",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented recurrent hepatitis C by liver biopsy within the past year.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On cyclosporine or tacrolimus-based immunosuppression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative urine pregnancy test before initiating the treatment for women of childbearing potential.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness of the patient and all potentially childbearing partners to use a reliable form of effective contraception during the study, unless the patient or partner is surgically sterile or post-menopausal.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willingness to undergo provide informed consent and comply with study requirements.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Genotype non-1 HCV infection.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or breast-feeding.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of co-infection with HIV or hepatitis B.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of severe psychiatric disease.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is on lactulose and follow-up as an outpatient to work up the increase in AFP.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01592006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

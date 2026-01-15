@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03427229",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recurrent C. difficile infection",
+      "label": "met",
+      "evidence": "stool samples must were positive for Clostridium difficile toxin"
+    },
+    {
+      "criterion": "Possibility to undergo standard antimicrobial therapy for recurrent C. difficile infection",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Approval of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Possibility to undergo protocol diagnostic and therapeutic procedures",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool negativity for parasites",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool negativity for Salmonella spp., Shigella spp., Yersinia enterocolitica, Campylobacter, Streptococcus agalactiae, Staphylococcus aureus, enteropathogenic Escherichia coli and other microorganisms except for C. difficile",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood negativity for: Hepatitis A virus-Immunoglobulin M, HBsAg, Anti-Hepatitis C Virus, Anti-Human Immunodeficiency Virus1-2, venereal disease reaction level (VDRL)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects <18 years old",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior colectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negativity of C. difficile toxin in stools",
+      "label": "not_met",
+      "evidence": "stool samples must were positive for Clostridium difficile toxin"
+    },
+    {
+      "criterion": "Mild clinical picture of C. difficile infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High risk of post-colonoscopy complications",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other main gastrointestinal diseases (es. Crohn's disease or ulcerative colitis)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool positivity for parasites",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood positivity for: Hepatitis A virus-Immunoglobulin M, HBsAg, Anti-Hepatitis C Virus, Anti-Human Immunodeficiency Virus1-2, venereal disease reaction level (VDRL)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool samples for Clostridium difficile toxin. She has severe clinical picture and can undergo standard antimicrobial therapy.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03427229",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

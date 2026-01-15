@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02981953",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic functional tricuspid regurgitation (FTR) with annular diameter \u2265 40 mm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "valve Systolic pulmonary pressure (sPAP) \u2264 60mmHg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u226518 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) Class II-IVa",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic despite Guideline Directed Medical Therapy (GDMT); at minimum patient on diuretic regimen",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LVEF \u2265 30%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is willing and able to comply with all specified study evaluations",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The Local Site Heart Team concur that surgery will not be offered as a treatment option",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Transfemoral access of the Cardioband is determined to be feasible",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Aortic, mitral and/or pulmonic valve stenosis and/or regurgitation \u2265 moderate",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe uncontrolled hypertension (Systolic BP \u2265 180 mmHg and/or Diastolic BP \u2265 110 mm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome, severe mitral valve prolapse with regurgitation, and is symptomatic. She remains lost to follow-up but is now prepared for surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02981953",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

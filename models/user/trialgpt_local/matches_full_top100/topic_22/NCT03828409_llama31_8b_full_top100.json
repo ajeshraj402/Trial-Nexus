@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03828409",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Elective primary midline laparotomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ASA Class I to III",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "hemodynamically stable",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "able to provide consent for surgery",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency laparotomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of previous midline laparotomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergic to opiates",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to use PCA morphine (handicapped)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient will be planned for stoma creation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "31-year-old woman with abdominal pain and leukocytosis, CT scan shows distended appendix. Candidate for laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03828409",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

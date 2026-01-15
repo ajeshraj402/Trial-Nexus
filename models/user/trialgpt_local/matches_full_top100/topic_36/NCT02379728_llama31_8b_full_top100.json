@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "no prior pregnancies"
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "fluent in English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "not_met",
+      "evidence": "complaining of sleep apnea"
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "met",
+      "evidence": "singleton pregnancy"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns, complaining of sleep apnea and PCO. She has no prior pregnancies.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

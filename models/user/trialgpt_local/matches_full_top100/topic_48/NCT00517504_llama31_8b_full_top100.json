@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00517504",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "36-84 month old children",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child must meet the DSM-IV criteria for AD or PDD NOS as determined via a parent interview on the ADI-R and on child observation via the ADOS, or DD.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child must have categorical and dimensional evidence of clinically significant ADHD symptoms in multiple settings that have been present for at least six months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child with prior failed treatment with an adequate trial of methylphenidate;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current history of physical, sexual, or emotional abuse;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 41-year-old man with tinea pedis infection. He has no underlying diseases and smokes 15 cigarettes per day.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00517504",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02806167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected CES",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "minimum age 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "both sexes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to provide informed consent for their data to be included in the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-existing urinary tract pathologies (neuropathic bladder, urologic pathologies or surgery)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "under age of 18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "urinary catheter for whatever reason",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients unable to provide informed consent for themselves",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a urinary catheter in place due to severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02806167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

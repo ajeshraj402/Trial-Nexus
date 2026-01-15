@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00382928",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to telemetry ward and emergency department",
+      "label": "met",
+      "evidence": "patient was admitted earlier today evaluation of syncope and ventricular arrhythmias"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "65 yo man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with R wave less than 0.5 millivolts.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with functioning Internal Cardiac Device.",
+      "label": "met",
+      "evidence": "The patient was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device."
+    },
+    {
+      "criterion": "patients with cardiac pacemakers if oversensing by AECD is demonstrated (double counting of pacer spikes).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with visible chest lesions that would prevent AECD pad placement.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who are designated Do Not Resuscitate.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "right bundle branch block.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with Parkinson's disease.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00382928",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

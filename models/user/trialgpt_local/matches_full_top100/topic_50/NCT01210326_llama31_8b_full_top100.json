@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01210326",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "random order",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TESA or TESE performed randomly",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "testis aspirated at three separated sites",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "20 ml syringe and 18-gauge needle used",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-obstructive azoospermia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no previous biopsy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrophic testis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FSH levels more than 4 times normal range",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, palpable testis in the left scrotum. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01210326",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

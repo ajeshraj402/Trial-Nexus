@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04643262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI >35 with comorbidity and age between 25-60 years old",
+      "label": "met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "Methylene blue test is performed routinely",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy or lactation, psychiatric illness, or recent diagnosis of malignancy",
+      "label": "not_met",
+      "evidence": "patient's age and medical history suggest no pregnancy or lactation"
+    },
+    {
+      "criterion": "inflammatory bowel disease, Barrett \u0301s esophagus, and GERD with esophagitis scored as or greater than grade B",
+      "label": "not_met",
+      "evidence": "no information provided about patient's medical history"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04643262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

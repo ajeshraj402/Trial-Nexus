@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00378222",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Previously untreated",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Younger than 61 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptomatic myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fit to receive high-dose chemotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "M-GUS",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Solitary plasmacytoma",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Plasma cell leukemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AL Amyloidosis",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis, which likely triggers exclusion criteria.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00378222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

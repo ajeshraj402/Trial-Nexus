@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00236860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of simple or complex partial epilepsy that has been documented or witnessed",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "an electroencephalogram (EEG) during the preceding 5 years that has a pattern consistent with the diagnosis of partial epilepsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "during an 8-week baseline phase, patient must have at least 8 partial seizures while maintaining therapeutic levels of antiepileptic drugs (AEDs) and have no more than one seizure-free interval of up to 3 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "and no seizure-free interval longer than 3 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "good physical health",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients having solely generalized seizures or lacking documentation of partial epilepsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with generalized tonic-clonic seizures or other generalized epilepsies in the absence of an EEG consistent with partial epilepsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "generalized seizures, which are defined by the EEG wave pattern",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "seizures that lack an abnormal pulsation pattern on EEG",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "females who are capable of having children",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in his NH which required valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00236860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

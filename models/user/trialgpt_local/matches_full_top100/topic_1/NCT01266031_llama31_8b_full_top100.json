@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01266031",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically proven glioblastoma, gliosarcoma or anaplastic glioma",
+      "label": "met",
+      "evidence": "MRI scan"
+    },
+    {
+      "criterion": "Karnofsky performance status (KPS) equal or greater than 60",
+      "label": "met",
+      "evidence": "patient's medical record"
+    },
+    {
+      "criterion": "adequate bone marrow function",
+      "label": "met",
+      "evidence": "lab results within 14 days prior to registration"
+    },
+    {
+      "criterion": "adequate liver function",
+      "label": "met",
+      "evidence": "lab results within 14 days prior to registration"
+    },
+    {
+      "criterion": "adequate renal function",
+      "label": "met",
+      "evidence": "lab results within 14 days prior to registration"
+    },
+    {
+      "criterion": "unequivocal evidence for tumor progression",
+      "label": "met",
+      "evidence": "MRI scan done prior to study entry"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior treatment with bevacizumab or Vorinostat",
+      "label": "triggers",
+      "evidence": "patient's medical record"
+    },
+    {
+      "criterion": "history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix or bladder)",
+      "label": "triggers",
+      "evidence": "patient's medical record"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently experiencing progressive lower extremity weakness and urinary retention. However, they meet several inclusion criteria and have some exclusion criteria that are not severe enough to make them ineligible.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01266031",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03612973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 ys.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Disease status: chronic hepatitis C infection",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Treatment: direct acting antiviral drugs (Sofosbuvir and Daclatasvir \u00b1 ribavirin) for 12 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Negative hepatitis B virus surface Ag and HIV antibodies",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No history of hepatocellular carcinoma or development of hepatocellular carcinoma during the treatment period",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No other causes of chronic liver disease (alcohol consumption more than 80 g/day, hepatotoxic drugs, autoimmune hepatitis, primary biliary cholangitis, hemochromatosis and Wilson's disease)",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic patients.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients using lipid lowering agents.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HCV co-infection with hepatitis B virus(HBV) or human immunodeficiency virus(HIV)",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presence of other causes of chronic liver disease (alcohol consumption more than 80 g/day, hepatotoxic drugs, autoimmune hepatitis, primary biliary cholangitis, hemochromatosis and Wilson's disease).",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of HCV co-infection with HBV, which may trigger exclusion. However, the overall assessment is likely eligible due to other inclusion criteria being met.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03612973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

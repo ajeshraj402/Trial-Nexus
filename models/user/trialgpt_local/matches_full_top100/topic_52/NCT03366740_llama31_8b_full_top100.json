@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03366740",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged > 6 to 36 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "having diarrhea for 14 days or more (up to 29 days)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Children able to take oral feeds at the time of randomization",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Growth of Shigella, Salmonella or Cholera in rectal swab culture",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Children having WLZ/WHZ < -5 SD or +++ edema",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been experiencing dizziness and severe diarrhea since yesterday, with a history of international travel and living in a camp in Sudan for a month. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03366740",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

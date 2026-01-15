@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02622750",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age<65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "acute DeBakkey I aortic dissection is confirmed by CTA",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac function is NYHA I-II",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the onset time< 2 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the patient or family members can understand the research plan and will participate in",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "this study and provide a written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dissection involved the superior mesenteric artery, renal artery and coronary artery,",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "there is a serious complication of nervous system, such as coma, paraplegia, etc",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "anyone with severe emphysema, interstitial pneumonia or ischemic heart disease cannot tolerate surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subjects with contraindications of heart surgery, anesthesia and extracorporeal circulation",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02622750",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT04663334",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults older than 18 years",
+      "label": "met",
+      "evidence": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse"
+    },
+    {
+      "criterion": "patients with severe symptomatic aortic stenosis secondary to degenerative disease",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%"
+    },
+    {
+      "criterion": "confirmed by transthoracic echocardiography (mean gradient >40 mmHg and/or valve area <1 cm2)",
+      "label": "met",
+      "evidence": "repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis"
+    },
+    {
+      "criterion": "with significant coronary artery disease (epicardial coronary stenosis angiography > or = to 50%)",
+      "label": "met",
+      "evidence": "cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease"
+    },
+    {
+      "criterion": "Active contraceptive method is recommended for female of childbearing age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe CAD with tritroncular lesions or severe stenosis (>90 %) of left main artery or proximal left anterior descending artery",
+      "label": "does_not_trigger",
+      "evidence": "cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease"
+    },
+    {
+      "criterion": "Lack of viability in myocardial territory of interest",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of bypass coronary surgery or heart transplantation",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe left ventricular systolic dysfunction, characterized by an ejection fraction < 35 %",
+      "label": "triggers",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Severe renal impairment (Creatinine clearance <30 ml/min/1.73 m2)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's ejection fraction is below the threshold for severe left ventricular systolic dysfunction, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04663334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

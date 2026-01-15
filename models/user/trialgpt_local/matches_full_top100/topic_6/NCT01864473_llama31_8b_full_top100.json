@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01864473",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "without any major illness",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "without multiple track",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "with Major illness",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "multiple Fistulas",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "associated anorectal conditions",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no other major illnesses mentioned.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01864473",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

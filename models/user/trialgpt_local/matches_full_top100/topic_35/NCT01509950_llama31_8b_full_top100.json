@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT01509950",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women undergoing primary or repeat cesarean section",
+      "label": "met"
+    },
+    {
+      "criterion": "Maternal age greater than or equal to 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Gestational age greater than or equal to 34 weeks",
+      "label": "met"
+    },
+    {
+      "criterion": "Elective and non-elective cesarean section",
+      "label": "met"
+    },
+    {
+      "criterion": "A study staff member will describe the study and offer participation.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient's chart will be flagged, indicating that she is a study participant.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient's prenatal care and labor and delivery will be managed by her physician per standard of care at the physician's discretion.",
+      "label": "met"
+    },
+    {
+      "criterion": "Pain level will be assessed on the first and third or fourth day after surgery and again at six weeks.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 or Type 2 diabetes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "BMI greater than 35",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pre-operative diagnosis of chorioamnionitis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of drug or alcohol abuse",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Contraindication to NSAIDs",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Chronic pain diagnosis",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT01509950",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01772875",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "indwelling catheter",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "catheter associated bacteriuria with proteus, enterobacteriaceae or pseudomonas",
+      "label": "met",
+      "evidence": "Urinary Tract Infections-pseudomonas & enterococcus"
+    },
+    {
+      "criterion": "willing and able to give informed consent to the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with a clinically relevant UTI ( fever, pain or cloudy urine)",
+      "label": "not_met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "cognitively impaired patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients not able or willing to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with allergies for ISobetadine dermicum or other substances used in the protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who only have a catheter for less than 1 month",
+      "label": "not_met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "patients taking systemic antibiotics during the last 48h",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has indwelling catheter and history of recurrent UTIs, but no current clinically relevant UTI. Willingness to give informed consent is unknown.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01772875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

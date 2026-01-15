@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04606485",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "Able to understand the information given",
+      "label": "met",
+      "evidence": "understands the information given"
+    },
+    {
+      "criterion": "Willing to receive acupressure",
+      "label": "met",
+      "evidence": "willing to receive acupressure"
+    },
+    {
+      "criterion": "No lesions or wounds in the areas where acupressure was to be applied",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Operated on under general anaesthesia pulse, blood pressure, body temperature and oxygen saturation values within normal range during the operation",
+      "label": "met",
+      "evidence": "pulse, blood pressure, body temperature and oxygen saturation values within normal range"
+    },
+    {
+      "criterion": "No failure or disorder developing intraoperatively or postoperatively related to fluid-electrolyte balance, acid-base balance, or tissue perfusion.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "American Society of Anaesthesiologists (ASA) physical status IV",
+      "label": "not_met",
+      "evidence": "BP is 150/85"
+    },
+    {
+      "criterion": "A requirement for simultaneous combined surgery,",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "A need for postoperative fasting according to the preoperative evaluation or intraoperative findings (eg, panperitonitis with intraperitoneal abscess)",
+      "label": "not_met",
+      "evidence": "no mention of panperitonitis or intraperitoneal abscess"
+    },
+    {
+      "criterion": "Patients with a cardiac pacemaker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "A history of syncope or seizures",
+      "label": "not_met",
+      "evidence": "no mention of syncope or seizures"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "met",
+      "evidence": "menopausal"
+    },
+    {
+      "criterion": "The presence of any disease related to bleeding or a clotting disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who were unwilling to participate in the research.",
+      "label": "not_met",
+      "evidence": "willing to receive acupressure"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has several gallstones and biliary sludge, and surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04606485",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

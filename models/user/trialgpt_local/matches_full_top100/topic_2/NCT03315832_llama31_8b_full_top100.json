@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03315832",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe AS, defined according most recent guidelines (aortic valve area <1.0cm\u00b2 or <0.6cm\u00b2/m\u00b2 and aortic mean pressure gradient \u226540mmHg or aortic maximal velocity >4m/s, as assessed using transthoracic echocardiography [TTE])",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication for aortic valve intervention",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients already under any Renin-Angiotensin-Aldosterone System blockers (RAASb) prior to randomization.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant coronary artery bypass graft or other valvular intervention",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, indication for aortic valve intervention, and signed informed consent. However, patient is already under RAASb prior to randomization.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03315832",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

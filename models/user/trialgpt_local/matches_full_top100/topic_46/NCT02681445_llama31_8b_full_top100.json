@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02681445",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TB symptoms",
+      "label": "not_met",
+      "evidence": "no quote"
+    },
+    {
+      "criterion": "history of TB",
+      "label": "not_met",
+      "evidence": "no quote"
+    },
+    {
+      "criterion": "Mantoux test",
+      "label": "met",
+      "evidence": "negative"
+    },
+    {
+      "criterion": "Chest X-ray",
+      "label": "met",
+      "evidence": "normal"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "met",
+      "evidence": "negative"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of TB",
+      "label": "triggers",
+      "evidence": "no quote"
+    }
+  ],
+  "notes": "Patient has no symptoms or history of TB, negative Mantoux test and normal Chest X-ray.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02681445",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

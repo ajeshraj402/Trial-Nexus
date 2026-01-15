@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01037959",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Liver failure as defined by a Child-Pugh score \u2265 10 points",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Accept to participate",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have health insurance",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allergy to quinolones",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV infection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Gram-negative rod-shaped bacterial cells in urine culture.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT01037959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

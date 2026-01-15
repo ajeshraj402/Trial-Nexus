@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01353196",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic 50% carotid stenosis or more",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "asymptomatic 50% carotid stenosis or more",
+      "label": "met",
+      "evidence": "carotid U/S that showed significant bilateral carotid stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous stroke or transient ischemic attack (TIA)",
+      "label": "not_met",
+      "evidence": "no residual deficits"
+    },
+    {
+      "criterion": "severe medical illness that would interfere with evaluation of outcomes or reduce the likelihood of a 2-year follow-up",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "carotid occlusion",
+      "label": "not_met",
+      "evidence": "patent right ACA and MCA and patent left ACA and left MCA"
+    },
+    {
+      "criterion": "patients scheduled for carotid revascularization procedures",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01353196",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

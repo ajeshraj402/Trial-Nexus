@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01526486",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between age 18 and 80"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "metastatic melanoma or merkel cell carcinoma"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "not pregnant or lactating"
+    },
+    {
+      "criterion": "cardiac_comorbidity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pulmonary_comorbidity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, no developmental delay.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01526486",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

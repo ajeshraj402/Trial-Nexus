@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02329522",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically diagnosed as COPD by physicians",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Obtain any one of exacerbating symptoms (increased dyspnoea, sputum production, sputum volume, wheeze, cough or exertional dyspnoea)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known or suspected pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active malignancies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe mobility problems (e.g. significant painful arthritis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confusion or dementia",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 60-year-old Spanish man presenting with shortness of breath, known case of COPD since 2 years ago.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02329522",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

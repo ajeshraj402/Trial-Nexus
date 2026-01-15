@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01360268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged 18 y/o or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "positive for the HCV antibody and HCV RNA detected",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients with abnormal liver function OR a liver biopsy specimen taken in the 6 months prior to study entry showing chronic hepatitis, or liver fibrosis, or liver cihhrosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have not been previously treated with pegylated-interferon and ribavirin for HCV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "genotype 1 or genotype 2",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subjects with decompensated liver disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with human immunodeficiency virus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with hepatitis B infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with hemochromatosis defined by a pre-existing diagnosis of hemochromatosis or a positive HFE gene mutation or recipients of solid organ transplants",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with clinically significant cardiac or cardiovascular abnormalities, organ grafts, systemic infections, clinically significant bleeding disorders, evidence of malignant neoplastic diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subjects who are on lipid-lowering medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "poorly controlled Diabetes (A1C > 9%)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection, on IFN and RBV combination therapy for the past 9 months. Direct antiviral drugs were added to his treatment 6 months ago.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01360268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01850199",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gestational diabetes diagnosed according the National Diabetes data Group",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregestational diabetes (diagnosed or suspected)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Illiteracy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no computer connected to internet availability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unwillingness to participate in the study",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has sleep apnea, PCO and dissatisfaction with her body shape. She is considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01850199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03836937",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "NAFLD (by USG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Raised ALT (>40 U/L)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with significant alcohol intake (more than 20 gm/day)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic viral hepatitis (HBV, HCV)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of Wegener's granulomatosis and is currently being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03836937",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

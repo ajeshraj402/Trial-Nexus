@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04841213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tooth loss diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vitamin D3 imbalance",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medical stability",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non-compliance with postoperative recommendations",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "residence address change",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refusal from further participation in the study",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but is medically stable and compliant with postoperative recommendations.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04841213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

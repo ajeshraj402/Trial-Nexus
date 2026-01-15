@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00287456",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cystic fibrosis patients aged 12-32 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired glucose tolerance or CFRD defined as fasting blood glucose (FBG) and post-prandial blood glucose (pp) equal to: FBG <126 and pp 151-200, or FBG <126 and pp >200, or FBG >126 and pp >200.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Type 1 diabetes control patients aged 12-32 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Colonization with Burkholderia cepacia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently on corticosteroid medication",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "medically unstable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to understand the insulin pump directions",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness, loss of interest in activities, and significant weight loss. She has no history of psychologic problems and her HAM-D score is 20.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00287456",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04637022",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "benign gynecological pathology",
+      "label": "met",
+      "evidence": "uterine fibromatosis, abnormal blood loss, complex hyperplasia with atypia, uterine prolapse"
+    },
+    {
+      "criterion": "total uterine hysterectomy indication",
+      "label": "met",
+      "evidence": "need for laparoscopic suture of the vaginal cuff"
+    },
+    {
+      "criterion": "ASA class < 3",
+      "label": "met",
+      "evidence": "American Society of Anesthesiologists (ASA) class < 3"
+    },
+    {
+      "criterion": "patient's informed consent",
+      "label": "met",
+      "evidence": "Patient's informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "suspected neoplastic pathology",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients not eligible for surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "actual pregnancies or pelvic inflammatory disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, fever, tenderness, rebound tenderness, guarding on palpation, elevated WBC, acute perforated appendicitis with free fluid in the pelvis, phlegmon. Candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04637022",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

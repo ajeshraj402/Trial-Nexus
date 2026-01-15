@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02651272",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "A diagnosis of sickle cell disease (HbSS, HbSC, HbS- \u03b2+ or 0) confirmed by hemoglobin electrophoresis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Provision of informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Suspicion of Pulmonary Hypertension by echocardiography within the last 6 months (RVSP > 40mmHg or a TRV > 3.0 m/sec)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnancy or lactation",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Stroke within the last 6 weeks",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Clinically significant laboratory abnormalities, including, but not limited to: Positive Hepatitis B surface antigen or Hepatitis C antibody, Positive HIV test, Serum alanine aminotransferase (ALT) greater than or equal to 2.0 x ULN",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has hypertension and hyperlipidemia but no acute intracranial findings on CT angiogram.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02651272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

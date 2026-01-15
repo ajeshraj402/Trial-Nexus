@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01825863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age above 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing diagnostic laparoscopy for acute appendicitis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American Society of Anaesthesiology group 1-3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "General Anaesthesia",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to cooperate",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to understand and talk danish",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergic to ropivacaine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug and alcohol abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or nursing",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain due to acute appendicitis. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01825863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

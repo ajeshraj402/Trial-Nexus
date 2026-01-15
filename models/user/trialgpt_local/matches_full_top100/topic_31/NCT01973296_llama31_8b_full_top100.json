@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT01973296",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "60 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "are on Medicare",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "are community dwelling",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "reside within the geographical area defined by specific zip codes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have a working telephone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "congestive heart failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic obstructive pulmonary disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "coronary artery disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "stroke",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pneumonia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "health literacy will be assessed with the 66-item Rapid Estimate of Adult Literacy in Medicine (REALM)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current diagnosis of psychosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active substance abuse related to alcohol or drugs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "dialysis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of organ transplantation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "have dementia without a live-in caregiver",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "in hospice care",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "reside outside the defined geographical area",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and resides outside the defined geographical area.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01973296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

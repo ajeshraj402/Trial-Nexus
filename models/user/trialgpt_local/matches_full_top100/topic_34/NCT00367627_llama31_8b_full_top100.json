@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "47-year-old Asian woman"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "persistent feelings of sadness, lost interest in activities, depressed mood for past 3 weeks"
+    },
+    {
+      "criterion": "weight loss",
+      "label": "met",
+      "evidence": "5kg weight loss"
+    },
+    {
+      "criterion": "energy levels",
+      "label": "unknown",
+      "evidence": "loss of energy"
+    },
+    {
+      "criterion": "appetite",
+      "label": "unknown",
+      "evidence": "lost appetite"
+    },
+    {
+      "criterion": "digestive issues",
+      "label": "met",
+      "evidence": "recently has some digestive issues"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "47-year-old, not less than 2 years old and more than 5 years old"
+    },
+    {
+      "criterion": "stool test",
+      "label": "unknown",
+      "evidence": "no information about stool test for intestinal helminth"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman complaining of persistent feelings of sadness, lost interest in activities, depressed mood for past 3 weeks. She has recently experienced weight loss and digestive issues.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

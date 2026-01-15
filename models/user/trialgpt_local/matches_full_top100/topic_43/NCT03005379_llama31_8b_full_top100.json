@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03005379",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Enrolled in a VHA facility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able and willing to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unlikely to swallow capsules",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy, planning to be pregnant, or breastfeeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman with recent history of aspiration pneumonia and CDI. She has been febrile and complained of abdominal pain and diarrhea.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03005379",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

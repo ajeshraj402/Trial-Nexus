@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03603405",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Frozen section biopsy proven anaplastic astrocytoma or glioblastoma multiforme without evidence of multifocal tumor or leptomeningeal metastatic disease or brainstem involvement as well as radiographic evidence consistent with these diagnoses.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Life expectancy \u2265 12 weeks.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient can receive second treatment of HSV-tk after 6 months",
+      "label": "met",
+      "evidence": "This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle."
+    },
+    {
+      "criterion": "ECOG performance status of 0-1.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent to participate in the study must be obtained from patients after they have been fully informed of the nature and potential risks of the study by the investigator (or his/her designee) with the aid of written information.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing to provide biopsies as required by the study.",
+      "label": "met",
+      "evidence": "The patient is willing to participate in the study and provide biopsies."
+    },
+    {
+      "criterion": "Adequate baseline organ function as assessed by the following laboratory values before initiating the protocol: serum creatinine < 1.5 mg/dL, T. bilirubin < 2.5 mg/dL, ALT, AST, GGT and Alk Phos < 2 x normal, Platelet count > 100,000/ml , ANC> 1500/ml , Hgb> 10 gm/dL.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal partial thromboplastin time (PTT) and Pro-Thrombin Time (PT).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment with immunomodulatory therapy, immunotherapy, and/or gene vector therapy in the past 3 months.",
+      "label": "does_not_trigger",
+      "evidence": "The patient has not received any treatments in the past 3 months."
+    },
+    {
+      "criterion": "Any cytotoxic chemotherapy, RT, or immunotherapy or any investigational drug within 3 weeks of study treatment start.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of multifocal disease, brainstem involvement, or leptomeningeal metastasis.",
+      "label": "triggers",
+      "evidence": "The patient has a spinal cord conus mass which is unresectable and has caused progressive lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "Liver disease, such as cirrhosis or active/chronic hepatitis B or C.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of or current alcohol misuse/abuse within the past 12 months.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient's ECOG performance status and baseline organ function are unknown. The presence of multifocal disease, brainstem involvement, or leptomeningeal metastasis is a concern.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03603405",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

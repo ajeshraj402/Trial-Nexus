@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02205931",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 1 month and 24 months of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of epilepsy confirmed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least an average of 4 seizures/week in baseline period",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Failed response to previous trial of two anti-epileptic drugs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children with written informed consent from parent/guardian",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <1m or > 24 months of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No secure diagnosis of epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "< 4 seizures/week on average in baseline period",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Trial of < 2 AEDs",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT02205931",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

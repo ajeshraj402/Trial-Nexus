@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00731575",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "First wheezing episode",
+      "label": "met",
+      "evidence": "shortness of breath, chest tightening and cough"
+    },
+    {
+      "criterion": "Written informed consent from guardian",
+      "label": "met",
+      "evidence": "candidate for general corticosteroid therapy"
+    },
+    {
+      "criterion": "Rhinovirus PCR positive wheezing episode",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "Age 3-23 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Be delivered at >37 weeks",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic illness other than atopy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous systemic or inhaled corticosteroid treatment",
+      "label": "met",
+      "evidence": "didn't respond to the usual corticosteroid inhaler"
+    },
+    {
+      "criterion": "Participation to another study (excluding long-term follow-up studies in childhood)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Varicella contact if previously intact",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and presents with shortness of breath, chest tightening and cough. He is a candidate for general corticosteroid therapy.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00731575",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

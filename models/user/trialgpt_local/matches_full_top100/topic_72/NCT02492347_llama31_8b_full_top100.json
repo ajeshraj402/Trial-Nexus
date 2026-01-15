@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02492347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age of parent/person with parental responsibility being at least 16 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically well parent/person with parental responsibility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English Speaking parent/person with parental responsibility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonate at least 48 hours old",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Maternal use of SSRIs in pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neonates less than 37 weeks gestation at birth",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02492347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

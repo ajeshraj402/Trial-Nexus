@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02271178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Over 18 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Myocardial infarction within seven (7) days prior: anginal symptoms with ST-segment changes (elevation or depression) or inversion of T waves or left bundle branch block and acute elevation of cardiac enzymes.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signature of written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe ventricular dysfunction, (ejection fraction of the left ventricle less than 40%)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindication for beta-blockers, angiotensin-converting enzyme, aspirin and / or statins.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02271178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

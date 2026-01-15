@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04392869",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Students from 1st year of the joint Bachelor's Degree in Translation and Interpreting, and Tourism of the University of Granada.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Students from 1st year of the Bachelor's Degree in Translation and Interpreting of the University of Granada.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Students from 4th year of the Bachelor's Degree in Translation and Interpreting of the University of Granada.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current psychotherapy or history of psychotic disorder or neurological condition.",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Established formal meditation prior experience.",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 54-year-old obese woman admitted to the emergency department with abdominal pain that started 4 days ago with nausea and vomiting.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04392869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

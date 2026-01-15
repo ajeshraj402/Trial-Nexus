@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01804517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of migraine, chronic or episodic, at the first visit.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Consent to participate in the CHUM Migraine Clinic IMPACT project.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "<6 headache days per month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "6 to 14 headache days per month",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients whom first headache diagnosis is not migraine (for example post-traumatic headache, cluster headache, trigeminal neuralgia, facial pain).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with ongoing or planned pregnancy.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT01804517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

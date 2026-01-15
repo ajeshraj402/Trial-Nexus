@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03197922",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "DSM-5 diagnosis of Autism Spectrum Disorder",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fewer than 60% continent days or more than 1 incontinent day/7",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medication free or on stable medication",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Urine continent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of a known medical condition interfering with anal control",
+      "label": "triggers",
+      "evidence": "Clostridium difficile colitis"
+    },
+    {
+      "criterion": "Current serious behavioral problem or psychiatric condition requiring treatment",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Clostridium difficile colitis and a current serious behavioral problem, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03197922",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03287973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obstructive sleep apnea",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "body mass index \u226525 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 18-70 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unstable cardiovascular disease",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neuromuscular disease affecting or potentially affecting respiratory muscles",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, but no recent history of fever, cough, chills, sputum production, CP, abd pain. Daughter reports increased LE edema and weight gain.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03287973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

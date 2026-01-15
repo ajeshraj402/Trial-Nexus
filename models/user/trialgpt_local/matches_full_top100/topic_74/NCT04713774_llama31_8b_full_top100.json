@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04713774",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "kidney transplant",
+      "label": "not_met",
+      "evidence": "no mention of recent kidney transplant"
+    },
+    {
+      "criterion": "medical history available",
+      "label": "met",
+      "evidence": "diagnosis confirmed and medical treatment planned"
+    },
+    {
+      "criterion": "biological parameters of the past year available",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bisphosphonate treatment",
+      "label": "met",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    },
+    {
+      "criterion": "multiple organ transplant patients",
+      "label": "not_met",
+      "evidence": "no mention of multiple organ transplants"
+    }
+  ],
+  "notes": "Patient has Paget's disease of bone, but is not excluded due to bisphosphonate treatment. Sister had similar problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04713774",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

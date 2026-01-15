@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00645385",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "histologic diagnosis of high grade malignant glioma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "solitary, supratentorial lesions that do not cross the midline",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Karnofsky performance status >=60%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "expected survival of > three months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate hematologic reserve with WBC>=3000/mm3, absolute neutrophils >=1500/mm3 and platelets >=100,000/ mm3",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pre-enrollment chemistry parameters must show: bilirubin<1.5X the institutional upper limit of normal (IUNL); AST or ALT<2.5X IUNL and creatinine<1.5X IUNL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to use a medically effective method of contraception during and for a period of three months after the treatment period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to understand and give written informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known hypersensitivity or allergy to BCNU (carmustine) or other components of the Gliadel wafer, such as polifeprosan polymer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multifocal CNS disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of prior CNS tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "posterior Fossa or Brain stem tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "open communication of the resection cavity with the ventricular system and tumors that cross the midline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concurrent severe medical or psychiatric illness, or abnormal laboratory values that preclude surgical candidacy or limits expected survival to less than 12 weeks",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient is a healthy woman with no underlying disease. She has an irregular menstrual cycle and does not smoke.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00645385",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

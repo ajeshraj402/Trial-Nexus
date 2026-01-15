@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00044174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "maternal age between 20 and 45 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to read and write in English",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal pregnancy/delivery status without birth complications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "term birth (+/- 14 days from due date)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "singleton status of the child",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "approximately equal numbers of male and female infants",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ethnic composition matching for depressed and nondepressed mothers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "seen at 5, 12, and 24 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "birth complications",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "preterm birth",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "15 year old girl with recurrent bilateral headache, diagnosed with migraine headache and under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT00044174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

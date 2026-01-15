@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01597232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Perioperative hemoglobin level",
+      "label": "not_met",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency operation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA classification V or VI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypervolemic hemodilution",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has acromegaly due to pituitary adenoma and underwent transsphenoidal surgery. He takes vitamin D and multivitamins post-surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01597232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

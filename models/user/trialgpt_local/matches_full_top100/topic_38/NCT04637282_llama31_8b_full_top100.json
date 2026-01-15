@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04637282",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 5 and 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of classic CLN3 disease",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test, single fiber electromyography (SFEMG) was positive"
+    },
+    {
+      "criterion": "Mild-to-moderate CLN3 disease documented by the UBDRS",
+      "label": "unknown",
+      "evidence": "physical exam and lab studies were not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "Participant must be able to independently walk for a distance of at least 20 feet (6 meters)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participant must be able to tolerate swallowing oral medication or have a gastric/jejunostomy tube for drug administration",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asymptomatic CLN3 disease",
+      "label": "not_met",
+      "evidence": "complains of diplopia and fatigue and weakness that affects mainly her upper limbs"
+    },
+    {
+      "criterion": "Participant has clinically documented generalized motor status epilepticus within 4 weeks of the Baseline visit",
+      "label": "unknown",
+      "evidence": "physical exam and lab studies were not remarkable for any other abnormalities"
+    }
+  ],
+  "notes": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She has symptoms that interfere with her job as a research coordinator.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT04637282",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

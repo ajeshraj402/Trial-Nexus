@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04121247",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Language spoken by parents",
+      "label": "met",
+      "evidence": "Turkish is spoken by parents"
+    },
+    {
+      "criterion": "Family literacy",
+      "label": "met",
+      "evidence": "at least one member of the family knows how to either read or write"
+    },
+    {
+      "criterion": "Parental consent for face-to-face interviewing",
+      "label": "met",
+      "evidence": "parents agreeing to face-to-face interviewing"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participant's willingness to participate",
+      "label": "does_not_trigger",
+      "evidence": "He won't smoke or uses any illicit drugs"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell disease and is experiencing severe bone pain. They have been treated with oxycodone in the past without benefit.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04121247",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03270423",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obesity, BMI > P. 97 (Jenni et al., 2011) or overweight, BMI >P.90, plus risk factors",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "co-morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major somatic or psychiatric disease without adequate treatment,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "weight-relevant medication (antiepileptic drugs, methylphenhydate and similar medication),",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03270423",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

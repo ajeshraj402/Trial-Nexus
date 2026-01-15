@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03634384",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "admitted_to_ed",
+      "label": "met",
+      "evidence": "admitted earlier today evaluation of syncope and ventricular arrhythmias."
+    },
+    {
+      "criterion": "chest_pain_suggestive_of_mi",
+      "label": "not_met",
+      "evidence": "denies chest pain"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "steemi_at_admission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dialysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03634384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

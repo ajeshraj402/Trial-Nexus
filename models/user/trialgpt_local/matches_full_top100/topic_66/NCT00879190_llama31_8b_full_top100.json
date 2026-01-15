@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00879190",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "study staff member will describe the study and offer participation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient agrees to participate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient signs research protocol and HIPAA consent forms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient receives a copy of these forms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant women in labor or undergoing induction of labor",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed with chorioamnionitis as defined by maternal temperature > or = 38.0 degrees Centigrade plus at least one of the following: maternal tachycardia (heart rate >110), fetal tachycardia (fetal heart rate baseline >160), purulent amniotic fluid, uterine tenderness",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or adverse reaction to penicillin or ampicillin, gentamicin, or sulbactam",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having received antibiotics for the treatment of preterm premature rupture of membranes or other condition within the last 7 days",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl with Hashimoto disease. She does not smoke and she is not sexually active.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00879190",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

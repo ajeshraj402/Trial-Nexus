@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01198691",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetric service patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women greater than 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Singleton gestation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cesarean Section performed by Pfannenstiel skin incision",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to post operative NSAID's or Narcotics",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergent Cesarean Deliveries",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less then 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT01198691",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

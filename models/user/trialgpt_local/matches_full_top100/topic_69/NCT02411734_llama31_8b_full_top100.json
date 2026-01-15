@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "67 years old"
+    },
+    {
+      "criterion": "health_status",
+      "label": "met",
+      "evidence": "healthy woman"
+    },
+    {
+      "criterion": "vaccination_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "Speaks English"
+    },
+    {
+      "criterion": "education_level",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "employment_status",
+      "label": "met",
+      "evidence": "works at a rehab center"
+    },
+    {
+      "criterion": "family_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medication_use",
+      "label": "met",
+      "evidence": "takes daily multivitamins and anti-hypertensive drugs"
+    },
+    {
+      "criterion": "exercise_frequency",
+      "label": "met",
+      "evidence": "exercises regularly for 30 minutes a day at least 5 days a week"
+    },
+    {
+      "criterion": "allergy_status",
+      "label": "met",
+      "evidence": "has no allergies to any food or drugs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "reading_ability",
+      "label": "not_met",
+      "evidence": "Unable to read (even with glasses)"
+    },
+    {
+      "criterion": "writing_ability",
+      "label": "not_met",
+      "evidence": "Unable to write"
+    },
+    {
+      "criterion": "research_benefit",
+      "label": "triggers",
+      "evidence": "Potential benefit to subjects: None"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, who works at a rehab center and exercises regularly. She has no allergies to any food or drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

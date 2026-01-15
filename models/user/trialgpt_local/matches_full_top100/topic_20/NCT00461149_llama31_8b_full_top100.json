@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00461149",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed acromegaly",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age above 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no previous treatments for acromegaly",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant hyperprolactinemia if requiring combined treatment with dopamine-agonist",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary treatment with lanreotide",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment duration less than 24 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has newly diagnosed acromegaly, is above 18 years old and has not received previous treatments for the condition. However, treatment details are unclear.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00461149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02591901",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "spinal cord injury, multiple sclerosis, transverse myelitis or cauda equina damage",
+      "label": "met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "diagnosis of spinal pathology for at least 12 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no significant changes in underlying condition for 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "living in the community (not in residential care)",
+      "label": "met",
+      "evidence": "patient is presenting to the hospital"
+    },
+    {
+      "criterion": "aged 18 to 75 years",
+      "label": "met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "at least three urinary tract infection episodes treated using anti-biotics over preceding 12 months",
+      "label": "met",
+      "evidence": "Recurrent UTIs with Klebsiella/Pseudomonas"
+    },
+    {
+      "criterion": "willing to use contraception for the duration of the study (if woman of child-bearing age)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "having mental capacity to give informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgical alterations to the bladder, excluding supra-pubic catherisation",
+      "label": "not_met",
+      "evidence": "Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "known hypersensitivity to the active principle or to any of the excipients of Uro-Vaxom\u00ae",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unwilling to take a product containing gelatin (e.g. vegetarians)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recruitment can be postponed until antibiotics have not been used for a period of 14 days and symptoms of a UTI have subsided",
+      "label": "not_met",
+      "evidence": "patient has had multiple prior admissions for UTIs"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter, and recurrent UTIs. The patient's condition may not be suitable for the study due to the presence of a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02591901",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

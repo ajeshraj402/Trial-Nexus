@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01775397",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CDI is confirmed by clinical symptoms and rapid CDI test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject has not been treated with medication for CDI within the last 10 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receiving immunosuppressive therapy (chemotherapy) or undergoing a stem cell transplant procedure for a hematological malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any woman of childbearing potential requires negative serum or urine pregnancy test before entry to the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The subject has experienced more than one previous episode of CDI within the 3 months",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with confirmed CDI, not treated with medication for CDI in the last 10 days. However, she has experienced more than one previous episode of CDI within the 3 months.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01775397",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

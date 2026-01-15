@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT00704080",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed intracranial Grade 3 or 4 anaplastic glioma or glioblastoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Received prior standard radiation for a Grade 3 or 4 astrocytic tumor with a minimum cumulative dose of 40 Gy administered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Completed at least one full cycle of temozolomide of 200 mg/m2/day administered on Days 1-5 of a 28-day cycle, without unacceptable toxicity or progression",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky performance status of 60 or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate organ and bone marrow function as defined by hematological and serum chemistry limits",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Both men and women must practice adequate contraception",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Progressed while on temozolomide",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of acute intracranial or intratumoral hemorrhage > Grade 1",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00704080",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

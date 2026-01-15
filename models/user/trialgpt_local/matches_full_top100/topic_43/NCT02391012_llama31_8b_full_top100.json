@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02391012",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "donor",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "signed_informed_consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "basically_healthy_no_hospitalization_last_6_months_no_active_malignant_disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inflammatory_bowel_disease_diagnosed_at_least_3_months_ago",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "failure_of_either_one_immunomodulator_of_at_least_3_months_duration_or_TNF_inhibitor",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "full_induction_treatment_or_intolerance_to_either_of_these_drugs",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "currently_active_disease_partial_Mayo_score_\u22654_for_ulcerative_colitis_or_CDAI_\u2265200_for_Crohn's_disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "negative_HIV_HTLV_I/II_negative_stool_culture_Negative_C_diff_toxin_negative_CMV",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "no_antibiotic_treatment_in_the_last_6_months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "preferably_a_partner_of_the_patient_or_a_relative_leaving_in_the_same_house",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no_febrile_illness_in_the_last_month",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal_laboratory_tests_including:_blood_count_liver_and_kidney_function_negative_hepatitis_A_immunoglobulin_M_(IgM)_negative_hepatitis_C_antibody_negative_HbsAg_negative_HIV_human_T-lymphotropic_virus_(HTLV_I/II)_negative_venereal_disease_research_laboratory_(VDRL)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "stool_tests:_Negative_stool_culture_negative_C._difficile_toxins_(A_and_B). Negative_parasite_microscopy.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02391012",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

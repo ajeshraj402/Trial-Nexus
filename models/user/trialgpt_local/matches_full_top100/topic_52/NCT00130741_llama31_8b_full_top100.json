@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00130741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "Diagnosis of irritable bowel syndrome based on the following criteria (ROME II)",
+      "label": "met",
+      "evidence": "abdominal discomfort or pain, relief with defecation, onset associated with a change in stool frequency, loose stools"
+    },
+    {
+      "criterion": "At least two of the following on at least 25% of occasions or days in the last 3 months",
+      "label": "met",
+      "evidence": "fewer than three bowel movements a week, loose (mushy) or watery stools"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of severe or intractable IBS",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Concurrent diagnosis of any bowel disturbance that would interfere with the assessment or safety of the study",
+      "label": "not_met",
+      "evidence": "no fever, no blood in stool"
+    },
+    {
+      "criterion": "History of laxative abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous abdominal surgery (uncomplicated appendectomy, hysterectomy or cholecystectomy at least 6 months prior to entry acceptable)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of metabolic or inflammatory disease that may affect bowel motility",
+      "label": "not_met",
+      "evidence": "no history of diabetes mellitus, sarcoidosis"
+    },
+    {
+      "criterion": "Use of the following concomitant medications: medications that can affect gastrointestinal (GI) motility",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other significant illness as determined by Investigator",
+      "label": "not_met",
+      "evidence": "no fever, no blood in stool"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been experiencing dizziness and severe diarrhea since yesterday. He has a history of living in a camp in Sudan for a month.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00130741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

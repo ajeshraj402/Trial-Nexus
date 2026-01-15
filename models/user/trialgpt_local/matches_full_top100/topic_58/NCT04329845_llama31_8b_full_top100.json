@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04329845",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Preoperative sonar and CT evidence of isolated splenic injuries",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Blood pressure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Associated other abdominal or thoracic or neurological injuries detected preoperatively",
+      "label": "not_met",
+      "evidence": "no other abdominal abnormalities"
+    },
+    {
+      "criterion": "successful nonoperative management, or successful embolization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant female",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Penetrating splenic injuries",
+      "label": "not_met",
+      "evidence": "isolated splenic injuries"
+    },
+    {
+      "criterion": "Previous upper abdominal surgery for laparoscopic approach",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other abdominal injuries detected during surgery (liver,intestine and urinary bladder injuries)",
+      "label": "not_met",
+      "evidence": "no other abdominal abnormalities"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea, vomiting, fever, tenderness, rebound tenderness, guarding on palpation, elevated WBC, dominant neutrophils, CT scan showing acute perforated appendicitis and diagnostic laparoscopy revealing phlegmon. Candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04329845",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

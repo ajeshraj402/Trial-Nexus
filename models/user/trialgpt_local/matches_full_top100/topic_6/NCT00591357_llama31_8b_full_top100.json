@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00591357",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diarrheal stools considered to be antibiotic associated",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of recurrent C diff infections",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability of sign consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient with other known gastrointestinal disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients receiving tube feeding or fecal incontinence prior to receiving antibiotics",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00591357",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

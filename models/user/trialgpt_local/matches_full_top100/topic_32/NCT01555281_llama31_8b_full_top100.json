@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01555281",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient must have given written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Multiple myeloma having progressed after at least two months of lenalidomide-containing therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Measurable disease for myeloma defined as one of the following: Serum monoclonal protein (M-protein) \u226510 g/L IgG or \u22655 g/L IgA, IgM, IgD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "WHO performance status 0-2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate hematological values: neutrophils \u22651 x 10^9/L, platelets \u226575 x 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative HIV test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women are not breastfeeding. Women of child-bearing potential are using effective contraception, are not pregnant and agree not to become pregnant during participation in the trial and during the 12 months thereafter.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient compliance and geographic proximity allow proper staging and follow-up",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous malignancy within 2 years with the exception of adequately treated cervical carcinoma in situ or localized non-melanoma skin cancer.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent treatment with other experimental drugs or other anti-cancer therapy (chemotherapeutical/biological agents, radiation therapy). Treatment in a clinical trial within 30 days prior to trial entry.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known hypersensitivity or uncontrolled side effects related to trial drug(s) or hypersensitivity to any other component of the trial drugs.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01555281",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

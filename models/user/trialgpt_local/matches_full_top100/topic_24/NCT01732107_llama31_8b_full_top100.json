@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01732107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed early stage urothelial carcinoma of the bladder defined as Ta, T1, or Tis stage.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of either an FGFR3 mutation or FGFR3 over-expression within bladder tumor tissue.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented BCG-refractory disease defined as failure to achieve a tumor free state after at least 2 prior induction courses of intravesical BCG therapy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medically unfit to undergo cystectomy or electively choosing to forego cystectomy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who give a written informed consent obtained according to local guidelines.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with muscle-invasive (i.e. T2, T3, T4), locally advanced non-resectable, or metastatic urothelial carcinoma as assessed on baseline radiographic imaging obtained within 28 days prior to study registration.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with concurrent upper urinary tract (i.e. ureter, renal pelvis) non-invasive urothelial carcinoma.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of lower urinary tract symptoms and has been evaluated for prostate volume and PSA level.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01732107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

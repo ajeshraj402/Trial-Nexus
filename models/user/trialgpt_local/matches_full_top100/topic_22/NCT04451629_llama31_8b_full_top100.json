@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04451629",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "dysmenorrhea",
+      "label": "met",
+      "evidence": "diagnosis"
+    },
+    {
+      "criterion": "single",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "regular menstruation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI 19-29",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 19-25",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "voluntary participation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic and chronic diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "physical disability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "professional athlete",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hormonal contraception",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "secondary dysmenorrhea pathology",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has abdominal pain and leukocytosis, with a distended appendix on CT scan. She is a candidate for laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04451629",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

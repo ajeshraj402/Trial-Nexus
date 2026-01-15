@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02775318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "post aneurysm clipping having symptomatic vasospasm",
+      "label": "met",
+      "evidence": "new onset of focal neurological impairment such as hemiparesis, aphasia, apraxia, hemianopia, or neglect"
+    },
+    {
+      "criterion": "transcranial doppler confirmation of vasospasm by measuring cerebral blood flow velocity in MCA and LINDEGAARD ratio",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cerebral angiographic confirmation of the presence of vasospasm by Digital subtraction angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "new onset of focal neurological deficit or deterioration in the level of consciousness due to other causes like re-bleeding, hydrocephalus, cerebral edema, electrolyte disorder, infection and seizure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients having an infarct on cerebral tomography",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He reports occasional dizziness and denies CP/SOB. Carotid U/S showed significant bilateral carotid stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02775318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

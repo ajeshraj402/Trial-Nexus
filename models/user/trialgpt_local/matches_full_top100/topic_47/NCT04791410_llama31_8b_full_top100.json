@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04791410",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history of hypertension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "relationship between hypertension and hemifacial spasm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "highest blood pressure",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy plan or lactation period during pregnancy or within 2 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe cerebrovascular diseases (hypertensive encephalopathy, cerebrovascular injury, stroke, transient ischemic attack, etc.) within 6 months before admission",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of hypertension and hemifacial spasm. However, they are pregnant which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04791410",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

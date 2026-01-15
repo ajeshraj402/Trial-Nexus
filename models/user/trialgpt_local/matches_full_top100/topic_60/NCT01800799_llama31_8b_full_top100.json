@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01800799",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female adults aged \u2265 20 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All patients should be proven to have UTI by detecting pyuria in urinalysis (WBC>10 per high power field) and had a positive urine culture result.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A KUB film, and renal sonography will be performed to exclude the possibility of urolithiasis or other urinary tract pathology.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Not yet have lower urinary tract surgery in the past.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patient has not yet accepted anticholinergic medication",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient or his legally acceptable representative has signed the written informed consent form.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe cardiopulmonary disease and such as congestive heart failure, arrhythmia, poorly controlled hypertension, not able to receive regular follow-up.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with uncontrolled confirmed diagnosis of acute urinary tract infection.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients have laboratory abnormalities at screening including: (1) Aspartate aminotransferase (AST) > 3 x upper limit of normal range. (2) Alanine aminotransferase (ALT) > 3 x upper limit of normal range. (3) Patients have abnormal serum creatinine level > 2 x upper limit of normal range.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female patients who is pregnant, lactating, or with child-bearing potential without contraception.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with any other serious disease or condition considered by the investigator not suitable for entry into the trial.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients participated investigational drug trial within 1 month before entering this study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01800799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

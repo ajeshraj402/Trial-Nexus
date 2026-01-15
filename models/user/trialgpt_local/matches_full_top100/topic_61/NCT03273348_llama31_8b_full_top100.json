@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03273348",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "early-stage breast cancer",
+      "label": "met",
+      "evidence": "clinical examination, imaging and needle biopsy"
+    },
+    {
+      "criterion": "pre-operative diagnosis of Tis, T1 and T2 tumours without extensive skin involvement",
+      "label": "met",
+      "evidence": "clinical examination, imaging and needle biopsy"
+    },
+    {
+      "criterion": "use of images will be obtained",
+      "label": "met",
+      "evidence": "obtained"
+    },
+    {
+      "criterion": "candidate for tumor resection",
+      "label": "met",
+      "evidence": "patient agrees to do so prior to chemotherapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication for general anesthesia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive margin requiring mastectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Insufficient remaining breast volume",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diffuse microcalcifications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multicentric tumor?",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inflammatory breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous radiotherapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant disease (Diabetes, smoking)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03273348",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

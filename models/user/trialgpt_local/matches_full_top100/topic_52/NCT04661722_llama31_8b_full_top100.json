@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04661722",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient presenting to the emergency department",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "with chest pain",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ST elevation myocardial infarction",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pneumonia, pneumothorax, pulmonary embolism and esophageal rupture",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients under 18 years of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who do not want to be included in the study",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old man with dizziness, severe diarrhea and V. cholerae seen in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04661722",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

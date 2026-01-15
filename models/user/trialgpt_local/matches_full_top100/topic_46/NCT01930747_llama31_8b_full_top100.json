@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01930747",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "laparoscopic bariatric surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no previous laparotomy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergies to propofol, rocuronium, sugammadex, remifentanyl, or sevoflurane",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of laparotomy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "emergency laparoscopy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has TB and is likely eligible for the trial. However, history of laparotomy may trigger exclusion.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01930747",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04082780",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cirrhosis defined by any one of the following",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Platelet count <150,000/mm3 and AST/ALT ratio >1 in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cognitive impairment on PHES aggregate score [more than or greater than] -4SD - based on norms published in Allampati et al located at the website www.encephalapp.com17",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to participate, provide samples and complete follow-up",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stable Liver function tests between 2-12 weeks prior to enrollment (can include the values established by at least two samples obtained at least 2 weeks and no more than 8-12 weeks apart)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unclear diagnosis of cirrhosis (does not meet the criteria outlined above)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child score >8",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to consent, follow for the study duration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal performance on PHES",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mini-mental status exam<2518",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent alcohol abuse (within 3 months)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current use of psychoactive drugs apart from long-standing opioids or stable anti-depressant use.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis, cognitive impairment, and willing to participate. However, unclear diagnosis of cirrhosis and unable to consent are exclusion criteria.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04082780",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

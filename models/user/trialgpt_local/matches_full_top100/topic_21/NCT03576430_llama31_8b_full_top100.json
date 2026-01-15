@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03576430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HbA1c: \u2265 53 mmol/mol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PPS: \u2265 60 arbitrary units",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Blood pressure: \u2265 130/85 mm Hg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Heart rate: \u2265 70 beats/minute",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Depression score; MDI \u2265 15 WHO 5: score < 50 arbitrary units",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical stress score: \u22658 arbitrary units",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total cholesterol: \u22655.0 mmol/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LDL cholesterol: \u22653.5 mmol/L",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HDL cholesterol: \u2264 0.9 mmol/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Triglyceride: \u2265 2.0 mmol/L",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "User feedback addressing the educational program, conduction of the program at home, the professional support and the web related support.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Provider feedback among the professional staff taking care of education and professional support",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of insulin as basal-bolus regime (i,.e. the combination of long-term acting insulin as basal insulin and short-term lasting insulin as bolus injections before meals)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HbA1c > 9 % (75 mmol/mol)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03576430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

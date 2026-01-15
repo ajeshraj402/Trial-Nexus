@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01244724",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "epilepsy",
+      "label": "met",
+      "evidence": "history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity."
+    },
+    {
+      "criterion": "depression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "english_fluency",
+      "label": "met",
+      "evidence": "The patient first developed seizures at age 13 found by family to have a generalized convulsion."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "axis_II_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_psychosis",
+      "label": "not_met",
+      "evidence": "Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth,"
+    },
+    {
+      "criterion": "seizure_frequency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical_stability",
+      "label": "met",
+      "evidence": "The patient had no further events during the hospital course and was back at his baseline at the time of discharge."
+    },
+    {
+      "criterion": "progressive_neurological_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "substance_abuse",
+      "label": "not_met",
+      "evidence": "Full EEG reports are pending at the time of dictation."
+    },
+    {
+      "criterion": "psychotropic_meds",
+      "label": "met",
+      "evidence": "The patient was maintained on Dilantin and phenobarbital."
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, epilepsy. He has been seizure-free for 20 years but recently had a seizure after being tapered off Dilantin.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01244724",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

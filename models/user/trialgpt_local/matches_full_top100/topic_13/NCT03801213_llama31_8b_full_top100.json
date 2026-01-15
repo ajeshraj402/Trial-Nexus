@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03801213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fever > 38\u00b0C and uropathy or urinary tract infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "obtaining the authorization of the holders of parental authority",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antibiotic therapy in the last 48 hours",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "contraindication to bladder catheterization",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and is currently being treated for urosepsis, but does not exhibit signs of vital distress or contraindications to bladder catheterization.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03801213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

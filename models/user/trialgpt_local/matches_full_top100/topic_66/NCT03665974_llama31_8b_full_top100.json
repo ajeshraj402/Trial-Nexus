@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03665974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged in 20-40 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gestational age 24-28 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-history of acute or chronic diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoking",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of GDM",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosed with type 1 and 2 diabetes mellitus",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "preeclampsia",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 16-year-old girl with Hashimoto disease, not smoking and not sexually active.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT03665974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

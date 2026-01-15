@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01248416",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Bone age less than 14 \u00bd years at study initiation.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of puberty.",
+      "label": "not_met",
+      "evidence": "breast bulb were in stage 1 with no course hair"
+    },
+    {
+      "criterion": "Idiopathic short stature will be defined as a short child equal or less than -2SD for height, with normal GH responses to stimuli (> or = 5ng/ml to at least 2 secretagogues) or a normal IGF-I and BP-3, normal body proportions and no other identifiable growth pathology.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Accurate growth data for at least 6 months at baseline is available.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic illnesses.",
+      "label": "not_met",
+      "evidence": "no mention of chronic illness"
+    },
+    {
+      "criterion": "Chronic use of glucocorticosteroids.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous use of hormonal treatment with AIs, sex steroids or GH in the preceding 6 months.",
+      "label": "met",
+      "evidence": "treats with GH since 6 months ago"
+    },
+    {
+      "criterion": "Birth weight small for gestational age (SGA).",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, treating with GH without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01248416",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

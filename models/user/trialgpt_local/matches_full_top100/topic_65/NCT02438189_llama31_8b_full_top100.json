@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02438189",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes",
+      "label": "met",
+      "evidence": "investigator's judgment"
+    },
+    {
+      "criterion": "Using daily insulin therapy for at least one year",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age 15.0 to <46.0 years",
+      "label": "met",
+      "evidence": "patient age (25)"
+    },
+    {
+      "criterion": "HbA1c <10.0%",
+      "label": "met",
+      "evidence": "lab study: HbA1c = 6.5%"
+    },
+    {
+      "criterion": "Uninterrupted internet access while study system is being used overnight and for upload of study data in the morning",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Living with a significant other or family member (companion) committed to participating in all study activities, and being present and available to provide assistance when the system is being used at night",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "An understanding of and willingness to follow the protocol and sign the informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 3 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of seizure disorder (except for hypoglycemic seizure)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of any heart disease including coronary artery disease, heart failure, or arrhythmias",
+      "label": "not_met",
+      "evidence": "patient text: cardiomyopathy"
+    },
+    {
+      "criterion": "Cystic fibrosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of oral/inhaled glucocorticoids, beta-blockers or other medications, which in the judgment of the investigator would be a contraindication to participation in the study.",
+      "label": "not_met",
+      "evidence": "patient text: ACE inhibitors and Beta blockers"
+    },
+    {
+      "criterion": "History of ongoing renal disease (other than microalbuminuria). Creatinine level must have been obtained within the last year if subject has diabetes of >10 years duration. If creatinine is >1.5 mg/dL (132 \u00b5mol/L), the subject is excluded.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medical or psychiatric condition that in the judgment of the investigator might interfere with the completion of the protocol such as: Inpatient psychiatric treatment in the past 6 months, Uncontrolled adrenal disorder, Abuse of alcohol, Pregnancy Negative urine pregnancy test required for females who have experienced menarche as well as agreement from subject and parent/guardian to use a form of contraception to prevent pregnancy while participant is in the study. Subjects who become pregnant will be discontinued from the study.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02438189",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

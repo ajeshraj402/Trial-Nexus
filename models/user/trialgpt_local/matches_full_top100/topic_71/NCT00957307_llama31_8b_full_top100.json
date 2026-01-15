@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "41.5 (obese)"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "no prior pregnancies, no contraceptive methods used for 4 months"
+    },
+    {
+      "criterion": "physical limitations",
+      "label": "met",
+      "evidence": "rarely exercises, unable to complete four-square step test in less than 15 seconds"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "does not use contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "physical limitations",
+      "label": "met",
+      "evidence": "rarely exercises, unable to complete four-square step test in less than 15 seconds"
+    }
+  ],
+  "notes": "Patient is a 34-year-old obese woman with weight concerns and sleep apnea. She has been unsuccessful with antiobesity agents and appetite suppressants.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

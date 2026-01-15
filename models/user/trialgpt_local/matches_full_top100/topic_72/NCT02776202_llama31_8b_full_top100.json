@@ -1,0 +1,64 @@
+{
+  "trial_id": "NCT02776202",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "SCD patients who are 3-18 years old.",
+      "label": "met"
+    },
+    {
+      "criterion": "Clinically significant neurologic event (stroke) or any neurologic defect lasting > 24 hours and accompanied by an infarct on cerebral magnetic resonance imaging (MRI)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Minimum of two episodes of acute chest syndrome within the preceding 2-year period defined as new pulmonary alveolar consolidation involving at least one complete lung segment (associated with acute symptoms including fever, chest pain, tachypnea, wheezing, rales or cough that is not attributed to asthma or bronchiolitis)",
+      "label": "met"
+    },
+    {
+      "criterion": "History of 3 or more severe pain events per year in the 2 years prior to enrollment.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Availability of 10/10 genotypically HLA identical related donor",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients must have a Karnofsky score \u2265 50 or WHO/ECOG \u2265 2 for patients age \u2265 16, Lansky score \u2265 50 for patients age < 16.",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate cardiac function: shortening fraction of > 25% or ejection fraction of > 55% by echocardiogram",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Adequate renal function: serum creatinine within normal limits or creatinine clearance >70 ml/min/1.73 m2",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate liver function: Total bilirubin within normal limits and AST/ALT <2.5x upper limit of normal",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with symptomatic cardiac insufficiency or arrhythmia.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients with cirrhosis on liver biopsy.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Hepatitis B, hepatitis C, or HIV seropositive patients.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl recently diagnosed with myasthenia gravis. She complains of diplopia and weakness affecting her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02776202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

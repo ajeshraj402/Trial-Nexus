@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03461536",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients who present to the ED with flank or abdominal pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "for whom ED provider orders a CT scan for suspected nephrolithiasis",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "were enrolled",
+      "label": "not_met",
+      "evidence": "study text"
+    },
+    {
+      "criterion": "Subjects will not receive informed consent, and will not be contacted by staff",
+      "label": "triggers",
+      "evidence": "study text"
+    }
+  ],
+  "notes": "Patient has acute perforated appendicitis with free fluid in the pelvis. Candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03461536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

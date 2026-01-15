@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04342520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 60-year-old Spanish man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "The patient is a man"
+    },
+    {
+      "criterion": "diagnosis_awareness",
+      "label": "not_met",
+      "evidence": "Patient received for the first time in Memory Consultation and not aware of his diagnosis"
+    },
+    {
+      "criterion": "mmse_score",
+      "label": "met",
+      "evidence": "The patient has a Mini-Mental State Assessment score (MMSE) \u2265 20"
+    },
+    {
+      "criterion": "caregiver_support",
+      "label": "met",
+      "evidence": "Patient accompanied by a primary caregiver"
+    },
+    {
+      "criterion": "consent_ability",
+      "label": "met",
+      "evidence": "The patient is able to provide consent to participate in research"
+    },
+    {
+      "criterion": "caregiver_consents",
+      "label": "met",
+      "evidence": "Caregiver accompanies the patient and is considered as the main caregiver during the consultation, is able to provide consent to participate in research"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "care_home_residence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "legal_protection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing_impairment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "visual_impairment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04342520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

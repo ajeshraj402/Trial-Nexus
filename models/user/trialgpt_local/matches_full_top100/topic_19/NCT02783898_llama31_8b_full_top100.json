@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02783898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participant aged 16 years or over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participant presenting with an episode of palpitations or pre-syncope",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant's underlying ECG rhythm during these episodes remains undiagnosed after clinical assessment.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior diagnostic ECG",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Palpitations or pre-syncope present during an admission ECG",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Frequent episodes (i.e. at least once a day)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, but recent episode of VT suggests undiagnosed ECG rhythm.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02783898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

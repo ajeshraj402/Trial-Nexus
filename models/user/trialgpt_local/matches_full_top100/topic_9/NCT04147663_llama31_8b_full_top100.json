@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04147663",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "emergency_unit_admission",
+      "label": "met",
+      "evidence": "admitted to an emergency unit for suspected symptoms of epileptic seizure"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "epileptic_seizures",
+      "label": "unknown",
+      "evidence": "The patient first developed seizures at age 13, but had a 20 year period without another seizure."
+    }
+  ],
+  "notes": "Patient has history of epilepsy and CHF, but recent episode was controlled with valium. Full EEG reports are pending.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04147663",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

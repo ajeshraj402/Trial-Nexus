@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03597451",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years of age"
+    },
+    {
+      "criterion": "ambulatory_status",
+      "label": "met",
+      "evidence": "Expanded Disability Status Scale score \u2264 5,5 "
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "orthopedic_problems",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "vision_problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing_problems",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe lower extremity weakness and urinary retention, which may indicate orthopedic or perception problems.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03597451",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

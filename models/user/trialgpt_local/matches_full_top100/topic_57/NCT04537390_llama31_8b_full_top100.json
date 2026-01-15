@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04537390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ages 0-18 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tanner Stage I- V",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing routine outpatient surgical procedure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hernia repair (inguinal, umbilical, epigastric)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Excision of benign mass",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "laparoscopic cholecystectomy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous diagnosis of an illness associated with premature ovarian failure (Turner's syndrome, Fragile X permutation carrier)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous diagnosis of any malignancy or any history of systemic/local chemotherapy, radiation therapy, or stem-cell transplant.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant females",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "All inpatient surgical patients",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol use. Abdominal CT scan revealed acute edematous interstitial pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04537390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

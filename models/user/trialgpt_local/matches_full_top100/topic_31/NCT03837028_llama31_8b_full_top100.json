@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03837028",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "sexual_activity",
+      "label": "met",
+      "evidence": "She has three sexual partners"
+    },
+    {
+      "criterion": "high_risk_HPV_positive",
+      "label": "met",
+      "evidence": "The patient tested positive for HPV 16"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "postmenopausal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_disease",
+      "label": "unknown",
+      "evidence": "She is otherwise healthy"
+    },
+    {
+      "criterion": "antidepressant_usage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "prior_HPV_infection",
+      "label": "not_met",
+      "evidence": "The patient was offered a radical hysterectomy"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03837028",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

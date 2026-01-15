@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04190043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women > 18 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "French speaker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis and management of miscarriage / pregnancy loss in the emergency department",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "Miscarriage / pregnancy loss < 15 SA",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject unable to read or/and write",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy loss > 15 SA",
+      "label": "triggers",
+      "evidence": "patient experienced similar pain twice in the past year"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and two C/sections, but these are not directly relevant to the study criteria.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04190043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

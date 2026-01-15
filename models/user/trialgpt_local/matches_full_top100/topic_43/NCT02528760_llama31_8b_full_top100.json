@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02528760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "new onset feed intolerance to enteral nutrition",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "new onset feed intolerance to enteral nutrition",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current or past surgical abdomen including mechanical obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mesenteric ischemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "perforation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "requiring abdominal surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "enteral nutrition through gastrostomy or jejunostomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prokinetics contraindicated or allergic to the same",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "received prokinetic more than one day prior to the start of enteral feeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "uncontrolled sepsis with DIC",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman admitted to the stroke department with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02528760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

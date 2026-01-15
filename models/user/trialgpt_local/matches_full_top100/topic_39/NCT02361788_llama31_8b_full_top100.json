@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02361788",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written or thumb print informed consent from the mother during pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neonates who are born to mothers who followed antenatal care at SMRU antenatal clinics",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonates who are born in a SMRU clinic OR neonates who are born outside SMRU but visit a SMRU clinic within 48 hours after birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a SMRU clinic within 48 hours after birth OR neonates who are born outside SMRU and present with neonatal jaundice at any moment in the first 8 days",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No written or thumb print informed consent from the mother during pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neonates who are born to mothers who did not follow antenatal care",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She was born at 38w3d of gestation after an uncomplicated pregnancy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02361788",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

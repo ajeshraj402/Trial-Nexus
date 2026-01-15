@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02855294",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "oral contraceptive pill",
+      "label": "met",
+      "evidence": "routine use for past three months"
+    },
+    {
+      "criterion": "normal menstrual cycle",
+      "label": "met",
+      "evidence": "use of non-hormonal contraceptive method"
+    },
+    {
+      "criterion": "body mass index",
+      "label": "met",
+      "evidence": "less than 30 Kg/m2"
+    },
+    {
+      "criterion": "menstrual cycle duration",
+      "label": "met",
+      "evidence": "25-32 days for past 3 months"
+    },
+    {
+      "criterion": "independence in standing",
+      "label": "met",
+      "evidence": "can stand independently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "respiratory or heart problems",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "skeletal deformity or assistive devices",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "visual and vestibular system affection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cognition problems",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous surgeries at back and/or lower limbs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "genital and breast cancer and active liver disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient had a severe 'exploding' headache following a head injury, but was improving with pain medication. She refused PT evaluation but was ambulating independently without difficulty.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02855294",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

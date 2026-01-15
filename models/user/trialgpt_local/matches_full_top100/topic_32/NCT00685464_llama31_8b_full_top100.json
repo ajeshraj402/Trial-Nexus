@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00685464",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age \u2265 18 years and indication for adjuvant therapy with abciximab",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adjunct to PCI for the prevention of cardiac ischemic complications: In patients undergoing PCI",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery within 2 months, known bleeding disorder, or pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active internal bleeding, recent (within 6 weeks) gastrointestinal (GI) or genitourinary (GU) bleeding of clinical significance",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has active internal bleeding and recent GI/GU bleeding, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00685464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

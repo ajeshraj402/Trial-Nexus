@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women eligible for IUD insertion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to give consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to lidocaine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to IUD use",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old obese woman with weight concerns, sleep apnea, PCO and dissatisfaction with her body shape. She is considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

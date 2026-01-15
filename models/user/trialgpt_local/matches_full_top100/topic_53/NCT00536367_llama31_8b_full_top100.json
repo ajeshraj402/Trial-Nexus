@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00536367",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34-year-old woman"
+    },
+    {
+      "criterion": "presentation to the Emergency Department and/or admission to the hospital",
+      "label": "met",
+      "evidence": "comes to clinic with some general and non-specific bones and joints pain"
+    },
+    {
+      "criterion": "diagnosis of acute decompensated heart failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "minors",
+      "label": "met",
+      "evidence": "34-year-old woman"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00536367",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

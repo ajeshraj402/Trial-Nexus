@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04632394",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult inpatients admitted to St George's Hospital London with sustained ventricular tachycardia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "outpatients identified from the arrhythmia clinic with significant monomorphic ventricular tachycardia noted on cardiac monitoring",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Have sustained, monomorphic scar-dependent ventricular tachycardia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Are symptomatic",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Failed, unable or unwilling to tolerate anti-arrhythmic medications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to have a cardiac MRI",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Have a life expectancy > 1 year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At least 40 days following a myocardial infarction",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to have cardiac MRI",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Prohibitive procedural risk",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to tolerate the ablation procedure due to haemodynamic instability",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 65-year-old man with history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04632394",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

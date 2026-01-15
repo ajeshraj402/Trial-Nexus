@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04537390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ages 0-18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Tanner Stage I-V",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Undergoing routine outpatient surgical procedure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hernia repair (inguinal, umbilical, epigastric)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Excision of benign mass",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Laparoscopic cholecystectomy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous diagnosis of an illness associated with premature ovarian failure (Turner's syndrome, Fragile X permutation carrier) or endocrine disorder associated with irregular menstrual cycles (Cushing's disease, poorly-controlled Thyroid disease, hyperprolactinemia, polycystic ovary syndrome, and congenital adrenal hyperplasia)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous diagnosis of any malignancy or any history of systemic/local chemotherapy, radiation therapy, or stem-cell transplant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous surgical excision of one ovary or both ovaries",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant females",
+      "label": "not_met",
+      "evidence": "negative for pregnancy"
+    },
+    {
+      "criterion": "All inpatient surgical patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Undergoing non-routine outpatient surgical procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Central venous catheter placement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Supprelin insertion/removal",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT04537390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

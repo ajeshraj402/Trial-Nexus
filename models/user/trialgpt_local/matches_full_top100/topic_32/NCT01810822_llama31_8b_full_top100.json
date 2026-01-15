@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01810822",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Overt 10 years of Diabetes Mellitus",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnostic of diabetes before the age of 35 years, with initial ketosis and requirement for permanent insulin treatment within 1 year of diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnostic of diabetes before the age of 35 years and past or present diagnosis of severe diabetic retinopathy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients presenting autoimmune diseases, HIV or HCV infections",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with glomerular filtration rate < 60 mL min-1 1.73 m2 without diabetic retinopathy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe gastrointestinal symptoms and laboratory findings consistent with STEC infection, which may be a contraindication for participation in this trial.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01810822",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

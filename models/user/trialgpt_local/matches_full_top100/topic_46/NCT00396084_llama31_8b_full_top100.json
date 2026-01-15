@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00396084",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults, male or female, age 18 to 65 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Newly diagnosed sputum smear-positive pulmonary tuberculosis as confirmed by sputum acid fast bacilli (AFB) smear and chest X-ray findings consistent with pulmonary tuberculosis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to provide informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reasonably normal hemoglobin (greater than or equal to 8 gm/dL), renal function (serum creatinine less than 2 mg/dL), hepatic function [serum aspartate aminotransferase (AST) less than 1.5 times the upper limit of normal for the testing laboratory and total bilirubin less than 1.3 mg/dL], and random blood glucose less than 150 mg/dL.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Human immunodeficiency virus (HIV) infection.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of significant hemoptysis. Patients who cough up frank blood (more than blood streaked sputum) will not be eligible for enrollment.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with newly diagnosed pulmonary tuberculosis, willing to provide informed consent and meets the inclusion criteria. However, there is no indication of HIV infection or significant hemoptysis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00396084",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

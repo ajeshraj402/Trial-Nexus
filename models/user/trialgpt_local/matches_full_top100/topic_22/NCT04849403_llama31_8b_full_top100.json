@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04849403",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "LSG procedure for morbid obesity",
+      "label": "met",
+      "evidence": "Laparoscopic Sleeve Gastrectomy (LSG) procedure"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "additional surgery after LSG in follow up",
+      "label": "not_met",
+      "evidence": "no mention of additional surgery"
+    },
+    {
+      "criterion": "could not reach and did not attend to Ultrasound examination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "did not approve participation to the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04849403",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

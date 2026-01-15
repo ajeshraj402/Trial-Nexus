@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04652830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postpartum",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "follow-up",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diastasis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "postpartum_duration",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "neurologic_disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "musculoskeletal_disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "psychiatric_disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diastasis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04652830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

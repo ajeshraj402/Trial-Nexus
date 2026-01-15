@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03422809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "Pap smear in a 54-year-old woman"
+    },
+    {
+      "criterion": "18 to 44 years of age",
+      "label": "met",
+      "evidence": "54-year-old woman"
+    },
+    {
+      "criterion": "General good health",
+      "label": "met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "BMI 18.5-24.9 kg/m2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Regular menstrual cycle (26-35 days)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non-smoker",
+      "label": "not_met",
+      "evidence": "smokes"
+    },
+    {
+      "criterion": "Non-pregnant",
+      "label": "met",
+      "evidence": "menopausal and uses no contraception"
+    },
+    {
+      "criterion": "If pregnant before, \u226512 months since last pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known allergy to shellfish or iodine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood pressure on the day of measurements is low or high",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Currently has low or high blood pressure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current hypertension or previous hypertensive disorder in pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Taking regular medication(s)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Currently trying to conceive",
+      "label": "not_met",
+      "evidence": "menopausal and uses no contraception"
+    },
+    {
+      "criterion": "Currently breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Used depot medroxyprogesterone acetate (DMPA) in the past 12 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT03422809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

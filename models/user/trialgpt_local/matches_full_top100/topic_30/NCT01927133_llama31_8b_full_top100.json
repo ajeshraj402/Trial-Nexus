@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01927133",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HBV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HCV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ALD",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non reliable fibrosis estimate",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "follow up shorter than months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute liver diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01927133",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

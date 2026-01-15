@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01961154",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "doctor's diagnosis of asthma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "medication expenses according to Finnish Social Insurance Institute criteria (code 203)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "asthma diagnosis confirmed at least two years previously",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "regular treatment with inhaled corticosteroids and long-acting beta-agonists for at least 6 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no changes in regular anti-asthma medication within 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the presence of another chronic respiratory disease in addition to asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of severe co-morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently being treated with inhaled corticosteroids and long-acting beta-agonists. He does not have any other chronic respiratory diseases or severe co-morbidities.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01961154",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

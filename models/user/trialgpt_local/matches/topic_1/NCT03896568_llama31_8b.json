@@ -1,0 +1,125 @@
+{
+  "trial_id": "NCT03896568",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with recurrent anaplastic astrocytoma with wild-type IDH-1 gene will be eligible if there is a significant enhancing mass on magnetic resonance imaging (MRI) because their prognosis/behavior is similar to GBM.",
+      "label": "met",
+      "evidence": "The patient has a history of anaplastic astrocytoma and the MRI shows a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Patients must show unequivocal evidence for tumor recurrence or progression by MRI scan after failing prior surgical resection, biopsy, chemotherapy or radiation.",
+      "label": "met",
+      "evidence": "The patient has a history of anaplastic astrocytoma and the MRI shows progressive lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "Patients must be able to undergo endovascular treatment based on Doppler studies showing internal carotid artery (ICA) that is less than 50% occluded.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's ICA status."
+    },
+    {
+      "criterion": "Tumors must be > 1.0 cm in diameter with upper limit of 5 cm maximal diameter.",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine and its size is not specified, but it's likely to be within the range."
+    },
+    {
+      "criterion": "Patients must have a Karnofsky performance score >= 70.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's Karnofsky performance score."
+    },
+    {
+      "criterion": "Patients must have a life expectancy of at least 16 weeks.",
+      "label": "met",
+      "evidence": "The patient has a history of anaplastic astrocytoma and is currently undergoing treatment, so their life expectancy is likely to be more than 16 weeks."
+    },
+    {
+      "criterion": "Absolute granulocyte count >= 1,500 prior to starting therapy.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's granulocyte count."
+    },
+    {
+      "criterion": "Platelet count of >= 75,000 prior to starting therapy.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's platelet count."
+    },
+    {
+      "criterion": "Serum glutamate pyruvate transaminase (SGPT) and serum glutamic oxaloacetic transaminase (SGOT) < 2 times institutional normal ranges prior to starting therapy.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's liver function tests."
+    },
+    {
+      "criterion": "Bilirubin < 2 times institutional normal ranges prior to starting therapy.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's bilirubin levels."
+    },
+    {
+      "criterion": "Creatinine < 2.0 times institutional normal prior to starting therapy.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's creatinine levels."
+    },
+    {
+      "criterion": "Prothrombin time (PT), partial thromboplastin time (PTT), and thrombin time within institutional normal limits after correction of nutritional deficiencies that may contribute to prolonged PT/PTT.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's coagulation studies."
+    },
+    {
+      "criterion": "Subjects who have received the following chemotherapies must have completed them within the following time periods prior to baseline/day 0 of hMSC-DNX2401 delivery with recovery from any drug-related toxic effects to grade 1, or less, severity.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's previous chemotherapy treatments."
+    },
+    {
+      "criterion": "Patients must be 8 weeks from radiotherapy to minimize the potential for MRI changes related to radiation necrosis that might be misdiagnosed as progression of disease, or 4 weeks if a new lesion, relative to the pre-radiation MRI, develops that is outside the primary radiation field (beyond 80% isodose line).",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's radiotherapy history."
+    },
+    {
+      "criterion": "Patients must be willing to forego other cytotoxic and non-cytotoxic drug or radiation therapy against the tumor while enrolled in the study.",
+      "label": "met",
+      "evidence": "The patient is currently undergoing treatment, so they are likely to be willing to forego other therapies."
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative urine pregnancy test documented within 7 days prior to study initiation.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's sex or reproductive status."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Histology other than astrocytoma grade IV (GBM or gliosarcoma), although astrocytoma grade III that is IDH-1 wild-type will be included.",
+      "label": "does_not_trigger",
+      "evidence": "The patient has a history of anaplastic astrocytoma, which is not GBM or gliosarcoma."
+    },
+    {
+      "criterion": "Tumor foci detected below the tentorium or beyond the cranial vault.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's tumor location."
+    },
+    {
+      "criterion": "Tumor within the posterior fossa.",
+      "label": "does_not_trigger",
+      "evidence": "The patient has a spinal cord conus mass, which is not located in the posterior fossa."
+    },
+    {
+      "criterion": "Tumor with leptomeningeal spread.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's tumor spread."
+    },
+    {
+      "criterion": "Difficulty in obtaining vascular access for percutaneous procedure.",
+      "label": "does_not_trigger",
+      "evidence": "The patient is likely to have accessible vessels, but no information is provided about their vascular access."
+    },
+    {
+      "criterion": "Ipsilateral carotid stenosis (> 50%, by Doppler studies).",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's carotid artery status."
+    }
+  ],
+  "notes": "The patient has a history of anaplastic astrocytoma and is currently undergoing treatment. However, some inclusion criteria are unknown or unmet, such as the patient's Karnofsky performance score and their ability to undergo endovascular treatment. Additionally, some exclusion criteria may apply, but more information is needed to determine this.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03896568",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

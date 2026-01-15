@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03221387",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to the hospital for an acute exacerbation of COPD within the past 12 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have COPD as the primary diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have smoked > 10 pack years.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving supplemental oxygen as part of their usual clinical care.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willing to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "upper airway or nasal problems that prohibit the use of high flow oxygen",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "current use (\u2264 4 weeks of study entry) of any PAP-therapy (e.g., CPAP or NPPV)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sleep apnea as follows: STOPBang scores \u2265 5 or STOPBang score \u2265 2 plus BMI > 35 kg/m2;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "or Berlin questionnaire scores suggesting high likelihood of sleep apnea with increased risk of sleep-related accident (e.g., occupation as a commercial driver or pilot);",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "excessive daytime sleepiness (i.e., either of High (>15) score on the Epworth Sleepiness Scale or \"fall asleep\" accident or \"near miss\" accident in prior 12 months).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, is receiving supplemental oxygen, and was admitted to the hospital for an acute exacerbation of COPD within the past 12 weeks. However, they have a history of sleep apnea and are currently using BiPap at night.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03221387",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03748563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Gender is not limited.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients aged 18 years or older.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Both inpatients and outpatients.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically evident or biopsy-proven liver cirrhosis, without previous diagnosis of gastroesophageal varices but with clinical indication for screening endoscopy for the detection of varices, or with prior endoscopic diagnosis of gastroesophageal varices and indication for surveillance endoscopy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to provide informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients aged less than 18 years.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with active upper gastrointestinal bleeding.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who have participated in or are participating in other clinical trials within three months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with cancer on active treatment with chemotherapy and/or radiation therapy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or suspected pregnancy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspected or known intestinal stenosis or other known risk factors for capsule retention.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pacemaker or other implanted electromedical devices which could interfere with magnetic resonance.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with dysphagia.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has clinically evident liver cirrhosis and is able to provide informed consent. However, they have a recent admission for UGIB which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03748563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

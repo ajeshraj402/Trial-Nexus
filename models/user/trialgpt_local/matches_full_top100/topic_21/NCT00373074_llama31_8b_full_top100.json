@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00373074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obstetric patients aged 18 or more years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "post-dural puncture headache (PDPH) after a confirmed or likely unintentional dural puncture with an epidural needle.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "medically suitable for and have consented to epidural blood patch (EBP) for treatment of PDPH",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous epidural blood patch (EBP) related to the same unintentional dural puncture (including prophylactic EBP)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of significant low or radicular back pain (requiring treatment) during pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT00373074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT03281954",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "consent_form_signed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosis_by_core_biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "local_testing_ER_negative",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "central_testing_ER_negative",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age_18_or_more",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gender_female_male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG_performance_status_0-1",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary_tumor_T2_or_T3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "nodal_status_negative",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "synchronous_bilateral_multicentric_HER2_negative",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "blood_counts_meet_criteria",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "excisional_biopsy_lumpectomy_prior_to_study_entry",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FNA_alone_diagnose_breast_cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgical_axillary_staging_procedure_prior_to_randomization",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "definitive_clinical_radiologic_evidence_of_metastatic_disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous_history_contralateral_invasive_breast_cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous_history_ipsilateral_invasive_breast_cancer_or_DCIS",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history_non-breast_malignancies_within_5_years_prior_to_study_entry",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous_therapy_anthracyclines_taxanes_for_any_malignancy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. She has a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant, which is HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes. CXR was remarkable for metastatic lesions.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03281954",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

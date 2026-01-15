@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years",
+      "label": "met"
+    },
+    {
+      "criterion": "suspected heart rhythm disorder",
+      "label": "unknown"
+    },
+    {
+      "criterion": "no previous diagnosis of rhythm disorder",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years",
+      "label": "not_met"
+    },
+    {
+      "criterion": "on examination on the ECG, the patient was not in sinus rhythm",
+      "label": "triggers"
+    },
+    {
+      "criterion": "the patient has a known heart rhythm disorder and / or is being treated for it",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient complains of persistent feelings of sadness and loss of interest in daily activities. She states that her mood is still depressed most of the days.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

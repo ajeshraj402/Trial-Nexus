@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04051411",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >=18 yrs",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnoses of moderate or severe degenerative mitral regurgitation (based on the integrated approach recommended by the American Society of Echocardiography)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Left ventricular ejection fraction <60%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary hypertension (pulmonary artery systolic pressure >40mmHg at rest or >60mmHg with exercise as assessed by echocardiography)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant > mild aortic or mitral stenosis, >mild aortic or tricuspid or pulmonic regurgitation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04051411",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

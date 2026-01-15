@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04330183",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "English-speaking adult patients >=18yrs old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "presenting with acute pain",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "crisis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to ketamine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signs and symptoms of intracranial hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurologic deficits",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Headache only",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Temperature >102F",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sustained blood pressure >=180/110",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a known history of sickle cell disease and is presenting with severe bone pain. He has had positive history of sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04330183",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

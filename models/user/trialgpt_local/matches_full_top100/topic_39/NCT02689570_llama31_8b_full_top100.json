@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02689570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 diabetic patients",
+      "label": "met",
+      "evidence": "criteria for diagnosis by the American Diabetes Association"
+    },
+    {
+      "criterion": "diabetes duration \u22655 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "general good health",
+      "label": "met",
+      "evidence": "no cardiovascular complaints"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "having experienced a major adverse cardiovascular event (myocardial infarction,stroke)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having cardiovascular complaints",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "uncomplicated pregnancy"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She has no history of major adverse cardiovascular events or cardiovascular complaints.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02689570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

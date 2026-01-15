@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01804803",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24 years old"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "met",
+      "evidence": "type 1 diabetes"
+    },
+    {
+      "criterion": "insulin_treatment",
+      "label": "met",
+      "evidence": "using insulin glargine and aspart"
+    },
+    {
+      "criterion": "glycemic_control",
+      "label": "met",
+      "evidence": "HbA1c 11.3%"
+    },
+    {
+      "criterion": "diabetes_duration",
+      "label": "met",
+      "evidence": "diagnosed 11 years ago"
+    },
+    {
+      "criterion": "smbg_ability",
+      "label": "met",
+      "evidence": "reports carrying out SMBG"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "no evidence of lack of consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes_duration",
+      "label": "not_met",
+      "evidence": "diagnosed 11 years ago"
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "unknown",
+      "evidence": "eGFR >60 mL/min"
+    },
+    {
+      "criterion": "cardiovascular_disease",
+      "label": "unknown",
+      "evidence": "no mention of cardiovascular disease"
+    },
+    {
+      "criterion": "neoplasia",
+      "label": "unknown",
+      "evidence": "no history of chemotherapy or radiation treated malignancy"
+    }
+  ],
+  "notes": "Patient is homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01804803",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

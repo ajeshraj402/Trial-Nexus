@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02477397",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40 and 80 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Smoking history of > 10 pack years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "COPD patients with an FEV1 < 80% predicted either or not using inhaled corticosteroids.",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "At least one COPD exacerbation for which oral prednisolone had to be prescribed during",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of asthma.",
+      "label": "met",
+      "evidence": "He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness."
+    },
+    {
+      "criterion": "Exacerbation or respiratory tract infection during the last 4 weeks prior to randomization.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Females of childbearing potential without an efficient contraception unless they meet the following definition of post-menopausal: 12 months of natural (spontaneous) amenorrhea or 6 months of spontaneous amenorrhea with serum FSH >40 mIU/mL or the use of one or more of the following acceptable methods of contraception:",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of asthma, which makes him likely ineligible for the study.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02477397",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

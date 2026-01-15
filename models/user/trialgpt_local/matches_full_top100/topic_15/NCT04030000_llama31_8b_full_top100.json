@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04030000",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histological/cytologically documented primary FIGO Stage IIIA, IIIB, IIIC1, IIIC2, IVA and IVB uterine serous carcinoma.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age > 18 years.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ECOG performance status of \u2264 2.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Written voluntary informed consent.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Distant metastasis outside the abdominal cavity.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has impairment of hepatic, renal or hematologic function as defined by the following baseline laboratory values: Serum SGOT and /or SGPT > 2.5 times the institutional upper limit of normal (ULN).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of abdominal/pelvic radiation therapy.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, mitral valve prolapse, atrial fibrillation, hyperlipemia, hypertension, chronic kidney disease, hypothyroidism, and anemia. She recently presented with fevers/rigors, bandemia, mid-abdominal pain, radiating to the left flank, and was diagnosed with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04030000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

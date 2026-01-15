@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04586283",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Viable singleton pregnancy \u226528 weeks' gestation",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "No fetal anomalies according to Fetal Anomaly Screening Programme definition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to give written informed consent",
+      "label": "met",
+      "evidence": "patient statement"
+    },
+    {
+      "criterion": "Maternal Age >16 years",
+      "label": "met",
+      "evidence": "patient age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read English (as the survey instruments are only available in English)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing maternal cardiovascular or respiratory disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Fetal anomaly",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Contraindication to lying prone (severe pain etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to self-adhesive electrodes used for standard electrocardiography (ECG)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to give written informed consent",
+      "label": "not_met",
+      "evidence": "patient statement"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT04586283",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

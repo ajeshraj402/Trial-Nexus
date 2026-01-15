@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02132026",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age >50 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "peak aortic jet velocity of >2.5 m/s on Doppler echocardiography",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "grade 2-4 calcification of the aortic valve on echocardiography",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anticipated or planned aortic valve surgery in the next 6 months,",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy <2 years,",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to undergo scanning",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment for osteoporosis with bisphosphonates or denosumab.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Long-term corticosteroid use.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is being evaluated for valvular replacement. He has a history of hypertension, hyperlipidemia, and tobacco abuse.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02132026",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

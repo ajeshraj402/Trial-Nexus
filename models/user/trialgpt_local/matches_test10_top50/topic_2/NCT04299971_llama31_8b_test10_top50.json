@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT04299971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age\u226514 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active status: Kerr score\u2265 2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Blood pressure (maximum) < 180/110mmHg",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "1-2 branches with the stenotic rate < 70% involved",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "mildly ischemic manifestation relative to activity but relieve after rest",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no or low degree of organ insufficiency: NYHF I~II; eGFR (MRDR) \u2265 60ml/min",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe organ insufficiency",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute or chronic active infections including tuberculosis, hepatitis virus, etc.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other autoimmune diseases including systemic lupus erythematosus, Behcet disease, IgG4 relative disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Malignant tumors",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of severe drug allergy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Successive twice relapse occurs even after the intervention adjustment ( for the benefits of patients)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%, and had biatrial enlargement. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04299971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

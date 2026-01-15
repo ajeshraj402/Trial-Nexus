@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00175565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable symptoms of COPD in the previous 3 months before study entry",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "forced expiratory volume in one second (FEV1) after bronchodilation with 400 mcg salbutamol that was 25 to 90% of predicted",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "a change of less than 20% of predicted FEV1, 30 minutes following bronchodilation",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "a FEV1/forced vital capacity (FVC) of less than 75%",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "history of at least 10 pack-years of smoking or prolonged exposure (>10 years) to noxious gases",
+      "label": "not_met",
+      "evidence": "He doesn't smoke or use illicit drugs."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable to follow instructions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients taking any anti-inflammatory medications",
+      "label": "not_met",
+      "evidence": "He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily."
+    }
+  ],
+  "notes": "A 39-year-old man with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. Symptoms improve within 1-2 hours outside the workplace.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00175565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

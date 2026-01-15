@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02291796",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "STEC stx1/stx2 in stools",
+      "label": "met",
+      "evidence": "Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bezafibrate allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous fibrate treatments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "not triggers",
+      "evidence": "He has no other underlying disease and he is not on any medications."
+    },
+    {
+      "criterion": "hepatic failure",
+      "label": "not triggers",
+      "evidence": "Physical exam was remarkable for pallor, jaundice, and diffuse abdominal tenderness. direct bilirubin: 2.4 mg/dL"
+    },
+    {
+      "criterion": "renal failure",
+      "label": "triggers",
+      "evidence": "Creatinine: 3.6 mg/dL, blood urea nitrogen (BUN): 73 mg/dL"
+    },
+    {
+      "criterion": "history of neoplastic disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic inflammatory disease or active infectious process",
+      "label": "not triggers",
+      "evidence": "He has no other underlying disease and he is not on any medications."
+    },
+    {
+      "criterion": "anti-inflammatory or immunosuppressive therapies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient presents with symptoms of STEC infection, but also shows signs of renal failure which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02291796",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03825926",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "The baby is 3 days old."
+    },
+    {
+      "criterion": "Age of entry into the group",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Number of pregnancies",
+      "label": "met",
+      "evidence": "Single pregnancy"
+    },
+    {
+      "criterion": "Prenatal examination",
+      "label": "met",
+      "evidence": "Regularly examined in our hospital"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy week",
+      "label": "not_met",
+      "evidence": "38w3d"
+    },
+    {
+      "criterion": "Pregnancy mode",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetes combined with pregnancy",
+      "label": "not_met",
+      "evidence": "No diabetes symptoms"
+    },
+    {
+      "criterion": "Other diseases affecting glucose metabolism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High risk factors for GDM",
+      "label": "not_met",
+      "evidence": "No family history of type 2 diabetes, no huge childbirth, etc."
+    },
+    {
+      "criterion": "Refusal to draw blood before 24 weeks of pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03825926",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

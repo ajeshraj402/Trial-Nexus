@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04237246",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "First Nations or Caucasian subjects between the ages of 18 and 70 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A minimum of 12 months from the transplant procedure.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No acute rejection episode within the previous 3 months.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with absorption problems or unable to take oral medications.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who are on steroids",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may be relevant for the study.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04237246",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

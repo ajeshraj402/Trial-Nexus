@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02775318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "post aneurysm clipping having symptomatic vasospasm",
+      "label": "met",
+      "evidence": "new onset of focal neurological impairment such as hemiparesis, aphasia, apraxia, hemianopia, or neglect"
+    },
+    {
+      "criterion": "transcranial doppler confirmation of vasospasm by measuring cerebral blood flow velocity in MCA and LINDEGAARD ratio",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cerebral angiographic confirmation of the presence of vasospasm by Digital subtraction angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "new onset of focal neurological deficit or deterioration in the level of consciousness due to other causes like re-bleeding, hydrocephalus, cerebral edema, electrolyte disorder, infection and seizure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients having an infarct on cerebral tomography",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "patient reports occasional dizziness, no prior syncope, denies CP/SOB, no sensory or motor defects",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02775318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

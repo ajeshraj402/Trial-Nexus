@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02480036",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Metastatic patients from solid tumor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Estimated life expectancy of at least 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age >= 50 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky Performance Status >= 70%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Numeric Pain Intensity Score >= 3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "10% or more loss of vertebrae height",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate organ and marrow function as defined below:",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "International normalized ratio (INR)/ prothrombin time (PT) within normal institutional limits",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "leukocytes >= 3,000 microliter (mcL)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1,500 mcL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelets >= 100,000 mcl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Total bilirubin within normal institutional limits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have had prior external beam radiotherapy or surgery in the area of planned intervention",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous radiopharmaceuticals (i.e, Ra-222, Sr-90, etc) within 30 days of procedure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Primary hematologic malignancies",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with clinical or radiographic evidence of spinal cord or cauda equine compression or effacement",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy. However, the patient's overall condition and medical history suggest that they may not be eligible for this trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02480036",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01521468",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "First presentation to cardiologist with suspected coronary artery disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No documented prior history of coronary artery disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Intermediate pre-test likelihood for coronary artery disease as defined by Diamond and Forrester criteria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically referred for invasive coronary angiography",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age above 40 years",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of severe chronic obstructive pulmonary disease (COPD) or chronic asthma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal failure ( i.e. estimated glomerular filtration rate < 45 mL/min)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of sildenafil (Viagra) or dipyridamole (Persantin) that can not be terminated.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contra-indications for \u03b2-blockers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergic reaction to iodized contrast",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent or prior (within last 30 days) participation in other research studies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "using investigational drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Claustrophobia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60%, prior CVA without residual deficits. He is referred for evaluation of PVD and has carotid bruits on examination.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01521468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

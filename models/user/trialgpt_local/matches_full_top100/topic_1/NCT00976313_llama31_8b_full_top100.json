@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00976313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Thoracic surgery including thoracotomy and sternotomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thoracic epidural analgesia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindications to epidural anesthesia or refusal",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative residual urine volume > 100ml",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) > 7",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy. The patient's current condition is complicated by progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00976313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

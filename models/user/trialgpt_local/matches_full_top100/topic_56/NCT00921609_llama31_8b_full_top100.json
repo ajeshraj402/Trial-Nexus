@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00921609",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "acromegaly_diagnosis",
+      "label": "met",
+      "evidence": "known case of Acromegaly due to pituitary adenoma"
+    },
+    {
+      "criterion": "igf1_level",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "gh_response",
+      "label": "not_met",
+      "evidence": "random GH level is 4 ug/L"
+    },
+    {
+      "criterion": "surgical_resection",
+      "label": "met",
+      "evidence": "underwent transsphenoidal surgery 4 months ago"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age_range",
+      "label": "met",
+      "evidence": "41-year-old man and age range is 18-90"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "igf1_nadir_gh_response",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ogtt_response",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intercurrent_medical_or_psychiatric_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant_or_breastfeeding",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "insulin_use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "estrogen_progesterone_testosterone_thyroid_hormone_use",
+      "label": "met",
+      "evidence": "takes only vitamin D and multivitamins"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00921609",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

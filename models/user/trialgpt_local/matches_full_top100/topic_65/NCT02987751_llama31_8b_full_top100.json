@@ -1,0 +1,88 @@
+{
+  "trial_id": "NCT02987751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "blood glucose \u2265 150 mg/dl, and/or Postprandial blood glucose \u2265 200 mg/dl",
+      "label": "met"
+    },
+    {
+      "criterion": "Anthropometric measurements and vital sign will be taken.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Concomitant medication and adverse events will be noted.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Glucose meter, strips, Insulin and study diary will be dispensed.",
+      "label": "met"
+    },
+    {
+      "criterion": "Training on Glucose meter usage, hypoglycemia, hyperglycemia symptoms, Insulin injection technique and dose titration technique will be done.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subjects will be instructed to maintain the record of dosing details in the patient diary.",
+      "label": "met"
+    },
+    {
+      "criterion": "They will be given Diet and Exercise counselling.",
+      "label": "met"
+    },
+    {
+      "criterion": "They will be asked to hand over the study diary and Insulin pen (empty or full) to the coordinator at each visit.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "First three months will be an insulin dose titration period in which the subjects will be asked to visit the clinic at 12 weeks.",
+      "label": "met"
+    },
+    {
+      "criterion": "Telephonic visit at week 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 and 11.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "At week 4, and 8 investigator can have an unscheduled visit for training or insulin dispensing.",
+      "label": "met"
+    },
+    {
+      "criterion": "During the telephonic visit subjects will be asked about concomitant medication and adverse events.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 diabetes",
+      "label": "triggers"
+    },
+    {
+      "criterion": "BMI > 40 kg/m2",
+      "label": "does_not_trigger"
+    },
+    {
+      "criterion": "Subject is being treated for severe active infection of any type",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Have had more than one episode of severe hypoglycemia within 6 months prior to entry into the study.",
+      "label": "does_not_trigger"
+    },
+    {
+      "criterion": "Planned surgery in the next 6 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Any event forecasted to require a temporary need to switch to insulin",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes, which is an exclusion criterion. However, the overall assessment is likely eligible because the inclusion criteria are met and there are no other exclusion criteria that trigger.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02987751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

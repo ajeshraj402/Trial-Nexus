@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03914391",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult male patients with age > 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has elevated serum PSA level above 4ng/ml",
+      "label": "met",
+      "evidence": "PSA level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "Clinical planned for prostatic biopsy.",
+      "label": "met",
+      "evidence": "He is a candidate for urethral catheterization and TURP."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with recent urinary tract infection within 6 weeks prior to PSA testing and urine collection.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with recent urethral instrumentation, such as Foley catheter insertion, cystoscopy etc, within 6 weeks prior to PSA testing and urine collection.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with consumption of 5 alpha reductase inhibitors in past 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient did not receive any surgery for prostatic pathology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient refused or unable to provide consent for the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03914391",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

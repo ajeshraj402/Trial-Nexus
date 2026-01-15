@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02134392",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Documented laboratory-confirmed clostridium difficile infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documentation of ongoing diarrhea at time of recruitment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2265 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "In good health",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe comorbid condition (at discretion of the principal investigator)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On immunosuppressive medications (high dose steroids 30 mg/kg of methylprednisolone)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a recent history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. Stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02134392",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

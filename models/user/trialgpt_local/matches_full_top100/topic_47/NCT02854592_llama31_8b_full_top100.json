@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02854592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ischemic stroke diagnosed by CT or MRI",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "first stroke onset or past stroke without obvious neurological deficit (mRS\u22641)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Time from onset to treatment: \u2264 4.5 hours",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment with intravenous rtPA or urokinase",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent by patient self or legally authorized representatives",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of subarachnoid hemorrhage, intracranial hemorrhage and hemorrhagic cerebral infarction",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Obvious head injuries or strokes within 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intracranial tumor, arteriovenous malformation or aneurysm",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gastrointestinal or urinary tract hemorrhage within the previous 21 days",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Blood glucose < 50 mg/dl (2.7mmol/L)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Heparin therapy or oral anticoagulation therapy within 48 hours",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Oral warfarin is being taken and INR>1.6",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe systemic disease which is expected to survive less than 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He has hypertension, hyperlipidemia and hypothyroidism, smokes 1 pack per day for 40 years and consumes 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02854592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

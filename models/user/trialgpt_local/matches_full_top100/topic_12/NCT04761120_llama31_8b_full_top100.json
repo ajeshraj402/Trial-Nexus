@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04761120",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is expected to undergo cardiac surgery in \u226490 days including at least one of the following:",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject's cardiac surgery will be performed by a study investigator.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject will be \u226518 years old at the time of their annuloplasty implant(s).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject provides written informed consent and agrees to comply with all required study visits and procedures.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is below the age of legal consent in the applicable jurisdiction or otherwise lacks legal authority to provide informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is unable to read or write or has a mental illness or disability that impairs their ability to provide written informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is expected to have active endocarditis at the time of their Abbott annuloplasty device implant(s).",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04761120",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

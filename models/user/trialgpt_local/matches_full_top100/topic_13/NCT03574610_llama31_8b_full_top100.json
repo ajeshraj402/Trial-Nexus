@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03574610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neurogenic bladder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of neurologic illness or injury",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anatomical bladder outlet obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe debilitating MS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of seizures",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pregnancy or planning to become pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has neurogenic bladder, history of neurologic illness/injury, and is over 18. Exclusions include anatomical bladder outlet obstruction (unknown), severe debilitating MS (unknown), history of seizures (not met), and pregnancy or planning to become pregnant (unknown).",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03574610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

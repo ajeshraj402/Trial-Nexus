@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03935633",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Thalassemia patients with serum ferritin \u2265 500 \u00b5g/L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Patients aged 16 and above",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "HB\u226580 g/L before administration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Voluntarily participate in the experiment, and the process of obtaining informed consent met the requirements of GCP.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatitis B surface antigen positive, hepatitis B core antibody positive and HBV-DNA positive",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HIV positive",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of sickle cell crises since childhood, but is currently asymptomatic. No liver or renal dysfunction noted.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03935633",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

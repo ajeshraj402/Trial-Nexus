@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital or Massachusetts General Hospital for an acute burn, injury, or reconstructive surgery following a burn",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Mental Retardation",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Traumatic Brain Injury",
+      "label": "unknown"
+    },
+    {
+      "criterion": "New onset or marked worsening of a seizure disorder",
+      "label": "not_met"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. BP of 146/99 and urine dipstick with 3+ proteins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00148200",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female outpatient coming to Gynecology Clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Never had sexual activity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "37-year-old woman with stage 1B cervical cancer, HPV 16 positive, three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00148200",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

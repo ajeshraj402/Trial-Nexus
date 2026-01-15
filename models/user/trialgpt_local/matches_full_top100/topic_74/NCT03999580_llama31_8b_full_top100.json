@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03999580",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age at randomization between 4 and 17 years inclusively",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pediatric Crohn's Disease Activity Index (PCDAI) \u2264 10 with no clinical symptoms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receiving a stable dose for at least 4 weeks of any of the following drugs: Thiopurines, Methotrexate, or TNF-\u03b1 inhibitors (Infliximab/Adalimumab)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of surgery resulting in a permanent colostomy or ileostomy (because of the inability to calculate PCDAI at baseline)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have already been included in the pilots vitamin D trials",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients actively enrolled in other CD drug trials",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is receiving Bisphosphonate therapy. Their sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03999580",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

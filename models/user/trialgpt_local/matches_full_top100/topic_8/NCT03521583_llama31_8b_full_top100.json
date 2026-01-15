@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03521583",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Historically lowest VWF:Ag and/or VWF:RCo and/or VWF:CB \u2264 0.30 IU/mL and/or FVIII:C \u2264",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment at a Hemophilia treatment center in the Netherlands",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All types of VWD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All ages",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other known bleeding disorders present.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Richter's transformation, which may indicate other underlying conditions.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03521583",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

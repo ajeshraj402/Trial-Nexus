@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02204774",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years.",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "Diagnosis of thoracic aortic aneurysm defined by the following parameters - Women: at the level of the sinus of valsalva >39mm, or ascending aorta >42mm. - Men: at the level of the sinus of valsalva >44mm, or ascending aorta >46mm.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients on continuous positive airway pressure (CPAP) therapy for OSA at baseline.",
+      "label": "not_met",
+      "evidence": "Daughter has also noted compliance with BiPap at night."
+    },
+    {
+      "criterion": "Patients with known central sleep apnoea.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L. Pt agitated then somnolent at initial presentation.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02204774",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

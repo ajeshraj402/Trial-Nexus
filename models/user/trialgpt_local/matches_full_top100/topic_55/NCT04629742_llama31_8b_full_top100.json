@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04629742",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "healthy volunteers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoking",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyperlipidemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eating disorders",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "use of medications affecting satiety and hunger sensations",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "past gastrointestinal surgery potentially affecting digestion and absorption",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of chronic diseases",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may affect digestion and absorption. However, no clear indication of eating disorders or use of medications affecting satiety and hunger sensations.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04629742",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

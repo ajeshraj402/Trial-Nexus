@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03831906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged 2 to 59 months",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Newly hospitalized for severe pneumonia defined using WHO criteria as cough or difficulty in breathing with: Peripheral oxygen saturation < 90% or central cyanosis, or Severe respiratory distress (e.g. grunting, nasal flaring, very severe chest indrawing), or Signs of pneumonia, defined as cough or difficulty in breathing with fast breathing (tachypnea) and/or chest indrawing, with any of the following danger signs: Inability to breastfeed or drink, Persistent vomiting Lethargy or reduced level of consciousness Convulsions, Stridor in calm child Severe malnutrition",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent signed by parent/guardian",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ongoing TB treatment or history of intake of anti-TB drugs in the last 6 months",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 month ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT03831906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

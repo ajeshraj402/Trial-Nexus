@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02446184",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Fetus with LUTO",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Oligohydramnios or Anhydramnios after 18 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Favorable urine analysis after 18 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of chromosomal abnormalities and associated anomalies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gestational age at the time of the procedure will be between 16 0/7 weeks and 25 6/7 weeks",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Fetal anomaly unrelated to LUTO",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congenital cardiac anomaly",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Increased risk for preterm labor including short cervical length (<1.5 cm)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, but is currently stable with good urine output.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02446184",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

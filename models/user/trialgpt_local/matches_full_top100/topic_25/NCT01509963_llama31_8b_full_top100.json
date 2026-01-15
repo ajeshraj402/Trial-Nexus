@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01509963",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "breast_cancer_type",
+      "label": "met",
+      "evidence": "infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "tumor_size",
+      "label": "met",
+      "evidence": "1.8 cm"
+    },
+    {
+      "criterion": "social_security_coverage",
+      "label": "met",
+      "evidence": "no evidence"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "neoadjuvant_chemotherapy",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "radiotherapy_to_ipsilateral_axilla_or_breast",
+      "label": "unknown",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "breastfed all three children"
+    }
+  ],
+  "notes": "Patient is a postmenopausal woman with invasive breast cancer and social security coverage.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01509963",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

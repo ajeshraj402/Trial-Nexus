@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04808427",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "prostate cancer, amenable for ultrasound ablation",
+      "label": "met",
+      "evidence": "diagnosed by prostate biopsies consist of transrectal ultrasound-guided standard 12 core biopsy"
+    },
+    {
+      "criterion": "Gleason Score <= 7",
+      "label": "met",
+      "evidence": "Gleason Score <= 7"
+    },
+    {
+      "criterion": "<= 4 cores positive in a standard 12 core biopsy",
+      "label": "met",
+      "evidence": "<= 4 cores positive in a standard 12 core biopsy"
+    },
+    {
+      "criterion": "PSA < 20 ng/ml",
+      "label": "met",
+      "evidence": "PSA level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "Adults (>= 18 years of age)",
+      "label": "met",
+      "evidence": "63-year-old man"
+    },
+    {
+      "criterion": "Platelets >= 50,000/mcL",
+      "label": "met",
+      "evidence": "Plt: 370000 /ml"
+    },
+    {
+      "criterion": "Hemoglobin >= 8 g/dL",
+      "label": "met",
+      "evidence": "Hgb: 13.6 g/dl"
+    },
+    {
+      "criterion": "ALT or AST <= 5 x ULN",
+      "label": "met",
+      "evidence": "normal blood chemistry (3 days ago)"
+    },
+    {
+      "criterion": "Measured or calculated creatinine clearance (CrCl) >= 30 mL/min/1.73 m^2",
+      "label": "met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "Subjects must be able to understand and willing to sign a written informed consent document.",
+      "label": "met",
+      "evidence": "He is a candidate for urethral catheterization and TURP."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The presence of 3 or more MRI visible lesions positive for prostate cancer on biopsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Targeted lesion ablation length from apex to base of >5 cm or lesion extending >3 cm from the urethra.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Target ablative volume of greater than 100 ml.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of calcifications that would impede ultrasound transmission between the urethra and ablative target.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The participant is unable to tolerate MRI (foreign body, i.e., pacemaker or other implanted device; claustrophobia; inability to tolerate rectal coil; etc.)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute urinary tract infection",
+      "label": "not_met",
+      "evidence": "U/C: negative"
+    },
+    {
+      "criterion": "Lower urinary tract symptoms defined by an IPSS > 20",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with prostate cancer, amenable for ultrasound ablation. He has adequate organ and marrow function.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04808427",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

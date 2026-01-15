@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Liver Biopsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Endoscopic evidence of varices or portal gastropathy",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fibroscan values suggestive of cirrhosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On treatment for hepatic encephalopathy (patient can be on lactulose and rifaximin)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give written, informed consent (demonstrated by mini-mental status exam>25 at the time of consenting)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count<25,000/mm3",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TIPS in place for less than a month",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently on antibiotics apart from rifaximin",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with Parkinson's disease. He has hypertension and hypercholesterolemia, but no signs of dementia or immunocompromised state.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04087382",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute ischemic stroke due to occlusion of the MCA or ICA suitable for endovascular treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptoms onset between 6-24 hours from arrival to the time of femoral puncture",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemorrhagic diathesis, coagulation factor deficiency, or oral anticoagulant therapy with INR > 2.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-existing neurological or psychiatric disease that would confound the neurological evaluations; mRS score before the onset of stroke must be \u2264 1",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypodensity on CT accounting to an ASPECTS score of <7",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT or MRI evidence of hemorrhage (the presence of micro-bleeds is allowed)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant mass effect with midline shift on CT brain",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Occlusions in multiple vascular territories (e.g., bilateral anterior circulation, or anterior/posterior circulation) on CT brain",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04087382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

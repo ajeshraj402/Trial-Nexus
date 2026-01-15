@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01832233",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Glomerular filtration rate",
+      "label": "met",
+      "evidence": "60-15 mls/min as per the modified diet in renal disease formula (Stage 3 and 4 Chronic Kidney Disease)"
+    },
+    {
+      "criterion": "Daytime systolic blood pressure on ambulatory monitor",
+      "label": "not_met",
+      "evidence": ">135 mm Hg while taking 3 or more anti-hypertensives including a diuretic on maximal dose OR <135 but taking 4 or more anti-hypertensives"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18 years and above"
+    },
+    {
+      "criterion": "Renal artery length and diameter",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suitability for renal denervation",
+      "label": "triggers",
+      "evidence": "not suitable for renal denervation based on the Indications for Use"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may be a contraindication for renal denervation.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01832233",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02721771",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age > 18years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previously healthy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "new late onset severe preeclampsia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "labour",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic obstructive pulmonary disease (COPD)",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "collagen disorder",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ho lithium intoxication",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ho of methanol, ethanol, salicylates ingestion",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "regular ingestion of antacids",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic renal disease",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic hepatic disease",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "urinary tract infection (UTI)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "infection, sepsis",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI>50",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "acute asthma",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02721771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

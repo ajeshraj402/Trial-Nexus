@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03868800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Estimated glomerular filtration rate below 20 ml/min",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A clinical judgement made by the contact nurse and the contact physician",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Conservative care",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A set date for a transplantation with a living donor",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not able to participate due to cognitive impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT03868800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

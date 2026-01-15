@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02727322",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women who have undergone surgery for the correction of pelvic organ prolapse and/or urinary incontinence",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "urinary incontinence and failed a postoperative voiding trial",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known drug allergy to nitrofurantoin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of renal insufficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal transplant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal nephropathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent history of more than 3 UTIs per year",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs, but no recent history of more than 3 UTIs per year. Patient is not immunocompromised.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02727322",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00752258",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "16-year-old girl"
+    },
+    {
+      "criterion": "Disease",
+      "label": "met",
+      "evidence": "myasthenia gravis, class IIa"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Autoimmune disease",
+      "label": "triggers",
+      "evidence": "positive anti-AChR antibody test"
+    },
+    {
+      "criterion": "Neuromuscular disorder",
+      "label": "triggers",
+      "evidence": "myasthenia gravis or diseases of neurotransmission (from medical history)"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis and is on acetylcholinesterase inhibitor treatment combined with immunosuppressants. She still has some symptoms.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT00752258",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

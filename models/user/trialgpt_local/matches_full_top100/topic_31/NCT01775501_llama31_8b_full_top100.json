@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01775501",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed advanced HCC",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No cirrhosis or Child-Pugh A cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable lesions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All acute toxic effects of any prior treatment have resolved to NCI-CTCAE v4.0 grade 1 or less",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to swallow and retain oral medication",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior systemic regimens for HCC",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CLIP score > 3",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG PS > 1",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16. She smokes 30 packs/year and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01775501",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04341714",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Telephone consultation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "New patient in the department",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may be relevant to the trial.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04341714",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

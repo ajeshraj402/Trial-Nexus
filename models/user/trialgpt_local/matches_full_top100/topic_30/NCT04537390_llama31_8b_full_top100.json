@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04537390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ages 0-18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Tanner Stage I-V",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous diagnosis of an illness associated with premature ovarian failure (Turner's syndrome, Fragile X permutation carrier)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous diagnosis of any malignancy or any history of systemic/local chemotherapy, radiation therapy, or stem-cell transplant.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and is on Levothyroxine. Her symptoms improved significantly after treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04537390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

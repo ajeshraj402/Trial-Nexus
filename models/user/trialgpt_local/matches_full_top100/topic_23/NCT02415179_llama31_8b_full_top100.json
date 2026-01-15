@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02415179",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed asthma according to Global Initiative for Asthma (GINA) guideline 2014",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without previous treatment of inhaled corticosteroid and long acting beta agonists",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with asthma symptoms of most days or wake up due to asthma one time per week or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "or more",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with the presence of any risk factors of asthma according to Global Initiative for Asthma (GINA) guideline 2014",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with severe uncontrolled asthma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with previous asthma exacerbation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients give consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with contra-indication for performing spirometry according to American Thoracic Society (ATS) and European Respiratory Society (ERS) statement of standardization for spirometry",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients refuse to participate study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, history of asthma for 3 years, frequent cough, wheezing, and shortness of breath and chest tightness. Spirometry revealed a FEV1 of 63% of the predicted.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02415179",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

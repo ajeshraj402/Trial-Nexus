@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03261297",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "1 month up to 17 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "admitted gastroenterology unit at Assuit University Children Hospital",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 1 month",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diarrhea less than 14 days",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic diarrhea due to malignancy & chemotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been experiencing dizziness and severe diarrhea since yesterday, with a history of living in a camp in Sudan for a month. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03261297",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

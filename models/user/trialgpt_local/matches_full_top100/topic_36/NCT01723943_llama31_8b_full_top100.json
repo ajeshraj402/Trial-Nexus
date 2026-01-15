@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01723943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spouse of woman diagnosed with breast cancer",
+      "label": "met",
+      "evidence": "patient is married to a woman who has been diagnosed with breast cancer"
+    },
+    {
+      "criterion": "married or cohabiting for at least 6 months",
+      "label": "met",
+      "evidence": "patient and spouse have been married for 5 years"
+    },
+    {
+      "criterion": "English as one of their languages of choice",
+      "label": "met",
+      "evidence": "patient speaks English"
+    },
+    {
+      "criterion": "live within 25 miles of the University of Washington study center",
+      "label": "unknown",
+      "evidence": "no information provided about patient's location"
+    },
+    {
+      "criterion": "willing to give a sample of blood and/or sputum at time of first and second data collections",
+      "label": "met",
+      "evidence": "patient is willing to participate in the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "woman diagnosed with stage IV or recurrent breast cancer",
+      "label": "not_met",
+      "evidence": "no information provided about patient's breast cancer diagnosis"
+    },
+    {
+      "criterion": "woman and/or spouse not able to read and write in English",
+      "label": "unknown",
+      "evidence": "no information provided about patient's language skills"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has been married for 5 years and speaks English.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01723943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

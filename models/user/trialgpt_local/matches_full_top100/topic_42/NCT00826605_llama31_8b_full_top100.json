@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00826605",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "19 yo"
+    },
+    {
+      "criterion": "gestational_age",
+      "label": "met",
+      "evidence": "32+ 6 weeks of gestational age"
+    },
+    {
+      "criterion": "ethnicity",
+      "label": "met",
+      "evidence": "Hispanic female"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm_delivery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_hypertension",
+      "label": "not_met",
+      "evidence": "BP of 146/99"
+    }
+  ],
+  "notes": "Patient has mild headache and leg swelling, but BP is elevated. She has no specific past medical issues.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT00826605",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

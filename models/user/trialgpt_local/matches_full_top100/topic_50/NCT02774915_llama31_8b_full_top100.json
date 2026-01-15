@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02774915",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant with breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "healthy mother",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "2nd or 3rd trimester",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, no developmental delay.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02774915",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

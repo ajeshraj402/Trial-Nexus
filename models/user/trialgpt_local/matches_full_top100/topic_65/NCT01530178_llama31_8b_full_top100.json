@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01530178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "concomitant illnesses",
+      "label": "met",
+      "evidence": "type 1 diabetes confirmed with molecular analysis"
+    },
+    {
+      "criterion": "HbA1C less than 9%",
+      "label": "met",
+      "evidence": "6.5%"
+    },
+    {
+      "criterion": "menstruating women must have a negative pregnancy test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lactating and pregnant women will be excluded",
+      "label": "not_met",
+      "evidence": "25-year-old man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "having any other chronic condition except hypothyroidism stable on medications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "on chronic medications that may affect glucose excursions",
+      "label": "not_met",
+      "evidence": "takes 70/30 Insulin and vitamin D supplements"
+    },
+    {
+      "criterion": "hemoglobin less than 12 g/dl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive pregnancy test (based on Urine)",
+      "label": "not_met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "pregnant or lactating mothers",
+      "label": "not_met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "known allergy to Januvia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01530178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

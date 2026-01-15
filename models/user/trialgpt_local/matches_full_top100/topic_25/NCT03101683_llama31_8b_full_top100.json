@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03101683",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed diagnosis of in situ ductal carcinoma (pTis) or invasive breast carcinoma (pT1 and pT2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative sentinel node dissection or axillary clearance (pN0)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Close (less than 1 mm) or positive (ink on tumor margin) surgical margin in a single breast quadrant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumor diameter >2 cm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226450 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Stages IIIB, IIIC and IV (any T4, any N3 or M1)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pathological metastasis in \u22652 axillary lymph nodes",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 42 year-old postmenopausal woman who had a screening sonogram which revealed an abnormality in the right breast. She had no palpable masses on breast exam.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03101683",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

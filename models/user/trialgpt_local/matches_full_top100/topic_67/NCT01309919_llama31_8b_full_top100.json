@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception preference",
+      "label": "met",
+      "evidence": "desires IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI history",
+      "label": "not_met",
+      "evidence": "no mention of STI during the three months prior to enrollment"
+    },
+    {
+      "criterion": "desire for another pregnancy",
+      "label": "unknown",
+      "evidence": "no information about desire for another pregnancy within six months of giving birth"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

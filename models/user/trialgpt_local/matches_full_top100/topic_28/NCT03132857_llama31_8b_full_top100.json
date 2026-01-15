@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03132857",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "living_at_home",
+      "label": "met",
+      "evidence": "living at home"
+    },
+    {
+      "criterion": "presenting_to_physician",
+      "label": "met",
+      "evidence": "presenting themselves to the office of their attending physician for a consultation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "EHPAD_resident",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "social_security_affiliation",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03132857",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

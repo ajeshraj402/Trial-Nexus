@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04266275",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-uninfected and infected women (without current AIDS-defining illness)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of a cervix",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Biopsy-proven LSIL disease or recently treated HSIL disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adherence to combined anti-retrovirals (cART) if HIV infected",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On continuous antiretrovirals with a cluster of differentiation 4 (CD4) count >200 cells/ml with sustained undetectable viral load for at least 3 months (only for HIV-positive participants)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On reliable birth control: combined oral contraceptive pills (OCP), long-acting reversible contraception (LARC), bilateral tubal ligation (BTL) or Depo-Provera (birth control shot)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to conform to the study requirements",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reliable follow-up and contact information",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No risk factors for HSIL or microinvasive disease (no colposcopic features of microinvasion, adequate colposcopy and negative endocervical curettage)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "For women with HSIL only, LEEP completed within 6 weeks preceding initial encounter with study staff and adequate wound healing",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Untreated HSIL or invasive features on colposcopy and the biopsy specimen",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Not adherent to anti-retroviral therapy (cART) (HIV infected participants)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CD4 count =<200 cells/ml and detectable viral load within the last 3 months (only for HIV-positive participants)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Lactating and pregnant people",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with irregular cycles (more than once a month)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not on reliable birth control.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous hysterectomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior diagnosis of cervical cancer, treated or untreated",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positivity. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT04266275",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

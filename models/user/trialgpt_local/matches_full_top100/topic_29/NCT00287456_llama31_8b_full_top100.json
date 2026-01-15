@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00287456",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cystic fibrosis patients aged 12-32 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired glucose tolerance or CFRD defined as fasting blood glucose (FBG) and post-prandial blood glucose (pp) equal to: FBG <126 and pp 151-200, or FBG <126 and pp >200, or FBG >126 and pp >200.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Type 1 diabetes control patients aged 12-32 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Colonization with Burkholderia cepacia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently on corticosteroid medication",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medically unstable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to understand the insulin pump directions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has had type 1 diabetes for 11 years and is currently homeless, having lost his supply of insulin. He reports previous episodes of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00287456",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

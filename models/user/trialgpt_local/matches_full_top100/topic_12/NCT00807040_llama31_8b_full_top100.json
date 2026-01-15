@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00807040",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic severe ischemic mitral regurgitation (often with tethering as a major mechanism) in the judgment of the clinical site echocardiographer, assessed by transthoracic echocardiogram.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Eligible for surgical repair and replacement of mitral valve",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CAD with or without the need for coronary revascularization",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior mitral valve repair",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe irreversible pulmonary hypertension in the judgment of the investigator",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and is prepared to undergo mitral valve repair/replacement surgery. However, prior mitral valve repair makes them likely ineligible for this study.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00807040",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

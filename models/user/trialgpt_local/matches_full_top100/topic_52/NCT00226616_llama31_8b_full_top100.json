@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00226616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged between 3-14 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hospitalized at ICDDR, B",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "presenting with cholera",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "within 24 hours of onset",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool output more than 4ml/kg/hour within the first 6 hours of observation period",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive dark field examination",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to rehydrate within 6 hours",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative dark field examination",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Systemic illness requiring immediate administration of antibiotics.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Received antibiotics in the 24 hours prior to hospitalization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients presenting with bloody mucoid diarrhea",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has profuse watery diarrhea without odor, V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00226616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

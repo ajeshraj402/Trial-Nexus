@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02189291",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women undergoing minimally invasive sacrocolpopexy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sacrocolpopexy with or without concomitant procedures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients having the first start surgery of the day to standardize hospital time.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Elevated post void residual (PVR)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mobility problems",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurological conditions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intra-operative cystotomy or urinary tract injury",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has neurogenic bladder with indwelling suprapubic catheter and history of recurrent UTIs, but no evidence of urethral strictures. Urologist not concerned with leaking around cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02189291",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

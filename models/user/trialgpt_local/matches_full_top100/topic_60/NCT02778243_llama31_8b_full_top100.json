@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02778243",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men aged over 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Surgical indication justifying protatique prostatectomy, or complete prostatocystectomie, or removal of a metastasis of prostate cancer.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients affiliated to a social security scheme or benefiting from such a regime.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who have given their consent to participate in writing",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient received local therapy or hormonal treatment (LHRH analogue, therapy blocking androgen receptors) before surgery.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Treatment reductase inhibitors 5ARI ongoing or stopped for less than 3 months before the intervention.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient included in another clinical trial inconsistent with the conduct of this research.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient receiving treatment that could interfere with hormone levels (Prednisone, Ketoconazole, Abiraterone, Finasteride, Dutasteride).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. He is a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02778243",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

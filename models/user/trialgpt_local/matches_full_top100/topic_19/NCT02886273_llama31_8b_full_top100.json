@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02886273",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "OHCA of assumed cardiac etiology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented first recorded heart rhythm",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of non-cardiac death (including cerebral etiology and pulmonary embolism)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "OHCA due to cardiac tamponade",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "65 yo man with history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02886273",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

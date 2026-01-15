@@ -1,0 +1,88 @@
+{
+  "trial_id": "NCT02487615",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "abdominal circumference, height and weight for body mass index calculation",
+      "label": "met"
+    },
+    {
+      "criterion": "fast plasma glucose and insulin and 2 hours after 75g of dextrose test glucose and insulin",
+      "label": "met"
+    },
+    {
+      "criterion": "fast serum triglycerides, total cholesterol, HDL cholesterol, creatinine, high sensitive c-reactive protein (hs-CRP), HbA1c, thyroid stimulating hormone (TSH), free thyroxin (fT4), creatine kinase, adiponectin, resistin, leptin, tumor necrosis factor alpha (TNF-\u03b1), lipoprotein associated phospholipase A2 (Lp-PLA2)",
+      "label": "met"
+    },
+    {
+      "criterion": "carotid doppler ultrasound",
+      "label": "met"
+    },
+    {
+      "criterion": "cardiac computed tomography",
+      "label": "met"
+    },
+    {
+      "criterion": "exercise stress test",
+      "label": "met"
+    },
+    {
+      "criterion": "ankle-brachial index (ABI)",
+      "label": "met"
+    },
+    {
+      "criterion": "DNA (rs2383206, rs10757274, rs10757278, rs1051931, rs16874954 and rs1799724) and RNA PLA2G7 (2-\u0394CT), TNF-\u03b1 (2-\u0394CT), LEP (2-\u0394CT), LEPR (2-\u0394CT)",
+      "label": "met"
+    },
+    {
+      "criterion": "subclinical atherosclerosis",
+      "label": "met"
+    },
+    {
+      "criterion": "carotid intima media thickness (cIMT) and presence of atherosclerotic plaques in common, internal and external carotid arteries",
+      "label": "met"
+    },
+    {
+      "criterion": "coronary calcium score (CAC) and calcium distribution",
+      "label": "met"
+    },
+    {
+      "criterion": "hepatic density to evaluate the presence of hepatic steatosis",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "uncontrolled hypothyroidism",
+      "label": "triggers"
+    },
+    {
+      "criterion": "use of hypoglycemic medications",
+      "label": "triggers"
+    },
+    {
+      "criterion": "liver failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "chronic kidney disease stage IV or V",
+      "label": "triggers"
+    },
+    {
+      "criterion": "heart failure NYHA stage III or IV",
+      "label": "triggers"
+    },
+    {
+      "criterion": "HIV positive patients",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors. He has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02487615",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

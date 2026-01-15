@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01458860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46-year-old man"
+    },
+    {
+      "criterion": "carotid artery stenosis",
+      "label": "met",
+      "evidence": "severe stenosis in the left internal carotid artery (LICA)"
+    },
+    {
+      "criterion": "CT scan for any indication",
+      "label": "met",
+      "evidence": "had a CT scan"
+    },
+    {
+      "criterion": "carotid artery stenosis indicated for treatment",
+      "label": "met",
+      "evidence": "indicated for treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age <40 years",
+      "label": "not_met",
+      "evidence": "46-year-old man"
+    },
+    {
+      "criterion": "carotid artery stenosis without intention-to-treat",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe carotid artery stenosis and had a CT scan, making them eligible for the trial. However, their age is not less than 40 years, so they are not excluded based on that criterion.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01458860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

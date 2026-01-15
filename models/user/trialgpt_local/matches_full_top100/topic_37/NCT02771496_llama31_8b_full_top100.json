@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02771496",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS)",
+      "label": "met",
+      "evidence": "second MRI"
+    },
+    {
+      "criterion": "Past surgical history significant for C-section",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-confirmed diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has confirmed RRMS diagnosis and past surgical history is significant for C-section. No non-confirmed diagnosis.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT02771496",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

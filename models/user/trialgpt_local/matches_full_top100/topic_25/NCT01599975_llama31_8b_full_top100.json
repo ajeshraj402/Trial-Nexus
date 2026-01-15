@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "met",
+      "evidence": "HIV infected on stable ART regimen for 5 months or greater"
+    },
+    {
+      "criterion": "Cognitive function",
+      "label": "met",
+      "evidence": "International HIV Dementia Scale score <10"
+    },
+    {
+      "criterion": "Depression",
+      "label": "met",
+      "evidence": "Beck Depression Inventory score <16"
+    },
+    {
+      "criterion": "HIV viral load",
+      "label": "met",
+      "evidence": "documented HIV-1 RNA PCR <50 copies/mL"
+    },
+    {
+      "criterion": "CD4 count",
+      "label": "met",
+      "evidence": "documented CD4 count >200 within 3 months of entry visit"
+    },
+    {
+      "criterion": "Pregnancy test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraception",
+      "label": "met",
+      "evidence": "using at least two reliable methods of contraception"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "ability and willingness to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Untreated hypogonadism, hypothyroidism or hyperthyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Initiation of antidepressants, thyroid medication or anabolic steroids within 6 weeks of screening visit",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of coronary artery disease, atherosclerotic disease, left ventricular hypertrophy, cardiomegaly, syncope, congestive heart failure, myocardial infarction, pacemaker, clinically significant arrhythmia, angina, history of treatment for arrhythmia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of epilepsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Untreated depression",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled diabetes (glucose <70 or >200 at screening)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with a history of breast cancer and HIV. She has been on stable ART regimen for over 5 months and has a documented CD4 count >200 within the past 3 months.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

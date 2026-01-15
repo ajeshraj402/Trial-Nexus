@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT04590794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "renal replacement therapy pre-operatively",
+      "label": "met"
+    },
+    {
+      "criterion": "previous transplant",
+      "label": "met"
+    },
+    {
+      "criterion": "allergies, inflammatory or immune system disorders",
+      "label": "unknown"
+    },
+    {
+      "criterion": "connective tissue disease including rheumatoid arthritis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "administration of steroid during the last 3 weeks",
+      "label": "met"
+    },
+    {
+      "criterion": "administration of opioids during the past week",
+      "label": "not_met"
+    },
+    {
+      "criterion": "asthma",
+      "label": "unknown"
+    },
+    {
+      "criterion": "obesity (BMI \u2265 30 kg m-2)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "mental disability or severe psychiatric disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "alcohol or other abuse",
+      "label": "not_met"
+    },
+    {
+      "criterion": "age \u226518 years",
+      "label": "met"
+    },
+    {
+      "criterion": "patients hospitalized primarily for Covid 19",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "enrolment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "sampling and laboratory measurements",
+      "label": "triggers"
+    },
+    {
+      "criterion": "blood samples drawn from all patients",
+      "label": "triggers"
+    },
+    {
+      "criterion": "plasma suPAR levels will be determined using the suPARnostic ELISA assay",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, developed respiratory failure requiring mechanical ventilation and renal failure requiring hemodialysis. He was diagnosed with atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04590794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

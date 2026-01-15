@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT00734682",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with histologically proven intracranial malignant glioma are eligible.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, which is a type of malignant glioma."
+    },
+    {
+      "criterion": "All patients must sign an informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must be > 18 years old, and with a life expectancy > 8 weeks.",
+      "label": "met",
+      "evidence": "Patient is 45 years old."
+    },
+    {
+      "criterion": "Patients must have a Karnofsky performance status of > 60.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have recovered from the toxic effects of prior therapy",
+      "label": "met",
+      "evidence": "Patient has completed radiation and chemotherapy, but it's unclear if they've fully recovered."
+    },
+    {
+      "criterion": "Patients must have adequate bone marrow function (WBC > 3,000/\u00b5l, ANC > 1,500/mm^3, platelet count of > 100,000/mm^3, and hemoglobin > 10 gm/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have shown radiographic evidence for tumor progression by MRI or CT scan.",
+      "label": "met",
+      "evidence": "Patient has a spinal cord conus mass that is progressive."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix), unless in complete remission and off of all therapy for that disease for a minimum of 3 years are ineligible.",
+      "label": "does_not_trigger",
+      "evidence": "Patient has anaplastic astrocytoma, but it's unclear if they've had other cancers."
+    },
+    {
+      "criterion": "Patients must not have active infection or serious intercurrent medical illness.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with 7/7 (homozygous) UGT1A1*28 genotyping will be excluded from the study.",
+      "label": "does_not_trigger",
+      "evidence": "Patient's genetic status is unknown."
+    }
+  ],
+  "notes": "Unclear if patient has fully recovered from prior therapy, and their Karnofsky performance status. Also unclear about their bone marrow function and active infections.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00734682",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03407989",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eGFR <60ml/min or albumine/creatinine ratio >3mg/mmol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Can understand french and has signed the consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18y",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Another cause of nephropathy (excluding hypertensive nephropathy, obese related nephropathy)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a systolic murmur and plaque in the internal carotid arteries.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03407989",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

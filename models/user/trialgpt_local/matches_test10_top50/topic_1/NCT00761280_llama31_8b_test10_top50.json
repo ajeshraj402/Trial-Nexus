@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00761280",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of AA or secondary GBM",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior surgery and radiotherapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chemotherapy regimen",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy test",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of anaplastic astrocytoma and has received prior therapy, which makes them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00761280",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

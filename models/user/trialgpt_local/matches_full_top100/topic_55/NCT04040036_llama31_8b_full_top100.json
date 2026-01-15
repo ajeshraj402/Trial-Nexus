@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT04040036",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "5-12-year-old",
+      "label": "met"
+    },
+    {
+      "criterion": "underwent blood draw",
+      "label": "met"
+    },
+    {
+      "criterion": "no chronic or genetic diseases",
+      "label": "met"
+    },
+    {
+      "criterion": "no visual problem or eyeglasses",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refused to participate",
+      "label": "unknown"
+    },
+    {
+      "criterion": "had chronic or genetic diseases",
+      "label": "triggers"
+    },
+    {
+      "criterion": "had visual problem",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of tremors and Wilson disease, but meets inclusion criteria.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04040036",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

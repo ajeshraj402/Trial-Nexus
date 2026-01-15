@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03352089",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Referred for aortic valve intervention (surgical AVR / TAVI)",
+      "label": "met",
+      "evidence": "cardiologist note"
+    },
+    {
+      "criterion": "High clinical suspicion of amyloid (e.g. low-flow low-gradient AS, inappropriate LVH)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to give informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to MRI scanning (e.g. permanent pacemaker)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is referred for aortic valve intervention, but high clinical suspicion of amyloid is unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03352089",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

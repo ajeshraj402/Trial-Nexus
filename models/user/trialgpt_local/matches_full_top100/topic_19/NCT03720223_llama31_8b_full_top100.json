@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03720223",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "male adults with urethral stricture assessed to be requiring a urethroplasty with BMG",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "harvesting",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "female adult patient with urethral strictures",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prior diagnosis of chronic pain or systemic disease that would interfere with outcome",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "assessment or metabolism of the local anesthetics or narcotics.",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "allergy to liposomal content or bupivacaine or any cross reaction to local anesthetics",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "neurological disease with impaired communication or neurological deficit to pain",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "with poor oral health with lesions",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "urethroplasties with no requirement for BMG graft",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on daily narcotic requirement pre-operatively",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on daily analgesia medication required for other condition",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "consented for other clinical trials which may interfere the outcome assessment",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unwilling for post-operative interview or survey involvement",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope with implantation of cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03720223",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncomplicated surgery and anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diseases of pregnancy: e.g. pregnancy induced hypertension",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is obese and has sleep apnea, PCO, and dissatisfaction with body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

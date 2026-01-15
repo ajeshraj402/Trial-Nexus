@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00587197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "criteria for screening for esophageal varices. Patients who had endoscopic variceal therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduling conflicts (n=142),or fear of radiation (n=24)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous liver transplantation, previous portosystemic shunt procedure, or had a recent history (< 7 days) of upper gastrointestinal bleeding",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal insufficiency defined as a serum creatinine of > 1.7 mg/dL in non-diabetics or >1.5 mg/dL in diabetics",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00587197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03028753",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Undergoing Urogynecologic surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Greater than 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for prolonged catheterization",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prisoner",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He currently has a catheter in place due to a urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03028753",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

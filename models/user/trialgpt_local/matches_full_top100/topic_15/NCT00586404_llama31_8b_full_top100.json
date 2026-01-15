@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00586404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Confirmed BE",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Columnar mucosa in the distal esophagus but no intestinal metaplasia on biopsy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with BE who have undergone endoscopic ablation therapy or enrolled in chemoprevention trials.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has confirmed Barrett's esophagus and meets age criteria, but does not meet exclusion criteria for having undergone endoscopic ablation therapy or being enrolled in a chemoprevention trial.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00586404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

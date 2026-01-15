@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03436550",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic liver disease (including all etiologies of liver disease)",
+      "label": "met",
+      "evidence": "HCV Cirrhosis"
+    },
+    {
+      "criterion": "18 years of age and older",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is able to give informed consent for this study",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver biopsy (percutaneous or transjugular or surgical) performed within 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HVPG measurement as part of their clinical care (within 6 months)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically indicated upper gastrointestinal endoscopy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver transplant or liver resection performed as part of routine clinical care",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medical therapy for portal hypertension or TIPS placement as part of routine clinical care",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Control group",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Healthy volunteers without history of liver disease (will be used for the purpose of image optimization)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age less than 18 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable or unwilling to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contra-indications to MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Electrical implants such as cardiac pacemakers or perfusion pumps",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ferromagnetic implants such as aneurysm clips, surgical clips, prostheses artificial hearts, valves with steel parts, metal fragments, shrapnel, tattoos near the eye, or steel implants",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ferromagnetic objects such as jewelry or metal clips in clothing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant subjects",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-existing medical conditions including a likelihood of developing seizures or claustrophobic reactions",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03436550",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

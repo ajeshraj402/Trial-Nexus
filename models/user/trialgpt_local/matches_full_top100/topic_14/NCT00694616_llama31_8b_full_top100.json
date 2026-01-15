@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00694616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects with moderately severe OSAS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "also having metabolic syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and have never received treatment for OSAS, diabetes mellitus and hypertension",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Proliferative diabetic retinopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Nephropathy (serum creatinine >1.8 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically manifest neuropathy defined as absent ankle jerks.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe hyperglycemia (FBS >200 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptomatic coronary artery disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Symptomatic peripheral vascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Past history of cerebrovascular accident",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known case of aortic aneurysm or left ventricular dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00694616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

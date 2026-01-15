@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00468624",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "severe AGHD",
+      "label": "met",
+      "evidence": "known case of Acromegaly"
+    },
+    {
+      "criterion": "GH response <9 mU/l to insulin-induced hypoglycaemia or glucagon",
+      "label": "met",
+      "evidence": "GH level is 4 ug/L"
+    },
+    {
+      "criterion": "Full, stable pituitary replacement therapy",
+      "label": "met",
+      "evidence": "takes only vitamin D and multivitamins"
+    },
+    {
+      "criterion": "Willing to provide informed consent",
+      "label": "met",
+      "evidence": "After his surgery he takes only vitamin D and multivitamins"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwilling to provide written consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current GH therapy",
+      "label": "not_met",
+      "evidence": "takes only vitamin D and multivitamins"
+    },
+    {
+      "criterion": "Pharmacological doses of glucocorticoids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any acute illness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41-year-old man with Acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00468624",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

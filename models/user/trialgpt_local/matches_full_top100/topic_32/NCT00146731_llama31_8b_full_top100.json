@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00146731",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant woman with P.falciparum parasitaemia at any density",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of fever; headache, vomiting, chills/rigors within 2 days prior to consultation",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy in the first trimester",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe and complicated forms of malaria (as defined by WHO, 1996)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 17 year old boy with symptoms of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite. He has laboratory results showing hemoglobin: 9.7 g/dL, platelet: 110,000 /cu.mm, creatinine: 3.6 mg/dL, BUN: 73 mg/dL, direct bilirubin: 2.4 mg/dL, and lactate dehydrogenase (LDH): 881 IU/L. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00146731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

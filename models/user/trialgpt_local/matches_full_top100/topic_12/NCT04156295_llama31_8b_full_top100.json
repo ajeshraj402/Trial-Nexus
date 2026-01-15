@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04156295",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "symptomatic_mitral_regurgitation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "life_expectancy_post_intervention",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "percutaneous_mitral_valve_intervention_eligibility",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but is not eligible for percutaneous mitral valve intervention.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04156295",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

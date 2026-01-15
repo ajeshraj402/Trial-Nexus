@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02586428",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "high risk pregnant women",
+      "label": "met",
+      "evidence": "seen for genetic counseling"
+    },
+    {
+      "criterion": "healthy woman",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "low risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman who came to the clinic for genetic counseling. She has no underlying disease and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02586428",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

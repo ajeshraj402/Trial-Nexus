@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01325818",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable angina pectoris",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "percutaneous coronary intervention (PCI) with IVUS and OCT guidance",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "coronary plaques \u2267 500 \u00b5m in thickness or % plaque of 20% or more at \u2267 5 mm distal or proximal to the previously treated area",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dyslipidemia (TC \u2267 220 mg/dL or LDL-C \u2267 140 mg/dL)",
+      "label": "met",
+      "evidence": "lab study: Cholesterol: 190 mg/dl, LDL: 125 mg/dl"
+    },
+    {
+      "criterion": "cholesterol-lowering treatment allowed when LDL-C \u2267 100 mg/dL or TC \u2267 180mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LDL-C \u2266 120 mg/dL under cholesterol-lowering treatment",
+      "label": "not_met",
+      "evidence": "lab study: LDL: 125 mg/dl"
+    },
+    {
+      "criterion": "written consent by patient or legal representative",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bypass graft or in-stent restenosis at the site of PCI",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PCI in the past on the lesion where evaluation is planned",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "plaques in a non-culprit site and might receive PCI during treatment period",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lipid-lowering drugs (fibrates, probucol, nicotinic acid, cholestyramine or cholesterol absorption inhibitors)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "familial hypercholesterolemia",
+      "label": "not_met",
+      "evidence": "family history: DM type 1 in uncle and grandfather"
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cyclosporine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy to pravastatin and rosuvastatin",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, cardiomyopathy, and is taking ACE inhibitors and Beta blockers. He also takes insulin and vitamin D supplements.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01325818",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04277156",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age younger than 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "oral or intravenous antibiotic therapy which started within 24 hours of enrolment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-existing acute or chronic diarrhea",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of chronic gastrointestinal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other severe chronic diseases (eg, neoplastic diseases)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "major medical problems (eg. immunocompromised, major developmental or genetic abnormality)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "taking any of the study products (or probiotic strains included in the study products) at the time of study commencement",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of antibiotics within 4 weeks prior to enrolment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prematurity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "exclusive breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday. He has returned from an international trip few days ago and was living in a camp in Sudan for a month.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04277156",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

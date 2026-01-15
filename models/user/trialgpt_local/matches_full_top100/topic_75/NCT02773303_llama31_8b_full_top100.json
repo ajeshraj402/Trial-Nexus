@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02773303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clear diagnosis of Parkinson's disease",
+      "label": "met",
+      "evidence": "recently diagnosed"
+    },
+    {
+      "criterion": "high starting delta wave level",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "iPhone 4s or later",
+      "label": "met",
+      "evidence": "has a smartphone"
+    },
+    {
+      "criterion": "computer running Windows 7 or later",
+      "label": "met",
+      "evidence": "has a computer at home"
+    },
+    {
+      "criterion": "Internet connection",
+      "label": "met",
+      "evidence": "has WiFi at home"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of hearing impairment",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "co-morbidities such as Rett-Syndrome",
+      "label": "not_met",
+      "evidence": null
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and meets the inclusion criteria. He does not have a history of hearing impairment or co-morbidities that would exclude him from the trial.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02773303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

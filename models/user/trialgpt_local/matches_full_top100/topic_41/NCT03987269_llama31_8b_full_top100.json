@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03987269",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Generally healthy",
+      "label": "met",
+      "evidence": "1st year medical students"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gender",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Smoking status",
+      "label": "not_met",
+      "evidence": "doesn't smoke"
+    },
+    {
+      "criterion": "Illicit drug use",
+      "label": "not_met",
+      "evidence": "use any illicit drugs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dementia",
+      "label": "does_not_trigger",
+      "evidence": "alert and cooperative man who doesn't have any signs of dementia"
+    },
+    {
+      "criterion": "Severe psychiatric illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other medical conditions",
+      "label": "met",
+      "evidence": "hypertension and hypercholesterolemia"
+    }
+  ],
+  "notes": "A 57-year old farmer with Parkinson's disease, experiencing slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03987269",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

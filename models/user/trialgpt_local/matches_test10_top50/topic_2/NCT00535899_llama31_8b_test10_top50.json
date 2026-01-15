@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT00535899",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis with ejection fraction less than 40%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "undergo aortic valve replacement",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior cardiac surgery including CABG or other valve replacement",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mitral valve or aortic regurgitation and chronic kidney disease (Cr 1.5)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "emergent aortic valve replacement",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Endocarditis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CAD on LHC > 50%",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with ejection fraction less than 40% and is scheduled for aortic valve replacement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00535899",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

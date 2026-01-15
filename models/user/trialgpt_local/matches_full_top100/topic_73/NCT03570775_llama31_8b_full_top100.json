@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03570775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hyperbilirubinemia requiring phototherapy according to the guidelines of the American Academy of Pediatrics and management recommendations for preterm infants under 35 weeks, adopted by the newborn unit of San Ignacio University Hospital.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Birth weight more than 2000 grams.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parents are required to sign informed consent where they agree to participate in the study.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of pemphigus, scalded skin or burns that make phototherapy difficult.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient who requires transfer for management in another institution by their health insurer.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03570775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03687814",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 60-year-old woman"
+    },
+    {
+      "criterion": "rome_iv_criteria_for_ibs-c",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal_pain_frequency",
+      "label": "not_met",
+      "evidence": "bowel movements eight times in 3 hours"
+    },
+    {
+      "criterion": "defecation_associated_abdominal_pain",
+      "label": "met",
+      "evidence": "associated with defecation"
+    },
+    {
+      "criterion": "stool_frequency_change",
+      "label": "not_met",
+      "evidence": "no change in the frequency of stool"
+    },
+    {
+      "criterion": "stool_form_change",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ibs-c_stool_characteristics",
+      "label": "met",
+      "evidence": ">25% hard stools"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other_ibs_subtypes",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "spontaneous_bowel_movements_frequency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cognitive_dysfunction",
+      "label": "met",
+      "evidence": "the patient is febrile and complained of abdominal pain"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "evaluated by self-report"
+    },
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "extra-intestinal_disease_affecting_gi_system",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_renal_or_hepatic_disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_abdominal_surgery",
+      "label": "met",
+      "evidence": "the patient has had a recent history of a second course of intravenous antibiotics"
+    }
+  ],
+  "notes": "The patient is febrile and complained of abdominal pain and diarrhea. The stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03687814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02360254",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Type of Diabetes",
+      "label": "met",
+      "evidence": "type 1 diabetes for 11 years"
+    },
+    {
+      "criterion": "HbA1c Level",
+      "label": "met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "Informed Consent",
+      "label": "met",
+      "evidence": "patient reports"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Pregnancy or Lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent Acute Diseases or Surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cancer",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes and hyperglycemia. He has been on insulin since diagnosis and has never been prescribed oral agents.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02360254",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

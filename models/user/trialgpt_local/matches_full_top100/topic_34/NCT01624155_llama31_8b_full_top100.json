@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01624155",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age of participants",
+      "label": "met",
+      "evidence": "47-year-old"
+    },
+    {
+      "criterion": "Gender of participants",
+      "label": "met",
+      "evidence": "Female"
+    },
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "Asian woman"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no limitation"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "unknown",
+      "evidence": "does not specify"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "not_met",
+      "evidence": "not mentioned"
+    },
+    {
+      "criterion": "Not sexually active with men",
+      "label": "met",
+      "evidence": "does not specify"
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "unknown",
+      "evidence": "no mention of surgery"
+    },
+    {
+      "criterion": "Removal of both ovaries",
+      "label": "unknown",
+      "evidence": "no mention of surgery"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness, loss of interest in activities, and significant weight loss. She is menopausal but does not have a history of hysterectomy or removal of both ovaries.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01624155",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

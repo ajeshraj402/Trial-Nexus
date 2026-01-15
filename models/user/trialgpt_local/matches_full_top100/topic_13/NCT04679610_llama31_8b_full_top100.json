@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04679610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "consecutive, non-duplicate gram-negative clinical isolates",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical isolates collected from patients with intra-abdominal infections",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical isolates collected from patients with urinary tract infections",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical isolates collected from patients with lower respiratory tract nosocomial infections",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical isolates collected from patients with bloodstream nosocomial infections",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-Enterobacteriaceae isolates after reidentification",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-Enterobacteriaceae isolates after reidentification",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs with Klebsiella/Pseudomonas, and has been treated for urosepsis. The patient's current infection is likely related to their urinary tract issues.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04679610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

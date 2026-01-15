@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00422708",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [],
+  "exclusion": [
+    {
+      "criterion": "Patients taking narcotics on a routine basis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients on Coumadin therapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with ano-rectal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with history of prostatitis, pelvic pain, pelvic floor tension myalgia, or other pain syndromes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with active prostate abscess or urinary tract infection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with allergy to local anesthetic",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00422708",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

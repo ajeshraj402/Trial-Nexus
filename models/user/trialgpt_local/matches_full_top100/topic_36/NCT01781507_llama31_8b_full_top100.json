@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01781507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 to 65 years of age",
+      "label": "met",
+      "evidence": "patient's height and weight"
+    },
+    {
+      "criterion": "Physician diagnosis of mild asthma based on the NIH guidelines",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of abnormal, reversible airway function on impulse oscillometry",
+      "label": "met",
+      "evidence": "patient's lung function testing"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with inhaled or oral corticosteroids within one month of screening visit",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known history of reflux, lung disease, or congenital heart disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with sleep apnea and PCO. She has a BMI of 41.54.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01781507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

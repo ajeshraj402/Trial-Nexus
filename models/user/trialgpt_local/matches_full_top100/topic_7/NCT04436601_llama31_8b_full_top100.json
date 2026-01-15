@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04436601",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 yo"
+    },
+    {
+      "criterion": "chronic liver disease",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "hepatic encephalopathy",
+      "label": "met",
+      "evidence": "presumptive diagnosis of hepatic encephalopathy"
+    },
+    {
+      "criterion": "next of kin consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age range",
+      "label": "met",
+      "evidence": "60 yo"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy to PEG",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bowel obstruction or perforation",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "major psychiatric illness",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "treated with locally acting antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active gastrointestinal tract bleeding",
+      "label": "met",
+      "evidence": "UGIB [**2-9**] non-steroidal induced gastritis"
+    },
+    {
+      "criterion": "acute liver failure",
+      "label": "not_met",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient has chronic liver disease, hepatic encephalopathy, and recent UGIB. No contraindications mentioned.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04436601",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

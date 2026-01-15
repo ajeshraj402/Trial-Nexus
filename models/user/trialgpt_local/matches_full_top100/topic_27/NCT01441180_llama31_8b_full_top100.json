@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT01441180",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Over 18 years of age at screening",
+      "label": "met"
+    },
+    {
+      "criterion": "Non-childbearing potential (i.e., physiologically incapable of becoming pregnant)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Has had a hysterectomy or Has had a bilateral oophorectomy (ovariectomy) or Is post-menopausal",
+      "label": "met"
+    },
+    {
+      "criterion": "Childbearing potential, has a negative serum pregnancy test at Screening, and agrees to acceptable birth control",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Chronic Genotype 1 infection as documented by at least one measurement of serum HCV RNA greater than or equal to 2,000 IU/mL during screening",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Positive test at Screening for HBsAg, anti-HBc IgM Ab, or anti-HIV Ab.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of any other clinically significant chronic liver disease",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01441180",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03414554",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-related liver cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age and sex matched group of patients with HCV- related liver cirrhosis who didn't develop HCC after DAAs therapy within one year follow up",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who refuse to participate in the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with hepatitis B virus, any other causes of cirrhosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on treatment. No evidence of alcoholic liver disease or other causes of cirrhosis.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03414554",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02700594",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Referred to out-patient physical therapy for evaluation/treatment of a knee condition",
+      "label": "met",
+      "evidence": "Patient is referred to out-patient physical therapy"
+    },
+    {
+      "criterion": "Agreed to be in the study and signed the informed consent document",
+      "label": "met",
+      "evidence": "Patient agreed to be in the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of any medical 'red flags' suggestive of pain that is not of musculoskeletal origin",
+      "label": "not_met",
+      "evidence": "No mention of non-musculoskeletal pain"
+    },
+    {
+      "criterion": "Osteoporosis or recent fracture of the hip or spinal joints",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Spinal or hip joint surgery or prosthesis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Spinal instability (Grade II spondylolisthesis or greater), spondyloarthritides, or severe spinal misalignment",
+      "label": "not_met",
+      "evidence": "No mention of spinal instability"
+    },
+    {
+      "criterion": "Nervous system disease or disorder",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma and radiation treatment"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old man with a history of anaplastic astrocytoma, complicated by severe lower extremity weakness and urinary retention. Patient has undergone radiation and chemotherapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02700594",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

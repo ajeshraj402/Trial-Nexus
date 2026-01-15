@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02377947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients aged between 18 and 65 years of either gender.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients admitted to the hospital with liver cirrhosis and grade 3 or grade 4 (West Haven Criteria) HE",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients treated with lactulose retention enema within 48 hours of onset of grade 3 or 4 (West Haven Criteria) HE",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients treated with agents other than lactulose retention enema for grade 3 or 4 (West Haven Criteria) HE.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who had significant concomitant diseases that could impair or contribute to the impairment of consciousness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who had a major neuropsychiatric illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who had a contraindication to lactulose, including Hypersensitivity to the active substance or to any of the ingredients; Galactosaemia; Gastrointestinal obstruction, digestive perforation or risk of digestive perforation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has liver cirrhosis and was treated with lactulose retention enema. No other treatments mentioned.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02377947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

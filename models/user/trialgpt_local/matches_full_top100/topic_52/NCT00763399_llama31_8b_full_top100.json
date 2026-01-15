@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00763399",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diarrhea",
+      "label": "met",
+      "evidence": "profuse watery diarrhea without odor"
+    },
+    {
+      "criterion": "constipation",
+      "label": "not_met",
+      "evidence": "loose bowel movements"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Shock",
+      "label": "does_not_trigger",
+      "evidence": "blood pressure is 95/62 lying down"
+    },
+    {
+      "criterion": "Sepsis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Past history with GI tract surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Immunodeficiency",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "34 year old man with dizziness, severe diarrhea and abdominal pain since yesterday. V. cholerae seen in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00763399",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

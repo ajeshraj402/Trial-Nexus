@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00724217",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "41.54"
+    },
+    {
+      "criterion": "total cholesterol levels",
+      "label": "met",
+      "evidence": "180 mg/dl"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "FBS: 98 mg/dl"
+    },
+    {
+      "criterion": "heart disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "no prior pregnancies"
+    },
+    {
+      "criterion": "blood lipid modifying medications and/or supplements drugs and/or hypertension",
+      "label": "not_met",
+      "evidence": "doesn't use any drugs"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns, sleep apnea, PCO, and dissatisfaction with her body shape. She has normal cardiac assessment and joints/ROM.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00724217",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

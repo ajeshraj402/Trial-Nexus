@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04270357",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "visceral an general surgeons",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "practicing in Algeria",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgeon under training",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Algerian surgeon practicing abroad",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, with a history of treatment response.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04270357",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

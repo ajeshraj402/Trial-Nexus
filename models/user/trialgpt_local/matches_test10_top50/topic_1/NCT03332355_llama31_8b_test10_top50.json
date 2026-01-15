@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03332355",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female \u2265 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of advanced solid tumor or hematologic malignancy (limited to lymphoma) that has failed or become intolerant to standard therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has measurable disease, defined as at least 1 tumor that fulfills the criteria for a target lesion according to RECIST 1.1",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of high grade glioma: glioblastoma multiforme (GBM) or anaplastic astrocytoma after progression following treatment with standard first line therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has measurable disease, defined as at least 1 tumor that fulfills the criteria for a target lesion according to RECIST 1.1 (Component 1)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03332355",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

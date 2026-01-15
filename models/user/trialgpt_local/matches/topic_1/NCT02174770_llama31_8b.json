@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT02174770",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Fluent in English and able to consent",
+      "label": "met",
+      "evidence": "Patient text does not mention any language barriers or inability to consent."
+    },
+    {
+      "criterion": "One of the following: (1) s/p ACL reconstruction within the last three months prior to initiation of study training, (2) s/p knee arthroscopy within the last 2 weeks prior to initiation of study training, (3) S/p lower extremity trauma, unilateral with thigh weakness of at least a 20% deficit compared to contralateral side and at least 6 months out from most recent trauma or surgery",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not ACL reconstruction, knee arthroscopy, or lower extremity trauma."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contralateral lower extremity involvement resulting in less than normal range of motion, muscle strength, or daily pain greater than 5/10.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention contralateral lower extremity involvement."
+    },
+    {
+      "criterion": "Pregnancy, verbal reporting",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man, so pregnancy is unlikely."
+    },
+    {
+      "criterion": "Recent history of deep vein thrombosis, within the 12 months or on active treatment",
+      "label": "unknown",
+      "evidence": "Patient text does not mention deep vein thrombosis."
+    },
+    {
+      "criterion": "History of endothelial dysfunction, peripheral vascular disease, hypertension, diabetes, or people prone to capillary ruptures (bruising) (determined by verbal reporting by the patient)",
+      "label": "unknown",
+      "evidence": "Patient text mentions hypertension, but does not provide enough information to determine if it is a current issue."
+    },
+    {
+      "criterion": "Active Infection",
+      "label": "unknown",
+      "evidence": "Patient text does not mention any active infections."
+    },
+    {
+      "criterion": "Cancer (current diagnosis)",
+      "label": "triggers",
+      "evidence": "Patient has anaplastic astrocytoma, which is a current cancer diagnosis."
+    }
+  ],
+  "notes": "Patient's cancer diagnosis likely makes them ineligible for the trial. However, more information about their current health status and medical history would be needed to confirm this assessment.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02174770",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

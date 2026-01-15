@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "english proficiency",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "hiv status",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "met",
+      "evidence": "physical exam and lab studies were normal otherwise"
+    }
+  ],
+  "notes": "Patient has a history of smoking and drinking, but no underlying disease such as DM. He is in relation with several partners and uses condom during intercourse.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

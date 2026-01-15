@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02355938",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ability of subject to provide an informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Legally Authorized Representative-Adult must provide consent in case the subject is unable to consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of Clostridium difficile disease based on clinical manifestations (change in bowel habits, at least 2 more unformed bowel movements as compared to baseline neurogenic bowel function in the same patient in the 24-hour period prior to randomization)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lab data (positive polymerase chain reaction test for Clostridium difficile in a stool specimen obtained within 72 hours before randomization)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has not received antibiotics that are active against Clostridium difficile for any more than 24 hours prior to being screened for this study.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receipt of agents (oral Vancomycin, oral or IV Metronidazole, oral rifamdin, oral bacitracin, or oral fusidic acid) that are active against Clostridium difficile for longer than 24 hours after randomization",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life-threatening or fulminant Clostridium difficile infection, presence of toxic megacolon, and history of inflammatory bowel disease (Crohn's disease and ulcerative colitis)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allergy to study medications.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin-positive stool samples. She has not received antibiotics active against Clostridium difficile in the past 24 hours.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02355938",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

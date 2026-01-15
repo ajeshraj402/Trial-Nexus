@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02181348",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "lab results",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medication",
+      "label": "met",
+      "evidence": "no medications"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "non-pregnant"
+    },
+    {
+      "criterion": "smoking",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol consumption",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02181348",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

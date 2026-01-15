@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01091844",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women undergoing surgical correction of pelvic organ prolapse or urinary incontinence",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwillingness to participate in the investigation.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to give informed consent.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known preoperative voiding dysfunction",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Plan for suprapubic catheter placement at time of surgery.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Has severe bulbar urethral stricture requiring surgical correction.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01091844",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

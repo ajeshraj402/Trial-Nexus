@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04794881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months"
+    },
+    {
+      "criterion": "ipss_score",
+      "label": "met",
+      "evidence": "IPSS score : 15"
+    },
+    {
+      "criterion": "post_void_residual",
+      "label": "met",
+      "evidence": "Post-void residual: 70 mL"
+    },
+    {
+      "criterion": "prostate_volume",
+      "label": "met",
+      "evidence": "Prostate volume (TRUS): 60 mL"
+    },
+    {
+      "criterion": "psa_level",
+      "label": "met",
+      "evidence": "Prostate-specific antigen (PSA) level: 3.2 ng/mL"
+    },
+    {
+      "criterion": "max_flow_rate",
+      "label": "met",
+      "evidence": "10 mL/sec of maximum flow rate when urine volume was 130 mL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "csf_pct",
+      "label": "unknown",
+      "evidence": "0.33ng/ml, CSF PCT has a sensitivity of 92%, a specificity of 87%, a positive predictive value (PPV) of 85.2%, and a negative predictive value (NPV) of 93%"
+    },
+    {
+      "criterion": "clinically_unstable",
+      "label": "unknown",
+      "evidence": "Clinically too unstable to undergo the 2nd LP"
+    }
+  ],
+  "notes": "The patient is otherwise healthy only using Vit D 1000 units daily. His recent blood chemistry (3 days ago) was normal.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT04794881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

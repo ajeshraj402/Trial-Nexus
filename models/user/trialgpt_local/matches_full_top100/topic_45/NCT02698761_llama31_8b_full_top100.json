@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02698761",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children between 12 and 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admitted to the hospital for an acute vaso-occlusive crisis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Requires a demand PCA",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to tolerate oral pain medications",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Requires a continuous PCA",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwilling to be compliant with the assigned arm of study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has had positive history of sickle cell crises since childhood and is currently experiencing severe bone pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02698761",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

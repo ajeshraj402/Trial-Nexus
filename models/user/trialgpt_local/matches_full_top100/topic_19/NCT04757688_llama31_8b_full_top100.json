@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04757688",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "sustained monomorphic VT by ECG or ICD interrogation",
+      "label": "met",
+      "evidence": "40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms"
+    },
+    {
+      "criterion": "VT burden: 4 or more documented VT episodes in the 5 months preceding enrollment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "electrocardiographically documented symptomatic, recurrent, sustained monomorphic VT in the 3 months prior to enrollment",
+      "label": "met",
+      "evidence": "the patient went into monomorphic VT on telemetry"
+    },
+    {
+      "criterion": "ICD",
+      "label": "met",
+      "evidence": "implantation of a cardiac monitoring device"
+    },
+    {
+      "criterion": "ischemic or non-ischemic cardiomyopathy previously diagnosed with LVEF \u2264 35%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "antiarrhythmic medication without control of symptoms or with poor toleration",
+      "label": "met",
+      "evidence": "the patient does not report any symptoms prior to this episode"
+    },
+    {
+      "criterion": "catheter-ablation procedure or contraindication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to understand and willingness to sign an IRB approved informed consent document",
+      "label": "met",
+      "evidence": "the patient feels presyncope and nausea, but denies chest pain"
+    },
+    {
+      "criterion": "EP cardiologist confirmation of study entrance criteria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "treating physician exclusion",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior radiotherapy to the internal organs of the thorax or upper abdomen",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple scars on electrocardiographic imaging with unclear reentrant focus",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "congestive heart failure on inotropes (NYHA class 4B) or left-ventricular assist device",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unlikely to live 12 months in the absence of VT",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04757688",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

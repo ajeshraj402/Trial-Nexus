@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03047161",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncomplicated pregnancies",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "earlier than 12 weeks pregnant or younger than age 18",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "high-risk subjects cannot participate if their physician does not grant permission for them to participate in the study",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03047161",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

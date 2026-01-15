@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03602612",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17 years old"
+    },
+    {
+      "criterion": "Multiple Myeloma diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active systemic infections",
+      "label": "not_met",
+      "evidence": "no fever, no anti-microbial treatment"
+    },
+    {
+      "criterion": "Systemic corticosteroid steroid therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multiple myeloma diagnosis but is on aspirin which may be an exclusion criterion. Patient does not have active systemic infections or systemic corticosteroid steroid therapy.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03602612",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

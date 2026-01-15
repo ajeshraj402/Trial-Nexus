@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00088335",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "44 year old"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "able to give informed consent"
+    },
+    {
+      "criterion": "guardian",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "procedure_consent",
+      "label": "met",
+      "evidence": "sign a consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lupus",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serious_heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "kidney_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "thyroid_dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "bleeding_diathesis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "abnormal_platelets",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "elevated_intracranial_pressure",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of hypertension and hypercholesterolemia, which are allowed. No other chronic medical illnesses mentioned.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00088335",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

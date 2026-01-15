@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00467285",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "men and women"
+    },
+    {
+      "criterion": "Ethnicity",
+      "label": "met",
+      "evidence": "all ethnic groups"
+    },
+    {
+      "criterion": "Diabetes",
+      "label": "met",
+      "evidence": "140 subjects with diabetes"
+    },
+    {
+      "criterion": "Pioglitazone",
+      "label": "not_met",
+      "evidence": "no pioglitazone treatment"
+    },
+    {
+      "criterion": "Control Subjects",
+      "label": "met",
+      "evidence": "140 control subjects"
+    },
+    {
+      "criterion": "Vitamin D and Calcium Intake",
+      "label": "met",
+      "evidence": "given vitamin D and calcium supplements"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Informed Consent",
+      "label": "not_met",
+      "evidence": "able to give informed consent"
+    },
+    {
+      "criterion": "Immobilization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Disordered Bone Metabolism",
+      "label": "not_met",
+      "evidence": "no known diseases associated with disordered bone metabolism"
+    },
+    {
+      "criterion": "Glomerular Filtration Rate (GFR)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medications Altering Bone Metabolism",
+      "label": "not_met",
+      "evidence": "no glucocorticoids or gonadal hormones"
+    },
+    {
+      "criterion": "Chronic Pancreatitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Perimenopause or Menopause",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00467285",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

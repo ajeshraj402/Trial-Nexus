@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01908127",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children aged 4-6 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "caries lesion in one of the primary mandibular molars needs to pulpotomy and restoration treatment.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "children with systemic diseases and developmental disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous experience of hospitalization",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of tremors since a year ago, which is likely related to Wilson disease. He has been confirmed with high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01908127",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02796846",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All adult surgical patients (>18 yr) with a diagnosis of OSA with or without a CPAP prescription.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scheduled for a non-cardiac surgery (general surgery, orthopedics, urology, plastic surgery and spine) that is expected to require a postoperative hospital stay of more than one night.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "They are unwilling or unable to give informed consent to the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "They are on supplemental oxygen preoperatively (daytime or nocturnal).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "They are pregnant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Surgery included tonsillectomy, septoplasty, uvuloplasty, pharyngoplasty, tracheostomy, or prolonged (> 48 hrs) postoperative mechanical ventilation of the lungs is anticipated.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has OSA and is scheduled for non-cardiac surgery with a postoperative hospital stay of more than one night. They are not on supplemental oxygen preoperatively.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02796846",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

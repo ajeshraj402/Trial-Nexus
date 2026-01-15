@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04676646",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults aged \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Potassium and estimated glomerular filtration rate (eGFR)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "constrictive pericarditis, hypertrophic (obstructive) cardiomyopathy, or severe stenotic valve disease as a primary cause of HF",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current inpatient hospitalisation due to HF",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She has an uncomplicated pregnancy and birth history, and her family history is unremarkable.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04676646",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

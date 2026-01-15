@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00781417",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CKD stage II/III",
+      "label": "met",
+      "evidence": "laboratory study"
+    },
+    {
+      "criterion": "25-hydroxyvitamin D level >10 ng/ml",
+      "label": "met",
+      "evidence": "laboratory study"
+    },
+    {
+      "criterion": "Age: 34 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Sites: Atlanta VA Medical Center",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior other diseases: History of liver failure (AST or ALT >3 ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infection: not applicable",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CKD stage II/III and 25-hydroxyvitamin D level >10 ng/ml, but <30 ng/ml. She is married with 3 children and her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00781417",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

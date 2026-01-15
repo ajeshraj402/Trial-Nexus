@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02538276",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid stenosis > 70%",
+      "label": "met",
+      "evidence": "angiography"
+    },
+    {
+      "criterion": "carotid endarterectomy or carotid artery stenting planned",
+      "label": "met",
+      "evidence": "clinical note"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant cardiac surgery needed",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has significant carotid stenosis and is a candidate for carotid endarterectomy or stenting. No contraindications noted.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02538276",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

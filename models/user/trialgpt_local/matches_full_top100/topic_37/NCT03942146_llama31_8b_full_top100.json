@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03942146",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Planned gynecological surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current smokers",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to fill in a web-version of a questionnaire in Swedish",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-smokers",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Surgery was not performed",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No response to follow-up questionnaire",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has RRMS and is under treatment. She smokes 10 cigarettes per day.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT03942146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

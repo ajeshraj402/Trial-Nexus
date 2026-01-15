@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04005222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ocular ischemic syndrome (OIS)",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "stenosis of the ipsilateral internal carotid artery (ICA) >50%",
+      "label": "met",
+      "evidence": "80% stenosis of the R ICA and a 90% L ICA stenosis"
+    },
+    {
+      "criterion": "abnormal ocular symptoms and/or signs that could not be explained by other ocular diseases",
+      "label": "met",
+      "evidence": "carotid bruits, + Occasional dizziness, no prior syncope occasional HA"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary glaucoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "uveitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age-related macular degeneration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symmetrical proliferative diabetic retinopathy",
+      "label": "unknown",
+      "evidence": "Diabetes c/b retinopathy"
+    },
+    {
+      "criterion": "choroidal detachment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "retinal detachment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hereditary eye diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ocular tumor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ocular trauma",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has carotid bruits, significant bilateral carotid stenosis, and abnormal ocular symptoms. No other ocular diseases mentioned.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04005222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

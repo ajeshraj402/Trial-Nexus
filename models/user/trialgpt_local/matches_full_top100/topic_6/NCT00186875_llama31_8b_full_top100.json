@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00186875",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Childhood ALL in first relapse OR in first hematological relapse after an extramedullary relapse, OR not attaining a complete remission with frontline therapies, OR lymphoblastic leukemia in first relapse.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must be 21 years of age or younger",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent explained to and signed by parent/legal guardian.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy less than 8 weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with mature B cell ALL",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and was recently treated for an extended course of 6 weeks. She also had leukocytosis consistent with C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00186875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

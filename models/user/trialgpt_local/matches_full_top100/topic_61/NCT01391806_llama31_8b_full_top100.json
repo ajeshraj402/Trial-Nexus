@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01391806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old"
+    },
+    {
+      "criterion": "breast-conserving surgery indication",
+      "label": "met",
+      "evidence": "criteria recommended by the Norwegian Breast Cancer Group"
+    },
+    {
+      "criterion": "tumor size",
+      "label": "met",
+      "evidence": "3 cm invasive ductal breast carcinoma"
+    },
+    {
+      "criterion": "tumor:breast ratio",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skin or pectoral fascia infiltration",
+      "label": "not_met",
+      "evidence": "no infiltration mentioned"
+    },
+    {
+      "criterion": "multifocality",
+      "label": "not_met",
+      "evidence": "single tumor focus mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mastectomy choice",
+      "label": "triggers",
+      "evidence": "patient is a candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "MR machine technical problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pacemaker",
+      "label": "not_met",
+      "evidence": "no pacemaker mentioned"
+    },
+    {
+      "criterion": "anxiety/claustrophobia",
+      "label": "not_met",
+      "evidence": "no anxiety or claustrophobia mentioned"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01391806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

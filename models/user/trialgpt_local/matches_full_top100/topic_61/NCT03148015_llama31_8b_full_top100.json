@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03148015",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female",
+      "label": "met",
+      "evidence": "patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "age >= 18",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old..."
+    },
+    {
+      "criterion": "signed informed consent form",
+      "label": "met",
+      "evidence": "Patients or their legally authorized representative must have signed and dated an informed consent form"
+    },
+    {
+      "criterion": "adequate samples of breast tissue available",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ductal carcinoma in situ or ductal carcinoma in situ with microinvasion",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma..."
+    },
+    {
+      "criterion": "atypical ductal hyperplasia, lobular cancer in situ or any preinvasive breast lesion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ductal carcinoma in situ undergoing lumpectomy and radiation or mastectomy",
+      "label": "met",
+      "evidence": "Patients with ductal carcinoma in situ undergoing either lumpectomy and radiation or mastectomy."
+    },
+    {
+      "criterion": "invasive ductal cancer",
+      "label": "met",
+      "evidence": "The tumor is  HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "male",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "age < 18 or age > 89",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient desires not to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03148015",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

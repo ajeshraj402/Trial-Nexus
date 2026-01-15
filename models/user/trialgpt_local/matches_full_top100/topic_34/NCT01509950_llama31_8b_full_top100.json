@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01509950",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women undergoing primary or repeat cesarean section",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "maternal age greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age greater than or equal to 34 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective and non-elective cesarean section",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 or Type 2 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI greater than 35",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01509950",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

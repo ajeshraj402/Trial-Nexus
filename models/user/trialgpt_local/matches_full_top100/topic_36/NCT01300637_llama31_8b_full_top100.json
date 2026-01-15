@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01300637",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI \u2267 24",
+      "label": "met",
+      "evidence": "41.54"
+    },
+    {
+      "criterion": "abdominal obesity (waist circumference > 90 cm, in men and > 80 cm, in women)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "fasting hypertriglyceridemia, (\u2265 150 mg/dL)",
+      "label": "met",
+      "evidence": "150"
+    },
+    {
+      "criterion": "low fasting HDL levels (< 40 mg/dL in men and < 50 mg/dL in women)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "high blood pressure (\u2265 130/ \u2265 85 mm Hg or current treatment with antihypertensive medication)",
+      "label": "met",
+      "evidence": "130/80"
+    },
+    {
+      "criterion": "18-65 year of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "receiving clozapine for at least 6 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypolipidemic agents",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "FPG levels \u2265 126 mg/dL",
+      "label": "not_met",
+      "evidence": "98"
+    },
+    {
+      "criterion": "women who are pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known allergy or contraindicated to metformin (including Creatine>1.4 ng/dl; abnormal liver function test; chronic cardiopulmonary insufficiency)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01300637",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00751270",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "presumed malignant glioma",
+      "label": "met",
+      "evidence": "clinical and radiologic evaluation"
+    },
+    {
+      "criterion": "tumor accessible for injection",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tumor not located in brainstem, midbrain, or ventricular system",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "planning to undergo standard radiation therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "performance status KPS > or equal to 70",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "SGOT (AST) < 3x upper limit of normal",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "serum creatinine < 2mg/dl and calculated creatinine clearance >10ml/min",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "platelets > 100,000/mm3 and WBC > 3000/mm3",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient of reproductive age agrees to use birth control",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "study specific informed consent given",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to tolerate MRI scan procedure",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior or ongoing liver disease",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known HIV+ patients",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant or breast feeding patients",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. However, they have prior radiation therapy to the brain which makes them ineligible for this study.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00751270",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

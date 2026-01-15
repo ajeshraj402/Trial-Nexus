@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02972476",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "Male"
+    },
+    {
+      "criterion": "COPD diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "FEV1/FVC ratio",
+      "label": "not_met",
+      "evidence": "63% of predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asthma",
+      "label": "triggers",
+      "evidence": "history of asthma for 3 years"
+    },
+    {
+      "criterion": "Bronchiectasis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Antibiotics",
+      "label": "met",
+      "evidence": "no antibiotics in the past 28 days"
+    },
+    {
+      "criterion": "Corticosteroids",
+      "label": "not_met",
+      "evidence": "ICS and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    },
+    {
+      "criterion": "Immunosuppression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Glomerular filtration rate (eGFR)",
+      "label": "met",
+      "evidence": "no eGFR result provided"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently using corticosteroids, which may trigger exclusion criteria. However, the overall assessment is likely ineligible due to the presence of asthma.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02972476",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

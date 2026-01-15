@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02689609",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previously untreated non-metastatic NPC",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "radical intensity-modulated radiation therapy with or without adjunct chemotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating at the time of written consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant cardiovascular, cerebrovascular and psychiatric illness as judged serious by investigators",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD but is not currently experiencing any significant cardiovascular issues. She does have an abdominal mass and recent diverticulitis, but these do not appear to be exclusionary criteria.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02689609",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

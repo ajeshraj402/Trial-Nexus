@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01270958",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "self-administer intranasal treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "110 mcg once daily for 6 week",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "outpatients",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known hypersensitivity to corticosteroids",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recent exposure to an investigational study drug",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma and uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg. He is currently using ICS, which may be relevant to the study.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01270958",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

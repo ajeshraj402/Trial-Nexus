@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04556916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men over 40 being suspicious of prostate cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject with PSA \u2265 4 and designated for biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects must be able to attend all scheduled visits and to comply with all trial procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mpMRI done before prostate biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject must be covered by public health insurance",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject with histologically confirmed prostate cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject with a verified viral infection (HIV or Hepatitis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject under Finasteride treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04556916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03921827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >21 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent stroke/TIA and severe stenosis of intracranial ICA or MCA",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Impaired CVR within previous three months but not before 3 weeks after acute stroke",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Atrial fibrillation/ arrhythmias",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Decompensated heart failure, usually class 3 or 4",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LV EF <30%",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG and PVD, but no recent stroke/TIA. He also has impaired CVR within the previous three months.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03921827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

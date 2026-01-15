@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT03819790",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and female adults with clinical diagnosis of T2DM diagnosed at least 1 year before screening",
+      "label": "met",
+      "evidence": "patient report"
+    },
+    {
+      "criterion": "Age between 18 and 80 years (inclusive)",
+      "label": "met",
+      "evidence": "patient age"
+    },
+    {
+      "criterion": "Body mass index (BMI) between 20-40 kg/m2 (inclusive)",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "South Asian origin including Afghanistani, Bangladeshi, Indian, Nepali, Pakistani and Sri Lankan",
+      "label": "met",
+      "evidence": "patient report of South Asian ancestry"
+    },
+    {
+      "criterion": "A1C in range of 7.1-11% (inclusive)",
+      "label": "met",
+      "evidence": "lab result: A1c: 11.3%"
+    },
+    {
+      "criterion": "Fasting glucose on self-monitoring of blood glucose (SMBG) or laboratory testing < 15 mmol/L within the last 30 days",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Insulin na\u00efve, uncontrolled on oral hypoglycemic medications",
+      "label": "met",
+      "evidence": "patient report of insulin use for only short-term emergency situations"
+    },
+    {
+      "criterion": "Kidney function assessment with eGFR >30 mL/min/1.73 m2",
+      "label": "met",
+      "evidence": "lab result: Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "Written informed consent obtained",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of insulin use (except emergency short-term use defined as less than 12 weeks for acute illness, hospitalization, pregnancy or with steroid use)",
+      "label": "not_met",
+      "evidence": "patient report of long-term insulin use"
+    },
+    {
+      "criterion": "Use of GLP-1 receptor agonist in the past 3 months",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Previous discontinuation of a GLP-1 receptor agonist due to safety, tolerability or lack of efficacy",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Pregnant or anticipating pregnancy",
+      "label": "not_met",
+      "evidence": "patient report of not being pregnant"
+    },
+    {
+      "criterion": "Current use of steroid",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Currently on any supervised, intensive, weight-loss dietary or exercise program",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "History of gastroparesis with moderate or higher severity",
+      "label": "not_met",
+      "evidence": "lab result: Aspartate aminotransferase (AST): 17 U/L, Alanine aminotransferase (ALT): 14 U/L"
+    },
+    {
+      "criterion": "History of pancreatitis",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis and is currently experiencing hyperglycemia. He reports being homeless and having lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03819790",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03292380",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22-year-old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "read and speak English"
+    },
+    {
+      "criterion": "caffeine_consumption",
+      "label": "met",
+      "evidence": "consumed at least some caffeine in a typical day"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoking_history",
+      "label": "not_met",
+      "evidence": "no mention of smoking"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "oral_contraceptives",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Wilson disease, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03292380",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

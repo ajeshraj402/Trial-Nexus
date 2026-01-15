@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03093194",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective or emergent CS",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no fever or skin infection signs in the 5 days prior to surgery",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known allergy to antiseptic soap, chlorohexidine-alcohol or shellfish",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "shellfish, or patient who had any infection in the perioperative period",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has no specific past medical issues and only uses prenatal vitamins. She is a social alcohol consumer with negative history of smoking or drug use.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03093194",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

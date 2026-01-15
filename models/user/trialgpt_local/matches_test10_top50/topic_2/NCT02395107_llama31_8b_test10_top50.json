@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT02395107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asymptomatic severe aortic stenosis",
+      "label": "met",
+      "evidence": "repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve"
+    },
+    {
+      "criterion": "Asymptomatic severe aortic stenosis",
+      "label": "met",
+      "evidence": "Vmax > 3.5 m/sec and aortic valve area < 1 cm2"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Moderate LV systolic dysfunction",
+      "label": "not_met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Concomitant moderate-severe aortic valve regurgitation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Concomitant moderate-severe mitral valve regurgitation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Moderate to severe nephropathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic or persistent atrial fibrillation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Implanted pacemaker or cardio defibrillator",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02395107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

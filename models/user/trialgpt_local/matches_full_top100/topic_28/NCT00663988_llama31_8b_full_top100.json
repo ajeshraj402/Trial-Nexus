@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart",
+      "label": "met",
+      "evidence": "The patient is acutely ill but oriented and conscious."
+    },
+    {
+      "criterion": "normal function of liver",
+      "label": "met",
+      "evidence": "The patient is acutely ill but oriented and conscious."
+    },
+    {
+      "criterion": "normal function of kidney",
+      "label": "met",
+      "evidence": "The patient is acutely ill but oriented and conscious."
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "met",
+      "evidence": "The patient's family history is positive for HTN in his brother."
+    },
+    {
+      "criterion": "at least 3 sites were matched within 6 HLA sites",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart",
+      "label": "not_met",
+      "evidence": "The patient is acutely ill but oriented and conscious."
+    },
+    {
+      "criterion": "donor: not the same blood type",
+      "label": "met",
+      "evidence": "The patient's family history is positive for HTN in his brother."
+    },
+    {
+      "criterion": "1 or 2 sites were matched within 6 HLA sites",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 60-year-old Spanish man presenting with shortness of breath. He has a history of COPD and is using Duo-Neb inhaled q4 hr PRN.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

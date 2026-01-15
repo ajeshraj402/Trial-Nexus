@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "microcalcifications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "soft tissue lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no prior pregnancies"
+    },
+    {
+      "criterion": "bilateral mastectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "frailty",
+      "label": "met",
+      "evidence": "able to cooperate"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "can give informed consent"
+    },
+    {
+      "criterion": "breast implants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "physical limitations",
+      "label": "not_met",
+      "evidence": "no conditions prohibiting lying face down"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "male subjects",
+      "label": "triggers",
+      "evidence": "patient is a woman"
+    },
+    {
+      "criterion": "women with implants",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is an obese woman with sleep apnea and PCO, but she can give informed consent and does not have physical limitations.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

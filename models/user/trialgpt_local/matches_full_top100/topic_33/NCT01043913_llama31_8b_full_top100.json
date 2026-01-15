@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01043913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of Breast Cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing Chemotherapy (First Cycle)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypothyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical Depression",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Chemotherapy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but has prior tonsillectomy and irregular menstrual cycle.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01043913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

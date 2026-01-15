@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00715273",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Clinically established coronary artery disease or carotid artery disease with greater than 15% stenosis by ultrasound",
+      "label": "met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "Family history of cardiovascular disease",
+      "label": "met",
+      "evidence": "patient's family history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uses pacemaker or has metallic implants",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of alcohol or drug abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient's LDL-C level is high, but he has no other cardiovascular risk factors. He also has a family history of CAD.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00715273",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04308265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinically and radiologically diagnosed with acute cholecystitis",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones and biliary sludge"
+    },
+    {
+      "criterion": "be over 18 years old",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "being under the age of 18",
+      "label": "not_met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "getting pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute pancreatitis, cholangitis or choledochal stone with acute cholecystitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "having a previous history of upper abdominal surgery",
+      "label": "not_met",
+      "evidence": "no mention of previous upper abdominal surgery"
+    }
+  ],
+  "notes": "45-year-old woman with clinically and radiologically diagnosed acute cholecystitis, no contraindications for elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04308265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

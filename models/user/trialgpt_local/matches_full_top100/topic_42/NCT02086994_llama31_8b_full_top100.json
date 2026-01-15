@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02086994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with singleton pregnancies of more than 28 weeks' gestation who were admitted to hospital with severe preeclampsia and candidates for vaginal delivery were eligible for the study.",
+      "label": "met"
+    },
+    {
+      "criterion": "Persistent cerebral or visual disturbances or cerebral edema.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Systolic \u2265160 mmHg or diastolic \u2265110 mmHg on 2 occasions at least 6 h apart with the patient at bed rest.",
+      "label": "met"
+    },
+    {
+      "criterion": "Proteinuria of \u22655 g on 24-hour urine collection. Urine dipsticks are not accurate for this purpose.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Oliguria (\u02c2500 mL in 24 hours).",
+      "label": "met"
+    },
+    {
+      "criterion": "Pulmonary edema.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Thrombocytopenia.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "polyhydramnios",
+      "label": "triggers"
+    },
+    {
+      "criterion": "previous uterine scar",
+      "label": "triggers"
+    },
+    {
+      "criterion": "chorioamnionitis",
+      "label": "triggers"
+    },
+    {
+      "criterion": "multiple pregnancies.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02086994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

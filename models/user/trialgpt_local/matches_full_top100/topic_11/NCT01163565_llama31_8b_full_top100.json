@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01163565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "multinodular goiter",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Grave's disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thyroid nodule",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "reoperative surgery",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, but meets inclusion criteria and does not have exclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01163565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

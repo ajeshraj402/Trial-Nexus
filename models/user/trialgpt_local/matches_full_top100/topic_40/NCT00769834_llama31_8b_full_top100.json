@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00769834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "kidney disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Paget's Disease of Bone diagnosis confirmed",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal transplantation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "less than 18 years of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic Steroid use greater than or equal to 3 months within the last 6 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has kidney disease and Paget's Disease of Bone, but no renal transplantation, under 18 years old, unable to provide informed consent, or chronic steroid use.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00769834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

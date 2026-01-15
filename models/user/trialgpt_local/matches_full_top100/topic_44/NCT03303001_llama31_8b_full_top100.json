@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03303001",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Shoulder impingement syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Three months of history of pain and disability of the shoulder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failure to conservative initial treatment with NSAID's and rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Rotator cuff tears",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous shoulder surgeries of any kind",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Glenohumeral or acromioclavicular arthritis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metabolic disease like diabetes mellitus or rheumatoid arthritis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous infiltration in the past sixth months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, no other medical conditions. Candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03303001",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

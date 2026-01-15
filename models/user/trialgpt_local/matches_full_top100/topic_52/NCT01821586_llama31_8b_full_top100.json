@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01821586",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Some or severe dehydration",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Weight for height (W/H) <70% of NCHS median",
+      "label": "met",
+      "evidence": "physical examination"
+    },
+    {
+      "criterion": "Written informed consent from parents/ guardians",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Blood or mucus in stools",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Have received antidiarhoeal drugs for their diarrhoea",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe diseases (e.g. severe pneumonia with respiratory distress, clinical sepsis, meningitis) requiring intensive care and other ancillary support like O2 inhalation, oropharyngeal suction etc.",
+      "label": "not_met",
+      "evidence": "physical examination"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01821586",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

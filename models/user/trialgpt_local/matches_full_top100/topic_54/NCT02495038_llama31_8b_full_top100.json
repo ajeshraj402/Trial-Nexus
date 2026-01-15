@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02495038",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) physical status I-II",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI 20-30 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients scheduled for mastoidectomy and tympanoplasty.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "disease, pregnancy or breast-feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "preoperative medication of antipsychotics or neuroleptics known to interact with non-depolarizing neuromuscular blocking agents (NMBAs)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of Wegener's granulomatosis and is currently being treated with corticosteroid and cyclophosphamides. He has a positive serum MPO-ANCA in his medical record.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02495038",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

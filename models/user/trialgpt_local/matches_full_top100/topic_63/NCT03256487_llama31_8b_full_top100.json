@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03256487",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ED patients with acute pain NRS \u22657 warranting IV opioid analgesia",
+      "label": "met",
+      "evidence": "according to ED provider"
+    },
+    {
+      "criterion": "Patient is an obese woman",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient refusal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "level 1 trauma patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients deemed critically ill by provider",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients in custody",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients on methadone",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and NVDs, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT03256487",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

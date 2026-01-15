@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02689570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 diabetic patients",
+      "label": "met",
+      "evidence": "criteria for diagnosis by the American Diabetes Association"
+    },
+    {
+      "criterion": "diabetes duration \u22655 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "general good health",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "having experienced a major adverse cardiovascular event (myocardial infarction,stroke)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having cardiovascular complaints",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having an estimated glomerular filtration \u2264 30ml/min/1.73 m\u00b2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with TB, admitted to the hospital after 10 days of cough and fever.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02689570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

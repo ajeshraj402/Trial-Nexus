@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01507974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "two or more episodes of bacteriuria",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "one episode of pyelonephritis during pregnancy",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with malformations of the urinary tract",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetes Mellitus",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reflex",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs, but is currently not pregnant and does not have malformations of the urinary tract. However, they do have diabetes mellitus which may increase their risk for UTIs.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01507974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

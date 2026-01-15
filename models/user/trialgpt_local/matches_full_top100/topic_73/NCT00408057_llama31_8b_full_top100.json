@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT00408057",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age at Visit 1 (Screening)",
+      "label": "met",
+      "evidence": "3-day-old female infant"
+    },
+    {
+      "criterion": "Eligible patients that agree to participate and sign an informed consent",
+      "label": "met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Individuals with poor mental function, drug or substance abuse, or individuals with unstable psychiatric illnesses",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients who have been treated with any investigational drug within 30 days prior to Visit 1",
+      "label": "not_met",
+      "evidence": "No information provided about previous treatment with investigational drugs."
+    }
+  ],
+  "notes": "Patient is a 3-day-old female infant with neonatal jaundice. She meets the inclusion criteria but there is no evidence of exclusion criteria being met.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00408057",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

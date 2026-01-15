@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03357042",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 15 year old girl"
+    },
+    {
+      "criterion": "PCS symptom",
+      "label": "met",
+      "evidence": "The attacks come 2 times or more per week and each episode lasts around a day or a half."
+    },
+    {
+      "criterion": "time since injury",
+      "label": "met",
+      "evidence": "It has been two weeks since date of injury."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "psychological/neurological disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "substance abuse disorder/impairment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "therapy/counseling",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "driver's license and driving experience",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT03357042",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

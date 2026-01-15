@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02753920",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women undergoing vaginal apex surgery",
+      "label": "met",
+      "evidence": "The patient is diagnosed with the migraine headache and is under treatment."
+    },
+    {
+      "criterion": "with or without mid-urethral sling",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "with or without anterior or posterior colporrhaphy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who underwent a surgery that requires long term catheterization",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who sustained a cystotomy during surgery as our divisional protocol is to send these patients home with a Foley catheter for 5-14 days without a voiding trial",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with baseline urinary retention and the inability to urinate without catheterization",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02753920",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

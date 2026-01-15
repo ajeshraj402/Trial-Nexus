@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03283813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "both sexes"
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "57-year-old man"
+    },
+    {
+      "criterion": "obesity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pubertal stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HOMA-IR",
+      "label": "not_met",
+      "evidence": "Hgb: 13 g/dl"
+    },
+    {
+      "criterion": "Serum Zinc level",
+      "label": "met",
+      "evidence": "MPO-ANCA: 153 EU"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adverse reactions to the product or component of the product",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "genetic obesity",
+      "label": "not_met",
+      "evidence": "wellbeing, well-nourished man"
+    },
+    {
+      "criterion": "chronic diseases",
+      "label": "met",
+      "evidence": "Chest computed topography showed bilateral multiple infiltrates in the upper lobes and thickened bronchial walls. Transbronchial biopsy revealed necrotic granulomas with multinucleated giant cells and the Wegener's granulomatosis was diagnosed for him."
+    },
+    {
+      "criterion": "medical treatment for chronic diseases",
+      "label": "met",
+      "evidence": "He is treating with corticosteroid and cyclophosphamides since 4 months ago"
+    },
+    {
+      "criterion": "supplementation with inositol-like products or supplements containing Zinc and Inositol",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03283813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

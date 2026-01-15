@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02671877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective ENT surgery under general anesthesia",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malignancy of the nose, mouth, pharynx, or larynx",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tracheostomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active bleeding or waiting for ENT surgery of bleeding lesions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "candidate to elective awake intubation",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be treated with Bisphosphonate. He is a candidate for elective ENT surgery under general anesthesia.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02671877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

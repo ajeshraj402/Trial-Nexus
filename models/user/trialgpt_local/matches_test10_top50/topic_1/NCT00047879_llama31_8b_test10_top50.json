@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT00047879",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically proven supratentorial malignant primary gliomas",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "evaluable or measurable disease",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "unequivocal evidence for tumor recurrence or progression",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "recent resection of recurrent or progressive tumor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recovered from the effects of surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or nursing",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "peripheral neuropathy > grade 1",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "concurrent use of other investigational agents",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "serious active infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "disease that will obscure toxicity or dangerously alter drug metabolism",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00047879",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

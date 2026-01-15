@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02256397",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with severe asthma (poorly controlled by NIH guidelines )",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admission in past as well as a >50% estimated risk of hospitalization in next yr)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other major lung disease (e.g. cystic fibrosis or bronchopulmonary dysplasia)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neuromuscular impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "15-year-old boy with asthma, shortness of breath, chest tightening and cough. Did not respond to corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02256397",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

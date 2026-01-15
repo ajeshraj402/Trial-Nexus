@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00282295",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy subjects as established by medical history and history-directed physical examination before entering into the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previously completed routine childhood vaccinations against diphtheria, tetanus and pertussis diseases according to the recommended vaccination schedule at the time.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Females of childbearing potential at the time of study entry are required to have a negative pregnancy test prior to administration of the dose of vaccine and are required to be abstinent or use adequate contraceptive precautions for one month prior to vaccination.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects also are required to agree to continue such precautions for two months after vaccination.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Administration of a pre-school booster of DTP vaccine within the previous 5 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous vaccination against N. meningitidis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of atypical hemolytic uremic syndrome, but it is not clear if this would affect their eligibility for the study.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00282295",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

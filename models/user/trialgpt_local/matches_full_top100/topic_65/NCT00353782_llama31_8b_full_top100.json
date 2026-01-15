@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00353782",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Plasma cholesterol levels greater than 200 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plasma LDL-C levels greater than 130 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plasma HDL-C levels greater than 70 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plasma triglyceride levels greater than 150 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prisoners or other institutionalized persons",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children less than 2 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and presents with shortness of breath and fatigue during activities. He claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2).",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00353782",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

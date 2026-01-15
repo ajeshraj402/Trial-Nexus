@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01708330",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient at the Women and Infants Triage/Women's Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vital signs are stable",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ages 18 and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a missed abortion, inevitable abortion, incomplete abortion or other nonviable pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Estimated gestational age up to 10 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing MVA at the Women and Infants Triage/Women's Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to read English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give informed consent for involvement in the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergic to lidocaine, iodine or betadine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known sensitivity to any component of the lidocaine or placebo gel.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In acute distress",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She takes pyridostigmine and still experiences symptoms affecting her job.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT01708330",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

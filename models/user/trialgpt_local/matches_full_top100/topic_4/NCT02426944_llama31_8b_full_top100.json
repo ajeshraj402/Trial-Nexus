@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02426944",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "history of significant bleeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cardioembolic event on anticoagulation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "high risk profile (CHA2DS2-VASc \u2265 3 and HAS-BLED \u2265 2)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thrombus in the LA or LAA",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mechanical valve prosthesis",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of significant bleeding, cardioembolic event on anticoagulation, and high risk profile. However, they have a thrombus in the LA or LAA which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02426944",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any patient who has been successfully treated in the UCLA Pediatric Pain Program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "access to internet enabled computer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "older than 18",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "new patient",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

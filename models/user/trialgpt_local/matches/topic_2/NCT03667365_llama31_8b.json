@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT03667365",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Symptomatic and severe AS defined by an effective AVA \u22641 cm\u00b2 and indexed AVA \u22640.6 cm2/m2",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "LVEF \u226550%",
+      "label": "not_met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "MAG <40 mm Hg (measure confirmed by the multi-window continuous-wave Doppler interrogation and use of Pedoff probe)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmation of the presence of severe AS at DSE and MDCT aortic calcium score",
+      "label": "met",
+      "evidence": "repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis"
+    },
+    {
+      "criterion": "Feasibility of AVR by surgery or TAVR according to the 'heart team'",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncontrolled atrial of ventricular arrhythmias",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient having a life expectancy <1 year, independently from their aortic pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coronary artery disease necessitating a percutaneous or surgical revascularisation",
+      "label": "does_not_trigger",
+      "evidence": "cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease"
+    },
+    {
+      "criterion": "Presence of a concomitant valve disease needing surgical treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "LVEF is below the required threshold. Feasibility of AVR by surgery or TAVR according to the 'heart team' is unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03667365",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

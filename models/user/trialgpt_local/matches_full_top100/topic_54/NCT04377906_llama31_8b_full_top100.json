@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04377906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "body mass index",
+      "label": "met",
+      "evidence": "Weight: 73 kg, Height: 177"
+    },
+    {
+      "criterion": "waist circumference",
+      "label": "met",
+      "evidence": "non-icteric"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "taking dietary supplements or medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "smokers",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 57-year-old man with Wegener's granulomatosis, treating with corticosteroid and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT04377906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

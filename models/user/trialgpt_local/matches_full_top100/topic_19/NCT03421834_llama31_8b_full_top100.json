@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03421834",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Ischemic cardiomyopathy with reduced ejection fraction (EF \u2264 40%) estimated by cardiac",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI or echocardiography within 30 days before enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coronary Chronic Total Occlusion (CTO) associated with a previous MI confirmed by coronary angiography and late gadolinium enhancement MRI or myocardial perfusion imaging within 30 days before enrollment",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Implantable cardioverter-defibrillator (ICD) indication for primary prevention",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has provided written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years or > 85 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented sustained ventricular tachycardia before enrollment",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Class IV New York Heart Association (NYHA) heart failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CTOs not associated with a prior infarction in their territory",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute myocardial infarction (MI) or acute coronary syndrome",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03421834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

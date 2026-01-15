@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04637282",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Participant must be between the ages of 5 and 18 years.",
+      "label": "met",
+      "evidence": "The patient is a 47-year-old Asian woman."
+    },
+    {
+      "criterion": "Has a diagnosis of 'classic' CLN3 disease as determined by age of symptom onset (i.e., 4 to 7 years) and genetic analysis for a defect in the CLN3 (battenin) transmembrane gene at study entry.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participant must have a mild-to-moderate CLN3 disease documented by the UBDRS.",
+      "label": "not_met",
+      "evidence": "The patient states that her mood is mostly depressed for the past 3 weeks."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participant has asymptomatic CLN3 disease, defined as no evidence of neurological signs or symptoms attributed to CLN3 disease.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participant requires ventilation support, except for noninvasive support at night (e.g., Continuous Positive Airway Pressure [CPAP], Bilevel Positive Airway Pressure [BiPAP]).",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a HAM-D score of 20 and is experiencing persistent feelings of sadness, loss of interest in activities, and weight loss.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT04637282",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

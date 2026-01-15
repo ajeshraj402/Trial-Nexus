@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT02448069",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Disabling Ischemic stroke symptoms with onset < 3 hours treated with IV rt-PA by local standards.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age >/= 18.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of intracranial hemorrhage (ICH) on baseline CT scan or diagnosis of a non-vascular cause of neurologic deficit.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Uncontrolled hypertension (SBP > 185 mmHg or DBP >110 mmHg) that does not respond to intravenous anti-hypertensive agents.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02448069",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02632552",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Veterans",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of chronic heart failure or chronic obstructive pulmonary disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission to a general medical service",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able and willing to engage with touchscreen technology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a text-enabled cellular phone to receive the post-discharge text messages",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not Veterans",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not diagnosed of chronic heart failure or chronic obstructive pulmonary disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not admitted to a general medical service",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not capable of using touchscreen technology",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02632552",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

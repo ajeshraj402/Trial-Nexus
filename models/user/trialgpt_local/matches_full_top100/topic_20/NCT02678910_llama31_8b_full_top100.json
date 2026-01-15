@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02678910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "undergo standard of care surgery, chemotherapy, drug treatment, and/or radiation for the treatment or prevention of a medical condition or malignancy expected to result in permanent and complete loss of subsequent ovarian function.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have a medical condition or malignancy that requires removal of all or part of one or both ovaries.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "may have newly diagnosed or recurrent disease. Those who were not enrolled at the time of initial diagnosis are eligible if they have not received therapy that is viewed as likely to result in complete and permanent loss of ovarian function.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "participant undergoing elective removal of an ovary for fertility preservation only must have two ovaries.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participant who already has stored cryopreserved ovarian tissue in a frozen state prior to undergoing cancer treatments (surgery, chemotherapy or radiation) will be eligible for enrollment with informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "is not a candidate for or chooses not to utilize embryo or oocyte banking.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "psychological, psychiatric or other conditions which prevent giving fully informed consent.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "underlying medical condition which significantly increases risk of complications from anesthesia and surgery.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participants with a large cancerous mass in the ovary that is being removed; cryopreservation will not be performed on portions of the ovary.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "blood testing indicates that the participant does not have enough eggs remaining in her ovary.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly, prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI shows macroadenoma with no invasion.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02678910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

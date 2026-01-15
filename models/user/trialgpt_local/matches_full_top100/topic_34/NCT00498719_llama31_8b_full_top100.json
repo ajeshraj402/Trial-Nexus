@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00498719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "school_enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment_status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "iq",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "physical_condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurologic_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric_condition",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of depression, but is currently experiencing symptoms that may be related to her husband's recent diagnosis with colon cancer. She reports loss of energy and feelings of worthlessness.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00498719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

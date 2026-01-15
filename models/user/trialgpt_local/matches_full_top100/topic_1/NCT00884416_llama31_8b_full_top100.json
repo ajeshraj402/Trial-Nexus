@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00884416",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histological documentation of newly diagnosed malignant glioma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status of 0 or 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226518",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Life expectancy of at least 12 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 9.0 g/dl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Granulocyte count \u22651.5 X 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count \u2265100 X 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SGOT \u2264 2.5X upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SGPT \u2264 2.5X upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alkaline phosphatase \u22644x ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine \u22641.5X ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilirubin \u22641.5X ULN",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment for high grade glioma",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous exposure to Ras pathway inhibitors",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other concurrent active malignancy (with the exception of cervical carcinoma in situ or non melanoma carcinoma of the skin, superficial bladder tumor [Ta, Tis & T1] or any cancer curatively treated > 3 years prior to study entry).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serious medical or psychiatric illness that would, in the opinion of the investigator, interfere with the prescribed treatment, including but not limited to: Congestive heart failure > NYHA class 2, active CAD, cardiac arrythmias requiring anti-arrythmic therapy or uncontrolled hypertension within the last 12 months",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any condition limiting the patient's judgment capacity",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently on high-dose steroids, which may interfere with treatment. Additionally, the patient has a history of bleeding diathesis.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00884416",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

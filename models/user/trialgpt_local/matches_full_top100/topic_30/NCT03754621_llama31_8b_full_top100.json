@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03754621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pre_existing_thyroid_disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thyroid_interfering_medication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ivf_treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tpoab_status",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adolescent_pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment and periods are normal.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03754621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

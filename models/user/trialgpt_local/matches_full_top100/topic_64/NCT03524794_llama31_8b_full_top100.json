@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03524794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "underserved populations",
+      "label": "met",
+      "evidence": "homeless, substance misuse, prisoners, vulnerable migrants"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "able to provide signed informed consent"
+    },
+    {
+      "criterion": "language ability",
+      "label": "met",
+      "evidence": "understand PIS and study information"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03524794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02150083",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women over the age of 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with stress urinary incontinence planning to undergo midurethral sling placement",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior incontinence surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant surgery for pelvic organ prolapse except for anterior repair",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intraoperative cystotomy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, but is currently stable with good urine output.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02150083",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

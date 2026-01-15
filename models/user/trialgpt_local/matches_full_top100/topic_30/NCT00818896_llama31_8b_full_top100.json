@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00818896",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TSH value >98th centile in early pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unknown",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with known hypothyroidism",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved after treatment and periods are normal.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00818896",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00125788",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "sickle cell disease diagnosis",
+      "label": "met",
+      "evidence": "known history of sickle cell disease"
+    },
+    {
+      "criterion": "painful crises within 12 months",
+      "label": "met",
+      "evidence": "severe pain in his lower back that radiated to both thighs scored 9 out of 10"
+    },
+    {
+      "criterion": "anti-sickling agent treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "The patient or the patient's legally authorized representative has given written informed consent."
+    },
+    {
+      "criterion": "birth control for female patients",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hospitalization within two months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes mellitus with untreated fasting blood sugar >115 mg/dL",
+      "label": "not_met",
+      "evidence": "The patient is afebrile within the normal blood pressure."
+    },
+    {
+      "criterion": "prothrombin time International Normalized Ratio (INR) > 2.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum albumin < 3.0 g/dl",
+      "label": "not_met",
+      "evidence": "The lab study is as bellow: ... serum albumin not mentioned"
+    },
+    {
+      "criterion": "received blood products within three weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "uncontrolled liver disease or renal insufficiency",
+      "label": "not_met",
+      "evidence": "No splenomegaly was detected in the physical exam."
+    },
+    {
+      "criterion": "pregnant or lactating",
+      "label": "not_met",
+      "evidence": "The patient is afebrile within the normal blood pressure."
+    },
+    {
+      "criterion": "treated with experimental anti-sickling medication/treatment (except hydroxyurea) within 30 days",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00125788",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

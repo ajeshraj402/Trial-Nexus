@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03420339",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 yo woman"
+    },
+    {
+      "criterion": "AD/HD diagnosis",
+      "label": "met",
+      "evidence": "valid diagnosis of attention deficit/hyperactivity disorder (AD/HD)"
+    },
+    {
+      "criterion": "disruptive behavior",
+      "label": "met",
+      "evidence": "physical or verbal aggression towards others, self-injury, destruction"
+    },
+    {
+      "criterion": "stimulant medication prescribed",
+      "label": "met",
+      "evidence": "already prescribed a stimulant medication for the treatment of AD/HD symptoms"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autism diagnosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "conduct disorder diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intellectual disability diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03420339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

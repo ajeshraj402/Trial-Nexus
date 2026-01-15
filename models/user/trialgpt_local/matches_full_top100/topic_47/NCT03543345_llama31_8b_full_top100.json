@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03543345",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective PCI due to right coronary artery occlusion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 40 and 75 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of chronic respiratory condition and PHTN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous percutaneous coronary intervention (PCI) or coronary artery bypass graft surgery (CABG)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man with hypertension, hyperlipidemia and hypothyroidism. Smokes cigarette 1 pack per day for 40 years.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03543345",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

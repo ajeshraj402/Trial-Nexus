@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03489265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "placebo",
+      "label": "met",
+      "evidence": "takes sugar pills twice a day"
+    },
+    {
+      "criterion": "internet_access",
+      "label": "met",
+      "evidence": "has access to the internet at home"
+    },
+    {
+      "criterion": "symptom_reporting",
+      "label": "met",
+      "evidence": "willing to enter symptom data each night before sleeping"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anal_fissure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has dizziness, severe diarrhea, and abdominal pain. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03489265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT00441168",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Relapsed or refractory multiple myeloma following 1 previous line of therapy and, is",
+      "label": "met"
+    },
+    {
+      "criterion": "scheduled by the investigator to be treated with vincristine, adriamycin and dexamethasone standard therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "measurable secretory multiple myeloma based on defined criteria",
+      "label": "met"
+    },
+    {
+      "criterion": "Karnofsky performance status of >or = 60%",
+      "label": "met"
+    },
+    {
+      "criterion": "fulfils defined laboratory requirements within 14 days before baseline",
+      "label": "unknown"
+    },
+    {
+      "criterion": "if female, the patient is either postmenopausal or surgically sterilised or willing to use an acceptable method of birth control for defined period of time",
+      "label": "met"
+    },
+    {
+      "criterion": "if male, the patient agrees to use an acceptable barrier method for contraception for a defined period of time.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "More than one previous line of therapy for multiple myeloma",
+      "label": "not_met"
+    },
+    {
+      "criterion": "use of bortezomib in the previous line of therapy and/or received bortezomib in a previous trial",
+      "label": "unknown"
+    },
+    {
+      "criterion": "known allergy or hypersensitivity to bortezomib, boron or mannitol",
+      "label": "not_met"
+    },
+    {
+      "criterion": "peripheral neuropathy or neuropathic pain of grade 2 or higher",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has relapsed multiple myeloma and is scheduled to receive standard therapy. However, she has received previous lines of therapy and the use of bortezomib in her past treatment is unknown.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00441168",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

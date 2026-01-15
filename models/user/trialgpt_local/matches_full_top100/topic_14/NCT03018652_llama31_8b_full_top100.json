@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03018652",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with frequent exacerbations of COPD (clinically dominant COPD in the case of multiple co-morbidities eg. bronchiectasis, interstitial lung disease, congestive heart failure)",
+      "label": "met"
+    },
+    {
+      "criterion": "Confirmed diagnosis of COPD (bronchodilator FEV1/FVC ratio <0.7 on spirometry within previous 12 months)",
+      "label": "met"
+    },
+    {
+      "criterion": "Age >40 years",
+      "label": "met"
+    },
+    {
+      "criterion": ">10 pack year smoking history",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Frequent COPD exacerbations in the previous 12 months before enrollment, defined by one or both of the following:",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Treatment as an outpatient with antibiotics or prednisone (physician diagnosed COPD exacerbation) on 2 previous occasions",
+      "label": "not_met"
+    },
+    {
+      "criterion": "One hospitalization for COPD exacerbation (as defined by 2/3 of increased dyspnea, sputum volume, or sputum purulence in patients with known airflow limitation)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Expected to live > 12 months",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known severe hypersensitivity to immunoglobulin or its components (anaphylaxis)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Active or metastatic malignancy (including chronic lymphocytic leukemia) excluding local skin cancers",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of hematopoietic stem cell transplant or solid organ transplant",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Current treatment with a biological therapy for other conditions",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Concomitant significant immunodeficiency or use of immunosuppressive treatment (other than for COPD)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Alpha-1 antitrypsin deficiency (based on enzyme level from bloodwork)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Significant proteinuria (dipstick proteinuria \u2265 3+ AND known urinary protein loss \u2265 2 g/day or nephrotic syndrome) and/or has a history of acute renal failure and/or severe renal impairment (creatinine more than 2.5 times the upper limit of normal and/or on dialysis)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "IgA deficiency (IgA <0.1 g/L)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, frequent exacerbations, age >40, and expected to live >12 months. However, patient has a history of CHF, which may be a concern for eligibility.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03018652",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

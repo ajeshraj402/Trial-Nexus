@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04176978",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Classification of Psoriatic Arthritis (CASPAR) criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "asymptomatic carotid plaques with <50% stenosis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of overt CVD (including myocardial infarction, angina, stroke, and transient ischemic attack)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently on antiplatelet agents (including aspirin, Clopidogrel etc), or HMG-CoA reductase inhibitors (statins);",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a family history of CAD but no other cardiovascular risk factors. He is physically active and has normal fasting glucose and triglyceride levels.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04176978",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04666103",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "unilateral thyroid carcinoma and contralateral benign nodule",
+      "label": "met",
+      "evidence": "preoperative ultrasound-guided fine-needle aspiration cytology"
+    },
+    {
+      "criterion": "contralateral nodules \u2264 20mm and located in the thyroid gland",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinical node-negative cervical compartment at palpation and neck ultrasound",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous history of neck surgery",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous history of neck radiation therapy",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and previous history of neck surgery and radiation therapy, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04666103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

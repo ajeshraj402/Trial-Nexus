@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "met",
+      "evidence": "able to walk"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "not_met",
+      "evidence": "no mention of wounds"
+    },
+    {
+      "criterion": "chronic or acute leg pain",
+      "label": "met",
+      "evidence": "complains of sleep apnea, PCO and dissatisfaction with her body shape, but no specific leg pain mentioned"
+    },
+    {
+      "criterion": "neuropathy involving one or both legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is an obese woman with weight concerns, considering a laparoscopic gastric bypass. She has sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

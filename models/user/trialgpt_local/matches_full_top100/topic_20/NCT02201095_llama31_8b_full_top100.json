@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton uncomplicated pregnancy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "elective caesarean section under spinal anaesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "uncomplicated surgery and anaesthesia expected",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "scheduled for tubal ligation surgery as part of caesarean section",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diseases of pregnancy: e.g. pregnancy induced hypertension",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "grand multiparity - ie parity of 5 or greater",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative pyrexia (temperature of 37.5 degrees C or greater)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative hypothermia (temperature 36.0 degrees or cooler)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant co-existing maternal disease - e.g. congenital heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "co-existing maternal disease that could impact on temperature- e.g. hypo/hyperthyroid",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly and prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

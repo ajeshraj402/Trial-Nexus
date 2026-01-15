@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04128631",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "thyroid cancer patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "total thyroidectomy with negative radioactive iodine whole body scan (I-WBS) and elevated stimulated thyroglobulin (sTg) or thyroglobulin antibody (TgAb) levels.",
+      "label": "met",
+      "evidence": "study description"
+    },
+    {
+      "criterion": "Patients able to sleep in a fixed position for 20 minutes.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients unable to sit calm without movement during imaging.",
+      "label": "not_met",
+      "evidence": "study description"
+    },
+    {
+      "criterion": "Severely ill patients.",
+      "label": "not_met",
+      "evidence": "study description"
+    },
+    {
+      "criterion": "Patients' blood glucose &GT; 11.1 mmol/L (200 mg/dL) measured by glucometer immediately prior to scan.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may be relevant for study.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04128631",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

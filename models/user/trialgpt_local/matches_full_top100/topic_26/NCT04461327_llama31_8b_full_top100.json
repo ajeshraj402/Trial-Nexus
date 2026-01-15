@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04461327",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Woman",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Being aged between 18 and 65 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Having signed informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Existence of current psychotic or mixed characteristics",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lifetime history of schizoaffective disorder or schizophrenia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has gallstones and biliary sludge, but no indication of current psychotic or mixed characteristics.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04461327",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

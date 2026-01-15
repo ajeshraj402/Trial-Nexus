@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03080168",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age 18 years or older and endorsing either suicidal ideation upon admission or within the last 7 days, or endorsing (or otherwise documented) suicidal behavior within the past 14 days before admission; OR age 18 years or older and undergoing alcohol detoxification",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of a primary psychotic disorder diagnosis on admission",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "major depressive disorder with psychosis, or current hallucinations or ideas of reference, endorsing current psychotic thinking on the Psychosis Screen measure",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of a flag specifying a history of disruptive or violent behavior",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prisoner (of federal, state, or local authorities)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently admitted to 78G under an involuntary commitment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Interviewer or Hospital staff-suspected or chart-documented presence of mental retardation (IQ <70) or other DSM-IV organic mental disorder",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute alcohol or drug intoxication or any delirium",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving alcohol detoxification treatment",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, with recent worsening palpable lymphadenopathy. He has undergone multiple treatments without significant response.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03080168",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04614142",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Detectable HCV Antibody Positivity",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "KDPI score is less than \u2264 0.650",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Traditional Donor Selection Criteria Met - acceptable for transplantation per usual",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "evaluation at MGH",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previously enrolled in IRB 2016P002051 and experienced primary graft nonfunction due to renal vein thrombosis and acute thrombotic microangiopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing and able to sign informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Donor has been known to have previously received and failed HCV treatment with a direct-acting antiviral agent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed HIV",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Confirmed HBV positive (surface antigen or HBV DNA positive)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Kidney anatomical damage or significant pathology noted during recovery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant liver disease or signs of liver decompensation (splenomegaly, ascites) noted during recovery (advanced fibrosis or cirrhosis)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any standard contra-indication to donation noted in donor (significant malignancy, unusual infection)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16 positivity. She has three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04614142",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

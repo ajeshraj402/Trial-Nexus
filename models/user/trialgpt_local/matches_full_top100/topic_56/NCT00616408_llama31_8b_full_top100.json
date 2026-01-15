@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00616408",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous_treatment_for_acromegaly",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary_surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "concomitant_hyperprolactinemia_requiring_combined_somatostatin_analogues",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dopamine-agonist_treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary_treatment_with_lanreotide",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old man with Acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00616408",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

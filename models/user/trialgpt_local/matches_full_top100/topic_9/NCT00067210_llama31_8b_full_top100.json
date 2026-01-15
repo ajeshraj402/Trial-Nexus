@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00067210",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "minimum of one documented seizure of any type per a 1-week period",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "21 years or older, and able to cooperate with the cooling procedures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On a stable antiepileptic drug (AED) regimen, as determined by history and by AED plasma levels as measured in the CC OPD.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The ability to maintain a daily seizure calendar, either independently or with help from a family member.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No history of intestinal problems or history of intestinal surgery.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must be able to swallow medication in capsule form.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Female patients who are pregnant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those patients under 21 years of age.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Those patients who may have difficulty swallowing a large capsule, or describing their feelings and experiences related to the cooling sessions.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those patients with a history of intestinal problems or intestinal surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Those patients with progressive neurological disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those sensitive to coldness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of severe 'ice-cream' headache",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He has had seizures in the past but was able to control them with medication. He is currently on a stable antiepileptic drug regimen and is able to swallow medication in capsule form.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00067210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

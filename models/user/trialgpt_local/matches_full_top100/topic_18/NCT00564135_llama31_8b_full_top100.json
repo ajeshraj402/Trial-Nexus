@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00564135",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hysterectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fibroids",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "endometriosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "abnormal bleeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uterine prolapse",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intra-epithelial neoplasia of the cervix grade 3",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pelvic reconstructive surgery for pelvic organ prolapse or stress urinary incontinence",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "bacteriuria and clinical urinary tract symptoms, e.g. dysuria, frequency, urgency and stress incontinence before surgery",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH with multiple urological procedures, including suprapubic prostatectomy. He had severe urethral stricture requiring surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00564135",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

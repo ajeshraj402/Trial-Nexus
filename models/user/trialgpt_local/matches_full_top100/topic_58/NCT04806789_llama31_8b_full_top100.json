@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04806789",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with suspected acute appendicitis",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic metabolic disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Endocrinological disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, febrile with tenderness, rebound tenderness and guarding on palpation. Elevated WBC with dominant neutrophils, CT scan showing acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04806789",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

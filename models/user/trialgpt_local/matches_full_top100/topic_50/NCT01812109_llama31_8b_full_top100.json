@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01812109",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "1-21 years"
+    },
+    {
+      "criterion": "Painful acute scrotum or testis",
+      "label": "met",
+      "evidence": "empty scrotum at the right side"
+    },
+    {
+      "criterion": "Abdominal pain (+/- nausea, vomiting) and waddling gait",
+      "label": "met",
+      "evidence": "abdominal undescended testis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Synchronous bilateral testicular torsion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of known testicular or scrotal surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side and abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01812109",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

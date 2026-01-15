@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01060020",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis (AVA < 1.0 cm2)",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Referred for a clinically ordered right and left heart catheterization",
+      "label": "met",
+      "evidence": "cardiac cath with right heart cath"
+    },
+    {
+      "criterion": "18 years of age and older",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able and willing to comply with all requirements of the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Nitrate use within 24 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SBP < 110 mmHg or MAP < 75 mmHg",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe mitral regurgitation",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Severe aortic regurgitation",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Increased risk of priapism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Retinal or optic nerve problems or unexplained visual disturbance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alpha antagonists or cytochrome P450 3A4 inhibitors use within 24 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current or recent (\u2264 30 days) acute coronary syndrome",
+      "label": "not_met",
+      "evidence": "cardiac cath with right heart cath"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and underwent cardiac catheterization, but there is no mention of nitrate use within 24 hours or SBP < 110 mmHg or MAP < 75 mmHg.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01060020",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

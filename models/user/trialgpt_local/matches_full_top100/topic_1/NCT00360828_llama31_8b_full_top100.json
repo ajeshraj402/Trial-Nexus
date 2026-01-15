@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00360828",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histological or neuroradiographic documented recurrent glioma",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "anaplastic astrocytoma, mixed malignant glioma or oligodendroglioma",
+      "label": "met",
+      "evidence": "biopsy"
+    },
+    {
+      "criterion": "> 18 years old",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Karnofsky performance score (KPS) of > or equal to 50",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Measurable disease per MacDonald criteria",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "predicted life expectancy of at least 12 weeks",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "Absolute Neutrophil Count (ANC) > 1,500",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Platelets > 100,000",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Creatinine < 2.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Bilirubin < 2.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Aspartamine transaminase/ Alanine transaminase (AST/ALT) < 3x normal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy test for females with child-bearing potential negative",
+      "label": "met",
+      "evidence": "pregnancy test"
+    },
+    {
+      "criterion": "Patients must sign and date an IRB approved informed consent form",
+      "label": "met",
+      "evidence": "consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "leptomeningeal spread of disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "2 or more salvage regimens",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or breast-feeding women",
+      "label": "not_met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "irritable bowel disease, irritable bowel syndrome, chronic diarrhea or presence of a bowel obstruction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "second active malignancy or diagnosis of other cancer within 3 years of enrollment",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation and chemotherapy. He is currently experiencing progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00360828",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

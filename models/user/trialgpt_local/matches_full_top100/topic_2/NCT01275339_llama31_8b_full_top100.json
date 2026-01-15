@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01275339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "left ventricular hypertrophy",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "diastolic dysfunction",
+      "label": "met",
+      "evidence": "tissue Doppler e' \u2264 7 cm/s"
+    },
+    {
+      "criterion": "EF \u2265 50%",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "NYHA \u2264 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": "patient age"
+    },
+    {
+      "criterion": "ambulatory",
+      "label": "met",
+      "evidence": "patient status"
+    },
+    {
+      "criterion": "normal sinus rhythm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "able and willing to comply with study requirements",
+      "label": "met",
+      "evidence": "patient statement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "need for ongoing nitrate medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SBP < 110mmHg or MAP < 75mmHg",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "moderately severe or severe mitral regurgitation",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "contraindication to MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "creatinine clearance < 30 mL/min",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cirrhosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pulmonary fibrosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "increased risk of priapism",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and left ventricular hypertrophy, but is ambulatory and able to comply with study requirements. However, the patient's SBP was not measured, so it is unknown whether they meet the exclusion criteria for low blood pressure.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01275339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00088907",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically confirmed squamous cell carcinoma of the head and neck",
+      "label": "met"
+    },
+    {
+      "criterion": "Metastatic or locally recurrent carcinoma of the head and neck that is considered incurable by local therapies",
+      "label": "met"
+    },
+    {
+      "criterion": "Any number of prior chemotherapy or biologic/targeted therapy regimens is allowed",
+      "label": "met"
+    },
+    {
+      "criterion": "No prior systemic EGFR inhibitors, such as ZD1839 (Iressa, gefitinib)/Iressa (AstraZeneca)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients must have either: Strata A: Eastern Cooperative Oncology Group (ECOG) performance status (PS) 2",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1500 /mm^3",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelets >= 100,000 /mm^3",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin >= 8.0 g/dl",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior therapy with docetaxel at any time (even if part of prior curative treatment)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Unstable systemic disease, including active infection, uncontrolled hypertension, unstable angina, congestive heart failure, or serious arrhythmia requiring medication",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has received XRT. However, they have a history of prior chemotherapy with docetaxel, which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00088907",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

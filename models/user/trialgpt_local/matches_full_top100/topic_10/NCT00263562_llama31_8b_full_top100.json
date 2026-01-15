@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00263562",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "English or Spanish-speaking",
+      "label": "met",
+      "evidence": "no evidence provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Fever greater than 101",
+      "label": "not_met",
+      "evidence": "normal differential, normal temperature not mentioned"
+    },
+    {
+      "criterion": "Acute chest syndrome or pneumonia",
+      "label": "unknown",
+      "evidence": "no evidence provided"
+    },
+    {
+      "criterion": "Other SS complications",
+      "label": "unknown",
+      "evidence": "no evidence provided"
+    }
+  ],
+  "notes": "Patient has systemic mastocytosis with flares, but no fever or acute chest syndrome mentioned.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00263562",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

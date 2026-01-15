@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00177398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 Diabetes defined according to ADA criteria",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Men and women age >/= 18",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability for patient or legally authorized representative to understand and sign an informed consent document",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with conditions that are anticipated to have short term (i.e. < 2 months survival) based on discussions with the treatment team and attending physician.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects admitted to the CT ICU or any unit with pre-established protocols for glycemic management.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with known type 1 diabetes (who will absolutely require a long or intermediate acting insulin preparation).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with known type 2 diabetes who currently receive 30 units or more of an intermediate or long acting insulin.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has had type 1 diabetes for 11 years and reports that he is currently homeless, having lost his supply of insulin. He has been on insulin since diagnosis and has never been prescribed oral agents.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00177398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

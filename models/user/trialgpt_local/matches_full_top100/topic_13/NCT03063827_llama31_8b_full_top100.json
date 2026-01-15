@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03063827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic SCI causing NDO and urinary incontinence",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "neurogenic bladder s/p suprapubic cath",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients did not present with urinary incontinence",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients are known to be allergic to onabotulinumtoxinA",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. Started on ditropan changed over to detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03063827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

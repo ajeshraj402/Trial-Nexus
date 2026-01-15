@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02005081",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Failed conservative treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226518 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Psychosocially, mentally, and physically able to comply with protocol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Skeletally mature (epiphyses closed)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Voluntarily signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing to participate in post-operative follow-up evaluations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No previous surgical intervention at involved fusion level(s)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of child-bearing potential not pregnant or nursing",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systemic infection or infection at surgical site",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medical condition interfering with post-operative assessments and care",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concurrent disease process placing subject in excessive risk to surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is seeking spinal fusion. However, they have a history of hypertension and chronic pain, which may be relevant for post-operative care.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02005081",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

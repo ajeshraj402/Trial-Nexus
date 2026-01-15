@@ -1,0 +1,92 @@
+{
+  "trial_id": "NCT02879409",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "creatininine",
+      "label": "met"
+    },
+    {
+      "criterion": "insulin",
+      "label": "met"
+    },
+    {
+      "criterion": "fasting glucose",
+      "label": "met"
+    },
+    {
+      "criterion": "fasting lipids",
+      "label": "met"
+    },
+    {
+      "criterion": "blood for hsCRP",
+      "label": "met"
+    },
+    {
+      "criterion": "full blood count",
+      "label": "met"
+    },
+    {
+      "criterion": "urinary albumin/creatinine",
+      "label": "met"
+    },
+    {
+      "criterion": "HbA1c variability on two treatment thresholds",
+      "label": "met"
+    },
+    {
+      "criterion": "insulin resistance (HOMA)",
+      "label": "met"
+    },
+    {
+      "criterion": "sex hormone binding globulin (SHBG)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "retinopathy assessment",
+      "label": "met"
+    },
+    {
+      "criterion": "neuropathy assessment",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anemia or conditions affecting HbA1c measurement",
+      "label": "not_met"
+    },
+    {
+      "criterion": "renal failure (CKD Stage 5)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "concurrent illness",
+      "label": "unknown"
+    },
+    {
+      "criterion": "medication leading to insulin resistance",
+      "label": "not_met"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "active retinopathy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "hypoglycemic unawareness",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and is being treated with ACE inhibitors and Beta blockers. He has a family history of DM type 1 in his uncle and grandfather.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02879409",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

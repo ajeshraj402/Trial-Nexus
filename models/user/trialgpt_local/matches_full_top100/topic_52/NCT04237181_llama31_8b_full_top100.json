@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04237181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 34 years old"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient signed informed consent form"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient has social security insurance"
+    },
+    {
+      "criterion": "acute_diarrhoea",
+      "label": "met",
+      "evidence": "patient is attending emergency department for acute diarrhoea"
+    },
+    {
+      "criterion": "blood_test_ordered",
+      "label": "met",
+      "evidence": "blood test ordered as standard of care"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 34 years old"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient signed informed consent form"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient has social security insurance"
+    },
+    {
+      "criterion": "colitis_of_infectious_origin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal_pain",
+      "label": "met",
+      "evidence": "patient complains of abdominal pain"
+    },
+    {
+      "criterion": "fever",
+      "label": "not_met",
+      "evidence": "patient has no fever"
+    },
+    {
+      "criterion": "diarrhoea",
+      "label": "met",
+      "evidence": "patient is experiencing diarrhoea"
+    },
+    {
+      "criterion": "elevated_white_blood_cell_count",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal_ct_scan",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_abdominal_surgery",
+      "label": "not_met",
+      "evidence": "no recent abdominal surgery"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "patient is a man"
+    },
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients_under_curatorship_or_guardianship",
+      "label": "not_met",
+      "evidence": "no information available"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool specimen, but no fever or elevated white blood cell count.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04237181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00606957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33-year-old woman"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "BMI was 34, now 31"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "not_met",
+      "evidence": "nonsmoking"
+    },
+    {
+      "criterion": "25(OH)D level",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "insulin level",
+      "label": "met",
+      "evidence": "lab results were remarkable for high TSH level (13 mU/L)"
+    },
+    {
+      "criterion": "willingness_to_maintain_weight",
+      "label": "met",
+      "evidence": "still overweight"
+    },
+    {
+      "criterion": "lifestyle_activities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "NSAID use",
+      "label": "not_met",
+      "evidence": "willingness to avoid the use of non-steroidal anti-inflammatory drugs (NSAIDS)"
+    },
+    {
+      "criterion": "vitamin_supplements",
+      "label": "met",
+      "evidence": "willingness to avoid the use of all over-the-counter or prescription vitamins, dietary supplements, and herbal products"
+    },
+    {
+      "criterion": "contraception",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "tobacco_smoking",
+      "label": "not_met",
+      "evidence": "nonsmoking"
+    },
+    {
+      "criterion": "bleeding_disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gastrointestinal_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "lab results were remarkable for high TSH level (13 mU/L)"
+    },
+    {
+      "criterion": "hypertensive_medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiovascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_disease",
+      "label": "not_met",
+      "evidence": "lab results were remarkable for high TSH level (13 mU/L)"
+    },
+    {
+      "criterion": "kidney_stones",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved significantly after starting Levothyroxine. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00606957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

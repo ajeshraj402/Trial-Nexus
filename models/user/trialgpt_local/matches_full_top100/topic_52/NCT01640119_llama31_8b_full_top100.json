@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01640119",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "End stage renal disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "V. cholerae in stool specimen",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neoplastic diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Autoimmune diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensation class III-IV",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrollable hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Amputation of the limbs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous ictus cerebri",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neobladder, ureterosigmoidostomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sever acidosis with bicarbonate < 18 mEq/l",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool specimen and end stage renal disease, but no neoplastic diseases or autoimmune diseases.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01640119",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

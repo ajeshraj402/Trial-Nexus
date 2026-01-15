@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01589497",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years at study entry.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Body weight: 40 kg to 90 kg, inclusive",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Sputum positive for acid fast bacilli (AFB) by smear-microscopy \u22651+ on the WHO/IUALTD scale within 1 day prior to study entry.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Isoniazid and rifampin sensitivity, based on Hain GenoType MTBDR Plus assay performed within 7 days prior to study entry.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Certain laboratory values, as defined in the protocol, obtained within 30 days prior to entry",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "For HIV-positive candidates only: CD4+ cell count of > 200 cells/mm^3, determined within 7 days prior to study entry at a DAIDS approved laboratory.",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "For females of reproductive potential, negative serum or urine pregnancy test within 7 days prior to entry.",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Radiographic findings consistent with pulmonary TB from a chest x-ray performed within 14 days prior to entry.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ability and willingness of study candidate or legal guardian/representative to provide informed consent.",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willingness to be hospitalized for approximately 3 weeks.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ability to provide at least 10mL of sputum during an overnight collection prior to study entry.",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receipt of INH prophylaxis or any tuberculosis therapy within 7 days prior to study entry or for more than 7 cumulative days in the last 6 months, or receipt of any fluoroquinolone in the 1 month prior to entry.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Currently on anti-retroviral treatment (ART), has been on ART within 30 days, or is expected to initiate ART within 2 weeks after study entry.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Breastfeeding.",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known intolerance to any of the study drugs.",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Resistance to rifampicin determined by GeneXpert within 7 days prior to study entry.",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has been admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01589497",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04518709",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "mitral regurgitation heart disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age range of 1 day - 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refuse to participate in the study",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "additional cardiac abnormalities other than atrial septal defects that change the surgery plan",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has mitral regurgitation heart disease and is within the age range of 1 day - 18 years. However, there are no clear indications of refusal to participate or additional cardiac abnormalities that would change the surgery plan.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04518709",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

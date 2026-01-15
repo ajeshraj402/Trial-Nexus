@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04178928",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33-year-old woman"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "Hashimoto's thyroiditis"
+    },
+    {
+      "criterion": "family_history",
+      "label": "met",
+      "evidence": "aunt, brother and mother have the same disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute_disorder",
+      "label": "not_met",
+      "evidence": "no anemia, infection, diabetes mellitus, malignancy, liver and renal disorder"
+    },
+    {
+      "criterion": "medication_affecting_thyroid_function",
+      "label": "not_met",
+      "evidence": "no glucocorticoids, dopamine or dobutamine, amiodarone, lithium, interferons, alemtuzumab"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and a family history of the disease. She is overweight but her symptoms improved with Levothyroxine treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04178928",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02171403",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "healthy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "> 18 Year",
+      "label": "met",
+      "evidence": "age 34"
+    },
+    {
+      "criterion": "18 kg/m\u00b2<BMI<27.5 kg/m\u00b2",
+      "label": "met",
+      "evidence": "BMI not explicitly stated, but patient is described as looking ill with dry mucosa, suggesting a healthy weight"
+    },
+    {
+      "criterion": "regular dietary pattern",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intake of antibiotics 1 month prior to sample collection",
+      "label": "not_met",
+      "evidence": "no mention of antibiotic use"
+    },
+    {
+      "criterion": "abdominal chirurgical intervention except appendectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intake of medication 14 days prior to sample collection",
+      "label": "not_met",
+      "evidence": "no recent medication use mentioned"
+    },
+    {
+      "criterion": "vegetarian",
+      "label": "met",
+      "evidence": "patient returned from a camp in Sudan where food options may be limited, but no specific dietary restrictions mentioned"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool specimen and severe diarrhea symptoms.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02171403",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

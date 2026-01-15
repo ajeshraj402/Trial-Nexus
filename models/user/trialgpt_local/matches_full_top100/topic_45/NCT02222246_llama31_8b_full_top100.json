@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02222246",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult SCD patients with genotypes SS, SC, SB+, or SB-",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adult",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with sickle cell trait",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allergic to both morphine sulfate and hydromorphone",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell disease, severe pain in lower back, and positive history of sickle cell crises since childhood. He is afebrile within normal blood pressure.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02222246",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

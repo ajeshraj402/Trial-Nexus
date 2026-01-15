@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00948402",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "premenopausal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PCOS",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "type 2 diabetes or impaired glucose tolerance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyperprolactinaemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cushing's syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "nonclassical congenital adrenal hyperplasia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous (within the last 6 months) use of oral contraceptives",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "glucocorticoids",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of obesity, PCOS, and hypertension. She presented with symptoms of cholecystitis and was found to have Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00948402",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

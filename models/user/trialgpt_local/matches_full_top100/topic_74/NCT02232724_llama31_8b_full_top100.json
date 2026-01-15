@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02232724",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed, histologically verified PCa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned extended lymph node dissection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA \u2265 20 ng/mL and/or Gleason score > 7 and/or cT-stage \u2265 cT2c",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Withdrawal of consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other active malign disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02232724",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

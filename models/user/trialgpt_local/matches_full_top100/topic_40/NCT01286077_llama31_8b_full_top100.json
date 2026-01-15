@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01286077",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult Multiple Myeloma patients in partial response or better after high dose chemotherapy and autologous stem cell transplantation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient fulfills defined laboratory requirements within 14 days before enrolment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "If female, is either postmenopausal for more than 24 consecutive months or surgically sterilized or willing to use an acceptable method of birth control for defined period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "If male, agree to use an acceptable barrier method of contraception and to not donate sperm up to 3 months following treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient received another antimyeloma or experimental therapy following autologous stem cell transplantation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has a peripheral neuropathy or neuropathic pain of grade 2 or greater intensity as defined by the NCI common terminology criteria of adverse event (NCI CTCAE) version 3.0",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01286077",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

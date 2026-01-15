@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03511716",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic functional mitral regurgitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mitral valve repair with cardiopulmonary bypass",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe mitral annular and leaflet calcification",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hemodynamically unstable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypertrophic cardiomyopathy with systolic anterior motion of the leaflets",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has symptomatic functional mitral regurgitation and meets criteria for mitral valve repair. However, patient's history of hypertrophic cardiomyopathy may be a contraindication.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03511716",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

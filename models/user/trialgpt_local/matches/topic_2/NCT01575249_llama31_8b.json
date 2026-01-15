@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT01575249",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "mild to moderate AS (Table 1)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "female sex, PV and BNP at baseline were correlated with AS progression",
+      "label": "unknown",
+      "evidence": "no mention of female sex or BNP level in patient text"
+    },
+    {
+      "criterion": "resting mean gradient (MG) >35 mmHg and exercise-induced increase in MG >20 mmHg",
+      "label": "not_met",
+      "evidence": "patient's resting MG not mentioned, but echo revealed severe aortic stenosis"
+    },
+    {
+      "criterion": "global longitudinal strain (GLS) might be useful to assess subtle changes in LV function",
+      "label": "unknown",
+      "evidence": "no mention of GLS in patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "positive stress test (symptoms including dyspnoea, angina, syncope, ECG pathological changes, WMA)",
+      "label": "does_not_trigger",
+      "evidence": "patient presented with progressive SOB and LE edema"
+    },
+    {
+      "criterion": "heart failure",
+      "label": "triggers",
+      "evidence": "patient's EF was 25% and had biatrial enlargement, indicating heart failure"
+    },
+    {
+      "criterion": "LVEF < 55%",
+      "label": "triggers",
+      "evidence": "patient's EF was 25%, which is less than 55%"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, heart failure, and low EF, but no mention of female sex or BNP level. Also, patient's resting MG not mentioned.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01575249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04030741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "5-15 years"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "both genders"
+    },
+    {
+      "criterion": "admission_type",
+      "label": "met",
+      "evidence": "pediatric surgery emergency"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "appendicitis_perforation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "appendicular_mass",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04030741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

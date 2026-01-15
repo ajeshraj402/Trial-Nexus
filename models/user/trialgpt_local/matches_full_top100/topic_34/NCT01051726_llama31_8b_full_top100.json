@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01051726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women in labour and expecting a normal delivery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aged > 16 who are able to make informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "spontaneous or induced labour onset",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prior to elective or emergency caesarean section",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm labour",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pool births",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "scheduled caesarean section",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has lost about 5kg weight due to decreased appetite.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01051726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

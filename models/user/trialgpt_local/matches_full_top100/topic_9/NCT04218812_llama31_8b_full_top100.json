@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04218812",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "drug resistant focal epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admitted to Epilepsy Monitoring Unit for presurgical evaluation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "discussed at the multidisciplinary epilepsy surgery team meetings",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who did not have a seizure during the monitoring",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04218812",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

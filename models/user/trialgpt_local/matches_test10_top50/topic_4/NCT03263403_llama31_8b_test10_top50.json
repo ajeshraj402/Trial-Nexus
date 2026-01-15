@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03263403",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Apparently healthy adult",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Sex: Male, Female and Transgender",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Apparently healthy based on medical history",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Women with child bearing potential must be non pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of Meningitis infection or vaccination",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receipt of investigational drugs or other investigational vaccines within 3 months prior to first injection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03263403",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

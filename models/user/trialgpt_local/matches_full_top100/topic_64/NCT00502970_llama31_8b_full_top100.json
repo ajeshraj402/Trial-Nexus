@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00502970",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult males and non-pregnant females (more than 18 and less than equal to 50 years of age)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Treatment na\u00efve patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Serological evidence of hepatitis C infection by an anti-HCV antibody test",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "HCV PCR positive",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Genotype 3",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Absence of cirrhosis on liver biopsy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Absence of alcohol or drug abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not consent to be included in the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding females",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Genotype non 3",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "HCV PCR positive at the end of 4 weeks of treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of cirrhosis on liver biopsy",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Decompensated liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00502970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

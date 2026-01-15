@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT00735436",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed diagnosis of WHO grade IV primary malignant glioma (glioblastoma multiforme or gliosarcoma)",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not glioblastoma multiforme or gliosarcoma."
+    },
+    {
+      "criterion": "Age > or = 18 years",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Evidence of a unilateral, single focus of measurable central nervous system (CNS) neoplasm on contrast-enhanced MRI",
+      "label": "unknown",
+      "evidence": "MRI showed a spinal cord conus mass, but details are not provided."
+    },
+    {
+      "criterion": "Patients must have < or = 2 disease progressions",
+      "label": "unknown",
+      "evidence": "Patient has progressive lower extremity weakness and urinary retention, but number of disease progressions is not specified."
+    },
+    {
+      "criterion": "An interval of at least 4 weeks from the end of prior radiotherapy or one week from the end of a cycle of chemotherapy",
+      "label": "unknown",
+      "evidence": "Patient received radiation and temozolomide, but timing is not specified."
+    },
+    {
+      "criterion": "Karnofsky > or = 70%",
+      "label": "unknown",
+      "evidence": "No information provided about Karnofsky score."
+    },
+    {
+      "criterion": "Hemoglobin > or = 9.0 g/dl, absolute neutrophil count (ANC) > or = 1,500 cells/microliters, platelets > or = 125,000 cells/microliters",
+      "label": "unknown",
+      "evidence": "No information provided about blood counts."
+    },
+    {
+      "criterion": "Serum creatinine < or = 1.5 mg/dl, serum glutamic-oxaloacetic transaminase (SGOT) and bilirubin < or = 1.5 times upper limit of normal",
+      "label": "unknown",
+      "evidence": "No information provided about liver function tests."
+    },
+    {
+      "criterion": "Patients on corticosteroids must have been on a stable dose for 1 week prior to entry, if clinically possible",
+      "label": "not_met",
+      "evidence": "Patient is on high-dose steroids, but duration of treatment is not specified."
+    },
+    {
+      "criterion": "Signed informed consent approved by the Institutional Review Board",
+      "label": "unknown",
+      "evidence": "No information provided about informed consent."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or breast feeding. Women of childbearing potential must have a negative serum pregnancy test within 72 hours prior to treatment administration",
+      "label": "does_not_trigger",
+      "evidence": "No information provided about pregnancy status."
+    },
+    {
+      "criterion": "Multifocal disease",
+      "label": "unknown",
+      "evidence": "Patient has a single focus of measurable CNS neoplasm, but details are not provided."
+    },
+    {
+      "criterion": "Prior treatment with Gliadel",
+      "label": "does_not_trigger",
+      "evidence": "No information provided about prior treatments."
+    },
+    {
+      "criterion": "Prior treatment with CPT-11 or Avastin",
+      "label": "triggers",
+      "evidence": "Patient received temozolomide and Avastin, which are similar to CPT-11 and Avastin."
+    }
+  ],
+  "notes": "Key unknowns include the number of disease progressions, timing of prior radiotherapy and chemotherapy, Karnofsky score, blood counts, liver function tests, duration of corticosteroid treatment, and informed consent status.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00735436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

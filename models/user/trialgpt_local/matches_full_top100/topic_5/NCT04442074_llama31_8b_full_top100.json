@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04442074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "treated_in_neurology_department",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis_of_ipsilateral_carotid_diaphragm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under_guardianship_or_curatorship",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "deprived_of_liberty",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has carotid bruits, significant bilateral carotid stenosis, and a history of CVA. He is being evaluated for PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04442074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

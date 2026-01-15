@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03418883",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first ischemic or hemorrhagic stroke causing right or left hemiplegia or hemiparesis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "enrolling in the trial within four weeks from the stroke",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mini Mental State Examination (MMSE) score \u2265 24",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Token Test score < 40",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant visual impairment despite glasses",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cognitive deficits that could prevent patients from understanding the therapist instructions",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "an additional neurological or orthopedic disease known to cause a motor impairment for itself",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is confirmed by high liver copper concentration. He has tremors and jaundice, but no significant cognitive decline or visual impairment.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03418883",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

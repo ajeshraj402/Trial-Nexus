@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00319839",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically or cytologically confirmed carcinoma of the head and neck region",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metastatic or locally recurrent squamous cell carcinoma of the head and neck",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "all sites of disease must be assessed and designated as measurable or non-measurable disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients may have prior chemotherapy for recurrent/metastatic disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients must have adequate bone marrow reserve",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients must have adequate hepatic function",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "all patients must be 18 years of age or older",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients must have a Zubrod performance of 0-3",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior therapy with Abraxane",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active or uncontrolled infection, recent myocardial infection, unstable angina, or life-threatening arrhythmia",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and prior XRT to neck. However, patient is not eligible due to prior therapy with Abraxane.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00319839",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

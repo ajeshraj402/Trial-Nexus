@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04414358",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mitral valve or aortic valve diseases requiring surgical intervention",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No pathologic changes in TV leaflets",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with incomplete data",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with history of previous cardiac surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with congenital anomalies of mitral or tricuspid valve",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04414358",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

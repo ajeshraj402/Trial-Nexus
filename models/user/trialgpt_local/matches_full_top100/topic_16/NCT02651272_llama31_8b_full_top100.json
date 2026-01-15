@@ -1,0 +1,64 @@
+{
+  "trial_id": "NCT02651272",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A diagnosis of sickle cell disease (HbSS, HbSC, HbS- \u03b2+ or 0) confirmed by hemoglobin electrophoresis",
+      "label": "met"
+    },
+    {
+      "criterion": "Provision of informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Suspicion of Pulmonary Hypertension by echocardiography within the last 6 months (RVSP > 40mmHg or a TRV > 3.0 m/sec)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "NYHA Class II or III by symptoms",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Six minute walk distance (6MWD) > 150 meters and < 450 meters",
+      "label": "unknown"
+    },
+    {
+      "criterion": "A woman of child-bearing potential is eligible only if the following applies: Negative pre-treatment serum pregnancy test and agreement to monthly tests",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Use of two highly effective methods of contraception if not truly abstinent with a male partner OR permanent female sterilization has been performed.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "May be on background therapy or may be treatment na\u00efve",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnancy or lactation",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Any one of the following medical conditions: Stroke within the last 6 weeks",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Clinically significant laboratory abnormalities, including, but not limited to: Positive Hepatitis B surface antigen or Hepatitis C antibody, Positive HIV test",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02651272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

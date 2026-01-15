@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04149223",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with a clinical diagnosis of cirrhosis",
+      "label": "met",
+      "evidence": "compatible radiology, histology or fibroscan"
+    },
+    {
+      "criterion": "Admitted to a study hospital site",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adult patients who do not have cirrhosis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy with scoliosis and back pain, but he has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04149223",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

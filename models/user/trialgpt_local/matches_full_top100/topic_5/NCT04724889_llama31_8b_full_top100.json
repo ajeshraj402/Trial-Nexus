@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04724889",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "Male"
+    },
+    {
+      "criterion": "referred_for_ILR",
+      "label": "met",
+      "evidence": "referred to cardiology for evaluation of PVD"
+    },
+    {
+      "criterion": "history_of_AF",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability_to_give_consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history_of_AF",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable_to_give_consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "74M with hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. Carotid bruits on examination.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04724889",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

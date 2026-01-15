@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04613973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient whose age is \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient hospitalized for global heart failure or left ventricular failure in the Cardiology department of the GHPSJ between January 2016 and September 2018",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient under guardianship or guardianship",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient living in EHPAD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient transferred to another establishment on discharge from hospital (surgery, follow-up care, EPHAD, etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient who died during hospitalization",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient objecting to the use of their data",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old man with Acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN and random GH level is 4 ug/L.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT04613973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

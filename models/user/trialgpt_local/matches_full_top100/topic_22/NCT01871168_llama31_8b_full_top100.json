@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01871168",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients undergoing major abdominal surgery",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "consent to a continuous transversus abdominis nerve block as part of their postoperative management",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergy to local anesthesia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Infection in the area of intended catheter insertion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Opiate tolerance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Failure to consent",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. She had poor appetite as well as malaise.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01871168",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

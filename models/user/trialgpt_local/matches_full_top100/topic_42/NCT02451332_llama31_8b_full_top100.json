@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02451332",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "low risk of obstetrical complication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-pregnancy BMI > 40",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pre-existing diabetes",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "essential hypertension",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "epilepsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "more than one prior preterm deliveries",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous stillbirth",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous Cesarean section",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gestational hypertension prior to 34 weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has no specific past medical issues, but her family history is positive for DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02451332",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

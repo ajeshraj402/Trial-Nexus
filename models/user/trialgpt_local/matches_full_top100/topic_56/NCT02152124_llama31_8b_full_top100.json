@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02152124",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acromegaly over 1 year ago",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No changes in treatment schedule since at least 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is willing to participate and has signed the informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years and < 80 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Body Mass Index 18-40 kg/m\u00b2",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Biochemistry: liver function tests > 3x ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All untreated endocrine disorders including uncontrolled diabetes mellitus type 2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bariatric surgery; malabsorptive syndromes; hepatic or renal failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current medication use: insulin, metformin, sulfonylurea, fibrates, incretin mimetics, dopamine agonists",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Abuse of alcohol or drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Weight changes > 10% of body weight during preceding 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly and underwent transsphenoidal surgery 4 months ago. He is currently taking vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT02152124",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

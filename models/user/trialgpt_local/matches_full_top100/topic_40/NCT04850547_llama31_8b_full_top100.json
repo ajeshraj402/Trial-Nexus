@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04850547",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males (20-60 years old ) and premenopausal females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "NAFLD diagnosed by Fibroscan",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients aged <20 years or >60years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alcohol consumption of \u226530 g/day in men",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with suspected or proven any other liver disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Postmenopausal females to avoid the increased risk of osteoporosis in those patients due to hormonal changes.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with conditions known to affect bone metabolism, such as kidney, thyroid or parathyroid diseases.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04850547",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

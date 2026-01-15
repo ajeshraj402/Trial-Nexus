@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "tumor_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skinSpacing",
+      "label": "met",
+      "evidence": ">7mm"
+    },
+    {
+      "criterion": "dcis",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "does not use contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is an obese woman with sleep apnea, PCO and dissatisfaction with her body shape. She has a high BMI of 41.54.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

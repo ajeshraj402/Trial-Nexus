@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00842205",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "must undergo liver biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "must undergo antiviral treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "liver sample not obtained",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "blood samples for HCV testing not obtained in specified time points during antiviral therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is undergoing antiviral treatment. No evidence of liver sample or blood sample issues.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00842205",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04345016",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of diabetes mellitus (type 1 or 2)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of diabetic foot ulcer or amputation which healed within the 24 months prior to enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate lower extremity vascular supply, defined as presence of palpable bilateral posterior tibial and dorsalis pedis pulses or an ankle brachial index exceeding 0.5 documented within the 12 months preceding study enrollment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the ability to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "baseline inflammatory foot conditions, including unhealed ulcer or lesion (dorsal or plantar), active Charcot arthropathy, ongoing foot infection, or ongoing cellulitis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a history of amputation more proximal than a transmetatarsal amputation in either foot",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, but no pus or tearing. No underlying disease such as DM mentioned.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT04345016",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

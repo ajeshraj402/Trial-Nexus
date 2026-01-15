@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01772095",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "Diagnosis of dementia",
+      "label": "not_met",
+      "evidence": "Paget's Disease of Bone was confirmed"
+    },
+    {
+      "criterion": "Rating 15<MMSE<24",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patient has reliable caregivers",
+      "label": "met",
+      "evidence": "family history is only significant for hypertension in his mother and DM type 2 in his father"
+    },
+    {
+      "criterion": "Signed consent form to participate in the study after informed by reliable caregivers of the patient or another witness",
+      "label": "met",
+      "evidence": "The diagnosis of Paget's Disease of Bone was confirmed and  Bisphosphonate will be started as first-line therapy."
+    },
+    {
+      "criterion": "The patient is on treatment with donepezil for at least one month prior to joining the clinical trial",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe gastrointestinal, kidney, hepatic, endocrine, pulmonary, or hematologic disease.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other primary psychiatric or neurological disorder.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically significant laboratory and ECG abnormalities.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participation in another clinical study than this",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Refusal to sign the consent form to participate in the study after informed by reliable caregivers of the patient or another witness",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patient is on treatment with donepezil for less than a month before its integration in the clinical study",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and will be treated with Bisphosphonate. However, they are on treatment with donepezil for less than a month which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01772095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

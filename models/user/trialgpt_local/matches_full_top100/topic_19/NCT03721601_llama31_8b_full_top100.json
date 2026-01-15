@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03721601",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "atrial fibrillation in 12-lead ECG",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 65",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI over 33",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "implanted pacemaker device",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "12-lead ECG findings of left bundle branch block (LBBB) or right bundle branch block (RBBB)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03721601",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

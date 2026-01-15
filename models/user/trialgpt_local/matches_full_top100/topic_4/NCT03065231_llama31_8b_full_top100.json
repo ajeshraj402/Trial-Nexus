@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03065231",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aneurysmal SAH patients with radiographic evidence of hydrocephalus",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients received at the UCSD Medical Center with grade II, III, IV subarachnoid hemorrhage or patients with aneurysmal SAH with radiographic evidence",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant patients or minors of age <18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients treated with lumbar drain, patients will have CSF drainage of 10cc/hour for lumbar drain while patients treated with EVD at 15cm above the tragus",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and presented with symptoms of cholecystitis. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03065231",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

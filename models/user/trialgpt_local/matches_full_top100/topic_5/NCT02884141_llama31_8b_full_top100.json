@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02884141",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with renal or craniocervical fibromuscular dysplasia diagnosed during the 4",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Who understood and signed inform consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Affiliated to the French health insurance system",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with renal or craniocervical atherosclerosis, or inflammatory vascular disease as dominant pathological features",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with renal or craniocervical arteries dissection or aneurysm without any other evidence of fibromuscular dysplasia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD...",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02884141",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04733404",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 yrs.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic functional mitral regurgitation (FMR) (\u22653+) due to ischemic or non-ischemic cardiomyopathy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NYHA functional class II to IVa.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction (LVEF) \u2265 20% and \u226450%.",
+      "label": "met",
+      "evidence": "EF of 65% on TTE."
+    },
+    {
+      "criterion": "Anatomically suitable for transcatheter mitral valve repair by edge-to-edge technique and can be treated by the DragonflyTM device.",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elevated BNP >150 pg/ml or corrected NT-proBNP \u2265600 pg/ml or heart failure hospitalization within the past 12 months ('corrected' refers to a 4% reduction in the BNP or NT-proBNP cutoff for every increase of 1 kg/m2 in BMI above a reference BMI of 20 kg/m2).",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transseptal catheterization and femoral vein access is determined to be feasible.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The subject or subject's legal representative has been informed of the nature of the trial, willing to accept the experimental tests, and has provided written informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Echocardiographic evidence of intracardiac mass, thrombus, or vegetation.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The presence of other severe heart valve disease requiring surgical intervention.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior mitral valve leaflet surgery or transcatheter mitral valve intervention.",
+      "label": "met",
+      "evidence": "history of c-section x 2, laser eye surgery, cataract surgery, foot surgery (shorten bone length)"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, infiltrative cardiomyopathy (e.g., amyloidosis, hemochromatosis, sarcoidosis, etc.), or any other structural heart disease causing heart failure other than dilated cardiomyopathy of either ischemic or non-ischemic etiology.",
+      "label": "met",
+      "evidence": "Marfans Syndrome"
+    },
+    {
+      "criterion": "Moderate to severe right heart dysfunction or an estimated pulmonary artery systolic pressure (PASP) > 70 mmHg assessed by echocardiography.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfans Syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04733404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

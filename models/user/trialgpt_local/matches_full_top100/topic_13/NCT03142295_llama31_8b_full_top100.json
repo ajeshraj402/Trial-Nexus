@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03142295",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is premenopausal, aged \u2265 18 and \u226445 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject had recurrent UTI's (\u22653 documented UTI's in the last year with documented symptom-free interval of at least 2 weeks) following the definition of a urinary tract infection: the presence of significance bacteruria (10^3 CFU/ml or more), pyuria and fever plus one or more of the following signs and symptoms: suprapubic or flank discomfort, dysuria, bladder spasms or pollakiuria",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has a documented urinary tract infection (see definition), for which oral antibiotic therapy has been initiated.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has adequate understanding of the procedures of the study and agrees to abide strictly thereby.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is able to communicate well with the investigators and is available to attend all study visits.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has signed informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject will remain available during the first 3 weeks of the study period (recruiting, intervention and first follow-up).",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any history, or evidence at screening, of clinically significant symptoms, physical signs or abnormal laboratory values suggestive of systemic conditions, such as cardiovascular, pulmonary, renal, hepatic, neurological, dermatological, endocrine, malignant, haematological, immune-deficient, psychiatric and other disorders, which could compromise the health of the recipient during the study. These include, but are not limited to, any of the following: positive HIV, HBV or HCV screening tests; the use of immune modifying drugs within three months prior to study onset (inhaled and topical corticosteroids and oral anti-histamines exempted) or expected use of such during the study period.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented vesico-urethral reflux",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented urinary retention > 100 milliliters post-void residual urine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anatomic urogenital abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Urolithiasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Nephrostomy catheters",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Extra-urogenital infections that require prolonged antibiotic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. They have been treated for urosepsis and have a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03142295",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

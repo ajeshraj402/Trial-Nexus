@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02111603",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Bowel disease questionnaire (BDQ) - IBS symptoms",
+      "label": "met",
+      "evidence": "Positive by Rome lll criteria"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "Men or women. Women of childbearing potential will have a negative pregnancy test before initiation of medication."
+    },
+    {
+      "criterion": "No restrictions on Hospital Anxiety/Depression Score (HADS)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of drugs or agents within the past 1 week or planned use in the subsequent 2 weeks during the study period",
+      "label": "not_met",
+      "evidence": "Birth control pill, estrogen replacement therapy, and thyroxine replacement are permissible exceptions"
+    },
+    {
+      "criterion": "Agents that alter GI transit including opioids, narcotics, anticholinergics, tricyclic antidepressants, serotonin-norepinephrine reuptake inhibitors (SNRI) antidepressants",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Analgesic drugs including opiates, nonsteroidal anti-inflammatory drugs (NSAID), cyclooxygenase-2 (COX 2) inhibitors",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The stool samples must were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02111603",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

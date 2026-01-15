@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00461149",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age above 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no previous treatments for acromegaly",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "concomitant hyperprolactinemia if requiring combined treatment with dopamine-agonist",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary treatment with lanreotide",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treatment duration less than 24 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a documented positive serum MPO-ANCA in his medical record and is treating with corticosteroid and cyclophosphamides since 4 months ago.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00461149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

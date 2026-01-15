@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00662207",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male Veterans using Hines VA Hospital SCI Service that have upper motor neuron injuries",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "s/p CVA",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Can voluntarily control their urination",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Surgically removed external urethral sphincter in men or replaced bladder",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures. Significant leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00662207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

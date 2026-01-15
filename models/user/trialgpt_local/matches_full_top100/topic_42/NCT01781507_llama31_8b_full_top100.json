@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01781507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 to 65 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Physician diagnosis of mild asthma based on the NIH guidelines",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Evidence of abnormal, reversible airway function on impulse oscillometry",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with inhaled or oral corticosteroids within one month of screening visit",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Known history of reflux, lung disease, or congenital heart disease",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has mild hypertension and proteinuria, but no other significant medical issues. She is a social alcohol consumer with no history of smoking or drug use.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01781507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

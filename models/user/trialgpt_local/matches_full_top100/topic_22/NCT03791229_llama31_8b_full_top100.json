@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03791229",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "8-18 years"
+    },
+    {
+      "criterion": "asa_physical_score",
+      "label": "met",
+      "evidence": "ASA I"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "agree to participate"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "31 years"
+    },
+    {
+      "criterion": "previous_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain. Computed Tomography shows a distended appendix.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03791229",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

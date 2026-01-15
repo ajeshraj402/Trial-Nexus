@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03468374",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18\u2264 years' old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female gender"
+    },
+    {
+      "criterion": "breast_cancer",
+      "label": "met",
+      "evidence": "cytologically confirmed breast cancer"
+    },
+    {
+      "criterion": "early_stage",
+      "label": "met",
+      "evidence": "invasive ductal breast carcinoma in the left upper outer quadrant, T1 with mass no more than 2 cm in greatest dimension or stage T2 with mass more than 2 cm but no more than 5 cm in greatest dimension"
+    },
+    {
+      "criterion": "no_axillary_lymph_node_metastasis",
+      "label": "met",
+      "evidence": "no clinical evidence of axillary lymph node metastasis (N0)"
+    },
+    {
+      "criterion": "no_remote_metastasis",
+      "label": "met",
+      "evidence": "no remote metastasis (M0)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "LABC",
+      "label": "not_met",
+      "evidence": "no mention of LABC"
+    },
+    {
+      "criterion": "multifocal_breast_cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "distant_metastasis",
+      "label": "not_met",
+      "evidence": "no remote metastasis (M0)"
+    },
+    {
+      "criterion": "regional_nodal_metastasis",
+      "label": "not_met",
+      "evidence": "no clinical evidence of axillary lymph node metastasis (N0)"
+    },
+    {
+      "criterion": "prior_major_breast_or_axillary_operations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "not sexually active and has no children"
+    },
+    {
+      "criterion": "inability_to_sign_informed_consent",
+      "label": "met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with HER2-positive and ER/PR negative breast cancer, using multivitamins and iron supplements.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03468374",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

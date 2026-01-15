@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01110330",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of uncomplicated interdigital Tinea pedis",
+      "label": "met",
+      "evidence": "KOH microscopy"
+    },
+    {
+      "criterion": "co-operative, reliable and sufficiently competent to grade and record symptoms as requested",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "post-menopausal or surgically sterile, abstinent, or, if sexually active, practicing an effective method of birth control",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous sensitivity to imidazole antifungal agents",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of disallowed therapies including oral (by mouth) antifungal treatments within the previous 6 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a clinical diagnosis of uncomplicated interdigital Tinea pedis confirmed by KOH microscopy. He smokes and drinks, but no other risk factors mentioned.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01110330",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01967212",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stroke",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "above 18 years-old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pharyngeal stage dysphagia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "on trachea",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cannot follow one command",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01967212",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

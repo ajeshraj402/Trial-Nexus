@@ -1,0 +1,95 @@
+{
+  "trial_id": "NCT03020602",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Be \u2265 18 years of age",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Have a life expectancy \u2265 6 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a Karnofsky Performance Score (KPS) \u2265 60",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, but is able to walk with difficulty"
+    },
+    {
+      "criterion": "Have pathologically proven GB, gliosarcoma (WHO IV), or anaplastic astrocytoma (WHO III) in recurrence after treatment with bevacizumab",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine"
+    },
+    {
+      "criterion": "Be at least 14 days from the last administration of bevacizumab",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have received radiation therapy with concurrent temozolomide",
+      "label": "met",
+      "evidence": "Patient has undergone field radiation t10-l1 followed by 11 cycles of temozolomide"
+    },
+    {
+      "criterion": "Have adequate organ and marrow function as follows (all required): ANC \u2265 1500 mm3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelets \u2265 100,000/mm3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 9 g/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine \u2264 1.8 mg/dL or creatinine clearance > 50 mL/min Bilirubin \u2264 1.5 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alanine aminotransferase (ALT) \u2264 2.5 x upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aspartate transaminase (AST) \u2264 2.5 x ULN",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has a history of spontaneous or tumor related cerebral hemorrhage; or has cerebral hemorrhage as determined by the screening FDG PET CT and MRI.",
+      "label": "does_not_trigger",
+      "evidence": "Patient has a spinal cord conus mass, but no mention of cerebral hemorrhage"
+    },
+    {
+      "criterion": "Has the any of the following cardiac history: Active heart disease including myocardial infarction within previous 3 months Symptomatic coronary artery disease Arrhythmias not controlled by medication Unstable angina pectoris Uncontrolled or symptomatic congestive heart failure (NYHA class III and IV)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled or severe coagulopathies or a history of clinically significant bleeding within the past 6 months, including any of the following, but not limited to: Epistaxis Hemoptysis Hematochezia Hematuria Gastrointestinal bleeding Spontaneous or tumor related intracranial hemorrhage Known predisposition for bleeding such as von Willebrand's disease or other such condition(s)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is pregnant or lactating",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man, no mention of pregnancy or lactation"
+    }
+  ],
+  "notes": "Unknown life expectancy and organ function. No information on ANC, platelets, hemoglobin, serum creatinine, bilirubin, ALT, AST, PT, INR, PTT.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03020602",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

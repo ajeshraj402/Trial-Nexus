@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04667195",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspicion of APN",
+      "label": "met",
+      "evidence": "receiving physician"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "life-saving treatment delay",
+      "label": "does_not_trigger",
+      "evidence": "attending physician"
+    },
+    {
+      "criterion": "COVID-19 within 14 days",
+      "label": "does_not_trigger",
+      "evidence": "negative blood culture"
+    }
+  ],
+  "notes": "25-year-old G1 P1 pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Urine culture shows Gram-negative rod-shaped bacterial cells.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04667195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

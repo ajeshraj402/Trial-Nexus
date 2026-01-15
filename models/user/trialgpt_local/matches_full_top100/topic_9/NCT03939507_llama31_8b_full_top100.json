@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03939507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "established diagnosis of epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "drug refractoriness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treatment(s) with one or more appropriate AEDs at maximally tolerated doses",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least one seizure during the previous 6 months while at steady state on the currently used AED regimen",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >16 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no progressive disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to complete the Adverse Profile AEP questionnaire",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "an AEP score >=45",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not seizures during the previous 6 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age <16 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "progressive disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to complete the Adverse Profile AEP questionnaire",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "an AEP score <45",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03939507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

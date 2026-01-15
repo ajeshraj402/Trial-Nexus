@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01130311",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults (\u226516 years on 1st March 2009)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active Pulmonary Tuberculosis diagnosed by Sputum Smear positivity for Acid fast bacilli (AFB)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Not already on antituberculous treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not receiving vitamin D replacement or supplementation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of having been treated with antimycobacterial therapy for < 6 months or with < 4 first-line anti-tuberculous drugs",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Extra- pulmonary TB",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Immune suppressed; with HIV infection, hepatic, renal failure, malignancy, diabetes mellitus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sarcoidosis, hyperparathyroidism",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Already on or requiring corticosteroids, immunosuppressive agents, thiazide diuretics",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Breast feeding or pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic cardiac disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Seriously ill or moribund patients with advanced respiratory impairment (cor pulmonale, hypercapnia, respiratory acidosis, congestive cardiac failure)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has active pulmonary tuberculosis diagnosed by sputum smear positivity for acid-fast bacilli. No history of treatment with antimycobacterial therapy or first-line anti-tuberculous drugs.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01130311",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

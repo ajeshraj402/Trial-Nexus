@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00229996",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than 18 and pre-menopausal",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pelvic pain of at least 3 months duration",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of endometriosis by laparoscopy or laparotomy within three years of entry",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The diagnosis of endometriosis will require either histology consistent with endometriosis or operative records indicating visual evidence of lesions consistent with endometriosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate to severe pelvic pain preoperatively attributable to endometriosis (average Numerical Rating Scale of 5 or more for three or more months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willingness to comply with visit schedule and protocol",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of oral contraceptives within one month of the surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dose of Lupron within three months if given monthly or within five months if given 3-month injection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any disorder that represents a contraindication to the use of oral contraceptives (e.g. insulin-dependent diabetes mellitus, history of thrombophlebitis, hypertension, history of cardiovascular disease, smoker at 35 or more years of age) or GnRH analogs (e.g., history of osteopenia)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of hysterectomy and bilateral salpingoophorectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive pregnancy test at first postoperative (i.e, intake visit)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Significant mental or chronic systemic illness that might confound pain assessment or the inability to complete the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has hypertension (BP of 146/99) and proteinuria (3+ proteins on urine dipstick).",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT00229996",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

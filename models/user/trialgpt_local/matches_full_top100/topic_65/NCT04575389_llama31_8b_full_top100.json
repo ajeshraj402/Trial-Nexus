@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04575389",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 2 diabetic patient",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with type 1 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gestational diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with drug affecting uric acid levels",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "secondary diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, but meets inclusion criteria for type 2 diabetic patients. No other exclusion criteria met.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04575389",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

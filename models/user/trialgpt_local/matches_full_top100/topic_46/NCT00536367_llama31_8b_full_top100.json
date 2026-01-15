@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00536367",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "30-year-old male"
+    },
+    {
+      "criterion": "presentation to the Emergency Department and/or admission to the hospital",
+      "label": "met",
+      "evidence": "admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite."
+    },
+    {
+      "criterion": "diagnosis of acute decompensated heart failure",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "minors",
+      "label": "met",
+      "evidence": "30-year-old male"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a positive sputum culture for Mycobacterium tuberculosis, which are sensitive to first-line TB drugs.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00536367",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

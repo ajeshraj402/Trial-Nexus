@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02204774",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of thoracic aortic aneurysm defined by the following parameters",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients on continuous positive airway pressure (CPAP) therapy for OSA at baseline",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with known central sleep apnoea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on morphine or other opioid medication, heroin addiction, alcohol addiction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with moderate or severe aortic regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with moderate or severe aortic stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant patients",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, drinks around 60 units of alcohol per week, smokes 22 cigarettes per day. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02204774",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

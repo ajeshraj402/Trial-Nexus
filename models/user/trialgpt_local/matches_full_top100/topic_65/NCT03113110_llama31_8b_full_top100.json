@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03113110",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "therapy \u22656 months, based on prior 2-h BG \u2265200 mg/dL, fasting BG \u2265125 mg/dL (2 times) or HbA1c \u22656.5%",
+      "label": "met"
+    },
+    {
+      "criterion": "stable renal allograft function >6 months; eGFR \u226530 mL/min/1.73m2",
+      "label": "met"
+    },
+    {
+      "criterion": "undergoing an OGTT, lab work and urine analysis (including ketones, urinary culture)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age< 18 years",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with prior history of type 1 or type 2 diabetes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03113110",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

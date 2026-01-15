@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03353064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients > 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of hypercapnia (PCO2 \u2265 45mmHg) secondary to COPD-OSA overlap, OHS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neuromuscular disease / weakness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Requiring NIV / NIPPV outpatient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to operate a smart device / tablet",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-English or Non-Spanish-speaking (device videos and surveys are available in English or Spanish only)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients unable to give consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prisoners",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients <18 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient already on NIPPV/ CPAP at home and compliant on therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Significant non-pulmonary conditions (CHF with EF < 40%)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary hypertension with PASP> 60 mmGH",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. They are on NIV/NIPPV outpatient and have a history of CHF with EF 55%. However, they do not have significant non-pulmonary conditions such as severe valvular heart disease or end-stage renal disease.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03353064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01206270",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Non-palpable Multiple hypoechoic testicular nodules",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "Serum Follicle-stimulating hormone (FSH) > 7 mIU/ml",
+      "label": "met",
+      "evidence": "undiagnosed"
+    },
+    {
+      "criterion": "Infertility: Klinefelter Syndrome, Hypergonadotropic Hypogonadism",
+      "label": "met",
+      "evidence": "undiagnosed"
+    },
+    {
+      "criterion": "negative testicular tumors markers: beta-hCG (Human chorionic gonadotropin)",
+      "label": "met",
+      "evidence": "undiagnosed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypogonadotropic Hypogonadism",
+      "label": "not_met",
+      "evidence": "undiagnosed"
+    },
+    {
+      "criterion": "positive testicular tumors markers: beta-hCG, alpha-FP, CEA, LDH, ferritin, PLAP",
+      "label": "not_met",
+      "evidence": "undiagnosed"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis and normal physical assessment.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01206270",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

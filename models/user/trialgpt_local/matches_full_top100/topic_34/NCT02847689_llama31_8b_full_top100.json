@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02847689",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gestational age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "infants born preterm at Stanford Children's Hospital between 27 0/7 - 31 6/7 weeks",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital anomalies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recognizable malformation syndromes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active seizure disorders",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of Central Nervous System infections",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hydrocephalus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major sensori-neural hearing loss",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Likelihood to be transferred from NICU to alternate care facility or home environment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior to 36 weeks PMA",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness, loss of interest in activities, and weight loss. She has no history of psychologic problems or drug use.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT02847689",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

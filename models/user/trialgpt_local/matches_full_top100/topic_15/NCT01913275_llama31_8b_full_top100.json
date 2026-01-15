@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01913275",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "periampullary carcinoma and carcinoma of the head of pancreas",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "serum bilirubin >15mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "gastric outlet obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unresectable tumour assessed by imaging techniques",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of cholecystectomy and Billroth II gastrectomy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas, but also has a diverticular abscess which may be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01913275",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

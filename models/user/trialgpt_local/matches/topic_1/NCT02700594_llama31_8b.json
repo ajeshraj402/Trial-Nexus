@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02700594",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age18-75",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Referred to out-patient physical therapy for evaluation/treatment of a knee condition",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma and is being treated with high-dose steroids, which suggests they are not referred for a knee condition."
+    },
+    {
+      "criterion": "Agreed to be in the study and signed the informed consent document",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of any medical 'red flags' suggestive of pain that is not of musculoskeletal origin",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma and severe lower extremity weakness, which suggests their pain may be of non-musculoskeletal origin."
+    },
+    {
+      "criterion": "Osteoporosis or recent fracture of the hip or spinal joints",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spinal or hip joint surgery or prosthesis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spinal instability (Grade II spondylolisthesis or greater), spondyloarthritides, or severe spinal misalignment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Nervous system disease or disorder",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma, which is a nervous system disease."
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Key unknowns include whether the patient agreed to be in the study and signed the informed consent document, as well as their current pregnancy status.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02700594",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

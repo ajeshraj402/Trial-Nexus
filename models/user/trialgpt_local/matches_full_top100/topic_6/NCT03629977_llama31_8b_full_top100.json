@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03629977",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Critically ill patients admitted to intensive care units in Stockholm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients over 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients <18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with DNAR (do not attempt resuscitation)-orders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients dying within 12 hours of commencing renal replacement therapy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03629977",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

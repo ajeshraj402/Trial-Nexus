@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01252199",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Bloody diarrhea (by visual inspection) for no more than 36 hours prior to screening",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Detection of Shiga toxin (Stx1 and/or Stx2) in stool",
+      "label": "met",
+      "evidence": "lab results"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemolytic Anemia: hematocrit < 30% with evidence of hemolysis",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Thrombocytopenia: platelet count <150 x 10^3/uL",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Nephropathy: serum creatinine > Upper Limit Normal (ULN) adjusted for age and gender",
+      "label": "not_met",
+      "evidence": "lab results"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite. Lab results show Hemoglobin: 9.7 g/dL, Platelet: 110,000 /cu.mm, Creatinine: 3.6 mg/dL.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01252199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

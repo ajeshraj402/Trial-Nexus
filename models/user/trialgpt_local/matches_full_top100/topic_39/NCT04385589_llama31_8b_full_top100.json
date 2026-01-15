@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04385589",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age more than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetic patient type 2 with history of chronic heart failure(HFrEF)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other etiologies of fluid overload different from heart failure.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyponatremia: Sodium level below 125mmol/l",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 3-day-old Asian female infant presenting with jaundice. She has an uncomplicated pregnancy and normal vital signs.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04385589",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

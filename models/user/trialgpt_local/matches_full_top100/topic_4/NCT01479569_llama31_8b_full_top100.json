@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01479569",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients, age greater than or equal to 18",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Undergoing medically necessary diagnostic or therapeutic pericardiocentesis",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cardiogenic shock (sustained systolic blood pressure less than or equal to 80 mm Hg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or nursing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to undergo magnetic resonance imaging",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac pacemaker or implantable defibrillator",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cerebral aneurysm clip",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neural stimulator (e.g. TENS-Unit)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any type of ear implant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ocular foreign body (e.g. metal shavings)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metal shrapnel or bullet.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and presented with symptoms of cholecystitis. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01479569",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

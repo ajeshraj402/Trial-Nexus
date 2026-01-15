@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01406509",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy subjects aged from 6 months to 5years old of normal intelligence",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The subjects'guardians are able to understand and sign the informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects established as healthy after medical history questioning,physical examination and clinical decision and in accordance with vaccination requirements of the experimental vaccine",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects who can comply with the requirements of the clinical trial program according to the researcher's views",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects who have never received group A, C polysaccharide meningococcal vaccine and type b haemophilus Influenzal vaccine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with temperature <37\u00b0C on axillary setting",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject who has a medical history of Meningitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject that has a medical history of any of the following: allergies, seizures, epilepsy, encephalopathy history and so on",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject who is allergic with tetanus toxoid components",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject suffering from thrombocytopenia or other coagulation disorder may lead to contraindication to intramuscular injection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject who has a history of allergic reactions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any known immunological dysfunction",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Had received gamma globulin or immune globulin, in the past two weeks",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of thrombocytopenia which may lead to contraindication to intramuscular injection. However, he was treated with plasma exchange and corticosteroids.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT01406509",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

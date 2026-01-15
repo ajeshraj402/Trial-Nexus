@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01269008",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than 18 years and less than 30 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have had diabetes for at least 1 year, and in good control (HbA1C less than 8.5 %)",
+      "label": "met",
+      "evidence": "lab studies: A1c: 11.3%"
+    },
+    {
+      "criterion": "Be on continuous subcutaneous insulin infusion using an insulin pump",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects must be otherwise healthy except for T1DM, and treated for hypothyroidism if present",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Menstruating women must have negative pregnancy test.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin (Hb) more than 12 g/dl",
+      "label": "met",
+      "evidence": "lab studies: Hb"
+    },
+    {
+      "criterion": "Weight must be equal to or greater than 50 Kg",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any chronic disease (leukemia, asthma, inflammatory bowel disease, cystic fibrosis, juvenile rheumatoid arthritis, etc that directly, or as a result of treatment, affect glucose homeostasis)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin less than 12 g/dl",
+      "label": "not_met",
+      "evidence": "lab studies: Hb"
+    },
+    {
+      "criterion": "Lack of a supportive family environment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive pregnancy test based on serum beta HCG in menstruating young women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence or history of chemical abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HbA1c more than 8.5 %",
+      "label": "not_met",
+      "evidence": "lab studies: A1c"
+    },
+    {
+      "criterion": "Weight less than 50 Kg",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies. He has had previous episodes of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01269008",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

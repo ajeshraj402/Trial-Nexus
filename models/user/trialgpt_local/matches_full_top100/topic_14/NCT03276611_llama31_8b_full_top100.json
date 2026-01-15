@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03276611",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Moderate and severe OSA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Candidates for initiation of CPAP therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant lung disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left sided heart failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "End stage malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Advanced organ failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, CHF, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03276611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

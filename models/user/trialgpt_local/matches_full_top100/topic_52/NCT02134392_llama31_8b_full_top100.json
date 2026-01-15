@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02134392",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Documented laboratory-confirmed clostridium difficile infection",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen."
+    },
+    {
+      "criterion": "Documentation of ongoing diarrhea at time of recruitment",
+      "label": "met",
+      "evidence": "He has been having profuse watery diarrhea without odor since yesterday."
+    },
+    {
+      "criterion": "Children \u22652 years old, <18 years old; young adults >18 years old, <21 years old",
+      "label": "met",
+      "evidence": "A 34 year old man"
+    },
+    {
+      "criterion": "\u2265 18 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "In good health",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe comorbid condition (at discretion of the principal investigator)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "On immunosuppressive medications (high dose steroids 30 mg/kg of methylprednisolone)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe or fulminant C. difficile colitis",
+      "label": "not_met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen."
+    },
+    {
+      "criterion": "Toxic appearance",
+      "label": "met",
+      "evidence": "He looks ill with dry mucosa."
+    },
+    {
+      "criterion": "Signs of hemodynamic instability",
+      "label": "not_met",
+      "evidence": "Blood pressure is 95/62 lying down and drops to 75/40 standing."
+    }
+  ],
+  "notes": "Patient has a confirmed C. difficile infection, but has signs of hemodynamic instability.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02134392",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

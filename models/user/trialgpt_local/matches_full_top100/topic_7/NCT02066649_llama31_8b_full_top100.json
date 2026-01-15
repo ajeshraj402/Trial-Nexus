@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT02066649",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cirrhosis (either by history, serology or imaging)",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "medium or large esophageal varices on variceal screening esophagogastroduodenoscopy (EGD)",
+      "label": "met",
+      "evidence": "imaging"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant females",
+      "label": "unknown"
+    },
+    {
+      "criterion": "patients on beta blockers or nitrates for any underlying condition",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and medium or large esophageal varices, but is not pregnant and does not take beta blockers or nitrates.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02066649",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

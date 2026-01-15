@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04537390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ages 0-18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Tanner Stage I- V",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous diagnosis of an illness associated with premature ovarian failure (Turner's syndrome, Fragile X permutation carrier) or endocrine disorder associated with irregular menstrual cycles (Cushing's disease, poorly-controlled Thyroid disease, hyperprolactinemia, polycystic ovary syndrome, and congenital adrenal hyperplasia)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous diagnosis of any malignancy or any history of systemic/local chemotherapy, radiation therapy, or stem-cell transplant.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT04537390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

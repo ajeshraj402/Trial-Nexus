@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02810886",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years old.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically-proven prostate adenocarcinoma.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Biochemical recurrence (BCR) after local treatment with radical curative intent based on PSA values 1: Following Radical Prostatectomy +/- Radiotherapy: a serum PSA increase confirmed by a second PSA measurement higher than the first one with a value of 0.2 ng/mL or more within minimum of one week.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Following primary Radiotherapy: PSA value of 2 ng/ml above the nadir.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A continued rise in PSA level despite treatment with curative intent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with negative, inconclusive or oligometastatic disease on the Routine Imaging Workup and susceptible to be treated with curative radical intent (salvage treatment).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Routing Imaging Workup exams are accepted when performed within 1 month before PSMA-PET/CT (this includes WB-MRI, prostatic/pelvic MRI, and/or Bone Scintigraphy).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient treatment strategy based on routine diagnostic work-up needs to be recorded after discussion at the Urologic Tumor Board and available before the PSMA PET/CT.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status \u2264 2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent prior to any study related procedure.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous treatment with isotopes (Radium, Samarium, Strontium, etc.).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All medical conditions that might interfere with the correct performance of imaging scans.",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous malignancy other than Prostate Cancer (except basocellular or squamous cell skin cancer).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients treated with palliative chemotherapy or new hormonal therapies like Abiraterone/Enzalutamide.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA rise while on active treatment (LHRH-agonist, LHRH-antagonist, anti-androgen, maximal androgen blockade, oestrogen). A minimal time window of 1 month is required.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medical castration with Testosterone < 50 ng/dl (1.7 nmol/L).",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02810886",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

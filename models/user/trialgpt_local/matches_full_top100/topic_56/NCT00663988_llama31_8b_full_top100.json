@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "normal function of liver",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "normal function of kidney",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "met",
+      "evidence": "patient history"
+    },
+    {
+      "criterion": "at least 3 sites were matched within 6 HLA sites",
+      "label": "met",
+      "evidence": "HLA matching"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "abnormal function of liver",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "abnormal function of kidney",
+      "label": "not_met",
+      "evidence": "lab study"
+    }
+  ],
+  "notes": "Patient has a history of acromegaly due to pituitary adenoma and recent surgery. He takes only vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03464851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatients age > 18 years sent to the vascular laboratory for carotid duplex examination",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "examination for initial carotid ultrasound study or for follow-up of known carotid disease.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Enrolled patients will include at least 100 subjects with at least moderate known stenosis (50-69% or greater, PSV > 125 cm/sec) or occlusion of one or both ICAs",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hospitalized inpatients.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to provide informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD...",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03464851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

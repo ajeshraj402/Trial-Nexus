@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02504632",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "transfemoral TAVI with MCV aspirin treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "with stable coronary artery disease treated by aspirin but without aortic stenosis.",
+      "label": "met"
+    },
+    {
+      "criterion": "Severe symptomatic AS (Aortic valve area < 0,6 cm2/m2 SC), deemed, after multidisciplinary heart team evaluation, contra-indicated or at high risk for surgery and suitable for TF TAVI with a MCV prosthesis.",
+      "label": "met"
+    },
+    {
+      "criterion": "Aspirin treatment (75-160 mg/d for at least one week)",
+      "label": "met"
+    },
+    {
+      "criterion": "Control group",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Any co-morbidity limiting life-expectancy < 1 year",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Terminal chronic kidney disease requiring hemodialysis thrombocytopenia <100 G/L, anemia (Hb < 10 g/dl)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Treatment by another antiplatelet agent within 10 days before the procedure",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "platelet agents other than aspirin",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Procedures: Specific platelet activation markers, circulating platelet/monocytes aggregates, platelet reactivity and vWF will be assessed in peripheral venous blood before, 1 and 5 days after TAVI and in ascending aorta during the procedure.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has severe symptomatic AS with aortic valve area < 0.6 cm2/m2 SC, deemed high risk for surgery and suitable for TF TAVI with MCV prosthesis.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02504632",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

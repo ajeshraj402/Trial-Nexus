@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03953755",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication left-side valve surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwillingness to give informed consent and to enter a regular follow-up program.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior surgical or percutaneous mitral valve intervention",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication to cardiopulmonary bypass (CPB)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical signs of cardiogenic shock at the time of randomization",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF was 25%. He underwent preop workup for valvular replacement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03953755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

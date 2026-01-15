@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04035980",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "sanitary card",
+      "label": "met",
+      "evidence": "valid sanitary card in our public health system"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "Signed Informed consent"
+    },
+    {
+      "criterion": "HCV testing",
+      "label": "met",
+      "evidence": "positive HCV antibody test without RNA result or positive result without treatment or confirmed sustained virological response"
+    },
+    {
+      "criterion": "time since last HCV test",
+      "label": "met",
+      "evidence": "tested more than one year ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous DBS testing at DAC lost to follow-up",
+      "label": "not_met",
+      "evidence": "no evidence of previous DBS testing at DAC lost to follow-up"
+    }
+  ],
+  "notes": "Patient has HCV and HBV coinfection, but no other significant medical history. He is on treatment for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT04035980",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

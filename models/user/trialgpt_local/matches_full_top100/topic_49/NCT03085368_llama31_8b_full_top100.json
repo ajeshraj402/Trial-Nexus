@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03085368",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "female patients, aged 18 years and less than 80 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgical resection of the primary tumor pathological examination, showed HER2 positive",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the subjects in pregnancy or lactation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "received chemotherapy, endocrine or anti HER2 anti-tumor therapy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome and obesity. She has been treating with GH for 6 months.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT03085368",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

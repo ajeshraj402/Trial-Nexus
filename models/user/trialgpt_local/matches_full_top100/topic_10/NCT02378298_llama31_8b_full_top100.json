@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02378298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Man or woman between 18-70 years TAO with CAS of \u2265 4 (less than 3 months)",
+      "label": "met",
+      "evidence": "patient's 3rd flare in 2 months"
+    },
+    {
+      "criterion": "Euthyroid for at least 6 weeks",
+      "label": "met",
+      "evidence": "CBC was at her baseline, w/normal differential"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dysthyroid optic neuropathy (DON)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ulcerative Keratitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous treatment with steroids for TAO",
+      "label": "not_met",
+      "evidence": "Pt is on steroid taper which is new for her"
+    },
+    {
+      "criterion": "Previous Treatment with Rituximab (MabThera\u00ae)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive Hepatitis B or C serology.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Receipt of a live vaccine within 4 weeks prior RTX+MTX to randomization",
+      "label": "not_met",
+      "evidence": "Pt was stabilized on IV steroids and IV benadryl"
+    },
+    {
+      "criterion": "History of recurrent significant infection or history of recurrent bacterial infections",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient who may not attend to the protocol according to the investigators opinion.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02378298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

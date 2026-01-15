@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02297711",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "athletic_status",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "pain_location",
+      "label": "met",
+      "evidence": "The pain became localized to the right lower quadrant in the morning"
+    },
+    {
+      "criterion": "chronic_pain_duration",
+      "label": "met",
+      "evidence": "chronic dull, diffuse groin pain lasting > 6weeks"
+    },
+    {
+      "criterion": "sportsmans_hernia_diagnosis",
+      "label": "met",
+      "evidence": "history, physical examination and MRI indicating sportsman's hernia/athletic pubalgia"
+    },
+    {
+      "criterion": "pain_radiation",
+      "label": "met",
+      "evidence": "may radiate inner thigh, scrotum or pubic bone"
+    },
+    {
+      "criterion": "grade_I-II_edema_allowed",
+      "label": "met",
+      "evidence": "grade I-II edema at pubic symphysis on MRI scan is allowed (can be secondary after groin disruption)"
+    },
+    {
+      "criterion": "unilateral_or_bilateral_pain",
+      "label": "met",
+      "evidence": "unilateral or bilateral complains"
+    },
+    {
+      "criterion": "randomization_level",
+      "label": "met",
+      "evidence": "the randomization is on patient level and not hernia level"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "willingness_to_participate",
+      "label": "not_met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "inguinal_or_femoral_hernia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "MRI_reveals_major_pathology",
+      "label": "not_met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "isolated_adductor_tendinitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "femoro-acetabular_impingement",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_osteitis_pubis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "former_surgery_to_groin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02297711",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

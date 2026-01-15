@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03142867",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "liver biopsy, are consented to phase II, and do not have known CAD defined as prior",
+      "label": "met"
+    },
+    {
+      "criterion": "percutaneous coronary intervention (PCI) or coronary artery bypass graft (CABG) or have",
+      "label": "met"
+    },
+    {
+      "criterion": "not undergone CCTA within the previous 12 months, will undergo a CCTA with CAC score.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "greater or equal to 5% steatosis on MRI",
+      "label": "triggers"
+    },
+    {
+      "criterion": "liver stiffness greater than 7 kPa on Fibroscan\u00ae",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of CAD, CVA, and PVD. He is referred to cardiology for evaluation of PVD. The patient reports occasional dizziness and denies chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03142867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

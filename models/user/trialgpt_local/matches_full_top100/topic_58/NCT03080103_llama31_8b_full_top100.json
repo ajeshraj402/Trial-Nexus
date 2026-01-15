@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03080103",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age over 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncomplicated AA confirmed by US and/or CT or MRI scan.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or lactating",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diffuse peritonitis at physical examination",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious systemic illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive anamnesis for Inflammatory Bowel Disease (IBD)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. CT scan showed evidence of acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03080103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

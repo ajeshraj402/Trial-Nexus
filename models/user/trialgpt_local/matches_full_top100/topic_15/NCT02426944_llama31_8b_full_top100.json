@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02426944",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "history of significant bleeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardioembolic event",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thrombus in the LA or LAA",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life expectancy less than 2 years",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass, presenting with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02426944",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

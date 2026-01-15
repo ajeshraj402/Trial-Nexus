@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03675152",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between 8 and 20 years",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "early uni- or bilateral defect in pars interarticularis in the CT-scan",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "no signs of bony sclerosis on CT",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bone marrow edema in lumbar spinal MR images",
+      "label": "met",
+      "evidence": "Her lab work is remarkable for leukocytosis."
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "spondylolisthesis on standing spinal radiograph",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "systemic skeletal disorder or lack of interest",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03675152",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

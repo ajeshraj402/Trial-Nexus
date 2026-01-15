@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04142099",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "37 weeks to 40 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No high risk pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No nipple abnormality",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to breastfeed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Newborn weight 2500-4000 grams",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "High risk pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "37 weeks ago",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major bleeding during production",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonatal life signs abnormality",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonatal oral structure abnormalities",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, diagnosed with abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04142099",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

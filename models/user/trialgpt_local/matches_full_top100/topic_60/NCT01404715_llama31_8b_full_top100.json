@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01404715",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-45 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Randomized Study Visit Day 1: Metformin alone Subjects will report to the CRC at approximately 7:30 AM, after an overnight fast of at least 10 hours (since approximately 10:00 PM). Vital signs and a brief history will be taken upon arrival. If all forearm vein to facilitate blood sampling.",
+      "label": "met"
+    },
+    {
+      "criterion": "Randomized Study Visit Day 2:Co-administration of metformin with imatinib Subjects will present to the CRC after an overnight fast as previously described.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating woman (female subjects will have a urine pregnancy test at the screening visit)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Abnormal bone marrow function (leukocyte, neutrophil, or platelet counts outside the normal range)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of hypersensitivity or allergic reaction to metformin or imatinib",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01404715",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

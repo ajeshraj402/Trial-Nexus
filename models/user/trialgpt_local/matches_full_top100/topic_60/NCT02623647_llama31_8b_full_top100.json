@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02623647",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "63-year-old man"
+    },
+    {
+      "criterion": "low risk prostate cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gleason Score-GLS: 3+3 and serum Prostate Specific Antigen-PSA: PSA<10 ng/ml",
+      "label": "met",
+      "evidence": "PSA level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "intermediate risk prostate cancer defined as clinical stage T2b-c or GLS 7",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "PSA of 10-20 ng/ml, only patients with favourable characteristics: a single factor for intermediate risk AND GLS 3 + 4 AND <50% of biopsy cores containing cancer (12 cores as a minimum)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior radiotherapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "concomitant androgen deprivation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pt failure to consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02623647",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

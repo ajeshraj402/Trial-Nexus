@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03341468",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled to undergo radical prostatectomy at the Massachusetts General Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anticipated intra-operative placement of an 18 or 20 French, latex or silicone urethral catheter at the conclusion of the operation (standard of care)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to speak, read or understand English",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Apparent sore, rash, or infection on the penis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Anatomic abnormalities that would prevent proper application and use of the device",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with significant physical or mental disability that, in the opinion of the treating surgeon, might prevent safe placement or removal of the device, or completion of the symptom-based survey.",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with fragile skin",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He currently has a urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03341468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01733290",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with age of 20 years old or above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Free of active urinary tract infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Free of bladder outlet obstruction on enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients should have severe dysuria or urinary retention, large residual urine and have been treated with medication or other therapeutic modality for over 3 months.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe cardiopulmonary disease and such as congestive heart failure, arrhythmia, poorly controlled hypertension, not able to receive regular follow-up",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with bladder outlet obstruction on enrollment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with uncontrolled confirmed diagnosis of acute urinary tract infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients have laboratory abnormalities at screening including: Alanine aminotransferase (ALT) > 3 x upper limit of normal range aspartate aminotransferase (AST) > 3 x upper limit of normal range.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients have abnormal serum creatinine level > 2 x upper limit of normal range",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with any contraindication to be urethral catheterization during treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. They have been treated with medication for over 3 months but have a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01733290",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00968240",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of relapsed or refractory glioblastoma multiforme (GBM), anaplastic astrocytoma (AA) or anaplastic mixed oligoastrocytoma (AOA)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Karnofsky performance status greater or equal to 60%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "expected survival of greater or equal to three months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "male or female patients of greater or equal 18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients previously treated with more than 6 cycles (28 days each) of Bevacizumab at 10/mg/kg",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or lactating",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is being treated with Avastin. They meet several inclusion criteria, but have not been previously treated with Bevacizumab.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00968240",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

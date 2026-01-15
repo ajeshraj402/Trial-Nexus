@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02950389",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "lambda chains",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "free light chain values >100 mg/L for k chains or >50 mg/L for lambda chains.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dialysis, multiple myeloma requiring the double PMMA filter application, poly-allergy, HIV positivity.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 3-day-old female infant with jaundice. She was born at 34w of gestation and has normal liver and spleen function.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02950389",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

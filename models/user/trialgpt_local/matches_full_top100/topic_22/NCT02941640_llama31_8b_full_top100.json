@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02941640",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acute appendicitis",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "abdominal pain",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman complaining of abdominal pain."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient younger than 18 years",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has acute appendicitis with localized tenderness and guarding in the right lower quadrant, making her a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02941640",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

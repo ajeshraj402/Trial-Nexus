@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02168660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34-year-old woman"
+    },
+    {
+      "criterion": "BMI > 95% for age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum 25-OH D level < or + to 25 ng/mL",
+      "label": "met",
+      "evidence": "Vit D: 14ng/ml"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI < 95% for age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum 25-OH D level > 25 ng/mL",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "current Vitamin D supplementation > 400 IU/day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anti-convulsant therapy, anti-hypertensive therapy, lipid lowering medication",
+      "label": "not_met",
+      "evidence": "Her past medical and drug history are unremarkable"
+    },
+    {
+      "criterion": "any medications that affect glucose metabolism (e.g., metformin, insulin)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "daily glucocorticoid therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "Her past medical and drug history are unremarkable"
+    },
+    {
+      "criterion": "any disorders of bone or calcium metabolism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic or renal disease",
+      "label": "not_met",
+      "evidence": "Her laboratory study is remarkable for Vit D: 14ng/ml and otherwise healthy"
+    },
+    {
+      "criterion": "any malabsorptive disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline serum Calcium > 11 ng/dL (> 2 SD above the mean)",
+      "label": "not_met",
+      "evidence": "Ca: 9.2mg/dl"
+    },
+    {
+      "criterion": "any genetic disorder that predisposes to obesity (e.g., Prader Willi",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypothalamic obesity",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02168660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

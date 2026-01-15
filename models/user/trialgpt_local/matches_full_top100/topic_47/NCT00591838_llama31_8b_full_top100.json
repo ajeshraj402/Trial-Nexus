@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00591838",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed non-small cell cancer by biopsy or cytology.",
+      "label": "met",
+      "evidence": "Squamous cell carcinoma, adenocarcinoma, large cell carcinoma, bronchioalveolar carcinoma, or non-small cell carcinoma (not otherwise specified) are allowed."
+    },
+    {
+      "criterion": "Staging studies must identify patient as AJCC Stage I or II based on only 1 of following combinations of TNM staging.",
+      "label": "met",
+      "evidence": "T1, N0, M0"
+    },
+    {
+      "criterion": "Primary tumor must be arising in one of the following central chest locations.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age >=18.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Zubrod performance status 0-2.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women of childbearing potential must use effective contraception.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No direct evidence of regional or distant metastases after appropriate staging studies.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No synchronous primary or prior malignancy in past 2 years except non-melanoma skin cancer or in situ cancer.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No previous lung or mediastinal radiation therapy.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No plans for concomitant antineoplastic therapy (including standard fractionated RT, chemotherapy, immunotherapy, targeted therapy).",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, and hypothyroidism. He smokes 1 pack per day for 40 years and consumes 5-6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00591838",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

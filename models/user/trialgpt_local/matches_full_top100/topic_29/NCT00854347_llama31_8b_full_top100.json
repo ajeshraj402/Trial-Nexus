@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00854347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "consecutive ICU adult patients",
+      "label": "met",
+      "evidence": "patient is in the emergency room"
+    },
+    {
+      "criterion": "expected LOS of at least 24 hours",
+      "label": "met",
+      "evidence": "patient has been in the hospital for 3 days"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous diagnosis of diabetes or pre-diabetes",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "admitted for diabetic ketoacidosis or hyperglycemic hyperosmolar states",
+      "label": "met",
+      "evidence": "patient is experiencing hyperglycemia and concern for possible diabetic ketoacidosis"
+    },
+    {
+      "criterion": "treated with chronic corticosteroid therapy at supraphysiological doses",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "enrolled in another exclusive study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes who has been experiencing hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00854347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver Biopsy",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Endoscopic evidence of varices or portal gastropathy",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fibroscan values suggestive of cirrhosis",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On treatment for hepatic encephalopathy (patient can be on lactulose and rifaximin)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to give written, informed consent (demonstrated by mini-mental status exam>25 at the time of consenting)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women of child bearing potential must agree to use effective contraception for the duration of the study and for 10 days prior and 30 days after the study",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative pregnancy test in women of childbearing age",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count<25,000/mm3",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TIPS in place for less than a month",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

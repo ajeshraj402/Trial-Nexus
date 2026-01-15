@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00353340",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "gfr",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serum_creatinine_levels",
+      "label": "not_met",
+      "evidence": "1.7 meq/L"
+    },
+    {
+      "criterion": "change_in_serum_creatinine_levels",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, with profuse watery diarrhea without odor. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00353340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

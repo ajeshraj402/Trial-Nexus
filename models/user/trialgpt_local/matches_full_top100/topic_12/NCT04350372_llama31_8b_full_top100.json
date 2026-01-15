@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04350372",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 year old woman"
+    },
+    {
+      "criterion": "Symptomatic moderate-to-severe MR",
+      "label": "met",
+      "evidence": "symptomatic and is now prepared to undergo mitral valve repair/replacement surgery"
+    },
+    {
+      "criterion": "LVEF \u2265 30%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "NYHA classification II, III or ambulatory IV",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Mitral valve area \u2265 4.0 cm2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Primary regurgitant jet is non-commisural",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently participating in another clinical investigation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or nursing subjects and those who plan pregnancy during the clinical investigation follow up period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active endocarditis of the mitral valve",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Rheumatic mitral valve disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04350372",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

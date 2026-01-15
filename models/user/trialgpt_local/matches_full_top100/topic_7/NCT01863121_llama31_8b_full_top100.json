@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01863121",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient of cirrhosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age between 18 - 75 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Admitted in Unit 1 Department of Gastroenterology & Hepatology",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients/ LAR who are willing to give written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with significant cardiopulmonary illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any malignancy including HCC (Hepatocellular Carcinoma)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients who refuse to give consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis, recent UGIB, and new slurred speech and tangential thought process. Liver function tests showed a striking increase in his total and direct bilirubin since last visit.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01863121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00182663",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "autologous or syngeneic patient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "therapy/peripheral blood stem cell (PBSC) or bone marrow (BM) rescue for any stage of multiple myeloma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Platelet count (transfusion independent) > 50,000 cells/mm^3 for 5 calendar days after recovery from high dose",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absolute granulocyte count > 1500 cells/mm^3 for 5 calendar days after recovery from high dose",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients will start therapy between 30 days to 120 days after transplant",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willingness and ability to comply with Food and Drug Administration (FDA)-mandated S.T.E.P.S. (Celgene System for Thalidomide Education and Prescribing Safety) Program",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signing a written informed consent form",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Karnofsky score less than 70",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A left ventricular ejection fraction less than 45%; patients with congestive heart disease, history of myocardial infarction (MI), or coronary artery disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total bilirubin greater than 2 mg/ml (unless history of Gilbert's disease)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT) or serum glutamic pyruvic transaminase (SGPT) > 2.5 x upper limit of normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of deep venous thrombus, arterial occlusions, or pulmonary emboli",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant and/or lactating females",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who cannot give informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with untreated systemic infection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis. She was treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00182663",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

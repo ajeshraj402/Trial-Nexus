@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04650464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "asthma_diagnosis",
+      "label": "met",
+      "evidence": "diagnosed a year ago"
+    },
+    {
+      "criterion": "asthma_severity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_treatment",
+      "label": "not_met",
+      "evidence": "didn't respond to the usual corticosteroid inhaler"
+    },
+    {
+      "criterion": "admission_diagnosis",
+      "label": "met",
+      "evidence": "severe asthma exacerbation"
+    },
+    {
+      "criterion": "general_corticosteroid_therapy_candidate",
+      "label": "met",
+      "evidence": "candidate for general corticosteroid therapy"
+    },
+    {
+      "criterion": "spirometry_results",
+      "label": "unknown",
+      "evidence": "FEV1 of 60% of the predicted"
+    },
+    {
+      "criterion": "past_medical_history",
+      "label": "not_met",
+      "evidence": "non-significant"
+    },
+    {
+      "criterion": "family_history",
+      "label": "met",
+      "evidence": "asthma in his mother and uncle"
+    },
+    {
+      "criterion": "previous_treatment_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recruitment_location",
+      "label": "met",
+      "evidence": "one of the 2 CPET laboratories"
+    },
+    {
+      "criterion": "referral_source",
+      "label": "met",
+      "evidence": "pediatric cardiology outpatient visit"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "height",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "absolute_contraindications",
+      "label": "not_met",
+      "evidence": "no fever, uncontrolled asthma, respiratory failure, acute myocarditis or pericarditis, uncontrolled arrhythmias causing symptoms or haemodynamic compromise, uncontrolled heart failure, acute pulmonary embolus or pulmonary infarction"
+    },
+    {
+      "criterion": "parental_refusal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_disease_control_group",
+      "label": "not_met",
+      "evidence": "no chronic disease"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04650464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

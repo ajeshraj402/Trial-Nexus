@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01730651",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed carcinoma of the uterine cervix",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metastatic lymphadenopathies (any of pelvis or PAN >1.5 cm in short diameter)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) Performance Status of 0, 1, 2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate bone marrow function: absolute neutrophil count (ANC) greater than or equal to 1,500/mcl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate renal function: creatinine equal to or less than 2.0 mg%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "signed an approved informed consent and authorization",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recurrent LN(s) which was(were) previously irradiated",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of other malignance tumors except papillary or follicular thyroid cancer or skin cancer",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and previous radiation to the neck, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01730651",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

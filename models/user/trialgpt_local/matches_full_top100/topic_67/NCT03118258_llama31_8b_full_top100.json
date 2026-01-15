@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03118258",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "54-year-old woman"
+    },
+    {
+      "criterion": "program",
+      "label": "met",
+      "evidence": "Doctors of the World programs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sexual_history",
+      "label": "not_met",
+      "evidence": "sexually active with her husband and has 4 children"
+    },
+    {
+      "criterion": "pap_smear_frequency",
+      "label": "met",
+      "evidence": "last pap smear test made during the three last years"
+    }
+  ],
+  "notes": "Patient is a 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positive. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT03118258",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

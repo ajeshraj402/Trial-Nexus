@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01814345",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gastric cancer",
+      "label": "met",
+      "evidence": "pathology specimen at TMH"
+    },
+    {
+      "criterion": "gastric cancer",
+      "label": "met",
+      "evidence": "pathology specimen at TMH"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "histopathology blocks available",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but meets inclusion criteria. Exclusion criterion is not triggered.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01814345",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

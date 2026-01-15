@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01912885",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Women with 18 years of age or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cognitive level adequate for understanding orientations during treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or women who wish to get pregnant",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurological disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Urinary infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Nephrolithiasis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. Altered mental status and urosepsis are also present.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01912885",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

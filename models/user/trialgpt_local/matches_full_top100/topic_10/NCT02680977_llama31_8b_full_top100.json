@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02680977",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of idiopathic Parkinson's disease according to the United Kingdom Brain Bank criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sustained response to levodopa and presence of motor fluctuations for at least 1 h every day during waking hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Availability to written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cognitive impairment according to Mini-Mental State Examination < 26/30",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically significant psychiatric illness, including psychosis, major depression and addiction disorders (including compulsive levodopa intake)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is otherwise healthy. She responded well to treatment and was discharged on her home meds.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02680977",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

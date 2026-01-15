@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00352430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males or females, 18 years of age or older.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diagnosis of sickle cell disease (electrophoretic documentation of SS, SC, or S thalassemia genotype is required) or thalassemia.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mild to severe pulmonary hypertension with mean pulmonary artery pressure greater than 25 mm Hg at rest or greater than 30 mm Hg during exercise, measured by pulmonary artery catheterization.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pulmonary artery wedge pressure or left ventricular end-diastolic pressure less than or equal to 18 mm Hg or gradient between pulmonary artery diastolic pressure and wedge pressure greater than 8 mm Hg or echocardiographic criteria to exclude left ventricular dysfunction.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "For female subjects, on a reliable method of birth control or not physically able to bear children.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnancy or lactation.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any condition that in the opinion of the study investigators would adversely affect the outcome of the study or the safety of the volunteer.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00352430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

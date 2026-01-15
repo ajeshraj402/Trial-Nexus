@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01952834",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40-75 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of known coronary artery disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable angina or myocardial infarction by history, ECG, and/or enzymatic criteria within 1 month of enrollment.",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left ventricular dysfunction as defined by an left ventricular ejection fraction documented as < 45% within 1 year of enrollment by an echocardiogram, MRI, or nuclear imaging.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, with recent worsening palpable lymphadenopathy. He has had multiple treatment regimens without significant response.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01952834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

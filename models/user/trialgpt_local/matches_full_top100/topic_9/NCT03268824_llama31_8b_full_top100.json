@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03268824",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Drug resistant focal epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without drug resistant focal epilepsy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe mental retardation (IQ < 50)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Lack of French-language skills",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindications to MRI",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He was recently tapered off Dilantin and had no further seizure events during hospitalization.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03268824",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

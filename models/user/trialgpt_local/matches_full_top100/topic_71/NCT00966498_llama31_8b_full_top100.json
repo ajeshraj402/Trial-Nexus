@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00966498",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients diagnosed with high risk recurrent or refractory solid tumors following initial chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumor must be sensitive to chemotherapy (maximum 8 cycles) and/or radiation defined as a greater than 50% reduction in size of the primary and/or metastatic sites.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are under 35 years of age.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a life expectancy of at least 8 weeks and performance status (Karnofsky or Lansky score) of at least 70%.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are acceptable candidates for peripheral blood stem cell transplantation based on their pre-transplant evaluation.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with central nervous system tumors are not eligible for this protocol.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients have significant functional deficits in major organs which would interfere with successful outcome following PBSCT.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have been treated for infections must have appropriate responses as documented by negative cultures and/or a normal radiographic examination.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients may not have active CNS disease or marrow involvement with the tumor at the time of transplant.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with disease progression after tandem PBSC #1 will not be eligible for tandem PBSC #2.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have had a previous stem cell transplant.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is an obese woman with sleep apnea, PCO and dissatisfaction with her body shape. She has high cholesterol and triglycerides.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00966498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

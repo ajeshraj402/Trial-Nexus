@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02328040",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "met",
+      "evidence": "type 1 diabetes confirmed with molecular analysis 7 years ago"
+    },
+    {
+      "criterion": "hba1c_level",
+      "label": "met",
+      "evidence": "HbA1c: 6.5%"
+    },
+    {
+      "criterion": "no_concomitant_illnesses",
+      "label": "met",
+      "evidence": "past medical history is not significant for any other medical issues"
+    },
+    {
+      "criterion": "menstruating_women_negative_pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lactating_or_pregnant_women_excluded",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic_condition_except_hypothyroidism",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_medications_affecting_glucose",
+      "label": "not_met",
+      "evidence": "takes 70/30 Insulin and vitamin D supplements"
+    },
+    {
+      "criterion": "hemoglobin_less_than_12_g_dL",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive_pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant_or_lactating_mothers",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02328040",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

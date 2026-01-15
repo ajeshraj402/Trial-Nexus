@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02298660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 - 65",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Male and female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Chronic, traumatic SCI (> 1 year post injury)",
+      "label": "met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "Affected by urinary incontinence",
+      "label": "met",
+      "evidence": "Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "Good command and comprehension of English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Capable of giving informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age older than 66 years",
+      "label": "not_met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "Documented traumatic brain injury",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute co-morbidities",
+      "label": "met",
+      "evidence": "presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem"
+    },
+    {
+      "criterion": "Other diseases of the neural system",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous genitourinary disease or operation",
+      "label": "met",
+      "evidence": "s/p CVA, Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "Current urinary tract infection",
+      "label": "not_met",
+      "evidence": "Urinary Tract Infections-pseudomonas & enterococcus (past tense)"
+    },
+    {
+      "criterion": "Multiple injury levels",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous history of systemic illness, such as cardiovascular diseases (as hypertension and cardiac infarction), cerebrovascular accident, diabetes, etc",
+      "label": "met",
+      "evidence": "Hypertension, BPH, Insulin Dependant Diabetic"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. Started on ditropan changed over to detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02298660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

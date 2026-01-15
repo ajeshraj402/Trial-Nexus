@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03786666",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid artery severe (70-99%) stenosis or occlusion",
+      "label": "met",
+      "evidence": "CDFI and confirmed by CTA or DSA"
+    },
+    {
+      "criterion": "indications for carotid artery stenting or CEA according to the guidelines published by the Stroke Prevention Engineering Committee, the National Health Commission of China",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "complete imaging evaluation and can be followed up to at least 1 year",
+      "label": "met",
+      "evidence": "patient's medical history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-atherosclerotic carotid artery stenosis or occlusion, such as dissection, aneurysm, arteritis, cardiac embolism and et al.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cerebral hemorrhage",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has carotid artery severe stenosis, meets indications for carotid artery stenting or CEA. No non-atherosclerotic carotid artery stenosis or occlusion, cerebral hemorrhage, or pregnancy noted.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03786666",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

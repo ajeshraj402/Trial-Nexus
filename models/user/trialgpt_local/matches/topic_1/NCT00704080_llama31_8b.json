@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT00704080",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed intracranial Grade 3 or 4 anaplastic glioma or glioblastoma",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Received prior standard radiation for a Grade 3 or 4 astrocytic tumor with a minimum cumulative dose of 40 Gy administered",
+      "label": "met",
+      "evidence": "field radiation t10-l1"
+    },
+    {
+      "criterion": "Completed at least one full cycle of temozolomide of 200 mg/m2/day administered on Days 1-5 of a 28-day cycle, without unacceptable toxicity or progression",
+      "label": "met",
+      "evidence": "Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off."
+    },
+    {
+      "criterion": "Karnofsky performance status of 60 or more",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate organ and bone marrow function as defined by hematological and serum chemistry limits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At least 18 years old.",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Both men and women must practice adequate contraception",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Progressed while on temozolomide",
+      "label": "does_not_trigger",
+      "evidence": "Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off."
+    },
+    {
+      "criterion": "Evidence of acute intracranial or intratumoral hemorrhage > Grade 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Restriction of some therapies/medications within specific timeframes prior to enrollment and during the study including cytotoxic chemotherapy other than temozolomide, biologic agents, nitrosoureas or mitomycin C, small-molecule kinase inhibitors, non-cytotoxic hormonal agents, prior therapy with a PI3K inhibitors, radiation therapy, enzyme-inducing anti-convulsants, valproic acid",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not recovered from the toxic effects of prior therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding",
+      "label": "does_not_trigger",
+      "evidence": "45-year-old man"
+    }
+  ],
+  "notes": "Unknowns include adequate organ and bone marrow function, contraception status, and recovery from prior therapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00704080",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

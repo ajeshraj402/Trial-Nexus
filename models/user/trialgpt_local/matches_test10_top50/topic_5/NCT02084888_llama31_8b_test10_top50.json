@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT02084888",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "angiographic diagnosis of significant CAD registered in SCAAR between January 2005 and January 2012",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "angiographic diagnosis of significant CAD registered in SCAAR between January 2005 and January 2012",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous CABG surgery",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Missing data on coronary anatomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who underwent a procedure for ACS in whom the 100% occlusion was located in the same coronary artery as the culprit vessel",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who underwent a procedure in the same vessel within the previous 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has significant CAD and carotid bruits, but no prior syncope or residual deficits.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02084888",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

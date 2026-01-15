@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00130741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "ibs_diagnosis",
+      "label": "met",
+      "evidence": "diagnosis of irritable bowel syndrome based on the following criteria (ROME II)"
+    },
+    {
+      "criterion": "symptoms_duration",
+      "label": "met",
+      "evidence": "at least 12 weeks, which need not be consecutive, in the preceding 12 months"
+    },
+    {
+      "criterion": "ibs_features",
+      "label": "met",
+      "evidence": "relief with defecation; onset associated with a change in stool frequency; onset associated with a change in stool consistency"
+    },
+    {
+      "criterion": "ibs_frequency",
+      "label": "met",
+      "evidence": "fewer than three bowel movements a week; more than three bowel movements a day"
+    },
+    {
+      "criterion": "ibs_consistency",
+      "label": "met",
+      "evidence": "hard or lumpy stools; loose (mushy) or watery stools"
+    },
+    {
+      "criterion": "contraception",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe_ibs_history",
+      "label": "not_met",
+      "evidence": "no history of severe or intractable IBS"
+    },
+    {
+      "criterion": "bowel_disturbance_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "laxative_abuse",
+      "label": "not_met",
+      "evidence": "no history of laxative abuse"
+    },
+    {
+      "criterion": "previous_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "metabolic_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medications_affecting_motility",
+      "label": "not_met",
+      "evidence": "no use of medications that can affect gastrointestinal (GI) motility"
+    },
+    {
+      "criterion": "other_significant_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is currently febrile, tachycardic, and hypotensive. Stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00130741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

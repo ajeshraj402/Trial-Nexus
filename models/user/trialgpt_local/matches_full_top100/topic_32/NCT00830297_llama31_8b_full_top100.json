@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00830297",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "renal transplantation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "eligibility for the standard immunosuppression of our center",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tacrolimus, mycophenolate mofetil or mycophenolic acid, dexamethasone/prednisone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "triple therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed consent of the patient",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with type 1 or type 2 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy against long-acting insulin",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has no underlying disease and is not on any medications. However, he has a severe gastrointestinal illness with laboratory evidence of hemolytic uremic syndrome (HUS), which may be related to Shiga-like toxin-producing E. coli (STEC) infection.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00830297",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03158805",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33-year-old woman"
+    },
+    {
+      "criterion": "bipolar disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable major psychotropic drug regimen",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "obesity or overweight with weight-related comorbidity",
+      "label": "met",
+      "evidence": "BMI 34, high TSH level (13 mU/L), low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "stable treatment regimen for weight-related comorbidity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dementia or psychotic disorder",
+      "label": "not_met",
+      "evidence": "no mention of dementia or psychotic disorder"
+    },
+    {
+      "criterion": "substance use disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serious or unstable general medical illnesses",
+      "label": "not_met",
+      "evidence": "BMI 34, high TSH level (13 mU/L), low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "medullary thyroid cancer or Multiple Endocrine Neoplasia syndrome type 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergic to liraglutide",
+      "label": "not_met",
+      "evidence": "no mention of allergy"
+    },
+    {
+      "criterion": "pregnant, nursing or intend to become pregnant",
+      "label": "not_met",
+      "evidence": "age 33, no mention of pregnancy or breastfeeding"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03158805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

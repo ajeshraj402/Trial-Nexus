@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04411927",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "medically diagnosed with CKD",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "Age ranged from eight to fifteen years",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "A 12 year old girl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Communication problems such as intellectual disability, autism, or Down syndrome",
+      "label": "not_met",
+      "evidence": "She is an obese, mentally retarded girl"
+    },
+    {
+      "criterion": "Significant visual or hearing problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any neurological and/or musculoskeletal disorders which influence postural stability",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic cardiovascular or pulmonary disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH since 6 months ago without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04411927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

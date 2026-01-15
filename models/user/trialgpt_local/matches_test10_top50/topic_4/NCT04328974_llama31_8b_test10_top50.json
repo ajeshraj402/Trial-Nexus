@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT04328974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Resuscitated out of hospital cardiac arrest (OHCA) patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "OHCA patients whose GCS is 8 or less after ROSC",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "interrupted TTM (due to haemodynamic instability)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "intracranial haemorrhage, active bleeding, known terminal illness, or poor pre-arrest neurological status",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis with residual deficits and a CSF leak w/ meningitis s/p lumbar drain placement. However, the patient's current condition does not appear to be contraindicated for TTM.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04328974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

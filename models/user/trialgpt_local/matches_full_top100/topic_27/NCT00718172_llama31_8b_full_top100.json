@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00718172",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "HCV RNA in serum",
+      "label": "met",
+      "evidence": "positive HCV RNA tests"
+    },
+    {
+      "criterion": "Willingness to undergo liver biopsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous adequate treatment with type I interferon",
+      "label": "not_met",
+      "evidence": "no mention of previous treatment"
+    },
+    {
+      "criterion": "Other antiviral therapy within the last 6 months",
+      "label": "not_met",
+      "evidence": "direct antiviral drugs were added to his treatment 6 months ago, but no other antiviral therapy mentioned"
+    },
+    {
+      "criterion": "Decompensated liver disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum ALT or AST levels greater than 1000 micro/L",
+      "label": "not_met",
+      "evidence": "no mention of elevated liver enzymes"
+    },
+    {
+      "criterion": "Pregnancy or current breastfeeding",
+      "label": "not_met",
+      "evidence": "male patient, no mention of pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "Significant systemic or major illnesses",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-existing anemia",
+      "label": "not_met",
+      "evidence": "no mention of anemia"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00718172",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03630653",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45-year-old"
+    },
+    {
+      "criterion": "Invasive recurrence",
+      "label": "met",
+      "evidence": "3 cm invasive ductal breast carcinoma"
+    },
+    {
+      "criterion": "Tumor size \u2264 5cm",
+      "label": "met",
+      "evidence": "3 cm"
+    },
+    {
+      "criterion": "Initial conservative surgery",
+      "label": "met",
+      "evidence": "candidate for tumor resection"
+    },
+    {
+      "criterion": "Procedure for lymph node sentinel detection",
+      "label": "met",
+      "evidence": "Axillary sampling revealed 5 positive lymph nodes"
+    },
+    {
+      "criterion": "Minimum delay of one year between treatments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy test negative",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient information and consent",
+      "label": "met",
+      "evidence": "Information of the patient and obtaining written consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-invasive recurrence",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of ipsilateral axillary dissection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of ipsilateral mastectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient pN + before surgery",
+      "label": "met",
+      "evidence": "5 positive lymph nodes"
+    },
+    {
+      "criterion": "Metastasis",
+      "label": "not_met",
+      "evidence": "CXR was remarkable for metastatic lesions"
+    },
+    {
+      "criterion": "Patient pT4",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to detection products",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or lactating woman",
+      "label": "not_met",
+      "evidence": "She is not sexually active"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03630653",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03317262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female asthma patients over 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Compliance with treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Compliance with study procedures",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients already receiving or to receive citalopram",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients not adequately controlled by citalopram",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients not regulated at all",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unsigned patient consent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female asthma patients under 18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-compliance with treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03317262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

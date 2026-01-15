@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00148122",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "documented advanced, locally recurrent, or metastatic head and neck carcinoma",
+      "label": "met",
+      "evidence": "papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "prior chemotherapy for advanced/metastatic disease is allowed (1 regimen only)",
+      "label": "met",
+      "evidence": "s/p XRT to neck"
+    },
+    {
+      "criterion": "patients must be taxane-na\u00efve (no prior docetaxel or paclitaxel)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chemoradiation as a primary therapy for advanced head and neck cancer are eligible",
+      "label": "met",
+      "evidence": "s/p XRT to neck"
+    },
+    {
+      "criterion": "measurable or evaluable disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "aged 18 years or older",
+      "label": "met",
+      "evidence": "A 75 yo M"
+    },
+    {
+      "criterion": "performance status of 0-2 by Zubrod criteria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy of at least 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hematologic: absolute neutrophil count (ANC) equal to or > 1,500/mm3",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "total bilirubin must be within normal institutional limits (WNL)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "transaminases (AST/SGOT and ALT/SGPT) may be up to 2.5 X the institutional upper limit of normal (ULN)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "calculated creatinine clearance of > 50 ml/min",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating women, women of childbearing potential with either a positive pregnancy test (PPT) at baseline",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of standard chemotherapy or investigational agents for treatment of head and neck cancer within 28 days of 1st dose of study drug",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, but is pregnant/lactating.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00148122",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

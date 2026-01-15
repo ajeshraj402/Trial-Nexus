@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03491436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnancies > 10 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primipara and multipara",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital malformations of the fetus",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a woman with confirmed GDM and >10 weeks pregnant, but has congenital malformation concerns.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03491436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

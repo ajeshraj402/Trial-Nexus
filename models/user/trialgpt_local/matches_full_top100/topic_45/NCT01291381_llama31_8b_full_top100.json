@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01291381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of Allergic rhinitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Han nationality",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Had a history of HDM-induced moderate or severe rhino-conjunctivitis of at least three years duration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Had a positive skin prick test (SPT) result for Der p (ALK-Abello', H\u00f8rsholm, Denmark), with a wheal diameter of at least 6 mm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Were positive for specific immunoglobulin E (IgE) to Der p (Pharmacia CAP System, Pharmacia Diagnostics, Uppsala, Sweden), with a RAST value of at least 0.7 kU/L",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical diagnosis of asthma",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell disease and is experiencing severe bone pain, but does not have a clinical diagnosis of asthma.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01291381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

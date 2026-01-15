@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03913780",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "heart failure with ejection fraction greater than 35%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "commitment to go 3 times a week for RCV",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "rate >120 bpm (beats per minute) at rest",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "systolic blood pressure >190 mmHg",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and was diagnosed with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03913780",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

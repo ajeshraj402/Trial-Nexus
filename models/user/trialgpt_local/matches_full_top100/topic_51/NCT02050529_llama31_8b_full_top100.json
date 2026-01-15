@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02050529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant or post partum woman with systolic blood pressure \u2265160mm of Hg or diastolic BP \u2265110 mm Hg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "enrolled after informed consent and randomly allocated to each treatment arm by 1:1 randomization through simple random allocation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "asthma",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac failure and heart block",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe hypertension, but no history of recurrent UTI or underlying disease. Blood culture is negative.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02050529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "met",
+      "evidence": "The patient is a 14-year-old boy"
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "met",
+      "evidence": "The patient complaining of scoliosis and back pain"
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": "Patient is alert and cooperative"
+    },
+    {
+      "criterion": "access to internet enabled computer",
+      "label": "met",
+      "evidence": "Patient is a well-dressed and well-nourished adolescent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "older than 18",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

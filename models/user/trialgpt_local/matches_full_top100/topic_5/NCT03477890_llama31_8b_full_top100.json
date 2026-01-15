@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03477890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptoms of angina or angina-equivalent",
+      "label": "met",
+      "evidence": "pt reports + Occasional dizziness, no prior syncope occasional HA"
+    },
+    {
+      "criterion": "intermediate or no obstructive coronary disease",
+      "label": "met",
+      "evidence": "Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "health problem that would explain the angina",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "obstructive disease evident in a coronary artery",
+      "label": "not_met",
+      "evidence": "Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis"
+    },
+    {
+      "criterion": "lack of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has symptoms of angina and intermediate coronary disease, but no clear health problem explaining the angina. Overall assessment is likely eligible.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03477890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

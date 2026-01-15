@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00663000",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acromegaly",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "liver_disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "drug_or_alcohol_abuse",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old man with known Acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00663000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

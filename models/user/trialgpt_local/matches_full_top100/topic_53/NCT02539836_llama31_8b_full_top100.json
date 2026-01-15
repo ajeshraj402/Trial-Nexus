@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02539836",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI>27",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age between 15-18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "value of waistline/weight >0.46",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the value of body composition >20%",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "People treated by antibiotic drugs in 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "People with gastrointestinal diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "People with Type I diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any eating disorders such as bulimia or anorexia nervosa",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prader-Willi patients and obesity is part of clinical syndrome with other disorders",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has unremarkable past medical history, normal BMI, and healthy laboratory studies.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02539836",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

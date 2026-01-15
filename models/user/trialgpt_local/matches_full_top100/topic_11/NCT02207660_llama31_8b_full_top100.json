@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02207660",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "stage IVB, recurrent or metastatic cervical cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with P-HDFL",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recurrent cervical cancer undergoing salvage surgery",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving P-HDFL as adjuvant therapy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may trigger exclusion criteria. However, overall assessment is likely ineligible due to presence of exclusion triggers.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02207660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01848743",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HBsAg (+) > 6 months",
+      "label": "met",
+      "evidence": "positive"
+    },
+    {
+      "criterion": "ALT > 5X ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prolongation of prothrombin time > 3 seconds and bilirubin level > 2 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "20-75 years old",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HAV, HCV, HDV and HIV co-infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Concurrent hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug, metabolic or alcohol as cause of hepatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anti-viral treatment in recent 6 mnths",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. Direct antiviral drugs were added to his treatment 6 months ago.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01848743",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

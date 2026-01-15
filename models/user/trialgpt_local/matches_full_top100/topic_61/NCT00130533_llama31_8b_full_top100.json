@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00130533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Histological diagnoses of operable invasive adenocarcinoma of the breast (T1-T3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >= 18 and <= 70 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Performance status (Karnofsky index) >= 80",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hematology: neutrophils >= 1.5 x 10e9/l",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hepatic function: total bilirubin <= 1 upper normal limit (UNL)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Renal Function: creatinine <= 175 \u00b5mol/l (2 mg/dl)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative status of HER2 in primary tumour, known before randomization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adjuvant chemotherapy consisting of a minimum of 6 courses with anthracyclines and/or taxanes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must not present evidence of metastatic disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Negative pregnancy test done in the 14 previous days to randomization",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients able to comply with treatment and study follow-up",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior therapy with anthracyclines or taxanes (paclitaxel or docetaxel) for any malignancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactating women. Adequate contraceptive methods must be used during chemotherapy and hormone therapy treatments.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00130533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

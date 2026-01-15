@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03018288",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "MRI findings consistent with a suspected GBM or a histologically confirmed newly diagnosed GBM that has not been treated and would benefit from further surgical resection.",
+      "label": "not_met",
+      "evidence": "The patient's tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years on day of signing informed consent.",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Karnofsky performance status greater than or equal to 70%.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's Karnofsky performance status."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known history of immunodeficiency (HIV). This medical entity can be exacerbated by PD-1 blockade.",
+      "label": "does_not_trigger",
+      "evidence": "No mention of HIV in the patient's text."
+    },
+    {
+      "criterion": "History of another malignancy in the previous 3 years, with a disease-free interval of < 3 years.",
+      "label": "unknown",
+      "evidence": "The patient has a history of anaplastic astrocytoma, but it is unclear if this meets the exclusion criteria."
+    },
+    {
+      "criterion": "Has an active autoimmune disease requiring systemic treatment within the past 3 months or a documented history of clinically severe autoimmune disease.",
+      "label": "unknown",
+      "evidence": "No information provided about the patient's autoimmune status."
+    }
+  ],
+  "notes": "The patient's tumor is unresectable, which may make them ineligible for further surgical resection. Additionally, there is no clear indication of the patient's Karnofsky performance status or their autoimmune status.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03018288",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

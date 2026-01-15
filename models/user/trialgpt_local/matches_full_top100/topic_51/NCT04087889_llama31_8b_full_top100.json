@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04087889",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Documented diagnosis of Pancreatic Cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemodynamically stable",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Immunosuppression as defined by WBC < 3, 000 cells/ml at baseline screening.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other acute or chronic medical conditions that, in the opinion of the investigator, may increase the risks associated with study participation or HB-adMSC administration.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any abnormal, inexplicable laboratory result with no obvious cause defined.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in other interventional research studies. Unwillingness to return for follow-up visits",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Gram-negative rod-shaped bacterial cells in urine culture.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04087889",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

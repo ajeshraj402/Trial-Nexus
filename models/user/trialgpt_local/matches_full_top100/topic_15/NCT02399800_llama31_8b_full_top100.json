@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02399800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presentation with upper abdominal pain suggestive of pancreatitis",
+      "label": "met",
+      "evidence": "fevers/rigors and bandemia, mid-abdominal pain radiating to the left flank"
+    },
+    {
+      "criterion": "EUS for evaluation",
+      "label": "met",
+      "evidence": "Patient underwent a EUS with biopsy"
+    },
+    {
+      "criterion": "M ANNHEIM severity index of 6 or greater",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Intermittent episodes of pain>3 requiring opiate medication",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have allergic reactions to steroids or bupivacaine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "INR >1.6",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelets <75",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "decompensated cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "incarcerated",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "<18 years old",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "peptic ulcer disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, but no other exclusion criteria mentioned. Overall assessment is likely eligible.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02399800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

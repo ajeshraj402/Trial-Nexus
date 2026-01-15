@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02074618",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "hospital's hemodialysis program",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical prescription for physical activity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "myocardial infarction",
+      "label": "not_met",
+      "evidence": "prior MI"
+    },
+    {
+      "criterion": "uncontrolled arrhythmias",
+      "label": "met",
+      "evidence": "ventricular tachycardia, syncope"
+    },
+    {
+      "criterion": "uncontrolled hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unstable angina",
+      "label": "not_met",
+      "evidence": "no chest pain"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02074618",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

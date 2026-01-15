@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01279304",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cT1-2 invasive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive axillary lymph nodes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 3 cycles of primary systemic treatment have been given",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No standard axillary lymph node dissection is performed prior to chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cT3-T4 invasive breast cancer prior to any treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with > 3 suspicious axillary nodes on imaging",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of breast cancer and is currently undergoing treatment. She has had a lumpectomy and is receiving chemotherapy.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01279304",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02293213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "No limitation, will include minorities and Spanish speaking"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no limitation"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "met",
+      "evidence": "She is in a relation with only one partner"
+    },
+    {
+      "criterion": "Currently taking the Category D or X medication",
+      "label": "not_met",
+      "evidence": "She is using \u201cwell women\u201d multivitamins daily and no other medication"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not currently sexually active with men",
+      "label": "met",
+      "evidence": "She is in a relation with only one partner"
+    },
+    {
+      "criterion": "History of hysterectomy, bilateral oophorectomy, history of female sterilization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Partner with history of vasectomy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with a history of breast cancer and lymph node involvement, currently taking multivitamins.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02293213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

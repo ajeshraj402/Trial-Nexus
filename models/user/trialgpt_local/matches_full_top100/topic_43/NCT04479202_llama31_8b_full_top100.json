@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04479202",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed with COVID-19",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "classified as severe",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "have other sources of infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "death is anticipate within 72 hours",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "participated in other clinical trials",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is febrile and complained of abdominal pain and diarrhea. The stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04479202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

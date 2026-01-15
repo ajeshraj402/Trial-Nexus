@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02586428",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "high risk pregnant women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "seen for genetic counseling",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "low risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "not pregnant",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a high-risk pregnant woman seen for genetic counseling, but has a history of hypertension and proteinuria.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02586428",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

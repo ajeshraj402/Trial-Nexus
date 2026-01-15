@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02526459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "baby with cephalic presentation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "less than 34 weeks gestation",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "planned Caesarean section",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "planned pre-existing birth plan",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intrauterine fetal demise",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 15 year old girl with recurrent bilateral headache, diagnosed with migraine headache and under treatment. She has singleton pregnancy and is at less than 34 weeks gestation.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02526459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

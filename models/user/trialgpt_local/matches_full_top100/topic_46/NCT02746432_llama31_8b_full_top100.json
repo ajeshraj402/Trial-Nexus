@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02746432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "Patient A is a 30-year-old male"
+    },
+    {
+      "criterion": "Documented CRC by histopathology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient not consenting to the study or refused.",
+      "label": "not_met",
+      "evidence": "The patient was febrile (38 c) with heart rate of 115 b/min, respiratory rate of 22, BP of 125/75 mmHg and O2 sat of 97%."
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02746432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

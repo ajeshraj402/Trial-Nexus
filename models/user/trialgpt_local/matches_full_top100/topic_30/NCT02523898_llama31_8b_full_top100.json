@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02523898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Insulin resistant (HOMA-IR\u22652.3) PCOS women between 20-36 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "infertility more than 1 year and normal serum prolactin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal TSH after treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal hystero salpingography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no other infertility factor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosis of PCOS according to the Rotterdam Criteria",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "21-hydroxylase deficient nonclassic adrenal hyperplasia (NCAH) on the 3rd day of a spontaneous menses or withdrawal bleeding induced by Provera",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hypothyroidism not treated and normal TSH",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but was treated with Levothyroxine and symptoms improved. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02523898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

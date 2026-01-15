@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00600665",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed with SCD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scheduled for continuing care at the University of Illinois at Chicago Sickle Cell Clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Experienced a moderate to severe level of pain (at least 3 on 0 to 10 scale) related to the SCD within the 12 months prior to study entry",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Had a emergency department visit or hospitalization within the 2 years prior to study entry",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Speaks and reads English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Legally blind",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Physically unable to complete study questionnaire",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell crises since childhood and was treated with oxycodone which was not beneficial. He is afebrile within normal blood pressure.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00600665",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

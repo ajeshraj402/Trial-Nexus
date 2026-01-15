@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00981136",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "appendicitis_type",
+      "label": "met",
+      "evidence": "non-perforated appendicitis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforation",
+      "label": "not_met",
+      "evidence": "no hole in the appendix for fecalith"
+    }
+  ],
+  "notes": "Patient is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00981136",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

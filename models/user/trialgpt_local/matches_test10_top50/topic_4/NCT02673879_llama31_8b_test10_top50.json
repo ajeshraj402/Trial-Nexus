@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT02673879",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Confirmed large pericardial effusion on echocardiography (i.e., echo free space \u22651 cm anterior to the right ventricle of the heart in diastole)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willingness to participate for the full duration of the trial (i.e., 12 months)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Provision of written informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uraemic pericarditis (i.e., urea > 21.4 mmol/l)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thrombocytopenia (i.e., < 100,000 platelets per \u00b5l)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of a contra-indication to the administration of a fibrinolytic agent (i.e., major haemorrhage or major trauma; coincidental stroke; major surgery in the previous 5 days; blood pressure >200/100 mmHg)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis-->ICH-->seizure/stroke and CSF leak w/ meningitis s/p lumbar drain placement, but these conditions do not appear to be active or relevant to the trial.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02673879",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

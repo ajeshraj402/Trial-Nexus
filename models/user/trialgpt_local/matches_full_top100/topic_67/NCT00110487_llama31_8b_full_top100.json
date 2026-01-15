@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00110487",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgical diagnosis of endometriosis within 5 years",
+      "label": "met",
+      "evidence": "Pap smear in a 54-year-old woman revealed abnormal cervical squamous intraepithelial/glandular lesion."
+    },
+    {
+      "criterion": "not pregnant and not lactating",
+      "label": "met",
+      "evidence": "She is menopausal"
+    },
+    {
+      "criterion": "willing to use non-hormonal contraception, history of regular menstrual cycles",
+      "label": "met",
+      "evidence": "She is willing to use non-hormonal contraception"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy, surgical treatment for endometriosis within 3 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous history of a malignancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "She is otherwise healthy. She was offered conization.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00110487",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

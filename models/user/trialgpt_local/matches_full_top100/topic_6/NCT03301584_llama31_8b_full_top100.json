@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03301584",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "presenting with acute hip fracture",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aged 65 or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to speak and understand Swedish",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "community dwelling pre-fracture",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "independent walking indoors with or without walking aid and in personal care with exception of bathing/showering.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "mental illness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "documented cognitive impairment \u2264 8 according to the Short Portable Mental Status Questionnaire (SPMSQ)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and recent antibx use, but was treated with Vanco for an extended course of 6 weeks.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03301584",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

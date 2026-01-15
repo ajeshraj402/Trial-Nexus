@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02414529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obese subjects",
+      "label": "met",
+      "evidence": "BMI at or above the 95th percentile for children of the same age and sex"
+    },
+    {
+      "criterion": "Pubertal",
+      "label": "unknown",
+      "evidence": "Testicular volume \u2265 6 ml Prader (M) and Tanner III breast development or greater (F)"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "12- 18 years regardless of gender, race or economic circumstance"
+    },
+    {
+      "criterion": "Pre diabetes/high risk of diabetes",
+      "label": "unknown",
+      "evidence": "HbA1C between 5.7 - 6.4% as defined by the American Diabetes Association (ADA)"
+    },
+    {
+      "criterion": "Vitamin D level",
+      "label": "met",
+      "evidence": "25-OH vitamin D level less than 20 ng/ml (50 nmol/liter)"
+    },
+    {
+      "criterion": "Willingness to comply with study protocol requirements",
+      "label": "met",
+      "evidence": "Subjects must be willing to comply with study protocol requirements"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment on medication known to effect vitamin D, calcium and glucose metabolism",
+      "label": "unknown",
+      "evidence": "such as glucocorticoids, thiazolidinediones, metformin, anticonvulsants metabolized through cytochrome P-450 (phenytoin, carbamazepine, phenobarbital, sodium valproate)"
+    },
+    {
+      "criterion": "Vitamin D supplementation",
+      "label": "unknown",
+      "evidence": "Subjects will be excluded from the study if they have taken any form of vitamin D supplementation greater than 400 IU daily in the preceding 3 months."
+    },
+    {
+      "criterion": "Significant major organ system illness",
+      "label": "not_met",
+      "evidence": "significant"
+    },
+    {
+      "criterion": "History of nephrolithiasis or hypercalcemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy in females",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant psychiatric illness",
+      "label": "not_met",
+      "evidence": "schizophrenia, bipolar disorder, active substance abuse, and uncontrolled major depression"
+    },
+    {
+      "criterion": "Attendance at tanning salon",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with mild Parkinson's disease. He has hypertension and hypercholesterolemia in his past medical history.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02414529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

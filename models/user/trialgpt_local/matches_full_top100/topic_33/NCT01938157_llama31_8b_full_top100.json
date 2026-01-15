@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01938157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women at high-risk of breast cancer with an order for a clinical screening breast MRI",
+      "label": "met",
+      "evidence": "order"
+    },
+    {
+      "criterion": "Asymptomatic women",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least 21 years of age",
+      "label": "met",
+      "evidence": "age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with symptom such as palpable mass or nipple discharge",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women who are not able to give consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Healthy woman, no underlying disease. No history of allergies or past surgical issues.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01938157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

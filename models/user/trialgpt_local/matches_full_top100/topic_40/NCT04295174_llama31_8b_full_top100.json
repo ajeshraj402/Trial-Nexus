@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04295174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "KC patients at Urological- and Oncological departments of OUH",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to speak and understand Danish",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients below 18 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with mental impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04295174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

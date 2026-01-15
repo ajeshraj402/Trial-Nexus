@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00517023",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "65 yo"
+    },
+    {
+      "criterion": "Acute syncope presentation to MAU or A+E",
+      "label": "met",
+      "evidence": "admitted earlier today evaluation of syncope and ventricular arrhythmias"
+    },
+    {
+      "criterion": "2 or more unexplained syncopes within the past 24 months including index episode",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Normal baseline ECG",
+      "label": "met",
+      "evidence": "normal baseline ECG"
+    },
+    {
+      "criterion": "Absence of co-existing pathology requiring admission",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suspected or known heart disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ECG abnormalities suspected of arrhythmic syncope listed in Table 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Syncope occurring during exercise",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Syncope causing severe injury",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Family history of sudden death",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sudden onset palpitations prior to syncope",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00517023",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

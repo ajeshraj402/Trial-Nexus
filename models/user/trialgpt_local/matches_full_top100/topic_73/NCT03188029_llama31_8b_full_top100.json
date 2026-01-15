@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03188029",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 to 65"
+    },
+    {
+      "criterion": "asa_status",
+      "label": "met",
+      "evidence": "I to III"
+    },
+    {
+      "criterion": "electroconvulsive_therapy",
+      "label": "met",
+      "evidence": "scheduled every 2 days for 3 to 4 weeks"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adrenocortical_insufficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "corticosteroid_medication",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 3-day-old female infant with neonatal jaundice. She meets the inclusion criteria and does not meet the exclusion criteria.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03188029",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

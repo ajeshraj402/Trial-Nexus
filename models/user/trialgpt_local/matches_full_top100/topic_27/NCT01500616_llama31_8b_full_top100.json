@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01500616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "co-infection for more than 6 months before the screening visit",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "stable permissible HAART regimen for more than 8 weeks before Day 1 without switches",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CD4 count of \u2265500 cells/mm3 and a HIV-1 and/or HIV-2 viral load \u226450,000 copies/mL at screening",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Have evidence of HCV infection genotype 1 (molecular assay)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ongoing clinical study of telaprevir",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Is infected or coinfected with HCV of another genotype than genotype 1",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has a contraindication to the administration of Peg-IFN-alfa or RBV, or medical history or laboratory values that preclude treatment with Peg-IFN-alfa or RBV according to the respective local prescribing information",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have any contraindication to the currently prescribed HAART regimen at screening",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Positive human leukocyte antigen (HLA)-B5701 genotyping result at screening (or documented result prior to screening) if abacavir is a component of HAART",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on IFN plus RBV combination therapy. He has been on this treatment for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01500616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

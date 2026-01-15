@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00671658",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed, previously untreated Acute Lymphoblastic Leukemia (ALL) or lymphoblastic lymphoma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "All ages are eligible",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Zubrod performance less than or equal to 3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate liver function (bilirubin </= 3.0 mg/dl unless considered due to tumor)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Adequate renal function (creatinine </= 3.0 mg/dl, unless considered due to tumor)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate cardiac function as assessed by history and physical examination",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No active co-existing malignancy with life expectancy less than 12 months due to that malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active co-existing malignancy with life expectancy less than 12 months due to that malignancy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma, but no active co-existing malignancy with life expectancy less than 12 months.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00671658",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

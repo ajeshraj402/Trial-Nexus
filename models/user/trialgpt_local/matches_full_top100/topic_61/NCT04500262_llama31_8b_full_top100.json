@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04500262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "breast_mass_score",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mammography_suspicion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ultrasound_suspicion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mri_suspicion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "histologically_proven_breast_cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ipsilateral_axillary_lymph_nodes_indeterminate_or_suspicious",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "written_informed_consent_given",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anticoagulants_or_antiplatelet_drugs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clotting_disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ipsilateral_axillary_surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "target_lymph_node_not_suitable_for_needle_biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable_to_give_written_informed_consent_in_english",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. Candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04500262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

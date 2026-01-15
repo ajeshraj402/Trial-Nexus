@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03592082",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "Hospitalized patient with documented positive stool test for CDiff",
+      "label": "met",
+      "evidence": "The stool samples must were positive for Clostridium difficile toxin."
+    },
+    {
+      "criterion": "Able and willing to provide informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Breastfeeding",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to BSS or other salicylates, including aspirin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of bleeding disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of gastrointestinal bleed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of gastrointestinal ulcer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic use of anticoagulants",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic NSAID use",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool test for CDiff.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03592082",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

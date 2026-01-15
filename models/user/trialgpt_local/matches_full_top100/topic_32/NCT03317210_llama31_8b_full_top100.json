@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03317210",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hemoglobin between 8.0 and 9.9 g/dl",
+      "label": "met",
+      "evidence": "lab results: Hemoglobin: 9.7 g/dL"
+    },
+    {
+      "criterion": "serum ferritin <15 \u03bcg/l",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vitamin B12 deficiency anemia",
+      "label": "not_met",
+      "evidence": "lab results: Hemoglobin: 9.7 g/dL, Platelet: 110,000 /cu.mm"
+    },
+    {
+      "criterion": "folic acid deficiency anemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hemoglobinopathy",
+      "label": "not_met",
+      "evidence": "lab results: Hemoglobin: 9.7 g/dL, Peripheral blood smear showed a moderate number of schistocytes and helmet cells"
+    },
+    {
+      "criterion": "multiples",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "not_met",
+      "evidence": "lab results: direct bilirubin: 2.4 mg/dL, lactate dehydrogenase (LDH): 881 IU/L"
+    },
+    {
+      "criterion": "kidney disease",
+      "label": "triggers",
+      "evidence": "lab results: Creatinine: 3.6 mg/dL, blood urea nitrogen (BUN): 73 mg/dL"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03317210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

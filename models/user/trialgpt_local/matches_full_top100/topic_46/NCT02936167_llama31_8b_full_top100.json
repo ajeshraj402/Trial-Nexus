@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02936167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "30-year-old male"
+    },
+    {
+      "criterion": "American society of anesthesiologist (ASA)",
+      "label": "met",
+      "evidence": "1"
+    },
+    {
+      "criterion": "Laparoscopic surgical procedure of 2 hours duration requiring IV fluid administration",
+      "label": "met",
+      "evidence": "2 hours duration"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncorrected plasma sodium level before surgery",
+      "label": "unknown",
+      "evidence": "Na: 137 mEq/l"
+    },
+    {
+      "criterion": "Diseases which cause abnormal ADH secretion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal and cardiac disease",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.5 mg/dl, BP of 125/75 mmHg"
+    },
+    {
+      "criterion": "Chronic lung disease",
+      "label": "unknown",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation"
+    },
+    {
+      "criterion": "Cranial/thoracic surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent loop diuretics use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has TB, but no history of TB vaccination. He is a previously healthy man.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02936167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

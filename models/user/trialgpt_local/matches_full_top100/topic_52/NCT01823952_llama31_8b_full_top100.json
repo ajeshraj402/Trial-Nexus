@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01823952",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Participant is a male between 18 and 65 years of age inclusive",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Severe watery diarrhea without fecal blood of less than 48 hours (with passage of 3 or more watery stools in the 24 hours before admission)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Signs of severe dehydration as per ICDDR,B guidelines (modified WHO guideline)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Dipstick test/Dark-field examination positive for Vibrio cholera",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Written informed consent is provided",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participant is willing and able to comply with all trial requirements",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence or history of any clinically significant illness as per the Investigator's discretion.",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known case of HIV or Hepatitis B",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known renal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Frequent excessive alcohol use, binge drinking (e.g. men consume 5 or more drinks in about 2 hours) or use of illicit drugs within the past two years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of receiving antimicrobial or anti-diarrheal medication (loperamide, diphenoxylate, etc.) within seven days of admission",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant infection requiring antimicrobial therapy",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Donated blood or plasma or experienced clinically significant loss of blood within eight weeks prior to admission or who plan to donate blood within 1 month after study participation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe watery diarrhea, dehydration, and a positive dark-field microscopy for V. cholerae. However, they have a history of clinically significant illness (dizziness and severe diarrhea) which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01823952",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

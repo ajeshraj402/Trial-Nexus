@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01605032",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically or cytologically confirmed multiple myeloma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "measurable disease present as defined by protein criteria",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "received induction chemotherapy for myeloma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "life expectancy of greater than 12 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status =< 2",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Leukocytes >= 3,000/mcL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1,500/mcL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Platelets >= 50,000/mcL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Total bilirubin =< 2 x institutional upper limit of normal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) =< 3 x institutional upper limit of normal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Creatinine =< 1.5 x institutional upper limit of normal OR creatinine clearance >= 60 mL/min/1.73 m^2",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ejection fraction by echocardiogram (ECHO) or multi gated acquisition scan (MUGA) >= 40%",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have had chemotherapy or radiotherapy within 4 weeks prior to entering the study",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Prior treatment history of autologous hematopoietic stem cell transplant (HSCT) or high-dose chemotherapy with stem cell rescue for any medical reason",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients may not be receiving any other investigational agents",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to or other agents used in the study",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She has received various treatments, including induction chemotherapy, but has not had autologous hematopoietic stem cell transplant (HSCT) or high-dose chemotherapy with stem cell rescue for this disease.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01605032",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

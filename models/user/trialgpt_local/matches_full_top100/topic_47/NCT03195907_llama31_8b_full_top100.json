@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03195907",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acute ischemic stroke confirmed by computed tomography or a diffusion-weighed magnetic resonance imaging scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aged > 40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ability to understand and follow simple verbal instructions",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "modified Rankin scale score > 2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "National Institute of Health Stroke Scale score > 0",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no unrestricted movement of the lips",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no receptive aphasia and no history of thoracic or abdominal surgery",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "blood pressure >180/100 mm Hg more than twice in 24 h",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant pulmonary disease, angina, myocardial infarction or acute heart failure within three months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "neurological conditions other than stroke",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of a severe visual disability and visual field defects",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving medications that would influence the metabolic or cardiorespiratory responses to exercise",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inability to perform the tests",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He has a history of hypertension, hyperlipidemia and hypothyroidism.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03195907",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

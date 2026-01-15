@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00437346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "Rome II criteria fulfilled",
+      "label": "met",
+      "evidence": "abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting"
+    },
+    {
+      "criterion": "Helicobacter test negative (urease-test)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes",
+      "label": "not_met",
+      "evidence": "no mention of diabetes"
+    },
+    {
+      "criterion": "Prior gastrointestinal surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment with proton pump inhibitors / H2 blockers the last 30 days",
+      "label": "not_met",
+      "evidence": "no mention of recent PPI/H2 blocker use"
+    },
+    {
+      "criterion": "Pregnancy / lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of NSAIDs",
+      "label": "not_met",
+      "evidence": "no mention of NSAID use"
+    }
+  ],
+  "notes": "Patient has abdominal pain, nausea, and vomiting. She has a history of hypercholesterolemia and two C/sections. Ultrasound revealed several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT00437346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

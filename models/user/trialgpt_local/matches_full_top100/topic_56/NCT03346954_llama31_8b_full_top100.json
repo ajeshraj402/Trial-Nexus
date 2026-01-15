@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03346954",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 18 years old or over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with a diagnosed Cushing's disease according to the French \"protocole national de diagnostic et de soins (PNDS)\"",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient who underwent a MRI pituitary for diagnostic purposes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient who have undergone catheterization of the lower petrosal sinuses (if MRI does not detect pituitary adenoma) and have a result in favor of a central secretion of ACTH",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient having an indication of surgical excision of the adenoma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with a micro-adenoma (less than 1 cm in diameter) if the tumor is visualized on MRI",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient for which informed and written consent to participate has been obtained.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient participating in another study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with a pituitary macro-adenoma with visual impairment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with ACTH-dependent Cushing's syndrome secondary to ectopic ACTH secretion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with recurrence and / or history of pituitary adenoma excision",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with a contraindication to pituitary surgery or general anesthesia",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He has an IGF-1 level of 4.5 ULN adjusted by sex and age, and his random GH level is 4 ug/L.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03346954",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

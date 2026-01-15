@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT04575610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult male and female patients, including women of childbearing potential",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least 18 years of age, inclusive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participant (or legally authorized representative) capable of giving signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Laboratory-confirmed novel coronavirus (SARS-CoV-2) infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical findings and an imaging study consistent with ARDS;",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PaO2 / FiO2 ratio < 300;",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A requirement for mechanical ventilation \u2264 48 hours prior to enrollment.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of increased inflammation as assessed by hsCRP > ULN AND at least ONE of the following being > upper limit of normal (as available): ferritin, procalcitonin, D-dimer, fibrinogen, PT/PTT",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Immunocompromised patients, patients with known immunodeficiencies or taking potent immunosuppressive agents (e.g., azathioprine, cyclosporine)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Anticipated survival < 72 hours as assessed by the Investigator.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in other clinical trials of investigational treatments for COVID-19",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known history of nephrolithiasis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suspected or known active systemic bacterial, viral (except SARS-CoV2 infection), or fungal infections",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active herpes zoster infection",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known active or latent tuberculosis (TB) or history of inadequately treated TB",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active hepatitis B or hepatitis C",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known history of human immunodeficiency virus (HIV) infection with a detectable viral load or CD4 count < 500 cells / mm3",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active hematologic cancer",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Metastatic or intractable cancer",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pre-existing neurodegenerative disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04575610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

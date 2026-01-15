@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01384721",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "\u226564-slice CT technology (or 16-slice CT technology with >4 year follow-up)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "of at least 100 with complete clinical file and follow-up",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimum follow-up of 12 months Only",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with suspected Coronary Artery Disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "METHODS Study design and patient population This is an observational retrospective study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "are renal failure (creatinine clearance <60ml/min)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known previous reaction to iodinated contrast medium and pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of Myocardial Infarction, previous revascularization (PCI and/or CABG)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a family history of CAD.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01384721",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

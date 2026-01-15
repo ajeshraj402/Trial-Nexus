@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02436655",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "men and women of any ethnic origin aged \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "V max across the aortic valve > 4m/s or Pmean \u2265 40mmHg and AVA \u2264 1cm2 or AVAi \u2264 0.6cm2/m2 at rest",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Without reported symptoms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Society of Thoracic Surgeons (STS) score < 8%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participation in another clinical trial within 30 days prior randomization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or nursing women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental condition rendering the patient unable to understand the nature, scope and possible consequences of the study or to follow the protocol",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive stress-test defined as: Anginal chest pain during testing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction < 50% at rest",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Very severe AS (defined as Vmax > 5.5 m/s at rest)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant disease of other valves (Mitral stenosis with Pmean > 5mg, or any significant regurgitation \u2265 3+)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent AMI (< 1 year)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. RV pressure was 41 and had biatrial enlargement. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02436655",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

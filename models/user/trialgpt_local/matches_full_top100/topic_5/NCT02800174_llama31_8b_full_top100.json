@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02800174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Of either sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Carotid artery stenosis caused by atherosclerotic plaque",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diagnosed with severe atherosclerotic carotid stenosis according to a previously described method (North American Symptomatic Carotid Endarterectomy Trial Collaborators, 1991)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe carotid artery stenosis confirmed by transcranial Doppler and carotid duplex ultrasonography",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Provision of informed consent regarding trial procedure",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Carotid artery stenosis caused by fibromuscular dysplasia, Takayasu's arteritis or radiation injury",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe central nervous system disorders, such as complete loss of cerebral function on the affected side with cerebral paralysis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy <2 years because of intracranial tumors or other diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Renal impairment (if use of contrast agent will worsen renal function)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concurrent hemorrhagic disease, or contraindication to antiplatelet or anticoagulant therapies for safety reasons",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Leakage of contrast agent indicative of vessel perforation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dilated aneurysm proximal or distal to stenotic foci",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe carotid artery stenosis confirmed by transcranial Doppler and carotid duplex ultrasonography. He is able to provide informed consent regarding trial procedure.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02800174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

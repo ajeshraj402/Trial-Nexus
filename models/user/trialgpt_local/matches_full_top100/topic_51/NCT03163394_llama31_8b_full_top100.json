@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03163394",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "RSV Positive at time of urine collection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Flu Positive at time of urine collection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Urine culture shows Gram-negative rod-shaped bacterial cells.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03163394",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

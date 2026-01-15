@@ -1,0 +1,29 @@
+{
+  "trial_id": "NCT01430793",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Vitamin D level less than 20 ng/dl",
+      "label": "met",
+      "evidence": "lab results were remarkable for high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Vitamin D deficiency (VDD) has resurfaced as a significant public health problem in recent years",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Prevalence of VDD of 92% and 81% in ambulatory patients has been reported from centers in Karachi and Lahore recently",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient with Hashimoto's thyroiditis, high TSH level, low free T4 level, and extremely high anti-TPO levels. Prescribed Levothyroxine per day, which improved symptoms.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01430793",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

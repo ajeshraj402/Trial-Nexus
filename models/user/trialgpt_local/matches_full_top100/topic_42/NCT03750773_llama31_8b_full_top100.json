@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03750773",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women at least 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gestational age > or = to 30 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Singleton gestation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women undergoing a non-emergent cesarean delivery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Spinal anesthesia or combined spinal-epidural anesthesia utilized during cesarean",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to undergo the informed consent process in English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Vertical skin incision",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "General anesthesia for cesarean",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of major depression or postpartum depression requiring medication",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic opiate use during pregnancy, defined as anyone who has taken an opioid or opioid replacement therapy in the 3 days prior to admission for delivery. This does not include opioids given for labor anesthesia.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Magnesium sulfate treatment postpartum",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preexisting fibromyalgia, chronic pain syndrome, or rheumatologic disorder",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a pregnant woman at 32+6 weeks of gestational age undergoing non-emergent cesarean delivery. She has no history of major depression or postpartum depression requiring medication, but her family history is positive for DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03750773",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

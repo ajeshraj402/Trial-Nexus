@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04105400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adult patients >18 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "admitted to intensive care unit of Assiut University Hospital",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "symptoms of systemic infection and with a clinical suspicion of sepsis",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "as guided by the ICU physician",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients above 70 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who received antibiotic therapy within three days prior to sample collection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "25-year-old G1 P1 pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04105400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

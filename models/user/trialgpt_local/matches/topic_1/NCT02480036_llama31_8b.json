@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02480036",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Metastatic patients from solid tumor",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma, which is a type of solid tumor."
+    },
+    {
+      "criterion": "Estimated life expectancy of at least 3 months",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Age >= 50 years.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, but this criterion is not met exactly."
+    },
+    {
+      "criterion": "Karnofsky Performance Status >= 70%",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Numeric Pain Intensity Score >= 3",
+      "label": "met",
+      "evidence": "Patient has chronic pain."
+    },
+    {
+      "criterion": "10% or more loss of vertebrae height",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have had prior external beam radiotherapy or surgery in the area of planned intervention",
+      "label": "met",
+      "evidence": "Patient has a history of radiation and surgery in the T-L spine."
+    },
+    {
+      "criterion": "Previous radiopharmaceuticals (i.e, Ra-222, Sr-90, etc) within 30 days of procedure",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Patients with clinical or radiographic evidence of spinal cord or cauda equine compression or effacement",
+      "label": "met",
+      "evidence": "Patient has progressive lower extremity weakness and urinary retention."
+    }
+  ],
+  "notes": "Unknown life expectancy, Karnofsky Performance Status, and loss of vertebrae height. Patient's history of radiation and surgery in the T-L spine may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02480036",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04764695",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients in remission stage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Life expectancy> 6 months and sufficient general conditions according to scales",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Histopathological/molecular clinical confirmation of the ALL diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signature of the consent by the relative or legal guardian of the patient and as well as the consent informed by the patient.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pathological conditions that can alter body composition (diabetes, hypothyroidism, among others)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with sepsis that causes hemodynamic compromise and cannot be evaluated",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severely ill patients unable to participate in baseline measurements",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Relapsed patients",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, otherwise healthy and in remission stage.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04764695",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

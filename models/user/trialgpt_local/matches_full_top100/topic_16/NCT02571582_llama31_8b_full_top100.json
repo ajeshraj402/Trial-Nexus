@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02571582",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Advanced Pulmonary disease using home oxygen therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have a diagnosis of chronic hypoxemia proven by blood gas analysis on room air PaO2 \u2264 55 mmHg or SaO2 \u2264 88; or PaO2 between 55 and 60 mmHg or SaO2 between 89 and 90%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Evidence of pulmonary hypertension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Polycythemia (hematocrit> 55%) as GOLD - Global Obstructive Lung Disease, 2015;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No records found Patients who failed to perform the periodic reviews established by the team responsible",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02571582",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

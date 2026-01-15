@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04513197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first episode of acute pancreatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-diabetic/non-prediabetic volunteers",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute pancreatitis cases who die within 1 month of hospitalization",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recurrent acute pancreatitis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic pancreatitis",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04513197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

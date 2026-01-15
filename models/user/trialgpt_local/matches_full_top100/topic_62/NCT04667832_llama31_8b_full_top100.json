@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04667832",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "new patients who referred to Professor Kojuri cardiovascular clinic in Shiraz, Iran",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who referred to Professor Kojuri cardiovascular clinic",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "triglyceride more than 200",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total Cholesterol more than 200",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LDL more than 100",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HDL less than 40 for men and less than 50 for women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c more than 6.5",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hs-CRP more than 2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smoking were defined as regular tobacco smoking or past history of smoking within 3 months before their visit",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors. He has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04667832",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

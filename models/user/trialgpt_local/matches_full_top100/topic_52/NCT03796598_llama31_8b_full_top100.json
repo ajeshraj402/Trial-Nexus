@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Liver Biopsy",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "triggers"
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Platelet count<25,000/mm3",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool and is experiencing profuse watery diarrhea without odor.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

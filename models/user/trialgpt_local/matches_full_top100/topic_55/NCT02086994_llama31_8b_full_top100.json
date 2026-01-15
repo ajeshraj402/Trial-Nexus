@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02086994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with singleton pregnancies of more than 28 weeks' gestation who were admitted to hospital with severe preeclampsia and candidates for vaginal delivery.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Persistent cerebral or visual disturbances or cerebral edema.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Systolic \u2265160 mmHg or diastolic \u2265110 mmHg on 2 occasions at least 6 h apart with the patient at bed rest.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Proteinuria of \u22655 g on 24-hour urine collection. Urine dipsticks are not accurate for this purpose.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Oliguria (\u02c2500 mL in 24 hours).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pulmonary edema.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thrombocytopenia.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "polyhydramnios, previous uterine scar, chorioamnionitis and multiple pregnancies.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypertensive crisis the first drug used was hydralazine (5 mg IV every 15 minutes to a maximum total dose of 20 mg) and, if this was ineffective, Nifedipine (Epilat): 10 to 20 mg orally / 30 min (max 50 mg), Then 10-20 mg /4-6 h (max 120 mg/day) or labetalol (20 mg IV every 10 minutes to a maximum total dose of 300 mg).",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patients (60) were divided into two groups, Group A (30) received a single dose of carbetocin (100 \u03bcg in 1 mL ampoule, Pabal) while Group B (30) received misoprostol (600 \u03bcg, 3 tables) sublingually after the delivery of the anterior shoulder of the baby.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The third stage of labour is managed as usual by clamping and cutting of umbilical cord, waiting for signs of placental separation and delivering the placenta by controlled cord traction.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 22-year-old Caucasian man came to the Clinic with a history of tremors since a year ago. Wilson disease was confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver).",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02086994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

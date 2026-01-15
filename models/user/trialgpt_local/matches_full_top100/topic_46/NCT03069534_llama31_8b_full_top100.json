@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03069534",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed case of MDR-TB",
+      "label": "met",
+      "evidence": "sputum smear revealed positive sputum culture for Mycobacterium tuberculosis"
+    },
+    {
+      "criterion": "aged 18-70 years old",
+      "label": "met",
+      "evidence": "Patient A is a 30-year-old male"
+    },
+    {
+      "criterion": "chest CT showing visible lung lesions, with or without holes",
+      "label": "met",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation"
+    },
+    {
+      "criterion": "voluntarily joined this study and signed an informed consent form",
+      "label": "met",
+      "evidence": "Patient A was febrile (38 c) with heart rate of 115 b/min, respiratory rate of 22, BP of 125/75 mmHg and O2 sat of 97%"
+    },
+    {
+      "criterion": "fasting plasma glucose of less than 7.8 mol/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "normal fundus examination",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "two or more total allergies or any drug or food allergies",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "resistant to some drugs of this program",
+      "label": "not_met",
+      "evidence": "The sputum smear revealed positive sputum culture for Mycobacterium tuberculosis which are sensitive of the first-line TB drugs (isoniazid, streptomycin, rifampicin and ethambutol)"
+    },
+    {
+      "criterion": "severe disorders of liver, kidney, or hematologic system functions",
+      "label": "not_met",
+      "evidence": "Lab study is reported bellow: Hgb: 13 g/dl WBC: 14000 /mm3 Plt: 300000 /ml AST: 13 U/L ALT: 15 U/L Alk P: 53 U/L Bill total: 0.6 mg/dl Na: 137 mEq/l K: 4 mEq/l Creatinine: 0.5 mg/dl BUN: 10 mg/dl ESR: 120 mm/hr"
+    },
+    {
+      "criterion": "any metabolic diseases, autoimmune diseases, endocrine diseases, cancer, or HIV/AIDS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "a long-term use of immunosuppressive agents",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "a blood system dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "a history of mental illness or epilepsy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or lactating",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A is a previously healthy man, working as an engineer in a high tech company. He doesn't smoke o use any illicit drugs.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT03069534",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

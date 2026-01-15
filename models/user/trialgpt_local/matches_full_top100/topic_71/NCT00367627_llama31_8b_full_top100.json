@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "41.5 kg/m^2"
+    },
+    {
+      "criterion": "weight concern",
+      "label": "met",
+      "evidence": "comes to the clinic with weight concerns"
+    },
+    {
+      "criterion": "sleep apnea",
+      "label": "unknown",
+      "evidence": "complaining of sleep apnea"
+    },
+    {
+      "criterion": "PCO",
+      "label": "unknown",
+      "evidence": "complaining of PCO"
+    },
+    {
+      "criterion": "dissatisfaction with body shape",
+      "label": "met",
+      "evidence": "complaining of dissatisfaction with her body shape"
+    },
+    {
+      "criterion": "high-school teacher",
+      "label": "met",
+      "evidence": "She is a high-school teacher"
+    },
+    {
+      "criterion": "married for 5 years",
+      "label": "met",
+      "evidence": "She is married for 5 years"
+    },
+    {
+      "criterion": "no prior pregnancies",
+      "label": "met",
+      "evidence": "She had no prior pregnancies"
+    },
+    {
+      "criterion": "rarely exercises",
+      "label": "not_met",
+      "evidence": "She rarely exercises and movement seems to be hard for her"
+    },
+    {
+      "criterion": "cannot complete four-square step test in less than 15 seconds",
+      "label": "met",
+      "evidence": "She is not able to complete the four-square step test in less than 15 seconds"
+    },
+    {
+      "criterion": "no smoking or drug use",
+      "label": "met",
+      "evidence": "She does not smoke or use any drugs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "serious chronic illness",
+      "label": "unknown",
+      "evidence": "complaining of sleep apnea, PCO and dissatisfaction with her body shape"
+    }
+  ],
+  "notes": "Patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has several health issues but no clear exclusion criteria.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

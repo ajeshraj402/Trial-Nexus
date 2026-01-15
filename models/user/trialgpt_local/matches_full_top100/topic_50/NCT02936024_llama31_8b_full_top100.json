@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02936024",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "1-5 years of age at presentation"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "intraabdominal UDT"
+    },
+    {
+      "criterion": "surgical_specialty",
+      "label": "met",
+      "evidence": "Pediatric Urologists"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_surgery",
+      "label": "not_met",
+      "evidence": "no previous laparoscopic orchidopexy"
+    },
+    {
+      "criterion": "testis_palpability",
+      "label": "met",
+      "evidence": "non-palpable testis in the right scrotum"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, diagnosed with intraabdominal UDT.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02936024",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

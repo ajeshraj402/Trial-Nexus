@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01198691",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obstetric service patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women greater than 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "singleton gestation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cesarean section performed by pfannenstiel skin incision",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "contraindication to post operative nsaid's or narcotics",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "emergent cesarean deliveries",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "less than 18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of severe 'exploding' headache following a head injury, but was improving with pain medication and ambulating independently.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01198691",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

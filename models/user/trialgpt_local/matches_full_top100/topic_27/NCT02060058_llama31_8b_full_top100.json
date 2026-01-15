@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02060058",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient must be 20 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has HCV GT1 infection combined with HBV infection.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must be serum HCV RNA detectable, anti-HCV positive, HBsAg positive and HBeAg negative.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has previously failed treatment with PEG-IFN-\u03b1 2a or 2b/RBV for minimum of 12 weeks of treatment.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient must have compensated liver disease consistent with CHC and/or CHB, and no other etiology.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient meets all of the requirements and none of the contra-indications for treatment with PEG-IFN alpha-2b/RBV or boceprevir defined in the labels for the PEG-IFN/RBV to be used in combination with boceprevir.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is able and willing to provide signed informed consent (prepared by and administered by the physician) as required by local country requirements.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mixed genotypes including HCV genotype other than genotype 1.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has received boceprevir, narlaprevir, telaprevir, or any other HCV protease inhibitor treatment.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has evidence of decompensated liver disease including but not limited to, a history or presence of clinical ascites, bleeding varices, or hepatic encephalopathy.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient meets any of the following exclusionary hematologic and biochemical criteria (documentation required) Hemoglobin <12 gm/dL for females and <13 gm/dL for males Neutrophils <1500/mm3 Platelets <100,000/mm3",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has an organ transplant other than cornea or hair.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is co-infected with human immunodeficiency virus (HIV)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient requires or is anticipated to require any of the following prohibited medications: midazolam, pimozide, amiodarone, flecainide, propafenone, quinidine, and ergot derivatives",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with clinical diagnosis or evidence of substance abuse involving alcohol, intravenous drugs, inhalational psychotropics, narcotics, cocaine prescription or over-the-counter drugs.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has chronic HCV infection for the past 2 years and is on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy. He has previously failed treatment with PEG-IFN-\u03b1 2a or 2b/RBV.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02060058",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

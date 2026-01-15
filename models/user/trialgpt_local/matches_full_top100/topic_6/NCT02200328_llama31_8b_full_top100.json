@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02200328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Inpatients >55",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Proton Pump inhibitor / Histamine-2 Blocker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "On broad spectrum antibiotics (Zosyn and/or Ciprofloxacin)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anticipated hospital stay >48 hours",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Mental capacity (able to give informed written consent).",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Admission for CDI",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Existing diarrhea at admission",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Passed prophylactic window (>48 hours on broad spectrum antibiotics)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to take PO at the time of evaluation for study entry",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No more than 14 days of broad spectrum antibiotics anticipated",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02200328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

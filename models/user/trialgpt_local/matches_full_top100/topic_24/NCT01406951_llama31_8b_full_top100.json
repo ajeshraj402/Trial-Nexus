@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01406951",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and female aged 18 years old and over",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fulfilled at least two criteria of systemic inflammatory response syndrome (a) core temperature higher than 38 \u00b0C or lower than 36 \u00b0C (b)respiratory rate above 20/min, or PCO2 below 32 mmHg (c) pulse rate above 90/min, and (d) white blood cell count greater than 12,000/\u03bcl or lower than < 4,000/\u03bcl or less than 10% of bands",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically suspected infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fulfilled criteria of VAP diagnosis(a) after 48-72h endotracheal intubation, X-ray film displays new or progressive infiltrating focus; (b)The patient is in two of the following conditions: a. fever (temperature >38 \u2103 or higher than basal temperature; b. peripheral WBC count\u226510\u00d710\u22279/L\uff0cor <4\u00d710\u22279/L; c. appearance or increase of purulent respiratory tract secretion",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "were under 18 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "had contracted VAP upon ICU admission or in less than 48h after being admitted",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01406951",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

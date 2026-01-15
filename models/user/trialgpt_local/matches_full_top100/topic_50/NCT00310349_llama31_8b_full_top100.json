@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00310349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton uncomplicated pregnancy",
+      "label": "met",
+      "evidence": "normal pregnancy with no complication"
+    },
+    {
+      "criterion": "reside in Darwin, Maningrida, Wadeye or the Tiwi Islands",
+      "label": "met",
+      "evidence": "resides in Darwin"
+    },
+    {
+      "criterion": "intends to deliver child at the Royal Darwin Hospital",
+      "label": "met",
+      "evidence": "intends to deliver child at the Royal Darwin Hospital"
+    },
+    {
+      "criterion": "has given informed consent to participate",
+      "label": "met",
+      "evidence": "given informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "had 23vPPV within the previous three years",
+      "label": "not_met",
+      "evidence": "no mention of vaccination"
+    },
+    {
+      "criterion": "had a previous dose of dTpa",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intends to leave the study area during the follow-up period",
+      "label": "not_met",
+      "evidence": "no indication of leaving the area"
+    },
+    {
+      "criterion": "HIV positive",
+      "label": "not_met",
+      "evidence": "no mention of HIV status"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, otherwise healthy and normal development.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT00310349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

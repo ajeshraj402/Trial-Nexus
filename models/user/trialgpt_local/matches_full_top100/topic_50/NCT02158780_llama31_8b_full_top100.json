@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02158780",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "palpable undescended testis",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "age between 10 mos - 7 years",
+      "label": "met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "requires scrotal or inguinal orchidopexy",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy showed an abdominal undescended testis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "laparoscopic surgery for intra-abdominal testis or peeping testis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous orchidopexy surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with palpable undescended testis, requiring surgical intervention.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02158780",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

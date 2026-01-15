@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03091738",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Child class A cirrhosis proven by biopsy",
+      "label": "met",
+      "evidence": "biopsy"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient unwilling to start therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergic reactions to ramelteon in the past",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obstructive sleep apnea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Periodic limb movement disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate to severe depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Night shift workers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inter-continental travel within the last 4 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is off ETOH for a year and has been started on lactulose for presumptive hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03091738",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

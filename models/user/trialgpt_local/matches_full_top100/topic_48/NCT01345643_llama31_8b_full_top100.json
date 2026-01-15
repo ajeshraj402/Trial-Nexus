@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01345643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed_consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gcs_score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgery_blood_loss",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refuse_consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of smoking and hyperlipidemia in family, but no underlying disease. Physical exam and lab studies were normal otherwise.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01345643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

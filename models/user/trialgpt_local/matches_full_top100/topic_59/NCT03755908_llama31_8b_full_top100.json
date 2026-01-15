@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03755908",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to perform spirometry and FOT tests",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal spirometry results (FEV1 & FEV1/FVC >80% and FEF25-75>65%)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic lung disease other than asthma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe chronic medical condition such as heart failure, neuromuscular disease etc.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03755908",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

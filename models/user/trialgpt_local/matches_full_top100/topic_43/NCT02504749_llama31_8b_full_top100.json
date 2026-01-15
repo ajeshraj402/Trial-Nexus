@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02504749",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-37 years"
+    },
+    {
+      "criterion": "full_term",
+      "label": "met",
+      "evidence": "37-41 weeks"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "1 child"
+    },
+    {
+      "criterion": "hemoglobin_level",
+      "label": "unknown",
+      "evidence": "11 gm/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication_to_regional_anesthesia",
+      "label": "triggers",
+      "evidence": "febrile, tachycardic and hypotensive"
+    },
+    {
+      "criterion": "high_risk_pregnancy",
+      "label": "unknown",
+      "evidence": "pre eclampsia"
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is febrile with abdominal pain and diarrhea. She is also tachycardic and hypotensive.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02504749",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

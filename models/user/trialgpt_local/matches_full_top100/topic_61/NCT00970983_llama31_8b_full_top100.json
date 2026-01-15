@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00970983",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40 and 75 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Clinical, mammographic or ultrasonographic diagnosis of a unicentric carcinoma with an ultrasonographic diameter of equal or less than 2.0 cm.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "for accurate determination of possible multifocality or multicentricity of the tumor, as well as for the determination of possible bone metastasis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Axillary lymph nodes that cannot be palpated or that are not clinically suspicious for metastasis.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No previously executed therapy (including biopsy) at any outside institution.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Those patients with nonpalpable lesions will be subjected to preoperative radioactive occult lesion localization (ROLL) or stereotactic biopsy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate patient information and signature of the informed consent.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Lesions diagnosed as non-infiltrating (in-situ) ductal or lobular carcinoma.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Paget's disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented multicentricity and/or abundant multifocality of the neoplasm.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. Candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00970983",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

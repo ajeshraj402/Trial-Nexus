@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01085565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "symptoms of bone metastases",
+      "label": "met",
+      "evidence": "frequent headaches, generalized bone pain and difficulty chewing"
+    },
+    {
+      "criterion": "targeted tumor accessibility",
+      "label": "met",
+      "evidence": "ExAblate device accessible"
+    },
+    {
+      "criterion": "pain score",
+      "label": "met",
+      "evidence": "NRS (0-10 scale) pain score \u2265 4 at the targeted tumors"
+    },
+    {
+      "criterion": "tumor location",
+      "label": "met",
+      "evidence": "located in ribs, extremities, pelvis, shoulders and in the posterior aspects of the following spinal vertebra: Lumbar vertebra (L3 - L5), Sacral vertebra (S1 - S5)"
+    },
+    {
+      "criterion": "tumor size",
+      "label": "met",
+      "evidence": "targeted tumors are on bone and bone-lesion interface is more than 1cm from the skin, major nerve or hollow viscera"
+    },
+    {
+      "criterion": "MRI visibility",
+      "label": "met",
+      "evidence": "clearly visible by non-contrast MRI"
+    },
+    {
+      "criterion": "communication during treatment",
+      "label": "met",
+      "evidence": "Able to communicate sensations during the ExAblate MRgFUS treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgical stabilization of affected weight bearing bony structure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "impending fracture site of weigh bearing bone",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical stabilization of tumor site with metallic hardware",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "target tumors-bone interface is less then 1cm from nerve bundles, bowels, skin or bladder",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and will be treated with Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01085565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

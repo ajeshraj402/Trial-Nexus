@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04604223",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 21-85 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients of both sexes will be included",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "COVID-19 infection confirmed with PCR test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Manifest at least one COVID-19 symptoms (Fever, Chills, Headache, Rhinorreah, Cough (dry or with sputum), Sore Throat, shortness of breath, Hemoptysis, Altered mentation, Fatigue/Malaise)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diabetes and COVID-19 diagnoses",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient clinical condition through hospitalization precludes the use of pioglitazone (primarily due to fluid retention)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is transferred to other medical facility due to space issues (eg. transfer to field hospital)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and COVID-19 infection, confirmed with PCR test. He presents with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04604223",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

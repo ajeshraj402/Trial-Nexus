@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03259880",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of acute pancreatitis",
+      "label": "met",
+      "evidence": "lab studies"
+    },
+    {
+      "criterion": "abdominal pain characteristic of acute pancreatitis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "serum amylase and/or lipase greater than 3 times the upper limit of normal",
+      "label": "met",
+      "evidence": "lab studies"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients are excluded from the study if they do not meet the criteria for acute pancreatitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are under the age of 16",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with chronic pancreatitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with recurrent acute pancreatitis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old obese woman presenting with abdominal pain and vomiting, diagnosed with acute edematous interstitial pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT03259880",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

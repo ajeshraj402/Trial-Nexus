@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01051726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women in labour and expecting a normal delivery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aged > 16 who are able to make informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "spontaneous or induced labour onset",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior to elective or emergency caesarean section",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm labour",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pool births",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled caesarean section",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT01051726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

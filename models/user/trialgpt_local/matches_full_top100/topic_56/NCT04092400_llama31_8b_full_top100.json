@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04092400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "glaucoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "listed for implantation of micro-invasive glaucoma surgical devices",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with or without cataract surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Advanced glaucoma (as defined as cup-disc ratio \u2265 0.9 and/or a visual field defect within central 10\u02da of fixation)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosis of glaucoma other than POAG and PACG",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma, but there is no mention of advanced glaucoma or diagnosis of glaucoma other than POAG and PACG. He underwent transsphenoidal surgery 4 months ago and takes only vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT04092400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04859127",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Between the ages of 18-65",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Has not experienced neck pain for the last 1 year",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having had cervical spine and shoulder surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neck pain caused by different pathologies (tumor, rheumatoid arthritis, ankylosing spondylitis, fracture, dislocation)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. No dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04859127",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

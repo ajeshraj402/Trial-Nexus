@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01053026",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HbA1c \u2264 8.0 % and systolic blood pressure \u2265 140 mmHg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 30-70 years\uff0csystolic blood pressure 140-160 mmHg and HbA1c \u2264 8%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no history of ACEI or ARB use within 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with diabetes mellitus and hypertension",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active cardiovascular diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe hepatic",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal dysfunction (CRE \u2265 3 mg/dl\uff0cT-Bil \u2265 3 mg/dl)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and presents with shortness of breath and fatigue during activities. He is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01053026",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

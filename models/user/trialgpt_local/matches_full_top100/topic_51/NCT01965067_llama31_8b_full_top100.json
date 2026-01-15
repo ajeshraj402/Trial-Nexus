@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01965067",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective abdominal surgery",
+      "label": "met",
+      "evidence": "patient is undergoing elective abdominal surgery"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists criteria 1 or 2",
+      "label": "met",
+      "evidence": "no underlying disease mentioned"
+    },
+    {
+      "criterion": "supine position with arm available for neuromuscular monitoring during operation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "difficult airway",
+      "label": "not_met",
+      "evidence": "no mention of difficult airway"
+    },
+    {
+      "criterion": "neuromuscular disease",
+      "label": "not_met",
+      "evidence": "no underlying disease mentioned"
+    },
+    {
+      "criterion": "significant hepatic or renal dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "family history of malignant hyperthermia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known allergy to one of the drugs used in this protocol",
+      "label": "not_met",
+      "evidence": "no mention of known allergies"
+    },
+    {
+      "criterion": "intake of any medication that might interact with muscle relaxants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant",
+      "label": "met",
+      "evidence": "patient is pregnant"
+    },
+    {
+      "criterion": "breast feeding",
+      "label": "not_met",
+      "evidence": "no mention of breast feeding"
+    }
+  ],
+  "notes": "Patient has a sudden onset of fever and chills, accompanied by nausea and vomiting. She also complains of dysuria, urgency, and frequency.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT01965067",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

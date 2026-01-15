@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00430417",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ethnicity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiac_disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal_disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pulmonary_disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00430417",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

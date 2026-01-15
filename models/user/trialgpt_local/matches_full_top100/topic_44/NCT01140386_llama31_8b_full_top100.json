@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01140386",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "Hospitalized for greater than or equal to 24 hours",
+      "label": "met",
+      "evidence": "Patient is hospitalized"
+    },
+    {
+      "criterion": "VTE documented during hospital admission",
+      "label": "not_met",
+      "evidence": "no mention of VTE"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age >18",
+      "label": "triggers",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "Other medical condition",
+      "label": "unknown",
+      "evidence": "no other medical condition mentioned"
+    }
+  ],
+  "notes": "Patient is a well-dressed and well-nourished adolescent who is alert and cooperative.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01140386",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

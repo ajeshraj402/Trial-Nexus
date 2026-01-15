@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01769105",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "meibomian gland dysfunction requiring treatment",
+      "label": "met",
+      "evidence": "Speed score> 7, Lipiview <61 nm, MGE <5 of 15 open glands"
+    },
+    {
+      "criterion": "written consent to the study",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic medication with tetracyclin derivatives",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "antihistamines",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "isotretinoin",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "nutritional supplements for MGD that started <3 months before baseline examination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "topical cyclosporine-A or steroids that started <1 month before baseline examination",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "55-year-old man with Parkinson's disease, mild Hoehn-Yahr Stage I. Lives with wife and has three children.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01769105",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03628313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Retrospectively, all patients examined from January 1, 2000 to November 2014 will be included",
+      "label": "met",
+      "evidence": "The patient presented on [**2148-10-1**] which is after the specified date range."
+    },
+    {
+      "criterion": "included in the echocardiography laboratory whose objective examination is a narrowing of the aortic valve (maximum transaortic velocity \u22652.5 m / s)",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function and echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve."
+    },
+    {
+      "criterion": "Aortic stenosis may be known in the past",
+      "label": "met",
+      "evidence": "The patient has a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse which suggests a history of aortic stenosis."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Refusal of the patient to participate in the study",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have previously had aortic valve surgery before being examined in the echocardiography laboratory",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who can not be contacted or who do not respond will not be included in the database",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient's history of bicuspid aortic valve and previous cardiac cath with right heart cath to evaluate his pulm art pressures suggests that they may have had some contact or response, but this is not explicitly stated.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03628313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01961219",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "idiopathic adhesive capsulitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "failed nonoperative therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 18 or older",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previously operated shoulder (same side)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other documented source of shoulder pain and stiffness (same side)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01961219",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01778400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "predominantly cystic thyroid nodules",
+      "label": "met",
+      "evidence": "90% > cystic portion > 50%"
+    },
+    {
+      "criterion": "pressure symptoms or cosmetic problems",
+      "label": "met",
+      "evidence": "reports of pressure symptoms or cosmetic problems"
+    },
+    {
+      "criterion": "cytologic confirmation of benignancy in at least two, separate US-guided, fine-needle aspiration cytology or core needle biopsy for cystic fluid and/or a mural, solid component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum levels of thyroid hormone, thyrotropin, and calcitonin within normal limits",
+      "label": "met",
+      "evidence": "within normal limits"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "nodules showing malignant features",
+      "label": "not_met",
+      "evidence": "taller than wide, spiculated margin, markedly hypoechoic, micro- or macrocalcifications"
+    },
+    {
+      "criterion": "lack of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "less than 20 years old",
+      "label": "not_met",
+      "evidence": "75 yo M"
+    },
+    {
+      "criterion": "pregnant woman",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with a history of XRT and multiple surgeries, but reports pressure symptoms and cosmetic problems.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01778400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

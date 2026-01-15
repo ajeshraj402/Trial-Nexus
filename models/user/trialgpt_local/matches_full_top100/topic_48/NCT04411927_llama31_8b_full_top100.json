@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04411927",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Medically diagnosed with CKD",
+      "label": "met",
+      "evidence": "confirmed by observation of segmented fungal hyphae during a microscopic KOH wet mount examination"
+    },
+    {
+      "criterion": "Age ranged from eight to fifteen years",
+      "label": "not_met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "male"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Communication problems such as intellectual disability, autism, Down syndrome, or cerebral palsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant visual or hearing problems",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "Any neurological and/or musculoskeletal disorders which influence postural stability",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "Chronic cardiovascular or pulmonary disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of smoking (15 cigarettes per day) and drinking (1 beer per day), but no underlying disease such as DM. Family history is positive for hyperlipidemia in her mother and MI in her father.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT04411927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

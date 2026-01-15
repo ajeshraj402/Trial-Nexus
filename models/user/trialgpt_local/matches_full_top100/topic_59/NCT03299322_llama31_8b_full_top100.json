@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03299322",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient diagnosed with chronic persistent asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Annual uncontrollable time \u2265 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have given written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of upper upper/lower respiratory infection in the previous 1 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of long-term controller medication use for asthma (oral corticosteroid or intravenous corticosteroids therapy) within the preceding 1 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of antibiotic use in the previous 1 months",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and is currently experiencing symptoms. He was admitted to the emergency department with a diagnosis of severe asthma exacerbation.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03299322",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

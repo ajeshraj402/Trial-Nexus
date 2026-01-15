@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03369847",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chief complaint consistent with asthma exacerbation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Previous diagnosis of asthma by a physician OR one major in the Asthma Predictive Index (API) with two prior episodes of wheezing in the past year.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Major criteria in the API: parent with asthma, patient with eczema, evidence of sensitization to allergens in the air",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Received oral corticosteroids as part of treatment during this visit for acute asthma exacerbation.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Deemed well enough after interventions to be discharged by the treating physician.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Received asthma controller medications within four weeks prior to presentation or an allergy to intervention asthma controller mediations.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients will be randomized using a random number generator to the intervention group, or standard care (control) group in a 1:1 ratio. Patients assigned to the intervention group will be subject to initiation of an asthma controller medication upon discharge.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients <5 years of age or patients who prefer nebulized medications will receive a one month supply of low dose Pulmicort (budesonide) solution 0.25mg/respule to be given twice a day via nebulizer.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients \u22655 years of age will receive one low dose QVAR (Beclometasone dipropionate) metered-dose inhaler (MDI) 40mcg/puff with instructions to take it two puffs twice a day with spacer.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients allocated to the control group will not receive an asthma controller medication from the PED.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03369847",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

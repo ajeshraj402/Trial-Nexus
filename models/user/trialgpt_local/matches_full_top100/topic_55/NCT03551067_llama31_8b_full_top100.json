@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03551067",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with ASA I (American Society of Anesthesiologists physical status Grade I)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal healthy patients or ASA II (American Society of Anesthesiologists physical status Grade II) = (patients with mild systemic disease and no functional limitations)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children scheduled for adenotonsillectomy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children with central nervous system disorders & neurological problems.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children with inborn errors of metabolism.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obese children (BMI >30 kg/m2).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children with known allergy to dexmedetomidine, midazolam or ketamine.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children who vomit.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children with recent or chronic administration of sedative drugs, antipsychotics or tranquilizers.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Wilson disease confirmed by high liver copper concentration. He has a constant smile on his face and aggressive behavior.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03551067",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

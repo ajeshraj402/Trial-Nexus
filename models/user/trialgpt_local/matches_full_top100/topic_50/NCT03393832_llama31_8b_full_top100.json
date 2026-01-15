@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03393832",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Infants with a primary diagnosis of gastroschisis",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy showed an abdominal undescended testis"
+    },
+    {
+      "criterion": "Infants with a primary diagnosis of gastroschisis",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Gestational age less than 30 weeks",
+      "label": "not_met",
+      "evidence": "The baby boy is a first child who was born at the age of 38 weeks"
+    },
+    {
+      "criterion": "Birth weight less than 1,000 g",
+      "label": "not_met",
+      "evidence": "The baby boy weighted 3200 gr"
+    },
+    {
+      "criterion": "Other major congenital anomalies or clinically significant heart disease",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "First dose of oral care greater than 72 hours after birth",
+      "label": "not_met",
+      "evidence": "He is breast feeding"
+    },
+    {
+      "criterion": "Early transfer to another institution",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03393832",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

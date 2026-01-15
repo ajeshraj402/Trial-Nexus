@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02653664",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "veteran_status",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic_pain",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "language_proficiency",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cognitive_impairment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric_issues",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "opioid_use",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but is able to read, speak and understand English. He does not have any signs of dementia.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT02653664",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

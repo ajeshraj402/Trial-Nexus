@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT01660997",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance status <2.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are receiving any other investigational agents not included in this trial, within 21 days of the start of this trial and throughout the duration of this trial.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Prior therapy for SMM with a proteasome inhibitor.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has symptoms consistent with Shiga-like toxin-producing E. coli (STEC) infection, which may be a contraindication to study enrollment.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01660997",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

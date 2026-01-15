@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "20 years old"
+    },
+    {
+      "criterion": "english proficiency",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "hiv status",
+      "label": "unknown",
+      "evidence": "HIV infected on stable ART regimen for 7 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "able to give informed consent"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "unknown",
+      "evidence": "SBP >140 and DBP >90 at screening and baseline"
+    }
+  ],
+  "notes": "The patient has a history of RRMS, but is currently under treatment. She smokes 10 cigarettes per day and drinks alcohol occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

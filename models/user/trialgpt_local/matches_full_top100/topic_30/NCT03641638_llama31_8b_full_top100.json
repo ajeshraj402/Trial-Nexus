@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03641638",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-pregnancy tests for normal thyroid function (FT3, FT4, TSH)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "First pregnancy between the ages of 18 to 35 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Early screening (1-12 weeks of pregnancy) initial screening TPOAb positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "thyroid function FT3, FT4 normal, TSH<4.78mIU/L",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Combined with other autoimmune diseases (such as systemic lupus erythematosus, etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Type 1 diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment and thyroid profile is mostly within normal range.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03641638",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04643262",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "BMI >35 with comorbidity and age between 25-60 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Methylene blue test is performed routinely",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or lactation, psychiatric illness, or recent diagnosis of malignancy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inflammatory bowel disease, Barrett \u0301s esophagus, and GERD with esophagitis scored as or greater than grade B",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a large pericardial effusion due to Burkitt's lymphoma, which may be a contraindication for the study. Additionally, patient has a history of viral encephalitis/meningitis and CSF leak with meningitis, which may also be a contraindication.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04643262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

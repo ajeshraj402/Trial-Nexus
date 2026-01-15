@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00845676",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly acquired HCV infection of 6 months or less duration",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Detectable HCV RNA at study entry",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "HIV infection, any CD4 count",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or intent to become pregnant within 24 weeks of study completion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other serious liver disease",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00845676",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

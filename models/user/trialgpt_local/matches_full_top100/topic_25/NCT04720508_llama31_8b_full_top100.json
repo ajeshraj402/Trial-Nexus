@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04720508",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female age 20 years or older",
+      "label": "met",
+      "evidence": "physical examination, imaging and histopathology"
+    },
+    {
+      "criterion": "documented diagnosis of breast cancer based on physical examination, imaging and histopathology",
+      "label": "met",
+      "evidence": "histopathology"
+    },
+    {
+      "criterion": "possibility of obtaining blood samples from the subject",
+      "label": "met",
+      "evidence": "patient's current health status"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "All patients with prior history of exposure to chemotherapy, radiotherapy or hormonal therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with other malignancies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with chronic inflammatory diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with missed documentation for histopathological diagnosis of breast cancer",
+      "label": "not_met",
+      "evidence": "histopathology report"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with a history of breast cancer, HER2-positive and ER/PR negative. She has no other malignancies or chronic inflammatory diseases.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04720508",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

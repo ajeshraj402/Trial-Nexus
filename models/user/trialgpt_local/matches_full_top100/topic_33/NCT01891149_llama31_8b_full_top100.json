@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01891149",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presentation to the Fistula Care Centre in Lilongwe for medical evaluation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to consent for study participation in Chichewa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female aged 18-45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to undergo pelvic ultrasound for assessment of pelvic organs",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No history of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current pregnancy or pregnancy within the past six weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Seriously or terminally ill",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease. She has regular exercise habits and uses barrier methods of contraception.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01891149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

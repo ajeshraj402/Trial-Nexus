@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01879579",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Initiating long-acting insulin treatment or initiating the titration of long-acting insulin treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "Speaks English or Spanish",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin A1c > or = 8%",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Able and willing to inject insulin",
+      "label": "met"
+    },
+    {
+      "criterion": "Able and willing to provide informed consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Short-acting insulin treatment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Systemic glucocorticoids",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Sustained elevated serum creatinine > or = 1.5 mg/dL for men and > or = 1.4 mg/dL for women",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Hypoglycemia unawareness",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Type 1 diabetes",
+      "label": "met"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and is initiating long-acting insulin treatment. He speaks English.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01879579",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02609529",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "parental_consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pharmacologic_treatment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "symptom_articulation",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "language",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples. She has abdominal pain, diarrhea, and fever.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02609529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

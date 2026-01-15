@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "34"
+    },
+    {
+      "criterion": "tumor_stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skin_spacing",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "histology",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "does not use contraceptive methods"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "not_met",
+      "evidence": "lab results: FBS, TG, Cholesterol, LDL, HDL"
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is an obese woman with weight concerns and sleep apnea. She has a history of unsuccessful use of antiobesity agents and appetite suppressants.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02781207",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients evaluated in the Emergency Department for loss of consciousness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "loss of consciousness classified as high risk syncope",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "identification of cause of loss of consciousness after initial evaluation",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "loss of consciousness classified as high risk syncope",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has carotid bruits and significant bilateral carotid stenosis, but no residual deficits from prior CVA. He denies chest pain, dyspnea on exertion, or other symptoms that would make him ineligible.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02781207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

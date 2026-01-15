@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01354262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes mellitus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hgb A1c greater then 7.0",
+      "label": "met",
+      "evidence": "quote: HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Adults aged 34 to 69 years.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known primary hyperparathyroidism, sarcoidosis, tuberculosis, cancer, potential",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "terminal illness,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of serum creatinine more than 2.0 mg/dL,",
+      "label": "not_met",
+      "evidence": "quote: lab study is not mentioned, but patient's kidney function is not significant issue"
+    },
+    {
+      "criterion": "vitamin D supplement more than 200 IU/day",
+      "label": "met",
+      "evidence": "quote: He takes vitamin D supplements."
+    },
+    {
+      "criterion": "history of inflammatory bowel disease,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypercalcemia or kidney stones",
+      "label": "not_met",
+      "evidence": "quote: patient's lab study is not mentioned, but his past medical history is not significant for any other medical issues"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01354262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

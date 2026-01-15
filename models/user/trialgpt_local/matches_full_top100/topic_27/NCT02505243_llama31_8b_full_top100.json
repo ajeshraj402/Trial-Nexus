@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02505243",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-infected patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient must be treated with ribavirin.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient must be treated with one or more DAAs (simeprevir, sofosbuvir, daclatasvir, ledipasvir, paritaprevir, ombitasvir, or dasabuvir).",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 18 years of age at start of treatment.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "None",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN, RBV, and DAAs. He meets all inclusion criteria.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02505243",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

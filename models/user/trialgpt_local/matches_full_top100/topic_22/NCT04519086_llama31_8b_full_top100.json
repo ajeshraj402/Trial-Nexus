@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04519086",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Clinical suspicion of acute uncomplicated appendicitis based on history, physical examination, laboratory findings evaluated by a senior surgeon",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Body mass index over 30 kg/m2",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 years or > 60 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to contrast material or iodine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of appendectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal failure, creatinine-value greater than the upper reference value",
+      "label": "unknown",
+      "evidence": "Her lab work is remarkable for leukocytosis."
+    },
+    {
+      "criterion": "Diabetes mellitus and metformin medication",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suspicion of peritonitis and appendiceal perforation",
+      "label": "unknown",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Incapability to cooperate and give consent to participate in the study",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04519086",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

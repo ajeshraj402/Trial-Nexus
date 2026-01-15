@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00804765",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI > 25 kg/m\u00b2",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "less than 21 weeks of gestation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women younger than 18 yrs",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "multiple gestation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "high risk pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00804765",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

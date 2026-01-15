@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03388268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226518 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically significant diarrhea (\u22653 diarrheal bowel movements per day or \u22651 diarrheal bowel movement plus abdominal pain)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stool submitted to the BJH microbiology laboratory for C. difficile testing that tests negative for C. difficile toxins (C. difficile Tox A/B II, Alere, Waltham, MA) as part of routine clinical care and positive by NAAT (Xpert C. difficile, Cepheid, Sunnyvale,",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Upcoming chemotherapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous or upcoming bone marrow/hematopoietic stem cell transplant,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Leukemia: new, not in remission, or receiving chemotherapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inflammatory bowel disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and febrile with abdominal pain and diarrhea. Stool samples positive for C. difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03388268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03182049",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "patient's age is 57"
+    },
+    {
+      "criterion": "Stenotic Airway Disease (laryngeal, subglottic, distal tracheal or bronchial)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18years of age",
+      "label": "not_met",
+      "evidence": "patient's age is 57"
+    },
+    {
+      "criterion": "Patients without capacity to consent for themselves",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of significant laryngotracheal traumatic injury.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Endotracheal intubation 2 years prior to presentation.",
+      "label": "not_met",
+      "evidence": "no mention of endotracheal intubation"
+    },
+    {
+      "criterion": "Major anterior neck surgery.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of neck irradiation.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of caustic or thermal injury to the laryngotracheal complex.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been diagnosed with Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03182049",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

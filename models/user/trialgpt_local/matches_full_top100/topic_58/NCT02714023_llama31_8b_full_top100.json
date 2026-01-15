@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02714023",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "emergent_interval_appendectomy",
+      "label": "met",
+      "evidence": "present for an emergent or interval appendectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "mental_handicap",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "veteran_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "17-year-old boy"
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02714023",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

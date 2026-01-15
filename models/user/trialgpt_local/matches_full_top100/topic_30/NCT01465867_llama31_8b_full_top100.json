@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01465867",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women with 10\u00b0\u00b1 2 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women in whom embryo transfer is expected within 60 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "euthyroid women (0.4 \u03bcIU/ml < TSH < 2.5 \u03bcIU/ml), positive for TPOab and/or TgAb, not assuming LT4 replacement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "euthyroid women (0.4 \u03bcIU/ml < TSH < 2.5 \u03bcIU/ml), positive for TPOab and/or TgAb under LT4 replacement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with TSH > 2.5 \u03bcIU/ml positive for TPOab and/or TgAb, not assuming LT4 replacement (requiring the beginning of LT4 replacement)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with TSH > 2.5 \u03bcIU/ml positive for TPOab and/or TgAb, under LT4 replacement (requiring an adjustment of LT4 replacement)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "use of dietary supplements containing selenium in the previous 4 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of hyperthyroidism positive anti-thyrotropin ab",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis and is on Levothyroxine replacement. Her symptoms improved significantly after starting treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01465867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

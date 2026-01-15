@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00911521",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "SLE patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female patients aged \u2264 35 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fulfilling the American College of Rheumatology (ACR) criteria for the classification of SLE",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having received a stable dose of prednisolone and/or other immunosuppressive agents within 3 months of study entry",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Controls",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women aged \u2264 35 years, matched those of SLE patients recruited",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No known chronic medical diseases",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not receiving any long-term medications including herbs",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergy to HPV vaccines",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00911521",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

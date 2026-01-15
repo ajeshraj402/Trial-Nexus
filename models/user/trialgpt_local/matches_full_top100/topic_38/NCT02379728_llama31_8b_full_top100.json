@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 35-year-old woman"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "negative for pregnancy"
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga."
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_complications",
+      "label": "not_met",
+      "evidence": "BP: 110/75"
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "fetal_abnormality",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "maternal_age",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "BP: 110/75"
+    },
+    {
+      "criterion": "pregnancy_complications",
+      "label": "not_met",
+      "evidence": "BP: 110/75"
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "fetal_abnormality",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has myasthenia gravis, class IIa. She takes pyridostigmine 60 mg three times a day.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04690881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-disabled",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Wijma Birth Experience / Expectation Scale A score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "living with spouse",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primipary",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no risky pregnancy diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "suitable gestational age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "risky pregnancy diagnosis",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "incomplete forms",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "absence for more than a week",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with lab studies showing leukocytosis, urea elevation, high CRP, and amylase. Abdominal CT scan confirms gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04690881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01800565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Onset of puberty after 3 years of age in boys and girls",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Onset of puberty before 8 years in girls and 9 years in boys",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-central precocious puberty",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Congenital adrenal hyperplasia",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Enuresis nocturne",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, short stature, delayed puberty and developmental delay. Obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01800565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

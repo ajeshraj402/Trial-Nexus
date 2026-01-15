@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01046656",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "cause of hospitalization",
+      "label": "met",
+      "evidence": "dizziness and severe diarrhea"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute gastroenteritis within 3 days before admission",
+      "label": "not_met",
+      "evidence": "diarrhea since yesterday"
+    },
+    {
+      "criterion": "other symptoms which suggest gastroenteritis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "usage of probiotics and/or prebiotics within 7 days before admission",
+      "label": "not_met",
+      "evidence": "lab study is as bellow"
+    },
+    {
+      "criterion": "visible blood in the stool",
+      "label": "not_met",
+      "evidence": "stool is watery and white but the patient has no fever"
+    },
+    {
+      "criterion": "patient in bad condition",
+      "label": "met",
+      "evidence": "The skin turgor has reduced. HR is 110 and he looks ill with dry mucosa"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool specimen, but no fever.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01046656",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

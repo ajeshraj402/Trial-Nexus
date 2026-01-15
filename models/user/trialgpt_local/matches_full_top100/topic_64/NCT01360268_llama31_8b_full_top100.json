@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01360268",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged 18 y/o or older",
+      "label": "met",
+      "evidence": "patient is a 55-year-old man"
+    },
+    {
+      "criterion": "positive for the HCV antibody and HCV RNA detected",
+      "label": "met",
+      "evidence": "medical records show previous positive HCV RNA tests and a positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "patients with abnormal liver function OR a liver biopsy specimen taken in the 6 months prior to study entry showing chronic hepatitis, or liver fibrosis, or liver cihhrosis",
+      "label": "met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma and was only remarkable for chronic inflammation compatible with a chronic viral hepatitis"
+    },
+    {
+      "criterion": "have not been previously treated with pegylated-interferon and ribavirin for HCV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "genotype 1 or genotype 2",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subjects with decompensated liver disease",
+      "label": "not_met",
+      "evidence": "his abdomen is soft with no ascites or tenderness"
+    },
+    {
+      "criterion": "with human immunodeficiency virus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "with hepatitis B infection",
+      "label": "met",
+      "evidence": "the recent coinfection with HBV"
+    },
+    {
+      "criterion": "with hemochromatosis defined by a pre-existing diagnosis of hemochromatosis or a positive HFE gene mutation or recipients of solid organ transplants",
+      "label": "not_met",
+      "evidence": "there is no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis, or metabolic liver disease"
+    },
+    {
+      "criterion": "with clinically significant cardiac or cardiovascular abnormalities, organ grafts, systemic infections, clinically significant bleeding disorders, evidence of malignant neoplastic diseases",
+      "label": "not_met",
+      "evidence": "he is an alert male with no acute distress. His BP: 130/75, HR: 90/min and BMI: 27"
+    },
+    {
+      "criterion": "subjects who are on lipid-lowering medications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "poorly controlled Diabetes (A1C > 9%)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01360268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

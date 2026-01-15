@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03480945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Poor glycaemic control defined as a mean day blood glucose >12 mmol/L.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age >80 years.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c <70 mmol/mol",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She does not meet the criteria for poor glycaemic control, but her HbA1c level is below the threshold, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03480945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

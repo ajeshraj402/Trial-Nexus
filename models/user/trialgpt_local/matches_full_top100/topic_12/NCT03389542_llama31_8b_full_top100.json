@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03389542",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asymptomatic patients according history or an exercise test in those able to perform",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe (grade IV) degenerative MR due to leaflet prolapse assessed by echocardiography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LV ejection fraction by Simpson biplane method \u226560% and LV end-systolic diameter by TM",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "echocardiography \u226440mm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pulmonary artery pressure \u226450 mmHg by Doppler echocardiography.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High probability of mitral valve repair",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "EuroSCORE II \u2264 3%",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mitral stenosis or > mild aortic valve disease (stenosis or regurgitation)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congenital heart disease (except patent foramen ovale or atrial septal defect)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03389542",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

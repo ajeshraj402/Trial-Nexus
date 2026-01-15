@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04381858",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Apheresis will be used as the only method for plasma extraction.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plasma will be infused",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Group 2: Human immunoglobulin 0.3 gr / kg (5 doses)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a viral infection other than COVID-19",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, but no mention of a viral infection other than COVID-19.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04381858",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

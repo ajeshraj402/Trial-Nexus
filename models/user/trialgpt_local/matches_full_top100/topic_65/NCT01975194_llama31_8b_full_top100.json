@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01975194",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "Rankin score",
+      "label": "met",
+      "evidence": "New York Heart Association class 2"
+    },
+    {
+      "criterion": "Fixed telephone number",
+      "label": "met",
+      "evidence": "He is available for follow-up"
+    },
+    {
+      "criterion": "African American",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ischemic stroke or TIA in past 12 months",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Liver enzyme abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known muscle disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alcoholism or substance abuse",
+      "label": "not_met",
+      "evidence": "He claims no alcoholism or substance abuse"
+    },
+    {
+      "criterion": "Stroke due to dissection or hypercoagulable state",
+      "label": "met",
+      "evidence": "Diagnosis of cardiomyopathy that will be treated with ACE inhibitors and Beta blockers"
+    },
+    {
+      "criterion": "Moderate to severe dementia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "On hemodialysis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01975194",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

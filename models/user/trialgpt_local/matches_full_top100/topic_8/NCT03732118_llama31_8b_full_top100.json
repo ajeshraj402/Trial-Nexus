@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03732118",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 and 70 (inclusive)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimal hepatic encephalopathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age older than 70",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "MMS score < 24",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical hepatic encephalopathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, with a history of treatment response and current rising white count. He has an excellent performance status.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03732118",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

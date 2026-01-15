@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04660994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged 3 to 16 years old with severe obstructive sleep apnea syndrome and / or",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "alveolar hypoventilation requiring the initiation of a treatment with CPAP / NIV in",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the pediatric non-invasive ventilation and sleep unit of Necker-Enfants Malades hospital.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child's caregivers not opposing to the patient's participation in research.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-communicating child.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child with major cognitive impairment.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child / parents not speaking French.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child in an unstable clinical condition.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04660994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

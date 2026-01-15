@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00373074",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetric patients aged 18 or more years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Post-dural puncture headache (PDPH) after a confirmed or likely unintentional dural puncture with an epidural needle.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medically suitable for and have consented to epidural blood patch (EBP) for treatment of PDPH",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous epidural blood patch (EBP) related to the same unintentional dural puncture (including prophylactic EBP)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "EBP to be performed more than 5 days after the unintentional dural puncture.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 17-year-old boy with acute perforated appendicitis, which makes him ineligible for this trial.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00373074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

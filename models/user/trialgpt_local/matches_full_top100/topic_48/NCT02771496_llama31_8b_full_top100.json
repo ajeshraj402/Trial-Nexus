@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02771496",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of osteochondritis dissecans or focal articular cartilage defects as confirmed by x-ray or MRI",
+      "label": "met",
+      "evidence": "KOH wet mount examination"
+    },
+    {
+      "criterion": "Localized scaling and maceration between the third and fourth of his right toe",
+      "label": "met",
+      "evidence": "Physical exam"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-confirmed diagnosis (i.e. patient does not yet have imaging confirmation)",
+      "label": "does_not_trigger",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, confirmed by KOH wet mount examination.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02771496",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01914731",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Refractory, recurrent or relapsing C. difficile infection (CDI) defined as EITHER: At least three episodes of mild-to-moderate CDI",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 7 and above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to accept risk of unrelated donor stool",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to consent for self, or parental assent/child assent as age appropriate",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Delayed gastric emptying syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known chronic aspiration",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Swallowing dysfunction or oral-motor dyscoordination.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and C. difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01914731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

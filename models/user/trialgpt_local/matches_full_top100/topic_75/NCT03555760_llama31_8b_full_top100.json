@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03555760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "being scheduled for surgery",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "accept being part of the study and share information such as inform consent form readings and demographics.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not to accept being part of the study and share information such as inform consent form readings and demographics.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with mild Parkinson's disease, living with his wife and three children. He has hypertension and hypercholesterolemia in his past medical history.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03555760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

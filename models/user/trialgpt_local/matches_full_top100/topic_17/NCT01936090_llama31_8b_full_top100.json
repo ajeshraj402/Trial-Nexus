@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT01936090",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Serum creatinine =< 2 mg/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum total bilirubin =< 1.5 X upper limit of normal (ULN)",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelet count >= 30,000/\u03bcL",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin >= 8.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Diagnosis of myeloma for which autologous stem cell transplant is being considered",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable disease of multiple myeloma at the time of baseline values for disease assessment as defined by at least one of the following:",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum monoclonal protein >= 1.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": ">= 200 mg of monoclonal protein in the urine on 24 hour electrophoresis",
+      "label": "met"
+    },
+    {
+      "criterion": "Bone marrow plasma cells >= 30%",
+      "label": "met"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0, 1 or 2",
+      "label": "met"
+    },
+    {
+      "criterion": "Recovered from non-hematological toxicity of previous chemotherapy (excludes grade 1 neurotoxicity)",
+      "label": "met"
+    },
+    {
+      "criterion": "Voluntary written informed consent before performance of any study-related procedure not part of normal medical care, with the understanding that consent may be withdrawn by the subject at any time without prejudice to future medical care",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior autologous or allogeneic bone marrow/peripheral blood stem cell transplant",
+      "label": "not_met"
+    },
+    {
+      "criterion": "More than two prior regimens for therapy of MM",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Myocardial infarction within 6 months prior to enrollment, or has New York Heart Association (NYHA) class III or IV heart failure, uncontrolled angina, severe uncontrolled ventricular arrhythmias, or electrocardiographic evidence of acute ischemia or active conduction system abnormalities",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Seroreactivity for human immunodeficiency virus (HIV), human T-cell lymphotrophic virus (HTLV) I or II, hepatitis B virus (HBV), hepatitis C virus (HCV)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and represents with malaise, weakness, and generalized body aching.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01936090",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

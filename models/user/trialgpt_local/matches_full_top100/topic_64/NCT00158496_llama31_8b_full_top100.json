@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00158496",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV antibodies using a third generation test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Liver biopsy in the past 18 months with METAVIR score over A2 and over or equal to F1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients never treated with ribavirin, IFNalpha or PEG-IFNalpha",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal albumin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prothrombin time over or equal to 60 percent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal bilirubin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alpha-foeto-protein under or equal to 3 times the normal range for the laboratory",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HBs antigen negative",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Two negative Kato test (for S.mansoni) three days apart",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin over or equal 11g/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Leucocytes over or equal 3000/mm3",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neutrophils over or equal 1500/mm3",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Co-infection with hepatitis B (positive HBs antigen)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemochromatosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on treatment for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00158496",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

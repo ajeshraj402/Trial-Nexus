@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01356121",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Known chronic liver disease",
+      "label": "met",
+      "evidence": "past history"
+    },
+    {
+      "criterion": "Diagnosis of liver disease based on past history, serological testing, radiological imaging, and liver histology",
+      "label": "met",
+      "evidence": "available past history, serological testing, radiological imaging, and liver histology"
+    },
+    {
+      "criterion": "Staging of cirrhosis determined by MELD score and Child-Pugh score",
+      "label": "met",
+      "evidence": "MELD score and Child-Pugh score"
+    },
+    {
+      "criterion": "Current degree of encephalopathy established through preprocedure history and physical examination",
+      "label": "met",
+      "evidence": "standard preprocedure history and physical examination"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active GI bleeding",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "Overt encephalopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active alcohol intake during the past 6 weeks",
+      "label": "met",
+      "evidence": "patient has been off ETOH for a year (corroborated with pt)"
+    },
+    {
+      "criterion": "Significant co morbid illness such as heart, respiratory, or renal failure and any neurologic diseases such as alzheimer's disease, parkinson's disease and nonhepatic metabolic encephalopathies",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with known allergy to sedative",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "Previous TIPS or shunt surgery",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "Patients on psychoactive drugs, such as antidepressants or sedatives",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been off ETOH for a year and has no overt encephalopathy. However, there is an increase in his total and direct bilirubin since last visit and an increase in the patient's AFP which could be progression of cirrhosis.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01356121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04159870",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with cirrhosis and ascites",
+      "label": "met",
+      "evidence": "unremarkable family history"
+    },
+    {
+      "criterion": "low protein content in the ascitic fluid (\u22641.5 g/dL)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "deteriorated liver function (Child-Pugh score \u2265B9, serum bilirubin level \u22653 mg/dL)",
+      "label": "not_met",
+      "evidence": "bilirubin: 21.02 mg/dL"
+    },
+    {
+      "criterion": "impaired renal function (creatinine \u22651.2 mg/dL blood urea nitrogen level \u226525 mg/dL or hyponatremia \u2264130 mEq/L)",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.3 mg/dL, Na: 147 mEq/L"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 years",
+      "label": "met",
+      "evidence": "A 3-day-old Asian female infant"
+    },
+    {
+      "criterion": "Previous history of SBP",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous use of antibiotics within the previous two weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous GIT bleeding within one month",
+      "label": "not_met",
+      "evidence": "No murmurs or any other abnormalities are detected in the heart and lung auscultation."
+    },
+    {
+      "criterion": "Resolving ascites for one month after diuretic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver malignancy, organic renal disease",
+      "label": "not_met",
+      "evidence": "Laboratory results are as follows: ... normal on palpation."
+    },
+    {
+      "criterion": "Human immunodeficiency virus infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known hypersensitivity to planned drugs",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04159870",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01137513",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with Acute Chest Pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults with Acute Chest Pain",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with underlying myoclonic tremors making measurement artifact unreliable",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Less than 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Skin disorders that do not allow the Cardiac Monitor Leads to adhere to the skin",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01137513",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

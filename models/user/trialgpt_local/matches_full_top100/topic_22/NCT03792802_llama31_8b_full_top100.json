@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03792802",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18 years old"
+    },
+    {
+      "criterion": "Procedure",
+      "label": "met",
+      "evidence": "Laparoscopic Appendectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Perforation",
+      "label": "not_met",
+      "evidence": "absent"
+    },
+    {
+      "criterion": "Plastrone apndisitis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 31-year-old woman with acute appendicitis, suitable for laparoscopic surgery.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03792802",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

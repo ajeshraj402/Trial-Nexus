@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03078868",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "traditional clinical and radiologic factors whether percutaneous drainage is desired.",
+      "label": "met"
+    },
+    {
+      "criterion": "patients with discrete abdominopelvic fluid collections > 3 cm in greatest dimension will undergo DW-MRI, and then be taken directly to the interventional radiology suite for drainage, or continue best medical care if drainage is felt to be unnecessary.",
+      "label": "met"
+    },
+    {
+      "criterion": "DW-MRI readings will be analyzed and ADC values will be compared and validated in an attempt to report a threshold apparent diffusion coefficient (ADC) that reliably discriminates sterile and infected post-operative fluid collections.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Adult patients who have undergone a colon or rectal resection at UCM and have developed a CT-proven abdominopelvic fluid collection > 3 cm in greatest dimension",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adult patients who have not undergone a colon or rectal resection at UCM and have developed a CT-proven abdominopelvic fluid collection > 3 cm in greatest dimension.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "history of CAD with angioplasty",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of coronary artery disease and underwent angioplasty. She also has a large abdominopelvic fluid collection, which may be infected or non-infected.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03078868",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

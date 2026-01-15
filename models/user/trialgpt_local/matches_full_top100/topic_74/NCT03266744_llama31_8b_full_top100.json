@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03266744",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Single or multiple bone metastases (no extraosseous or non-bony metastatic disease permitted)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Due to start a new line of either hormone therapy or chemotherapy (use of bisphosphonates / denosumab or targeted agents e.g. trastuzumab in addition to hormone therapy / chemotherapy permitted)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 18 and over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy of over 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No current active malignancy other than breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent must be given according to GCP, and national/local regulations",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Radical treatment to sole site of metastatic disease e.g. Cyberknife to solitary bone metastasis",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absolute contraindication to MRI studies, CT scans or bone scans",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Psychological, familial, sociological or geographical conditions that would hamper compliance with the study protocol; such conditions should be discussed with the patient before registration in the trial before patient registration.",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy. The sister had similar problems diagnosed at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03266744",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01762709",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiologists physical classes from II to III",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "decompensated cardiac diseases",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pulmonary diseases",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatic diseases",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal diseases",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pulmonary hypertension",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "obesity with a body mass index >35 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms. He has an IPSS score of 15 and prostate volume of 60 mL.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01762709",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

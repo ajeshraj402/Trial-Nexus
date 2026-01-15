@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01270191",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed type 2 diabetic patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age between 30 and 70 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HbA1C between 7 and 9% in OPD patients",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous treated with anti-diabetic medication",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactation women.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired liver function (ALT > 100 U/L)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Impaired renal function (Serum creatinine >2.0 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has had type 1 diabetes for 11 years, but reports being on insulin since diagnosis and never prescribed oral agents.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01270191",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01597232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Perioperative hemoglobin level",
+      "label": "not_met",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency operation",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ASA classification V or VI",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "not_met",
+      "evidence": "no mention of serious blood system diseases"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "normal coagulation profile"
+    },
+    {
+      "criterion": "Hypervolemic hemodilution",
+      "label": "unknown",
+      "evidence": "no mention of hypervolemic hemodilution"
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "not_met",
+      "evidence": "no mention of tumor metastasis"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "not_met",
+      "evidence": "patient's behavior not mentioned as psychopathic"
+    }
+  ],
+  "notes": "Patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. Genetic survey revealed ADAMTS13 >10%. Patient was treated with plasma exchange and corticosteroids for atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT01597232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

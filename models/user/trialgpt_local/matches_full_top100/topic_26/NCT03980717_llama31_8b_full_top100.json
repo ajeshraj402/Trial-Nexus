@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03980717",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is a pregnant woman between 18 and 45 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The fetuses will be 28+0/7 to 31+6/7 weeks of gestational age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Confirmed diagnosis of severe left- or right-sided CDH of the fetus: Observed/expected total lung volume equal to or less than 0.32 with more than 21% of liver herniated into the hemithorax.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal fetal echocardiogram or echocardiogram with a minor anomaly (such as small VSD) that in the opinion of the pediatric cardiologist will not affect postnatal outcome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal fetal karyotype or microarray",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The mother must be healthy enough to have surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient and father of the baby provide signed informed consent that details the maternal and fetal risks involved with the procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient willing to remain in Houston for the duration following balloon placement until delivery.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to abdominal surgery, fetoscopic surgery, or general anesthesia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to latex",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preterm labor, preeclampsia, or uterine anomaly (e.g., large fibroid tumor) in the index pregnancy.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fetal aneuploidy, known structural genomic variants, other major fetal anomalies that may impact the fetal/neonatal survival or known syndromic mutation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspicion of major recognized syndrome (e.g. Fryns syndrome) on ultrasound or MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Maternal BMI >40",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High risk for fetal hemophilia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03980717",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

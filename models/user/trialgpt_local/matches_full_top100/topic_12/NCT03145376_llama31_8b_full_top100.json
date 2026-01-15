@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03145376",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age higher than or equal to 65 aa",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the capacity to perform geriatric assessment tests",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "sinus rhythm at the time of evaluation (for the evaluation of HRV only)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "altered cognitive abilities such as to impair the evaluation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hemodynamically unstable patient",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability or unwillingness to sign informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared for surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03145376",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

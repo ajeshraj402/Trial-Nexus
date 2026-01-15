@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04842942",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Benign or indeterminate nodule less than 6 cm in size",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "T1 well differentiated papillary carcinoma less than 2 cm in size",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Grave's disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parathyroid adenoma",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Total thyroid size is 7-8 cm (no more than 10 cm)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Their age is \u226518 years and \u226480 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give written consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of neck surgery or neck radiotherapy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recurrent thyroid disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lymph node metastases",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of intraoral infections",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of neck surgery and radiotherapy, which are likely to trigger exclusion criteria. Additionally, lymph node metastases are present.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04842942",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

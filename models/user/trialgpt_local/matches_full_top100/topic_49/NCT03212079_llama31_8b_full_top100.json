@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT03212079",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cancer survivor",
+      "label": "met",
+      "evidence": "Turner syndrome"
+    },
+    {
+      "criterion": "Live within the Baltimore Maryland area",
+      "label": "met",
+      "evidence": "patient's location"
+    },
+    {
+      "criterion": "Finished active cancer treatment at least three months ago",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Overweight or obese and do not exercise daily",
+      "label": "met",
+      "evidence": "obese, mentally retarded girl in the physical exam"
+    },
+    {
+      "criterion": "Do not have any physical limitation to do mild to moderate physical activities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have a smart phone (iPhone or Android device) with Wi-Fi internet connection at home",
+      "label": "met",
+      "evidence": "patient's mother has an iPhone"
+    },
+    {
+      "criterion": "Actively using an email account",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing to accept the random study assignment",
+      "label": "met",
+      "evidence": "willingness to participate in study"
+    },
+    {
+      "criterion": "Willing to wear a Fitbit band 'a physical activity tracking device' on your wrist for five weeks every single day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing to have an Echo speaker 'a smart home speaker with voice assistant' installed in your home and use the digital voice assist for four weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing to receive daily text messages on your phone for four weeks",
+      "label": "met",
+      "evidence": "willingness to participate in study"
+    },
+    {
+      "criterion": "Willing to provide us with access to your Fitbit physical activities data",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Already doing moderate to high physical activities in their daily life (rapid screener)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Planning to relocate within the next 4-5 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stage 4 cancer",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Already using physical activity tracker or part of a physical activity program",
+      "label": "not_met",
+      "evidence": "patient is treating with GH since 6 months ago"
+    },
+    {
+      "criterion": "Part of another study that may interfere with our outcome of interest, unstable mental condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Mental condition that prevents patient from performing the study activities and requirements",
+      "label": "triggers",
+      "evidence": "mentally retarded girl in the physical exam"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome, is treating with GH, and has a mental condition that may prevent her from performing study activities.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT03212079",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

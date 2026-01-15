@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04693156",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective laparoscopic cholecystectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ASA I-II",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforation of the gallbladder",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute cholecystitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of previous gallbladder surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "morbid obesity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "epilepsia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal insufficiency",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04693156",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

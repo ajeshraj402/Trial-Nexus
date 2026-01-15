@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04005391",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postpartum state",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "enrolled in the Madres Sanas program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able and willing to consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "meeting age criteria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "not already received a contraceptive method",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable or unwilling to provide informed consent",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "does not meet age criteria",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "has already used a contraceptive method",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "is pregnant",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT04005391",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

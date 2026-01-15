@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03921827",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >21 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent stroke/TIA and severe stenosis of intracranial ICA or MCA",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Atrial fibrillation/ arrhythmias",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Decompensated heart failure, usually class 3 or 4",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a systolic murmur 3+/6+ in the neck, radiating to the skull.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03921827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

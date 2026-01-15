@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02829749",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Severe primary mitral regurgitation (grade 3+ or 4+)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Class I indication for MV Surgery according to ESC/EACTS and AHA/ACC guidelines: Symptomatic patients and/or LV dysfunction : LVESD \u226545 mm and/or 30\u2264 LVEF \u226460%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Leaflet prolapse of P2 and/or A2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Predicted coaptation length > 4 mm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Candidates for surgical mitral valve repair according to heart team",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient able to sign an informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient benefiting from a social insurance system or a similar system",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asymptomatic patients with preserved LV function",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Complex mechanism of MR (leaflet perforation, severe calcifications, commissural extension, etc)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Secondary MR",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Predicted post-repair coaptation length less than 4 mm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and is symptomatic. However, she was lost to follow-up and remains symptomatic despite being prepared for surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02829749",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

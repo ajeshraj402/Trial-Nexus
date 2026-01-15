@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02240498",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If female, patient must have negative pregnancy test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All patients with clinical symptoms (ex: fever, chills, pain, tachycardia, hypotension), laboratory (leukocytosis) and radiologic findings (thick walled, rim-enhancing collection with gas bubbles or air-fluid levels) compatible with an abscess that requires image-guided percutaneous drainage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Abscess cavity diameters will be less than or equal to 8 cm. However, abscess can be complex or loculated",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Approval by the primary care team to pursue PDT and discuss enrollment with the patient",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lactation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to contrast media, narcotics, sedatives, atropine or eggs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Necrotic tissue that requires surgical debridement",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severely compromised cardiopulmonary function or hemodynamic instability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thrombocytopenia (<50,000/mm3)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Uncorrectable coagulopathy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Poor kidney function (serum creatinine >3mg/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass with fevers/rigors and bandemia. She underwent EUS with biopsy showing pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02240498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

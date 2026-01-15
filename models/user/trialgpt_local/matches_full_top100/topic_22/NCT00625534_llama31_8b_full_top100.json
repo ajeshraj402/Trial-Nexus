@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00625534",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Diagnosis of primary, unilateral or bilateral, reducible groin hernias",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medically fit for general anesthesia",
+      "label": "met",
+      "evidence": "The temperature is within the normal limits with normal vital signs."
+    },
+    {
+      "criterion": "Comprehension and use of French language",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Installed in the geographical region without foreseeable move for two years",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Female gender, recurrent hernia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ongoing chronic pain syndrome, other than hernia origin",
+      "label": "not_met",
+      "evidence": "The patient is a 31-year-old woman complaining of abdominal pain."
+    },
+    {
+      "criterion": "Coagulation disorders, prophylactic or therapeutic anticoagulation, un able to stop",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet antiaggregation therapy 10 days before surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous pelvic surgical procedures contraindicating laparoscopic technique",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is medically fit for general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT00625534",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

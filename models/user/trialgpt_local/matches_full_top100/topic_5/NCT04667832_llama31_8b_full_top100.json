@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04667832",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred to Professor Kojuri cardiovascular clinic in Shiraz, Iran",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who referred to Professor Kojuri cardiovascular clinic",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ABI more than 1.4",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hs-CRP more than 10",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has carotid bruits, significant bilateral carotid stenosis, and patent right ACA and MCA. He reports occasional dizziness but no prior syncope or sensory/motor defects.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04667832",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

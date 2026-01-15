@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03952741",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "NSLBP for > 3 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pain intensity measured with a numerical rating scale (NPRS) over the last 14 days >3/10",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Roland Morris Disability Questionnaire (RMDQ) \u2265 7",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "\u00d8rebro Musculoskeletal Pain Questionnaire-short form (\u00d8MPQ-SF) \u2265 30",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Continuous sick-leave duration \u2265 4 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute exacerbation of LBP a",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Specific LBP diagnosis - radicular pain, disc herniation, spondylolisthesis, stenosis",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Any low limb surgery in the last 3 months; surgery involving the lumbar spine",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, which may be relevant to their eligibility.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03952741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

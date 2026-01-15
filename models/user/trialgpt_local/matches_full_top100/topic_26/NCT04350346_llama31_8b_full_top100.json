@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04350346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45"
+    },
+    {
+      "criterion": "dyspepsia_with_cholelithiasis",
+      "label": "met",
+      "evidence": "abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting."
+    },
+    {
+      "criterion": "consent_and_questionnaires",
+      "label": "met",
+      "evidence": "She doesn't smoke, drink alcohol, or use illicit drugs. She is mildly febrile."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "asymptomatic_cholelithiasis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "gallstones_over_3cm",
+      "label": "unknown",
+      "evidence": "The largest gallstone is 0.7cm."
+    },
+    {
+      "criterion": "acute_cholecystitis_requires_surgery",
+      "label": "unknown",
+      "evidence": "Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift."
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, nausea, vomiting, and gallstones. Mildly febrile.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04350346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

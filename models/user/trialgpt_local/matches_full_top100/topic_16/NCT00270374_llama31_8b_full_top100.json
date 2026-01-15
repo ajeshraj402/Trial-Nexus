@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00270374",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "dyspnea",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "heart disease primary cause of dyspnea",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "jugular venous distension",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "paroxysmal nocturnal dyspnea or 2-pillow orthopnea",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abdominal discomfort due to hepatosplanchnic congestion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chest x-ray with findings indicative of heart failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "elevated cardiac filling pressures",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hospitalization and intravenous therapy for at least 24 hours",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systolic blood pressure consistently less than 90 mm Hg",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiogenic shock or volume depletion",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PCWP < 20 mm Hg within 24 hours before randomization",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinical status so acutely unstable that the potential subject could not tolerate placement of a right heart catheter or the 3-hour placebo period",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unable to have intravenous nitroglycerin withheld",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00270374",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

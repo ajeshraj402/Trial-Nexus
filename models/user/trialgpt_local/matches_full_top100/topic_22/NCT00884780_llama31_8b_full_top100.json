@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00884780",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presentation to either APC Clinic or IPM Clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child participant is 8-17 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child/parent not English speaking",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child unable to see computer screen or interact with the keyboard or mouse",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parent/child unable or unwilling to provide permission/assent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT00884780",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

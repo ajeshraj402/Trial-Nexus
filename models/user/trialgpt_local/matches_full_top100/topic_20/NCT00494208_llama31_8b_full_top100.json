@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00494208",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Medically stable, ambulatory",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "21-60 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Bilateral salpingo-oophorectomy and hysterectomy at least 6 months before study entry",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum total testosterone concentrations less than 31 ng/dL or free testosterone less than 3.5 pg/ml",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to understand and give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "On a stable regimen of transdermal estrogen replacement for at least three months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal PAP smear (if subject has a cervix) and mammogram in the preceding 12 months",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant depression, as assessed by Beck's Depression Scale",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any acute or chronic illness, malignant disease or fever of known or unknown origin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Poorly controlled diabetes mellitus (hemoglobin A1c greater than 8.5%)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Uncontrolled hypertension defined as blood pressure of greater than 160/100",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe obesity defined as body mass index of greater than 40 kg/m2",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Current or recent (last 6 months) users of illicit drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of breast, ovarian, endometrial or cervical cancer",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Intolerance to other transdermal formulations",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, and a macroadenoma with no invasion. She is on stable doses of octreotide LAR.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00494208",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

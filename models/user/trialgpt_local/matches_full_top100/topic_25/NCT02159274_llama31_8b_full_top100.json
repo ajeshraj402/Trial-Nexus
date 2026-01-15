@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02159274",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Invasive breast cancer or carcinoma in situ",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Breast conserving surgery including or without oncoplastic surgical techniques",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are unable to sign an informed consent form",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients above the age of 75 and under the age of 18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who have previously been operated in the same or the contralateral breast, shoulder or arm",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with invasive ductal breast carcinoma and HER2-positive tumor. No other significant medical history.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02159274",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01161732",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic patients with very severe aortic stenosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "potential candidates for early surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Exertional dyspnea",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Angina",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Syncope",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, but no symptoms of exertional dyspnea or angina. However, syncope is unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01161732",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03420339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between 4 years, 0 months, and 13 years, 0 months"
+    },
+    {
+      "criterion": "AD/HD diagnosis",
+      "label": "met",
+      "evidence": "valid diagnosis of attention deficit/hyperactivity disorder (AD/HD)"
+    },
+    {
+      "criterion": "disruptive behavior",
+      "label": "met",
+      "evidence": "physical or verbal aggression towards others, self-injury, destruction, noncompliance, tantrum"
+    },
+    {
+      "criterion": "stimulant medication prescription",
+      "label": "met",
+      "evidence": "already prescribed a stimulant medication for the treatment of AD/HD symptoms and at an approved dose for age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autism diagnosis",
+      "label": "not_met",
+      "evidence": "no mention of autism"
+    },
+    {
+      "criterion": "conduct disorder diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intellectual disability diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stimulant dosage outside therapeutic range",
+      "label": "not_met",
+      "evidence": "no mention of stimulant dosage issues"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03420339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01679431",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >21 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of aortic stenosis defined as peak aortic jet velocity \u22652.5 m/s",
+      "label": "met",
+      "evidence": "echo"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptomatic aortic stenosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Very severe aortic stenosis defined as an AVA\u22640.6 cm2",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction < 50%",
+      "label": "met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "More than mild aortic or mitral regurgitation, or mitral stenosis",
+      "label": "not_met",
+      "evidence": "2+ aortic insufficiency with mild MR"
+    },
+    {
+      "criterion": "Atrial fibrillation or flutter",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, LV dysfunction, and significant symptoms. He underwent cardiac cath and echo to evaluate his condition.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01679431",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

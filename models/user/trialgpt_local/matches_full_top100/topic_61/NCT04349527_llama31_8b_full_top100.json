@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04349527",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Under the age of 65",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "suffering from unilateral (cT< 3cm) in situ or invasive breast cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "who are fit for breast conserving surgeries",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "who had no previous breast surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "independent from axillary surgery (sentinel lymph node biopsy or axillary block dissection)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age above 65 years or poor general health condition, where the estimated life expectancies would be less than 2 years even without a tumor",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Malignant invasive tumor in the past history (except for non-melanoma skin tumors)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04349527",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

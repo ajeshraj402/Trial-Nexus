@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01722578",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Study Methods",
+      "label": "met",
+      "evidence": "The study will use a randomized controlled trial design."
+    },
+    {
+      "criterion": "Assignment",
+      "label": "met",
+      "evidence": "Patients will be randomly assigned to either group A or B using sealed opaque envelopes containing computer-generated random numbers."
+    },
+    {
+      "criterion": "Masking",
+      "label": "met",
+      "evidence": "The study personnel will be blinded to the treatment assignment, and the placebo and LOLA will be similar in appearance and mode of administration."
+    },
+    {
+      "criterion": "Randomization implementation",
+      "label": "met",
+      "evidence": "Enrollment of patients, assessing eligibility, and obtaining informed consent will be carried out by one of the investigators."
+    },
+    {
+      "criterion": "Study Intervention",
+      "label": "met",
+      "evidence": "Patients will receive either placebo or LOLA at a dose of 30 grams daily, by intravenous infusion over 24 hours."
+    },
+    {
+      "criterion": "Laboratory tests",
+      "label": "met",
+      "evidence": "Biochemical and microbiologic tests will be done at baseline and during treatment to diagnose Spontaneous Bacterial Peritonitis and monitor liver function."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are terminally ill",
+      "label": "not_met",
+      "evidence": "The patient is a 55-year-old man with Parkinson's disease, but there is no mention of terminal illness."
+    },
+    {
+      "criterion": "Acute on chronic liver failure",
+      "label": "unknown",
+      "evidence": "There is no information about the patient's liver function or history of liver disease."
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "There is no mention of hepatocellular carcinoma in the patient's medical history."
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but there is no information about liver function or other exclusion criteria. The study appears to be relevant based on the inclusion criteria.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01722578",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

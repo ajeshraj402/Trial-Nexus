@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03781310",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current use of tocilizumab IV, with a consistent interval of 4 weeks for at least 24 weeks.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "A potential subject will be excluded from participation in case of a scheduled surgery in the next 20 weeks or other preplanned reasons for treatment discontinuation.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children, pregnant women and individuals with a lack of judgement.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She has an uncomplicated pregnancy history and no family history of note.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03781310",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "20 year old"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "study_eligibility",
+      "label": "met",
+      "evidence": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial_anesthesia",
+      "label": "triggers",
+      "evidence": "The patient is under the treatment of RRMS from 7 months ago."
+    },
+    {
+      "criterion": "contraindication_to_medication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She also smokes 10 cigarettes per day.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

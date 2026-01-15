@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02698150",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic while on optimal medical therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mitral regurgitation of functional etiology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Suitable Mitraclip candidate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life expectancy >12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mitral regurgitation of primary etiology",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Refusal to sign the informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dementia or neurological disorders that prevent the proper use of the tablet",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to use the tablet, the sensors and/or the wearables, even with the assistance of family members",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Expected non-compliance with follow-up visits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "End-stage chronic kidney disease on dialysis",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but is now prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02698150",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

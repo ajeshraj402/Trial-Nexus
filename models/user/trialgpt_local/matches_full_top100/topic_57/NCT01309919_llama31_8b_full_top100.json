@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "IUD desire",
+      "label": "met",
+      "evidence": "desires to use an IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI history",
+      "label": "unknown",
+      "evidence": "no mention of STI during the three months prior to enrollment"
+    },
+    {
+      "criterion": "desire for another pregnancy",
+      "label": "unknown",
+      "evidence": "no mention of desiring another pregnancy within six months of giving birth"
+    },
+    {
+      "criterion": "uterine fibroids or anomalies",
+      "label": "unknown",
+      "evidence": "no mention of uterine fibroids or anomalies"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "unknown",
+      "evidence": "no mention of acute liver disease or liver tumor"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol use. Her lab studies show leukocytosis, urea elevation, high CRP, high amylase, and low glucose level.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

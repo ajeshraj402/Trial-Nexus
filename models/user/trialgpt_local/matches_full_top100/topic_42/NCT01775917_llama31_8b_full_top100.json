@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01775917",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women who got a clear explanation about all treatment options and they chose misoprostol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who read and signed an informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known allergy to prostaglandins or NSAIDS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heavy vaginal bleeding and hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has no specific past medical issues, only uses prenatal vitamins. Family history is positive for DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01775917",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

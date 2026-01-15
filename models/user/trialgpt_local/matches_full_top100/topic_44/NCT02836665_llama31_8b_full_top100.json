@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02836665",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female aged \u2265 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent prior to study participation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults who are contractually capable and mentally able to understand and follow the instructions of the study personnel.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dermatological emergency patient",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Male or female aged < 18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Missing informed consent prior to study participation",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has been committed to an institution by legal or regulatory order",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Persons in dependence from the sponsor or working with the sponsor",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in another clinical trial within the previous 2 months",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT02836665",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

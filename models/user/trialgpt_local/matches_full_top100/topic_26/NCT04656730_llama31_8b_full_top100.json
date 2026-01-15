@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04656730",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u226518 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ibs or fd diagnosis per rome iv criteria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active symptoms of bloating",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willing to comply with protocol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "female subjects using contraception",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "organic gastrointestinal diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypersensitivity to Iberogast or active substances/excipients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal, hepatic, hematologic, endocrinological, neurologic, or immune disease",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "impaired liver function tests",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "malignant disease not in remission",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active infectious disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medications interfering with gastrointestinal motility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known alcohol or drug abuse",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections, but no organic gastrointestinal diseases mentioned.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04656730",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

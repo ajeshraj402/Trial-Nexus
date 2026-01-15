@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02714439",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "abnormal Pap test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive HPV test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of cervical dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intact cervix",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "negative urine or serum pregnancy test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age 21 years or older",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to understand and provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "confirmed diagnosis of high-grade cervical dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 21 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hysterectomy with removal of the cervix",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "allergy to proflavine, acriflavine, or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or nursing",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inability or unwillingness to provide informed consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion, positive HPV 16 test, and is sexually active. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT02714439",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

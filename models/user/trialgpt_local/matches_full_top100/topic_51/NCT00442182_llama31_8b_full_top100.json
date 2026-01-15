@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00442182",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Autoinflammatory syndrome (hereditary or acquired)",
+      "label": "met",
+      "evidence": "The patient has a history of recurrent UTI prior to her pregnancy."
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "The patient is 25-year-old"
+    },
+    {
+      "criterion": "Severe active disease (\u22651 attack every eight weeks or continuous symptoms).",
+      "label": "met",
+      "evidence": "She has had at least two attacks of fever and chills in the past eight weeks."
+    },
+    {
+      "criterion": "An attack will be defined as: Temperature of \u226538 \u00baC not otherwise explained.",
+      "label": "met",
+      "evidence": "The patient's temperature is 39.7\u00baC"
+    },
+    {
+      "criterion": "At least two other accompanying symptoms (e.g. joint pain, lymphadenopathy, skin lesions, abdominal symptoms)",
+      "label": "met",
+      "evidence": "She also complains of dysuria, urgency and frequency, and has severe pain in the flank."
+    },
+    {
+      "criterion": "written informed consent obtained",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy and lactation",
+      "label": "met",
+      "evidence": "The patient is pregnant"
+    },
+    {
+      "criterion": "Increased risk for infection or current infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal failure (GFR<30ml/1.73m2/min)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a pregnant woman with symptoms of fever, chills, nausea and vomiting, dysuria, urgency and frequency, and severe flank pain.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00442182",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

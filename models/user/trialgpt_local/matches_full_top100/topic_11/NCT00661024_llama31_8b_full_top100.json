@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00661024",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "thyroid pathology qualified for first-time bilateral neck surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "s/p hernia repair",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous thyroid or parathyroid surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unilateral thyroid pathology eligible for minimally invasive approach (MIVAT)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mediastinal goiter",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "preoperatively diagnosed RLN palsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age below 18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "high-risk patients ASA 4 grade (American Society of Anesthesiology)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to comply with the scheduled follow-up protocol",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone multiple treatments, including XRT. They have worsening dysphagia for solids and poor oral intake.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00661024",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

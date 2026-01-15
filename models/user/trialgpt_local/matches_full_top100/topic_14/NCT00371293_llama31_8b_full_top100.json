@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT00371293",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Moderate to severe OSA (as defined by an apnea-hypopnea index [AHI] score greater than 15 events per hour)",
+      "label": "met"
+    },
+    {
+      "criterion": "Body mass index greater than 30 kg/m",
+      "label": "met"
+    },
+    {
+      "criterion": "Baseline CRP greater than 1.0 mg/dL",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Predominant central sleep apnea",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Type 1 Diabetes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Type 2 Diabetes associated with either: (a) unstable anti-diabetic therapy; (b) Hemoglobin A1C levels > 7%; (c) Inability to perform home blood glucose monitoring (fingerstick checks).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Requires use of supplemental oxygen",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 70s on BipAp.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00371293",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

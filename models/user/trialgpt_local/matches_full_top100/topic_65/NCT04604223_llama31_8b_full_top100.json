@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04604223",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "21-85 years"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "both sexes"
+    },
+    {
+      "criterion": "Diabetes diagnosis",
+      "label": "met",
+      "evidence": "type 1 diabetes confirmed with molecular analysis 7 years ago"
+    },
+    {
+      "criterion": "COVID-19 infection",
+      "label": "met",
+      "evidence": "confirmed with PCR test"
+    },
+    {
+      "criterion": "Shortness of breath",
+      "label": "met",
+      "evidence": "shortness of breath and fatigue during activities"
+    },
+    {
+      "criterion": "Fever",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chills",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Headache",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Rhinorreah",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cough (dry or with sputum)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sore Throat",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoptysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Altered mentation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Fluid retention",
+      "label": "triggers",
+      "evidence": "patient clinical condition through hospitalization precludes the use of pioglitazone"
+    },
+    {
+      "criterion": "Glucocorticoids for COVID-19 treatment",
+      "label": "triggers",
+      "evidence": "patients receiving glucocorticoids for treatment of COVID-19 and manifest plasma glucose levels consistent with diabetes diagnosis"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04604223",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

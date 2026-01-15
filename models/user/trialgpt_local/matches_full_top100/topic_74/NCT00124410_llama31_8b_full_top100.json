@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00124410",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Prostate cancer patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on hormone therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hyperparathyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Paget's disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal osteodystrophy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "documented osteomalacia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "osteoporosis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "received a bisphosphonate",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "systemic fluoride",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pharmacological doses of calcium",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Vitamin D",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "calcitonin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abnormal thyroid function",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "marked renal impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's disease and is receiving bisphosphonate therapy, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00124410",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00000368",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "primary diagnosis of Panic disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with or without Agoraphobia (all levels)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current substance abuse or dependence",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current active suicidal potential",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any history of psychosis, bipolar disorder (I or II) or cyclothymia",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pending application or existing medical disability claim",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant cognitive impairment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current uncontrolled general medical illness requiring intervention",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "psychotherapy directed at anxiety or panic which will not be discontinued by the first treatment visit",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "daily use of 2mg of Xanax or equivalent",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00000368",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

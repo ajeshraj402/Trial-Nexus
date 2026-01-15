@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01134952",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recurrent HCV after liver transplantation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Taking mycophenolate mofetil",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stable liver function",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant females or couples unwilling to use contraception",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intolerance or allergy to sirolimus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients taking anti-HCV therapy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients taking medications known to alter the levels of sirolimus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of thromboembolic disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. He has stable liver function.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01134952",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02113514",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Intact cervix",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No prior history of invasive cervical cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willing to have biological specimens stored for future studies",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Resident of Appalachian Ohio",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Medical or psychiatric illness that precludes research project requirements, ability to give informed consent, or protocol compliance.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smokers (will be contacted by study team to see if they are eligible/willing to participate in CARE: Project 2)",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT02113514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

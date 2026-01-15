@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03269318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Parent/Guardian/Participant is willing and able to give informed consent/assent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physician-diagnosed asthma that is inadequately controlled as per view of doctor (for example, history of at least two emergency visits to GP or hospital over the previous year, frequent use of blue inhaler (three times or more per week))",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 5-11 years (inclusive)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children who are already on at least 400 micrograms per day inhaled beclomethasone or equivalent and hence ready to be prescribed inhaled long-acting beta2 agonists and/or other add-on medication or are already on inhaled long-acting beta2 agonists and/or other add-on medication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Parent/Guardian/Participant is unwilling or unable to give informed consent/assent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known contraindication to montelukast or salmeterol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other known significant airway or lung disease (e.g. chronic lung disease of prematurity, cystic fibrosis or congenital airway abnormalities) or other co-existing serious disease such as congenital cardiac disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Poor inhaler technique and/or history of poor adherence on checking following standard procedure at the clinic",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participating in another clinical trial (other than observational trials and registries) concurrently or within 30 days prior to screening for entry into this study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough, shortness of breath, history of asthma, uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg. Spirometry revealed FEV1 of 63% of the predicted.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT03269318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

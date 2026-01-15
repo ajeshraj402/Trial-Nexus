@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01500525",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingly_attend_investigation",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "chest_physical_tests_normal",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnose_asthma_by_specialist",
+      "label": "met",
+      "evidence": "history of recurrent coughing, wheezing, or shortness of breath at rest or with exercise, symptomatic"
+    },
+    {
+      "criterion": "asthma_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symptoms_improve_outside_workplace",
+      "label": "met",
+      "evidence": "within 1-2 hours outside the workplace"
+    },
+    {
+      "criterion": "spirometry_results",
+      "label": "met",
+      "evidence": "FEV1 of 63% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe_respiratory_condition_hospitalization",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "asthma_diagnosis_by_physician",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "congenital_heart_disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "39-year-old man with history of asthma, symptoms worsen at work, spirometry results show FEV1 of 63% of the predicted.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01500525",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

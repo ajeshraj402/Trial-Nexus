@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02950389",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "lambda chains",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "free light chain values >100 mg/L for k chains or >50 mg/L for lambda chains.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "absence or <200 ml/die residual diuresis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fistula or central venous catheter with blood flow >250 ml/min.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dialysis, multiple myeloma requiring the double PMMA filter application, poly-allergy, HIV positivity",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV positivity",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been diagnosed with Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. He has a positive serum MPO-ANCA.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02950389",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

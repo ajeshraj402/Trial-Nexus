@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03763175",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female participants aged between 18 and 65 years inclusive.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient must be willing and able to participate in the study for the required duration, understand and sign the informed consent (ICF), and be willing to comply with all protocol-related visits and procedures.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient has had IBS-C symptoms (as defined by Rome III diagnostic criteria) for at least 6 months prior to diagnosis.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient has loose (mushy) or watery stools for > 25% of their bowel movements (BMs) during the 12 weeks before Screening or during the Screening and Pre-treatment Periods.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patient has a history of cathartic colon, laxative, or enema abuse.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient's symptoms suggest a possible case of cholera, which would make them ineligible for the study. However, further investigation is needed to confirm this diagnosis.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03763175",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

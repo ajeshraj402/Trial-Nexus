@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00065949",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Born at 23 to 32 weeks' gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Weighs 500 to 1500 grams (1.1 to 3.3 lbs)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Requires mechanical ventilation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than 12 hours of age at time of enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Multiple congenital anomalies",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Single congenital anomaly of the central nervous system",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unlikely to be available for duration of the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 3-day-old female infant with neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00065949",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

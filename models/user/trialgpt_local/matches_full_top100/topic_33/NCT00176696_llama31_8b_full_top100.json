@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00176696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "english speaking",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "surgery position",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "incision size",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "surgical location",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pregnancy test",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "anesthesia type",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery location",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic pain history",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cognitive disabilities",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "peripheral vascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "carpal tunnel syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric or cognitive impairments",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "stroke history",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mastectomy or lymph node surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease. She has an irregular menstrual cycle and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00176696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

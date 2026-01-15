@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT00458731",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histological confirmation of Solid Tumor or Lymphoma that is metastatic or unresectable",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance status =< 2 (Karnofsky >= 60%)",
+      "label": "met"
+    },
+    {
+      "criterion": "Leukocytes >= 3,000/mcL",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1,500/mcL",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelets >= 100,000/mcL",
+      "label": "met"
+    },
+    {
+      "criterion": "Total bilirubin =< 2.0 mg/dL (does NOT apply to patients with Gilbert's Syndrome)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "AST(SGOT)/ALT(SGPT) =< 2.5 X institutional upper limit of normal",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum creatinine =< 2.0 mg/dL",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients MUST have recovered from all treatment related toxicities to Grade 1 NCI CTC (v 4.0) in severity",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must be willing and able to review, understand, and provide written consent before starting therapy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with stable brain metastasis (stable disease on one MRI assessment at least 4 weeks after completion of whole brain radiation, no evidence of progression on MRI assessment 4 weeks after stereotactic radiosurgery or complete surgical excision) will also be allowed to participate in this trial",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with histologically proven intracranial glioblastoma, gliosarcoma or anaplastic astrocytoma will be eligible; patients must have shown unequivocal radiographic evidence for tumor progression by MRI scan; scan should be performed within 14 days prior to registration and on a steroid dose that has been stable for at least 5 days",
+      "label": "unknown"
+    },
+    {
+      "criterion": "At least 4 weeks MUST have passed since the last chemotherapy to day 1 of registration (6 weeks for regimens containing nitrosoureas or Mitomycin C)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with squamous non-small cell lung carcinoma",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Serious or non-healing wound, ulcer or bone fracture",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within 28 days of day 1 of registration",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has received prior therapies. However, they have recovered from treatment-related toxicities and are willing to provide written consent.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00458731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

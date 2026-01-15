@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04701034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with \u2265 2 consecutive pregnancy losses",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2264 completed gestational week 10 after ART with the present partner or with an egg/semen donor",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI \u226535",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226541",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant uterine malformation(s)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known parental balanced chromosomal translocations",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u22652 previous pregnancies with fetuses with known abnormal karyotype",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting. She has no history of allergies and uses only multivitamins daily.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04701034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

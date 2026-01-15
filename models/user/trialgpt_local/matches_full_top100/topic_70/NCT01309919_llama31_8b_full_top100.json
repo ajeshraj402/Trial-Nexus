@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_choice",
+      "label": "met",
+      "evidence": "desires IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI_history",
+      "label": "unknown",
+      "evidence": "no mention of STI history"
+    },
+    {
+      "criterion": "desire_for_another_pregnancy",
+      "label": "unknown",
+      "evidence": "no mention of desire for another pregnancy"
+    },
+    {
+      "criterion": "uterine_fibroids",
+      "label": "unknown",
+      "evidence": "no mention of uterine fibroids"
+    },
+    {
+      "criterion": "neoplasia",
+      "label": "unknown",
+      "evidence": "no mention of neoplasia"
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "unknown",
+      "evidence": "no mention of liver disease or tumor"
+    }
+  ],
+  "notes": "Patient has MDD, but symptoms are still present despite anti-depressants. She does not drink alcohol or smoke.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

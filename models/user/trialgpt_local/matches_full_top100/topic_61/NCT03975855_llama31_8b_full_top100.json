@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03975855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cT1-4c",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female / male patient aged \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent (ICF)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suspicious lymph nodes after neoadjuvant therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No confirmed breast cancer and no abnormality in the breast",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03975855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03422809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "18 to 44 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "General good health",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "BMI 18.5-24.9 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Regular menstrual cycle (26-35 days)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-smoker",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Non-pregnant",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "If pregnant before, \u226512 months since last pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known allergy to shellfish or iodine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Blood pressure on the day of measurements is low or high (systolic blood pressure (SBP) <90 or \u2265130 mmHg and/or diastolic blood pressure (DBP) <60 or \u226580 mmHg)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently has low or high blood pressure (SBP <90 or \u2265130 mmHg and/or DBP <60 or \u226580 mmHg), self-reported",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current hypertension or previous hypertensive disorder in pregnancy (gestational hypertension or preeclampsia)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Taking regular medication(s) (physician's prescribed medications for a health condition)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently trying to conceive",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently using hormonal birth control or used within last 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a healthy woman with no underlying disease. She has been getting regular flu shots and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT03422809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

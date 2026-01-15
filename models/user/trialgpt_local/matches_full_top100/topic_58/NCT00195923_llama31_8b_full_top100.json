@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00195923",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "appendicitis_perforated",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "appendix_normal_or_non_perforated",
+      "label": "not_met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis"
+    },
+    {
+      "criterion": "parental_permission",
+      "label": "met",
+      "evidence": "His parents give informed permission"
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00195923",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

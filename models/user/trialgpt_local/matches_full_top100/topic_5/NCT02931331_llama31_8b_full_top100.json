@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02931331",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cardiac PET stress test (PET 1) followed by mechanical revascularization as part of their routine medical care",
+      "label": "met",
+      "evidence": "previous studies"
+    },
+    {
+      "criterion": "second cardiac PET stress test (PET 2) within 12 weeks of their revascularization procedure(s)",
+      "label": "met",
+      "evidence": "previous studies"
+    },
+    {
+      "criterion": "Measurements Baseline absolute coronary flow and CFR will be obtained for each major coronary artery territory",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute ST-elevation myocardial infarction (< 3 days)",
+      "label": "triggers",
+      "evidence": null
+    },
+    {
+      "criterion": "absolute flow data is not available on the initial PET stress.",
+      "label": "triggers",
+      "evidence": null
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02931331",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

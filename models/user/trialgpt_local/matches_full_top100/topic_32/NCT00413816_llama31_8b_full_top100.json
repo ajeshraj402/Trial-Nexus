@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00413816",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to ICU",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "> 20% full thickness burns",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has symptoms consistent with STEC infection, including vomiting, diarrhea, abdominal pain, fever, and chills. Physical exam and lab results confirm the presence of schistocytes and helmet cells in peripheral blood smear.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00413816",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

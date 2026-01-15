@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02897700",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old"
+    },
+    {
+      "criterion": "breast cancer diagnosis",
+      "label": "met",
+      "evidence": "cytologically confirmed breast cancer"
+    },
+    {
+      "criterion": "HER2-positive",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ER/PR-negative",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "histologically proven infiltrating ductal carcinoma of breast",
+      "label": "met",
+      "evidence": "invasive ductal breast carcinoma"
+    },
+    {
+      "criterion": "no severe major organ dysfunction",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "adequate hematopoietic function",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "white blood cells (WBC) \u2265 3,000/\u03bcl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "absolute neutrophil count (ANC) \u2265 1,500/\u03bcl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Platelet count \u2265 100,000/\u03bcl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hemoglobin (HGB) \u2265 10 g/dl and not transfusion dependent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \u2264 10% above upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 18",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe major organ dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "WHO performance status of >1",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02897700",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

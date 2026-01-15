@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02915536",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Native born or residents of Shandong province for at least 5 years.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of thyroid diseases or medication intake (including iodine supplements)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "protein-energy malnutrition in the long term",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, but no history of thyroid diseases or medication intake mentioned.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02915536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

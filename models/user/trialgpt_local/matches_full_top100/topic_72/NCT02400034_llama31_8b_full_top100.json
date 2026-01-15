@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02400034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Postoperative patients after placement of midurethral sling",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to provide informed consent and complete all study requirements",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who underwent a surgery that requires long term catheterization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who sustained a cystotomy during surgery as our divisional protocol is to send these patients home with a Foley catheter for 5-14 days without a voiding trial",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who had an apical repair for pelvic organ prolapse (Uterosacral vaginal vault suspension, Abdominal sacral colpopexy, sacrospinous ligament fixation)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She is on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02400034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

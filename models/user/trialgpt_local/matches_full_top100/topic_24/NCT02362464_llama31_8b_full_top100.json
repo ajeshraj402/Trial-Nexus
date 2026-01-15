@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02362464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adenocarcinoma of the prostate",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior enrollment in NCI protocol 09-C-0139 with receipt of at least 5 doses of TARP peptide vaccine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Performance Status: ECOG 0-1, life expectancy of greater than or equal to 1 year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemoglobin greater than or equal to 10.0 gm/dL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "WBC greater than or equal to 2,500/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ALC greater than or equal to 500/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ANC greater than or equal to 1,000/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "platelet count greater than or equal to 100,000/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PT/PTT less than or equal to 1.5X ULN unless receiving clinically indicated anticoagulant therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "SGOT/SGPT less than or equal to 2.5X ULN, total bilirubin less than or equal to 1.5X ULN, Cr less than or equal to 1.5X ULN, estimated GFR (eGFR) greater than or equal to 60 ml/min",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hepatitis B and C negative, unless the result is consistent with prior vaccination or prior infection with full recovery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV negative",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with active infection or other significant or uncontrolled medical illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on immunosuppressive therapy including systemic corticosteroid therapy for any reason",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55 year old man with lower urinary tract symptoms. He has a history of prostate cancer and is currently receiving standard of care medical management.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02362464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

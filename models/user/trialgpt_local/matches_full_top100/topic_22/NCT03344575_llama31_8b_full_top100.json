@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03344575",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients planned for laparoscopic repair of midline incisional hernia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Defects with diameter 3-10 cm",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI<40",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Defect >10 cm",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ventral hernias with other localization than the midline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergency surgery and incarcerated hernias",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative suspicion of extensive adhesions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or intended pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious comorbidity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03344575",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

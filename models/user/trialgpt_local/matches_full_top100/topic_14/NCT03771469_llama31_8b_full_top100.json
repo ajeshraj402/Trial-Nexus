@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03771469",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with Down syndrome aged 2-17 years who are seen through the Down syndrome clinic at Oregon Health and Science University",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at Oregon Health and Science University who either have a recently completed sleep study (within the past 6 months and no surgical treatment for OSA since then) or who will be having a sleep study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of tracheostomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of subglottic or tracheal stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe cardiopulmonary disease requiring supplemental oxygen",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Parents or caregivers who are unable to read written English or Spanish",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03771469",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00321022",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Transient ischemic attack confirmed by emergency physician",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative HCT",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Positive HCT scan for bleed, mass, acute infarct",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Possible embolic source - A. fib, paroxysmal.A.fib, cardiomyopathy, artificial heart valve, endocarditis, patent foramen ovale, recent MI",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG and PVD with significant bilateral carotid stenosis. He reports occasional dizziness but no prior syncope or residual deficits from previous CVA.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00321022",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00318708",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of physician-diagnosed asthma",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "FEV1 greater than or equal to 60% of predicted result following 180 mcg albuterol",
+      "label": "met",
+      "evidence": "spirometry"
+    },
+    {
+      "criterion": "Nonsmoker (less than 10 pack-per-year lifetime smoking history and no smoking in the year prior to study entry)",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "Able to perform spirometry, as per American Thoracic Society criteria",
+      "label": "met",
+      "evidence": "spirometry"
+    },
+    {
+      "criterion": "75% adherence with diary cards, fluticasone (monitored with Doser), and placebo pill trial (monitored electronically with Electronic Drug Exposure Monitor [eDEM] pill dose counter) for the final 2 weeks of the four-week run-in period",
+      "label": "met",
+      "evidence": "adherence"
+    },
+    {
+      "criterion": "At Visit 1, in steroid-na\u00efve participants, no significant adrenal suppression, defined as a plasma cortisol concentration less than 5 mcg/dL. If adrenal suppression occurs, a 250 mcg corticotropin (ACTH) stimulation test will be performed.",
+      "label": "unknown",
+      "evidence": "undiagnosed"
+    },
+    {
+      "criterion": "Absence of bronchoscopy-induced exacerbation; if bronchoscopy-induced exacerbation has occurred, prednisone therapy must have stopped at least 6 weeks prior to study entry",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "Absence of respiratory tract infection; if infection has occurred, infection-related symptoms must have stopped at least 6 weeks prior to study entry",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "Has experienced no more than two exacerbations or respiratory tract infections prior to study entry",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "If female and able to conceive, willing to utilize two medically acceptable forms of contraception (one non-barrier method with single barrier method OR double barrier method)",
+      "label": "unknown",
+      "evidence": "undiagnosed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of lung disease other than asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of any medication that has a significant interaction with clarithromycin, including herbal or alternative therapies",
+      "label": "unknown",
+      "evidence": "undiagnosed"
+    }
+  ],
+  "notes": "Patient is a chef with a history of asthma for 3 years. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00318708",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

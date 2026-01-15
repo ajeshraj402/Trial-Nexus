@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04160624",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "severe_aortic_stenosis",
+      "label": "met",
+      "evidence": "critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis"
+    },
+    {
+      "criterion": "regurgitant_volume",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "PGmean",
+      "label": "met",
+      "evidence": "RV pressure was 41 mmHg"
+    },
+    {
+      "criterion": "small_incision_surgery",
+      "label": "met",
+      "evidence": "Small incision surgery of chest can be tolerated"
+    },
+    {
+      "criterion": "general_anesthesia",
+      "label": "met",
+      "evidence": "General anesthesia is tolerable"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "The subject was informed of the clinical application nature of the technology and agreed to participate in all requirements of the clinical application of the new technology, signed the informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant_lactating",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active_endocarditis",
+      "label": "not_met",
+      "evidence": "No angiographically apparent flow-limiting coronary artery disease"
+    },
+    {
+      "criterion": "life_expectancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other_clinical_trial",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is tolerating general anesthesia. No contraindications found.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04160624",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03237663",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy adults aged 16-60 years old",
+      "label": "met",
+      "evidence": "medical history and clinical examination"
+    },
+    {
+      "criterion": "Subjects' guardians are able to understand and sign the informed consent",
+      "label": "met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Subjects who can and will comply with the requirements of the protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin: 110-150g/L (female), 120-160g/L (male)",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Leukocyte count: 4.0-10.0\u00d7109 /L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Lymphocyte count: 0.8-4.5\u00d7109 /L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Platelet count: 100-300\u00d7109/L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Alanine aminotransferase: (ALT)0-40U/L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Serum creatinine: 44-106\u03bcmol/L",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Subjects with temperature \u226437.0\u00b0C on axillary setting",
+      "label": "not_met",
+      "evidence": "patient's statement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject that has a medical history of any of the following: allergic history, or allergic to any ingredient of vaccine",
+      "label": "not_met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Have serious side effects to vaccine, such as allergies, hives, breathing difficulties, angioneurotic oedema or abdominal pain",
+      "label": "met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Abdominal pain or diarrhea",
+      "label": "not_met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Asthma, in the past two years, unsteady and require emergency treatment, hospitalization, intubation, oral administration or intravenous corticosteroids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetes (type I or II), not including gestational diabetes",
+      "label": "not_met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Thyroid disease",
+      "label": "not_met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "Serious angioneurotic edema in the past three years, or in need of treatment in the past 2 years",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has V. cholerae infection and is experiencing severe diarrhea, which may be a contraindication for vaccination.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03237663",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

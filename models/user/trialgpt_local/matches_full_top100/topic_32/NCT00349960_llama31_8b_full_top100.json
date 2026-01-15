@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00349960",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "adult age (\u226518 years)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "haemoglobin (Hb) levels above the Romanian recommended target of 10g/dL and stable",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "treatment with once-weekly SC epoetin beta for at least 2 months prior to enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "serum ferritin level 80-800 ng/mL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "transferrin saturation 20-50%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "immunosuppressive treatment or use of other medication known to influence erythropoiesis 4 weeks before the enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participation in another clinical trial 4 weeks prior to enrollment",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "need for blood transfusions within 8 weeks prior to enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "efficient HD (urea-equilibrated Kt/V >1.2, Daugirdas II equation)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least 6 months on HD",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "poor blood pressure control (BP \u2265140/90mmHg in spite of antihypertensive medication and fluid control by dialysis)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac failure or hepatic diseases (as defined by abnormal ALT and AST levels) or association of psychical disorders or other disturbances making the enrollment unacceptable, as judged by the physician",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of gastrointestinal bleeding which is an exclusion criterion. However, the overall assessment is likely ineligible due to poor blood pressure control.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00349960",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

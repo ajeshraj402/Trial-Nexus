@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT00000531",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [],
+  "exclusion": [
+    {
+      "criterion": "history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "overnight, the patient went into monomorphic VT on telemetry",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the patient was found to be unresponsive. CPR was initiated, unclear if the patient had a pulse.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "within one minute the patient returned to sinus rhythm.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the patient does not report any symptoms prior to this episode.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently, the patient feels presyncope and nausea, but denies chest pain.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00000531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03522207",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "painful TMD",
+      "label": "met",
+      "evidence": "chronic myalgia (>6 months) with/without accompanying arthralgia per DC/TMD"
+    },
+    {
+      "criterion": "pain present 15 days in last month",
+      "label": "met",
+      "evidence": "pain has been present for the past week"
+    },
+    {
+      "criterion": "moderate to severe pain intensity",
+      "label": "met",
+      "evidence": "average intensity of at least 4 out 10 in a verbal numerical rating scale"
+    },
+    {
+      "criterion": "poor sleep quality",
+      "label": "met",
+      "evidence": "fairly bad or very bad sleep quality according to PSQI questionnaire"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dental or orofacial pain disorder not meeting definition",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of pharmacological treatment for TMD or sleep during study duration",
+      "label": "unknown",
+      "evidence": "will be asked to discontinue before starting the study"
+    },
+    {
+      "criterion": "psychotropic medication or drug known to influence sleep or pain",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol or substance abuse",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain due to a distended appendix, but meets inclusion criteria for TMD and sleep quality. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03522207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

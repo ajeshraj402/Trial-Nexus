@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02174471",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Symptomatic",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age > 18 years and < 90 years",
+      "label": "met",
+      "evidence": "age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe valvular disease other than AS",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous Valve surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe renal impairment eGFR < 30ml/min",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any absolute contraindication to CMR",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other medical condition that limits life expectancy or precludes AVR",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, is symptomatic, and meets age criteria. No exclusion criteria are met.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02174471",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

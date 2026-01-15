@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01256775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Leriche-Fontaine stage II PAD presenting symptoms of intermittent claudication stable for at least 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of hypersensitivity or any form of allergic reaction or contraindications to NSAIDs, aspirin, and NO-donating drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "male and female patients between 40 and 80 years with Leriche-Fontaine stage II PAD presenting symptoms of intermittent claudication stable for at least 6 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous revascularization procedures during the last 6 months or indication for vascular surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute coronary syndrome or acute cerebrovascular episodes during the previous 6 months",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 46-year-old man presents with dizziness and frequent headaches. He has a family history of CAD, but no other cardiovascular risk factors such as smoking, high blood pressure, and diabetes mellitus and is physically active.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01256775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

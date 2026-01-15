@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01974284",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis: single, cytology-proven papillary thyroid carcinoma measuring 1 cm or less in diameter (microcarcinoma, T1a), without visible extrathyroidal extension, and with negative central and lateral neck lymph nodes by ultrasound",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient refusal to participate",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of prior thyroid or parathyroid surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous recurrent laryngeal nerve injury",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to make decisions or comply with follow up",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Co-existing indication for thyroidectomy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and history of radiation to neck, making them likely ineligible.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01974284",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

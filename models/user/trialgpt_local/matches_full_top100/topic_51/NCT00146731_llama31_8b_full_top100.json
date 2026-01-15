@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00146731",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant woman",
+      "label": "met",
+      "evidence": "patient is a 25-year-old G1 P1 pregnant woman"
+    },
+    {
+      "criterion": "fever; headache, vomiting, chills/rigors, and/or any of the following signs: temperature >37.50C and <39.50C, Hb>5 and <9 g/dl",
+      "label": "met",
+      "evidence": "The patients is a 25-year-old G1 P1 pregnant woman who is 24W3D gestational old who developed a sudden unset of fever and chills, accompany with nausea and vomiting."
+    },
+    {
+      "criterion": "positive blood smear for P.falciparum with at least 1000 asexual parasites/uL in an asymptomatic woman",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy in the first trimester",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe and complicated forms of malaria (as defined by WHO, 1996)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a pregnant woman with symptoms of fever, headache, vomiting, chills/rigors, and abnormal vital signs. She has a positive blood smear for P.falciparum but the density is unknown.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00146731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

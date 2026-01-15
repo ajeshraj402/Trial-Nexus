@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01775501",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed advanced HCC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No cirrhosis or Child-Pugh A cirrhosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Measurable lesions",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All acute toxic effects of any prior treatment have resolved to NCI-CTCAE v4.0 grade 1 or less",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to swallow and retain oral medication",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior systemic regimens for HCC",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CLIP score > 3",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "67-year-old healthy woman with no underlying disease, menopausal and has 4 children. She takes daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT01775501",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

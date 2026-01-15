@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04583059",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-athletes",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous hip/pelvis, knee, ankle, or foot surgery within the past year",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lower extremity amputation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Injury to the lower extremities six months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known balance impairment due to neurological disorder, vestibular disorder, medication use, or other",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concussion within the previous three months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may affect balance and coordination. However, no recent concussion or surgery reported.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04583059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

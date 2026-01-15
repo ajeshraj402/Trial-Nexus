@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00353431",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hyperglycaemia (\u2265 8.0 mmol/l) admitted to the medical emergency room",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presumed hospitalisation in ER or medical ward of more than 48 h duration",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "terminal illnesses on palliative care",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "type 1 diabetes with or without ketoacidosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "require intensive care unit (ICU) or cardial care unit (CCU) therapy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who has been hospitalized previously for diabetic ketoacidosis. He presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00353431",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

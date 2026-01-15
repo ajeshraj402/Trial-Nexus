@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04490239",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Normal, healthy adults aged 18 to 65 years",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to Heparin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently taking any prescription blood thinners or anti-coagulants, or currently",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known history of anemia, thrombocytopenia, or other blood disorder",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Autoimmune disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known history of Neurologic/Psychiatric disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Report of an active infection",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Subject is pregnant or breast-feeding, or is expecting to conceive during the study.",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms and normal blood chemistry. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT04490239",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

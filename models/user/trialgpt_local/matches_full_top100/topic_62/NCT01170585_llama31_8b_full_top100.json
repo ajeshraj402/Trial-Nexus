@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01170585",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "SLE-as diagnosed by ACR criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or females who are 18-80years of age, inclusive at screening",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female subjects who are post menopausal (i.e >6mnths without menstrual period)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgically sterile, or using effective contraceptive measures at visit 0 and the same throughout the study and for 30days after discontinuing treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No current or previous statin therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No current indication for statin therapy (Coronary artery disease; hypercholesterolemia, renal dysfunction)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects who have given their signed consent to participate in the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient < 18 or > 80 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications for MRI - patients with pacemakers' defibrillators or pacing wires in the heart, or other metal implants such as metal in the eye, brain or spine.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known atherosclerotic valvular disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Renal dysfunction",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyperlipidemia",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active myositis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All forms of liver disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a systolic murmur and plaque in the internal carotid arteries.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01170585",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

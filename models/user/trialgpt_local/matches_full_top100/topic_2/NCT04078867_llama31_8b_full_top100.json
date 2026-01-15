@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04078867",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Rheumatic mitral valve disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Surgery for mitral valve replacement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe functional tricuspid regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with non-rheumatic mitral disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Combined mitral and aortic valve replacement",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe functional tricuspid regurgitation, but no information on annular dilatation or preoperative systolic pulmonary artery pressure.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04078867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

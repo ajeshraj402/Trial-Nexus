@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01938157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "high-risk of breast cancer",
+      "label": "met",
+      "evidence": "cytologically confirmed breast cancer"
+    },
+    {
+      "criterion": "clinical screening breast MRI order",
+      "label": "met",
+      "evidence": "order for a clinical screening breast MRI"
+    },
+    {
+      "criterion": "asymptomatic",
+      "label": "met",
+      "evidence": "no symptoms mentioned"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "age >= 21 years",
+      "label": "met",
+      "evidence": "45-year-old postmenopausal woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "palpable mass or nipple discharge",
+      "label": "not_met",
+      "evidence": "no symptoms mentioned"
+    },
+    {
+      "criterion": "MRI/MRA contraindications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contrast reaction to intravenous gadolinium-DTPA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable to give consent",
+      "label": "not_met",
+      "evidence": "candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "breast cancer within the last 6 months",
+      "label": "not_met",
+      "evidence": "no recent breast cancer diagnosis mentioned"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "male patients",
+      "label": "not_met",
+      "evidence": "45-year-old postmenopausal woman"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01938157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

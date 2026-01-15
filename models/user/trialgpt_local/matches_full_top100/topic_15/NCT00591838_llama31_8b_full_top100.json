@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00591838",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed non-small cell cancer by biopsy or cytology.",
+      "label": "met",
+      "evidence": "biopsy"
+    },
+    {
+      "criterion": "Staging studies must identify patient as AJCC Stage I or II based on only 1 of the following combinations of TNM staging:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary tumor must be arising in one of the central chest locations.",
+      "label": "met",
+      "evidence": "CT abdomen without contrast"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. CT abdomen without contrast showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00591838",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

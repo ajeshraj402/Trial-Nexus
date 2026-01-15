@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00209274",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Grade 3 (moderate to severe) or Grade 4 (severe) mitral regurgitation (MR)",
+      "label": "met",
+      "evidence": "TTE"
+    },
+    {
+      "criterion": "Are 18 years or older.",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Symptomatic",
+      "label": "met",
+      "evidence": "symptoms"
+    },
+    {
+      "criterion": "Candidates for mitral valve surgery",
+      "label": "met",
+      "evidence": "planned MV repair"
+    },
+    {
+      "criterion": "Primary regurgitant jet must originate from malcoaptation of the A2 and P2 scallops of the mitral valve",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Appropriate valve anatomy for MitraClip",
+      "label": "met",
+      "evidence": "valve anatomy"
+    },
+    {
+      "criterion": "Does not need other cardiac surgery or any emergency surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Did not experience myocardial infarction in prior 12 weeks or endovascular procedure in prior 30 days",
+      "label": "met",
+      "evidence": "no MI"
+    },
+    {
+      "criterion": "Mitral valve orifice area \u2265 4 cm2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Do not have renal insufficiency",
+      "label": "met",
+      "evidence": "no renal issues"
+    },
+    {
+      "criterion": "Echocardiographic evidence of intracardiac mass, thrombus or vegetation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, planned for MV repair but lost to follow-up. Now prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00209274",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

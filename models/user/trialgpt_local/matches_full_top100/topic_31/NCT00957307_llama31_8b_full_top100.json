@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37-year-old woman"
+    },
+    {
+      "criterion": "microcalcifications or soft tissue lesions (BI-RADS 4 or 5)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "suspected or confirmed pregnancy",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "bilateral mastectomy",
+      "label": "met",
+      "evidence": "underwent tubal ligation"
+    },
+    {
+      "criterion": "frail and unable to cooperate",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cannot give informed consent",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "male subjects",
+      "label": "met",
+      "evidence": "woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and smokes heavily, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

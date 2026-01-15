@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01059474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy adult",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Healthy adult",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under 18 years of age",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Allergy to sulfa",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eat less than three fish servings per week",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age with mild headache and leg swelling, BP 146/99, urine dipstick 3+ proteins. No specific past medical issues or family history of concern.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01059474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

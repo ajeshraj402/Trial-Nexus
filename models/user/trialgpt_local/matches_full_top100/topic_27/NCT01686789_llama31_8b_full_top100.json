@@ -1,0 +1,121 @@
+{
+  "trial_id": "NCT01686789",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic hepatitis C",
+      "label": "met",
+      "evidence": "positive HCV RNA tests"
+    },
+    {
+      "criterion": "18-70 years of age",
+      "label": "met",
+      "evidence": "53-year-old man"
+    },
+    {
+      "criterion": "Chronic hepatitis C documented by a detectable HCV RNA level by a PCR performed within 3 months",
+      "label": "met",
+      "evidence": "positive HCV RNA tests"
+    },
+    {
+      "criterion": "Liver biopsy performed within 3 years or fibro test/fibroscan within 1 year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Naive patients",
+      "label": "met",
+      "evidence": "no previous treatment mentioned"
+    },
+    {
+      "criterion": "Genotype 4",
+      "label": "met",
+      "evidence": "positive HCV RNA of genotype 4"
+    },
+    {
+      "criterion": "Compensated cirrhosis hepatitis C liver disease (Child-Pugh \u2264 6)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient needing, according to the physician, the initiation of a combined therapy of pegylated interferon alfa plus Ribavirin",
+      "label": "met",
+      "evidence": "IFN (100 mg/week) plus RBV (400 mg/day) combination therapy"
+    },
+    {
+      "criterion": "Negative HBsAg test and HIV-Elisa test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative pregnancy test at baseline in women in age of procreation",
+      "label": "met",
+      "evidence": "male patient"
+    },
+    {
+      "criterion": "Efficient contraception all along the treatment period, and for 6 months after discontinuation of the treatment for women and men",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypertension treatment",
+      "label": "met",
+      "evidence": "BP: 130/75"
+    },
+    {
+      "criterion": "Pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cirrhotic patients, HBV/HIV co-infection, evidence of hepatocellular carcinoma (HCC), significant evolutive cardiovascular, pulmonary, renal or psychiatric disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy/breast feeding or patients post liver transplantation and anemia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Decompensated Cirrhotic patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HBV or HIV co-infection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "negative biopsy for HCC"
+    },
+    {
+      "criterion": "Significant and evolutive cardiovascular, pulmonary, severe psychiatric disorder or renal dysfunction (calculated creatinine CL < 50 ml/min)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non compensated thyroid dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent history of epilepsy (less than 6 months)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection, is on combination therapy and meets most inclusion criteria. However, there are some unknowns regarding compensated cirrhosis and renal function.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01686789",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

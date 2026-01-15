@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02457637",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic liver disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients without cirrhosis, compensated cirrhosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "decompensated cirrhosis patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "acute liver injury [ALT>3NL, AST>3NL or TB>2NL within 1 week]",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute decompensation [ascites, hepatic encephalopathy, bacterial infection, gastrointestinal bleeding or jaundice(TB>5NL)within 1 month]",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma or other liver malignancies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignancy of other organs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe chronic extrahepatic disease including chronic obstructive pulmonary disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "combined with respiratory failure, coronary heart disease with cardiac function level 3 (NYHA), myocardial infarction in the 3 months before admission, diabetes with severe complications and chronic kidney disease with end-stage renal failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving immunosuppressive drugs for reasons other than chronic liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on treatment for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT02457637",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

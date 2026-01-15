@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02193685",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis of HD based on standardized histological criteria",
+      "label": "met",
+      "evidence": "documented histopathology showing absence of ganglion cells and is consistent with the diagnosis of HD"
+    },
+    {
+      "criterion": "able to provide written informed assent if between the ages of 7 and 17",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "have consented to have specimens tested for genetics, immune responses, stool microflora",
+      "label": "met",
+      "evidence": "patient has given consent"
+    },
+    {
+      "criterion": "confirmed diagnosis of HD based on standardized histological criteria (ages 0-17 at CSMC)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intestinal neuronal dysplasia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pseudo-obstruction",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, with recent C diff infections and antibx use.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02193685",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

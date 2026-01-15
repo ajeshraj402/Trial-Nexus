@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT00606008",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Resolution of all acute toxic effects of prior chemotherapy or radiotherapy or surgical procedures to NCI CTCAE Version 3.0 grade \u22641.",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate organ function as defined by the following criteria: Serum aspartate transaminase (AST; serum glutamic oxaloacetic transaminase [SGOT]) and serum alanine transaminase (ALT; serum glutamic pyruvic transaminase [SGPT]) \u22643 x local laboratory upper limit of normal (ULN), or AST and ALT \u22643 x ULN if liver function abnormalities are due to underlying malignancy.",
+      "label": "met"
+    },
+    {
+      "criterion": "Total serum bilirubin \u22641.5 x ULN",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) \u22651500/\u00b5L",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelets \u2265100,000/\u00b5L",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin \u22659.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum calcium \u226412.0 mg/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum creatinine \u22641.5 x ULN",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have histologically or neuroradiographically recurrent anaplastic astrocytoma (AA) or glioblastoma (GBM). Must have had prior pathologic confirmation of primary tumor histology.",
+      "label": "met"
+    },
+    {
+      "criterion": "Must be \u2265 18 years old.",
+      "label": "met"
+    },
+    {
+      "criterion": "Must have a Karnofsky performance status (KPS) \u2265 60%",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable disease per MacDonald criteria required using contrast enhanced cranial MRI.",
+      "label": "met"
+    },
+    {
+      "criterion": "Life expectancy \u2265 12 weeks.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major surgery or radiation therapy within 4 weeks of starting study treatment.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "NCI CTCAE grade 3 hemorrhage within 4 weeks of starting study treatment.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of or known spinal cord compression or carcinomatous meningitis, or evidence of leptomeningeal disease on screening CT or MRI scan.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00606008",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

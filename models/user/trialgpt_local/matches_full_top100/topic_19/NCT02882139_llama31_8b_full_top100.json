@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02882139",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of ES",
+      "label": "met",
+      "evidence": "documentation of 3 or more episodes of sustained ventricular arrhythmia within 24h or documentation of sustained ventricular tachycardia lasted at least 12h"
+    },
+    {
+      "criterion": "Age \u226518",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient without ICD",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Confirmed or suspected use of drugs or narcotics with known direct pro-arrhythmic effect",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02882139",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

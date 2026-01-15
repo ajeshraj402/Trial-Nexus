@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04498715",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient's age is 53"
+    },
+    {
+      "criterion": "fame classification",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unilateral proximal hip fracture",
+      "label": "not_met",
+      "evidence": "fracture caused by low energy trauma"
+    },
+    {
+      "criterion": "communicative ability",
+      "label": "met",
+      "evidence": "patient can understand the procedure and participate in follow-up program"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous hip or pelvic fractures on the same side",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "concurrent oral treatment with corticosteroids, and/or osteoporosis medication",
+      "label": "not_met",
+      "evidence": "no mention of corticosteroids or osteoporosis medication"
+    },
+    {
+      "criterion": "irreversible coagulopathy or bleeding disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "concurrent dialysis or elevated creatinine",
+      "label": "not_met",
+      "evidence": "no mention of dialysis or elevated creatinine"
+    },
+    {
+      "criterion": "hypocalcaemia or hypercalcaemia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Paget's disease of bone and is starting Bisphosphonate therapy. Sister had similar problems diagnosed at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04498715",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

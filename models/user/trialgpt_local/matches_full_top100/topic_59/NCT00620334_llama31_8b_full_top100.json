@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00620334",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-64 years of age at enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Literacy: The subject must be able to read, comprehend, and record information in English.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Type of subject: The subject must be seen in the outpatient setting.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Respiratory Instability: Hospitalization for respiratory disease within the last 6 months during study period and prior to Visit 0.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Treatment of Asthma: Treatment for asthma with any medication (except for short acting inhaled bronchodilators) for 12 months or more prior to Visit 0",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00620334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

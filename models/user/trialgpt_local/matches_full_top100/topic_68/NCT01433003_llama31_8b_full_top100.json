@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01433003",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 year-old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "First presentation of TTP/HUS",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Platelet count < 150 x 10^9 /L",
+      "label": "met",
+      "evidence": "blood tests revealed thrombocytopenia"
+    },
+    {
+      "criterion": "Microangiopathic haemolytic anaemia (blood film with presence of red blood cell fragmentation)",
+      "label": "met",
+      "evidence": "His blood smear showed microangiopathic hemolytic anemia"
+    },
+    {
+      "criterion": "LDH > 1.25 X the upper limits of normal",
+      "label": "met",
+      "evidence": "His blood tests revealed elevated lactate dehydrogenase"
+    },
+    {
+      "criterion": "No alternative diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Secondary TTP/HUS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Relapsing TTP/HUS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypersensitivity to blood product",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has received 2 or more plasma exchange treatment since symptom started over the last 1 week",
+      "label": "not_met",
+      "evidence": "The genetic survey revealed ADAMTS13 >10%"
+    },
+    {
+      "criterion": "Received medication, including cyclosporine, cyclophosphamide, rituximab for treatment of TTP/HUS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other causes of thrombocytopenia than TTP/HUS",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT01433003",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

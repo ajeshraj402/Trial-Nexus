@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04675190",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "previous_surgeries",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "liver_cirrhosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatobiliary_malignancy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain, nausea, and vomiting. Ultrasound revealed gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04675190",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

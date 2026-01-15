@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03585257",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cirrhosis defined by any one of the following",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unclear diagnosis of cirrhosis (does not meet the criteria outlined above)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior overt HE episodes",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl, which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03585257",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

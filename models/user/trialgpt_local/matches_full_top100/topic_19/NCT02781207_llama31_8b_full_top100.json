@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02781207",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "evaluated in the Emergency Department for loss of consciousness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "identification of cause of loss of consciousness after initial evaluation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "loss of consciousness classified as high risk syncope",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient was admitted for evaluation of syncope and ventricular arrhythmias. He has a history of CAD, MI, HLD, HTN, and ventricular tachycardia.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02781207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

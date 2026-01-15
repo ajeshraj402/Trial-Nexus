@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00790231",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Patient text does not mention anything about the patient's ability to provide informed consent, but it is assumed that they have provided consent for their treatment."
+    },
+    {
+      "criterion": "Open kidney surgery with lumbotomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thoracic epidural analgesia",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about the patient's use of thoracic epidural analgesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant renal dysfunction (creatinin >200mol/l)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to epidural anesthesia or refusal",
+      "label": "unknown",
+      "evidence": "Patient text does not mention anything about contraindications to epidural anesthesia or the patient's refusal."
+    },
+    {
+      "criterion": "Preoperative residual urine volume > 100ml",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation, but there is no mention of kidney surgery or epidural anesthesia. The patient's renal function is not mentioned.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00790231",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

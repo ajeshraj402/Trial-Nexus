@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04586283",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no fetal anomalies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to give written informed consent",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "maternal Age >16 years",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable to read English",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiple pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-existing maternal cardiovascular or respiratory disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fetal anomaly",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT04586283",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

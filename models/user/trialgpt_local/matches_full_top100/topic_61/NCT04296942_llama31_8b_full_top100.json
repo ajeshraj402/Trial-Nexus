@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT04296942",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed metastatic breast cancer with appropriate IHC testing by a certified lab",
+      "label": "met"
+    },
+    {
+      "criterion": "Prior treatment: For Arm 1: greater than or equal to 1 prior therapy in the metastatic setting.",
+      "label": "met"
+    },
+    {
+      "criterion": "Females or males greater than or equal to 18 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG 0 or 1",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable metastatic disease per RECIST 1.1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have histologically or cytologically confirmed metastatic HER2+ breast cancer.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have hormone receptor negative, HER2+ breast cancer.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have measurable disease, per RECIST 1.1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have at least one lesion deemed safe to biopsy and be willing to undergo up to three biopsies while on trial.",
+      "label": "met"
+    },
+    {
+      "criterion": "Female or male greater than or equal to 18 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance status 0 or 1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have adequate bone marrow function as defined below:",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptomatic CNS metastases and leptomeningeal disease are excluded but treated brain metastases (no radiotherapy within 6 weeks) or asymptomatic brain metastasis are allowed.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of invasive malignancy less than or equal to 3 years prior to enrollment.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of congestive heart failure (CHF) as defined as NYHA class 3 or 4 or hospitalization for CHF (any NYHA class) within 6 months of trial start.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Concurrent use of chronic systemic steroids except for physiologic systemic steroids for replacement defined as 10mg of prednisone or an equivalent dose.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. She has a history of invasive malignancy less than or equal to 3 years prior to enrollment, which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04296942",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

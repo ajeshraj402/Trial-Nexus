@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01112657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged between 6-60 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "single, first clinical event potentially suggestive of MS within the last 2 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis of MS",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other disease that could better explain the subject's signs and symptoms",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, which makes her eligible for the trial. However, she does not meet the criteria for a single, first clinical event potentially suggestive of MS within the last 2 years.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT01112657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

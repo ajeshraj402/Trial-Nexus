@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01246947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 + older years"
+    },
+    {
+      "criterion": "tricuspid regurgitation",
+      "label": "met",
+      "evidence": "mild-moderate tricuspid regurgitation on echocardiographic study within 6 months prior to operation"
+    },
+    {
+      "criterion": "mitral valve surgery referral",
+      "label": "met",
+      "evidence": "referred for mitral valve surgery"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "able to understand the consent and able to sign informal consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "structural/organic tricuspid valve disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "refusal/inability to sign informal consent form",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "tricuspid valve endocarditis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "concomitant cardiac surgery requirement",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiogenic shock at the time of randomization",
+      "label": "not_met",
+      "evidence": "no mention of cardiogenic shock"
+    },
+    {
+      "criterion": "ST segment elevation myocardial infarction requiring Intervention within 7 days prior to randomization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cirrhosis or hepatic synthetic failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, but remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01246947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

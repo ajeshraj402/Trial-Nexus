@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04708197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic post stroke nonfluent aphasia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "first-ever ischemic stroke in the distribution of middle cerebral artery",
+      "label": "met",
+      "evidence": "computed tomography or magnetic resonance imaging on the brain"
+    },
+    {
+      "criterion": "Right handedness",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age ranged from 33 to 66 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Duration is at least 4 months from stroke onset",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients never received speech therapy before",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Educated for at least 10 years of education",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "stroke, other clinical forms of aphasia",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "unstable cardiac dysrhythmia or cardiac pacemaker",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unstable or critically ill patients",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "current or history of epilepsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "skull wounds and pregnant females",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "patients with severe grade of weakness which interfere with writing ability",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has chronic post stroke nonfluent aphasia due to first-ever ischemic stroke in the distribution of middle cerebral artery. He is right handed and had a duration of at least 4 months from stroke onset.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04708197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

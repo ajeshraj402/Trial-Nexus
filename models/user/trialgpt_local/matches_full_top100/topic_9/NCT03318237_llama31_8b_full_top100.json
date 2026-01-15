@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03318237",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MRI for focal epilepsy at the Johns Hopkins Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adult healthy volunteer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing to undergo an additional MRI exam in the 7T scanner at Kennedy Krieger Institute",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of Metal in the Skull/Eyes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy at the time of the scan",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He is presenting with facial twitching and generalized shaking.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03318237",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

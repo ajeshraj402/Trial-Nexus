@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01062308",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Stroke patients both ischemic and hemorrhagic with upper limb weakness within 48 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age over 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Brunnstrom's stage of recovery 1 and 2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients willing to participate in the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with Glasgow coma scale of <7",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients on ventilator",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncooperative patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients having previous history of shoulder injury",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with Wernicke's aphasia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients having previous history of shoulder pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any previous history of skin allergy to tape",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01062308",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

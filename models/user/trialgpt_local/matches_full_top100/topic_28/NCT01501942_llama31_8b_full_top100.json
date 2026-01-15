@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01501942",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old Spanish man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "not_met",
+      "evidence": "20 cigarette per day"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "oriented and conscious"
+    },
+    {
+      "criterion": "general_health",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "methacholine_challenge",
+      "label": "met",
+      "evidence": "positive methacholine challenge"
+    },
+    {
+      "criterion": "skin_prick_test",
+      "label": "met",
+      "evidence": "positive skin-prick test to common aeroallergens"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_lactation",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraception",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "asthma_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "FEV1",
+      "label": "not_met",
+      "evidence": "post-bronchodilator FEV1/FVC = 60% of predicted values"
+    },
+    {
+      "criterion": "smoking_history",
+      "label": "triggers",
+      "evidence": "20 cigarette per day"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01501942",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

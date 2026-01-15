@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01320670",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "Newly diagnosed epilepsy or history of first unprovoked, witnessed seizure",
+      "label": "met",
+      "evidence": "The patient first developed seizures at age 13"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of consent provoked seizure due to obvious",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute lesion on CT (e.g. stroke, hemorrhage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Provoked seizure due to obvious, chronic lesion on CT (e.g. vascular malformation,",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Progressive brain disease (e.g. neoplastic, infectious, demyelinating diseases)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of epilepsy longer than 1 year at presentation to FSC",
+      "label": "not_met",
+      "evidence": "The patient first developed seizures at age 13"
+    },
+    {
+      "criterion": "History of AED treatment for more than 4 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindication to MRI",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01320670",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

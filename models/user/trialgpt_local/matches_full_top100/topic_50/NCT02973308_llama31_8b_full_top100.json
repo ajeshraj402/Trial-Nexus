@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02973308",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "ability_to_walk_unaided",
+      "label": "met",
+      "evidence": "has no developmental delay in the physical assessment"
+    },
+    {
+      "criterion": "english_speaking",
+      "label": "met",
+      "evidence": "no evidence to suggest otherwise"
+    },
+    {
+      "criterion": "follow_protocol_instructions",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active_cancer_treatment",
+      "label": "not_met",
+      "evidence": "no mention of cancer treatment"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "patient is a baby boy, likely able to give consent through parents or guardians"
+    },
+    {
+      "criterion": "cardiovascular_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "musculo_skeletal_illness",
+      "label": "not_met",
+      "evidence": "no mention of musculo-skeletal illness"
+    },
+    {
+      "criterion": "pulmonary_illness",
+      "label": "not_met",
+      "evidence": "no mention of pulmonary illness"
+    }
+  ],
+  "notes": "A 5 months old male baby boy with undescended testis, otherwise healthy and developing normally.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02973308",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02414529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obese subjects",
+      "label": "met",
+      "evidence": "Only obese subjects will be selected given that they are the highest risk group of developing insulin resistance and Type II Diabetes"
+    },
+    {
+      "criterion": "Pubertal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "12- 18 years regardless of gender, race or economic circumstance",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre diabetes/high risk of diabetes using criteria of HbA1C between 5.7 - 6.4%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "25-OH vitamin D level less than 20 ng/ml (50 nmol/liter)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects must be willing to comply with study protocol requirements",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment on medication known to effect vitamin D, calcium and glucose metabolism",
+      "label": "not_met",
+      "evidence": "such as glucocorticoids, thiazolidinediones, metformin, anticonvulsants metabolized through cytochrome P-450 (phenytoin, carbamazepine, phenobarbital, sodium valproate)"
+    },
+    {
+      "criterion": "Subjects will be excluded from the study if they have taken any form of vitamin D supplementation greater than 400 IU daily in the preceding 3 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant major organ system illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of nephrolithiasis or hypercalcemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females who are pregnant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant psychiatric illness: schizophrenia, bipolar disorder, active substance abuse, and uncontrolled major depression.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Attendance at tanning salon",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervical cancer.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02414529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

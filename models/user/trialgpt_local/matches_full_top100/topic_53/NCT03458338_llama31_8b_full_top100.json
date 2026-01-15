@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03458338",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "country_of_residence",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "comes to clinic"
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain, but otherwise healthy.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT03458338",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

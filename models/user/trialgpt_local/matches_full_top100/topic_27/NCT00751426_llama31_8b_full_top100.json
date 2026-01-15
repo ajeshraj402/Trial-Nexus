@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00751426",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "AMPLICOR\u00ae, Roche Diagnostics, Branchburg, NJ",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "alanine aminotransferase (ALT > 30 U/L)",
+      "label": "met",
+      "evidence": "normal <24 U/L"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child B or C cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe cardiac or neurological disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Co-infection with hepatitis B or HIV",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma evaluated by ultrasound and alpha-fetoprotein",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Autoimmune disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neutrophil count below 1500 per cubic millimetre",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count below 75000 per cubic millimetre",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. No evidence of exclusion criteria.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00751426",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

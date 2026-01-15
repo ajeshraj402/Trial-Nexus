@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03783182",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Age over 12 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Planned for elective bilateral tonsillectomy",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Insulin dependent diabetes mellitus",
+      "label": "not_met"
+    },
+    {
+      "criterion": "NSAID or corticosteroid intolerance",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Gastric ulcer",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Immunodeficiency",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Treatment for chronic pain",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Psychiatric disorders",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has systemic mastocytosis with flares, but is otherwise healthy and responded well to treatment. She failed aspirin challenge due to adverse reaction.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03783182",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

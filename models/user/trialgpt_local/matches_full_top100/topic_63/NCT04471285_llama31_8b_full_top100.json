@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04471285",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women > 18 years",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "Single embryo pregnancy in week 24-42",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "was diagnosed with symphysiolisis",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones, biliary sludge and CBD stones"
+    },
+    {
+      "criterion": "Pain/sensitivity >5 on NRS scale in symphysis pubis area for more than two weeks",
+      "label": "met",
+      "evidence": "epigastric pain radiates to the right upper quadrant, getting worse after eating fatty food"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of proficiency in Hebrew or English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pain from a different source",
+      "label": "not_met",
+      "evidence": "epigastric pain radiates to the right upper quadrant"
+    },
+    {
+      "criterion": "Pelvic bone disease or history of severe pelvic bone injury",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Thrombocytopenia (plt<50.000)",
+      "label": "not_met",
+      "evidence": "laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift"
+    },
+    {
+      "criterion": "Acupuncture treatment is contraindicated",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High risk pregnancy",
+      "label": "not_met",
+      "evidence": "patient has 2 children"
+    }
+  ],
+  "notes": "Patient experienced similar pain twice in the past year, with epigastric tenderness and tenderness in the right upper quadrant without rebound.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04471285",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

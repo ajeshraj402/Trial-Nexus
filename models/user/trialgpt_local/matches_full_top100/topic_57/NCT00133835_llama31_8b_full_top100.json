@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00133835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "painful chronic pancreatitis",
+      "label": "met",
+      "evidence": "abdominal pain attack during the preceding 12 months"
+    },
+    {
+      "criterion": "at least 1 calcified stone greater than 4 mm in one of its axes in the cephalic or corporeal portion of the main pancreatic duct with upstream duct dilation",
+      "label": "met",
+      "evidence": "abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis"
+    },
+    {
+      "criterion": "written informed consent obtained from the patient",
+      "label": "met",
+      "evidence": "The patient is a 41-year-old obese woman coming to the emergency room"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of treatment of the pancreas using ESWL, endoscopy, or surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pancreatic collection greater than 2 cm in diameter at magnetic resonance or CT Scan",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alkaline phosphatase levels greater than twice the upper limit of normal values or signs of cholangitis",
+      "label": "not_met",
+      "evidence": "lab studies are remarkable for high CRP (145)"
+    },
+    {
+      "criterion": "age below 18 years",
+      "label": "not_met",
+      "evidence": "The patient is a 41-year-old obese woman"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "Her pregnancy test is negative and she is not breastfeeding"
+    }
+  ],
+  "notes": "Patient has painful chronic pancreatitis, calcified stones in the main pancreatic duct, and written informed consent. No history of treatment using ESWL, endoscopy, or surgery, no pancreatic collection greater than 2 cm, normal alkaline phosphatase levels, above 18 years old, not pregnant or lactating.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00133835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

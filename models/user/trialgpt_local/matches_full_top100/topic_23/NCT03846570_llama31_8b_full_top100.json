@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03846570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic patient",
+      "label": "met",
+      "evidence": "wheezing, cough and dyspnoea"
+    },
+    {
+      "criterion": "proven diagnosis of BE by high resolution computed tomography",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "stable pulmonary status as indicated by FEV1 \u226530%",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "stable clinically phase",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable regimen of standard treatment for BE",
+      "label": "met",
+      "evidence": "He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily."
+    },
+    {
+      "criterion": "ability to follow the inhaler device instructions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to complete questionnaires",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "possible asthma according to GINA",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive histamine provocation test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known intolerance for ICS or LABA",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "women who are pregnant, lactating, or in whom pregnancy cannot be excluded",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "expected to die within 72 hours after enrolment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, history of asthma for 3 years. Symptoms improve outside the workplace.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT03846570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

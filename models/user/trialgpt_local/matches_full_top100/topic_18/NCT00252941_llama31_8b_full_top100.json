@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00252941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "78 years old"
+    },
+    {
+      "criterion": "ability to give informed consent",
+      "label": "met",
+      "evidence": "patient can give informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of urethral strictures",
+      "label": "not_met",
+      "evidence": "severe 2cm bulbar urethral stricture"
+    },
+    {
+      "criterion": "history of transurethral resection of prostate (TURP) procedure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of bladder calculi or tumors",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00252941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

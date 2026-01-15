@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01410526",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient > 18 years old",
+      "label": "met",
+      "evidence": "patient's age is 70"
+    },
+    {
+      "criterion": "30 patients with severe abdominal sepsis in order to form the study group and 30 patients without sepsis undergoing major elective surgery (middle line incision >15cm) to form the control group.",
+      "label": "met",
+      "evidence": "patient has severe abdominal sepsis"
+    },
+    {
+      "criterion": "Patient or relatives signs and dates a written informed consent form (ICF) and indicates an understanding of the study procedures",
+      "label": "met",
+      "evidence": "patient's relatives signed the ICF"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient's Manheim Peritonitis Score < 29",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient's pre-operative SOFA score < 6",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The use of other temporary abdominal closure system",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Decease before the first VAC dressing change",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is participating in another clinical trial which may affect this study's outcomes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with immune deficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented seropositivity for human immunodeficiency virus (AIDS)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient receiving steroids treatment for other medical condition",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01410526",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

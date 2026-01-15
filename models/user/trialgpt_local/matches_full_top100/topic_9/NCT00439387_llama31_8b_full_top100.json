@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00439387",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "seizures documented by clinical and laboratory studies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "male or female aged between 18 and 60 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "healthy control subjects will also be recruited",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to give written informed consent prior to participation in this study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients younger than 18 or older than 60 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients with a known treatable seizure etiology such as neoplastic or infectious disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with MRI findings consistent with brain tumors, trauma or AVMs",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy and CHF, but is otherwise likely eligible for the study.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00439387",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

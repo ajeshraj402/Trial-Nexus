@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02512549",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with severe COPD based on spirometry (FEV1 below 50%) presenting to pulmonary medicine outpatient clinic with modified medical research council (mMRC) grade 1 to 3.",
+      "label": "met"
+    },
+    {
+      "criterion": "using computer generated random numbers to intervention and control groups. A baseline chest xray postero-anterior view (CXR-PA) view and a 12-lead electrocardiogram will be available before enrollment in the study.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients on long term oxygen therapy or candidates for long term oxygen therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Exercise induced syncope",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Unstable angina or recent MI (within 4 months)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02512549",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01706211",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "met",
+      "evidence": "type 1 diabetes for 11 years"
+    },
+    {
+      "criterion": "sulphonylurea_therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "fasting_plasma_glucose",
+      "label": "not_met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "hemoglobin_a1c",
+      "label": "met",
+      "evidence": "Hemoglobin A1c >= 7.5%"
+    },
+    {
+      "criterion": "female_contraception",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "The patient reports that he has been on insulin since the time of his diagnosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ketonuria",
+      "label": "unknown",
+      "evidence": "Beta-hydroxybutyrate: 0.1 mmol/L"
+    },
+    {
+      "criterion": "renal_disease",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "hepatic_disease",
+      "label": "not_met",
+      "evidence": "Aspartate aminotransferase (AST): 17 U/L, Alanine aminotransferase (ALT): 14 U/L"
+    },
+    {
+      "criterion": "abnormal_laboratory_tests",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "leukocyte_count",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet_count",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypertension",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01706211",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

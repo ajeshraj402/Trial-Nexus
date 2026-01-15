@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03042065",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "asthma_severity",
+      "label": "met",
+      "evidence": "severe asthma exacerbation, FEV1 of 60%"
+    },
+    {
+      "criterion": "admission_to_pediatric_emergency",
+      "label": "met",
+      "evidence": "admitted to the emergency department"
+    },
+    {
+      "criterion": "patient_participation_agreement",
+      "label": "met",
+      "evidence": "candidate for general corticosteroid therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic_respiratory_failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infectious_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and was admitted to the emergency department with severe exacerbation. He is a candidate for general corticosteroid therapy.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03042065",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

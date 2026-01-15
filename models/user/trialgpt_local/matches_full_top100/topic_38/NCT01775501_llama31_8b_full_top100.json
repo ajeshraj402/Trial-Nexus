@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01775501",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed advanced HCC",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test"
+    },
+    {
+      "criterion": "Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior systemic regimens for HCC",
+      "label": "not_met",
+      "evidence": "no prior treatment mentioned"
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "label": "met",
+      "evidence": "BP: 110/75"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, but no other relevant medical history or conditions that would make her ineligible for the trial.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT01775501",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

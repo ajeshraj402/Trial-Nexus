@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00706576",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hep C cirrhosis",
+      "label": "met",
+      "evidence": "Patient has HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "cirrhosis not amenable to current therapies",
+      "label": "met",
+      "evidence": "Liver function tests showed a striking increase in his total and direct bilirubin since last visit. Another worrisome feature was the increase in the patient's AFP."
+    },
+    {
+      "criterion": "HCC",
+      "label": "met",
+      "evidence": "This could be progression of cirrhosis as he failed interferon twice."
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "Karnofsky performance rating of at least 50%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "mentally alert and able to give informed consent",
+      "label": "met",
+      "evidence": "Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose."
+    },
+    {
+      "criterion": "female patients who are menopausal, or of childbearing age who are surgically sterile or practicing birth control (chemical or mechanical)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no corticosteroid or narcotic therapy 24 hrs prior to infusion",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "asthma, chronic obstructive pulmonary disease, unstable cardiovascular diseases (congestive heart failure, symptoms of coronary artery disease, cardiac arrhythmias, poorly controlled hypertension)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "poorly controlled diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "seizure disorders, primary central nervous system (CNS) tumors or known brain metastases",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or nursing women",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Leukocyte Count < 3500/\u03bcl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin < 8500/\u03bcl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood urea nitrogen (BUN) > 30mg/dl (hydrated)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis and failed interferon twice. He is to follow-up as an outpatient to work this up.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00706576",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

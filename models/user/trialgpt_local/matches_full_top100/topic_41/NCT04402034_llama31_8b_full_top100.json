@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04402034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age ranging from 7 to 80 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical diagnosis of the disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "agreement to participate",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "do not understand the tasks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "motor difficulties that impede the completing of the virtual tasks",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl, which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT04402034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

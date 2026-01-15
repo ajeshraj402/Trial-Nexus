@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04249271",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous infertility with known thyroidal function",
+      "label": "met",
+      "evidence": "lab results (high TSH levels, low free T4 levels)"
+    },
+    {
+      "criterion": "previous infertility with known thyroidal function",
+      "label": "met",
+      "evidence": "lab results (high anti-TPO levels)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other endocrine pathology",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "manifest thyroidal pathology",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication against pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "after repeated miscarriage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heavy smokers",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "16-year-old girl with Hashimoto disease, high TSH levels and low free T4 levels.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT04249271",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

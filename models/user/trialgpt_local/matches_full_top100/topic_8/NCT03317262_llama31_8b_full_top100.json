@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03317262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female asthma patients over 18 years of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Compliance with treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Compliance with study procedures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients already receiving or to receive citalopram",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unsigned patient consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Male or female asthma patients under 18 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-compliance with treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but is otherwise compliant with treatment.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03317262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00993356",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed acromegaly due to GH-secreting macro-adenomas",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "newly diagnosed, previously untreated patients with GH nadir more than 2.5 \u03bcg/L during a standard 75-g, 2-h oral glucose tolerance test (OGTT)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pituitary macroadenomas (maximum diameter >1 cm) verified by a pituitary magnetic resonance imaging (MRI) scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 18 and 80 yr.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "immediate surgery indicated by clinical criteria",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "contraindications to MRI scan",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients judged not suitable to participate in the study for other reasons such as personality disorders and alcohol abuse.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 41-year-old man with known Acromegaly who underwent transsphenoidal surgery 4 months ago. His lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age, and random GH level is 4 ug/L.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00993356",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

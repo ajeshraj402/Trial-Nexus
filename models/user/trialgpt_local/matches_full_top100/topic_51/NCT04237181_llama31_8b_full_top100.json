@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04237181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 25 years old"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient signed informed consent form"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient has social security insurance"
+    },
+    {
+      "criterion": "emergency_department_visit_for_diarrhoea",
+      "label": "not_met",
+      "evidence": "patient complains of nausea and vomiting, but no mention of diarrhoea"
+    },
+    {
+      "criterion": "blood_test_in_emergency_department",
+      "label": "met",
+      "evidence": "CBC shows WBC count 14,120/\u00b5L"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 25 years old"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "patient signed informed consent form"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "patient has social security insurance"
+    },
+    {
+      "criterion": "emergency_department_visit_for_colitis",
+      "label": "not_met",
+      "evidence": "no mention of colitis"
+    },
+    {
+      "criterion": "symptoms_abdominal_pain_fever_diarrhoea_elevated_white_blood_cell_count_cr_p",
+      "label": "met",
+      "evidence": "patient complains of abdominal pain, fever, and dysuria"
+    },
+    {
+      "criterion": "abdominal_ct_scan_showing_colonic_wall_thickening",
+      "label": "unknown",
+      "evidence": "no mention of abdominal CT scan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_abdominal_surgery",
+      "label": "not_met",
+      "evidence": "no recent abdominal surgery mentioned"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "patient is pregnant"
+    },
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": "no mention of inflammatory bowel disease"
+    },
+    {
+      "criterion": "curatorship_or_guardianship",
+      "label": "not_met",
+      "evidence": "no mention of curatorship or guardianship"
+    }
+  ],
+  "notes": "Patient is a pregnant woman with symptoms of UTI and fever. She has no history of recurrent UTI prior to her pregnancy.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04237181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

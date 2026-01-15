@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00164073",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV mono-infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no coagulopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "having a liver biopsy for consideration of treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infection with HIV or HBV",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "excess ethanol (EtOH) consumption",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB due to NSAID gastritis. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00164073",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

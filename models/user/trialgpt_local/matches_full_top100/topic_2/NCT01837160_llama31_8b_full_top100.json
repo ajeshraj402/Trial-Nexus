@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01837160",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic mild aortic stenosis",
+      "label": "met",
+      "evidence": "peak valve velocity of 2-5.3 m/s"
+    },
+    {
+      "criterion": "severe aortic stenosis proceeding to aortic valve replacement",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "structurally normal heart on echocardiography",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrial fibrillation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic failure (Childs-Pugh grade B or C)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal failure (estimated glomerular filtration rate <25 mL/min)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01837160",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

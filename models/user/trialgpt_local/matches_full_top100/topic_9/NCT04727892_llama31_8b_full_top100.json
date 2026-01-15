@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04727892",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "medically refractory epilepsy",
+      "label": "met",
+      "evidence": "International League Against Epilepsyc"
+    },
+    {
+      "criterion": "epilepsy surgery performed by a single neurosurgeon, Dr. H.Z.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical procedure performed via craniotomy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuromodulation therapy",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He has been seizure-free for 20 years after being tapered off Dilantin.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04727892",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

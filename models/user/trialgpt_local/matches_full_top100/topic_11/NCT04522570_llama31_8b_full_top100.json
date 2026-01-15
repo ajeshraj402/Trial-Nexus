@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04522570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "75 yo"
+    },
+    {
+      "criterion": "thyroid_cancer_dx",
+      "label": "met",
+      "evidence": "Papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "surgical_risk",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lymph_node_size",
+      "label": "met",
+      "evidence": "Metastatic to lymph nodes and adrenal glands"
+    },
+    {
+      "criterion": "radioiodine_therapy",
+      "label": "met",
+      "evidence": "s/p RAI ablation"
+    },
+    {
+      "criterion": "cervical_recurrence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "simultaneous_nodal_metastases",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "75 yo"
+    },
+    {
+      "criterion": "coagulopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "thyroid_cancer_type",
+      "label": "not_met",
+      "evidence": "Papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "surgical_contraindication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone radioiodine therapy. However, the patient's overall health status is not well-documented.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04522570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

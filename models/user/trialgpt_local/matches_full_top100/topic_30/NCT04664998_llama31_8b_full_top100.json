@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04664998",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men ages \u226518",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has a female sexual partner enrolled in the Kampala Women's Bone Study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing and able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participating in the Kampala Women's Bone Study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to talk with male sex partners about the new study for men and refer men for study recruitment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has any other condition that would preclude the ability to provide informed consent, make study participation unsafe, complicate the interpretation of study findings or otherwise interfere with achievement of the study objectives, in the investigator's discretion.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eligibility for women: Has concerns about potential social harm stemming from anticipated conversations with male sex partners about the new study for men such that study staff would discourage the women from participation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved significantly after starting Levothyroxine. She is still overweight and has high anti-TPO levels.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04664998",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

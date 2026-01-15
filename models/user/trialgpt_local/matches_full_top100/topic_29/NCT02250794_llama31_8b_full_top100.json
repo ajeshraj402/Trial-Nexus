@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02250794",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Diabetes Type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Insulin Use",
+      "label": "not_met",
+      "evidence": "lost his supply of insulin"
+    },
+    {
+      "criterion": "Blood Glucose Level",
+      "label": "met",
+      "evidence": "blood glucose>140 mg and < 400 mg/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute Critical Illness",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major Surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastrointestinal Suction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Impaired Renal Function",
+      "label": "met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "Clinically Significant Liver Dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncompensated Heart Failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies. He reports previous episodes of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02250794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00044174",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "maternal age between 20 and 45 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to read and write in English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal pregnancy/delivery status without birth complications",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "term birth (+/- 14 days from due date)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "singleton status of the child",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "approximately equal numbers of male and female infants",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ethnic composition match between depressed and nondepressed mothers",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "seen at 5, 12, and 24 months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent chemotherapy diagnosis in family member",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "past medical history of psychologic problems",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has lost about 5kg due to decreased appetite.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00044174",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

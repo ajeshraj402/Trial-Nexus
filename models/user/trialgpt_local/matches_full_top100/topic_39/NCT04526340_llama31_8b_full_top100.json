@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04526340",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "20-35 years"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "medication_use",
+      "label": "not_met",
+      "evidence": "no medication use mentioned"
+    },
+    {
+      "criterion": "health_issues",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "not pregnant or menstruating at the time of study"
+    },
+    {
+      "criterion": "bmi",
+      "label": "met",
+      "evidence": "BMI not explicitly mentioned, but infant is healthy"
+    },
+    {
+      "criterion": "food_allergies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "electronic_device",
+      "label": "not_met",
+      "evidence": "no electronic device mentioned"
+    }
+  ],
+  "notes": "Infant is healthy, but age and BMI are not explicitly stated. No medication use or health issues mentioned.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04526340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

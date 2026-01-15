@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02200328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Inpatients >55",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proton Pump inhibitor / Histamine-2 Blocker",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On broad spectrum antibiotics (Zosyn and/or Ciprofloxacin)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anticipated hospital stay >48 hours",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mental capacity (able to give informed written consent)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Admission for CDI",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Existing diarrhea at admission",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Passed prophylactic window (>48 hours on broad spectrum antibiotics)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to take PO at the time of evaluation for study entry",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02200328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

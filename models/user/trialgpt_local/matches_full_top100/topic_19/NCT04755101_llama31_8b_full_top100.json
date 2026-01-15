@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04755101",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sinus rhythm",
+      "label": "met",
+      "evidence": "patient feels presyncope and nausea, but denies chest pain"
+    },
+    {
+      "criterion": "\u22653 syncopes during the last 18 months",
+      "label": "met",
+      "evidence": "admitted earlier today evaluation of syncope and ventricular arrhythmias"
+    },
+    {
+      "criterion": "previous positive tilt table test (TTT) with a cardioinhibitory or mixed response",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "syncopes occurring during TTT are not taken into account",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<14 years age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any unstable medical condition, life expectancy <12 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to provide consent or undergo follow-up",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Syncope due to a non-cardiac disease or due to an advanced neuropathy",
+      "label": "not_met",
+      "evidence": "patient does not report any symptoms prior to this episode"
+    },
+    {
+      "criterion": "Moderate to severe valvular or subvalvular aortic stenosis or mitral stenosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Overt heart failure or left ventricular ejection fraction <45%",
+      "label": "not_met",
+      "evidence": "patient was recently discharged after a negative work-up for syncope"
+    },
+    {
+      "criterion": "Current pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronotropic negative medications unless judged mandatory",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is to be transferred to the CCU for catheterization and EPS.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04755101",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

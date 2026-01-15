@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00564863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "General health",
+      "label": "not_met",
+      "evidence": "abdominal pain, bloating and nausea as well as loose bowel movements"
+    },
+    {
+      "criterion": "Comprehension of protocol procedures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willingness to participate",
+      "label": "met",
+      "evidence": "willing to participate after informed consent obtained"
+    },
+    {
+      "criterion": "Availability for study",
+      "label": "met",
+      "evidence": "available for entire inpatient portion of study and all outpatient study visits"
+    },
+    {
+      "criterion": "Pregnancy test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of birth control",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant medical condition",
+      "label": "not_met",
+      "evidence": "dizziness and severe diarrhea since yesterday"
+    },
+    {
+      "criterion": "Immunosuppressive illness or IgA deficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive serology results for HIV, HBsAg, or HCV antibodies",
+      "label": "not_met",
+      "evidence": "no fever"
+    },
+    {
+      "criterion": "Significant abnormalities in screening laboratory hematology, serum chemistry, urinalysis",
+      "label": "met",
+      "evidence": "Sodium 137 meq/L, Potassium 2 meq/L, Chloride 94meq/L, CO2 15 meq/L"
+    },
+    {
+      "criterion": "Allergy to fluoroquinolones, cotrimoxazole, or ampicillin/penicillin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Frequent diarrhea",
+      "label": "met",
+      "evidence": "fewer than 3 stools per week"
+    },
+    {
+      "criterion": "History of vaccination for or ingestion of ETEC, cholera, or LT toxin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool culture positive for ETEC or other bacterial enteric pathogens",
+      "label": "not_met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    }
+  ],
+  "notes": "Patient has severe diarrhea and dizziness, but no fever. V. cholerae was seen in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00564863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

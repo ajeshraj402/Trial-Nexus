@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02509754",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recent (no longer than 6 months) diagnosis of congestive heart failure",
+      "label": "met",
+      "evidence": "thought due to diastolic CHF"
+    },
+    {
+      "criterion": "left ventricular ejection fraction lower or equal than 35%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symptoms of heart failure, with a NYHA class II, III or ambulatory IV",
+      "label": "met",
+      "evidence": "worsening shortness of breath"
+    },
+    {
+      "criterion": "Optimal medical therapy from at least 3 months (including a beta-blocker, an angiotensin-converting-enzyme (ACE) inhibitor or angiotensin-receptor blocker (ARB))",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "and, in NYHA III and IV patients, spironolactone)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Persistent atrial fibrillation (at least 3 months or, alternatively, a minimum of two previous episodes lasting longer than 7 days)",
+      "label": "met",
+      "evidence": "atrial fibrillation thought secondary to a chronic ASD"
+    },
+    {
+      "criterion": "Refractory to at least one, or intolerant to, antiarrhythmic drug/s",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Must be able to provide written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Reversible causes of atrial fibrillation or congestive heart failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Permanent or long-standing persistent atrial fibrillation (lasting more than 1 year)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous surgical or transcatheter AF ablation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previously implanted CRT with or without concomitant AV node ablation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "QRS duration above 150 msec or above 120 msec in the presence of complete left bundle branch block (class IIa indication for CRT implantation)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy of one year or less",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High likelihood of undergoing cardiac transplantation within the next year",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindication to anticoagulant therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02509754",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

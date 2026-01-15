@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00578344",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HLA genotype identical donor and hemoglobin SS, hemoglobin SC, or hemoglobin Sb0/+",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous central nervous system vaso-occlusive episode with or without residual neurologic findings",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Frequent painful vaso-occlusive episodes which significantly interfere with normal life activities and which necessitate chronic transfusion therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe anemia which prevents acceptable quality of life and necessitates chronic transfusion therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Between the ages of birth and 40 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with biopsy proven chronic active hepatitis or fibrosis with portal bridging",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with SCD chronic lung disease > stage 3 (see Appendix 1)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of sickle cell crises since childhood and has had severe pain in his lower back that radiated to both thighs scored 9 out of 10. He is currently experiencing similar symptoms treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00578344",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

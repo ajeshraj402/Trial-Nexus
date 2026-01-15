@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00413855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "chronic or recurrent right lower abdominal quadrant pain for more than three months",
+      "label": "met",
+      "evidence": "suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization)",
+      "label": "unknown",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "specific gastro-intestinal entities (such as inflammatory bowel disease)",
+      "label": "unknown",
+      "evidence": "remarkable for leukocytosis"
+    }
+  ],
+  "notes": "Patient has abdominal pain, distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. Candidate for laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT00413855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

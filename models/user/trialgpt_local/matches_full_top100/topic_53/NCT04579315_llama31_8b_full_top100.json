@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04579315",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34-year-old"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate (eGFR)",
+      "label": "met",
+      "evidence": "20-45 ml/min"
+    },
+    {
+      "criterion": "Medically stable for two months prior to study start",
+      "label": "met",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "Written and verbally information is given",
+      "label": "met",
+      "evidence": "given written and verbal information"
+    },
+    {
+      "criterion": "Read, speak and understands Danish",
+      "label": "met",
+      "evidence": "from Jordan but likely speaks Danish"
+    },
+    {
+      "criterion": "Written consent",
+      "label": "met",
+      "evidence": "likely given written consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with phosphate binders",
+      "label": "not_met",
+      "evidence": "no mention of treatment with phosphate binders"
+    },
+    {
+      "criterion": "Metabolic disorders that requires specific dietary regulation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment with chemotherapy within the past 6 months",
+      "label": "not_met",
+      "evidence": "no mention of recent chemotherapy"
+    },
+    {
+      "criterion": "Pregnancy and breastfeeding",
+      "label": "not_met",
+      "evidence": "married with 3 children, likely not pregnant or breastfeeding"
+    },
+    {
+      "criterion": "Food allergies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain, but otherwise healthy.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT04579315",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03152188",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "21-75 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least two HE episodes, one within the last year but not within the last month",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give written, informed consent (mini-mental status exam>25 at the time of consenting)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Disease-related: MELD score>17",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "WBC count<1000",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "TIPS, non-elective hospitalization or HE within last month",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has cirrhosis and history of HE episodes. However, recent hospitalization for UGIB may be a concern.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03152188",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

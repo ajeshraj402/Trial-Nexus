@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03336203",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient adults with gout and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "outpatient adults with CKD 1-4 stages and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "forms of associated comorbidities and cardiovascular risk factors, including heart failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "III-IV NYHA, stroke, peripheral arterial disease, obesity with BMI above 30 kg/m2",
+      "label": "triggers"
+    },
+    {
+      "criterion": "hypertension 3 grade",
+      "label": "triggers"
+    },
+    {
+      "criterion": "insulin-dependent DM",
+      "label": "triggers"
+    },
+    {
+      "criterion": "any kind of cancer",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman with weight concerns, sleep apnea, PCO, and dissatisfaction with her body shape. She has a BMI of 41.5 and lab results show FBS: 98 mg/dl, TG: 150 mg/dl, Cholesterol: 180 mg/dl, LDL: 90 mg/dl, HDL: 35 mg/dl.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT03336203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

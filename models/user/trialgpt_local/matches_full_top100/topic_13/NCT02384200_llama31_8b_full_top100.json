@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02384200",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Renal stone of any size for which PCNL is recommended",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "eGFR < 60 mL/min/1.73 m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cirrhosis and/or hepatitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive preoperative urine culture within 2 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of temperature >=38.3 C associated with nephrolithiasis or sepsis thought to be due to urinary source within 12 months prior to randomization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current internalized ureteral stent, nephrostomy tube, or nephroureteral stent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Antibiotic use within 2 weeks prior to randomization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe hydronephrosis (defined by > =2cm in largest dimension) preoperatively as judged on CT scan, abdominal X-ray, ultrasound, or fluoroscopy.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA and neurogenic bladder with indwelling suprapubic catheter. They have had multiple prior admissions for UTIs and urosepsis. The patient is currently being treated for a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02384200",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

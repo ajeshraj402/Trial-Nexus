@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02168660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33 years old"
+    },
+    {
+      "criterion": "BMI > 95% for age",
+      "label": "met",
+      "evidence": "BMI of 34"
+    },
+    {
+      "criterion": "serum 25-OH D level < or + to 25 ng/mL",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI < 95% for age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum 25-OH D level > 25 ng/mL",
+      "label": "met",
+      "evidence": "anti-TPO levels were extremely high (120 IU/ml)"
+    },
+    {
+      "criterion": "current Vitamin D supplementation > 400 IU/day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anti-convulsant therapy, anti-hypertensive therapy, lipid lowering medication",
+      "label": "not_met",
+      "evidence": "No hirsutism or nipple discharge was detected"
+    },
+    {
+      "criterion": "any medications that affect glucose metabolism (e.g., metformin, insulin)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "daily glucocorticoid therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes",
+      "label": "met",
+      "evidence": "Her lab results were remarkable for high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "any disorders of bone or calcium metabolism",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic or renal disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any malabsorptive disorder",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline serum Calcium > 11 ng/dL (> 2 SD above the mean)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any genetic disorder that predisposes to obesity (e.g., Prader Willi",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and is on Levothyroxine. Her symptoms improved significantly after starting treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02168660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

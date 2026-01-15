@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00514618",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Singleton gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intact membranes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bishop score <= 4",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uterine contractions <=12/hour",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cephalic presentation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Estimated gestational age of at least 38 weeks by ACOG dates",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "An amniotic fluid index (AFI) >5 cm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reactive Non Stress Test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Class A1, A2 diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Good compliance with clinic visits and home glucose monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "I. Fetal Factors",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Multiple Gestation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of fetal distress/non-reassuring FHR pattern",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Malpresentation, including breech",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "EFW > 4500 gm or other evidence of cephalo-pelvic disproportion",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no information is provided about her current renal function. She has had two prior C diff infections, the most recent one just a month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00514618",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

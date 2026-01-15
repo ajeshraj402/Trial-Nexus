@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01254851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Independent ambulation pre-operatively",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing gynecologic procedure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Expected to ambulate within 12 hours of their procedure",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to ambulate independently prior to their surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a healthy 67-year-old woman with no underlying disease. She has been exercising regularly and taking daily multivitamins.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT01254851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01701687",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of cirrhosis based upon: a) Histological confirmation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hospital admission related to decompensated liver disease (e.g. ascites, varices, sepsis, alcoholic hepatitis)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alcohol as the primary aetiology for liver cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Grade 3 or 4 hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and was admitted for decompensated liver disease. However, they have been off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01701687",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03538366",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "minimum 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pouch > 1 year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least three pouchitis events in the past year",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "antibiotic treatment for pouchitis at least one time in the past year",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <20 or >65",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI <18.5 or > 28.0 kg/m2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known chronic inflammatory bowel disease, celiac disease, rheumatoid arthritis or other",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "autoimmune disease, sclerosis, psoriasis, previous extensive bowel surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "In the previous 6 months: Diarrhea > 3 days in one week or bloody stools",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment with antibiotics",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She has a fever and abdominal pain, and her stool samples are positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03538366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

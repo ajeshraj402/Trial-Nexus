@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15 years old"
+    },
+    {
+      "criterion": "right-handedness",
+      "label": "met",
+      "evidence": "patient is right-handed"
+    },
+    {
+      "criterion": "current PTSD diagnosis",
+      "label": "met",
+      "evidence": "diagnosed with migraine headache and under treatment for it"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition",
+      "label": "not_met",
+      "evidence": "nothing remarkable in her physical exam"
+    },
+    {
+      "criterion": "risk of harm to self or others",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindications to cannabinoid-like substances",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

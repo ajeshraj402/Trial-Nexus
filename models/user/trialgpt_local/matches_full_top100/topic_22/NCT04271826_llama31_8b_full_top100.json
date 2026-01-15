@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04271826",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Non pregnant female",
+      "label": "met",
+      "evidence": "non-pregnant"
+    },
+    {
+      "criterion": "Patients taking analgesics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute appendicitis (Alvarado score 5-6)",
+      "label": "met",
+      "evidence": "Alvarado score 5-6"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Alvarado score >6 or < 5",
+      "label": "not_met",
+      "evidence": "Alvarado score 5-6"
+    },
+    {
+      "criterion": "Cases of sure acute appendicitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented Liver disease, biliary disease (congenital or acquired), hemolytic diseases and history of alcoholism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cases revealed other pathology than appendicitis by CT and laparoscopy",
+      "label": "not_met",
+      "evidence": "Computed Tomography shows presence of a distended appendix"
+    }
+  ],
+  "notes": "31-year-old woman with abdominal pain, leukocytosis, and Alvarado score 5-6. Candidate for laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04271826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

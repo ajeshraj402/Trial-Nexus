@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03570398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute presentation with abdominal pain and/or tenderness which is most marked in the right lower abdomen",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age<18",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age>60",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with a firm clinical diagnosis of appendicitis where surgical management is indicated at presentation",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients who have undergone CT scanning within the past two months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with cognitive impairment who would lack capacity to give consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to understand written or spoken English",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who have previously undergone appendicectomy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with acute presentation of abdominal pain and tenderness in the right lower abdomen. Computed Tomography shows a distended appendix without perforation, abscess or gangrene.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03570398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

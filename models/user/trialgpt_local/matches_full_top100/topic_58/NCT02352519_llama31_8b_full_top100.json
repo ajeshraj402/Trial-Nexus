@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02352519",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute appendicitis",
+      "label": "met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Age 6 - 17 years",
+      "label": "met",
+      "evidence": "The patient is a 17-year-old boy"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists Physical Status I - III",
+      "label": "met",
+      "evidence": "He was febrile with tenderness, rebound tenderness and guarding on palpation."
+    },
+    {
+      "criterion": "Patients undergoing SILA procedure performed by a single pediatric surgeon (Dr. Ashwin P. Pimpalwar)",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia by Dr. Ashwin P. Pimpalwar"
+    },
+    {
+      "criterion": "Patients judged by parents, physicians and other caretakers as being capable of using the patient controlled analgesia (PCA) device",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are not scheduled to undergo the procedure of SILA",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with concomitant major cardio-respiratory disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02352519",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00401895",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cirrhotic patients who have undergone TIPS at our Department for bleeding of esophagogastric varices refractory to medical or endoscopic treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "for ascites/hydrothorax refractory to diuretic therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age >75 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "past or present history of hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has cirrhosis and underwent TIPS for bleeding varices. He also has ascites/hydrothorax refractory to diuretics.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00401895",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

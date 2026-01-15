@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03174782",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "require major lower extremity amputations",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "unknown",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "less than 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "emergency amputation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "staged amputation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "amputations performed by non-vascular surgeons",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who are allergic to bupivacaine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients unable to communicate symptoms of pain",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation and chemotherapy. The patient's condition is complicated by progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03174782",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

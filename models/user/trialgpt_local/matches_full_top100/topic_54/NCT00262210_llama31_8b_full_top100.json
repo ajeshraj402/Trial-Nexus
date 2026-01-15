@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00262210",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven NHL, and for which intensive chemotherapy is considered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HBsAg-positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No previous chemotherapy and radiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AGC \u2267 2,000/mm3, Platelet \u2267 100,000/mm3 of peripheral blood",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Total bilirubin \u2266 2.5 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alanine aminotransferase (SGPT) < 200 I.U/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serum creatinine \u22661.5 mg/dl Blood urea nitrogen (BUN) \u2266 25 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Objectively measurable or evaluable disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age > 75 years, or Age < 15 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant or breast-feeding women.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with history of brain metastasis or CNS involvement.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Child's class B or C in patients with liver cirrhosis.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Impaired cardiac function with NYHA (New York Heart Association) classification \u2267 GrII.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00262210",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

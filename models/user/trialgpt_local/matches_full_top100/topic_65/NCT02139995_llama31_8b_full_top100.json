@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02139995",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Hemoglobin level",
+      "label": "unknown",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18 years old"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "unknown",
+      "evidence": "no significant past medical history"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "unknown",
+      "evidence": "no lab study mentioned"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": "patient's behavior and history do not indicate psychopathy"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, cardiomyopathy, and mild dyspnea after climbing 3 floors. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02139995",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

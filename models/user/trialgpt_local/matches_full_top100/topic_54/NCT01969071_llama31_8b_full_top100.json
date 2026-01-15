@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01969071",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of mitral valve insufficiency with or without coronary artery disease and a",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "LVEF of \u2264 45 %.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "findings of acute or chronic renal failure (serum creatinine (sCr)> 1.5 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe hepatic disease (alanine aminotransferase or aspartate aminotransferase > 100 U litre/L)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe chronic obstructive pulmonary disease (forced expired volume in 1 s < 50 % of predicted or < 2.0 litre)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "a history of prior coronary artery bypass graft (CABG) surgery or myocardial infarction (MI) within the previous month",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has mitral valve insufficiency and LVEF \u2264 45%. However, there is no mention of acute or chronic renal failure, severe hepatic disease, or severe chronic obstructive pulmonary disease. Additionally, the patient does not have a history of prior CABG surgery or MI within the previous month.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01969071",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

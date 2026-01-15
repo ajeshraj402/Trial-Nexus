@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02594904",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Full-term newborns with jaundice after 3-7 days of birth, total bilirubin in serum or transcutaneous bilirubin is between 100umol/L and 257umol/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gestational age\u226537 weeks, birth weight\u22652.5Kg, Apgar scores\u22658",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "lineal consanguinity are all the native residents from Guangdong or Guangxi",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The enzyme activity of G-6-PD will be detected and collected from all the neonates subjects",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consents of all the neonates subjects are needed",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates with inherited metabolic diseases;",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neonates with congenital malformation of liver and gallbladder;",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of tremors since a year ago, which is consistent with Wilson disease. The laboratory study was significant for low serum caeruloplasmin (0.05 g/l) and raised 24 hour urine copper excretion (120 \u03bcg/24 h).",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02594904",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

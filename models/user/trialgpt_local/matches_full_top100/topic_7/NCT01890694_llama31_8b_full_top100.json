@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01890694",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "Screening within 24 hours of admission",
+      "label": "met",
+      "evidence": "recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis"
+    },
+    {
+      "criterion": "Na level less than 130mEq/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of fluid overload with either history of ascites or edema",
+      "label": "met",
+      "evidence": "Grade II Esophageal varices"
+    },
+    {
+      "criterion": "Cr < 2.0mg/dl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Planned length of stay after randomization of at least 24 hours",
+      "label": "met",
+      "evidence": "referred for admission throught the ED by hepatology clinic"
+    },
+    {
+      "criterion": "Anticipated survival of at least 8 days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hospitalization greater than 24 hours at screening",
+      "label": "not_met",
+      "evidence": "recent admission [**4-/2150**]"
+    },
+    {
+      "criterion": "Depletional hyponatremia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hyponatremia due to hyperglycemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute and transient hyponatremia associated with head trauma or post-operative states",
+      "label": "not_met",
+      "evidence": "Patient also describes new imbalance leading to a fall during which he may have hit his head on"
+    },
+    {
+      "criterion": "Hyponatremia due to primary polydipsia, adrenal insufficiency, or hypothyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Urgent need for treatment of hyponatremia with saline or hypertonic saline",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment with demeclocycline, lithium chloride, and urea",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cr greater than 2.0mg/dl",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has cirrhosis with grade II esophageal varices and recent admission for UGIB. He is being treated for hepatic encephalopathy and has an increase in his total and direct bilirubin since last visit.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01890694",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

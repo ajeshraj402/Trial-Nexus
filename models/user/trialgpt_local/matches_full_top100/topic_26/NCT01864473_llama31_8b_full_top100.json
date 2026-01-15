@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01864473",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "without any major illness like Diabetes, Hypertension, Asthma, Tuberculosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without multiple track",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "with Major illness",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "multiple Fistulas",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "associated anorectal conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, nausea, and vomiting. Past medical history includes hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01864473",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

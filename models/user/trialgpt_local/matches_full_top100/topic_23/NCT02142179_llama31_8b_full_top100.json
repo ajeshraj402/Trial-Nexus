@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02142179",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "10-19 years"
+    },
+    {
+      "criterion": "symptoms suggestive of asthma and/or previous diagnosis",
+      "label": "met",
+      "evidence": "cough, shortness of breath"
+    },
+    {
+      "criterion": "signed Statement of Consent Form",
+      "label": "met",
+      "evidence": "signed consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "willing to participate in the study",
+      "label": "does_not_trigger",
+      "evidence": "willing"
+    },
+    {
+      "criterion": "cognitive impairment and special needs",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "39-year-old man with asthma history, current symptoms consistent with asthma exacerbation.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02142179",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01370941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable daily intake of calcium",
+      "label": "met",
+      "evidence": "500-1200 mg, of which dairy products are minimum 500 mg"
+    },
+    {
+      "criterion": "language proficiency",
+      "label": "met",
+      "evidence": "Speak and read Danish"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Written consent after verbal and written information"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lactose intolerance / milk allergy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "calcium supplements in tablet or powder",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "vitamin D supplements exceeding 10 micro grams/day",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "habitual dietary calcium intake exceeding 1200 mg/day",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "impaired renal function (plasma creatinine >150 micro mol/L)",
+      "label": "triggers",
+      "evidence": "plasma creatinine = unknown"
+    },
+    {
+      "criterion": "impaired liver function (plasma ALT >200 U/L, alkaline phosphatase >400 U/L)",
+      "label": "unknown",
+      "evidence": "plasma ALT = unknown and alkaline phosphatase = 300 IU/L"
+    },
+    {
+      "criterion": "previous or present malignancies(including metastases)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "sarcoidosis or second granulomatous disease which has caused hypercalcaemia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening. Examination shows bilateral swellings around the molars.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01370941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

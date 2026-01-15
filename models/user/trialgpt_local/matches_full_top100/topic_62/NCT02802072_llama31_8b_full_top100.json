@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02802072",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Atherosclerotic plague-caused carotid artery stenosis",
+      "label": "met",
+      "evidence": "ultrasonography"
+    },
+    {
+      "criterion": "Severe carotid artery stenosis (unilateral stenosis > 70%) diagnosed according to angiography",
+      "label": "met",
+      "evidence": "angiography"
+    },
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "Of either sex",
+      "label": "met",
+      "evidence": "patient's gender"
+    },
+    {
+      "criterion": "Provision of informed consent regarding trial procedure",
+      "label": "met",
+      "evidence": "patient reported no use of lipid-lowering medications"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-atherosclerotic intracranial artery stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe cognitive or mental disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe cardiovascular, hepatic, renal, or blood system diseases",
+      "label": "not_met",
+      "evidence": "patient has no other cardiovascular risk factors such as smoking, high blood pressure, and diabetes mellitus"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemorrhagic disease or unable to receive anticoagulation or antiplatelet aggregation",
+      "label": "not_met",
+      "evidence": "patient's LDL-C and HDL-C levels were 545 and 53 mg/dL, respectively"
+    },
+    {
+      "criterion": "Allergy to stent material",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to or declined to cooperate with follow-up examination",
+      "label": "met",
+      "evidence": "patient is physically active and able to provide informed consent"
+    }
+  ],
+  "notes": "The patient has severe carotid artery stenosis, but no other cardiovascular risk factors. He is provisionally eligible for the trial.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02802072",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01973998",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis of AECOPD",
+      "label": "met",
+      "evidence": "shortness of breath about a day before"
+    },
+    {
+      "criterion": "admission to the hospital <12 hours",
+      "label": "met",
+      "evidence": "hospitalized"
+    },
+    {
+      "criterion": "patient age >40, < 80 years old",
+      "label": "met",
+      "evidence": "60-year-old"
+    },
+    {
+      "criterion": "cigarette smoking > 10 pack-years",
+      "label": "met",
+      "evidence": "smokes 20 cigarette per day"
+    },
+    {
+      "criterion": "informed written consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis or high suspicion for asthma",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pulmonary edema, pneumonia, interstitial lung disease or significant bronchiectasis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intubated and mechanically ventilated at the time of evaluation",
+      "label": "not_met",
+      "evidence": "oriented and conscious"
+    },
+    {
+      "criterion": "active liver disease, or transaminase elevations (> 3xULN)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of heavy ethanol use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of suicidal behavior \u2264 2 years or suicidal ideation \u2264 6 months prior to enrollment",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old Spanish man with COPD, hospitalized for shortness of breath. He smokes 20 cigarettes per day and has a history of BPH.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01973998",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

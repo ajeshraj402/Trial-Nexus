@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02686645",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults aged \u2265 18 yrs of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Recurrent CDI despite two courses of standard treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Laboratory confirmation of CDI by enzyme immunoassay (EIA), cytotoxicity assay and/or polymerase chain reaction (PCR)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presence of persistent diarrhea defined as \u2265 3 loose or watery bowel movements in 24hr",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severely immunosuppressed patients will not be enrolled",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age <18 years old",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02686645",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

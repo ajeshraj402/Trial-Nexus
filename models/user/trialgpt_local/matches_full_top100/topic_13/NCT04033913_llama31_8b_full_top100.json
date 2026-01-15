@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04033913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "who have successfully perform self-catheterization during a day",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hospital in a neuro-urology department",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient who does not speak French",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. Urologist is not concerned with leaking around the cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04033913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

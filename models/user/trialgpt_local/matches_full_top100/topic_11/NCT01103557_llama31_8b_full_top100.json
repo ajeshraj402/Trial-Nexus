@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01103557",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Papillary thyroid carcinoma with central neck metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No evidence of lateral neck metastasis as determined by high-resolution neck ultrasonography and computed tomography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of previous thyroid operation",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Isthmic thyroid lesion",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with central neck metastasis, but history of previous thyroid operation may trigger exclusion.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01103557",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00493974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admitted to the hospital for a COPD exacerbation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FEV1 less than 60% of predicted level",
+      "label": "met",
+      "evidence": "spirometry"
+    },
+    {
+      "criterion": "At least 10 pack years of smoking",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any uncontrolled systemic disease",
+      "label": "not_met",
+      "evidence": "BP: 135/80"
+    },
+    {
+      "criterion": "Known hypersensitivity to zileuton",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Asthma",
+      "label": "does_not_trigger",
+      "evidence": "Duo-Neb inhaled q4 hr PRN"
+    },
+    {
+      "criterion": "Lobar pneumonia or pulmonary edema",
+      "label": "not_met",
+      "evidence": "O2sat: 90%"
+    },
+    {
+      "criterion": "Interstitial lung disease",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Medical condition that is likely to limit survival to less than 30 days at the time of study entry",
+      "label": "not_met",
+      "evidence": "BMI: 40"
+    },
+    {
+      "criterion": "History of liver disease",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Current use of theophylline",
+      "label": "does_not_trigger",
+      "evidence": "Duo-Neb inhaled q4 hr PRN"
+    }
+  ],
+  "notes": "Patient is a 60-year-old Spanish man with COPD exacerbation, known case of COPD since 2 years ago. He smokes 20 cigarettes per day and has BPH.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00493974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

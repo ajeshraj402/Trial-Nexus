@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03772626",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admitted to Hospital with a primary diagnosis of exacerbation of COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Greater then or equal to 20 pack year history of smoking",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Requirement for acute non-invasive ventilation in hospital",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of nocturnal non-invasive ventilation prior to hospitalization",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonology consult recommended an empiric, compassionate sildenafil trial.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03772626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "healthy woman"
+    },
+    {
+      "criterion": "microcalcifications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "soft tissue lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "irregular menstrual cycle"
+    },
+    {
+      "criterion": "bilateral mastectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "frailty",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "implants",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "male subjects",
+      "label": "triggers",
+      "evidence": "A 42-year-old healthy woman"
+    }
+  ],
+  "notes": "Healthy woman with irregular menstrual cycle, no underlying disease. No history of allergies or medications.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02024347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 years or above",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known chronic liver diseases",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Radiological evidence of liver cirrhosis",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed written consent obtained",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Absence of chronic liver diseases",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Decompensated liver cirrhosis",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Portal vein thrombosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous liver surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent upper endoscopy within last 36 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of beta-blockers",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02024347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

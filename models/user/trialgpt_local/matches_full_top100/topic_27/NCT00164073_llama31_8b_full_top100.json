@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00164073",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV mono-infection",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "no coagulopathy",
+      "label": "met",
+      "evidence": "normal examination and no acute distress"
+    },
+    {
+      "criterion": "having a liver biopsy for consideration of treatment",
+      "label": "met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infection with HIV or HBV",
+      "label": "not_met",
+      "evidence": "no evidence in medical record"
+    },
+    {
+      "criterion": "excess ethanol (EtOH) consumption",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other diseases of the liver",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00164073",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

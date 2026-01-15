@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00176696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English speaking"
+    },
+    {
+      "criterion": "surgery_position",
+      "label": "met",
+      "evidence": "supine position"
+    },
+    {
+      "criterion": "incision_size",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical_location",
+      "label": "met",
+      "evidence": "below the level of their arms"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "met",
+      "evidence": "negative Sure-Vue pregnancy test"
+    },
+    {
+      "criterion": "anesthesia_type",
+      "label": "met",
+      "evidence": "general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery_location",
+      "label": "not_met",
+      "evidence": "abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis"
+    },
+    {
+      "criterion": "chronic_pain_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cognitive_disabilities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "peripheral_vascular_disease",
+      "label": "not_met",
+      "evidence": "normal bowel sounds"
+    },
+    {
+      "criterion": "carpal_tunnel_syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_substance_abuse_cognitive_impairments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stroke_upper_extremities",
+      "label": "not_met",
+      "evidence": "normal bowel sounds"
+    },
+    {
+      "criterion": "mastectomy_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "telephone_availability",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "electrical_device",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol use. She has no history of allergies or smoking.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00176696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

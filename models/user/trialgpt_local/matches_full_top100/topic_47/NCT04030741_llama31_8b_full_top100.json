@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04030741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 62 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a man"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical_history",
+      "label": "met",
+      "evidence": "hypertension, hyperlipidemia and hypothyroidism"
+    },
+    {
+      "criterion": "smoking",
+      "label": "not_met",
+      "evidence": "1 pack per day for 40 years"
+    },
+    {
+      "criterion": "alcohol_consumption",
+      "label": "met",
+      "evidence": "5 to 6 beers per week"
+    },
+    {
+      "criterion": "family_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medications",
+      "label": "met",
+      "evidence": "Levothyroxine, Atorvastatin and HTCZ"
+    },
+    {
+      "criterion": "physical_exam",
+      "label": "met",
+      "evidence": "left-sided facial droop, dysarthria, and left-sided hemiplegia"
+    },
+    {
+      "criterion": "NIHSS_score",
+      "label": "met",
+      "evidence": "7"
+    },
+    {
+      "criterion": "CT_angiogram",
+      "label": "met",
+      "evidence": "no acute intracranial findings"
+    },
+    {
+      "criterion": "treatment",
+      "label": "met",
+      "evidence": "intravenous recombinant tissue plasminogen activator (t-PA) and high-dose statin therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated_appendicitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "appendicular_mass",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_non_operative_treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "C-reactive_proteins",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_abdominal_surgery",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He has hypertension, hyperlipidemia and hypothyroidism, smokes 1 pack per day for 40 years and consumes 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04030741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

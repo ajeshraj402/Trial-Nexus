@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT00343304",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients or their next of kin (in the absence of their being able to) provide with a written informed consent.",
+      "label": "met",
+      "evidence": "Patient text does not mention refusal to sign consent, but it's unclear if patient can provide consent due to language barriers."
+    },
+    {
+      "criterion": "Aphasic alert patients provided they could follow simple directions given by verbal or gestural cues.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention aphasia or ability to follow directions, but it's unclear if patient has cognitive impairments."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with anterior or severe inferior shoulder subluxation (3 cms) of the plegic arm.",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not mention shoulder subluxation, but it's unclear if patient has shoulder pain or mobility issues."
+    },
+    {
+      "criterion": "Patients without shoulder pain on passive range of 75 degrees forward flexion and 75 degrees abduction of the plegic arm.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention shoulder pain, but it's unclear if patient has mobility issues."
+    },
+    {
+      "criterion": "Patients with trophic skin changes and significant edema (shoulder-hand syndrome).",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not mention skin changes or edema, but it's unclear if patient has chronic pain or mobility issues."
+    },
+    {
+      "criterion": "Patients with prior rotator cuff surgery, patients with bursitis and/or biceps tendonitis.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention previous surgeries or conditions, but it's unclear if patient has chronic pain or mobility issues."
+    },
+    {
+      "criterion": "Patients who have suffered recent cardiac events (myocardial infarction, congestive cardiac failure, recent coronary artery bypass surgery).",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not mention cardiac events, but it's unclear if patient has hypertension or other cardiovascular conditions."
+    },
+    {
+      "criterion": "Patients who refuse to sign a written informed consent.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention refusal to sign consent, but it's unclear if patient can provide consent due to language barriers."
+    }
+  ],
+  "notes": "Key unknowns include the patient's ability to follow simple directions and their cognitive status. Additionally, it is unclear if the patient has shoulder pain or mobility issues that may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00343304",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

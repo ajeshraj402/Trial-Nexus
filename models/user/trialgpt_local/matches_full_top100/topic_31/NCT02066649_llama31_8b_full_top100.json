@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02066649",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "on variceal screening EGD, and no prior history of GI bleeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "screening EGD to look for varices. Varices will be graded by the 2-group classification system of small and large.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant females",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients on beta blockers or nitrates for any underlying condition",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "allergies to carvedilol",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. She has stage 1B cervical cancer and tested positive for HPV 16.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02066649",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

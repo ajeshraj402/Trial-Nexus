@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01016249",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Infants aged \u2264 18 months presenting to the unit for the treatment of moderate-severe",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Moderate-severe bronchiolitis required having a prodromal history consistent with viral upper respiratory tract infection followed by wheezing and/or crackles on auscultation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Wang bronchiolitis severity score of \u2265 4 on presentation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Born preterm \u2264 34 weeks gestation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of wheezing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Steroid use within 48 hours of presentation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Obtundation and progressive respiratory failure requiring ICU admission",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of apnea with in 24 hours before presentation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Oxygen saturation \u2264 85% on room air at the time of recruitment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of a diagnosis of chronic lung disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Congenital heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of recurrent C diff infections and recent antibx use, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01016249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

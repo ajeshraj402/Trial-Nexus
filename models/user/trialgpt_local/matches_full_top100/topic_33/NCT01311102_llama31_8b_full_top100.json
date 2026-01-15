@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women eligible for IUD insertion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willing to give consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to lidocaine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to IUD use",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Healthy woman with no underlying disease, willing to give consent for IUD insertion.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

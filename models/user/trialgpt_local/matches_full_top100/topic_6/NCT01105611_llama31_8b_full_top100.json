@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01105611",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55yo woman"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "Female"
+    },
+    {
+      "criterion": "HIV infection",
+      "label": "met",
+      "evidence": "Documented HIV infection (antibody positive)"
+    },
+    {
+      "criterion": "Hepatitis C co-infection",
+      "label": "met",
+      "evidence": "Documented Hepatitis C co-infection (PCR positive)"
+    },
+    {
+      "criterion": "ART indication",
+      "label": "met",
+      "evidence": "Indication for starting ART according to guidelines"
+    },
+    {
+      "criterion": "Resistance profile",
+      "label": "met",
+      "evidence": "Documented resistance profile taken at baseline and includes investigational medicinal products"
+    },
+    {
+      "criterion": "Child-bearing potential",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy test",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CDC Clinical Category C infection",
+      "label": "triggers",
+      "evidence": "Patient has a history of 2 prior C diff infections"
+    },
+    {
+      "criterion": "Investigational drug use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Genotypic resistance to raltegravir, atazanavir and ritonavir",
+      "label": "triggers",
+      "evidence": "Patient has a history of 2 prior C diff infections"
+    },
+    {
+      "criterion": "Alcohol and drug use problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Elevated alanine aminotransferase (ALT)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections, which may compromise participation in the study.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01105611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

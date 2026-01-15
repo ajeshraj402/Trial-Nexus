@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01197248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "years",
+      "label": "met",
+      "evidence": "18-75"
+    },
+    {
+      "criterion": "surgery at Mount Sinai Hospital",
+      "label": "met",
+      "evidence": "Mount Sinai Hospital"
+    },
+    {
+      "criterion": "includes cystocele repair",
+      "label": "met",
+      "evidence": "cystocele repair"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior surgery for anterior vaginal wall prolapse",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stress urinary incontinence",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01197248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

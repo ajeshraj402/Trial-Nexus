@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02789163",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women aged 18 years and above",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "palpable mass, abnormal mammogram, follow-up ultrasound abnormality, or discharge",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability to give informed consent",
+      "label": "not_met",
+      "evidence": "study text"
+    },
+    {
+      "criterion": "abnormality of the breast that is larger than one quadrant",
+      "label": "unknown",
+      "evidence": "study text"
+    }
+  ],
+  "notes": "Patient has a history of 3 pregnancies and live births, and is in a relation with only one partner.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02789163",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

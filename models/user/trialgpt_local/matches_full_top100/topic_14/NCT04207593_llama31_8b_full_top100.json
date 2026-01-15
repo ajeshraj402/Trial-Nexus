@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04207593",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "WHO class I -IV (mPAP \u2265 25 mm Hg, pulmonary arterial occlusion pressure \u226415 mm Hg)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "men and women 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient is diagnosed with Pulmonary Arterial Hypertension (World Health Organization (WHO) Category Group 1)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients experiencing oxygen desaturations \u226490% (or pO2 below 60 mmHg) at rest and/or during physical activity",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient has a stable functional class of PAH with no changes of medication during the trial",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has oxygen desaturations \u226490% (or pO2 below 60 mmHg) at rest and/or during physical activity, which is a trigger for exclusion.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04207593",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

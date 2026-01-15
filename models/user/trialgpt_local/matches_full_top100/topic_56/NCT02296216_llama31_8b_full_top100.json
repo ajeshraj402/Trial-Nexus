@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02296216",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "IGF-1 level",
+      "label": "met",
+      "evidence": "4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "GH level",
+      "label": "not_met",
+      "evidence": "4 ug/L"
+    },
+    {
+      "criterion": "surgical treatment",
+      "label": "met",
+      "evidence": "transsphenoidal surgery 4 months ago"
+    },
+    {
+      "criterion": "drug treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gamma Knife radiosurgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "signed a written informed consent"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "acromegaly resistant to somatostatinergic",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pituitary neurosurgical treatment or radiotherapy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acromegaly due to pituitary adenoma and recent surgery. He takes vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT02296216",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03356522",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "kidney failure patients at stage 4-5, age> 40 years, non-dialyzed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ungrafted",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "incapable adults (tutelage, guardianship, safeguard of justice)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Persons deprived of liberty",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03356522",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03420339",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between the ages of 4 years, 0 months, and 13 years, 0 months"
+    },
+    {
+      "criterion": "AD/HD diagnosis",
+      "label": "met",
+      "evidence": "valid diagnosis of attention deficit/hyperactivity disorder (AD/HD)"
+    },
+    {
+      "criterion": "disruptive behavior",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stimulant medication prescription",
+      "label": "met",
+      "evidence": "already prescribed a stimulant medication for the treatment of AD/HD symptoms"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autism diagnosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "conduct disorder diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intellectual disability diagnosis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, but does not meet exclusion criteria for autism or intellectual disability diagnosis.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03420339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

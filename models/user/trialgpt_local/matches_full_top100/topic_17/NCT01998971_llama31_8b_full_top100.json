@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01998971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed diagnosis of symptomatic multiple myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable secretory disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group performance status score of 0, 1, or 2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of primary amyloidosis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Peripheral neuropathy or neuropathic pain Grade 2 or higher",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens and has relapsed disease.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01998971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

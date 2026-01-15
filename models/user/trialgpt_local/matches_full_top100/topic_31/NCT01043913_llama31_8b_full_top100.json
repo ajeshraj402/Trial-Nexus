@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01043913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of Breast Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing Chemotherapy (First Cycle)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical Depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Chemotherapy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to sign informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe Fatigue",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and is undergoing treatment. She smokes heavily and drinks frequently, but otherwise appears healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01043913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

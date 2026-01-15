@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02713100",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presenting with a psychiatric complaint",
+      "label": "met",
+      "evidence": "agitation and altered mental status"
+    },
+    {
+      "criterion": "Male or female patients at least 18 years of age",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "Patients must be emergency department patients during the study",
+      "label": "met",
+      "evidence": "emergency department patient"
+    },
+    {
+      "criterion": "Each patient, or a patient's legal representative (as allowed by local law), must understand the nature of the study and must agree to study enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Consenting",
+      "label": "met",
+      "evidence": "Daughter reported increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable patients",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who have delirium or dementia will be excluded because of its complicated medical rather than psychiatric etiologies.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prisoners",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pediatric patients",
+      "label": "not_met",
+      "evidence": "70 y/o"
+    }
+  ],
+  "notes": "Patient presents with agitation and altered mental status, but no recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints. Daughter reports increased agitation and altered mental status x 2-3 days at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02713100",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

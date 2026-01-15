@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04228419",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "failed standard non-surgical management",
+      "label": "met",
+      "evidence": "persistent pain and disability despite adequate standard non-operative management for 6 months"
+    },
+    {
+      "criterion": "osteoarthritis who would benefit from a shoulder arthroplasty",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active joint or systemic infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rotator cuff arthropathy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant muscle paralysis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04228419",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

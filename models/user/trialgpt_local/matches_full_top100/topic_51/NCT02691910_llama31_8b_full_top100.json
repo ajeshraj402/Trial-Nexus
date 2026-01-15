@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02691910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "oral medication",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "axillary temperature \u226537.5\u00baC (or history of fever in the last 48 hours)",
+      "label": "met",
+      "evidence": "patient reports fever and chills, vital signs show T = 39.7\u00baC"
+    },
+    {
+      "criterion": "Slide-confirmed mono-infection with P. vivax",
+      "label": "unknown",
+      "evidence": "urine culture showed Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts"
+    },
+    {
+      "criterion": "Age > 5 years",
+      "label": "met",
+      "evidence": "patient is 25-year-old"
+    },
+    {
+      "criterion": "Ability to swallow oral medication",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Axillary temperature \u2265 37.5\u00ba C or history of fever during the previous 48 hours",
+      "label": "met",
+      "evidence": "patient reports fever and chills, vital signs show T = 39.7\u00baC"
+    },
+    {
+      "criterion": "Patient or caregiver agrees to comply with the study protocol (including blood collections and return visits) and provides written informed consent.",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malnutrition (weight-for-age \u2264 3 standard deviations below the mean)",
+      "label": "not_met",
+      "evidence": "patient's weight and height not mentioned"
+    },
+    {
+      "criterion": "co-infection with any other Plasmodium species",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "severe anemia (Hg<8g/100 ml)",
+      "label": "not_met",
+      "evidence": "patient's CBC shows Hb 12.9 g/dL, which is above the threshold"
+    },
+    {
+      "criterion": "hypersensitivity to CQ or PQ",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "febrile conditions caused by diseases other than malaria",
+      "label": "triggers",
+      "evidence": "patient has fever and chills, but urine culture shows Gram-negative rod-shaped bacterial cells, which is not a typical cause of fever in this context"
+    },
+    {
+      "criterion": "serious or chronic medical condition",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "pregnant or breastfeeding women",
+      "label": "met",
+      "evidence": "patient is pregnant, 24W3D gestational old"
+    },
+    {
+      "criterion": "prior history of hemolysis or severe anemia",
+      "label": "not_met",
+      "evidence": "no information provided"
+    }
+  ],
+  "notes": "Patient has fever and chills, but urine culture shows Gram-negative rod-shaped bacterial cells. Patient is pregnant.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02691910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

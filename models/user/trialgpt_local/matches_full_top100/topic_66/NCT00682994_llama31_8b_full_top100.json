@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00682994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with advanced cancer (local recurrence or metastatic) at the time of their follow up visit to the outpatient palliative care clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is 18 years of age or older",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Either patient or family member can not complete the assessments independently",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Either patient or family member refuses to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but no other relevant information is provided.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00682994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

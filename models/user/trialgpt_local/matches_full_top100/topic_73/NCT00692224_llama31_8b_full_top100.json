@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00692224",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Neonates born at \u226535 weeks gestation and with total serum bilirubin \u2265 6 mg/dL at 24\u00b16 h of life.",
+      "label": "met",
+      "evidence": "Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL"
+    },
+    {
+      "criterion": "Neonates born at \u226535 weeks gestation and with total serum bilirubin \u2265 6 mg/dL at 24\u00b16 h of life.",
+      "label": "met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Rh incompatibility",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those given exchange transfusion/ phototherapy within 24 h of age.",
+      "label": "not_met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    },
+    {
+      "criterion": "Major gross congenital anomaly",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anticipated to require neonatal intensive care or required neonatal intensive care for more than 24 h.",
+      "label": "not_met",
+      "evidence": "She was born at 34w of gestation and kept in an incubator due to her gestational age."
+    },
+    {
+      "criterion": "Systemic sepsis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00692224",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

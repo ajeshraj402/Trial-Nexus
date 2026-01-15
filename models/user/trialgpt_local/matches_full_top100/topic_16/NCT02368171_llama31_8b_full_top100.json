@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02368171",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pressure>25 mmHg, RVSP < 35 mmHg OR Mean PA pressure < 25 mmHg (as control)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age greater than or equal to 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "peripheral vascular disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02368171",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

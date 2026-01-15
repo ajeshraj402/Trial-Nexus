@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02150486",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 45 years of age with 1 or more major cardiovascular risk factors",
+      "label": "met",
+      "evidence": "past medical history is remarkable for hypercholesterolemia"
+    },
+    {
+      "criterion": "Congestive heart failure, peripheral artery disease (intermittent claudication)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of vascular surgery etc",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes mellitus type I or II, coronary artery disease (history of myocardial infarction)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable angina pectoris, history of ischemia or coronary artery disease on cardiac tests (electrocardiogram, scintigraphy, echocardiogram, coronary angiogram etc)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cerebrovascular accident, renal insufficiency (creatinine > 150umol/l), aortic valve stenosis (valve area < 1 cm2) OR 2 or more minor cardiovascular risk factors: Age > 70, hypertension, high cholesterol, low functional capacity (4 metabolic equivalents or less)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "transient ischemic attack, chronic obstructive pulmonary disease AND undergoing abdominal surgery with an expected 30-day mortality rate > 2-3%: colorectal, gastric, pancreatic and liver surgery.",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 45 years of age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "not scheduled for higher risk abdominal surgery",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "low cardiovascular risk profile",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 45-year-old woman with abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has past medical history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02150486",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

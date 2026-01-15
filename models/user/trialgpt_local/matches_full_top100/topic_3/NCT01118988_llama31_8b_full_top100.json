@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "any patient who has been successfully treated in the UCLA Pediatric Pain Program",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "access to internet enabled computer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "older than 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "new patient",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient presents with severe 'exploding' headache following a fall. Head CT showed significant blood in right ventricle, and cerebral angiogram revealed abnormal vasculature consistent with AVM.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

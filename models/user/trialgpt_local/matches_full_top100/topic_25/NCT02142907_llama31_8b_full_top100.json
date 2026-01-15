@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02142907",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Unicentric primary breast cancer with invasive ductal histology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stage T1, T2, N0, N1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumor size < 5 cm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of prior primary malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skin involvement",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Tumor histology with invasive or in situ lobular carcinoma or pure ductal carcinoma in situ.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of breast cancer, but it is not clear if it is the same type as the current tumor. She also has skin involvement.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02142907",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

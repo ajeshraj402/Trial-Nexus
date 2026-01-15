@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02357498",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected nonfunctioning pituitary macroadenomas (\u2265 1 cm)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "transsphenoidal surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults (age 18-80 years)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medically stable for surgery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Reasonable expectation that patient will complete study and be available for follow-up assessments",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prisoners",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with suspected functioning pituitary adenoma",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to obtain MRI of the pituitary (e.g., pacemaker, anaphylaxis to gadolinium, low GFR)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT02357498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

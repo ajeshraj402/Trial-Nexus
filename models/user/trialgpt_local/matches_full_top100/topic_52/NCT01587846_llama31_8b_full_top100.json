@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01587846",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with functional abdominal pain",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Children with chronic constipation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Immunodeficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receiving probiotic and/or prebiotic products 7 days prior to enrolment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neoplasms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of red flags: Weight loss of more than 10%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of red flags: Growth retardation or growth failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of red flags: Extraintestinal symptoms (fever, rash, joint pain, aphthae, affection of the urinary system)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of red flags: Frequent vomiting",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has profuse watery diarrhea without odor, reduced skin turgor and dry mucosa. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01587846",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

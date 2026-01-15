@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00375011",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cirrhosis determined by liver histology or clinical findings",
+      "label": "met",
+      "evidence": "liver clinic note"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "patient's age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known or suspected HCC",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepato-pulmonary syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatorenal syndrome (creatinine > 2.5 mg/dl)",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "refractory ascites",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyponatremia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior TIPS placement",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior episode of variceal hemorrhage",
+      "label": "not_met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "MELD score >25",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and is over 18 years old. However, there are some concerns regarding his recent hospitalization for UGIB and new slurred speech and tangential thought process.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00375011",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

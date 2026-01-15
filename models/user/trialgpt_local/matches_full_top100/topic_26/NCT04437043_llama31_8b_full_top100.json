@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04437043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "incisional midline ventral hernia",
+      "label": "met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ASA grade I to III",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to tolerate general anesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "informed consent form signed and dated",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "life expectancy of less than 2 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "acute surgery needed",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and two C/sections, but these do not appear to be relevant to the current trial.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04437043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

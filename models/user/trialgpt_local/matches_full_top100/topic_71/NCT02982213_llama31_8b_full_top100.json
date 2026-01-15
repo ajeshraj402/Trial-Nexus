@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "41.5 kg/m^2"
+    },
+    {
+      "criterion": "weight loss history",
+      "label": "unknown",
+      "evidence": "unsuccessful use of antiobesity agents and appetite suppressants"
+    },
+    {
+      "criterion": "sleep apnea",
+      "label": "met",
+      "evidence": "complaining of sleep apnea"
+    },
+    {
+      "criterion": "PCO",
+      "label": "met",
+      "evidence": "complaining of PCO"
+    },
+    {
+      "criterion": "dissatisfaction with body shape",
+      "label": "met",
+      "evidence": "complaining of dissatisfaction with her body shape"
+    },
+    {
+      "criterion": "education level",
+      "label": "unknown",
+      "evidence": "high-school teacher"
+    },
+    {
+      "criterion": "marital status",
+      "label": "met",
+      "evidence": "married for 5 years"
+    },
+    {
+      "criterion": "contraception use",
+      "label": "not_met",
+      "evidence": "doesn't use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "prior pregnancies",
+      "label": "unknown",
+      "evidence": "had no prior pregnancies"
+    },
+    {
+      "criterion": "exercise habits",
+      "label": "not_met",
+      "evidence": "rarely exercises and movement seems to be hard for her"
+    },
+    {
+      "criterion": "physical activity level",
+      "label": "not_met",
+      "evidence": "not able to complete the four-square step test in less than 15 seconds"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial anesthesia for cesarean delivery",
+      "label": "triggers",
+      "evidence": "receiving neuraxial anesthesia for a cesarean delivery"
+    },
+    {
+      "criterion": "external cephalic version",
+      "label": "triggers",
+      "evidence": "External cephalic version"
+    },
+    {
+      "criterion": "non-labor procedure",
+      "label": "triggers",
+      "evidence": "Non-labor procedure"
+    }
+  ],
+  "notes": "Patient is a 34-year-old obese woman with weight concerns, sleep apnea, PCO, and dissatisfaction with her body shape. She has a history of unsuccessful weight loss attempts and rarely exercises.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

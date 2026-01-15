@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT04747353",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication for catheter ablation intervention with planned preoperative cardiac CT scan",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior myocardial infarction (using the international definition of MI: Q waves or imaging evidence of regional myocardial akinesis/thinning in the absence of a non-ischemic cause with documentation of prior ischemic injury)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "One of the following monomorphic VT events within last 6 months:",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A: \u22653 episodes of symptomatic VT treated with antitachycardia pacing (ATP)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "B: \u22651 appropriate ICD shocks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "C: \u22653 VT episodes within 24 hr",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "D: sustained VT below detection rate of the ICD documented by ECG or any cardiac monitor",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "E: Sustained VT recorded on 12 leads ECG in the absence of ICD",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Affiliated or beneficiary of health insurance",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable or unwilling to provide written informed consent.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active ischemia (acute thrombus diagnosed by coronary angiography, or dynamic ST segment changes demonstrated on ECG) or another reversible cause of VT (e.g. drug-induced arrhythmia), had recent acute coronary syndrome within 30 days thought to be due to acute coronary arterial thrombosis, or have CCS functional class IV angina.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Are known to have protruding left ventricular thrombus or mechanical aortic and mitral valves.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have had a prior catheter ablation procedure for VT",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presenting arrhythmia: polymorphic VT or ventricular fibrillation (VF).",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Are in renal failure (Creatinine clearance <30 mL/min), have NYHA Functional class IV heart failure, or a systemic illness likely to limit survival to <1 year.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy, breast feeding women and women who are of childbearing age and not practicing adequate birth control. (French HAS criteria or following methods are considered adequate):",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient under legal protection.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04747353",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

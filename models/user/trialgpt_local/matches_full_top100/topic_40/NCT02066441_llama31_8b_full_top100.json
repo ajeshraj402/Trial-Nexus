@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02066441",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English or Spanish speaking"
+    },
+    {
+      "criterion": "interest",
+      "label": "met",
+      "evidence": "Interest in participating in a novel nutritional supplement program"
+    },
+    {
+      "criterion": "supplements",
+      "label": "not_met",
+      "evidence": "Willingness to follow recommendations, including going off of all vitamin-D and calcium containing supplements, multivitamins, or OTC medications (e.g., Tums)"
+    },
+    {
+      "criterion": "mental_status",
+      "label": "met",
+      "evidence": "Scoring 0-2 errors on the Short Portable Mental Status Questionnaire"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "research_trial",
+      "label": "unknown",
+      "evidence": "Currently enrolled in another research trial for vitamin D dietary supplements or other bone disease treatments"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "Women who are pregnant, during their period, or less than 2 days before or after their period at the time of the assessment"
+    },
+    {
+      "criterion": "psychiatric_diagnosis",
+      "label": "triggers",
+      "evidence": "Psychiatric diagnosis of schizophrenia, other psychotic disorders, bipolar disorder, major depression with psychotic features, delirium, and alcohol or substance abuse/dependence"
+    },
+    {
+      "criterion": "bleeding_disorders",
+      "label": "unknown",
+      "evidence": "Bleeding disorders"
+    },
+    {
+      "criterion": "gastrointestinal_disorders",
+      "label": "triggers",
+      "evidence": "Gastrointestinal disorders that could lead to uncertain resorption of the study supplements"
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "triggers",
+      "evidence": "Major conditions such as neurologic, cardiovascular, pulmonary, renal, endocrine, thyroid, hepatic, autoimmune, or bone/joint that could interfere with vitamin D metabolism, psychometric tests, or body composition assessment (especially renal and heart failure)"
+    },
+    {
+      "criterion": "heart_rhythm",
+      "label": "triggers",
+      "evidence": "Erratic, accelerated, or mechanically-controlled irregular heart rhythms, atrial fibrillation/flutter, or atrioventricular block or implanted electronic device"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is starting Bisphosphonate therapy. He has a family history of hypertension and DM type 2.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02066441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

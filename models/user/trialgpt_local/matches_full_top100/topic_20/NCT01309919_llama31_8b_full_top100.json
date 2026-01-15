@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "met",
+      "evidence": "using IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "planning to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sexually_transmitted_infection",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "desire_another_pregnancy",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "uterine_fibroids",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "breast_cancer",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

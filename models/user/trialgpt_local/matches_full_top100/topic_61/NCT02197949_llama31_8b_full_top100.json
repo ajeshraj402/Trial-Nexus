@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02197949",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Breast cancer patients with infiltrated axillary lymph nodes cT1-4 cN1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Older than 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to understand and accept the protocol procedure and to sign an informed consent form in accordance with national legislation.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Breast cancer patients in whom no information about axillary lymph nodes status (cytology or biopsy) is available.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients younger than 18 years old.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02197949",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

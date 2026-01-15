@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00822133",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "undergoing VAT",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "emergency patient",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "open thoracotomy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for scoliosis surgery",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT00822133",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

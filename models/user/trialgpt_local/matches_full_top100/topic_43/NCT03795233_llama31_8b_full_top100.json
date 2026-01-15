@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03795233",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of primary clostridium difficile infection (CDI) defined by the presence of",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diarrhea and a positive C. difficile Polymerase chain reaction (PCR) test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted to Boston Medical Center",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Primary CDI treatment failure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of CDI",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of inflammatory bowel disease, immunocompromised state, or active malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman with recent history of aspiration pneumonia and symptoms of abdominal pain and diarrhea. She has a positive C. difficile toxin test.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03795233",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

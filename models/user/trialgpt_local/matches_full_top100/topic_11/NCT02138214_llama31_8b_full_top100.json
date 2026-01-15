@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02138214",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-operative diagnosis or suspicion of papillary thyroid cancer, usually by fine needle aspiration (FNA)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No pre-operative evidence of cervical lymph node metastases on neck ultrasound",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of distant metastases",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to read and write in English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous thyroid surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concurrent active malignancy of another type",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to give informed consent or lacks decision making capacity",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT, but does not have any exclusion criteria that would make them ineligible.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02138214",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

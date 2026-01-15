@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00371631",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sustained spinal cord injury > 12 months earlier",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "neurogenic bladder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "intermittent bladder catheterization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "at least 1 symptomatic UTI in the past",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "uncontrolled diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AIDS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "requirement for immunosuppressive medication",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. The patient's urosepsis is now resolved after treatment.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00371631",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

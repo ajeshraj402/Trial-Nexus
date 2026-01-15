@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01361594",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "surgery_type",
+      "label": "met",
+      "evidence": "CABG +/- valve surgery"
+    },
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "BG > 140 mg/dl"
+    },
+    {
+      "criterion": "diabetes_history",
+      "label": "met",
+      "evidence": "type 1 diabetes"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "additional_procedures",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal_function",
+      "label": "unknown",
+      "evidence": "serum creatinine <3.0 mg/dl"
+    },
+    {
+      "criterion": "hepatic_failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyperglycemic_crisis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "moribund_status",
+      "label": "not_met",
+      "evidence": "alive"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and is undergoing CABG +/- valve surgery with post surgical hyperglycemia.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01361594",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

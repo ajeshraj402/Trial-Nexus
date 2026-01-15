@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT03840265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant carotid artery stenosis",
+      "label": "met",
+      "evidence": "carotid bruits, significant bilateral carotid stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 50 years",
+      "label": "does_not_trigger",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "Neurological event 15 days before operation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic kidney disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pacemaker or ICD implantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Atrial fibrillation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03840265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

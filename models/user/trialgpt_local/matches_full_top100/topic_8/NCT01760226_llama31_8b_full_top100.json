@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01760226",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with newly diagnosed, histologically confirmed, Group B or C diffuse large B-cell lymphoma; or primary mediastinal B-cell lymphoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with Group B/C post transplant lymphoproliferative disorder are eligible for the study regardless of whether disease is newly diagnosed.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient who has received previous chemotherapy or radiation therapy in the previous 3 months, except for empiric initial intrathecal administration at diagnosis.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with symptomatic cardiac failure unrelieved by medical therapy or evidence of significant cardiac dysfunction by echocardiogram (shortening fraction <28%) NOT due to mediastinal mass.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of CLL and large cell transformation, with multiple lines of therapy. He has bulky lymphadenopathy and a rising white count.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01760226",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

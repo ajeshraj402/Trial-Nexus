@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00283335",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male gender",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age 73 or younger",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "presence of CHD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HDL-C le 40 mg/dl",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "LDL-C le 140 mg/dl",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "triglycerides le 300 mg/dl",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant medical illness",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "alcohol or substance abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "evidence of cholecystitis or cholelithiasis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ejection fraction of lt 35%",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "current use of steroids, estrogens, immunosuppressive agents, oral coagulants, or lipid modifying drug.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergic to gemfibrozil or fibric acid",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refused informed consent",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has cardiomyopathy and is being treated with ACE inhibitors and Beta blockers. He also takes insulin and vitamin D supplements.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00283335",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

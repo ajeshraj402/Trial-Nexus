@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00492219",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective knee replacement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "control group free of lower extremity pathology",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sensory, neurological, or general health conditions that alter perception of the patient's limb in space",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vestibular disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to understand the questions used to obtain the Knee Society Score",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "minors",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55-year-old man with mild Parkinson's disease, complaining of slowness of movement and tremors. Lives with his wife and has three children.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT00492219",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

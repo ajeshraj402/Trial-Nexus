@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT02382250",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "complete two one-page questionnaires (uploaded in research navigator)",
+      "label": "met"
+    },
+    {
+      "criterion": "baseline demographic information and medical information will be obtained from the patient and chart",
+      "label": "met"
+    },
+    {
+      "criterion": "information regarding medications, laboratory data, and procedural data will be obtained from the medical chart",
+      "label": "met"
+    },
+    {
+      "criterion": "data regarding the severity of CAD will be recorded at the conclusion of the coronary angiography procedure",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "present with ST-segment elevation MI",
+      "label": "triggers"
+    },
+    {
+      "criterion": "previously undergone coronary revascularization",
+      "label": "triggers"
+    },
+    {
+      "criterion": "do not consent or are unable to give consent",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02382250",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

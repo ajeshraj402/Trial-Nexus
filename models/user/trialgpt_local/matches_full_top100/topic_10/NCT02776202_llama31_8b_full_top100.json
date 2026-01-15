@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02776202",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "SCD patients who are 3-18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically significant neurologic event (stroke) or any neurologic defect lasting > 24 hours and accompanied by an infarct on cerebral magnetic resonance imaging (MRI)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with symptomatic cardiac insufficiency or arrhythmia",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hepatitis B, hepatitis C, or HIV seropositive patients",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares normally 3/year. She is otherwise healthy and does not have any exclusion criteria that would make her ineligible for the trial.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02776202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

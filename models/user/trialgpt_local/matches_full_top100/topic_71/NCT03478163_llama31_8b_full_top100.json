@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03478163",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gestational age > 24 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Postpartum",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Placement of an IBT within the last 2 hours with plans for it to remain in situ for at least 2 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary obstetrician amenable to proceeding with either method of management during the study period.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "IBT removed within 2 hours of placement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chorioamnionitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Insufficient documentation of demographics, delivery outcomes, or peripartum events including postpartum hemorrhage, infectious outcomes",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT03478163",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

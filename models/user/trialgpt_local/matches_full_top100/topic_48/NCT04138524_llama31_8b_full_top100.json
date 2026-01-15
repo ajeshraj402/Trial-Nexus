@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04138524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with moderate to severe ABI by medical doctors",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical Rehabilitation Center, and being hospitalized for a minimum of 1 days.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with the patient or to be close unrelated but considered significant for the patient",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "by the patient or the legal representative",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "year in the unit, to agree to participate at the study and to follow a specific training.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the consent",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a specific training",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, but no underlying disease. He smokes and drinks moderately.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT04138524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04317937",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years to 50 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participants with history neck of more than 3 months with no related conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "NPRS-Numeric Pain Rating Scale Score 1 & 2 and score 9 & 10",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "NDI- Neck Disability Index : Score 0 to 4 (no disability) and score 35 to 50(Complete disability)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, and hypothyroidism. He smokes cigarettes and consumes alcohol. He is not aware of his family history.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04317937",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

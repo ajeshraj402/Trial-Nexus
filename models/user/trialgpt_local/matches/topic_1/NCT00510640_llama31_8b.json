@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT00510640",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must sign and date IRB/EC-approved informed consent.",
+      "label": "met",
+      "evidence": "Patient text does not mention this, but it is a standard requirement."
+    },
+    {
+      "criterion": "Age \u2265 18.",
+      "label": "met",
+      "evidence": "Patient is 45 years old, so age is met."
+    },
+    {
+      "criterion": "Patients must have a life expectancy of at least 3 months and Karnofsky performance status \u2265 70%.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention life expectancy or Karnofsky performance status, so it is unknown."
+    },
+    {
+      "criterion": "Patients must have histologically confirmed TC (thyroid cancer).",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, but also mentions 'histologically confirmed TC' in a previous sentence, so it is met."
+    },
+    {
+      "criterion": "Tumor disease must be progressive (evidence of disease progression within 6 months).",
+      "label": "met",
+      "evidence": "Patient text mentions 'progressive lower extremity weakness and urinary retention' which suggests disease progression."
+    },
+    {
+      "criterion": "Patients should not be candidates for surgical resection, external beam radiotherapy or radioiodine.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention this, so it is unknown."
+    },
+    {
+      "criterion": "Patients must have measurable disease defined by RECIST criteria as at least one lesion at least 2 cm in length by conventional CT techniques or at least 1 cm by spiral CT scan.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention this, so it is unknown."
+    },
+    {
+      "criterion": "Patients must not have more than one previous systemic treatment for cancer.",
+      "label": "met",
+      "evidence": "Patient text mentions '11 cycles of temozolomide 7 days on and 7 days off' which suggests multiple treatments, but also mentions 'prior to undergoing any specific study procedures', so it is met."
+    },
+    {
+      "criterion": "Resolution of all acute toxic effects of any prior treatment to NCI - CTCAE (version 3.0) grade < 1.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention this, so it is unknown."
+    },
+    {
+      "criterion": "Patients must have discontinued from radiation therapy at least 4 weeks before first dose of study treatment and must have recovered from any toxic effects of treatment.",
+      "label": "met",
+      "evidence": "Patient text mentions 'therapy included field radiation t10-l1 followed by 11 cycles of temozolomide', so it is met."
+    },
+    {
+      "criterion": "Blood pressure < 140 / 90 mmHg.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention blood pressure, so it is unknown."
+    },
+    {
+      "criterion": "Patients must have adequate organ function.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention this, so it is unknown."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment on sunitinib or other anti-angiogenic therapy.",
+      "label": "triggers",
+      "evidence": "Patient text mentions 'CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle', which suggests prior treatment with Avastin, an anti-angiogenic therapy."
+    },
+    {
+      "criterion": "NCI CTCAE grade 3 hemorrhage < 4 weeks of starting study treatment.",
+      "label": "unknown",
+      "evidence": "Patient text does not mention this, so it is unknown."
+    }
+  ],
+  "notes": "Key unknowns include life expectancy, Karnofsky performance status, measurable disease, resolution of acute toxic effects, and adequate organ function. Additionally, the patient's history with Avastin may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00510640",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

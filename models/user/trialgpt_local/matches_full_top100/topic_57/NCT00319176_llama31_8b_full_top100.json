@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00319176",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulliparous or multiparous women with intrauterine pregnancies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subjects who consent to the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women who are not pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women who are receiving enoxaparin at prophylactic doses (i.e., 30 mg twice daily or 40 mg daily)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 41-year-old obese woman with abdominal pain and vomiting. She drinks alcohol frequently and does not smoke.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00319176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

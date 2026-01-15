@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02207660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stage IVB, recurrent or metastatic cervical cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with P-HDFL",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recurrent cervical cancer undergoing salvage surgery and receiving P-HDFL as adjuvant therapy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has stage IVB, recurrent or metastatic cervical cancer treated with P-HDFL. However, he is undergoing salvage surgery and receiving P-HDFL as adjuvant therapy, which triggers exclusion.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02207660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

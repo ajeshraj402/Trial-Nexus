@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02763176",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Intrauterine pregnancy <= 70 days' gestation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Be in general good health",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English speaking competency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Be willing and able to sign consent forms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Agree to comply with the study procedures, including returning for three study visits that each involve a blood draw and urine pregnancy test for measuring hCG",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participating in the trial",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women less than 18 years of age",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer, HPV 16 positive, and multiple sexual partners. She underwent tubal ligation and smokes heavily.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02763176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

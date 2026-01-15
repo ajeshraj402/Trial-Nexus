@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00247533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Coronary artery stenosis >50% and either carotid or brain artery stenosis > 50%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "CAD s/p CABG in [**2154**] ([**Hospital1 112**])",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Creatinine > 2.0 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Co-morbidity",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has significant carotid and brain artery stenosis, but also has co-morbidities that may trigger exclusion.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00247533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

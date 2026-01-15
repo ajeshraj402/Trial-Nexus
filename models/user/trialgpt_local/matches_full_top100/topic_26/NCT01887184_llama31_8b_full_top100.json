@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01887184",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiology grade I-III",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18-60 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients having upper endoscopy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical history or electrocardiographic evidence of heart block, ischaemic - heart disease, asthma, sleep apnoea syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI > 35kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired liver (preoperative serum albumin level less than 30g/L ) or renal function",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alcohol consumption in excess of 28 units per week",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient refusal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known psychiatric illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic sedative use, and regular use of or known allergy to dexmedetomidine, propofol and opioids.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01887184",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

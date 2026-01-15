@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT02382250",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "complete two one-page questionnaires",
+      "label": "met",
+      "evidence": "uploaded in research navigator"
+    },
+    {
+      "criterion": "baseline demographic information and medical information",
+      "label": "met",
+      "evidence": "obtained from patient and chart"
+    },
+    {
+      "criterion": "medications, laboratory data, and procedural data",
+      "label": "met",
+      "evidence": "obtained from medical chart"
+    },
+    {
+      "criterion": "severity of CAD recorded",
+      "label": "met",
+      "evidence": "conclusion of coronary angiography procedure"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "present with ST-segment elevation MI",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "previously undergone coronary revascularization",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02382250",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "clinicaltrials/2021/trec-ct-2022",
+  "retriever": "BM25",
+  "doc_fields": [
+    "title",
+    "summary",
+    "detailed_description",
+    "eligibility",
+    "condition"
+  ],
+  "bm25_k_eval": [
+    10,
+    100
+  ],
+  "notes": "Baseline non-user retrieval model"
+}

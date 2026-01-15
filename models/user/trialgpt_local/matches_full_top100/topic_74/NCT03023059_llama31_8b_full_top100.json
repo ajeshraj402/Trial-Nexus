@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03023059",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of AMD with choroidal neovascularization (CNV) in one eye",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal or dry AMD of any grade in the second eye",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness to maintain AREDS vitamin supplements throughout the study, or remain off these supplements for the duration of the study, if not taking them prior to the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Informed Consent at Baseline",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any current use of L-DOPA containing medication or dopamine agonist medication, or any planned use of any of these agents, except for study medication, during the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of monoamine oxidase (MAO) inhibitors",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone, which is a significant orthostatic hypotension risk factor. The patient's sister had the same problems and was diagnosed with Paget's disease of bone when she was 52 years old.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT03023059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

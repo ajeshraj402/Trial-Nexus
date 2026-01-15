@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02335203",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient at the Women and Infants Program in Women's Oncology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Biopsy-proven complex atypical hyperplasia or grade 1 or grade 2 endometrial adenocarcinoma with endometrioid histology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Disease clinically confined to the uterus (no physical exam findings or imaging to suggest extrauterine disease)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ages 18 and older",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plan for hysterectomy at Women and Infants Hospital of Rhode Island",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to read English or Spanish",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give informed consent for involvement in the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergic to medroxyprogesterone acetate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known sensitivity to any component of depot medroxyprogesterone acetate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of breast cancer, hepatic disease, uncontrolled hypertension, osteoporosis or strong osteoporotic risk factors including anorexia nervosa, rheumatoid arthritis and chronic glucocorticoid use",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with any progesterone or progesterone analogue in past 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, hypertension, and chronic kidney disease. She also has an abdominal mass and was treated with IV antibiotics for a likely diverticular abscess.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02335203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

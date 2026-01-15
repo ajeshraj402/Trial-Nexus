@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00453765",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "chronic cough",
+      "label": "met",
+      "evidence": "symptoms for 5 days during the past 2 weeks"
+    },
+    {
+      "criterion": "enhanced bronchial hyperreactivity",
+      "label": "met",
+      "evidence": "FEV1 of 63% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant severe disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "COPD and/or other relevant lung diseases",
+      "label": "not_met",
+      "evidence": "no mention of COPD or other lung diseases"
+    },
+    {
+      "criterion": "use of systemic steroids 4 weeks before entry into the baseline period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of asthma, but symptoms worsen with work and improve outside of work.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00453765",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04024566",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult subjects >60 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and sign informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to undergo study protocol (in Pasadena CA)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of carotid sinus hypersensitivity (fainting in response to minimal touching or positioning of the neck)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of significant or symptomatic carotid artery disease, or carotid artery stenting or surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of aortic valve surgery or transcatheter aortic valve replacement",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absent carotid pulse on initial examination (inability to palpate the carotid pulse)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Open skin lesions at the site of Vivio application/examination",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of a carotid bruit on examination",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04024566",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

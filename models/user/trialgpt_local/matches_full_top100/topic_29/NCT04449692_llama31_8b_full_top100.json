@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04449692",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Duration of T1D",
+      "label": "met",
+      "evidence": "11 years"
+    },
+    {
+      "criterion": "Use of CSII or MDI therapy for \u2265 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of Novorapid",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HbA1c \u2264 8.0%",
+      "label": "met",
+      "evidence": "11.3%"
+    },
+    {
+      "criterion": "Regular use of carbohydrate counting",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of anti-diabetic medicine (other than insulin)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of allergy or intolerance to glucagon or glucagon-like products",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with pheochromocytoma",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically significant ECG abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females who are pregnant, breast-feeding or intend to become pregnant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to understand the individual information and to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is homeless and has lost his insulin supply, but he reports being on insulin since diagnosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04449692",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

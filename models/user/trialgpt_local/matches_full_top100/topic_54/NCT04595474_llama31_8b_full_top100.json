@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04595474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is male or female",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Subject age between 18-75 years old",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "Subject with an established diagnosis of T1D for at least three months prior to screening",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is pregnant or lactating",
+      "label": "not_met",
+      "evidence": "wellbeing, well-nourished man"
+    },
+    {
+      "criterion": "Subject has an active malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject with secondary causes of fatty liver including history of any of the following:",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatitis B or C virus infection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Wilson's disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lipodystrophy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abetalipoproteinemia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current or previous use of any of the following medication:",
+      "label": "met",
+      "evidence": "treatng with corticosteroid and cyclophosphamides"
+    },
+    {
+      "criterion": "amiodarone, tamoxifen, methotrexate,corticosteroids (e.g. Prednisone), or Valproate",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male subject consuming >30 g of alcohol per day or female subject consuming >20 g of alcohol perday",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides for 4 months, but there is no indication of malignancy or secondary causes of fatty liver.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT04595474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

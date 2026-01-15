@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03145584",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Scheduled unilateral total knee arthroplasty",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ASA physical status I to III",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Body Mass Index >35",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-existing lower extremity neurologic abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of chronic opioid use",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications to peripheral nerve block or central neuraxial blockade",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "allergy or contraindications to local anesthetics or drugs that would be used for multimodal analgesia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inadequate command of English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections, but was treated with an extended course of Vanco and improved. She also has a history of ESRD on HD and peritoneal dialysis.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03145584",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

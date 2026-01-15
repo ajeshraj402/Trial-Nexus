@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01319422",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Understand and voluntarily sign an informed consent form",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u226518 years at the time of signing the informed consent form",
+      "label": "met"
+    },
+    {
+      "criterion": "Able to adhere to the study visit schedule and other protocol requirements",
+      "label": "met"
+    },
+    {
+      "criterion": "Relapsed / Refractory Multiple Myeloma following at least two prior standard therapies including lenalidomide",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must be refractory to prior lenalidomide therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "All patients must have measurable disease defined as one or more of the following criteria:",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Serum monoclonal protein greater than 10 g/L",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Serum immunoglobulin free light chain (FLC) more than 10 mg/dL and an abnormal FLC ratio",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Urine light-chain excretion > 200 mg/24 h",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Measurable soft tissue plasmacytoma that has not been irradiated",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Greater than 30% plasma cells in bone marrow",
+      "label": "not_met"
+    },
+    {
+      "criterion": "All previous cancer therapy, including radiation, hormonal therapy and surgery, must have been discontinued at least 2 weeks prior to treatment in this study",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any serious medical condition, laboratory abnormality, or psychiatric illness that would prevent the subject from signing the informed consent form",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Pregnant or breast feeding females",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Women of child-bearing potential who are unwilling to use a dual method of contraception; and men who are unwilling to use a condom",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease, systemic amyloidosis, and is on hemodialysis. She has received various treatments including melphalan, prednisone, VAD regimen, autologous stem cell transplant, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01319422",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

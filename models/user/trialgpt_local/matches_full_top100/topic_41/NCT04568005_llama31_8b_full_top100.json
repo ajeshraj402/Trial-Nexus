@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years old"
+    },
+    {
+      "criterion": "upper or lower extremity lymphedema",
+      "label": "met",
+      "evidence": "lymphedema patients"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients under the age of 18",
+      "label": "not_met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "patients who do not accept phone calls",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has lymphedema and is over 18 years old. However, he accepts phone calls.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

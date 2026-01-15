@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01298986",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "present for ablation with paroxysmal or persistent atrial fibrillation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "left atrium is < 6.1 cm (volume)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "symptomatic with their AF as noted by their inability to perform their daily activities due to shortness of breath, fatigue, palpitations or other debilitating symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "present with long standing persistent atrial fibrillation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "MV +2 mitral regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01298986",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

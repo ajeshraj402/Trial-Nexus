@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03474913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men at risk of prostate cancer and have been advised to have a prostate MRI.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fit for undergoing all study protocol procedures which includes an ultrasound guided biopsy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to tolerate general or spinal anesthesia.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent and to comply with the protocol.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have been treated using 5- alpha-reductase inhibitors at the time of study enrollment or 6 months prior to enrollment.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with previous history of prostate biopsy, prostate surgery or treatment for prostate cancer (interventions for benign prostatic hyperplasia/bladder outflow obstruction is acceptable).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a large prostate and bladder issues but no contraindications to MRI. He is a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03474913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

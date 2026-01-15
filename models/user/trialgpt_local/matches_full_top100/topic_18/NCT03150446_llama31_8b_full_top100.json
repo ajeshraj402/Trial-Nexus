@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03150446",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "large stones (>1.8 cm in size) of the upper ureter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "male patients",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the patients planing to be treated with other treatment except laparoscopic",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ureterolithotomy about the upper ureter stone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "female patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non operable patients",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Has a severe 2cm bulbar urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03150446",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

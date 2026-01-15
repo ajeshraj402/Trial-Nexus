@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient is a parturient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study participant will be asked to fill out the STAI questionnaire prior to placement of the labor epidural catheter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study participant will then complete the pre procedure questionnaire",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study participant will be asked to fill out the STAI questionnaire again after completion of the neuraxial procedure",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "parturients are receiving neuraxial anesthesia for a cesarean delivery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "external cephalic version",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02666989",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Major Depressive Episode according to DSM-V",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mild to Moderate depression (8>HAM-D-17 <24)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receiving antidepressant medication with no change in medication in the last two weeks or not receiving antidepressants medication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Psychotic depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Agitated depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bipolar depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current suicidality or past suicide attempt",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current drug or alcohol abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Psychotic disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Drug and/or alcohol abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation, but no mention of current drug or alcohol abuse.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT02666989",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

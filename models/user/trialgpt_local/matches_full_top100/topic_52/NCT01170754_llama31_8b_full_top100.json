@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01170754",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "disturbances",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PEG 3350 (Miralax) is storied to be more palatable and easily accessible over the counter",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of constipation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who use medications to assist with a bowel movement such as osmotic, stimulant, or cathartic laxatives (including \"colon cleansers\")",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday. He has returned from an international trip few days ago and was living in a camp in Sudan for a month.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01170754",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

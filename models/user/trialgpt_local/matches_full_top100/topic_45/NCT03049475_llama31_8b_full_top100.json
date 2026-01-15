@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03049475",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sickle cell disease",
+      "label": "met",
+      "evidence": "known history"
+    },
+    {
+      "criterion": "Acute sickle cell pain",
+      "label": "met",
+      "evidence": "severe bone pain"
+    },
+    {
+      "criterion": "Between 18 and 80 years of age",
+      "label": "met",
+      "evidence": "34-year-old"
+    },
+    {
+      "criterion": "Ability to provide informed written consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "African, of African descent",
+      "label": "met",
+      "evidence": "African American man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18 years of age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and is experiencing acute pain. No other conditions that would make them ineligible are mentioned.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03049475",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

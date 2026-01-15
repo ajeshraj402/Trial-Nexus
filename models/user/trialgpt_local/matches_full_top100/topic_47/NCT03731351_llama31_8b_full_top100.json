@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03731351",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "62 years old"
+    },
+    {
+      "criterion": "Clinical signs consistent with acute ischemic stroke",
+      "label": "met",
+      "evidence": "left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech"
+    },
+    {
+      "criterion": "No prestroke functional dependence (prestroke Modified Rankin Score \u2264 1)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "NIHSS <6 at the time of enrollment",
+      "label": "met",
+      "evidence": "NIHSS score was calculated as 7"
+    },
+    {
+      "criterion": "Consent obtained within 24 hours from last known well",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Thrombolysis in Cerebral Infarction (TICI) 0-1 flow in the MCA or carotid terminus confirmed by CT or MR angiography",
+      "label": "met",
+      "evidence": "CT angiogram of head and neck reported no acute intracranial findings"
+    },
+    {
+      "criterion": "Subject can be treated within 1 hours (60 minutes) from pre-procedure CT or MRI to groin puncture",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT or MRI-DWI ASPECT Score of > 6 in the anterior circulation, or posterior circulation ASPECT Score (pc-ASPECTS) of > 7.36",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Female who is pregnant or lactating or has a positive pregnancy test at time of admission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known serious sensitivity to radiographic contrast agents",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject with a pre-existing neurological or psychiatric disease that would confound the neurological and functional evaluations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Computed tomography (CT) or Magnetic Resonance Imaging (MRI) evidence of hemorrhage on presentation",
+      "label": "not_met",
+      "evidence": "Initial CT angiogram of head and neck reported no acute intracranial findings"
+    },
+    {
+      "criterion": "Current participation in another investigation drug or device treatment study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient presented with symptoms consistent with acute ischemic stroke, but initial CT angiogram showed no acute intracranial findings. Patient was treated with IV t-PA and high-dose statin therapy.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03731351",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

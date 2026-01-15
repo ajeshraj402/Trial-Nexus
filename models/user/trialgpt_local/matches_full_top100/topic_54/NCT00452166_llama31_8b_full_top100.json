@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00452166",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CKD stage 4",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI \u2264 30",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fasting glucose < 7 mmol/l",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes mellitus for which the patient uses insulin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant co-morbidities which, according to the treating nephrologists, makes it unlikely that the patient will be able to complete the foreseen study period",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a documented positive serum MPO-ANCA and is being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00452166",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

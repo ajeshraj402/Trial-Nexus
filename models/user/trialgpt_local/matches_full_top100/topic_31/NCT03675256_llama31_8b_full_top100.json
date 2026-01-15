@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03675256",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born_female",
+      "label": "met",
+      "evidence": "patient_is_a_woman"
+    },
+    {
+      "criterion": "age_15_to_20_years",
+      "label": "not_met",
+      "evidence": "patient_is_37_years_old"
+    },
+    {
+      "criterion": "hiv_negative",
+      "label": "met",
+      "evidence": "no_evidence_provided"
+    },
+    {
+      "criterion": "no_history_of_hpv_vaccination",
+      "label": "met",
+      "evidence": "no_evidence_provided"
+    },
+    {
+      "criterion": "sexually_active_history_1_to_5_lifetime_partners",
+      "label": "met",
+      "evidence": "patient_has_three_sexual_partners"
+    },
+    {
+      "criterion": "resident_within_study_area_without_plans_to_move_away_in_next_37_months",
+      "label": "unknown",
+      "evidence": "no_evidence_provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergies_to_vaccine_components_or_latex",
+      "label": "unknown",
+      "evidence": "no_evidence_provided"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "patient_is_postmenopausal"
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "triggers",
+      "evidence": "patient_was_offered_a_radical_hysterectomy"
+    },
+    {
+      "criterion": "autoimmune_degenerative_and_genetic_diseases",
+      "label": "unknown",
+      "evidence": "no_evidence_provided"
+    },
+    {
+      "criterion": "investigator_discretion",
+      "label": "unknown",
+      "evidence": "no_evidence_provided"
+    }
+  ],
+  "notes": "The patient has cervical cancer and smokes heavily, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03675256",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

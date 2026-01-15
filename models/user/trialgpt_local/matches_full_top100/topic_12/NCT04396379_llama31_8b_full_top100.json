@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04396379",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Moderate or greater (2+) ischemic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Functional Mitral regurgitation by 2D echocardiography using an integrative method",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is scheduled for cardiac surgery (e.g. CABG including patients on the waiting list for Heart Transplantation)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is 22 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is willing and able to sign Informed Consent Form",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Within 90 days patients should be on stable optimally uptitrated medical therapy recommended according to current guidelines23 as standard of care for heart failure therapy in the United States",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any evidence of structural (chordal or leaflet) mitral valve disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to derive ERO, LVESVI or LVEDVI by TTE",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior surgical or percutaneous mitral valve intervention",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindication to cardiopulmonary bypass (CPB)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical signs of cardiogenic shock",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment with chronic intravenous inotropic therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe, irreversible pulmonary hypertension in the judgement of the investigator",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04396379",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

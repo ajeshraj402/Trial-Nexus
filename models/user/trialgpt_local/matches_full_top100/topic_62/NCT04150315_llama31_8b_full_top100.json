@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04150315",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "coronary artery bypass surgery",
+      "label": "met",
+      "evidence": "Odense University Hospital"
+    },
+    {
+      "criterion": "useful sample of internal mammary artery",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other cardiac surgery performed",
+      "label": "triggers",
+      "evidence": null
+    },
+    {
+      "criterion": "withdrawal of consent",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "notes": "Patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He is willing to participate.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04150315",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02077673",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with adenocarcinoma in the gastroesophageal junction",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "assumed to be resectable",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lack of consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-adenocarcinomas",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has adenocarcinoma in the gastroesophageal junction and is assumed to be resectable. Lack of consent is not a concern, but non-adenocarcinomas are excluded.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02077673",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

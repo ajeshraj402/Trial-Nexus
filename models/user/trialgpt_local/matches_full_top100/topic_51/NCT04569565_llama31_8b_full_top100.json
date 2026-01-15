@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04569565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cirrhosis",
+      "label": "met",
+      "evidence": "imaging"
+    },
+    {
+      "criterion": "refractory or resistant ascites",
+      "label": "met",
+      "evidence": "physical examination"
+    },
+    {
+      "criterion": "not a candidate for TIPS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "reducing large volume paracentesis \u2265twice/month",
+      "label": "met",
+      "evidence": "patient report"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malignant ascites due to peritoneal carcinomatosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient unwilling to let home care staff enter home",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient unwilling to have intravenous albumin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient unwilling to have drain placed",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a pregnant woman with symptoms of UTI and fever. She has no history of recurrent UTI prior to her pregnancy.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04569565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

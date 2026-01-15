@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03061344",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male >18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "bulbar urethral stricture",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "bladder neck contracture",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "developmental delay",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "incarcerated individuals,",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of prior urethroplasty",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of multiple urological procedures, including suprapubic prostatectomy and severe bulbar urethral stricture. He will require surgical fixation when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03061344",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

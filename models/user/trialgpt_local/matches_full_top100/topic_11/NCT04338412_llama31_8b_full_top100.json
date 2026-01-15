@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04338412",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 to 65 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) I-II patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elective and emergency surgeries requiring general anaesthesia where use of P-LMA\u2122 is not contraindicated",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital or acquired airway abnormality",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cervical spine pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Edentulous or loose tooth",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI \u226535 kg/m2",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may contraindicate P-LMA use. However, no clear indication of airway abnormality or cervical spine pathology.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04338412",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

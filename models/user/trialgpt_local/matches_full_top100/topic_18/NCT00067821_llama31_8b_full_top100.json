@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00067821",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "78 year-old male"
+    },
+    {
+      "criterion": "Radiographic diagnosis",
+      "label": "met",
+      "evidence": "brain tumor (including, but not limited to high grade gliomas)"
+    },
+    {
+      "criterion": "Prior treatment",
+      "label": "met",
+      "evidence": "newly diagnosed, post-operative, post-radiation or post-chemotherapy"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age and weight",
+      "label": "not_met",
+      "evidence": "78 year-old male, no weight mentioned"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "MRI incompatible implant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe reaction to Gadolinium",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetes mellitus or steroid-induced hyperglycemia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a severe 2cm bulbar urethral stricture and will require surgical fixation when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00067821",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

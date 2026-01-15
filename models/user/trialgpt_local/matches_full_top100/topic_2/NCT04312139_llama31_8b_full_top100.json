@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04312139",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe aortic valve stenosis in echocardiography",
+      "label": "met",
+      "evidence": "Vmax > 4 m/sec and mean Gradient >40 mmHg and/or Aortic Valve Area indexed (AVAi) < 0.6 cm2/m2 and/or Velocity index <0.25 whichever worse, with available complete past echocardiographic follow-up (>2 past studies) indicating disease progression"
+    },
+    {
+      "criterion": "prospective cohort: patients with moderate aortic valve stenosis in echocardiography",
+      "label": "met",
+      "evidence": "Vmax 3-4 m/sec and mean Gradient 25-40 mmHg and/or AVAi 0.6-0.9 cm2/m2, Where inconsistent: Velocity index = 0.25-0.50"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Echocardiographic Stroke Volume indexed (SVi) <35 ml/m2",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bicuspid aortic valve",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with disease progression, meets inclusion criteria. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04312139",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

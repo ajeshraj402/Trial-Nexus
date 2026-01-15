@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03948503",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ankle sprain since 2 weeks to 12 weeks",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Grade 1 or 2 ankle sprain",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Asymetrical dorsi-flexion limitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute or Grade 3 ankle sprain",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than 12 weeks ankle sprain",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any other trauma of the lower limb",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03948503",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

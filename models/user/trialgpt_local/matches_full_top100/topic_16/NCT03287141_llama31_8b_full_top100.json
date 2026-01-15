@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT03287141",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatient and have a compensated HF, without hospitalizations in the last three months;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Present functional class II and III (New York Heart Association);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Present left ventricular ejection fraction (LVEF) \u2264 50%;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have not suffered myocardial infarction in the last three months;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No previous diagnosis of chronic obstructive pulmonary disease (FEV1 / FVC ratio> 70% in spirometry);",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Do not be a smoker;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not being pregnant;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Does not present any clinical disease or restriction of osteomioarticular or neurological origin that prevents / limits the carrying out of the proposed tests;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Integral cognitive functions, which were evaluated by the cognitive test of Legan\u00e9s -",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable angina or significant arrhythmias;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute atrial fibrillation or total atrioventricular block;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Systemic blood pressure (AP) at uncontrolled rest (\u2265 180/110 mmHg or \u226480 / 40mmHg);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Resting heart rate (HR) \u2264 40 bpm or \u2265 120 bpm;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Need for dialysis;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of bronchodilator;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Respiratory rate (RF) at rest \u2265 35 rpm;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Frequent vomiting;",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03287141",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00597909",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female between the ages of 18 and 75 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed written informed consent by subject's representative",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current diagnosis of chronic liver disease with cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Weight between 45 and 150 kg",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Elevated venous ammonia concentration, defined as a value above the normal range at the local laboratory",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major gastrointestinal bleeding (hematemesis, melena, or hematochezia) requiring blood transfusion within the last 24 hours",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled sepsis, as defined by hemodynamic instability requiring vasopressor agents (renal-dosed dopamine allowed)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and is on Levodopa and Trihexyphenidyl. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00597909",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02248428",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to adhere to the study visit schedule and other protocol requirements",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosed with active multiple myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previously untreated",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status(KPS) \u226550\uff08KPS<50 will be allowed if related to bony disease\uff09",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New York Heart Association(NYHA) functional \u2264class III",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypersensitivity to clarithromycin or any of its excipients, erythromycin, or any of the macrolide antibiotics;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant administration of cisapride, pimozide, astemizole, terfenadine, ergotamine or dihydroergotamine, simvastatin, lovastatin, and atorvastatin;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A history of cholestatic jaundice/hepatic dysfunction associated with prior use of clarithromycin.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Impaired renal function,Creatinine \u2265221umol/L\uff1b",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding females.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any condition which places the subject at unacceptable risk if he/she were to participate in the study or confounds the ability to interpret data from the study.",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens including melphalan, prednisone, VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT02248428",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

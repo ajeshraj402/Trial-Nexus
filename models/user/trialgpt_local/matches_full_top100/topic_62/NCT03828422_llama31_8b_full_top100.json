@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03828422",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "JAK2 V617F positive essential thrombocythemia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age-and sex-matched apparently healthy control subjects",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "personal history of any atherosclerotic vascular disease (myocardial infarction, angina pectoris, peripheral arterial disease, aortic disease, transient ischemic attack or ischemic stroke)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic kidney disease stage 3 and above",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic inflammatory disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "autoimmune disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "46-year-old man with dizziness and frequent headaches, family history of CAD, but no other cardiovascular risk factors. Severe stenosis in the left internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03828422",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02235025",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "FEV1 > 80% predicted",
+      "label": "met",
+      "evidence": "spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values"
+    },
+    {
+      "criterion": "FEV1/FVC ratio < 0.70",
+      "label": "met",
+      "evidence": "spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values"
+    },
+    {
+      "criterion": "mMRC score equal to zero",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "absence of respiratory symptoms including chronic cough and/or chronic expectoration and/or chronic wheeze",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of a medical condition other than COPD that could cause or contribute to breathlessness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History or clinical evidence of asthma",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02235025",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

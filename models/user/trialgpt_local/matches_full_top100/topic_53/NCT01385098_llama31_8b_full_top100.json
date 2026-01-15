@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01385098",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI > 40",
+      "label": "met",
+      "evidence": "patient's BMI is 23"
+    },
+    {
+      "criterion": "BMI >35 with a co-morbidity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Vit D < 20 ng/mL",
+      "label": "not_met",
+      "evidence": "patient's Vit D is 14ng/ml"
+    },
+    {
+      "criterion": "hypercalcemia (calcium > 2.63 mmol/L)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypocalcemia (calcium < 1.75 mmol/L)",
+      "label": "not_met",
+      "evidence": "patient's calcium is 9.2mg/dl"
+    },
+    {
+      "criterion": "renal insufficiency (GFR < 50 ml/min)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "primary hyperparathyroidism or renal tubular acidosis",
+      "label": "not_met",
+      "evidence": "patient's past medical history is unremarkable"
+    },
+    {
+      "criterion": "medications that interfere with vitamin D metabolism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant sun exposure",
+      "label": "not_met",
+      "evidence": "patient's BMI is 23, BP: 120/75, HR: 75/min"
+    },
+    {
+      "criterion": "history of hypercalcemia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01385098",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

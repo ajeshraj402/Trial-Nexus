@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00949481",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "new and restarting family planning client",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with children 9-12 months of age attending immunization services",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "attending immunization services with a child other than one's own",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old obese woman presenting with abdominal pain and vomiting, diagnosed with acute edematous interstitial pancreatitis due to gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00949481",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

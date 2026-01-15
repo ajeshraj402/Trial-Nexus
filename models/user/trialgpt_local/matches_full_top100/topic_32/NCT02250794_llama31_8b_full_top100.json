@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02250794",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "General Medicine Services",
+      "label": "met",
+      "evidence": "admitted to a general medicine services"
+    },
+    {
+      "criterion": "Type 2 Diabetes",
+      "label": "not_met",
+      "evidence": "no underlying disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute Critical Illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major Surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastrointestinal Suction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Impaired Renal Function",
+      "label": "met",
+      "evidence": "Creatinine: 3.6 mg/dL"
+    },
+    {
+      "criterion": "Clinically Significant Liver Dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02250794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between ages 18-50"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "right-handed"
+    },
+    {
+      "criterion": "MRI safety",
+      "label": "met",
+      "evidence": "no metal implants or medical devices"
+    },
+    {
+      "criterion": "study instructions",
+      "label": "met",
+      "evidence": "able to follow study instructions and can read and write English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic musculoskeletal diseases",
+      "label": "not_met",
+      "evidence": "no underlying disease"
+    },
+    {
+      "criterion": "neurological conditions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "depression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy/nursing mother",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or nursing"
+    },
+    {
+      "criterion": "ongoing meditation practice",
+      "label": "not_met",
+      "evidence": "no mention of ongoing meditation"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, taking daily multivitamins and anti-hypertensive drugs. She exercises regularly.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

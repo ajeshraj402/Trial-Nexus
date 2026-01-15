@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02597166",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CHC genotype 1 infection",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "decompensated cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of variceal bleeding",
+      "label": "not_met",
+      "evidence": "no evidence of bleeding from esophageal varices"
+    },
+    {
+      "criterion": "presence or history of ascites",
+      "label": "not_met",
+      "evidence": "abdomen is soft with no ascites or tenderness"
+    },
+    {
+      "criterion": "history of grade III-IV hepatic encephalopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Coagulopathy with an INR>1.7",
+      "label": "not_met",
+      "evidence": "BP: 130/75, HR: 90/min"
+    },
+    {
+      "criterion": "Jaundice with a serum bilirubin of >85\u00b5mol/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cirrhosis defined by liver biopsy",
+      "label": "not_met",
+      "evidence": "The recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "cirrhosis defined by Fibroscan",
+      "label": "not_met",
+      "evidence": "Fibroscan not performed within 12 calendar months of the start of this study"
+    },
+    {
+      "criterion": "cirrhosis defined by Fibrotest score",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients older than 75 years",
+      "label": "not_met",
+      "evidence": "53-year-old man"
+    },
+    {
+      "criterion": "Presence of hepatoma at entry",
+      "label": "not_met",
+      "evidence": "The recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "Patients awaiting living-related liver transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "MELD score of >30",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant co-morbid condition(s) with a life expectancy of <6 months",
+      "label": "not_met",
+      "evidence": "He is an alert male with no acute distress"
+    },
+    {
+      "criterion": "HIV co-infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HBV co-infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy for the past 9 months. Direct antiviral drugs were added to his treatment 6 months ago.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02597166",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

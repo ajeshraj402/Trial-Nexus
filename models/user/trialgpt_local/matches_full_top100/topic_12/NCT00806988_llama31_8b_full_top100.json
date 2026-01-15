@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00806988",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Moderate mitral regurgitation in the judgment of the clinical site echocardiographer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CAD that is amenable to CABG and a clinical indication for revascularization",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any evidence of structural (chordal or leaflet) mitral valve disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior surgical or percutaneous mitral valve repair",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral regurgitation and is planned for mitral valve repair/replacement surgery. However, they have a history of prior mitral valve repair which makes them likely ineligible.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00806988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT02436655",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "men and women of any ethnic origin aged \u226518 years",
+      "label": "met",
+      "evidence": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "V max across the aortic valve > 4m/s or Pmean \u2265 40mmHg and AVA \u2264 1cm2 or AVAi \u2264 0.6cm2/m2 at rest",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function, EF was 25%"
+    },
+    {
+      "criterion": "Without reported symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Society of Thoracic Surgeons (STS) score < 8%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participation in another clinical trial within 30 days prior randomization",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or nursing women",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental condition rendering the patient unable to understand the nature, scope and possible consequences of the study or to follow the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive stress-test defined as: Anginal chest pain during testing",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction < 50% at rest",
+      "label": "triggers",
+      "evidence": "EF was 25%"
+    }
+  ],
+  "notes": "Patient's EF is below the threshold for exclusion, but other factors suggest eligibility. STS score and symptoms are unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02436655",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

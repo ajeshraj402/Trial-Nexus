@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02600806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Fever with or without respiratory symptoms",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New infiltrate on chest radiograph",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pneumonia Severity Index (PSI) score \u2264 70",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "PSI risk classes III-V",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226565 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Comorbidity (diabetes, chronic obstructive pulmonary disease, chronic renal disease, neoplasia, immunosuppression including HIV infection, chronic heart failure or cirrhosis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "White blood cell count \u226520.0 x 10^9/L",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pleural effusion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilateral infiltrates",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous failure or allergy to macrolides or quinolones",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Need for oxygen therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting with acute urinary retention and a large prostate. He has normal recent blood chemistry and urinalysis results.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02600806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04093414",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "signed consent"
+    },
+    {
+      "criterion": "pacemaker indication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symptomatic sinus node dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiac pacing devices",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "CRT or ICD implantation",
+      "label": "met",
+      "evidence": "eligible for appropriate cardiac resynchronization therapy(CRT) or implantable cardiovert defibrillator (ICD) implantation"
+    },
+    {
+      "criterion": "prior septal myectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical or transcatheter aortic valve replacement",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "anatomy precluding implant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to achieve selective His bundle pacing",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be started on Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04093414",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

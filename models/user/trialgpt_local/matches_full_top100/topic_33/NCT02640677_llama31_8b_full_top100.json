@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02640677",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women within the US who received at least 1 dose 4CMenB vaccine within 30 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sufficient evidence to confirm that exposure to a meningococcal B vaccine (confirmed or possible 4CMenB exposure) occurred within 30 days prior to LMP or at any time during pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sufficient information to determine whether the pregnancy is prospectively or retrospectively registered (i.e., whether the outcome of pregnancy was known at the time of first contact with the registry)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Date the pregnancy exposure is registered",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Full reporter (i.e., HCP) contact information to allow for follow-up (name, address, etc.)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women vaccinated with a different brand of Meningococcal B vaccine will not be included.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a healthy woman who works in a rehab center and has no underlying disease. She received the flu shot in early October.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02640677",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

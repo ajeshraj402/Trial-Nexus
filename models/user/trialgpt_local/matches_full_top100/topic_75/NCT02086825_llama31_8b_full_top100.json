@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02086825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "Cirrhosis of the liver based on biopsy or clinical and radiographic criteria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to provide informed consent (Grade 0 to 1 HE)",
+      "label": "met",
+      "evidence": "alert and cooperative man"
+    },
+    {
+      "criterion": "Acute renal failure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of improvement in renal function after adequate fluid resuscitation using either normal saline or blood products",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of sensitivity/allergy to lactulose or rifaximin or rifampin",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, mild Hoehn-Yahr Stage I. He is alert and cooperative.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02086825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

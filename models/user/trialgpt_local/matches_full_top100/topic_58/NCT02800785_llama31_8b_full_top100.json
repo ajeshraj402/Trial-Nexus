@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02800785",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical diagnosis of acute uncomplicated appendicitis (AUA) established by clinical care team, supported by any of the following usual care radiological tests (computed tomography (CT), ultrasound (US), and/or magnetic resonance imaging (MRI))",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to provide written or electronic informed consent in English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable or unwilling to return or be contacted for clinical follow-up visits and/or research surveys",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently incarcerated in a detention facility or in police custody (patients wearing a monitoring device can be enrolled) at baseline/screening",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. He has elevated WBC with dominant neutrophils and CT scan showing acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02800785",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

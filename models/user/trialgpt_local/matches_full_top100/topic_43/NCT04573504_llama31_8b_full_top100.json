@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04573504",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "third_or_fourth_degree_laceration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "english_speaking",
+      "label": "met",
+      "evidence": "The patient is a 60-year-old woman..."
+    },
+    {
+      "criterion": "administered_ancef",
+      "label": "met",
+      "evidence": "She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg)."
+    },
+    {
+      "criterion": "first_delivery",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "single_child_being_born",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "term_delivery",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under_18_years_old",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "non_english_speaking",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "delivery_of_more_than_one_fetus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient_taking_systemic_steroids",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergy_to_amoxicillin_and_clindamycin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_c_difficile_infection",
+      "label": "met",
+      "evidence": "The stool samples must were positive for Clostridium difficile toxin."
+    },
+    {
+      "criterion": "infant_with_severe_jaundice_receiving_breastmilk",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical_contraindications_to_metronidazole_clindamycin_and_amoxicillin_clavulanate",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time).",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04573504",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

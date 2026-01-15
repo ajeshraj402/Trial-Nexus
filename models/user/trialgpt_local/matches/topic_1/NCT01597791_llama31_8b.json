@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT01597791",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Nulliparous",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Term (\u226537 week gestation)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Healthy",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma, severe lower extremity weakness, and urinary retention."
+    },
+    {
+      "criterion": "ASA class 1-2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Who are being induced for labor who request labor analgesia and who successfully receive standard combined spinal epidural analgesia (verbal rating score for pain \u2264 1 after 10 min)",
+      "label": "not_met",
+      "evidence": "Patient is not undergoing labor or receiving combined spinal epidural analgesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with ASA 3 or greater",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI \u226540 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior history of urge or stress incontinence or urinary retention before pregnancy",
+      "label": "triggers",
+      "evidence": "Patient has a history of urinary retention."
+    },
+    {
+      "criterion": "Women with a history of nephrolithiasis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic urinary tract infections",
+      "label": "triggers",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention."
+    }
+  ],
+  "notes": "Unknown ASA class, BMI, and history of nephrolithiasis or chronic urinary tract infections. Patient's condition is not relevant to the trial's inclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01597791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

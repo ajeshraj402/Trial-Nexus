@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02658786",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "Liver biopsy with underlying etiology as HBV, HCV, NASH or cryptogenic or ALD (inpatient or outpatient)",
+      "label": "met",
+      "evidence": "previous liver biopsy was negative for hepatocellular carcinoma and was only remarkable for chronic inflammation compatible with a chronic viral hepatitis"
+    },
+    {
+      "criterion": "Metavir Fibrosis Score F0-3",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not willing to participate in the study",
+      "label": "not_met",
+      "evidence": "The patient is an alert male with no acute distress"
+    },
+    {
+      "criterion": "Patients with chronic liver disease of other etiologies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT02658786",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

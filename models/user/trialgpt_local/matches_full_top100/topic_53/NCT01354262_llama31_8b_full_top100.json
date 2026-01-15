@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01354262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes mellitus",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hgb A1c greater then 7.0",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adults aged 34 to 69 years.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known primary hyperparathyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sarcoidosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tuberculosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "terminal illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of serum creatinine more than 2.0 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vitamin D supplement more than 200 IU/day",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has unremarkable past medical and drug history, but low Vit D level.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01354262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02069366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 21-45 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current PTSD diagnosis [related to civilian trauma]",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant medical or neurological condition",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Less than a high school education",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lack of fluency in English",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild hypertension and proteinuria. She has no specific past medical issues and only uses prenatal vitamins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02069366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

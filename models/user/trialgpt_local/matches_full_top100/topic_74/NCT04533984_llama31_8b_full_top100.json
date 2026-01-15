@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04533984",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Soldiers actively enlisted in the US Army attached to basic training unit at Fort Jackson",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skeletally mature",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of any form of cancer",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Paget's disease of bone",
+      "label": "triggers",
+      "evidence": "quote: The patient's sister had the same problems.  She was diagnosed with Paget's disease of bone when she was 52 years old."
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04533984",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

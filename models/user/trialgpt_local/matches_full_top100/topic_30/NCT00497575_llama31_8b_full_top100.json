@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00497575",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TSH > 40 mU/L and T3 and T4 below the reference range or TSH > 40 mU/L, T3 normal and T4 below the reference range",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subclinical hypothyroidism - TSH \u2265 20 mU/L, T3 and T4 normal or low-normal or TSH > 5.6 mU/L and < 20 mU/L on initial determination and on follow-up or TSH levels increase on follow-up and/or gradually declining T4 levels.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High TSH level (13 mU/L)",
+      "label": "met",
+      "evidence": "lab_result"
+    },
+    {
+      "criterion": "Low free T4 level (0.2 ng/dl)",
+      "label": "met",
+      "evidence": "lab_result"
+    },
+    {
+      "criterion": "Anti-TPO levels were extremely high (120 IU/ml)",
+      "label": "met",
+      "evidence": "lab_result"
+    },
+    {
+      "criterion": "Family history of Hashimoto's thyroiditis",
+      "label": "met",
+      "evidence": "family_history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Nipple discharge was detected",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hirsutism was not detected",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis with high TSH and low free T4 levels. She is on Levothyroxine treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00497575",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

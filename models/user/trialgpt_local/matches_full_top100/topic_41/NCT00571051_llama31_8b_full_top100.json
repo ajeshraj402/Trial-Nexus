@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI_scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "study_instructions",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic_musculoskeletal_diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurological_conditions",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy_nursing",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but no systemic musculoskeletal diseases or neurological conditions that would affect hand function. He is able to follow study instructions and complete our study.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03389568",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "Family members of ICU patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Caregiver provides majority of care",
+      "label": "met",
+      "evidence": "provides unpaid physical, emotional, and/or instrumental care"
+    },
+    {
+      "criterion": "Voluntary agreement to participate in study",
+      "label": "met",
+      "evidence": "voluntarily agrees with participation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of cognitive impairment",
+      "label": "not_met",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "Psychiatric disorders or neurological disorders",
+      "label": "not_met",
+      "evidence": "MDD, but on anti-depressants for 6 months"
+    },
+    {
+      "criterion": "Discernible hearing deficits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Difficulties in verbal communication",
+      "label": "not_met",
+      "evidence": "no mention of difficulties"
+    },
+    {
+      "criterion": "Caregiver's relationship to patient is close friend or relative",
+      "label": "met",
+      "evidence": "married with 4 children"
+    }
+  ],
+  "notes": "Patient has MDD, but on anti-depressants for 6 months. Has some digestive issues recently.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT03389568",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

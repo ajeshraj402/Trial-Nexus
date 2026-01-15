@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00238667",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Extracranial carotid or vertebral artery dissection with symptom onset within the last 7 days.",
+      "label": "met",
+      "evidence": "carotid bruits, + Occasional dizziness"
+    },
+    {
+      "criterion": "Ipsilateral TIA or stroke",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Imaging evidence of definite or probable dissection on MRI/MRA, CTA or ultrasound.",
+      "label": "met",
+      "evidence": "Carotid U/S that showed significant bilateral carotid stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Intracranial cerebral artery dissection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptom onset after 7 days",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has carotid bruits and occasional dizziness, with significant bilateral carotid stenosis on ultrasound.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00238667",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

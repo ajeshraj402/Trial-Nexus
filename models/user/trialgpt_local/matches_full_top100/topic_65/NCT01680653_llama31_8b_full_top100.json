@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01680653",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes and using daily insulin therapy for at least one year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 7-21 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Attendee of Camp De Los Ninos or Conrad Chinnock",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Come to camp with a consent already signed after having talked to study staff about the study, or at the onset of the camp meet with study staff and sign the consent before the first night at camp.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Using multiple daily insulin injections (Lantus) or on an insulin pump (any brand)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cystic fibrosis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medications such as current use of oral steroids or other medications, which in the judgment of the investigator would be a contraindication to participation in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of adhesive allergies which would interfere with sensor wear.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and uses daily insulin therapy. He is between 7-21 years old and has a clinical diagnosis of type 1 diabetes.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01680653",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00008463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-positive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic liver disease consistent with chronic hepatitis C",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18 to 65 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "agree to use 2 barrier methods of birth control during the study and for 6 months after stopping the medications",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "positive test for hepatitis B",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe mental illness, especially depression, or have been hospitalized for mental illness within the previous 24 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. No evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00008463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

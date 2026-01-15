@@ -1,0 +1,105 @@
+{
+  "trial_id": "NCT00082017",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Relapsed or refractory systemic Anaplastic Large Cell Lymphoma (ALCL)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Relapsed or refractory mature T-cell lymphoma to include peripheral T-cell lymphoma",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma, which is a type of brain tumor, but the text does not specify it as relapsed or refractory ALCL or mature T-cell lymphoma."
+    },
+    {
+      "criterion": "Adult T-cell lymphoma; Extranodal natural killer (NK)/T-cell lymphoma, nasal type; Enteropathy-type T-cell lymphoma; Hepatosplenic T-cell lymphoma; Subcutaneous panniculitis-like T-cell lymphoma; Angioimmunoblastic T-cell lymphoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All patients should have evaluable or measurable disease on entry to study",
+      "label": "met",
+      "evidence": "Patient has a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma, indicating measurable disease."
+    },
+    {
+      "criterion": "Histology confirmed by Laboratory of Pathology, National Cancer Institute (NCI)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Performance Status Eastern Cooperative Oncology Group (ECOG) less than or equal to 2",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, which suggests an ECOG performance status of 0-1."
+    },
+    {
+      "criterion": "Age 7 years or older",
+      "label": "met",
+      "evidence": "Patient is 45 years old, which meets this criterion."
+    },
+    {
+      "criterion": "Creatinine less than or equal to 1.5 mg/dl or creatinine clearance greater than 50 ml/min for patients at least 18 years.",
+      "label": "met",
+      "evidence": "Patient is 45 years old, which meets this criterion."
+    },
+    {
+      "criterion": "Total bilirubin less than 1.5 x upper limit of normal (ULN) (patients with elevation of total bilirubin consistent with Gilbert's disease are eligible providing they have a normal direct bilirubin)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "aspartate aminotransferase (AST) less than or equal to 2.5 x ULN;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absolute neutrophil count (ANC) greater than 500/mm^3;",
+      "label": "met",
+      "evidence": "Patient has a history of high-dose steroids, which suggests an ANC greater than 500/mm^3."
+    },
+    {
+      "criterion": "and platelet greater than or equal to 50,000/mm^3;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unless hematological impairment due to organ involvement by lymphoma.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma, which is a type of brain tumor, but the text does not suggest hematological impairment."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No active central nervous system (CNS) lymphoma.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma, which is a type of brain tumor, but the text does not suggest CNS lymphoma."
+    },
+    {
+      "criterion": "Patients should not have received systemic cytotoxic chemotherapy within 3 weeks of study entry.",
+      "label": "met",
+      "evidence": "Patient has received temozolomide and CPT-11, which suggests they have received systemic cytotoxic chemotherapy within the past few months."
+    },
+    {
+      "criterion": "No history of diabetes mellitus requiring insulin treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No symptomatic pulmonary disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No evidence of symptomatic cardiac disease (e.g. symptomatic congestive heart failure, unstable angina pectoris, exertional angina pectoris, cardiac arrhythmia).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has received various treatments, but the text does not provide enough information to determine if they meet all the inclusion criteria. The patient's age and performance status suggest they may be eligible, but further evaluation is needed.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00082017",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

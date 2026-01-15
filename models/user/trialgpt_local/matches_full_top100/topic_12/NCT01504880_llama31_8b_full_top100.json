@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01504880",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "audible AV valve regurgitation on clinical exam",
+      "label": "met",
+      "evidence": "most recent clinic note"
+    },
+    {
+      "criterion": "clinically indicated CMR study scheduled and have had an echocardiogram in the last 6 months",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "poor quality CMR study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable to complete a CMR",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication to CMR scan (e.g., pregnancy, pacemaker or defibrillator presence)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "common AV valve",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "corresponding semilunar valve regurgitation which precludes use of stroke volume comparison as a second means of assessing AVV regurgitation by CMR",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intracardiac shunts which precludes use of stroke volume comparison as a second means of assessing AVV regurgitation by CMR",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01504880",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

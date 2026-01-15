@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT00968240",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of relapsed or refractory glioblastoma multiforme (GBM), anaplastic astrocytoma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "anaplastic mixed oligoastrocytoma (AOA)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients previously treated with more than 6 cycles (28 days each) of Bevacizumab at 10/mg/kg.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or lactating.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "patient has a history of anaplastic astrocytoma and is experiencing progressive lower extremity weakness and urinary retention",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00968240",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

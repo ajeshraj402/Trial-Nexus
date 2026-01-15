@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV Criteria based on diagnostic interview",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of snoring and headache, which may indicate somatic instability.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

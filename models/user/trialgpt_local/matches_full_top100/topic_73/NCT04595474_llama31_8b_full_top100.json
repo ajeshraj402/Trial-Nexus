@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04595474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "The patient is a 3-day-old female infant"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "She was born at 34w of gestation"
+    },
+    {
+      "criterion": "diagnosis_of_t1d",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_or_lactation",
+      "label": "not_met",
+      "evidence": "She is a 3-day-old infant"
+    },
+    {
+      "criterion": "active_malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "secondary_causes_of_fatty_liver",
+      "label": "not_met",
+      "evidence": "Laboratory results are as follows: ... (no indication of hepatitis B or C, Wilson's disease, lipodystrophy, abetalipoproteinemia)"
+    },
+    {
+      "criterion": "medication_use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol_consumption",
+      "label": "not_met",
+      "evidence": "There is no mention of alcohol consumption"
+    }
+  ],
+  "notes": "The patient has neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT04595474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

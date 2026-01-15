@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02492347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age of parent/ person with parental responsibility being at least 16 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically well parent/ person with parental responsibility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English Speaking parent/ person with parental responsibility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonate at least 48 hours old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Maternal SSRI use at any point in pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age of parent/ person with parental responsibility under 16 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neonate who is clinically unwell with risk of infection on examination",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She is complaining of sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT02492347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01116063",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD and increased SPAP >55 on echocardiogram",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal wedge pressure (PCWP \u2264 15 mm Hg)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mean PAP \u2265 35 mm Hg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pulmonary vascular resistance (PVR) < 3.0 wood unit",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of COPD according to GOLD guidelines",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient can read, understand and sign the informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other identified cause for pulmonary hypertension",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonary consult recommended an empiric, compassionate sildenafil trial.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01116063",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

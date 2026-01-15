@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01986413",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Stable respiratory insufficiency",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hypercapnia >50 mmHG",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically required NIV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Capable of giving consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Existing ventilatory support",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Invasive ventilation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any other severe physical disease that requires immediate medical assistance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute hypercapnic decompensation with pH <7.30 in routine BGA",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Circumstances that doesn't allow mask ventilation (e.g. facial deformation)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in a clinical trial within the last 4 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or nursing period",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug addiction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 70s on BipAp.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01986413",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

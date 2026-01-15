@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03658031",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute MI according to AHA criteria",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eGFR >60 ml/min",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "stable body weight (+2 kg) in the preceding 3 months",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of prediabetes based upon the ADA criteria",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "eGFR<60 ml/min",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "T2DM or T1DM according to the ADA criteria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects receiving medications known to affect glucose tolerance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major organ disease like cancer, chronic pulmonary or liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis and is being treated with ACE inhibitors and Beta blockers for cardiomyopathy.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03658031",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

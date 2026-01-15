@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02775318",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "post aneurysm clipping",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "symptomatic vasospasm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "new onset of focal neurological deficit or deterioration in the level of consciousness due to other causes",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "infarct on cerebral tomography",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of CAD, but no other cardiovascular risk factors. He has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02775318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

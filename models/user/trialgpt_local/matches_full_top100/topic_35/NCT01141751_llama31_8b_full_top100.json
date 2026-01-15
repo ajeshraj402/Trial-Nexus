@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01141751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects eligible for Rebif therapy according to indications and clinical use in the",
+      "label": "met",
+      "evidence": "Rebif Product Monograph"
+    },
+    {
+      "criterion": "Subjects who have read, understood, signed and dated the informed consent form",
+      "label": "met",
+      "evidence": "informed consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects who are unable to fill in the questionnaires by him/herself",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects who have used disease modifying drugs within the last month (or 30 days)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "15 year old girl with recurrent bilateral headache, diagnosed with migraine headache and under treatment. Lives with parents, high-school student.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT01141751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

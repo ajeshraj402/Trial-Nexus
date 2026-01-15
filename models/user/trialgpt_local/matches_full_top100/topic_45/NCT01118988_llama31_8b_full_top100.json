@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic pain diagnosis and access to telephone, but is older than 18.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

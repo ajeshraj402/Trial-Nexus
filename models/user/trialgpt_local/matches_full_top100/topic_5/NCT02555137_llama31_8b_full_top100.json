@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02555137",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic acute PE",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "treated with anticoagulant therapy for at least three months",
+      "label": "met",
+      "evidence": "anticoagulant therapy according to current guidelines"
+    },
+    {
+      "criterion": "signed and dated informed consent available before study procedures",
+      "label": "met",
+      "evidence": "signed and dated informed consent of the subject available"
+    },
+    {
+      "criterion": "age \u226518 years",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known CTEPH or PH",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "NYHA class III or IV chronic heart failure due to left ventricular systolic dysfunction, left ventricular diastolic dysfunction or significant valvular lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe renal failure (eGFR <15 ml/min) or renal replacement therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "medical or psychological condition that would not permit completion of the study or signing of informed consent, including life expectancy less than six months, or unwillingness to sign informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "non-compliance or inability to adhere to treatment or to the follow-up visits",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02555137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

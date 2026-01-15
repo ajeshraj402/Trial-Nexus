@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01575249",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "mild to moderate AS (Table 1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate AS (Table 2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mild, moderate and severe AS (Table 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate to severe AS (Table 4)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "positive stress test",
+      "label": "triggers"
+    },
+    {
+      "criterion": "heart failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "LVEF < 55%",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01575249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

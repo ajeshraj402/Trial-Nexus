@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04155294",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37-year-old woman"
+    },
+    {
+      "criterion": "hiv_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_cin_2_3_treatment",
+      "label": "not_met",
+      "evidence": "no previous diagnosis of CIN 2/3 and/or treatment for cervical dysplasia"
+    },
+    {
+      "criterion": "last_smear_test",
+      "label": "met",
+      "evidence": "test revealed stage 1B of cervical cancer"
+    },
+    {
+      "criterion": "english_language",
+      "label": "met",
+      "evidence": "able to speak and understand English"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "willing and able to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "invasive_cervical_malignancy",
+      "label": "not_met",
+      "evidence": "stage 1B of cervical cancer"
+    },
+    {
+      "criterion": "pregnant_or_breastfeeding",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    }
+  ],
+  "notes": "The patient has three sexual partners and four children, but this does not seem to be a reason for exclusion. She underwent tubal ligation.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04155294",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

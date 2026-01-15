@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02377947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "either gender"
+    },
+    {
+      "criterion": "liver_cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "he_grade_3_or_4",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication_to_lactulose",
+      "label": "not_met",
+      "evidence": "no hypersensitivity or galactosaemia mentioned"
+    },
+    {
+      "criterion": "gastrointestinal_obstruction",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, but is on Levodopa and Trihexyphenidyl which helps with symptoms. No contraindications to lactulose mentioned.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT02377947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

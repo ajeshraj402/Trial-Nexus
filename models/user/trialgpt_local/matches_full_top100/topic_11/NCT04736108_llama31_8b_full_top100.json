@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04736108",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically or cytologically diagnosis of prostate cancer with positive IDC-P",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "High-risk localized prostate cancer, defined by either: Tumor stage \u2265T3a by digital rectal examination, or Primary tumor Gleason score \u2265 8, or PSA > 20 ng/mL",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of metastases",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The ECOG score of the patient is \u22642",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Expected survival over 5 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must participate voluntarily and sign an informed consent form (ICF), indicating that they understand the purpose and required procedures of the study, and are willing to participate in. Patients must be willing to obey the prohibitions and restrictions specified in the research protocol",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate hematologic, renal and hepatic function: Absolute neutrophil count [ANC] \u22651.5 x 10^9/L",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet count [PLT] \u2265100 x 10^9/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemoglobin [HGB] \u22659 g/dL",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum Total bilirubin [TBIL] \u22641.5 x upper limit of normal (ULN)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST), alanine aminotransferase (ALT) < 2.5 x ULN",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior androgen deprivation therapy (medical or surgical), radiation therapy or chemotherapy for prostate cancer",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of metastatic disease (M1) on imaging studies",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT, which may indicate prior treatment for cancer. Additionally, the patient's age is not specified as being over 18 years old.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04736108",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

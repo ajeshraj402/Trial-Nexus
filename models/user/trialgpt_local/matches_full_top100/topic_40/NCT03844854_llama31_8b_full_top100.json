@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03844854",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 and 60",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "First stage: without history of temporomandibular disorders",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Second stage: Patients with TMD without previous history of treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment for masticatory muscles disorders and clinical criteria used in the first stage",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age under 18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age over 60",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03844854",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

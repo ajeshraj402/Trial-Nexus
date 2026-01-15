@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00059137",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "lesion needing biopsy in the chest or abdominal areas",
+      "label": "met",
+      "evidence": "abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis"
+    },
+    {
+      "criterion": "age greater than 18 years",
+      "label": "met",
+      "evidence": "41-year-old"
+    },
+    {
+      "criterion": "No serious concurrent medical illness that would preclude the patient from making a rational informed decision on participation.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The ability to understand and willingness to sign a written informed consent form, and to comply with the protocol.",
+      "label": "met",
+      "evidence": "She drinks alcohol frequently and does not smoke. She has no history of allergies and uses only multivitamins daily."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with an altered mental status that precludes understanding or consenting for the biopsy procedure will be excluded from this study.",
+      "label": "does_not_trigger",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients unable to hold breath for more than 5 seconds.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of frequent alcohol consumption. Abdominal CT scan confirms gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00059137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

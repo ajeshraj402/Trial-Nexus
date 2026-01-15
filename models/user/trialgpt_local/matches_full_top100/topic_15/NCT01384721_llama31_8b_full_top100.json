@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01384721",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "\u226564-slice CT technology (or 16-slice CT technology with >4 year follow-up)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "of at least 100 with complete clinical file and follow-up",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimum follow-up of 12 months Only",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with suspected Coronary Artery Disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal failure (creatinine clearance <60ml/min)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known previous reaction to iodinated contrast medium and pregnancy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but also has renal failure which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01384721",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

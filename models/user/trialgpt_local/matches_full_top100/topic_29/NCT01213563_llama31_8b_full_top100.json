@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01213563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Body mass index (BMI) > 35",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Insulin-requiring T2DM",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18yr",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Having undergone gastric bypass surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1C >8%",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-insulin requiring T2DM",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1C <8%",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis, but is currently well and not experiencing nausea or vomiting.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01213563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

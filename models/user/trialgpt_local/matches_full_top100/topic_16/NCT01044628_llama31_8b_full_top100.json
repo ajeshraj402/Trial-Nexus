@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01044628",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "smoking and obstructive disease with FEV1/FVC < 70%",
+      "label": "met"
+    },
+    {
+      "criterion": "presence of mild-to-moderate daytime hypoxemia with a daytime PaO2 in the range of 56-69 mmHg",
+      "label": "met"
+    },
+    {
+      "criterion": "patients fulfilling our definition of nocturnal oxygen desaturation: >= 30% of the recording time with transcutaneous arterial oxygen saturation < 90%",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe hypoxemia fulfilling the usual criteria for continuous oxygen therapy at study entry",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients with proven sleep apnea (defined by an apnea/hypopnea index of >=15 events/hour) or suspected sleep apnea on oximetry tracings",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01044628",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

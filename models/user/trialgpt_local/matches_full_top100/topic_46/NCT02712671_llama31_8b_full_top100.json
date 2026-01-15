@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02712671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "New diagnosis of HIV or established in care in HIV clinic by stratified sampling",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of active TB or undergoing treatment for active or latent TB",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to produce sputum by coughing (e.g. recent rib fracture, chest pain, pneumothorax)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of steroids (equivalent to 15mg prednisolone for \u22654 weeks) or any other immunosuppressive drugs (e.g. azathioprine) - relative",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active solid organ or haematological malignancy (excluding Kaposi's sarcoma)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous hypersensitivity to purified protein derivative (PPD)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Extensive eczema",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with new diagnosis of TB, able to give informed consent. No active TB treatment or pregnancy.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02712671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04498611",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult over 19 years-old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Breast Ductal Carcinoma in-situ patients who diagnosed preoperative tissue biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A person who understands this study and agrees with willingness to participate",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ductal Carcinoma in-situ which diagnosed excisional biopsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "When there is no lesion that can be discriminated from magnetic resonance imaging",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neoadjuvant chemotherapy patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have complication (hematoma, abscess etc.) after preoperative biopsy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. She is a candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04498611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

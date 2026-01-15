@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "Language",
+      "label": "met",
+      "evidence": "English"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Dementia",
+      "label": "not_met",
+      "evidence": "International HIV Dementia Scale score <10"
+    },
+    {
+      "criterion": "Cognitive slowing",
+      "label": "met",
+      "evidence": "t-score >60 on Conner's CPT-II reaction time test"
+    },
+    {
+      "criterion": "Depression",
+      "label": "met",
+      "evidence": "Beck Depression Inventory score <16"
+    },
+    {
+      "criterion": "HIV-1 RNA PCR",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CD4 count",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy test",
+      "label": "met",
+      "evidence": "negative serum or urine pregnancy test"
+    },
+    {
+      "criterion": "Contraception",
+      "label": "not_met",
+      "evidence": "no contraception used"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Informed consent",
+      "label": "triggers",
+      "evidence": "inability to give informed consent"
+    },
+    {
+      "criterion": "Hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypogonadism",
+      "label": "not_met",
+      "evidence": "no mention of hypogonadism"
+    },
+    {
+      "criterion": "Antidepressants",
+      "label": "met",
+      "evidence": "no initiation of antidepressants within 6 weeks"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "triggers",
+      "evidence": "menopausal and uses no contraception"
+    },
+    {
+      "criterion": "EKG abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Coronary artery disease",
+      "label": "not_met",
+      "evidence": "no mention of coronary artery disease"
+    },
+    {
+      "criterion": "Brain related opportunistic infections",
+      "label": "not_met",
+      "evidence": "no mention of brain related opportunistic infections"
+    }
+  ],
+  "notes": "Patient is a 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positive. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

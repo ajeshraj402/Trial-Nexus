@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03019432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult first-stroke patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients attending a rehabilitation program in the Rehabilitation Hospital Revarte, Belgium",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "An age above 65",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Neurological, except stroke, and orthopaedic impairments influencing outcome measures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Brainstem, cerebellar or multiple lesions",
+      "label": "not_met",
+      "evidence": "initial CT angiogram of head and neck reported no acute intracranial findings"
+    },
+    {
+      "criterion": "An ischemic or hemorrhagic etiology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing co-morbid conditions that may affect vision and somatosensory function",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. Hypertension, hyperlipidemia and hypothyroidism; smokes 1 pack per day for 40 years.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03019432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

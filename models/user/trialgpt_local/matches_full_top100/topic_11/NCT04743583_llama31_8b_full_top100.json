@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04743583",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years at the time of the procedure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known or suspected lung cancer based on imaging (CT and/or PET/CT)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Endosonography (EBUS and/or EUS) indicated for intrathoracic lymph node",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "assessment/sampling according to national and international guidelines: 1) enlarged (>1 cm on its short axis at CT) and/or PET positive lymph node; and/or 2) conditions at risk for occult mediastinal metastases, such as: i) central primary tumor; ii) primary tumor > 3 cm; iii) PET negative primary tumor; iv) ipsilateral hilar metastasis (cN1 status).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability or unwillingness to consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Compromised upper airway (i.e., concomitant head and neck cancer with upper airway obstruction; critical central airway obstruction from any cause)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication for temporary interruption of the use of antiplatelet (excluded aspirin) or anticoagulant drugs",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ASA 4",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has compromised upper airway due to concomitant head and neck cancer with upper airway obstruction.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04743583",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

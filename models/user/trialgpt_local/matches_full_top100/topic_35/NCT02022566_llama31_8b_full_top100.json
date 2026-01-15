@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02022566",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 and 75 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with clinically verified OA, coming to see a physical therapist for the",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Supported self-management of osteoarthritis program",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other serious disorders causing hip or knee pain (e.g. tumor, rheumatic arthritis,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other symptoms more aggravating than the OA problem (e.g. chronic pain, fibromyalgia,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardio-respiratory dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spinal condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total joint replacement surgery within the past 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other surgery of knee or hip within the past 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to read and understand Swedish and follow verbal and visual instructions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She has been diagnosed with migraine headache and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02022566",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

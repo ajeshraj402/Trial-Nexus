@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03355404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Major patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient hospitalized for surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients agreeing to participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient speaking and understanding French",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with reduced mobility",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with a mental disability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient suffering from a severe psychiatric pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major patient protected",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03355404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

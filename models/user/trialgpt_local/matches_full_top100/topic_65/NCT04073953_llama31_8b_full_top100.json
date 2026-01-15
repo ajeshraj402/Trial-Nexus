@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04073953",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "G6PD deficient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "otherwise normal healthy adults aged 18 to 65",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known history of liver, kidney or hematological disease (other than G6PD deficiency)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known history of cardiac disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-sinus rhythm arrhythmia or QT prolongation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Autoimmune disorders",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Report of an active infection",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04073953",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

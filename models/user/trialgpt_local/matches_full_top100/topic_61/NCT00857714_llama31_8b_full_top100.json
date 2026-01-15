@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00857714",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 18 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with operable, biopsy-proven DCIS detected by screening mammography.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ER/PR negative DCIS.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DCIS that is positive for HER-2 &/or EGFR, which is defined as IHC 3+.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women of childbearing potential willing to use an accepted and effective barrier method of contraception.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status \u22642",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cardiac ejection fraction within the institutional range of normal as measured by echocardiogram.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have normal organ and marrow function as defined below: leukocytes \u22653,000/microL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absolute neutrophil count \u22651,500/microL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "platelets \u2265100,000/microL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "total bilirubin within normal institutional limits",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Invasive breast cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ER+ or PR+ DCIS",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or breast feeding women",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has invasive breast cancer, which is a contraindication for this trial. Additionally, the patient's ER/PR status is not specified, but given the presence of invasive cancer, it is likely that the DCIS is ER+ or PR+, further supporting exclusion.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00857714",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

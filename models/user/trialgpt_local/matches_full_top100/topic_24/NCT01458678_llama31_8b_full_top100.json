@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01458678",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Open abdominal surgery under general anaesthesia with a planned operation time of at least 120 minutes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anaesthesia risk classification ASA \u2265 4",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Arrhythmia; atrial fibrillation or multiple extra systoles",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aortic - or mitral insufficiency with hemodynamic influence",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who at the preoperative visit by the responsible anaesthesiologist is planned for a more advanced cardiovascular monitoring.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a pulmonary or other disease that prevents ventilation using a tidal volume of 7 ml/kg (ideal weight) or a positive end expiratory pressure of 5 -10 cm H2O",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contra indication against synthetic colloids as severely impaired renal or liver function, hyper natremia or allergy to synthetic colloids",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Laparoscopic surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Liver surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 55 year old man with lower urinary tract symptoms. He has no significant medical history and his recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01458678",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

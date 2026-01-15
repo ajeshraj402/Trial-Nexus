@@ -1,0 +1,92 @@
+{
+  "trial_id": "NCT01853748",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HER2-positive Stage I histologically confirmed invasive carcinoma of the breast",
+      "label": "met"
+    },
+    {
+      "criterion": "ER/PR determination is required",
+      "label": "unknown"
+    },
+    {
+      "criterion": "HER2 positive, confirmed by central testing: IHC 3+, FISH HER2/CEP17 <2.0 with an average HER2 copy number >/=6.0, or FISH HER2/CEP17 >/= 2.0",
+      "label": "met"
+    },
+    {
+      "criterion": "Bilateral breast cancers that individually meet eligibility criteria are allowed",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subjects with multifocal or multicentric disease are eligible as long as each tumor individually meets eligibility criteria",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subjects with a history of ipsilateral DCIS are eligible if they were treated with wide-excision alone, without radiation therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients with a history of contralateral DCIS are not eligible.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Should have tumor tissue available and a tissue block of sufficient size to make 15 slides, which must be sent to a DFCI site for testing",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Less than or equal to 90 days since most recent breast surgery for this breast cancer",
+      "label": "met"
+    },
+    {
+      "criterion": "All tumor should be removed by either a modified radical mastectomy or a segmental mastectomy (lumpectomy) with either a sentinel node biopsy or axillary dissection",
+      "label": "unknown"
+    },
+    {
+      "criterion": "All margins should be clear of invasive cancer or DCIS",
+      "label": "unknown"
+    },
+    {
+      "criterion": "May have received up to 4 weeks of tamoxifen therapy or other hormonal therapy, for adjuvant therapy for this cancer",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breastfeeding",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Use of potent CYP3A4 inhibitors during the study treatment period",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Excessive alcohol intake (more than 3 alcoholic beverages per day)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Locally advanced tumors at diagnosis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of previous invasive breast cancer",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of prior chemotherapy in the past 5 years",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of prior trastuzumab or prior paclitaxel therapy",
+      "label": "not_met"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She has diplopia and weakness affecting her upper extremities. She is on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01853748",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT03717051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hong Kong residents",
+      "label": "met"
+    },
+    {
+      "criterion": "aged 18 to 65 years",
+      "label": "met"
+    },
+    {
+      "criterion": "have used any tobacco products in the past month",
+      "label": "met"
+    },
+    {
+      "criterion": "able to read and speak Chinese",
+      "label": "unknown"
+    },
+    {
+      "criterion": "have not used NRT for the past month",
+      "label": "met"
+    },
+    {
+      "criterion": "no severe angina, serious cardiac arrhythmias and hypertension",
+      "label": "not_met"
+    },
+    {
+      "criterion": "have not suffered acute myocardial event in the past 4 weeks",
+      "label": "unknown"
+    },
+    {
+      "criterion": "neither pregnant nor breastfeeding",
+      "label": "met"
+    },
+    {
+      "criterion": "not under medication and treatment due to mental illness",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have severe angina, serious cardiac arrhythmias and hypertension",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Have suffered from acute myocardial event in the past 4 weeks",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Pregnant nor breastfeeding",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Under medication and treatment due to mental illness",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has MDD, but is on anti-depressants. Has digestive issues recently.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT03717051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

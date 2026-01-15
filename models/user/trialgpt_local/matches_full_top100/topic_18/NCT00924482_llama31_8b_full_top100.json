@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00924482",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient_informed_consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiac_surgery_routine_endotracheal_tube",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiac_surgery_routine_pulmonary_artery_catheter",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "language_barrier",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent_competence",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He had a severe bulbar urethral stricture but was able to pass a small catheter through and left it in place.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00924482",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

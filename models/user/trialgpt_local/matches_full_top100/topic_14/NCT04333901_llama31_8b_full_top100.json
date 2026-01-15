@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04333901",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD patients who require the initiation of a home-NIV (in case of previous equipment: NIV interrupted for more than 6 months)",
+      "label": "met",
+      "evidence": "previous equipment"
+    },
+    {
+      "criterion": "Life expectancy greater than 1 year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient who has agreed to participate in the observational study after receiving clear information from the investigator and signing the consent form",
+      "label": "met",
+      "evidence": "signed consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "NIV indicated for the treatment of chronic respiratory failure other than COPD",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient with overlap syndrome (COPD associated to OSA)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient with limitations who do not allow proper use of the NIV device",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Simultaneous participation in a health intervention research",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD, requires home-NIV, and has agreed to participate in the study. No clear indication of overlap syndrome or limitations that would prevent proper use of NIV device.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04333901",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

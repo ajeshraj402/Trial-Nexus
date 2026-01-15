@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02232685",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed, histologically verified PCa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA \u2265 20 ng/mL and/or",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gleason score > 6 and/or",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cT-stage \u2265 cT2c",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Withdrawal of consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other active malign disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but no other active malignancies mentioned.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02232685",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT00509197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 15-year-old boy"
+    },
+    {
+      "criterion": "asthma_diagnosis",
+      "label": "met",
+      "evidence": "he presents with shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler."
+    },
+    {
+      "criterion": "fev1",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "pc20_methacholine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "fev1_after_bronchodilator",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "asthma_control",
+      "label": "not_met",
+      "evidence": "He is a candidate for general corticosteroid therapy. He used to be treated with combination of inhaled corticosteroids and Zafirlukast."
+    },
+    {
+      "criterion": "acq_score",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sputum_eosinophils",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "He used to be treated with combination of inhaled corticosteroids and Zafirlukast."
+    },
+    {
+      "criterion": "age_range",
+      "label": "met",
+      "evidence": "The patient is a 15-year-old boy"
+    },
+    {
+      "criterion": "asthma_guidelines_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ics_use",
+      "label": "not_met",
+      "evidence": "He didn't respond to the usual corticosteroid inhaler."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hospitalization_recently",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cold_flu_symptoms_recently",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "near_fatal_asthma_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ics_use_recently",
+      "label": "met",
+      "evidence": "He used to be treated with combination of inhaled corticosteroids and Zafirlukast."
+    },
+    {
+      "criterion": "long_acting_beta2_agonists_use_recently",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "montelukast_use_recently",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "theophylline_use_recently",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently being treated with combination of inhaled corticosteroids and Zafirlukast. He presents with symptoms of shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00509197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

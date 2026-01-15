@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02685592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "non-invasive lentigo maligna",
+      "label": "met",
+      "evidence": "located in the skin of face, neck or upper body region"
+    },
+    {
+      "criterion": "Paget's Disease of Bone diagnosis confirmed",
+      "label": "met",
+      "evidence": "increased uptake of radioactive substance as well as an increase in urinary pyridinoline"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Biopsy shows invasive melanoma inside lentigo maligna lesion prior treatment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Porphyria or solar dermatitis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and non-invasive lentigo maligna, but is excluded due to potential invasive melanoma.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02685592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

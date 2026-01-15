@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00461149",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age above 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no previous treatments for acromegaly",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant hyperprolactinemia if requiring combined treatment with dopamine-agonist",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but no acromegaly diagnosis mentioned. No previous treatments for acromegaly.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00461149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00207519",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI >85th% for age and sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Weight gain over the last 6 months of >5% than expected on the growth curve",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "12-17 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intolerance to dairy products (e.g., lactose intolerance)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of clinically significant cardiac disease, congenital heart disease, any clinically significant abnormal cardiac condition, or be known to have a clinically significantly abnormal ECG",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "anorexia nervosa",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "untreated hypothyroidism (TSH greater than 4.0 mU/L for a second generation test)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignancy, pathophysiologic or genetic syndromes associated with obesity (i.e., Cushing's syndrome, Turner's syndrome, Prader Willi syndrome)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "major psychiatric illness such as bi-polar disorder, ADD, major depression, bulimia, schizophrenia, or psychosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of alcohol or drug addiction or substance abuse within the previous 2 years",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has symptoms consistent with STEC infection, including vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite. Physical exam was remarkable for pallor, jaundice, and diffuse abdominal tenderness.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT00207519",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

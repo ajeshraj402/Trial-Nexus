@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02588885",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Fluent in English",
+      "label": "met",
+      "evidence": "She is a book worm and spend her free time in a public library near her home."
+    },
+    {
+      "criterion": "History of sexual abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Premenopausal",
+      "label": "met",
+      "evidence": "She recently noticed that there are more attacks around her menstrual period."
+    },
+    {
+      "criterion": "Chronic pelvic pain defined as pelvic pain with a duration of six months of at least a moderate severity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not menstruating for reasons other than birth control",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not currently receiving any current trauma-focused psychological treatment (i.e., prolonged exposure therapy, cognitive processing therapy, eye movement desensitization reprocessing)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No current psychotic symptoms or current use of anti-psychotic medications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No current suicidal ideation in the past month",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She is diagnosed with the migraine headache and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02588885",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

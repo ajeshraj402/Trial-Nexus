@@ -1,0 +1,121 @@
+{
+  "trial_id": "NCT04424940",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptoms of COVID-19",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "fever or headaches in past 4 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "body temperature measurement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "warm forehead, muscle or joint pain, chills, general weakness",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "trouble breathing in past 24 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chest pain in past 24 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cough",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "sore throat in past 24 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "runny nose in past 24 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "loss of smell in past 24 hours",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "diarrhea in past 24 hours",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "headache in past 24 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tiredness and unable to carry out daily activities",
+      "label": "met",
+      "evidence": "yes"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "COVID-19 suspected clinically",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refuse to participate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "New or exacerbated cough: Yes/No",
+      "label": "not_met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "Sore throat: Yes/No",
+      "label": "not_met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "Fever: Yes/No",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "Intestinal gastritis symptoms (Diarrhea, nausea or vomiting): Yes/No",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anosmia (loss of smell) / Ageusia (loss of taste): Yes/No",
+      "label": "met",
+      "evidence": "yes"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. Physical examination reveals tenderness on palpation of both costovertebral angles.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04424940",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

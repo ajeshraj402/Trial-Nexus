@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01137097",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "tumor size",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metastasis in Papillary thyroid cancer",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "definite metastatic lymph node in lateral neck compartment",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with large tumor size and suspicious central neck node, but has a definite metastatic lymph node in the lateral neck compartment which is a likely trigger for exclusion.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01137097",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

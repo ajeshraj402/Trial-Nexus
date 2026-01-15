@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03003468",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis",
+      "label": "not_met",
+      "evidence": "uncomplicated neonatal jaundice"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Surgery",
+      "label": "triggers",
+      "evidence": "within 4 weeks prior to study registration"
+    },
+    {
+      "criterion": "CNS metastases",
+      "label": "triggers",
+      "evidence": "known active central nervous system (CNS) metastases and/or carcinomatous meningitis"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She does not meet the criteria for surgery within 4 weeks prior to study registration, but she has known active CNS metastases.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03003468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

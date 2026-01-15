@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04426435",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female gender",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age between 18- 70 years old Patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "known case of breast cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hemoglobin level is at least 8 g / dl",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hematocrit level at least 30%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "TSH is normal",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unstable conditions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Disabling Pulmonary Disease and History of Asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe kidney disease; Creatinine level greater than 2mg/dl; Proteinuria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The SGOT level more than 3 times of the normal threshold",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilirubin levels greater than 2mg/dl",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive history of hypersensitivity to saffron, rose water and honey",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe infection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04426435",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

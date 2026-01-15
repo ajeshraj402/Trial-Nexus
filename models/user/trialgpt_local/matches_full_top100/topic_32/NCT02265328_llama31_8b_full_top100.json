@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02265328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe Alcoholic hepatitis (mDF > 32)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-65 Years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Actively consuming alcohol within 6 weeks of entry into the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Failure to obtain informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active infection or sepsis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other concomitant causes of liver disease: viral hepatitis, autoimmune liver disease,",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe alcoholic hepatitis and is actively consuming alcohol within 6 weeks. No other underlying diseases or medications.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02265328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

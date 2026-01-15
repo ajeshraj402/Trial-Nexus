@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01790048",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with MAM defined as mid-upper-arm circumference, MUAC, \u2264 12.5 cm and > 11.5",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cm without bipedal edema.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children simultaneously involved in another research trial or supplemental feeding program",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children with developmentally delayed",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Children with a chronic debilitating illness such as cerebral palsy (not including HIV or TB)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children with a history of peanut or milk allergy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Children will also be excluded if they had received therapy for acute malnutrition within one month prior to presentation.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 12 year old girl with Turner syndrome, treating with GH since 6 months ago without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01790048",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

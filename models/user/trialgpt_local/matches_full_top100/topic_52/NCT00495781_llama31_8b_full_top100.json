@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00495781",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "renal anemia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "therapy with iron",
+      "label": "met",
+      "evidence": "lab study: 'Therapy with iron'"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cancer",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has renal anemia and is on iron therapy. No evidence of cancer or other exclusion criteria.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00495781",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

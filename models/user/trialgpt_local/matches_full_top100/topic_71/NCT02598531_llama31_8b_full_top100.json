@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02598531",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "Non-inflammatory Degenerative Joint Disease (NIDJD)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Morbid Obesity",
+      "label": "met",
+      "evidence": "BMI: 41.5"
+    },
+    {
+      "criterion": "Suitable candidate for cemented primary TKA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not bedridden",
+      "label": "met",
+      "evidence": "Patient is able to move"
+    },
+    {
+      "criterion": "Voluntary, written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Comfortable with speaking and reading",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous bariatric surgery",
+      "label": "met",
+      "evidence": "Patient is considering a laparoscopic gastric bypass"
+    },
+    {
+      "criterion": "Medical or psychological condition affecting surgery suitability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known drug or alcohol abuser",
+      "label": "not_met",
+      "evidence": "Patient does not smoke or use any drugs"
+    },
+    {
+      "criterion": "Psychological disorder affecting questionnaire completion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a high BMI and is considering bariatric surgery, which may be an exclusion criterion. However, the overall assessment is likely ineligible due to the presence of exclusion criteria.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02598531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

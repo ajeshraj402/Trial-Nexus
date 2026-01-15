@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00577668",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of histologically documented MM with relapsed or progressive disease after",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "either scheduled tandem or one autologous transplantation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has measurable disease in which to capture response.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Performance status of 2 as per Zubroid scale, unless PS of 3-4 based solely on bone pain.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have a platelet count 75,000/\u03bcL,",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and an ANC of at least 1,000/\u03bcL.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have adequate renal function defined as serum creatinine < 2.5 mg/dL.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have adequate hepatic function defined as serum transaminases and direct bilirubin < 2 x the upper limit of normal.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Male or female adults of at least 18 years of age.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have signed an IRB-approved written informed consent form and demonstrate willingness to meet follow-up schedule and study procedure obligations.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chemotherapy or radiotherapy received within the previous 2 weeks.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Significant neurotoxicity, defined as grade > 2 neurotoxicity per NCI Common Toxicity Criteria (See Appendix).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count < 75,000/mm3,",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "or ANC < 1,000/\u03bcl.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically significant hepatic dysfunction as noted by bilirubin or AST > 3 times the upper normal limit or clinically significant concurrent hepatitis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "New York Hospital Association (NYHA) Class III or Class IV heart failure.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Myocardial infarction within the last 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled, active infection requiring IV antibiotics.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of multiple myeloma with relapsed disease after autologous transplantation and measurable disease. She is on hemodialysis for ESRD and has systemic amyloidosis involving lungs, tongue, bladder, and heart.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00577668",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

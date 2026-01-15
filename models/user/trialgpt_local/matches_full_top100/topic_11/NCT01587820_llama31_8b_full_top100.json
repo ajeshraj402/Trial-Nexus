@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01587820",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically or cytologically confirmed stage IV squamous cell carcinoma of the oral cavity or oropharynx staged according to AJCC guidelines",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "T4 staged tumor with a tumor volume greater than or equal to 30 cc",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Nodal staging of N0 through 2a",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of distant metastatic disease, as determined by a negative PET scan or other clinically appropriate means",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically eligible for both intra-arterial and intravenous administration of cisplatin",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative pregnancy test.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Agree to use adequate contraception prior to study entry and for the duration of study participation and for 3 months after study treatment ended",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Biopsiable via a transoral approach",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy of at least 5 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status \u2264 2",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Radiologic evidence of bone destruction",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tumor with involvement of cartilage or bone",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Requires bilateral IA infusion with radiologist determination that tumor extends across the midline in excess of 30% of the tumor volume",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, which is not a squamous cell carcinoma. They also have a history of surgery and radiation therapy, which may make them ineligible for the study.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01587820",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

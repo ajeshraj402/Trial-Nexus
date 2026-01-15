@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02035566",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Home bound at a home health agency",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical diagnosis of chronic obstructive pulmonary disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to operate the telehome care system",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Agreeable to have the telehome care system installed at residence for 60 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Residing in an environment where care can be provided safely",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not eligible for home health care",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "With a clinical diagnosis of a medical condition other than obstructive pulmonary disease, chronic heart failure, uncontrolled hypertension, diabetes mellitus and taking anti-hyperglycemic oral therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02035566",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

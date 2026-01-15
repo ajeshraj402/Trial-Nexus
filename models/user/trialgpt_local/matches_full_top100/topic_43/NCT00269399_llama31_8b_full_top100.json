@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00269399",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diarrhea",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abdominal pain",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "positive Clostridium difficile stool toxin assay",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous episode of clinically diagnosed Clostridium difficile within the past 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic diseases associated with diarrhea (e.g., inflammatory bowel disease or diarrhea predominant irritable bowel syndrome [DIBS])",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman admitted to the stroke department with recent history of aspiration pneumonia and symptoms consistent with Clostridium difficile infection.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00269399",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

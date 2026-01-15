@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00593580",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postmenopausal",
+      "label": "met",
+      "evidence": "surgical extirpation of ovaries"
+    },
+    {
+      "criterion": "primary ovarian or endometrial cancer",
+      "label": "met",
+      "evidence": "diagnosis with Paget's disease of bone"
+    },
+    {
+      "criterion": "planned to receive multiagent chemotherapeutic regimen for 6 cycles",
+      "label": "met",
+      "evidence": "chemotherapy regimen"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "patient signed informed consent"
+    },
+    {
+      "criterion": "BMD T-score between -2.5 and 0 at any site",
+      "label": "met",
+      "evidence": "BMD measurement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal insufficiency with CrCl < 35mL/min",
+      "label": "not_met",
+      "evidence": "normal renal function"
+    },
+    {
+      "criterion": "BMD T-score < -2.5 at any site",
+      "label": "not_met",
+      "evidence": "BMD measurement"
+    },
+    {
+      "criterion": "medication, excessive alcohol intake, or GI disease inhibiting GI absorption",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "metabolic bone disease, bony metastases, poorly controlled thyroid or parathyroid conditions, Paget's disease, or on hormonal therapy/other treatments for OP",
+      "label": "not_met",
+      "evidence": "no evidence of these conditions"
+    },
+    {
+      "criterion": "abnormalities of the esophagus which delay esophageal emptying i.e., achalasia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to stand or sit upright for at least 30 minutes",
+      "label": "not_met",
+      "evidence": "patient is able to stand and sit upright"
+    },
+    {
+      "criterion": "hypersensitivity to any component of the drug product",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's disease of bone, which meets several inclusion criteria. The patient is also postmenopausal and has primary ovarian cancer, which further supports eligibility.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00593580",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

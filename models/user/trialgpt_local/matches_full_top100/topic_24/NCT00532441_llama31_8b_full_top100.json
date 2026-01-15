@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00532441",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological or cytological proof of hepatocellular or biliary tract carcinomas",
+      "label": "met",
+      "evidence": "not amenable to curative resection or transplantation"
+    },
+    {
+      "criterion": "Prior cancer treatment completed at least 30 days prior to being registered for protocol therapy and recovered from the acute toxicity effects of the regimen.",
+      "label": "met",
+      "evidence": "completed treatment"
+    },
+    {
+      "criterion": "Patients may have had radiofrequency ablation, cryosurgery or embolization, but must have documented progressive disease with the involved lesion, or at least one previously untreated lesion.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Peripheral neuropathy \u2264 grade 1.",
+      "label": "met",
+      "evidence": "\u2264 grade 1"
+    },
+    {
+      "criterion": "Patients must agree to abstain from frozen or fresh grapefruit or grapefruit juice for 5 days prior to, and during treatment.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent and HIPAA authorization for release of personal health information.",
+      "label": "met",
+      "evidence": "written informed consent"
+    },
+    {
+      "criterion": "Age \u2265 18 years at time of consent.",
+      "label": "met",
+      "evidence": "\u2265 18 years"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No previous treatment with EGFR inhibitors.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No symptomatic brain metastasis. A subject with prior brain metastasis may be considered if they have completed their treatment for brain metastasis, no longer require corticosteroids, and are asymptomatic.",
+      "label": "not_met",
+      "evidence": "no symptomatic brain metastasis"
+    },
+    {
+      "criterion": "No Child-Pugh B or C liver cirrhosis.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No active corneal erosions or history of abnormal corneal sensitivity test.",
+      "label": "not_met",
+      "evidence": "no active corneal erosions"
+    },
+    {
+      "criterion": "No history of aneurysm or arteriovenous malformation.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No hemorrhage/bleeding event > CTCAE Grade 3 within 30 days prior to begin registered for protocol therapy.",
+      "label": "not_met",
+      "evidence": "no hemorrhage/bleeding event"
+    },
+    {
+      "criterion": "No clinically significant infections as judged by the treating investigator.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No condition that impairs patient's ability to swallow whole pills.",
+      "label": "not_met",
+      "evidence": "no condition impairing swallowing"
+    }
+  ],
+  "notes": "The patient is a 55 year old man with lower urinary tract symptoms. He has no previous treatment with EGFR inhibitors and no symptomatic brain metastasis.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT00532441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

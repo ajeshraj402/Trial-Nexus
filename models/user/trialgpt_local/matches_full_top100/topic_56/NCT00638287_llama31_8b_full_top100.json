@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00638287",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "clinical_indication_for_testing_GH_response_to_secretagogue_testing",
+      "label": "met",
+      "evidence": "evaluate for GHD OR clinical indication for testing for GH response to oral glucose load (75grams of glucose) to evaluate for Acromegaly either for diagnosis OR normal volunteer for control group."
+    },
+    {
+      "criterion": "normal_volunteers_will_be_screened_for_evidence_of_pituitary_endocrine_dysfunction_prior_to_OGTT_and_GHRH-ARG",
+      "label": "met",
+      "evidence": "Normal volunteers will be screened for evidence of pituitary endocrine dysfunction prior to Oral Glucose Tolerance Testing (OGTT) and Growth Hormone Releasing Hormone - Arginine Testing (GHRH-ARG)"
+    },
+    {
+      "criterion": "able_to_provide_informed_consent",
+      "label": "met",
+      "evidence": "Able to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subjects_taking_GH",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant_or_breast_feeding",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient underwent transsphenoidal surgery 4 months ago and takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00638287",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

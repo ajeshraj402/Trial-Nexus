@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01757444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Man or woman",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "stable patient with obesity hypoventilation syndrome, naives of non-invasive ventilation.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PaCO2 \u2265 45 mmHg.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PaO2 < 70 mmHg",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "BMI \u2265 30Kg. m2",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic obstructive pulmonary disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neuromuscular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Scoliosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac insufficiency",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Significant psychiatric disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sleep apnea syndrome with central apnea index > 10%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, but is on non-invasive ventilation. Has significant psychiatric disease.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01757444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

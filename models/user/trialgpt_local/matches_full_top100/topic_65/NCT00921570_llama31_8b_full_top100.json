@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00921570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CKD stage 1 patients",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Older than 18 years of age",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Type 2 Diabetic patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Proteinuria",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypertension",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ischemic ST-T alterations and voltage criteria for LVH on electrocardiogram",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of revascularization or myocardial infarction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Elevated liver enzymes (AST or ALT levels \u2265 40U/L)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal failure (serum creatinine levels > 1.3 mg/dl)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of coronary artery disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smokers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Taking statins or renin-angiotensin blockers",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, cardiomyopathy, and is taking ACE inhibitors and Beta blockers. He claims mild dyspnea after climbing 3 floors but no angina.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00921570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

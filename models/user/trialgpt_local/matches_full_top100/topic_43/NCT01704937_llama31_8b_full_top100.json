@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01704937",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recurrent_or_relapsing_cdi",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "willingness_to_accept_risk",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "ability_to_consent",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anatomic_contraindication_ngt",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "delayed_gastric_emptying_syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent CDI and is willing to accept the risk of unrelated donor stool. She is able to consent for herself.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01704937",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

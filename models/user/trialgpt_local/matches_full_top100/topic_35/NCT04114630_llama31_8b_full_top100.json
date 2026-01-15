@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04114630",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent must be obtained prior to participation in the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults \u226518 years of age upon entry into screening.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient diagnosed with chronic and high -frequency episodic migraine (with or without aura) for at least 1 year prior to screening according to the International Classification of Headache Disorders-3rd Edition (ICHD-3).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with a documented diagnosis in clinical history of one or more of the following comorbidities: chronic fatigue, fibromyalgia and/or IBS.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients previously treated with other monoclonal antibodies for migraine can be included if the appropriate washout period according to product half-life has been done for each monoclonal antibody.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Migraine frequency of \u2265 10 migraine days during the Baseline Epoch, confirmed by the eDiary.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u2265 80% eDiary compliance during the Baseline Epoch.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Older than 50 years of age at migraine onset.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to differentiate migraine from other headaches.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of cluster headache or hemiplegic migraine headache.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Used a device, or procedure within 2 months prior to the start of or during baseline or during the treatment period.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of other investigational drugs within 5 half-lives of enrollment or inappropriate washout period in case of monoclonal antibodies, or until the expected pharmacodynamic effect has returned to baseline, whichever is longer.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unlikely to be able to complete all protocol required study visits or procedures, and/or to comply with all required study procedures.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History or evidence of any other unstable or clinically significant medical condition that in the opinion of the investigator would pose a risk to subject safety or interfere with the study evaluation, procedures, or completion.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with recurrent bilateral headache. She has been diagnosed with migraine and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT04114630",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03009968",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled for pelvic organ prolapse surgery and/or stress urinary incontinence surgery requiring a post-operative voiding trial",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented PVR of less than 100mL prior to surgery obtained either during a previous clinic visit or at the time of their preoperative urodynamics evaluation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dependent on catheterization to void preoperatively",
+      "label": "met",
+      "evidence": "quote: 'impossible for staff to pass a foley'"
+    },
+    {
+      "criterion": "Patient's undergoing fistula repair, sacral neuromodulation, urethral diverticulum/vaginal mass excision or mesh revision surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures. Severe bulbar urethral stricture requiring surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03009968",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

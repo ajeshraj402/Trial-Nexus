@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02874066",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "27 kg/m2"
+    },
+    {
+      "criterion": "Chronic HCV infection",
+      "label": "met",
+      "evidence": "HCV RNA > 1,000 IU/mL for at least 6 months before screening"
+    },
+    {
+      "criterion": "Treatment-na\u00efve or treatment-experienced",
+      "label": "met",
+      "evidence": "treatment-experienced (including patients who relapsed)"
+    },
+    {
+      "criterion": "HCV GT-1b infection",
+      "label": "met",
+      "evidence": "Abbott RealTime HCV genotyping II"
+    },
+    {
+      "criterion": "Absence of cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate < 15 mL/min/1.73m2",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HCV infection other than HCV GT-1b",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alcoholic liver disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02874066",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT02942264",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pathologic diagnosis of anaplastic astrocytoma defined as WHO grade III or glioblastoma/gliosarcoma, WHO grade IV",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine."
+    },
+    {
+      "criterion": "recurrent disease, histologically proven or imaging suggestive of recurrent disease as determined by PI",
+      "label": "not_met",
+      "evidence": "None"
+    },
+    {
+      "criterion": "ability to understand and willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "Patient is described as a 45-year-old man, implying he has the capacity to understand and provide consent."
+    },
+    {
+      "criterion": "age greater than or equal to 18 years old",
+      "label": "met",
+      "evidence": "Patient is 45 years old, which meets this criterion."
+    },
+    {
+      "criterion": "Karnofsky > 60 percent",
+      "label": "unknown",
+      "evidence": "None"
+    },
+    {
+      "criterion": "adequate bone marrow function (ANC > 1,500/mm3, platelet count of > 100,000/mm3)",
+      "label": "unknown",
+      "evidence": "None"
+    },
+    {
+      "criterion": "adequate liver function (ALT and AST< 3 times upper limit normal and alkaline phosphatase < 2 times upper limit normal, total bilirubin < 1.5mg/dl)",
+      "label": "unknown",
+      "evidence": "None"
+    },
+    {
+      "criterion": "adequate renal function (BUN < 1.5 times institutional normal and serum creatinine < 1.5 mg/dl)",
+      "label": "unknown",
+      "evidence": "None"
+    },
+    {
+      "criterion": "tumor tissue must be available for review to confirm histological diagnosis",
+      "label": "met",
+      "evidence": "Patient has undergone biopsy and tumor is located in the T-L spine."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are receiving any other investigational agents",
+      "label": "triggers",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Patients with prior bevacizumab use for tumor treatment",
+      "label": "triggers",
+      "evidence": "None"
+    }
+  ],
+  "notes": "Patient's history of anaplastic astrocytoma and current condition suggest eligibility, but lack of information on Karnofsky score, bone marrow function, liver function, renal function, and tumor tissue availability for review makes overall assessment uncertain. Exclusion criteria related to investigational agents and bevacizumab use are likely triggers.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02942264",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

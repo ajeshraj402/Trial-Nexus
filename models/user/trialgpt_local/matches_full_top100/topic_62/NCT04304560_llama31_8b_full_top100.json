@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04304560",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "type-2 diabetes history >=5 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1C 6-10% with glucose control medications including insulin, metformin or sulfonylurea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Medically stable",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing to participate and sign informed consent",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "GFR <60 mL/min/1.73 m2",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unstable or rapidly progressive renal disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hypotension with SBP <100 mmHg",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may indicate a history of cardiovascular disease. However, the patient's LDL-C level is high, but HDL-C level is within normal limits.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04304560",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

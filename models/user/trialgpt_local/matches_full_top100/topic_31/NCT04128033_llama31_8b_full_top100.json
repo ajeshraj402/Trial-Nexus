@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04128033",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "midwife acupuncturist present",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primiparous or multiparous women who have never given birth vaginally",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "term patients (after 37 weeks of amenorrhea)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients delivering a fetus in cephalic presentation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients speaking and understanding French",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients suspected of having a fetal macrosomy (greater than the 97th percentile) on the last ultrasound",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with twin pregnancies",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. She has cervical cancer and tested positive for HPV 16.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04128033",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02364297",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients developing acute variceal bleeding from GOV2 and/or IGV1 defined according to Baveno II criteria, admitted in the Hospital and receiving standard combined medical therapy (somatostatin 3 mg/12h continuous IV infusion or terlipressin, 2mg/4h IV + endoscopic injection of tissue adhesives as per center protocol).",
+      "label": "met"
+    },
+    {
+      "criterion": "Terminal liver disease (bilirrubin > 10 mg/dL and/or prothrombin index < 30%); or other fatal non-liver diseases.",
+      "label": "met"
+    },
+    {
+      "criterion": "Denied informed consent.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatocarcinoma without therapeutic options (according to Milan criteria).",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Portal or mesenteric vein thrombosis avoiding the performance of TIPS.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Acute alcoholic hepatitis.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02364297",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

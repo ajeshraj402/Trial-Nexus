@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03538327",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Hypertensive NGT patients with 1-h post load plasma glucose >155 mg/dl, during OGTT.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinical evidence of ischemic or valvular heart disease, congestive heart failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "peripheral vascular and chronic gastrointestinal diseases associated with malabsorption",
+      "label": "triggers"
+    },
+    {
+      "criterion": "chronic pancreatitis",
+      "label": "triggers"
+    },
+    {
+      "criterion": "history of any malignant or autoimmune disease, alcohol or drug abuse",
+      "label": "triggers"
+    },
+    {
+      "criterion": "liver or kidney failure",
+      "label": "triggers"
+    },
+    {
+      "criterion": "treatments able to modify glucose metabolism and smoking",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery, which may indicate a history of ischemic heart disease. Additionally, the patient's LDL-C level is significantly high (545 mg/dL), which may be a concern for cardiovascular health.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03538327",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

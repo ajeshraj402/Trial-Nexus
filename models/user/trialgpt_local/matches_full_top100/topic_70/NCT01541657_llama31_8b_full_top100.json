@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01541657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18-45 years of age"
+    },
+    {
+      "criterion": "Ankle sprain history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "AII score",
+      "label": "met",
+      "evidence": "Score of \u2265 5 on the Ankle Instability Instrument (AII)"
+    },
+    {
+      "criterion": "FAAM-ADL score",
+      "label": "not_met",
+      "evidence": "Score of \u2264 90% on the Foot and Ankle Ability Measure (FAAM)- Activity of Daily Living (ADL) Subscale"
+    },
+    {
+      "criterion": "FAAM-Sport score",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "Ankle sprain history",
+      "label": "met",
+      "evidence": "History of ankle sprain with at least two episodes of 'giving way' within the past six months"
+    },
+    {
+      "criterion": "AII score",
+      "label": "not_met",
+      "evidence": "HAM-D score is 20 (no direct relation to AII)"
+    },
+    {
+      "criterion": "FAAM-ADL score",
+      "label": "met",
+      "evidence": "Score of \u2264 90% on the FAAM-ADL"
+    },
+    {
+      "criterion": "Lower extremity injury",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has MDD, but no history of ankle sprain or episodes of 'giving way'.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01541657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

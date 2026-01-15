@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "unknown",
+      "evidence": "no mention of HIV status"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to give informed consent",
+      "label": "not_met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "Untreated hypogonadism, hypothyroidism or hyperthyroidism",
+      "label": "unknown",
+      "evidence": "no mention of untreated conditions"
+    }
+  ],
+  "notes": "Patient has a history of asthma but is currently on inhaled corticosteroids and fluticasone. He has symptoms that worsen throughout the work week, suggesting occupational exposure.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

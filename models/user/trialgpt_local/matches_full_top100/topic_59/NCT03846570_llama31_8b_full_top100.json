@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03846570",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic patient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "proven and documented diagnosis of BE by high resolution computed tomography",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "stable pulmonary status as indicated by FEV1 (percent of predicted) \u226530%",
+      "label": "met",
+      "evidence": "spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "stable clinically phase (ie, subjects free from acute exacerbation for at least 6 weeks prior to the start of the study)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "stable regimen of standard treatment as chronic treatment for BE, at least for the past 4 weeks prior to screening. And/or macrolides if used as chronic treatment for BE at least for the past 6 months prior to screening",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "coughing on the majority of days for more than 8 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to follow the inhaler device instructions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to complete questionnaires",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "possible asthma according to the definition of the Global Initiative for Asthma (GINA)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "positive histamine provocation test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known intolerance for ICS or LABA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "women who are pregnant, lactating, or in whom pregnancy cannot be excluded",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "expected to die within 72 hours after enrolment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cigarette smoking history of > 10 pack-years or current smokers",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "other cardiopulmonary conditions (other than bronchiectasis) that could modify spirometric values",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently experiencing symptoms. He is being treated with corticosteroids and has a stable regimen of standard treatment.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03846570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03447639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Provide written informed consent and the willingness and ability to comply with all aspects of study requirements",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inpatients \u2265 18 years of age with an indwelling catheter in place for at least 5 days with a plan for removal",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients planned for discharge with an indwelling catheter in place",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical signs or symptoms of urinary tract infection at the time of consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs, but is currently in remission. They have an indwelling catheter and are being treated with antibiotics.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03447639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

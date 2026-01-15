@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03296930",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "HCV RNA positive, 2 years ago"
+    },
+    {
+      "criterion": "normal kidney functions",
+      "label": "met",
+      "evidence": "Normal S.creatinine, Normal urine analysis, Normal renal sonography"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal disease",
+      "label": "not_met",
+      "evidence": "no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis, or metabolic liver disease"
+    },
+    {
+      "criterion": "severe co-morbidity",
+      "label": "not_met",
+      "evidence": "alert male with no acute distress"
+    }
+  ],
+  "notes": "Patient is a 55-year-old man diagnosed with HCV 2 years ago and the recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03296930",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02414529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obese subjects",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pubertal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "12-18 years regardless of gender, race or economic circumstance",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pre diabetes/high risk of diabetes using criteria of HbA1C between 5.7 - 6.4%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "25-OH vitamin D level less than 20 ng/ml (50 nmol/liter)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects must be willing to comply with study protocol requirements",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment on medication known to effect vitamin D, calcium and glucose metabolism",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects will be excluded from the study if they have taken any form of vitamin D supplementation greater than 400 IU daily in the preceding 3 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant major organ system illness",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of nephrolithiasis or hypercalcemia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Females who are pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant psychiatric illness: schizophrenia, bipolar disorder, active substance abuse, and uncontrolled major depression.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Attendance at tanning salon",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has MDD with persistent feelings of sadness and loss of interest in daily activities. She is on anti-depressants for the past 6 months, but symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT02414529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has lost about 5kg due to decreased appetite.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

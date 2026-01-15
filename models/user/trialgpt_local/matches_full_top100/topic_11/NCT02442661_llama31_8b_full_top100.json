@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02442661",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of PTC",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least one sonographic examination of the cervical lymph nodes",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lymph node with oval shape, hypoechoic cortex, smooth border, hyperechoic hilum and hilar Doppler flow by ultrasound",
+      "label": "triggers",
+      "evidence": "standard clinical practice"
+    },
+    {
+      "criterion": "Lymph node less than 5 mm in short axis on ultrasound",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with multiple treatments, including XRT and RAI ablation. Recent worsening dysphagia and poor oral intake may indicate progression of disease.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02442661",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

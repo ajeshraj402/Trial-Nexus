@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01723943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spouse of woman diagnosed with breast cancer",
+      "label": "met",
+      "evidence": "patient's husband was recently diagnosed with colon cancer"
+    },
+    {
+      "criterion": "married or cohabiting for at least 6 months",
+      "label": "met",
+      "evidence": "the patient is married and has been so for a long time"
+    },
+    {
+      "criterion": "English as one of their languages of choice",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "live within 25 miles of the University of Washington study center",
+      "label": "met",
+      "evidence": "the patient lives near the UW study center"
+    },
+    {
+      "criterion": "willing to give a sample of blood and/or sputum at time of first and second data collections",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "woman diagnosed with stage IV or recurrent breast cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "woman > 6 months post-diagnosis",
+      "label": "met",
+      "evidence": "the patient's husband was recently diagnosed, but the patient herself has not been"
+    },
+    {
+      "criterion": "spouse and/or woman not able to read and write in English",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01723943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

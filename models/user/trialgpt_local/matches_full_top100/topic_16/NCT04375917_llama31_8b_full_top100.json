@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04375917",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD verified by Forced Expiratory Volume in 1 sec (Fev1) divided by forced Vital Capacity (FVC)< 0,70",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admission due to exacerbation in COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "COPD exacerbation and pneumonia can be included",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Expected duration of admission >48 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Need for oxygen supplementation (SpO2<= 88% in room air)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cognitive able to participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to participate and give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need or anticipated need for mechanical ventilation (Intermittent continuous Positive Airway Pressure (CPAP) is allowed)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Major comorbidities causing hypoxemia (cancer, heart disease, pulmonary embolia)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04375917",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

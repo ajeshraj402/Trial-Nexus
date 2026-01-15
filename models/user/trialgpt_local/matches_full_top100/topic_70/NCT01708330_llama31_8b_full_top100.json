@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01708330",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient at the Women and Infants Triage/Women's Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vital signs are stable",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ages 18 and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a missed abortion, inevitable abortion, incomplete abortion or other nonviable pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Estimated gestational age up to 10 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing MVA at the Women and Infants Triage/Women's Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to read English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give informed consent for involvement in the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is a woman",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has MDD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient's symptoms are persistent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is on anti-depressants for the past 6 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergic to lidocaine, iodine or betadine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known sensitivity to any component of the lidocaine or placebo gel.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In acute distress",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to read English or Spanish",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities. She is on anti-depressants for the past 6 months, but the symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01708330",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

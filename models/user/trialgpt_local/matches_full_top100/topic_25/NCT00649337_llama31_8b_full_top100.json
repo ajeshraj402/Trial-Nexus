@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00649337",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "breast cancer family history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "screening mammogram in past 10 months",
+      "label": "not_met",
+      "evidence": "no screening mammogram in the past 10 months"
+    },
+    {
+      "criterion": "agreement to have a screening mammogram after SonoCin\u00e9",
+      "label": "met",
+      "evidence": "agree to have a screening mammogram that will not be reviewed until after a SonoCin\u00e9 is performed"
+    },
+    {
+      "criterion": "agreement to have a screening mammogram in one year",
+      "label": "met",
+      "evidence": "agree to have a screening mammogram in approximately one year"
+    },
+    {
+      "criterion": "agreement to answer follow-up questions in one year",
+      "label": "met",
+      "evidence": "agree to answer follow up question in approximately one year"
+    },
+    {
+      "criterion": "usual criteria for breast screening",
+      "label": "met",
+      "evidence": "meet the usual criteria for breast screening (be asymptomatic of focal breast disease)"
+    },
+    {
+      "criterion": "no history of breast cancer in past year",
+      "label": "met",
+      "evidence": "have no history of breast cancer for at least one year"
+    },
+    {
+      "criterion": "agreement to have both mammogram and SonoCin\u00e9 if necessary",
+      "label": "met",
+      "evidence": "agree to have both mammogram and SonoCin\u00e9 if a physical finding or mammographic finding occurs within one year that requires biopsy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "compressed breast thickness at mammography",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 42-year-old postmenopausal woman with a history of breast cancer, but no palpable masses on breast exam. She has had a lumpectomy and axillary sampling revealed 1 positive lymph node out of 12 sampled.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00649337",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

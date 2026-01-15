@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00145288",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "oral glucose tolerance test included",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous study between 1997 - 2000, oral glucose tolerance test included",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy / in-utero fertilisation history",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "family predisposition to diabetes and cardiovascular diseases",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter, multiple prior admissions for UTIs, altered mental status, and urosepsis. The patient is currently being treated for a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00145288",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

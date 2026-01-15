@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02497183",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "ultrasound_exam",
+      "label": "not_met",
+      "evidence": "equivocal or not"
+    },
+    {
+      "criterion": "diagnostic",
+      "label": "met",
+      "evidence": "candidate for laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "ct_scan_with_oral_contrast",
+      "label": "met",
+      "evidence": "CT scan that includes drinking oral contrast"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "oral_contrast_allergy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and leukocytosis, with a distended appendix on CT scan.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02497183",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

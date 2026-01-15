@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00023296",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "79 yo F"
+    },
+    {
+      "criterion": "Diagnosis of sickle cell disease (electrophoretic documentation of SS, SC, or S beta-thalassemia genotype is required)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hematocrit greater than 18%",
+      "label": "met",
+      "evidence": "baseline saturation high 80's to low 90's on this therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant renal insufficiency (patient on hemodialysis or estimated creatinine clearance less than 30% of normal)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient to f/u with pulmonology to start sildenifil chronically as outpatient as prior authorization is obtained.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00023296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

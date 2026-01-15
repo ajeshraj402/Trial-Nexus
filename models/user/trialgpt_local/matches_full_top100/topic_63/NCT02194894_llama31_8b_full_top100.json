@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02194894",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presence of NAFLD",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones, biliary sludge and CBD stones"
+    },
+    {
+      "criterion": "Individuals who are 18-70 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serum ALT > 3 times ULN at baseline.",
+      "label": "not_met",
+      "evidence": "Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift."
+    },
+    {
+      "criterion": "History of excess alcohol ingestion, averaging more than 30 gm/day (3 drinks per day) in the previous 10 years, or history of alcohol intake averaging greater than 10 gm/day (1 drink per day: 7 drinks per week) in the previous one year.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of liver cirrhosis on labs or imaging.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of hypercholesterolemia and 2 NVDs, but no other significant medical conditions. She is mildly febrile with a BP of 150/85 and HR of 115.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT02194894",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

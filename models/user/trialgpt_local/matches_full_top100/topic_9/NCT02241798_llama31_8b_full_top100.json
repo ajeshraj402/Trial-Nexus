@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02241798",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-70 yo"
+    },
+    {
+      "criterion": "admission_reason",
+      "label": "met",
+      "evidence": "monitoring and capturing seizures at the EMU"
+    },
+    {
+      "criterion": "electrode_type",
+      "label": "met",
+      "evidence": "scalp electrodes"
+    },
+    {
+      "criterion": "electrode_type",
+      "label": "met",
+      "evidence": "intracranial electrodes"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "medical_illnesses",
+      "label": "not_met",
+      "evidence": "CHF, depression"
+    },
+    {
+      "criterion": "chronic_obstructive_pulmonary_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT02241798",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

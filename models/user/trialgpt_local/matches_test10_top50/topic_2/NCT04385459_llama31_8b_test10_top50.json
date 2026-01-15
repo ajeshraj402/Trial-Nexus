@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT04385459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TAVI procedure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "date between 2009 and 2019-12-01",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "procedural-related coronary artery injury",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "solitary stenosis in a diagonal branch",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04385459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

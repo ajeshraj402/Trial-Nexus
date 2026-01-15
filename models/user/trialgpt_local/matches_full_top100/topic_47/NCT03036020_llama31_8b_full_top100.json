@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03036020",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "met by emergency services within 4 hours after symptom onset",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sudden weakness of leg or arm, especially on one side, facial asymmetry and/or sudden trouble walking, and speech disturbance",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients from the Hospital dispatch center area, being more than 10-15 minutes drive from the hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "giving informed consent, written or oral, if possible or consent from relative at site",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "female < 50 years and uncertainty of pregnancy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. Medical history significant for hypertension, hyperlipidemia and hypothyroidism.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03036020",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

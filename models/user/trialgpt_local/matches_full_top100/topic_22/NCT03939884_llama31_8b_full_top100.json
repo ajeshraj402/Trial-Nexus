@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03939884",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "abdominal pain",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute pain presentation preventing comfortable participation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "tender spot in the right upper trapezius region",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of allergic reaction to previous use of any analgesic topicals",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "disorder of the skin over the right trapezius area",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 31-year-old woman with abdominal pain. Computed Tomography shows distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03939884",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

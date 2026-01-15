@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03449641",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "aged between 18 and 80 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Obesity hypoventilation syndrome diagnosis (OHS)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinically stable for at least 4 weeks prior to the enrolment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe congestive heart failure",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "a history of life-threatening arrhythmias",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant chronic kidney disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe congestive heart failure and a history of life-threatening arrhythmias, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03449641",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

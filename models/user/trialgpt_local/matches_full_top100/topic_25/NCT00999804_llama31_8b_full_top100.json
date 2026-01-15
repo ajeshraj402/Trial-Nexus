@@ -1,0 +1,121 @@
+{
+  "trial_id": "NCT00999804",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female",
+      "label": "met",
+      "evidence": "patient is a 42 year-old postmenopausal woman"
+    },
+    {
+      "criterion": "age >= 18",
+      "label": "met",
+      "evidence": "the patient is 42 years old"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "locally advanced breast cancer",
+      "label": "met",
+      "evidence": "the tumor was HER2-positive and ER/PR negative, and axillary sampling revealed 1 positive lymph node out of 12 sampled"
+    },
+    {
+      "criterion": "HER2 overexpression",
+      "label": "met",
+      "evidence": "the tumor was HER2-positive"
+    },
+    {
+      "criterion": "histologically confirmed invasive mammary carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "negative serum pregnancy test",
+      "label": "met",
+      "evidence": "she is postmenopausal and not of child-bearing potential"
+    },
+    {
+      "criterion": "kidney function within normal limits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver function within normal limits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "performance status 0-1",
+      "label": "met",
+      "evidence": "the patient is described as having a tumor in the left upper outer quadrant, which suggests she has some level of performance status"
+    },
+    {
+      "criterion": "life expectancy >6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no evidence of brain or leptomeningeal disease",
+      "label": "met",
+      "evidence": "CXR was unremarkable, suggesting no evidence of brain or leptomeningeal disease"
+    },
+    {
+      "criterion": "no previous or current malignancies at other sites within the last 5 years",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bilateral breast cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or unwillingness to use a reliable contraceptive method in women of child-bearing potential",
+      "label": "met",
+      "evidence": "the patient is postmenopausal and not of child-bearing potential"
+    },
+    {
+      "criterion": "severe underlying chronic illness or disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiomyopathy or baseline LVEF less than 50%",
+      "label": "not_met",
+      "evidence": "CXR was unremarkable, suggesting no evidence of cardiomyopathy"
+    },
+    {
+      "criterion": "other investigational drugs while on study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe or uncontrolled hypertension, history of congestive heart failure or severe coronary arterial disease",
+      "label": "not_met",
+      "evidence": "CXR was unremarkable, suggesting no evidence of severe or uncontrolled hypertension"
+    },
+    {
+      "criterion": "malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "taking any lapatinib prohibited medication(s)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 42 year-old postmenopausal woman with a history of breast cancer, who has undergone lumpectomy and has HER2-positive and ER/PR-negative tumors. She smokes frequently and consumes alcohol occasionally.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00999804",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

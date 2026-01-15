@@ -1,0 +1,90 @@
+{
+  "trial_id": "NCT00634231",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "treatment",
+      "label": "met",
+      "evidence": "planning to undergo standard of care treatment with surgery and radiation therapy."
+    },
+    {
+      "criterion": "malignant glioma or recurrent ependymoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "accessible for injection",
+      "label": "met",
+      "evidence": "tumor is located in the T-L spine"
+    },
+    {
+      "criterion": "not located in brainstem or deep midbrain",
+      "label": "met",
+      "evidence": "tumor is located in the T-L spine"
+    },
+    {
+      "criterion": "Karnofsky \u226560% if >10y/o, Lansky \u226560 if \u226410y/o",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bone Marrow Function: peripheral absolute neutrophil count \u2265 1000/\u00b5l",
+      "label": "met",
+      "evidence": "no mention of low neutrophil count"
+    },
+    {
+      "criterion": "Renal Function: serum creatinine \u2264 1.5 times upper limit of institutional normal for age and/or GFR \u2265 70 mL/min/1.73 m2.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatic Function: Bilirubin \u2264 1.5 times institutional normal; SGPT (ALT) < 3 times institutional normal",
+      "label": "met",
+      "evidence": "no mention of abnormal liver function"
+    },
+    {
+      "criterion": "Signed informed consent according to institutional guidelines must be obtained",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior or ongoing liver disease including known cirrhosis, hepatitis B or C infection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients on immunosuppressive drugs (with exception of corticosteroid)",
+      "label": "met",
+      "evidence": "patient is on high-dose steroids"
+    },
+    {
+      "criterion": "Known history of HIV or underlying immunodeficiency",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with acute infections (viral, bacterial or fungal infections requiring therapy)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or breast-feeding patients. Female patients of childbearing age must have negative serum or urine pregnancy test within 1 week of beginning therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "patient has a history of anaplastic astrocytoma and is currently on high-dose steroids",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00634231",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

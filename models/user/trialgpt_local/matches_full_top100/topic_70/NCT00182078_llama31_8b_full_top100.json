@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental Retardation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Traumatic Brain Injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "New onset or marked worsening of a seizure disorder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been on anti-depressants for the past 6 months, but symptoms are still present. She also has some digestive issues recently.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

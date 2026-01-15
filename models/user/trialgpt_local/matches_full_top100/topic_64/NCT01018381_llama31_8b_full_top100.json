@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01018381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "tumor under 5cm /or 3 tumor under 3cm",
+      "label": "met",
+      "evidence": "patient's medical records"
+    },
+    {
+      "criterion": "Liver biopsy: HCC positive",
+      "label": "met",
+      "evidence": "patient's medical records"
+    },
+    {
+      "criterion": "General condition: average/ good",
+      "label": "met",
+      "evidence": "patient's physical examination"
+    },
+    {
+      "criterion": "Patient have been carrying HBsAg over 6 months",
+      "label": "met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "ALT was over or equal 2 times ULN",
+      "label": "met",
+      "evidence": "patient's laboratory results"
+    },
+    {
+      "criterion": "HBV-DNA level: 104 (log10 copies/ml) with HBeAg(-) patient and 105 (log10 copies/ml) with HBeAg(+) patient",
+      "label": "met",
+      "evidence": "patient's laboratory results"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prothrombin under 60%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe liver or/ and renal insufficiency",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Portal vein body thrombosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Used immunotherapy or corticotherapy for 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant woman",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01018381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

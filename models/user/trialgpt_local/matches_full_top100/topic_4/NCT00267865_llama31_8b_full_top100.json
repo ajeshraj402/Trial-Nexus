@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00267865",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Positive human immunodeficiency virus (HIV) serology",
+      "label": "met",
+      "evidence": "previous records acceptable"
+    },
+    {
+      "criterion": "Diagnosis of Primary Central Nervous System Lymphoma",
+      "label": "met",
+      "evidence": "confirmed histopathologic diagnosis by National Cancer Institute (NCI) Laboratory of Pathology"
+    },
+    {
+      "criterion": "Age 18 years or greater",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance less than or equal to 0-4",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to understand and willing to provide informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior therapy for central nervous system (CNS) lymphoma",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of lymphoma outside of the central nervous system",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00267865",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

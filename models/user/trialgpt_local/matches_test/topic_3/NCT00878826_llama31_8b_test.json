@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00878826",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history of idiopathic thrombosis",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of thrombosis related to pregnancy or oral contraceptive use",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of thrombosis accompanied by an underlying thrombophilia other than homozygous for the factor V Leiden mutation, heterozygous for both the factor V Leiden and the prothrombin G20210A mutation, or AT-III deficiency",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "without a history of thrombosis but who have an underlying thrombophilia and a strong family history of thrombosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for therapeutic-level anticoagulation as determined by physician",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal disease as defined by serum creatinine >1.0",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT00878826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

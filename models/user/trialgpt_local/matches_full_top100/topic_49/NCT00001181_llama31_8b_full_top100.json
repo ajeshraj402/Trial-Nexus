@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00001181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "1-8 years"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "girl"
+    },
+    {
+      "criterion": "puberty_type",
+      "label": "met",
+      "evidence": "gonadotropin-independent precocious puberty"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "gender",
+      "label": "triggers",
+      "evidence": "male"
+    },
+    {
+      "criterion": "hepatic_impairment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal_impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00001181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

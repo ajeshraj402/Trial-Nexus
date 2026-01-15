@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01378117",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Type 1 diabetes",
+      "label": "met",
+      "evidence": "has had type 1 diabetes for 11 years"
+    },
+    {
+      "criterion": "Insulin therapy",
+      "label": "met",
+      "evidence": "currently using insulin glargine and aspart"
+    },
+    {
+      "criterion": "BG >140 mg/dL without diabetic ketoacidosis",
+      "label": "met",
+      "evidence": "lab studies showed BG 11.3%"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 or > 80 years",
+      "label": "not_met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "History of type 1 diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "TZD treatment in past 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute critical illness or CABG surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes and currently using insulin. He presents with hyperglycemia but does not have laboratory evidence of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01378117",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

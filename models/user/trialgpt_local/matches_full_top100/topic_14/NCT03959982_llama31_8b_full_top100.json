@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03959982",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "COPD diagnosis by health care provider",
+      "label": "met",
+      "evidence": "healthcare provider quote"
+    },
+    {
+      "criterion": "Post-bronchodilator FEV1/FVC <0.7",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Post-bronchodilator FEV1%predicted <70%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic bronchitis, defined as chronic cough with daily sputum production",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u22652 COPD exacerbations within the last year",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Obstructive sleep apnea and using positive airway pressure treatment",
+      "label": "met",
+      "evidence": "healthcare provider quote"
+    },
+    {
+      "criterion": "Patients that use oxygen supplementation continuously (patients that use oxygen supplementation only at exertion will NOT be excluded)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD and is on O2, but also has obstructive sleep apnea and uses positive airway pressure treatment.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03959982",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

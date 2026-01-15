@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04246255",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "treated with any drug submitted via intravenous cannula",
+      "label": "met",
+      "evidence": "oxycodone"
+    },
+    {
+      "criterion": "subject weighted more than 10 kg",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "subject has a maximum ASA-2 score",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergic to amide group local anesthetics",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "the subject has a dermatological disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "34-year-old African American man with known history of Sickle cell disease, severe bone pain, and positive history of sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04246255",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

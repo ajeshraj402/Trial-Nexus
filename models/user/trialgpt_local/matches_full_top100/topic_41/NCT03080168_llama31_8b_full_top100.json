@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03080168",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age 18 years or older and endorsing either suicidal ideation upon admission or within the last 7 days, or endorsing (or otherwise documented) suicidal behavior within the past 14 days before admission; OR age 18 years or older and undergoing alcohol detoxification",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 18 years or older and undergoing alcohol detoxification (including patients who qualify under #1 and are undergoing alcohol detoxification)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of a primary psychotic disorder [schizophrenia, schizoaffective disorder, psychosis not otherwise specified, and other psychoses] diagnosis on admission; or major depressive disorder with psychosis, or current hallucinations or ideas of reference",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of a flag specifying a history of disruptive or violent behavior",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03080168",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

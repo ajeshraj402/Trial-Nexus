@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00655018",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "persistently elevated serum aminotransferase levels",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diffusely echogenic liver on imaging studies suggestive of fatty liver",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "biopsy consistent with the diagnosis of NAFLD",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatic virus infections (HCV RNA-PCR negative)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatitis A, B, C, D, E and G",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cytomegalovirus and Epstein-Barr virus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "alcohol consumption",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of parenteral nutrition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of drugs known to induce steatosis (e.g. valproate, amiodarone or prednisone)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "or to affect body weight and carbohydrate metabolism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Autoimmune liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "metabolic liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Wilson's disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a-1-antitrypsin-associated liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history. His family history is positive for DM type 1.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00655018",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

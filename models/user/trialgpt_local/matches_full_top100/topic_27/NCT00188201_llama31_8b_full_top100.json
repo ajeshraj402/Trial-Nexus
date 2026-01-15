@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00188201",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients attending Liver Clinic at Toronto Western Hospital, Toronto, ON, Canada",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fluent in English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Men and women between the ages of 18 and 65",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects must provide written informed consent to participate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Control subjects: negative for both HBV, HCV, and HIV",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient is a candidate for antiviral treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non-cirrhotic as determined by recent liver biopsy (<2 years prior to assessment)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HCV subjects: positive for HCV RNA, negative for HBV and HIV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HBV subjects: positive for HBV RNA and negative for HCV and HIV",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "will be assessed with Physical, Neurological, Psychiatric, and Neuropsychological examinations",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Materials: Assessments and Procedures Screening Assessments Liver Biopsy All HCV and BBV patients who have received a liver biopsy as part of their clinical management will be eligible to participate in the current investigation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Laboratory Assessment HCV and HBV patients will undergo a screening laboratory assessment that will consist of hematological assessment, blood chemistry, and urinalysis as per the protocol for the clinical trial that this investigation is being added on to (UHN # 01-0082)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physical Evaluation All HCV and HBV patients will be assessed by the Principle Investigator for clinical signs of liver disease, and will also have a general physical examination as specified in the clinical trial protocol (UHN # 01-0082)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurological Examination: Patients will be examined by the study neurologist for the presence of signs of peripheral neuropathy that could indicate the presence of cryoglobulinemia",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection, is on IFN and RBV combination therapy, and has a recent liver biopsy showing non-cirrhotic changes. He is fluent in English and provides written informed consent to participate.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00188201",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

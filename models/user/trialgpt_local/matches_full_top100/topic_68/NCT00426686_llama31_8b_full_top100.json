@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00426686",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical suspicion of TTP",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hemoglobin level < 10 g/dl (adult) or < 12 g/dl (child)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet level < 150 giga/l",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ADAMTS13 activity < 5%",
+      "label": "met",
+      "evidence": "genetic survey revealed ADAMTS13 >10%"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Organ graft",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV infection",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00426686",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

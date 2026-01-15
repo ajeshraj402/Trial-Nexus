@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03090035",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of chronic hepatitis C genotype 2 or 3",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "chronic inflammation compatible with a chronic viral hepatitis",
+      "label": "met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatitis genotype I and IV",
+      "label": "not_met",
+      "evidence": "no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease"
+    }
+  ],
+  "notes": "Patient is on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months with direct antiviral drugs added to his treatment 6 months ago.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03090035",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00042159",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "persistent auditory hallucinations",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of neurological disorder",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious, unstable medical conditions",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active drug or alcohol abuse",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of seizures unrelated to drug withdrawal",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Estimated IQ less than 80",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a sibling or parent with epilepsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Disorganized thought process or intellectual impairment that inhibits the ability to give an informed consent",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of neurological disorder and seizures unrelated to drug withdrawal, which are likely triggers for exclusion. Additionally, patient's disorganized thought process may inhibit their ability to give informed consent.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00042159",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

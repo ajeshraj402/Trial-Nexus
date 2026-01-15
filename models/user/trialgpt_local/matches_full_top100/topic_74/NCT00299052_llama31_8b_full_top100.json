@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00299052",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diaphyseal tibia fractures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "IM nailing as definitive treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic or bone infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal disease of any kind",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and will undergo Bisphosphonate therapy. The patient's sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00299052",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

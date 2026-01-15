@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00247533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Coronary artery stenosis >50%",
+      "label": "met",
+      "evidence": "prior CABG"
+    },
+    {
+      "criterion": "carotid or brain artery stenosis > 50%",
+      "label": "met",
+      "evidence": "Carotid U/S and Angiography"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Creatinine > 2.0 mg/dL",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Co-morbidity",
+      "label": "not_met",
+      "evidence": "no sensory or motor defects"
+    },
+    {
+      "criterion": "A letter of authorization is not given",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT00247533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

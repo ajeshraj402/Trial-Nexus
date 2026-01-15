@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00187291",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history of CAD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior MI",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HLD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HTN",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ventricular tachycardia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "syncope",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 18 or older",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "capable of undergoing sub-maximal treadmill exercise test",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiac arrest or sustained life threatening ventricular arrhythmias",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unstable coronary artery disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, and ventricular tachycardia. However, patient had a recent episode of syncope which may not be caused by a ventricular tachyarrhythmia.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00187291",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03933241",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "transsphenoidal pituitary tumor resection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cooperate with nasal irrigation, scoring and informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "incomplete clinical data",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cerebrospinal fluid rhinorrhea during and after surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "sphenoid sinusitis before transsphenoidal pituitary tumor resection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cannot cooperate with the investigation",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He has incomplete clinical data for cerebrospinal fluid rhinorrhea during and after surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03933241",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

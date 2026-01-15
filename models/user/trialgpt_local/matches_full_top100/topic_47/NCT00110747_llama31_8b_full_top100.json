@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00110747",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 62 years old"
+    },
+    {
+      "criterion": "non-ablative facial laser resurfacing procedure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "patient denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence"
+    },
+    {
+      "criterion": "participated in a clinical trial of an unapproved drug within the previous 30 days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "participated in any previous clinical trial involving S-Caine Peel",
+      "label": "not_met",
+      "evidence": "patient's medical history was significant for hypertension, hyperlipidemia and hypothyroidism"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, and hypothyroidism. He is being treated with Levothyroxine, Atorvastatin, and HTCZ.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00110747",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

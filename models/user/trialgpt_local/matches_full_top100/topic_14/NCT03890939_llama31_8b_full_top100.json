@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03890939",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "complex sleep apnea",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "preserved left-ventricular ejection fraction (LVEF > 45%) and/or heart failure with preserved ejection fraction (HFrEF)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently on ASV therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "symptomatic chronic heart failure (NYHA 2-4) AND moderate to severe predominant central sleep apnea",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participants requiring any kind of oxygen therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has complex sleep apnea, preserved left-ventricular ejection fraction, and is currently on ASV therapy. However, they are also requiring oxygen therapy.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03890939",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

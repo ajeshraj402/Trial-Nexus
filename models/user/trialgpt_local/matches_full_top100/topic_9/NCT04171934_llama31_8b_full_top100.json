@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04171934",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Epileptic motor seizures appearing from rest while patients are in supine position",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The seizures are determined to be epileptic based on electroclinical characteristics by the responsible neurophysiologist / epileptologist.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The seizures can be classified into motor seizure types (both focal and generalized) using the 2017 International League Against Epilepsy (ILAE) seizure classification.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The registrations are analyzed by the Nelli system blinded to any clinical information.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Nelli system consists of two evaluation components: Algorithmic component (pre-trained machine learning model based on video and audio signals) Supervisory component (performed by experienced VEEG technicians)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reports containing the seizure type classification (time-stamped) are provided by the VEEG laboratory, the performance of the Nelli system is assessed using these reports as the ground truth.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a. Specificity and sensitivity of the Nelli system are evaluated with reference to both all motor seizures and individual motor seizure types.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The secondary outcome measures are established as follows: To assess the latency from the onset of the seizure detection by the Nelli system in comparison to VEEG registration.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "To determine an inter-rater agreement for the supervisory component of the Nelli system.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "To investigate the performance of the algorithmic component of the Nelli system alone.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with epilepsy undergoing a standard VEEG examination for clinical evaluation consenting to participate in the present study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients not consenting to participate in the study",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04171934",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

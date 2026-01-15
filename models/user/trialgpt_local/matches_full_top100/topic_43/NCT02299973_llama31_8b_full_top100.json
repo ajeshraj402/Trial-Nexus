@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02299973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Irritable bowel syndrome with predominant diarrhoea as defined by the ROME III criteria and with symptoms of abdominal bloating",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "IBS symptom score > 3 on at least 2 subscores (abdominal discomfort, abdominal bloating, abdominal pain, urgency, stool frequency, stool consistency)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 18 - 75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal screening protocol which includes screening for infectious diseases (eg. blood HIV, Syphilis, Hepatitis B or C; stool: enteropathogens, clostridium, ESBL, CPE)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "predominant constipation as defined by Rome III criteria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or inadequate anti conception for the duration of the trial",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time).",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02299973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

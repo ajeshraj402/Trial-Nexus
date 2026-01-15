@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03332745",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe aortic stenosis with planned aortic valve replacement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned non-aortic valve cardiac or elective ascending aorta surgery",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Coexistent severe aortic or mitral regurgitation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coexistent mitral stenosis greater than mild in severity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute valvular heart disease (e.g. acute mitral regurgitation or endocarditis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute pulmonary oedema or cardiogenic shock",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with planned aortic valve replacement, meets inclusion criteria. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03332745",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01109849",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children meeting criteria for any subtype of ADHD between the ages of 5-12 who are",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "stimulant naive",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Full Scale Intelligence Quotient (I) below 70",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "not in full time school or less than 5 or older than 12 years at the time of the screening visit",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of seizures or other neurological problems and are taking medication to prevent seizures as stimulants could worsen seizures",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiac arrhythmias, hypertension, Tourette's Disorder or history of severe tic exacerbations secondary to stimulant exposure",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hypothyroidism, diabetes mellitus, liver or renal disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "children using prescription medication that can significantly impact appetite or weight are excluded",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pervasive developmental disorder, schizophrenia or other psychotic disorders, bipolar disorder, post traumatic stress disorder, major depression with serious suicidal thoughts or an eating disorder as stimulants are not safe and effective treatments for these conditions, and these diseases could affect eating habits",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Body Mass Index is very low (too light for safe use of stimulant medication) or is too high (overweight so not suitable for weight promotion treatments)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, delayed puberty and developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01109849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

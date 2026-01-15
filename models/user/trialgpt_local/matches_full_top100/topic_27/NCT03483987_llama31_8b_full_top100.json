@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03483987",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic HCV infection and viremia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "completed the DAA-based standard treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "relapsed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "regardless of severity of liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HCV genotype",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "nature or duration of DAAs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment-na\u00efve or previously treated with Peg-IFN/ribavirin",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic kidney disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Post-organ transplant recipients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Short life expectancy (<1 year)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not willing to follow-up",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Individuals with immunocompromised states: HIV, immunosuppressive drugs, cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chemotherapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "congenital hemolytic anemia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and viremia, completed DAA-based standard treatment, relapsed. No contraindications found.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03483987",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00297635",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "reside in Philadelphia area",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "participate in regular in person visits to the Jefferson Diabetes Research Center",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "initiate insulin infusion pump therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 18 years of age before starting the protocol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "never used an insulin pump before",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "living outside the Philadelphia area",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immediately going to initiate insulin pump therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unwilling to perform at least 4 blood glucose self-tests",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has had type 1 diabetes for 11 years and is currently homeless, but appears well with no nausea or vomiting.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00297635",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

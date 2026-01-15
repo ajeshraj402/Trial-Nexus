@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04449523",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 65 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Written informed Consent",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Cardiac monitor (Reveal LINQ)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of AF or atrial flutter",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Cardiac implantable electronic devices (pacemaker, ICD, ICM)",
+      "label": "met"
+    }
+  ],
+  "notes": "Patient has a history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04449523",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01766856",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "3-16 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "being scheduled for myringoplasty/tympanoplasty with removal of a patent tube or for repair of existing eardrum perforation remaining after a tube",
+      "label": "met",
+      "evidence": "patient's surgery plans"
+    },
+    {
+      "criterion": "less than or equal to 8 weeks prior to surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "syndromic or with craniofacial malformation (eg, Down syndrome, cleft palate)",
+      "label": "not_met",
+      "evidence": "patient's family history is negative for psychologic problems"
+    },
+    {
+      "criterion": "parent anticipates being unable to keep appointments (e.g., moving out of area)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "child unable to tolerate testing",
+      "label": "not_met",
+      "evidence": "patient is able to undergo testing"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness, loss of interest in activities, and weight loss. She also has digestive issues and a recent family history of colon cancer.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01766856",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03778411",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults aged 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous Fibroscan with LSM \u226510 kilopascals (kPa)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability or refusal to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Fasting for less than three hours prior to the scan",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject is a pregnant or lactating female",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject with current, significant alcohol consumption",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject is unable to reliably quantify alcohol consumption based upon local study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "physician judgment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a pacemaker or defibrillator",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute hepatitis defined as AST/ALT > 500 U/L",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hep C cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is off ETOH for a year but has new imbalance leading to a fall.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03778411",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

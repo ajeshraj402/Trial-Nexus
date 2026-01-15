@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03163134",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "44 year old"
+    },
+    {
+      "criterion": "dural defect greater than 1cm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "extensive arachnoid dissection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dissection into a ventricle or cistern",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "less than 18 years of age",
+      "label": "met",
+      "evidence": "44 year old"
+    },
+    {
+      "criterion": "spina bifida",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, and HTN. They presented with symptoms of cholecystitis and were found to have Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03163134",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

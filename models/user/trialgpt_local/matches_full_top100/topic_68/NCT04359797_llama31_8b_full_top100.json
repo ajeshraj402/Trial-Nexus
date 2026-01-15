@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04359797",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COVID-19 positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "require supplemental oxygen",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mechanical ventilation",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has high blood pressure and signs of septicemia, but meets inclusion criteria.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04359797",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

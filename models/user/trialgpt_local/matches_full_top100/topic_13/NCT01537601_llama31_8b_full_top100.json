@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01537601",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "male",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aged 0 to 28 days",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant participation to another clinical trial",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "boys with hypospadias or epispadias or any other anomaly rendering circumcision impossible",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple comorbidities and is currently participating in another clinical trial.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01537601",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

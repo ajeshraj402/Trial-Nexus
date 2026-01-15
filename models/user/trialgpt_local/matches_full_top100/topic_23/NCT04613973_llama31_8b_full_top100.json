@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04613973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient whose age is \u2265 18 years",
+      "label": "met",
+      "evidence": "39-year-old man"
+    },
+    {
+      "criterion": "Patients included in PRADO",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient hospitalized for global heart failure or left ventricular failure in the Cardiology department of the GHPSJ between January 2016 and September 2018",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient under guardianship or guardianship",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient living in EHPAD",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient transferred to another establishment on discharge from hospital (surgery, follow-up care, EPHAD, etc.)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient who died during hospitalization",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04613973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

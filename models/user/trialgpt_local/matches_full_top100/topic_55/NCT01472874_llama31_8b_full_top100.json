@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01472874",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "established diagnosis of Wilson disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "treated for their disease for at least one year",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "compensated liver disease and/or stable neurological or psychiatric disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "biochemical testing must demonstrate normal or minimal elevation of serum ALT (<2 times the upper limit of normal)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-ceruloplasmin copper <",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Wilson disease diagnosis not well established",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treated for less than one year",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "decompensated liver disease (ascites, jaundice, encephalopathy, bleeding due to portal hypertension)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver disease with elevations of ALT > 2 times upper limit of normal",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "female who is pregnant or intends to become pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of tremors since a year ago, and was diagnosed with Wilson disease. He has been treated for his disease for at least one year and has compensated liver disease.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01472874",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

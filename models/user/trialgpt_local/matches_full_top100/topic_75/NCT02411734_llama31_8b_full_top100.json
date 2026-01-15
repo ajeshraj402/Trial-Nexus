@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "english_speaker",
+      "label": "met",
+      "evidence": "Speaks English"
+    },
+    {
+      "criterion": "admitted_for_rehabilitation",
+      "label": "met",
+      "evidence": "Admitted for rehabilitation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable_to_read",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable_to_write",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

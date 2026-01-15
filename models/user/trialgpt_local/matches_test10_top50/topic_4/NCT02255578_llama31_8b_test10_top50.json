@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02255578",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "44 year old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "Obesity"
+    },
+    {
+      "criterion": "PCOS",
+      "label": "met",
+      "evidence": "PCOS/infertility"
+    },
+    {
+      "criterion": "Failed IVF treatment cycle/s or resistance to ovulation induction with clomiphene citrate",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented negative pregnancy test",
+      "label": "met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "Women agree to remain on contraceptives as long as the Endobarrier is intact",
+      "label": "met",
+      "evidence": "agree to remain on contraceptives"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant medication record",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastroscopy",
+      "label": "triggers",
+      "evidence": "Gastro screening"
+    },
+    {
+      "criterion": "Implantation of the Endobarrier",
+      "label": "does_not_trigger",
+      "evidence": "Endobarrier implantation"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02255578",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

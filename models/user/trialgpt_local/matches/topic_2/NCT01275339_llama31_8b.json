@@ -1,0 +1,105 @@
+{
+  "trial_id": "NCT01275339",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with moderate to severe aortic stenosis (AVA < 1.5 cm2)",
+      "label": "met",
+      "evidence": "severe aortic stenosis with worsening LV function, EF was 25%"
+    },
+    {
+      "criterion": "Left ventricular hypertrophy",
+      "label": "met",
+      "evidence": "left ventricular hypertrophy with cavity dilation"
+    },
+    {
+      "criterion": "Diastolic dysfunction as evidenced by tissue Doppler e' (average of septal and lateral) \u2264 7 cm/s",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "EF \u2265 50%",
+      "label": "not_met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "None or minimal symptoms related to aortic stenosis (NYHA \u2264 2)",
+      "label": "unknown",
+      "evidence": "progressive SOB and LE edema"
+    },
+    {
+      "criterion": "The subject and treating physician are not planning on a valve replacement procedure to occur during the next 6 months",
+      "label": "met",
+      "evidence": "preop workup for valvular replacement, but no mention of planned surgery in near future"
+    },
+    {
+      "criterion": "Ambulatory",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal sinus rhythm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years of age and older",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Able and willing to comply with all the requirements for the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for ongoing nitrate medications",
+      "label": "does_not_trigger",
+      "evidence": "no mention of nitrates"
+    },
+    {
+      "criterion": "SBP < 110mmHg or MAP < 75mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderately severe or severe mitral regurgitation",
+      "label": "does_not_trigger",
+      "evidence": "mild MR"
+    },
+    {
+      "criterion": "Contraindication to MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Creatinine clearance < 30 mL/min",
+      "label": "does_not_trigger",
+      "evidence": "no mention of renal function"
+    },
+    {
+      "criterion": "Cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary fibrosis",
+      "label": "does_not_trigger",
+      "evidence": "no mention of pulmonary disease"
+    },
+    {
+      "criterion": "Increased risk of priapism",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Unknowns include diastolic dysfunction, NYHA classification, ambulatory status, normal sinus rhythm, and ability to comply with study requirements.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01275339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

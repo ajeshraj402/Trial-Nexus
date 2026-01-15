@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04479397",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "14 years old"
+    },
+    {
+      "criterion": "anterior shoulder instability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anterior glenoid bone defect > 20%",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subscapularis tear",
+      "label": "met",
+      "evidence": "no other medical condition"
+    },
+    {
+      "criterion": "trauma of the involved upper extremity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pre-operative stiffness",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04479397",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

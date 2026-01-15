@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04281251",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients emergency admitted for suspected acute appendicitis",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age 18 - 70",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Computed Tomography of the abdomen with contrast confirmed uncomplicated appendicitis",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "as evidenced by presence of a dilated, thickened wall appendix without perforation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abscess or gangrene.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of previous appendicitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of perforation, abscess or gangrene of appendix on CT scan",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant paralytic ileus as evidenced by dilated bowel loops on imaging",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of co-existing acute surgical pathologies on the CT scan",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergic to bowel preparation solution (Polyethylene glycol)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has been diagnosed with acute perforated appendicitis and is now a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04281251",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

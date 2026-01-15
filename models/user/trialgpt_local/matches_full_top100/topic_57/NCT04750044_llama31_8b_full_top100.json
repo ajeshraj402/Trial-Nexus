@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04750044",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old"
+    },
+    {
+      "criterion": "increased serum amylase or lipase after ERCP",
+      "label": "met",
+      "evidence": "high CRP (145), high amylase (1200)"
+    },
+    {
+      "criterion": "new or worsening abdominal pain compatible with pancreatitis after ERCP",
+      "label": "met",
+      "evidence": "abdominal pain and vomiting"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant women, lactating women",
+      "label": "not_met",
+      "evidence": "her pregnancy test is negative and she is not breastfeeding"
+    },
+    {
+      "criterion": "patients with malignant tumors",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of chronic pancreatitis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41-year-old obese woman presenting with abdominal pain and vomiting, elevated CRP and amylase levels, and a history of frequent alcohol consumption.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04750044",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

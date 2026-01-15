@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00368225",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "detectable HCV RNA",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "require orthotopic liver transplantation for chronic hepatitis C induced cirrhosis or require renal transplantation for end-stage kidney disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "have a MELD score greater than 18 (for liver transplant patients) or have an otherwise high probability of receiving a liver or kidney transplant within six months of enrollment based on assessment by the clinical transplant team at each hospital",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "be able/willing to travel to the collaborating center for blood sampling prior to liver or kidney transplantation, and at 2, 3, 4, 5, 6, 8, 12, 16, 24 weeks after transplantation and then bi-annually until the end of the study at 5 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "be willing to have study-related liver biopsies at 3 months, and then 1, 3 and 5 years after transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "provide informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "be HIV or Hepatitis B virus (HBsAg) positive",
+      "label": "not_met",
+      "evidence": "no evidence of HIV or HBV"
+    },
+    {
+      "criterion": "receive a liver graft from an anti-HCV antibody positive or HBV core positive donor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "have other forms of liver disease including primary biliary cirrhosis, autoimmune hepatitis, hemochromatosis and Wilson's Disease",
+      "label": "not_met",
+      "evidence": "no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis, or metabolic liver disease"
+    },
+    {
+      "criterion": "have hepatocellular carcinoma if any single lesion is 5 cm. or more or if there are 3 or more lesions exceeding 3 cm.",
+      "label": "not_met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "be on immunomodulatory medications such as corticosteroids within four weeks of collection of blood for pre-transplant baseline laboratory testing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "have been diagnosed with any hereditary or acquired immunodeficiency state prior to liver or kidney transplantation",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic hepatitis C and is on treatment. He has a history of HCV RNA tests and anti-HCV antibodies. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00368225",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

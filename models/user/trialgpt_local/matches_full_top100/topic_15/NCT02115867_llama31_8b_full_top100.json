@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02115867",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "documented episode of diverticulitis",
+      "label": "met",
+      "evidence": "clinically, on CT scans and a raised serological markers of inflammation"
+    },
+    {
+      "criterion": "problematic symptoms associated with established diverticular disease, post a diverticulitis episode",
+      "label": "met",
+      "evidence": "associated vomiting and is worsened with coughing"
+    },
+    {
+      "criterion": "aged over 20 years",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "on no treatment or have been on stable medication for at least 6 weeks for diverticular disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "willing and able to provide a written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgical diverticular complications such as rectovaginal or bladder fistula, abscess, etc.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe respiratory, cardiovascular, neurological, psychiatric, rheumatological, other gastrointestinal, etc. diseases",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass with fevers/rigors and bandemia. She underwent EUS with biopsy showing pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02115867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

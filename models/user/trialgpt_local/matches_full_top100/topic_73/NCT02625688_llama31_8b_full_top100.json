@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02625688",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Term delivery between 37 -42 weeks of gestation (estimated by ultrasound)",
+      "label": "met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "Signed parental consent",
+      "label": "met",
+      "evidence": "parental signature"
+    },
+    {
+      "criterion": "Singleton delivery",
+      "label": "met",
+      "evidence": "singleton birth"
+    },
+    {
+      "criterion": "Nonsmoking mothers",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Mothers willing to return for follow up visits",
+      "label": "met",
+      "evidence": "parental statement"
+    },
+    {
+      "criterion": "Declaration of breastfeeding for at least six months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preterm delivery < 37 weeks of gestation (estimated by ultrasound)",
+      "label": "not_met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "Isoimmune hemolytic disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sepsis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Maternal Gilbert syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Birth asphyxia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious maternal hemorrhage during delivery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major congenital abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Need for early cord clamping (tight nuchal cord, need for resuscitation)",
+      "label": "not_met",
+      "evidence": "medical record"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02625688",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

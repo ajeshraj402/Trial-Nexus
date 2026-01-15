@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT03585933",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Signed informed patient consent form",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe valvular disease other than AS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant coronary heart disease requiring revascularisation",
+      "label": "not_met",
+      "evidence": "cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "History of myocardial infarction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous cardiac surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe renal impairment eGFR <30ml/min/1.73m2",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, is over 18 years old and has signed consent form.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03585933",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

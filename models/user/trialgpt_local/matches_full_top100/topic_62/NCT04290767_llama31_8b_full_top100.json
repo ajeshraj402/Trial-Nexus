@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04290767",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "septic shock criteria",
+      "label": "met",
+      "evidence": "refractory arterial hypotension or hypoperfusion abnormalities"
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "alteration or delirium",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 18 years old",
+      "label": "met",
+      "evidence": "46-year-old man"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "no other cardiovascular risk factors such as diabetes mellitus"
+    },
+    {
+      "criterion": "acute or chronic neurological disorder",
+      "label": "met",
+      "evidence": "systolic murmur 3+/6+ in the neck, radiating to the skull"
+    },
+    {
+      "criterion": "severe dementia, psychiatric or neuromuscular disability",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "acute coronary syndrome within one previous week",
+      "label": "met",
+      "evidence": "The patient reported no use of lipid-lowering medications"
+    },
+    {
+      "criterion": "respiratory distress ARDS with arterial oxygenation less than 70mm Hg or the FiO2 / PaO2 ratio < 200",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a systolic murmur in the neck.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04290767",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

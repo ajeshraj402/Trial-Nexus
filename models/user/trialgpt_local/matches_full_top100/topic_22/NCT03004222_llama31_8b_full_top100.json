@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03004222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "surgical_procedure",
+      "label": "met",
+      "evidence": "laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "language",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malignant_disease",
+      "label": "not_met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "allergy_anesthetic",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "opioid_use",
+      "label": "not_met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "notes": "The patient has abdominal pain and leukocytosis, but no other exclusion criteria are mentioned.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03004222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

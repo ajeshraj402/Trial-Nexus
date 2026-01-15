@@ -1,0 +1,84 @@
+{
+  "trial_id": "NCT00972309",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males greater than or equal to 18 years of age with histologically confirmed adenocarcinoma of the prostate.",
+      "label": "met"
+    },
+    {
+      "criterion": "Stage D0 disease with documented biochemical progression documented by a rising PSA.",
+      "label": "met"
+    },
+    {
+      "criterion": "No evidence of metastatic disease by physical examination, CT scan or bone scan.",
+      "label": "met"
+    },
+    {
+      "criterion": "Non-castrate level of testosterone: greater than or equal to 50 ng/dL (prior ADT allowed; must be greater than or equal to 6 months since last dose of ADT).",
+      "label": "met"
+    },
+    {
+      "criterion": "A Pre-Enrollment/Baseline PSADT > 3 months and less than or equal to 15 months",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have greater than or equal to 3 PSA measurements over greater than or equal to 3 months",
+      "label": "met"
+    },
+    {
+      "criterion": "The interval between PSA measurements must be greater than or equal to 4 weeks",
+      "label": "met"
+    },
+    {
+      "criterion": "Performance Status: ECOG 0-2 or Karnofsky 70-100%",
+      "label": "met"
+    },
+    {
+      "criterion": "Life expectancy greater than or equal to 1 year.",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin greater than or equal to 10.0 gm/dL, WBC greater than or equal to 2,500/mm(3), ALC greater than or equal to 500/mm3, ANC greater than or equal to 1,000/mm(3).",
+      "label": "met"
+    },
+    {
+      "criterion": "PT/PTT less than or equal to 1.5 times ULN unless receiving clinically indicated anticoagulant therapy.",
+      "label": "met"
+    },
+    {
+      "criterion": "SGOT/SGPT < 2.5 times ULN, total bilirubin < 1.5 times ULN, Cr < 1.5 times ULN, estimated GFR (eGFR) > 60 ml/min.",
+      "label": "met"
+    },
+    {
+      "criterion": "Hepatitis B and C negative, unless the result is consistent with prior vaccination or prior infection with full recovery.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HLA-A*201 negative",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients with an active second malignancy other than adequately treated squamous or basal cell carcinoma of the skin, or superficial bladder carcinoma.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients with active infection.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients with brain, visceral or bony metastatic disease.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT00972309",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

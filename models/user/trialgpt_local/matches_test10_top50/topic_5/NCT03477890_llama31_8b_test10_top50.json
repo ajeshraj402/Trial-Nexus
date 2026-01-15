@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT03477890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptoms of angina or angina-equivalent",
+      "label": "met",
+      "evidence": "patient reports occasional dizziness, HA"
+    },
+    {
+      "criterion": "intermediate or no obstructive coronary disease",
+      "label": "met",
+      "evidence": "no coronary stenosis >70% in an artery >2.5 mm"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "health problem explaining angina",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "obstructive disease in a coronary artery",
+      "label": "not_met",
+      "evidence": "no obstructive disease evident"
+    },
+    {
+      "criterion": "circumferential plaque extending for \u22652 coronary segments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stenosis>70% as revealed by CT coronary angiography",
+      "label": "not_met",
+      "evidence": "no stenosis >70%"
+    },
+    {
+      "criterion": "lack of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "patient has carotid bruits, significant bilateral carotid stenosis",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03477890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

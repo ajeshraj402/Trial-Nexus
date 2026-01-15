@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00434564",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 years old"
+    },
+    {
+      "criterion": "chest pain suggestive of angina",
+      "label": "not_met",
+      "evidence": "denied chest pain"
+    },
+    {
+      "criterion": "12 leads ECG non-diagnostic for myocardial ischaemia or AMI",
+      "label": "met",
+      "evidence": "ECG was non-diagnostic"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "family history of young AMI (less than 50 years old)",
+      "label": "not_met",
+      "evidence": "not aware about his family history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ECG diagnostic of AMI or acute myocardial ischaemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Congestive heart failure or hypotensive patients",
+      "label": "not_met",
+      "evidence": "vital signs were stable"
+    },
+    {
+      "criterion": "Persistent chest pain consistent with unstable angina",
+      "label": "not_met",
+      "evidence": "denied dyspnea, headache, palpitations, chest pain"
+    }
+  ],
+  "notes": "62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He is using Levothyroxine, Atorvastatin and HTCZ.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00434564",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

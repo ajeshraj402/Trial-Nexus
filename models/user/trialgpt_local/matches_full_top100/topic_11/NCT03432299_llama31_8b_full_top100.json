@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03432299",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "19 to 60 years old"
+    },
+    {
+      "criterion": "bethesda_category",
+      "label": "not_met",
+      "evidence": "Bethesda category I, II, III, or IV by fine needle aspiration or needle biopsy."
+    },
+    {
+      "criterion": "thyroid_cancer_size",
+      "label": "met",
+      "evidence": "1 cm or smaller than 1 cm length"
+    },
+    {
+      "criterion": "lymph_node_metastasis",
+      "label": "not_met",
+      "evidence": "no lymph node or distant metastasis"
+    },
+    {
+      "criterion": "extrathyroidal_extension",
+      "label": "met",
+      "evidence": "thyroid cancer does not have extrathyroidal extension"
+    },
+    {
+      "criterion": "rf_ablatability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent_form_agreement",
+      "label": "met",
+      "evidence": "who agrees to the consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "follow_up_feasibility",
+      "label": "not_met",
+      "evidence": "can be routinely followed up according to the study schedule"
+    },
+    {
+      "criterion": "bethesda_category",
+      "label": "met",
+      "evidence": "Bethesda category V or VI by fine needle aspiration or needle biopsy."
+    },
+    {
+      "criterion": "hyperthyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bleeding_tendency",
+      "label": "not_met",
+      "evidence": "no bleeding tendency"
+    },
+    {
+      "criterion": "multifocal_papillary_thyroid_microcarcinoma",
+      "label": "met",
+      "evidence": "no multifocal papillary thyroid microcarcinoma"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with lymph node and adrenal gland involvement, which may make it difficult to completely ablate the cancer using RF. Additionally, the patient's history of XRT and RAI ablation may also impact eligibility.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03432299",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

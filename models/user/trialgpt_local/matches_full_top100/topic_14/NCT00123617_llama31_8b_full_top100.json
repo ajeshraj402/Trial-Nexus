@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00123617",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aged 30 to 80 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Postmenopausal > 1 year since last menstrual period",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Angiographically normal coronary arteries",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive treadmill exercise test for myocardial ischemia",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reported angina pectoris > 2 episodes per week",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis > 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to give written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of psychiatric illness",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of any other chronic illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in another research study within the previous 60 days",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Suffer any physical condition for which exercise is a contra-indication.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwilling to give written informed consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple chronic conditions, including COPD and CHF. However, they are willing to participate in the study.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00123617",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

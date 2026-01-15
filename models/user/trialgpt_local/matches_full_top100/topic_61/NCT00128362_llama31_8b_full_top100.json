@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00128362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinically node negative operable breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No prior incision or excision biopsy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Palpable axillary lymph nodes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications for injecting radiocolloid",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with HER2-positive and ER/PR-negative invasive ductal breast carcinoma, 5 positive lymph nodes, metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00128362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

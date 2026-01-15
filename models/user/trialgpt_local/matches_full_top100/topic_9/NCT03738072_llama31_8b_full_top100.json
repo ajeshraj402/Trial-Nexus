@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03738072",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "SEEG",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous SEEG",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe intellectual disability",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CHF",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe intellectual disability and CHF, which may trigger exclusion from the trial. However, he is undergoing SEEG and meets age criteria.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03738072",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00458055",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HDL deficiency",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Diabetes",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Triglycerides \u2265 5 mmol/L",
+      "label": "does_not_trigger",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Severe obesity (BMI \u2265 30)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, but meets HDL deficiency criterion. No other exclusion criteria are met.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00458055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

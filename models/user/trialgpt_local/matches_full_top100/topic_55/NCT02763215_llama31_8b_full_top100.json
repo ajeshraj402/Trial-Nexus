@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02763215",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willing and able to give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "male or female participants, aged 18 years or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "receiving SoC medications for WD treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "able to understand and comply with study procedures",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "established diagnosis of WD",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "adequate venous access for blood samples",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major systemic disease or other illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "likely to be non-compliant or uncooperative",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of tremors and Wilson disease confirmed by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02763215",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

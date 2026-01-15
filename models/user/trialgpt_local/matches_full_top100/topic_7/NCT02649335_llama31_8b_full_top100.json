@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02649335",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis of any etiology with grade 2 ascites including refractory patients and varices/variceal hemorrhage requiring prophylaxis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by clinical, analytical, and ultrasonographic findings or available histological findings",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Both inpatient and outpatient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Child B or C status",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of hepatocellular carcinoma or portal vein thrombosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active alcoholism",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe heart, respiratory or contraindications for beta blockers(severe chronic obstructive pulmonary disease, severe asthma, severe insulin-dependent diabetes mellitus, bradyarrhythmia)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not giving consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active infection or recent infection < 2 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatic encephalopathy grade 2 or higher",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has cirrhosis with varices and recent UGIB, but is off ETOH for a year. Has been diagnosed with hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02649335",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

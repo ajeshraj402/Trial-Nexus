@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03993925",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "People who inject drugs (PWID) who are receiving substance abuse counselling or rehabilitation treatment programs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving substance abuse counselling or rehabilitation treatment programs in halfway house and rehabilitation centres run by Non-governmental organisations (NGOs) in Hong Kong",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Already on antiviral therapy for known HCV",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is receiving treatment for chronic HCV infection, but has been on antiviral therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03993925",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

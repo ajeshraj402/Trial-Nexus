@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01707771",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years."
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 24-year-old man."
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "The patient is a man."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "disabling cardiac or pulmonary diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "long-term treatment with oral corticosteroids",
+      "label": "not_met",
+      "evidence": "The patient reports that he has never been prescribed oral agents for diabetes management."
+    },
+    {
+      "criterion": "mental illness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years. He presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01707771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

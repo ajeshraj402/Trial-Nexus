@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04264182",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-existing ICD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LVAD placement",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ICD system. Standard of care follow-up will continue thru 24 months.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-functional ICD system",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled ventricular arrhythmias within 7 days of enrollment (defined as VT/VF >30 seconds and/or causing hemodynamic instability and/or symptoms of pre-syncope or syncope)",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04264182",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

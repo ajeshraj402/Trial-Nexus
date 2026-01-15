@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00042159",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "persistent auditory hallucinations",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of neurological disorder",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serious, unstable medical conditions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of seizures unrelated to drug withdrawal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "estimated IQ less than 80",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have a sibling or parent with epilepsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "disorganized thought process or intellectual impairment that inhibits the ability to give an informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He has been seizure-free for 20 years but was recently tapered off Dilantin.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00042159",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01800604",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of SCI, MS, AMP, MD or LBP",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "moderate to severe chronic pain possibly related to MS, SCI, AMP, MD, or LBP that is persistent in nature",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to read, speak, and understand English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe cognitive impairment defined as two or more errors on the Six-Item Screen",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric condition or symptoms that would interfere with participation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing medical conditions that might interfere with EEG assessments",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but meets some inclusion criteria. Exclusion criterion 'Pre-existing medical conditions that might interfere with EEG assessments' is likely to be triggered.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01800604",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

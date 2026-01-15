@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04834362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years of both sexes"
+    },
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "capillary blood glucose \u226510 mmol/L in 2 or more occasions or having history of treatment for DM"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "Patients or their attendants giving consent to take part in the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hyperglycemic emergencies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "Patients or their attendants giving consent to take part in the study"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who presents with hyperglycemia and concern for possible diabetic ketoacidosis. He has been on insulin since diagnosis and has never been prescribed oral agents.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04834362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

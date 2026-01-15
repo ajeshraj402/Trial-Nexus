@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04140916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Indication for intravenous medicine or fluids",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Blood products, isotonic saline- or glucose-solutions (including glucose-insulin-potassium-solutions)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Antibiotics (penicillins, cephalosporins, carbapenems or fluoroquinolones)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Chemotherapy registered for use in a peripheral vein catheter",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Expected indication for intravenous access in 5 to 28 days",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infection or burns at both upper extremities (Involving the area of puncture site)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy (Confirmed by positive urine human gonadotropin (hCG) or plasma-hCG)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A central venous catheter already in place",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Earlier randomized to the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis with residual deficits, but no indication of current infection or burns. Pregnancy status is unknown.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04140916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

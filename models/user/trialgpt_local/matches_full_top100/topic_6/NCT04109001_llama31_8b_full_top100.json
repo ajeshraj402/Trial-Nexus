@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04109001",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "critical care patients' registries in SIR during the years 2005 to 2012",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "valid personal identity number",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age 16 and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no valid personal identity number",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections, recent antibx use, and was treated with Vanco for an extended course. Pt was also encouraged to take probiotics and bleach her home when discharged.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04109001",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

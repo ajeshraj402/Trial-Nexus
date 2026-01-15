@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03205371",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "23 years old"
+    },
+    {
+      "criterion": "Country",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous vaccination against meningococcal disease",
+      "label": "not_met",
+      "evidence": "no previous vaccination mentioned"
+    },
+    {
+      "criterion": "Receipt of immune globulins, blood or blood-derived products in the past 3 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has high blood pressure and signs of septicemia. He was diagnosed with atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03205371",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

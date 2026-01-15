@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01860963",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "IBD clinic follow-up",
+      "label": "met",
+      "evidence": "followed in the IBD clinic"
+    },
+    {
+      "criterion": "Healthy controls",
+      "label": "met",
+      "evidence": "healthy controls"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HPV vaccination",
+      "label": "not_met",
+      "evidence": "no mention of HPV vaccination"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "menopausal and uses no contraception"
+    },
+    {
+      "criterion": "Immunosuppressed states",
+      "label": "unknown",
+      "evidence": "otherwise healthy, but smokes and drinks alcohol frequently"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She was offered conization.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01860963",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

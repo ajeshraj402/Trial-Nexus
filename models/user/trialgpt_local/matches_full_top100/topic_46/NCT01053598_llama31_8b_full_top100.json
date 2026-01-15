@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01053598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pulmonary TB suspects as defined by a cough for more than 2 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 15 years and above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent signed",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Producing pure blood sputum or clear saliva",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receiving anti TB treatment (isoniazid, rifampicin, streptomycin, pyrazinamide",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been admitted to the hospital after 10 days of cough and has a positive sputum culture for Mycobacterium tuberculosis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01053598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

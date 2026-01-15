@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04772430",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "registered at Bart\u0131n Family Health Center",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age range of 2-6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "parental consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no congenital or chronic health problem",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not taking analgesic drug in the last 4 hours",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "aged between 0-1 months and over 6 months",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no parental consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone, which may affect eligibility.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04772430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

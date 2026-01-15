@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02156947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic chronic cholelithiasis",
+      "label": "met",
+      "evidence": "accepted to laparoscopic cholecystectomy"
+    },
+    {
+      "criterion": "acute cholelithiasis",
+      "label": "met",
+      "evidence": "accepted to laparoscopic cholecystectomy in first 72-96 hours"
+    },
+    {
+      "criterion": "acute right upper quadrant abdominal pain",
+      "label": "met",
+      "evidence": "positive Murphy's sign"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "mildly febrile"
+    },
+    {
+      "criterion": "leukocytosis",
+      "label": "met",
+      "evidence": "lab analysis is remarkable for elevated ESR and leukocytosis with a left shift"
+    },
+    {
+      "criterion": "sonographically; distended GB, presence of gallstones or sludge",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones and biliary sludge"
+    },
+    {
+      "criterion": "GB wall thickness of 3-mm or more",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sonographic Murphy's sign",
+      "label": "met",
+      "evidence": "on palpation, she experiences epigastric tenderness and tenderness in the right upper quadrant without rebound"
+    },
+    {
+      "criterion": "symptomatic chronic cholelithiasis patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute cholelithiasis patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "accepted to laparoscopic cholecystectomy",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "first 72-96 hours (from the onset of symptoms)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "choledocholithiasis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "<18 years old",
+      "label": "met",
+      "evidence": "she has 2 children"
+    }
+  ],
+  "notes": "The patient is a 45-year-old woman with abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has similar pain twice in the past year, hypercholesterolemia, and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02156947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

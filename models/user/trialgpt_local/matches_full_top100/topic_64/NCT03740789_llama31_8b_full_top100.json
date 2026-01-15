@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03740789",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic HBV infection",
+      "label": "met",
+      "evidence": "HBsAg for more than 6 months"
+    },
+    {
+      "criterion": "liver biopsy",
+      "label": "met",
+      "evidence": "underwent a liver biopsy"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "signed the informed consent before liver biopsy"
+    },
+    {
+      "criterion": "no interferon or Nucleoside analogue treatment",
+      "label": "met",
+      "evidence": "no history use of interferon or Nucleoside analogue treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatitis A virus(HAV) co-infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatitis C virus(HCV) co-infection",
+      "label": "met",
+      "evidence": "diagnosed with HCV 2 years ago and recent coinfection with HBV"
+    },
+    {
+      "criterion": "decompensated cirrhosis",
+      "label": "unknown",
+      "evidence": "no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis, or metabolic liver disease"
+    },
+    {
+      "criterion": "hepatocellular carcinoma(HCC)",
+      "label": "not_met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "history of liver transplantation",
+      "label": "unknown",
+      "evidence": "no evidence of history of liver transplantation"
+    },
+    {
+      "criterion": "antiviral treatment",
+      "label": "met",
+      "evidence": "on IFN, RBV and direct antiviral drugs for the past 6 months"
+    },
+    {
+      "criterion": "systemic prednisolone or immunosuppressive agent",
+      "label": "not_met",
+      "evidence": "no history of medical condition that requires concurrent use of systemic prednisolone or other immunosuppressive agent"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. On IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03740789",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

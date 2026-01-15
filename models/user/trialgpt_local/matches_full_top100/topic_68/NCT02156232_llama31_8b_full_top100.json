@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02156232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed written informed consent",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of liver cirrhosis (clinical or by liver biopsy)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Admission due to variceal bleeding occurred 5 to 42 days prior and standard treatment for secondary prophylaxis failed",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed splenorenal shunt, gastrorenal shunt or paraesophageal vein",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sum of targeted SPSS diameters greater than half the diameter of portal vein",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child-Pugh score \u226413",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatic carcinoma and/or other malignancy diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Portal vein thrombosis (\u226550% of the lumen)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Budd-Chiari syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other spontaneous portosystemic shunts",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has liver cirrhosis and variceal bleeding, but the exact diagnosis is unknown. He was treated with plasma exchange and corticosteroids.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02156232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

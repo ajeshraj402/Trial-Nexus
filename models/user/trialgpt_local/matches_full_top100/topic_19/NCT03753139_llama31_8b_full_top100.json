@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03753139",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "treated for any reason in the emergency department of Kuopio University Hospital",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients treated for any reason in the emergency department of Kuopio University Hospital.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "body mass index (BMI) over 35",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "implanted heart pacemaker device",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "medical condition requiring immediate treatment that would be delayed by the study measurements.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03753139",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

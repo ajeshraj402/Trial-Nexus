@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02390869",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "First or second relapse or progression following R-chemotherapy (Rituximab maintenance and IF radiotherapy are not considered treatment lines).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Previous treatment with Bendamustine can be considered eligible if relapse occurred after \u2265 24 months.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any lymphoma subtype other than FL including transformed FL",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Radiotherapy within 3 months prior to study entry",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has Burkitt's Lymphoma, which is a different subtype than Follicular Lymphoma. They have also received radiotherapy recently.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02390869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

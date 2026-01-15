@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04312178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37-year-old woman"
+    },
+    {
+      "criterion": "screening centre",
+      "label": "met",
+      "evidence": "Regional Cancer Screening Coordination Centre"
+    },
+    {
+      "criterion": "study participation",
+      "label": "met",
+      "evidence": "participating in the study"
+    },
+    {
+      "criterion": "screening eligibility",
+      "label": "met",
+      "evidence": "eligible for cervical cancer screening"
+    },
+    {
+      "criterion": "smear test history",
+      "label": "not_met",
+      "evidence": "The patient tested positive for HPV 16."
+    },
+    {
+      "criterion": "response to invitation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residential area",
+      "label": "met",
+      "evidence": "Residing in a Block Grouped for Disadvantaged Statistical Information"
+    },
+    {
+      "criterion": "health insurance",
+      "label": "met",
+      "evidence": "Covered by health insurance or AME"
+    },
+    {
+      "criterion": "smoking history",
+      "label": "not_met",
+      "evidence": "She smokes 30 packs/year."
+    },
+    {
+      "criterion": "alcohol consumption",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy status",
+      "label": "met",
+      "evidence": "The patient has four children."
+    },
+    {
+      "criterion": "guardianship status",
+      "label": "met",
+      "evidence": "She is otherwise healthy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy history",
+      "label": "not_met",
+      "evidence": "The patient underwent tubal ligation."
+    },
+    {
+      "criterion": "pregnancy status beyond 6 months",
+      "label": "met",
+      "evidence": "She has four children."
+    }
+  ],
+  "notes": "The patient tested positive for HPV 16 and has a history of smoking.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04312178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

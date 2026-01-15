@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01618617",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "Body mass index",
+      "label": "met",
+      "evidence": "BMI not specified, but within normal range (18.5-39.9)"
+    },
+    {
+      "criterion": "Meets Rome III definition of functional constipation 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Straining during at least 25% of defecations",
+      "label": "met",
+      "evidence": "straining during bowel movements"
+    },
+    {
+      "criterion": "Lumpy or hard stools in at least 25% of defecations",
+      "label": "met",
+      "evidence": "greenish, liquid stool"
+    },
+    {
+      "criterion": "Sensation of incomplete evacuation for at least 25% of defecations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Fewer than three defecations per week",
+      "label": "met",
+      "evidence": "bowel movements eight times in 3 hours"
+    },
+    {
+      "criterion": "Able to understand the nature and purpose of the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing to consent to study participation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major gastrointestinal complication",
+      "label": "not_met",
+      "evidence": "no mention of Crohn's disease, ulcer, or cancer"
+    },
+    {
+      "criterion": "Prior abdominal surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically significant systemic disease",
+      "label": "not_met",
+      "evidence": "no mention of cancer, diabetes, or CAD"
+    },
+    {
+      "criterion": "Consumption of probiotics or prebiotics",
+      "label": "met",
+      "evidence": "no mention of probiotic use within 2 weeks"
+    },
+    {
+      "criterion": "Antibiotic use",
+      "label": "met",
+      "evidence": "recent history of intravenous antibiotics for aspiration pneumonia"
+    }
+  ],
+  "notes": "Patient has a recent history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. Stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01618617",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03520855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "child_with_diabetes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "classic_diagnostic_criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "polyuropolydipsic_syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "weight_loss",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ketonuria",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "internet_access",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "computer_or_tablet_at_home",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "informed_consent_signed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "social_security_beneficiary",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "no_internet_access",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no_french_language_proficiency",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inability_to_understand_game_instructions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability_to_fill_consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who has been on insulin since diagnosis. He has had previous episodes of diabetic ketoacidosis and is currently experiencing hyperglycemia.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03520855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

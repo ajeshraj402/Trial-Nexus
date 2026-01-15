@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a woman"
+    },
+    {
+      "criterion": "willingness to give consent",
+      "label": "met",
+      "evidence": "patient and her husband report she was willing"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy to lidocaine",
+      "label": "not_met",
+      "evidence": "no mention of allergy"
+    },
+    {
+      "criterion": "contraindications to IUD use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient had a severe 'exploding' headache due to hitting her head on a cabinet, but was improving with pain medication and ambulating independently.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

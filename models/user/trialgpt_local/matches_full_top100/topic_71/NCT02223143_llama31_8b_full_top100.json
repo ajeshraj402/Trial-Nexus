@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02223143",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "follow-up will take place yearly thereafter for 5 years, through clinical visiting, phone follow-up, or records from the NHIB Taiwan.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "vital signs, clinical endpoints, adverse events, concurrent medication information and laboratory specimens will be obtained as complete as possible.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "if the primary care physician intends to treat the patient's lipid profile to the target, he/she can add, delete or adjust the LLT by his/her clinical judgement.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "apparent healthy persons",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamically significant valvular or congenital heart disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "any non-cardiovascular diseases which may affect prognosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02223143",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

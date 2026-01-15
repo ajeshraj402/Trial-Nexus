@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00259805",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of chronic focal encephalitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "IgG & IgM levels within normal limits",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate renal function",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stable anticonvulsant drug regimen",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of significant ongoing medical condition or progressive neurologic condition",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous treatment with rituximab",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of significant recurrent infections, or ongoing active infection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receipt of a live vaccine within 4 weeks prior to treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of severe allergic reactions to humanized or murine monoclonal antibodies",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of drug, alcohol or chemical abuse within 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concomitant malignancies or previous malignancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of steroids or immunoglobulins during the 4 weeks prior to treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis with mild non-focal residual deficits, but no evidence of significant ongoing medical condition or progressive neurologic condition.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00259805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

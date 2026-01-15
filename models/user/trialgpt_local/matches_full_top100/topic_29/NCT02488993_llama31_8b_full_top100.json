@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT02488993",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of cirrhosis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patient is \u226518 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient is enrolled within 12 weeks of resolution of an episode of overt HE associated with a hospital visit",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patient is able to provide informed consent to participate in the study (individually or via caregiver)",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient meets clinical eligibility to receive rifaximin-\u03b1 550 mg in the opinion of the participating physician, regardless of HE treatment actually received",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "West Haven Conn score of \u22652 at time of study entry (i.e. at provision of informed consent)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Mental health disorder such as dementia or psychosis which makes diagnoses of HE questionable",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Prior treatment with rifaximin in the 12 months before qualifying episode of overt HE associated with a hospital visit",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Contraindications to the use of rifaximin-\u03b1 as per local summary of product characteristics",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis, but appears well with this episode of hyperglycemia.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02488993",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

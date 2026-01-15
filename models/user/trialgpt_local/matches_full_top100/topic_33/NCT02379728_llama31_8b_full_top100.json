@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226518 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "low-risk singleton pregnancy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "entering the last trimester of pregnancy (in range 26-30 weeks of gestation)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "residing in the Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "fluent in either English, Twi, or Ga.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI \u2265 35 at booking (first antenatal appointment for current pregnancy)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pregnancy complicated by obstetric complications (hypertension [pre-eclampsia, gestational hypertension, chronic hypertension], diabetes [gestational or not], or intra-uterine growth restriction [<10th %ile for growth])",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sleep complicated by medical conditions (known to get <4 hours of sleep per night due to insomnia, or musculoskeletal disorder that prevents sleeping on a certain side [e.g., arthritic shoulder])",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "multiple pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known fetal abnormality",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "maternal age >35",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, regular exercise, and no history of allergies. She has an irregular menstrual cycle but uses barrier methods of contraception.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04117581",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "asthma_diagnosed_by_general_practitioner",
+      "label": "met",
+      "evidence": "history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness"
+    },
+    {
+      "criterion": "taking_inhaled_therapy_to_treat_asthma_at_least_two_times_per_week",
+      "label": "met",
+      "evidence": "currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history_of_smoking_within_past_year_or_10_years_total",
+      "label": "unknown",
+      "evidence": "doesn't smoke"
+    },
+    {
+      "criterion": "suffering_from_chronic_diseases_of_the_lung_other_than_asthma",
+      "label": "unknown",
+      "evidence": "no mention of other lung diseases"
+    },
+    {
+      "criterion": "history_of_smoking_within_past_year_or_10_years_total",
+      "label": "unknown",
+      "evidence": "doesn't smoke"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently taking inhaled therapy to treat it. However, there is no mention of any exclusion criteria that would make them ineligible for the study.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04117581",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

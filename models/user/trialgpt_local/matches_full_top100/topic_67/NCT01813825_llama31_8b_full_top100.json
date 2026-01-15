@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "tumor_type",
+      "label": "met",
+      "evidence": "squamous intraepithelial/glandular lesion"
+    },
+    {
+      "criterion": "hpv_status",
+      "label": "met",
+      "evidence": "HPV 16 positive"
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skinSpacing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "tumor_size",
+      "label": "met",
+      "evidence": "DCIS"
+    },
+    {
+      "criterion": "menopausalStatus",
+      "label": "met",
+      "evidence": "menopausal"
+    },
+    {
+      "criterion": "contraceptionUse",
+      "label": "not_met",
+      "evidence": "no contraception use"
+    },
+    {
+      "criterion": "smokingStatus",
+      "label": "met",
+      "evidence": "smokes"
+    },
+    {
+      "criterion": "alcoholConsumption",
+      "label": "met",
+      "evidence": "drinks alcohol frequently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancyStatus",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "collagenVascularDisease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductalComponent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "histologyType",
+      "label": "not_met",
+      "evidence": "squamous intraepithelial/glandular lesion"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positive. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

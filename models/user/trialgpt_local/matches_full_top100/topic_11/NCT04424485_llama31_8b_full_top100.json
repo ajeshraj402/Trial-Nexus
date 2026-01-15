@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04424485",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Thyroid carcinoma patients",
+      "label": "met",
+      "evidence": "biopsy/cytology-proven"
+    },
+    {
+      "criterion": "procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients at or over 17 years",
+      "label": "met",
+      "evidence": "age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous thyroid surgery",
+      "label": "triggers",
+      "evidence": "s/p neck mass resection; unable to perform thyroidectomy"
+    },
+    {
+      "criterion": "Patients below 17 years",
+      "label": "not_met",
+      "evidence": "age"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and previous thyroid surgery, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04424485",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02371863",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male or female from all ethnicities",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least 6 months post successful, isolated MV repair",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Asymptomatic",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pulmonary hypertension >50 mmHg at rest",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Atrial fibrillation (AF) at time of study related stress echo test",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known contraindication or incapability to perform peak exercise or inability to perform physical stress testing",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LVEF <45%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "NYHA class II and more",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation, EF of 65% on TTE. She remains symptomatic.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02371863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

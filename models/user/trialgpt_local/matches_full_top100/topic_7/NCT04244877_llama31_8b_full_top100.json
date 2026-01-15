@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04244877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis patients between 18-70years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without prior transjugular intrahepatic portosystemic shunt (TIPS) placement or prior overt hepatic encephalopathy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cirrhosis diagnosed on the basis of liver biopsy, liver stiffness measurement (Fibroscan) or radiological study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CHE diagnosis using pre-defined criteria [two of the following should be abnormal as compared to healthy controls: number connection test A/B (NCT-A/B), Digit Symbol Test (DST), or Block Design Test (BDT)] at least 2 months prior to the start of the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No prior episode of overt HE, not on therapy for overt HE, not on any psycho-active medications apart from stable doses of selective serotonin re-uptake inhibitors.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known allergy to rifaximin / rifabutin / rifampin.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current or recent (<6 months) abuse of alcohol or illicit drugs",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of antibiotics within last 6 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of lactulose / lactitol, probiotics, L-ornithine- L -aspartate, zinc, metronidazole, or neomycin, within last 6 weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diarrhea or abdominal distention",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and CHE diagnosis. No prior episode of overt HE, not on therapy for overt HE, not on any psycho-active medications apart from stable doses of selective serotonin re-uptake inhibitors.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04244877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

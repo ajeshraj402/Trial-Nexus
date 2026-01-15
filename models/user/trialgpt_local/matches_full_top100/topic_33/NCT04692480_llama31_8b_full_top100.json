@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04692480",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulliparous woman",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": ">18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Fluency in English or Spanish",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Intention to exclusively breastfeed",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior breastfeeding experience",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intention to utilize formula",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but has irregular menstrual cycle.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT04692480",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

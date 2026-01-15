@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02519608",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fashion to one of the two dual antiplatelet therapy (DAPT) regimen: aspirin + clopidogrel",
+      "label": "met"
+    },
+    {
+      "criterion": "standard of care vs. aspirin + ticagrelor (experimental arm)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "DAPT with aspirin and clopidogrel for at least 6 months",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients hospitalized with diagnosis of acute coronary syndrome",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Previous chronic use of P2Y12 inhibitors",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02519608",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

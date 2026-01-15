@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02944682",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed pregnancy",
+      "label": "met",
+      "evidence": "hCG positive blood or urine test"
+    },
+    {
+      "criterion": "Aged 18 to <35 years",
+      "label": "met",
+      "evidence": "self-report"
+    },
+    {
+      "criterion": "Uses biomass stove predominantly",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Lives in study area",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "9 - <20 weeks gestation confirmed by ultrasound",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Singleton pregnancy (one fetus)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Viable fetus with normal fetal heart rate (120-180 beats per minute) at time of ultrasound",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Continued pregnancy at the time of randomization confirmed by self-report",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Agrees to participate with informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently smokes cigarettes or other tobacco products",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Plans to move permanently outside study area in the next 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uses LPG stove predominantly, or is likely to use LPG predominantly in the near future",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnant (by self-report)",
+      "label": "met",
+      "evidence": "self-report"
+    },
+    {
+      "criterion": "Plans to move out of her current household in the next 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has some general and non-specific bones and joints pain, but otherwise unremarkable past medical and drug history.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02944682",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

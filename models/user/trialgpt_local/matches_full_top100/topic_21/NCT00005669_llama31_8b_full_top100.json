@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00005669",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Good general health",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age greater than or equal to 6 and less than 13 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pre-pubertal or having at most early puberty",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hyperinsulinemia, defined as fasting insulin concentration greater than or equal to 15 mIU/mL",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Obesity, defined as body mass index greater than or equal to 95th percentile determined by NHANES I age and sex specific data",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects must have fasting plasma glucose less than 126 mg/dl",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects must have glycosylated hemoglobin (HgbA1C) of less than or equal to 6.5%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Females who begin menstruating (or who are at risk for pregnancy) during the study must have a negative pregnancy test and must use an effective method of contraception if they are engaging in sexual intercourse",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Baseline creatinine greater or equal to 1.0 mg/dl",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant cardiac or pulmonary disease likely to or resulting in hypoxia or decreased perfusion",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hepatic disease with elevated liver function tests (ALT or AST) greater than or equal to 1.5 the upper limits of normal",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "An alcohol history concerning for development of hepatic toxicity",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence for Type 2 diabetes, including fasting plasma glucose greater than or equal to 126 mg/dl or HgbA1C greater than 6.5%",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Weight loss of greater than 2% of bodyweight within the past 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of other endocrinologic disorders leading to obesity (e.g. Cushing's Syndrome)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of alcohol consumption and smoking, which may be concerning for development of hepatic toxicity. Additionally, the patient's family history is positive for type 2 diabetes.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT00005669",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

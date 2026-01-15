@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01719705",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spinal anesthesia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "elective cesarean delivery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous caesarean delivery",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiovascular diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic diseases",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia, but it is not clear if it is currently being managed. She does not have any other exclusion criteria mentioned in the patient's notes.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01719705",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

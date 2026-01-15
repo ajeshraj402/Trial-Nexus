@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04328974",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Resuscitated out of hospital cardiac arrest (OHCA) patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "OHCA patients whose GCS is 8 or less after ROSC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "OHCA patients who undergo TTM",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "interrupted TTM (due to haemodynamic instability)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "intracranial haemorrhage, active bleeding, known terminal illness, or poor pre-arrest neurological status",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "brain computed tomography showed severe cerebral oedema, obliteration of the basal cisterns, occult intracranial mass lesion, antiplatelet therapy, anticoagulation therapy, or coagulopathy: platelet count < 40 x 10^3/mL or international normalized ratio (INR) > 1.5",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "extracorporeal membrane oxygenation",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no next of kin to consent to LP",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "refusal of further treatment by the next of kin",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis with residual deficits, which may indicate poor neurological status. Additionally, the patient's cardiac MRI showed a mass in the right atrium adjacent to the AV junction, which could be a contraindication for TTM.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04328974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

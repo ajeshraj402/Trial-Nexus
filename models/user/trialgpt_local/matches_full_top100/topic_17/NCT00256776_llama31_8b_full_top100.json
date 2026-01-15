@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00256776",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "64yo woman"
+    },
+    {
+      "criterion": "Multiple myeloma with evaluable disease",
+      "label": "met",
+      "evidence": "multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis"
+    },
+    {
+      "criterion": "Relapsing or having a progressive disease",
+      "label": "met",
+      "evidence": "relapse of her myeloma"
+    },
+    {
+      "criterion": "Karnofsky performance status > 50 %",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy of at least 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Voluntary written informed consent",
+      "label": "met",
+      "evidence": "Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant"
+    },
+    {
+      "criterion": "Female of child-bearing potential must have a method of birth control and a negative serum or urine beta--human chorionic gonadotropin (\u03b2-HCG) pregnancy test at screening",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male must use contraception",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-secretory multiple myeloma",
+      "label": "not_met",
+      "evidence": "multiple myeloma with evaluable disease"
+    },
+    {
+      "criterion": "Platelet count < 40,000 X 10^9/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absolute neutrophil count <1.0 X 10^9/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Creatinine clearance <30 mL/minute",
+      "label": "met",
+      "evidence": "on hemodialysis for ESRD"
+    },
+    {
+      "criterion": "Peripheral neuropathy >= Grade 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Seropositive for HIV, or active hepatitis A, B or C infection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or breastfeeding female",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has hypersensitivity to bortezomib, boron or mannitol",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "64yo woman with multiple myeloma and recurrent disease, on hemodialysis for ESRD. She was treated with various regimens including melphalan, prednisone, VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00256776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

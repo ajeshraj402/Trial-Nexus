@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01530178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "concomitant illnesses except treated hypothyroidism",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "less than 9 % HbA1C",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "menstruating women must have a negative pregnancy test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "lactating and pregnant women will be excluded",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "anemia defined by Hemoglobin of less than 12 gm/dl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of substance abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "on any other medication which affects blood sugars",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "having any other chronic condition except hypothyroidism stable on medications",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on chronic medications that may affect glucose excursions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin less than 12 g/dl",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "positive pregnancy test (based on Urine)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or lactating mothers",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known allergy to Januvia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable, but her laboratory study shows Vit D: 14ng/ml.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01530178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

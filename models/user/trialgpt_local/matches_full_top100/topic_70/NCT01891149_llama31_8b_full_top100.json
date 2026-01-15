@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01891149",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "presentation to Fistula Care Centre",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to consent in Chichewa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "female aged 18-45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness to undergo pelvic ultrasound",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current pregnancy or pregnancy within past six weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "seriously or terminally ill",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on anti-depressants for the past 6 months. She is willing to undergo pelvic ultrasound.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01891149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

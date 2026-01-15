@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04308265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinically and radiologically diagnosed with acute cholecystitis",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones, biliary sludge and CBD stones"
+    },
+    {
+      "criterion": "be over 18 years old",
+      "label": "met",
+      "evidence": "patient is a 54-year-old woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "being under the age of 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "getting pregnant",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "acute pancreatitis, cholangitis or choledochal stone with acute cholecystitis",
+      "label": "does_not_trigger",
+      "evidence": "ultrasound revealed several gallstones, biliary sludge and CBD stones (no mention of pancreatitis)"
+    },
+    {
+      "criterion": "having a previous history of upper abdominal surgery",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is an obese woman with epigastric tenderness and tenderness in the right upper quadrant without rebound. Laboratory analysis shows elevated ESR and leukocytosis with a left shift.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04308265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

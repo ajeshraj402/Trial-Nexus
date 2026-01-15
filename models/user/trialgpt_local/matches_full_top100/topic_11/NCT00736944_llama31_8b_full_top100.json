@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00736944",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Selected Stages 3 and 4a/b HNSCC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG Performance Status (PS) of 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate vital organ function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hematopoietic function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with reproductive potential must use an effective method of contraception",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If female of childbearing potential, the patient must have a negative pregnancy test.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Peripheral neuropathy > Grade 1",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior chemotherapy, EGFR targeted therapy or radiation therapy for HNSCC.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of prior invasive malignancy diagnosed within the last three years other than local stage non-melanoma skin cancer.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00736944",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

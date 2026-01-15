@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04341714",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57-year-old gentleman"
+    },
+    {
+      "criterion": "Telephone consultation",
+      "label": "met",
+      "evidence": "telephone consultation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "New patient in the department",
+      "label": "does_not_trigger",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but meets inclusion criteria.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04341714",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

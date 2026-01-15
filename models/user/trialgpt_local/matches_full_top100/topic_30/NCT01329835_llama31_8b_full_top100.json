@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01329835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Less than 15 weeks pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Multiple pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preexisting diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary need for nutritional advice",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but is still overweight and has high anti-TPO levels.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01329835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

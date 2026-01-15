@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03948022",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "woman aged 20-40 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Having available blastocyst(s) cryopreserved by vitrification method.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "requirement for fresh embryo(s);",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of any clinically relevant systemic disease contraindicated for assisted reproduction or pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of more than three failed cycles of IVF",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of recurrent abortions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy history for relevant drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "body mass index of <18 or >38 kg/m2 at screening",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "current breastfeeding or pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refusal or inability to comply with the requirements of the protocol for any reason, including scheduled clinic visits and laboratory tests",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "trophectoderm or blastomere biopsy of the blastocyst(s) to be transferred",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but it is not a contraindication for assisted reproduction. BMI is within normal range.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT03948022",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

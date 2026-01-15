@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02503826",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34-year-old woman"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "BMI is 23"
+    },
+    {
+      "criterion": "ASA grade",
+      "label": "met",
+      "evidence": "BP: 120/75, HR: 75/min"
+    },
+    {
+      "criterion": "surgery duration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "She is married and has 3 children"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "respiratory disease",
+      "label": "not_met",
+      "evidence": "BP: 120/75, HR: 75/min"
+    },
+    {
+      "criterion": "cardiovascular disease",
+      "label": "not_met",
+      "evidence": "BP: 120/75, HR: 75/min"
+    },
+    {
+      "criterion": "neurological disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic dysfunction",
+      "label": "not_met",
+      "evidence": "Her laboratory study is remarkable for Vit D: 14ng/ml and otherwise healthy."
+    },
+    {
+      "criterion": "renal dysfunction",
+      "label": "not_met",
+      "evidence": "Ca: 9.2mg/dl, Phosphorus: 3.2mg/dl"
+    },
+    {
+      "criterion": "psychiatric history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "drug addiction",
+      "label": "not_met",
+      "evidence": "Her past medical and drug history are unremarkable"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02503826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

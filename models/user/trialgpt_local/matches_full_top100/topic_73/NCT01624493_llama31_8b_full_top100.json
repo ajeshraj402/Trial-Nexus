@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT01624493",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically proven diagnosis of epithelial ovarian cancer, primary peritoneal cancer or fallopian tube cancer, including all histological subtypes and carcinosarcoma.",
+      "label": "met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    },
+    {
+      "criterion": "Histologically proven diagnosis of epithelial ovarian cancer, primary peritoneal cancer or fallopian tube cancer.",
+      "label": "met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-epithelial ovarian cancer and ovarian tumours of low malignant potential (borderline tumours).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "More than two prior chemotherapy regimens for ovarian cancer (excluding hormonal therapy or biologic agents).",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT01624493",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

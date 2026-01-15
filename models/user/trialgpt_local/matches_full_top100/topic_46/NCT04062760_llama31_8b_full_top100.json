@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04062760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or non-pregnant female patient, 18 years or older",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients admitted to Cardiology or Internal Medicine units with a diagnosis of acute decompensated heart failure and congestion: NT-proBNP > 1,000 pg/ml or BNP >250 pg/ml,",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "dyspnea and at least two of the following clinical signs: 2+ pitting edema, pulmonary edema/pleural effusions at chest x-ray or US body weight increase above usual > 5% over the last 4 weeks",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically stable patients that can be switched to oral diuretic therapy after 24-72 hours of an algorithm-based treatment with high-dose intravenous furosemide started at the time of hospital admission",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients capable to provide written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serum creatinine levels > 3.5 mg per deciliter at admission to the hospital or usual estimated glomerular filtration rate (eGFR) < 20 ml/min/1.73 m2 by the MDRD or CKD-EPI formula",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Systolic blood pressure < 90 mmHg at time of enrollment and/or hemodynamic instability severe enough to require intravenous inotropes, intravenous vasodilators, or both",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT04062760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

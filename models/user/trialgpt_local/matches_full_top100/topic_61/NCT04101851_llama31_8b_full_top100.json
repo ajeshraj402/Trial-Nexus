@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04101851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent prior to breast-conserving surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Histologically confirmed unilateral primary invasive carcinoma of the breast",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age at diagnosis at least 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "imaging techniques with estimated tumor stage between cT1c-T3 prior to NAST",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "triple-negative or HER2-positive invasive breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinically and sonographically tumor-free axilla prior to core biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence for distant metastasis (M0)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "planned breast-conserving surgery with postoperative external whole-breast irradiation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of malignancy within last 5 years, except curatively treated basalioma of the skin and carcinoma in situ of the cervix",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Time since last cycle of NAST >3 months (optimal <1 month)",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04101851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

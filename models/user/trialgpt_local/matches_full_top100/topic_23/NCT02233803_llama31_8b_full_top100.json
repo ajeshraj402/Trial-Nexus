@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02233803",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "Diagnosis of asthma",
+      "label": "met",
+      "evidence": "history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness"
+    },
+    {
+      "criterion": "Severity of disease",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted"
+    },
+    {
+      "criterion": "Reversibility of disease",
+      "label": "met",
+      "evidence": "Demonstrated >=12% and >=200 mL reversibility of FEV1 within 10 to 40 minutes after 2 to 4 inhalations of salbutamol inhalation aerosol"
+    },
+    {
+      "criterion": "Current anti-asthma therapy",
+      "label": "met",
+      "evidence": "Currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of life-threatening asthma",
+      "label": "not_met",
+      "evidence": "No history of intubation and/or hypercapnia, respiratory arrest or hypoxic seizures within the last 10 years"
+    },
+    {
+      "criterion": "Respiratory infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Asthma exacerbation",
+      "label": "not_met",
+      "evidence": "No asthma exacerbation requiring oral corticosteroids within 12 weeks of Visit 1"
+    },
+    {
+      "criterion": "Asthma severely uncontrolled",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Concurrent respiratory disease",
+      "label": "not_met",
+      "evidence": "No current evidence of pneumonia, pneumothorax, atelectasis, pulmonary fibrotic disease, bronchopulmonary dysplasia, chronic bronchitis, emphysema, COPD or other respiratory abnormalities"
+    },
+    {
+      "criterion": "Other concurrent diseases/abnormalities",
+      "label": "not_met",
+      "evidence": "No clinically significant, uncontrolled condition or disease state that would put the safety of the subject at risk through study participation or confound the interpretation of the efficacy results"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02233803",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

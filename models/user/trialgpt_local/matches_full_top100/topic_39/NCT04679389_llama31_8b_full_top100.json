@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04679389",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomized to placebo or acetazolamide",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Molecularly and/or enzymatically-confirmed PMM2-CDG",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u22654 years old",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Affected with ataxia evidenced by mini International Cooperative Ataxia Rating Scale (Mini-ICARS) score >0 at baseline",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatic impairment defined as AST/ALT >5x ULN in the last 12 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Renal impairment defined as serum creatinine: > 0.5 mg/dL (<6 years); > 0.7 mg/dL (7-10 years); > 1.24 mg/dL (> 11 years)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hypersensitivity to acetazolamide",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of treatment with experimental drug within 28 days of Visit 1",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She was born at 38w3d of gestation, after an uncomplicated pregnancy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04679389",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00110760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 years old"
+    },
+    {
+      "criterion": "dermal filler injection in the face",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participated in a clinical trial of an unapproved drug within the previous 30 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participated in any previous clinical trial involving S-Caine Peel",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00110760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

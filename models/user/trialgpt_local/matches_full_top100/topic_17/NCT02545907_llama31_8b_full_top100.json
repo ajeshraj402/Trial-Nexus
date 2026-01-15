@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02545907",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 18 years or greater",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of systemic AL amyloidosis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Amyloid related organ dysfunction or organ syndrome",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Measurable clonal disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clonal relapse after previous chemotherapy or stem cell transplant OR refractory to previous chemotherapy or stem cell transplant",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has systemic AL amyloidosis and is on hemodialysis for ESRD. She was treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT02545907",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

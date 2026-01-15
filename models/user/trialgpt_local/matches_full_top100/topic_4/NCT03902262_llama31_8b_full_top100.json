@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03902262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Kawasaki disease",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute abdomen requiring surgery",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic gastrointestinal disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Incomplete data on the charts",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and CSF leak with meningitis, but these conditions are not chronic gastrointestinal diseases. Incomplete data is present in the form of incomplete medical history.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03902262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

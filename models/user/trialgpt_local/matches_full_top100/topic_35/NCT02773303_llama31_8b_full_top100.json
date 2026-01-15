@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02773303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clear diagnosis of migraine headache",
+      "label": "met",
+      "evidence": "The patient is diagnosed with the migraine headache and is under treatment."
+    },
+    {
+      "criterion": "high starting delta wave level confirmed by qEEG",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "iPhone 4s or later or all iPads except first generation iPAD running OS v7 or later",
+      "label": "met",
+      "evidence": "She has access to a computer, tablet or phone with WiFi capabilities."
+    },
+    {
+      "criterion": "computer running Windows 7 or later",
+      "label": "met",
+      "evidence": "She has access to a computer, tablet or phone with WiFi capabilities."
+    },
+    {
+      "criterion": "Tablet running Android 4.1 or later",
+      "label": "met",
+      "evidence": "She has access to a computer, tablet or phone with WiFi capabilities."
+    },
+    {
+      "criterion": "Internet connection",
+      "label": "met",
+      "evidence": "She has access to a computer, tablet or phone with WiFi capabilities."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of hearing impairment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-morbidities such as Rett-Syndrome",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02773303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

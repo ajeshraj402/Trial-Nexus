@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01043913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological diagnosis of Breast Cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients undergoing Chemotherapy (First Cycle)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical Depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior Chemotherapy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to sign informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe Fatigue",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age with mild headache and leg swelling, BP 146/99, urine dipstick 3+ proteins. No fever or chills, no shortness of breath, cough, chest pain, orthopnea or palpitations.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01043913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04017286",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "no cognitive impairment",
+      "label": "met",
+      "evidence": "physical assessment"
+    },
+    {
+      "criterion": "Hamilton Depression Scale (HAMD questionnaire) is normal or mild to moderate positive",
+      "label": "met",
+      "evidence": "HAMD score <8 points or 8~35 points"
+    },
+    {
+      "criterion": "Participants are asked for their own written informed content for the study",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients receiving anti-depression therapy during the first 6 months of gestation or during pregnancy",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Patients with severe depression with scores of no less than 35 points in the HAMD questionnaire",
+      "label": "unknown",
+      "evidence": "no information available"
+    },
+    {
+      "criterion": "Patients with other mental disorders",
+      "label": "unknown",
+      "evidence": "no information available"
+    },
+    {
+      "criterion": "Patients with neurological diseases",
+      "label": "unknown",
+      "evidence": "no information available"
+    },
+    {
+      "criterion": "Patients with cognitive dysfunction",
+      "label": "unknown",
+      "evidence": "no information available"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04017286",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

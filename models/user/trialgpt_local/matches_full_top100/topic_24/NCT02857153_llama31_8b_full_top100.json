@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02857153",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male and females",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists I-II-III",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "65 or more years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled to undergo noncardiothoracic surgery with general anesthesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "enrolled",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cardiovascular Disease and Metabolic Diseases, such as hypertension, cardiac disease, diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe liver, kidney or blood disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55 year old man with lower urinary tract symptoms. He has no history of cardiovascular disease or metabolic diseases.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02857153",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

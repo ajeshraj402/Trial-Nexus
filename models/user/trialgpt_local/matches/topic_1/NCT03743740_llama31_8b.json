@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT03743740",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Being diagnosed with MG by a neurologist",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aged between18-65 years",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "To be in Stage II or III according to the Clinical Classification of the Medialia Gravis Functional Assessment (MGFA)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The Mini Mental Test score should be over 24 in order to be cooperative to the physiotherapist's instructions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "To volunteer to participate in the study",
+      "label": "met",
+      "evidence": "Patient volunteered to participate in the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having a cognitive problem and having a Mini Mental Test score below 24",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "To have had myasthenic crisis in the last month",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Modification of medical treatment and dose in the last month",
+      "label": "does_not_trigger",
+      "evidence": "Patient's therapy included field radiation t10-l1 followed by 11 cycles of temozolomide, but no recent modification mentioned"
+    },
+    {
+      "criterion": "Systemic, orthopedic and neurological disease in addition to the disease",
+      "label": "triggers",
+      "evidence": "Patient has anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention"
+    }
+  ],
+  "notes": "Unknown stage according to MGFA, unknown Mini Mental Test score. Patient's condition is more severe than myasthenia gravis.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03743740",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

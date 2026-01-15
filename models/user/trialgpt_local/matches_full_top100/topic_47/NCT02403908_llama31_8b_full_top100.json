@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02403908",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "IPAH and SPAH not responding to current medical therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mean PAP >25 mm Hg at rest",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age <18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "structural heart diseases with left-to right shunting and/or Eisenmenger syndrome",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man with hypertension, hyperlipidemia, hypothyroidism, smoking history, and recent stroke.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02403908",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

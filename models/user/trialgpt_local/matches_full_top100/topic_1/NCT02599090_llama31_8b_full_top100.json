@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02599090",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histopathologically proven diagnosis of glioblastoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have at least 1 block of tumor tissue available for submission to the central pathologist for analysis of gene expression status by QRT-PCR;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis must be established by open biopsy or tumor resection.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The tumor must have a supratentorial component.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have recovered from the effects of surgery, postoperative infection, and other complications before study registration.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All patients must sign an informed consent indicating that they are aware of the investigational nature of this study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A diagnostic contrast-enhanced MRI or CT scan (if MRI is contraindicated) of the brain must be performed postoperatively in the period between surgery and initiation of radiation therapy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Therapy must begin \u22645 weeks after the most recent brain tumor surgery.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History/physical examination within 14 days prior to study registration.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurologic examination within 14 days prior to study registration.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documentation of steroid doses within 14 days prior to study registration and stable or decreasing steroid dose within 5 days prior to registration.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky performance status of \u2265 60.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior invasive malignancy (except for non-melanomatous skin cancer) unless disease free for \u2265 3 years.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recurrent or multifocal malignant gliomas.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Metastases detected below the tentorium or beyond the cranial vault.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, which is a type of glioblastoma. However, they have also had prior invasive malignancy (anaplastic astrocytoma) and recurrent or multifocal malignant gliomas, which are exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02599090",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03525041",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mitral valve annuloplasty is applicable",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Organic mitral insufficiency caused by rupture of papillary muscle, rheumatic fever,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Degeneration or infectious endocarditis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03525041",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04160195",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "B-cell lymphoma",
+      "label": "met",
+      "evidence": "fluid analysis was consistent with Burkitt's lymphoma"
+    },
+    {
+      "criterion": "CD19 or CD20 expression on Reed-Sternberg cells",
+      "label": "met",
+      "evidence": "Pericardial fluid was kappa light chain restricted CD10 positive monotypic B cells expressing FMC-7, CD19, CD20"
+    },
+    {
+      "criterion": "at least one prior chemotherapy-containing regimen",
+      "label": "met",
+      "evidence": "A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urgent therapy due to tumor mass effects or spinal cord compression",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "anti-CD20 or anti-CD19 antibody products in the past 30 days prior to CAR T-cell infusion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and was found incidentally to have a large pericardial effusion.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04160195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

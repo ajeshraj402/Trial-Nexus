@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01608971",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative hemoglobin value < 12 g/l",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative platelet count < 200 c/\u00b5l",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a body weight < 50 kg",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No known defect of the coagulation system",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal pre-operative ROTEM values of the INTEM and FIBTEM",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with unimpaired renal function (creatinine clearance < 30 ml/kg/min)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Re-do surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known defect of the coagulation system",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Renal impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 55 year old man with lower urinary tract symptoms. He has normal blood chemistry and renal function, but has had recent surgery.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01608971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

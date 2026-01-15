@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00645385",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "acromegaly diagnosis",
+      "label": "met",
+      "evidence": "known case of Acromegaly"
+    },
+    {
+      "criterion": "surgery",
+      "label": "met",
+      "evidence": "transsphenoidal surgery 4 months ago"
+    },
+    {
+      "criterion": "lab studies",
+      "label": "met",
+      "evidence": "lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "random GH level",
+      "label": "met",
+      "evidence": "4 ug/L"
+    },
+    {
+      "criterion": "brain MRI",
+      "label": "met",
+      "evidence": "recent brain MRI confirmed the residual pituitary tumor"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypersensitivity to BCNU or Gliadel wafer components",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multifocal CNS disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis of prior CNS tumor",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acromegaly and recent surgery. He takes vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00645385",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

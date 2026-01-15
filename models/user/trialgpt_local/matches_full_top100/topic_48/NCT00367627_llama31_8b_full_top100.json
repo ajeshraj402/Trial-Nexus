@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "STH, the child stool test must be positive for",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "he/she had not been taken any antehelminthic drug in the previous six months",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age of the child less than 2 years old and more than 5 years old",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "his/her stool test negative for any intestinal helminth",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a professional soccer player with itchy foot, localized scaling and maceration between the third and fourth of his right toe. No underlying disease such as DM.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

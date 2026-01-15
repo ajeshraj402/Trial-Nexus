@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01303081",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "interested_in_quitting_smoking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "current_employment_status",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "plan_to_stop_working_at_Walgreens_in_next_12_months",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "use_form_of_tobacco_other_than_cigarettes",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT01303081",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00434564",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo"
+    },
+    {
+      "criterion": "chest_pain",
+      "label": "met",
+      "evidence": "denies chest pain"
+    },
+    {
+      "criterion": "ecg_non_diagnostic",
+      "label": "met",
+      "evidence": "12 leads ECG non-diagnostic for myocardial ischaemia or AMI"
+    },
+    {
+      "criterion": "diabetes_mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "family_history_young_ami",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ecg_diagnostic_ami",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "congestive_heart_failure_hypotensive",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "persistent_chest_pain_unstable_angina",
+      "label": "met",
+      "evidence": "presyncope and nausea"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00434564",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

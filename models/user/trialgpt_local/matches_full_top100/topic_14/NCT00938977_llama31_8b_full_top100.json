@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00938977",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age < 75 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Stable daytime PCO2 >45 mmHg.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Obesity degree I-III (Body mass index, BMI >30 Kg/m2)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "FEV1/FVC ratio < 65% in the forced spirometry.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Cognitive disorders that interfere with the administration of the clinical questionnaires.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has FEV1/FVC ratio < 65% in the forced spirometry, which may trigger exclusion. However, overall assessment is likely_ineligible due to other comorbidities.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00938977",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

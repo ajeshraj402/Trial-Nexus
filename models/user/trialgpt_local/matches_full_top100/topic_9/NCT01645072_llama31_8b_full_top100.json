@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01645072",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged 2 -15 years with refractory epilepsy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willing to come for regular follow up",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No motivational or psychosocial issues in the family which would preclude compliance",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Surgically remediable cause for refractory epilepsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspected mitochondrial disorder or diagnosed with a disorder in which high fat diet is contraindicated",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of severe intellectual disability, CHF, and epilepsy. He was recently tapered off Dilantin and had no further events during the hospital course.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01645072",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

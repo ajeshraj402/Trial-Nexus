@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00820924",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Female patients at least 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HER-2 negative breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have evidence of HER-2 or EGFR positive circulating tumour cells in a peripheral blood sample taken at screening visit.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have measurable, metastatic disease and no brain metastasis requiring local therapy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other criteria include ECOG score 0 to 2, life expectancy > 12 weeks, baseline organ function at screening visit,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous treatment with anthracyclines and/or taxanes in the neo-adjuvant, adjuvant or advanced setting, and at least one line of treatment for metastatic disease.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable medical conditions",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Lack of physical integrity of the upper gastrointestinal (GI) tract.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is an obese, mentally retarded girl with Turner syndrome. She has been treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00820924",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

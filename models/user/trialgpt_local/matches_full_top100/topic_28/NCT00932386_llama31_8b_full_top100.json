@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00932386",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "lower extremity surgery",
+      "label": "met",
+      "evidence": "The patient is undergoing lower extremity surgery"
+    },
+    {
+      "criterion": "use of an inflated tourniquet",
+      "label": "met",
+      "evidence": "The patient requires the use of an inflated tourniquet"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy to alpha 2 adrenergic agonists",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "uncontrolled hypertension (SBP>180mm HG, Diastolic Blood Pressure >110mmHG)",
+      "label": "triggers",
+      "evidence": "BP: 135/80"
+    }
+  ],
+  "notes": "The patient has a history of COPD and is using Duo-Neb inhaled q4 hr PRN.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00932386",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

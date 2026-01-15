@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02666014",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "In-patients",
+      "label": "met",
+      "evidence": "candidate for emergent laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "ASA class 1 or 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Undergoing elective laparoscopic, abdominal, gynaecological surgery.",
+      "label": "met",
+      "evidence": "candidate for emergent laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "Weight \u2265 40 Kg or \u2264 100 Kg",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "At least 3 risk factors for nausea and vomiting",
+      "label": "met",
+      "evidence": "nausea and vomiting in the patient's history"
+    },
+    {
+      "criterion": "Able to give valid, informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Duration of surgery expected to be 120 minutes or more.",
+      "label": "met",
+      "evidence": "candidate for emergent laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Less than 3 risk factors for PONV",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Nausea and/or vomiting in the last 72-hours prior to surgery",
+      "label": "met",
+      "evidence": "nausea and vomiting in the patient's history"
+    },
+    {
+      "criterion": "Regular antiemetic or opioid use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Obesity, with body weight \u2265 100.1 Kg",
+      "label": "not_met",
+      "evidence": "weight unknown"
+    },
+    {
+      "criterion": "History of drug or alcohol abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA III or worse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Laparoscopic surgery that is converted to open surgery",
+      "label": "not_met",
+      "evidence": "candidate for emergent laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "Age \u2264 20-years of age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    }
+  ],
+  "notes": "Patient is a candidate for emergent laparoscopic appendectomy under general anesthesia. The patient has severe migratory pain in the right lower quadrant of his abdomen that started four days ago.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02666014",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04004702",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Meet the National Institute of Aging-Alzheimer's Association criteria for probable AD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Twelve-item Neuropsychiatric Inventory with score 4 or greater",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MMSE <26",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Stable doses current medications, including acetylcholinesterase inhibitors if applicable, for at least 4 weeks prior to trial entry",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reliable caregiver willing and available to assist with medication administration, outcome measures",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous Epilepsy diagnosis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of anti-epileptic medication for any indication within previous three months",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy and is currently on valium, which may trigger seizures. He also had a recent seizure episode.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04004702",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

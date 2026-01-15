@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00495781",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "renal anemia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "therapy with either erythropoietin or darbepoetin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "dialysis patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "therapy with iron",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "autoimmune diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic inflammation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thalassemia, and other causes of anemia (except for renal anemia and iron deficiency",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain. Scoliotic curve is measured as 45 degree.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT00495781",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

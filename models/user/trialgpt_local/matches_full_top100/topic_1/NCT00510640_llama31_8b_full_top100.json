@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00510640",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must sign and date IRB/EC-approved informed consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u2265 18.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have a life expectancy of at least 3 months and Karnofsky performance status \u2265 70%.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must have histologically confirmed TC",
+      "label": "met"
+    },
+    {
+      "criterion": "Tumor disease must be progressive (evidence of disease progression within 6 months)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients should not be candidates for surgical resection, external beam radiotherapy or radioiodine, and patients must not have more than one previous systemic treatment for cancer",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have measurable disease defined by RECIST criteria as at least one lesion at least 2 cm in length by conventional CT techniques or at least 1 cm by spiral CT scan.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Resolution of all acute toxic effects of any prior treatment to NCI - CTCAE (version 3.0) grade < 1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have discontinued from radiation therapy at least 4 weeks before first dose of study treatment and must have recovered from any toxic effects of treatment.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Blood pressure < 140 / 90 mmHg",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have adequate organ function.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with reproductive potential must use medically acceptable contraceptive method.",
+      "label": "met"
+    },
+    {
+      "criterion": "Willingness and ability to comply with the study procedures.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment on sunitinib or other anti-angiogenic therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of or known brain metastases, spinal cord compression, or carcinomatous meningitis, or new evidence of brain or leptomeningeal disease",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. The patient's life expectancy is uncertain due to the progressive nature of their disease.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00510640",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

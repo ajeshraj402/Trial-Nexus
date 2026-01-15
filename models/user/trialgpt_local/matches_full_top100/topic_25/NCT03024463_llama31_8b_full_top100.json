@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03024463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Internal mammary sentinel lymph node biopsy (IM-SLNB) provides a less invasive method of assessing the IMLN than surgical dissection.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The modified radiotracer injection technique could significantly improve the IM-SLN detection rate.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Axillary sentinel lymph node biopsy has a high success rate and accuracy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient is able and willing to sign informed consent forms.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have received neoadjuvant therapy (including neoadjuvant chemotherapy and / or endocrine therapy).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a previous history of breast cancer.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is eligible for the trial based on inclusion criteria and exclusion criteria.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03024463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04087382",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acute ischemic stroke due to occlusion of the MCA or ICA",
+      "label": "met",
+      "evidence": "CTA, MRA or angiogram"
+    },
+    {
+      "criterion": "Symptoms onset between 6-24 hours from arrival",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemorrhagic diathesis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coagulation factor deficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Oral anticoagulant therapy with INR > 2.0",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors such as smoking, high blood pressure, and diabetes mellitus.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04087382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03324009",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226525 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV-positive",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Competent to understand study procedures and give informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently menstruating or having persistent vaginal discharge",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous hysterectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous diagnosis of cervical cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has stage 1B cervical cancer and tested positive for HPV 16. She is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03324009",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

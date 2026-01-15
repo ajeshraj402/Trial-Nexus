@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00189163",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic viral hepatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "steatosis and steatohepatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "histological severity of chronic hepatitis C",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "insulin sensitivity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatitis C patients who underwent previous therapy for their liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "genotype other than type 1",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic viral hepatitis and steatosis and steatohepatitis. He is on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00189163",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

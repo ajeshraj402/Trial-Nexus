@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04557982",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Czech-speaking",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "male or female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aged 3-6 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "scheduled to undergo peripheral venepuncture",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to distinguish three sizes using a toy: small/medium sized/large",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "signed informed consent by parent/significant other",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-Czech speaking",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "refusal to cooperate by the child",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "low cognitive ability (inability to distinguish three sizes using a toy: small/medium sized/large)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "refusal to cooperate by the parent/significant other",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 54-year-old obese woman admitted to the emergency department with abdominal pain that started 4 days ago with nausea and vomiting. The epigastric pain radiates to the right upper quadrant, getting worse after eating fatty food.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04557982",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

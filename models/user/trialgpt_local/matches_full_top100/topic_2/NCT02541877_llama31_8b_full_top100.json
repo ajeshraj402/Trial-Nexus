@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02541877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic severe aortic stenosis",
+      "label": "met",
+      "evidence": "echocardiographic criteria"
+    },
+    {
+      "criterion": "NYHA-class II or greater, angina pectoris, or syncope",
+      "label": "met",
+      "evidence": "patient symptoms"
+    },
+    {
+      "criterion": "technical and anatomical eligible for interventions",
+      "label": "met",
+      "evidence": "patient condition"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "disease, unstable preoperative condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Native aortic annulus size < 20 mm or > 29 mm per the baseline diagnostic imaging",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptomatic severe aortic stenosis, is technically and anatomically eligible for interventions, but has native aortic annulus size that may be outside the inclusion criteria.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02541877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

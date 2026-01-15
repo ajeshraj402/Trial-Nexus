@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04520724",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "NAFLD diagnosis based on non-invasive assessment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Wilson's disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "alcohol consumption > 21 standard drinks per week in men or >14 standard drinks per week in women over at least a two-year period",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which is an exclusion criterion. However, the patient's liver condition is likely due to NAFLD, making them eligible for the trial.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04520724",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

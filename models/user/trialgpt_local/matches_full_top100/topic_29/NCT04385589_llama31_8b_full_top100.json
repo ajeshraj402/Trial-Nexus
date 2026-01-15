@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04385589",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diabetic patient type 1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age more than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission for acute decompensated heart failure",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other etiologies of fluid overload different from heart failure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hyponatremia: Sodium level below 125mmol/l",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, is over 18 years old, and presents with acute decompensated heart failure. However, he does not meet the criteria for admission due to other etiologies of fluid overload different from heart failure.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04385589",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

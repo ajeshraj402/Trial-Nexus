@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04671446",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe Eosinophilic Asthma (with multi-disciplinary diagnosis as per ERS/ATS Criteria)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "<20 pack year smoking history, blood eosinophils \u2265 0.3 x109/L on inhaled corticosteroids",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anaemia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe eosinophilic asthma and anaemia, but is not pregnant.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT04671446",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01520675",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of chronic pancreatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failed medical treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dilated pancreatic duct ( > 5mm)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 12 or more than 70 years",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple (> 3) large stone (> 1.5 cm) in head of pancreas or stones present throughout",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass with fevers/rigors and bandemia. CT abdomen showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01520675",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

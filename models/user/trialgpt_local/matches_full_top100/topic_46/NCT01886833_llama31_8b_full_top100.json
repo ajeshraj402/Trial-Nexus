@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01886833",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mother willing to participate voluntarily and able to provide signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Infant eligible for rotavirus vaccine immunization as per national policy (male or female infant, 6-12 weeks old)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mother willing to undergo study procedures, including questionnaires, HIV counselling and testing, CD4 testing, and provide breast milk and blood sample at enrolment.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plans to remain resident in the area and willing to come for scheduled visits for the duration of the study.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to rotavirus vaccination",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous administration of rotavirus vaccine to child",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01886833",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02006303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male subjects, over 50 years of age at the time of enrollment.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects referred to urology for BPH leading to permanent indwelling bladder catheters",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and are considered poor surgical candidates",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent to participate in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to comply with the requirements of the study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous surgical treatment for BPH",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of bladder stones",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of prostate cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prostate size > 150 g",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of urethral stenosis or its management",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known of suspected neurogenic bladder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of recent hematochezia in the last 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to intravascular iodinated contrast such as allergies or significant elevated creatinine/renal failure",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He currently has a permanent indwelling bladder catheter due to severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02006303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

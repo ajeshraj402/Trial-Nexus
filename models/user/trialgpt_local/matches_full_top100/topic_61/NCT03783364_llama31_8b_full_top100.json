@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03783364",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female patients with non-metastatic breast cancer",
+      "label": "met",
+      "evidence": "cytologically confirmed breast cancer"
+    },
+    {
+      "criterion": "biopsy proven",
+      "label": "met",
+      "evidence": "core biopsy revealed a 3 cm invasive ductal breast carcinoma"
+    },
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": "45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "WHO performance status 0 or 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "using contraceptives if in reproductive age category",
+      "label": "not_met",
+      "evidence": "She is not sexually active and has no children."
+    },
+    {
+      "criterion": "eligible for neo-adjuvant CT after multidisciplinary decision",
+      "label": "met",
+      "evidence": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "informed consent obtained, signed and dated before specific protocol procedures.",
+      "label": "met",
+      "evidence": "She does not smoke or consume alcohol. She is not sexually active and has no children."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "distant metastases",
+      "label": "not_met",
+      "evidence": "CXR was remarkable for metastatic lesions."
+    },
+    {
+      "criterion": "inflammatory breast cancer (mastitis carcinomatosa)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multifocal tumor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lobular carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bilateral breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of cancer, with the exception of non-melanoma skin cancer, in situ cervix carcinoma",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of chemotherapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of radiation treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has metastatic lesions on CXR, but no other exclusion criteria are mentioned.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03783364",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

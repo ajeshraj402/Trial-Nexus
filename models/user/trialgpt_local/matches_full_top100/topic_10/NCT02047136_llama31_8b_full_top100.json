@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02047136",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Urticaria +/- angioedema present for a minimum of 6 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age older than 8 years old, with no upper age limit",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Agree to be on anti-histamine prn",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Causes such as parasite infestation, microbial and viral infections, autoimmune disease, or other pathology that could account for the U/A/P should be excluded",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skin prick test and/or radioallergosorbent (RAST) test are negative for all food allergens tested, or patient had achieved no symptomatic improvement after strict avoidance of all skin test-positive foods",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breast feeding women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who is taking central nervous system (CNS) acting agents (including tranquilizers, antidepressants, sedatives, hypnotics or antiepileptics) at any time",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year, presenting with flushing and tachycardia concerning for another flare. This is patient's 3rd flare in 2 months, while still on steroid taper which is new for her.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02047136",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

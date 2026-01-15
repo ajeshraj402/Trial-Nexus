@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04311047",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "High index of suspicion of locally resectable or borderline resectable pancreatic or periampullary (= duodenal, papilla of Vater or distal bile duct) cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed and dated informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous pancreatic surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous treatment for the pancreatic or periampullary cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindications for 3T MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications for USPIO based contrast agents (allergy, hereditary hemochromatosis, thalassemia, sickle cell anemia)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. Candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04311047",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

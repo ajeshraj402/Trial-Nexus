@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00025805",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "verifiable diagnosis of active Crohn's disease of at least 4 months' duration",
+      "label": "met",
+      "evidence": "endoscopic or radiographic findings and histopathologic changes on endoscopic biopsy"
+    },
+    {
+      "criterion": "age over 18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Crohn's Disease Activity Index score between 225 and 450",
+      "label": "met",
+      "evidence": "diarrhea rating or abdominal pain rating of greater than or equal to 25"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "use of corticosteroid enema or 5-ASA enema or suppositories within the last 7 days",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of thalidomide within the last 2 weeks",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of Crohn's disease and is currently experiencing symptoms consistent with active disease. However, they have recently used corticosteroid enema and thalidomide, which are exclusion criteria.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00025805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

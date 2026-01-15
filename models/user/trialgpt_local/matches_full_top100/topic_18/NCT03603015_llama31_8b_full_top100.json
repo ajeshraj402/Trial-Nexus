@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03603015",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male aged 18 years old or over",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Referred for video urodynamics within our department",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Predominant voiding LUTS as assessed by IPSS at screening",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Capacity to understand study procedures and give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 2 voided volumes on frequency volume chart (FVC) of 250 mL",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Female patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Long term catheterisation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Predominant storage LUTS on IPSS at screening",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Fewer than 2 voids on FVC > 250 mL",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known pre-existing neurological cause for symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active urinary tract infection (UTI)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a catheter in place due to a urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03603015",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

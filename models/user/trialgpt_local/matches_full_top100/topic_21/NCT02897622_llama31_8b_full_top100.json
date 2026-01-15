@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV Criteria based on diagnostic interview",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of abdominal pain and vomiting, but the lab results are remarkable for leukocytosis, urea, high CRP, high amylase, and Glc level. Cross-sectional imaging was negative for obstructive pancreatitis.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

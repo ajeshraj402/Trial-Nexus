@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04424940",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "In the past 4 hours, have you taken any medicines for fever or headaches?",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Do you have a thermometer to take your body temperature?",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In the past 24 hours, have you had trouble breathing or been short of breath?",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Do you have a cough? Or if you have a health condition that is causing you to cough, is your cough worse than usual?",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In the past 24 hours, have you had a sore throat?",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In the past 24 hours, have you felt a loss of smell (in the absence of nasal congestion)?",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In the past 24 hours, have you had diarrhea (three or more bowel movements)?",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In the past 24 hours, have you felt more tired than usual and unable to carry out your daily activities?",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "COVID-19 suspected clinically",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04424940",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

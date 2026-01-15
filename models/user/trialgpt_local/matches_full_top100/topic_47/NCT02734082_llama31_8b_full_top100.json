@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02734082",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226516 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hospitalized between 2004-2014",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute MRI imaging performed",
+      "label": "met",
+      "evidence": "MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia."
+    },
+    {
+      "criterion": "ECG on admission",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac lab parameters on admission (TnT, CK, CK-MB)",
+      "label": "met",
+      "evidence": "His vital signs were stable in the primary evaluation. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7."
+    },
+    {
+      "criterion": "Age \u226516 years",
+      "label": "met",
+      "evidence": "A 62-year-old African-American man"
+    },
+    {
+      "criterion": "Hospitalized between 2004-2014",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute MRI imaging performed",
+      "label": "met",
+      "evidence": "MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia."
+    },
+    {
+      "criterion": "ECG on admission",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac lab parameters on admission (TnT, CK, CK-MB)",
+      "label": "met",
+      "evidence": "His vital signs were stable in the primary evaluation. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7."
+    },
+    {
+      "criterion": "Age \u226516 years",
+      "label": "met",
+      "evidence": "A 62-year-old African-American man"
+    },
+    {
+      "criterion": "Hospitalized between 2004-2014",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <16 years",
+      "label": "not_met",
+      "evidence": "A 62-year-old African-American man"
+    },
+    {
+      "criterion": "No acute MRI image",
+      "label": "met",
+      "evidence": "MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia."
+    },
+    {
+      "criterion": "No lab parameters",
+      "label": "not_met",
+      "evidence": "His vital signs were stable in the primary evaluation. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7."
+    }
+  ],
+  "notes": "Patient presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02734082",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

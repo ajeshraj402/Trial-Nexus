@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02140476",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with thyroid diseases amenable of surgical resection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Benign or malign thyroid disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Thyroid nodules \u2264 4cm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with any gender or ethnical origin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults patients with 18-65 years-old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Postoperative follow-up of at least 2 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients competent to understand and sign the informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with clinical or biochemical hyperthyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative indication for lateral lymph node dissection (radical modified)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of gross tracheal or laryngeal invasion with thyroid cancer",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative vocal cord paralysis or laryngeal disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, but meets inclusion criteria for surgical resection and is competent to sign informed consent.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02140476",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

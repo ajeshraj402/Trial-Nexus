@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02377947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years old"
+    },
+    {
+      "criterion": "liver_cirrhosis",
+      "label": "not_met",
+      "evidence": "no mention of liver cirrhosis"
+    },
+    {
+      "criterion": "grade_3_he",
+      "label": "unknown",
+      "evidence": "no mention of grade 3 HE"
+    },
+    {
+      "criterion": "grade_4_he",
+      "label": "unknown",
+      "evidence": "no mention of grade 4 HE"
+    },
+    {
+      "criterion": "lactulose_retention_enema",
+      "label": "not_met",
+      "evidence": "no mention of lactulose retention enema"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "agents_other_than_lactulose",
+      "label": "met",
+      "evidence": "no mention of agents other than lactulose"
+    },
+    {
+      "criterion": "concomitant_diseases",
+      "label": "not_met",
+      "evidence": "no mention of significant concomitant diseases"
+    },
+    {
+      "criterion": "neuropsychiatric_illness",
+      "label": "not_met",
+      "evidence": "no mention of major neuropsychiatric illness"
+    },
+    {
+      "criterion": "contraindication_to_lactulose",
+      "label": "unknown",
+      "evidence": "no mention of contraindication to lactulose"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, but no liver cirrhosis or grade 3/4 HE. No agents other than lactulose used for HE.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02377947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

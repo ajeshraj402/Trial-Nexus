@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02069366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 21-45 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant medical or neurological condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than a high school education",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lack of fluency in English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "67-year-old healthy woman with no underlying disease, menopausal and has 4 children. She takes daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT02069366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

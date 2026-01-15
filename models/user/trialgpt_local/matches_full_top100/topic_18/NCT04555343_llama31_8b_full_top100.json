@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04555343",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "complaint of hematuria or urinary retention",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "requiring CBI treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to consent to the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of anticoagulants (warfarin, heparin, DOACs, etc.)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known coagulopathy (genetic bleeding disorders, acquired deficiencies)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "urinary tract infection or pyelonephritis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known hypersensitivity to TXA",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known renal failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known or history of thrombosis/thromboembolism (retinal vein/artery occlusion, deep vein thrombosis, pulmonary embolism)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cognitive impairment rendering unable to provide informed consent and not having a substitute decision-maker present",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of urological procedures, including suprapubic prostatectomy. He had severe urethral stricture but was able to pass small catheter through. Urology suggested surgical fixation when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04555343",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

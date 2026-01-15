@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02936167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American society of anesthesiologist (ASA)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Laparoscopic surgical procedure of 2 hours duration requiring IV fluid administration for at least 24 hours",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncorrected plasma sodium level before surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diseases which cause abnormal ADH secretion",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Renal and cardiac disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic lung disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cranial/thoracic surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent loop diuretics use",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is a genetic disorder that affects the liver and brain. He has been experiencing tremors since a year ago and has a Kayser-Fleischer ring in his ophthalmologic exam.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02936167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

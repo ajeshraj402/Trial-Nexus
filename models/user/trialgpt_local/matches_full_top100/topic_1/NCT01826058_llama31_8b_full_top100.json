@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01826058",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MESCC is present",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Localized spine metastases (C1 to L5 level); Maximum 3 separate sites and maximum 2 contiguous vertebral bodies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Performance state before the occurrence of neurologic symptoms : Eastern Cooperative Oncology Group 0-2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226520",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "MRI within 2 weeks is mandatory",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Paraspinal mass < 5cm in maximum dimension",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inoperable patients - refused or medically unfit for decompression surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "life expectancy > 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Retropulsed bony fragment causing cord compression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Paraplegia \u2265 48 hours",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma with severe lower extremity weakness and urinary retention. The tumor is unresectable and the patient has received radiation therapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01826058",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

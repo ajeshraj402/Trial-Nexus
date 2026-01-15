@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02338271",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pain in lower back or buttocks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "MRI assessment of grades 3 to 4 for Lumbar 1 - Sacral 1",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe lumbar stenosis or herniated nucleus pulposus",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "spinal instability, spondylitis, or vertebral fractures",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe lumbar stenosis and herniated nucleus pulposus, which are likely to trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02338271",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

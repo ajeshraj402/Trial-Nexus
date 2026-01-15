@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22 years old"
+    },
+    {
+      "criterion": "upper or lower extremity lymphedema",
+      "label": "met",
+      "evidence": "lymphedema patients with stage I,II,II stage"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "22 years old"
+    },
+    {
+      "criterion": "accept phone calls",
+      "label": "unknown",
+      "evidence": "no mention of accepting or not accepting phone calls"
+    }
+  ],
+  "notes": "Patient has Wilson disease, but no mention of lymphedema stage. Age is above 18.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

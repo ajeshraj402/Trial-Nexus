@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "uncomplicated surgery and anaesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "elective caesarean section under spinal anaesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diseases of pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 54-year-old obese woman with abdominal pain, nausea and vomiting. She has hypercholesterolemia and 2 NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

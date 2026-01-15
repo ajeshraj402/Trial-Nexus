@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01117506",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stable chest pain syndrome or anginal equivalent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Referred for a stress test using MPI",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of known MI or significant CAD",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current MI or acute coronary syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe regurgitant or stenotic cardiac valvular lesion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01117506",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

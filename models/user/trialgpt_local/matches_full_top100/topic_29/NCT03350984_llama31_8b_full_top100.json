@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03350984",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "type_2_diabetes_mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "glycated_haemoglobin",
+      "label": "not_met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "fasting_central_glucose",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "non_critical_patient",
+      "label": "met",
+      "evidence": "hospitalized in the service of Internal Medicine (MI)"
+    },
+    {
+      "criterion": "diabetic_diet_oral",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "treated_with_insulin",
+      "label": "not_met",
+      "evidence": "using insulin glargine 55 units once daily, and insulin aspart sliding scale 3 times daily"
+    },
+    {
+      "criterion": "previous_diabetic_ketoacidosis",
+      "label": "met",
+      "evidence": "had previous episodes of diabetic ketoacidosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "parenteral_nutrition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hyperglycemia_without_diabetes_history",
+      "label": "met",
+      "evidence": "hyperglycemia and concern for possible diabetic ketoacidosis"
+    },
+    {
+      "criterion": "impaired_renal_function",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "diabetic_ketoacidosis_and_hyperosmolar_state",
+      "label": "met",
+      "evidence": "hyperglycemia and concern for possible diabetic ketoacidosis"
+    },
+    {
+      "criterion": "type_1_diabetes_mellitus",
+      "label": "not_met",
+      "evidence": "has had type 1 diabetes for 11 years"
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with a history of type 1 diabetes, presenting with hyperglycemia and concern for possible diabetic ketoacidosis. He has been using insulin since his diagnosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03350984",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

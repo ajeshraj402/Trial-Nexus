@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00550992",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acute lymphoblastic leukemia (ALL) or biphenotypic leukemia meeting the following criteria:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Newly diagnosed disease",
+      "label": "met",
+      "evidence": "quote: \"Newly diagnosed disease\""
+    },
+    {
+      "criterion": "Verified by morphology and confirmed by cytochemistry and immunophenotyping",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mature B-ALL, defined by the immunophenotypical presence of surface immunoglobulins or t(8;14) and breakpoint as in B-ALL",
+      "label": "triggers",
+      "evidence": "quote: \"Presence of surface immunoglobulins\""
+    },
+    {
+      "criterion": "Presence of the t(9;22) (q34;q11) or bcr-abl fusion in the leukemic cells (if data are not known, patient still may be eligible)",
+      "label": "triggers",
+      "evidence": "quote: \"Presence of the t(9;22)\""
+    },
+    {
+      "criterion": "Relapsed ALL",
+      "label": "triggers",
+      "evidence": "quote: \"Relapsed ALL\""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00550992",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

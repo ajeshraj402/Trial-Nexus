@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01687751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater or equal to 19 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Advanced cancer patient admitted to the Abbotsford Tertiary Palliative Care Unit",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Difficult to control or intractable symptom (REF 38, page 3)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Midazolam CSCI would normally be considered for symptom management",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Informed consent is able to be provided in the English language",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Goals of care include do not resuscitate (DNR)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "For intractable symptoms, patient would prefer proportional sedation rather than no sedation or total sedation.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Second or third degree heart block (without pacemaker)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncompensated congestive heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heart rate less than 50 beats per minute",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Mean arterial blood pressure (MAP) < 60",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Weight below 35 kg. or above 85 kg.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Prior use within the preceding 14 days of high dose benzodiazepines equivalent to the use of 30 mg or more of midazolam or 6 mg or more of lorazepam per 24 hours.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently enrolled in any other research study involving drugs or devices",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain, nausea and vomiting. She has a history of hypercholesterolemia and NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01687751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

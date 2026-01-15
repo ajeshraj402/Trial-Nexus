@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03487809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed by asthma specialists",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age of onset under 10 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "children with cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "major immunological diseases, such as systemic lupus erythematosus (SLE) or Henoch-Schonlein purpura (HSP)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "rare hereditary diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "under severe infection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03487809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

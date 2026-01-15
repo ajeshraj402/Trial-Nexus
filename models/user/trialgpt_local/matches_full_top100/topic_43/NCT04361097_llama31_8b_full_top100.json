@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT04361097",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Be diagnosed with CKD and creatinine clearance less than 60 ml / minute secondary to hypertension and / or diabetes.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "is receiving antibiotics for any reason during the month prior to enrollment",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Have been previously submitted to TMF",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. Stool samples are positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04361097",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

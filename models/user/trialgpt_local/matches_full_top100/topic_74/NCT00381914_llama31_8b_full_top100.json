@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00381914",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy singleton term born infants of appropriate size for gestational age (AGA)",
+      "label": "met",
+      "evidence": "according to the Centers for Disease Control growth charts based on weight at birth"
+    },
+    {
+      "criterion": "between the 5th and 95th percentiles for sex",
+      "label": "met",
+      "evidence": "according to the Centers for Disease Control growth charts based on weight at birth"
+    },
+    {
+      "criterion": "born to healthy breastfeeding women",
+      "label": "met",
+      "evidence": "This allows us to assess growth and bone mineral accretion without bias of intrauterine growth restriction"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infants of mothers with history of gestational diabetes or hypertension in pregnancy",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "chronic alcohol use",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "malabsorption syndromes due to malabsorption of vitamin D (celiac disease, Crohn's etc.)",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "multiple births",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone, confirmed by increased uptake of radioactive substance and urinary pyridinoline. His sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00381914",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

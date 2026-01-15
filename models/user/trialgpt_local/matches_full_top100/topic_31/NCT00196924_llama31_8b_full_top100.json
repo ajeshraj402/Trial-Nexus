@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00196924",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "10-14 years of age at the first vaccination"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "Written informed consent from the subject prior to enrolment"
+    },
+    {
+      "criterion": "health_problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "met",
+      "evidence": "negative urine pregnancy test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "She has four children"
+    },
+    {
+      "criterion": "pulmonary_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiovascular_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurologic_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16, but she is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00196924",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

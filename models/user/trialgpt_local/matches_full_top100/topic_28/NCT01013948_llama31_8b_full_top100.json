@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01013948",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoker",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ipratropium_bromide",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "salmeterol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inhaler_corticosteroids",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has COPD and is using Duo-Neb, which may be an inhaled corticosteroid. He also smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01013948",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01889095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diabetes type 2",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c 8% or higher",
+      "label": "not_met",
+      "evidence": "quote: HbA1c: 6.5%"
+    },
+    {
+      "criterion": "age 25 to 65",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alteration in insulin sensitivity such as major surgery, infection, renal failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "(Glomerular Filtration Rate < 50)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "glucocorticoid treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent (within 2 weeks) serious hypoglycemic episode (requires assistance of another)",
+      "label": "not_met",
+      "evidence": "quote: no dyspnea at rest and no angina"
+    },
+    {
+      "criterion": "simultaneous participating in another clinical study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "using any type of insulin",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sight or hearing impaired",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active proliferative retinopathy or maculopathy require treatment within 6 months prior to screening",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, not type 2. No recent hypoglycemic episode.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01889095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

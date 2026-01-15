@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00381108",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically diagnosed with mild to moderate BPH (AUA symptom score <20)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with severe BPH (AUA symptom score >21)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Currently using any other forms of medical therapy, prescription finasteride, terazosin, tamsulosin or propecia (for hair loss).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior Transurethral resection of the prostate (TURP).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Using non-prescription supplements such as Saw Palmetto, B-sitosterol, vitamin E, and quercetin.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH with multiple urological procedures. He currently has a catheter in place due to a urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00381108",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

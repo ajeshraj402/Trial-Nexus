@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03747432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to University Medical Centre Ljubljana cardiology ward for TAVR using",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "transfemoral approach",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Voluntary agreement to participate in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged over 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Disagreement to participate in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to voluntarily agree to participate in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of alcohol abuse",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of tobacco abuse, but no other exclusion criteria mentioned. Overall assessment is likely eligible due to the presence of severe aortic stenosis and need for TAVR.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03747432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

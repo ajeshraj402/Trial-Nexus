@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04612803",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "Prior to Diagnosis of IBS + diarrhea based on ICD 10 codes with or without constipation unresponsive to prior treatments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Moderate to severe symptom severity score (>175 points) based on IBS symptom severity scale",
+      "label": "met",
+      "evidence": "symptom severity"
+    },
+    {
+      "criterion": "Seeking evaluation by a health care professional",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative serologic celiac panel",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No response to lactose elimination diet by history",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "Normal colonoscopy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to complete symptoms diaries and global evaluations",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Confirmed IgE dependent food allergy as a cause of the gastrointestinal symptoms.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lactose intolerance by history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Celiac disease by serology",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inflammatory bowel disease or colitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bile acid diarrhea by history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Post-surgical GI symptoms (e.g., dumping syndrome) by history",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No colonoscopy performed",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "GI malabsorption",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Pt is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04612803",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

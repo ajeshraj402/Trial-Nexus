@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01453114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women 18 years and older who are either planning pregnancy or already pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently meet criteria for stable remission from depression (defined as a baseline score of \u2264 9 on the Hamilton Rating Scale for Depression (HRSD) and documented clinical remission for a minimum of six months prior to randomization)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current or recent treatment with an antidepressant (stable dosage for at least the last four weeks)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have a history of a major depressive episode",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "decide to discontinue antidepressant medication for pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently receive ongoing psychiatric care provided by a physician outside the MGH Center for Women's Mental Health, and written, informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant risk for self-harm or harm to others",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "psychotic symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "meeting criteria for a primary SCID-I/P diagnosis of schizophrenia, bipolar disorder, an active eating disorder, dementia, delirium, or other cognitive disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of an active substance and/or alcohol abuse disorder within six months prior to screening visit",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "current use of mood stabilizers, antipsychotics or antiepileptics",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl recently diagnosed with myasthenia gravis. She complains of diplopia and weakness affecting her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01453114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

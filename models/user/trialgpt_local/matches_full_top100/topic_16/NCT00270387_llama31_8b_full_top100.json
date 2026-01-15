@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT00270387",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history consistent with congestive heart failure (either chronic or new onset) with fluid overload or elevated cardiac filling pressures by clinical diagnosis",
+      "label": "met"
+    },
+    {
+      "criterion": "need for observation and intravenous therapy for at least 12 hours, primarily for the treatment of acutely worsening heart failure",
+      "label": "met"
+    },
+    {
+      "criterion": "dyspnea (difficulty breathing and shortness of breath) at rest, while supine, or immediately upon minimal exertion, and evidence of heart failure rather than pulmonary disease as the primary cause for the dyspnea",
+      "label": "met"
+    },
+    {
+      "criterion": "jugular venous distension, abdominal discomfort (such as decreased appetite or nausea) and a weight gain of at least 5 pounds in the previous month",
+      "label": "met"
+    },
+    {
+      "criterion": "chest x-ray findings indicative of heart failure, or rales (sounds associated with fluid in the lung cavity) heard on physical examination",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinical status so acutely unstable that invasive monitoring or mechanical ventilation is required",
+      "label": "not_met"
+    },
+    {
+      "criterion": "admitted to Emergency Department/Observation Unit primarily for a diagnostic evaluation (such as ruling out myocardial infarction or to diagnose irregular heart beats)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00270387",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

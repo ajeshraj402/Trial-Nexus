@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00859339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological proof of muscle-invasive transitional cell carcinoma of the bladder",
+      "label": "met"
+    },
+    {
+      "criterion": "Age > 18 years at the time of consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Written informed consent and HIPAA authorization for release of personal health information",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No prior radiotherapy to the pelvis",
+      "label": "not_met"
+    },
+    {
+      "criterion": "No prior malignancy is allowed except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, Gleason< grade 7 prostate cancers, or other cancer for which the patient has been disease-free for at least 5 years",
+      "label": "unknown"
+    },
+    {
+      "criterion": "No treatment with any investigational agent within 30 days prior to registration for protocol therapy",
+      "label": "not_met"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00859339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

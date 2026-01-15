@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04159870",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with cirrhosis and ascites",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "low protein content in the ascitic fluid (\u22641.5 g/dL)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "deteriorated liver function (Child-Pugh score \u2265B9, serum bilirubin level \u22653 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "impaired renal function (creatinine \u22651.2 mg/dL blood urea nitrogen level \u226525 mg/DL or hyponatremia \u2264130 mEq/L)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of SBP",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous use of antibiotics within the previous two weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous GIT bleeding within one month",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Resolving ascites for one month after diuretic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver malignancy, organic renal disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Human immunodeficiency virus infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known hypersensitivity to planned drugs",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and ascites with low protein content in the ascitic fluid. He also has impaired renal function.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04159870",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

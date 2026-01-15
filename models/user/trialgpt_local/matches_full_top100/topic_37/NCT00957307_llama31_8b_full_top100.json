@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "20 year old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "Caucasian female"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "Relapsing Remitting Multiple Sclerosis (RRMS)"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical_history",
+      "label": "not_met",
+      "evidence": "C-section 2 years ago"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "10 cigarettes per day"
+    },
+    {
+      "criterion": "alcohol_consumption",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "employment_status",
+      "label": "met",
+      "evidence": "working as an editor in a publisher company"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_status",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

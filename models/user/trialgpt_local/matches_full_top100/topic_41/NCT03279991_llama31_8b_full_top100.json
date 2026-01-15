@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03279991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57-year old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "men and women"
+    },
+    {
+      "criterion": "cardiovascular_disease",
+      "label": "met",
+      "evidence": "hypertension and hypercholesterolemia"
+    },
+    {
+      "criterion": "neurodegenerative_disease",
+      "label": "met",
+      "evidence": "Parkinson's disease"
+    },
+    {
+      "criterion": "cancer",
+      "label": "met",
+      "evidence": "no evidence provided"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability_to_understand_and_want",
+      "label": "not_met",
+      "evidence": "alert and cooperative man who doesn't have any signs of dementia"
+    },
+    {
+      "criterion": "refusal_to_sign_informed_consent",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, hypertension, and hypercholesterolemia. He is on Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03279991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01886833",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mother willing to participate voluntarily and able to provide signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Infant eligible for rotavirus vaccine immunization as per national policy (male or female infant, 6-12 weeks old)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mother willing to undergo study procedures, including questionnaires, HIV counselling and testing, CD4 testing, and provide breast milk and blood sample at enrolment.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plans to remain resident in the area and willing to come for scheduled visits for the duration of the study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to rotavirus vaccination.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous administration of rotavirus vaccine to child.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a documented positive serum MPO-ANCA in his medical record, indicating an active autoimmune disease. He is currently being treated with corticosteroid and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01886833",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04011930",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Socioeconomic status",
+      "label": "met",
+      "evidence": "middle class"
+    },
+    {
+      "criterion": "Duration of COPD",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Vitamin D3 deficient",
+      "label": "not_met",
+      "evidence": "no mention of serum 25(OH)D <30 ng/ml"
+    },
+    {
+      "criterion": "Smoker",
+      "label": "met",
+      "evidence": "20 cigarettes per day"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute exacerbation of pulmonary diseases",
+      "label": "triggers",
+      "evidence": "shortness of breath about a day before"
+    },
+    {
+      "criterion": "Cardiac disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD and smokes, but no acute exacerbation or cardiac disease mentioned.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04011930",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

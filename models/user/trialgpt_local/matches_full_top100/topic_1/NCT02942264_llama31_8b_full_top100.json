@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02942264",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pathologic diagnosis of anaplastic astrocytoma",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma"
+    },
+    {
+      "criterion": "recurrent disease, histologically proven or imaging suggestive of recurrent disease",
+      "label": "met",
+      "evidence": "Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness."
+    },
+    {
+      "criterion": "ability to understand and willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old man who can understand and sign a written informed consent document."
+    },
+    {
+      "criterion": "age greater than or equal to 18 years old",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old man, which meets the age criterion."
+    },
+    {
+      "criterion": "no more than two prior disease relapses for phase I portion of study",
+      "label": "unknown",
+      "evidence": "Not stated"
+    },
+    {
+      "criterion": "tumor tissue available for review to confirm histological diagnosis",
+      "label": "met",
+      "evidence": "Tumor block or unstained slides must be available for molecular profiling."
+    },
+    {
+      "criterion": "adequate bone marrow function",
+      "label": "unknown",
+      "evidence": "Not stated"
+    },
+    {
+      "criterion": "adequate liver function",
+      "label": "unknown",
+      "evidence": "Not stated"
+    },
+    {
+      "criterion": "adequate renal function",
+      "label": "unknown",
+      "evidence": "Not stated"
+    },
+    {
+      "criterion": "recovered from toxic effects of prior therapy to less than grade 2 toxicity per CTC version 4",
+      "label": "unknown",
+      "evidence": "Not stated"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior bevacizumab use for tumor treatment",
+      "label": "triggers",
+      "evidence": "Patients who are receiving any other investigational agents. However, prior enrollment on a study using investigational agents is acceptable"
+    },
+    {
+      "criterion": "receiving any other investigational agents",
+      "label": "triggers",
+      "evidence": "Patients who are receiving any other investigational agents"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone prior standard therapy. The patient is currently experiencing progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02942264",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

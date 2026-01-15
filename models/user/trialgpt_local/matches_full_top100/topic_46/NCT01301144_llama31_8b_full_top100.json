@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01301144",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TB diagnosis",
+      "label": "met",
+      "evidence": "sputum smear tests"
+    },
+    {
+      "criterion": "willingness to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willingness to undergo HIV testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willingness to have samples stored for future studies",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HIV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "past history of TB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy and lactation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known history of diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of Tuberculosis treatment proton pump inhibitor treatments or use of bismuth containing preparations in the last 15 days prior to study entry",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has TB diagnosis and is willing to undergo HIV testing. No known history of diabetes, pregnancy, or lactation.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01301144",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

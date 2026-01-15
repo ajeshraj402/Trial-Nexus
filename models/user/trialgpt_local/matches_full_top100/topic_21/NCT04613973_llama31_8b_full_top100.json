@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04613973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient included in PRADO",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hospitalized for global heart failure or left ventricular failure in the Cardiology department of the GHPSJ between January 2016 and September 2018",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient under guardianship or guardianship",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient living in EHPAD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient transferred to another establishment on discharge from hospital (surgery, follow-up care, EPHAD, etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient who died during hospitalization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient objecting to the use of their data",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04613973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

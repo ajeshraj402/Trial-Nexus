@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02625688",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Term delivery between 37 -42 weeks of gestation (estimated by ultrasound)",
+      "label": "met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "Signed parental consent",
+      "label": "met",
+      "evidence": "parental consent"
+    },
+    {
+      "criterion": "Singleton delivery",
+      "label": "met",
+      "evidence": "singleton"
+    },
+    {
+      "criterion": "Nonsmoking mothers",
+      "label": "met",
+      "evidence": "nonsmoking"
+    },
+    {
+      "criterion": "Mothers willing to return for follow up visits",
+      "label": "met",
+      "evidence": "follow-up visits"
+    },
+    {
+      "criterion": "Declaration of breastfeeding for at least six months",
+      "label": "met",
+      "evidence": "breastfeeding"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preterm delivery < 37 weeks of gestation (estimated by ultrasound)",
+      "label": "not_met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "Isoimmune hemolytic disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, otherwise healthy.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02625688",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00172783",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "received BCG in the first month of life as schedule",
+      "label": "met",
+      "evidence": "without history of exposure of tuberculosis"
+    },
+    {
+      "criterion": "tuberculosis.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "PPD size in the range of 1st 2.5 percentile or having a positive ELISPOT result at the time of enrollment",
+      "label": "triggers",
+      "evidence": "will be closely followed up for clinical symptoms and signs of TB and necessary diagnostic workup will be done"
+    },
+    {
+      "criterion": "LTBI is highly suspected, prophylaxis will be initiated.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Closed contact families and care-givers will be asked to take CXR for excluding active pulmonary TB.",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00172783",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

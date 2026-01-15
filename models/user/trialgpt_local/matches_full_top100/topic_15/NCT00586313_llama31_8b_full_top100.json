@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT00586313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients between the ages of 18 and 70 years old referred to Indiana University Hospital for outpatient upper EUS for clinical purposes (e.g., pancreatic disease).",
+      "label": "met"
+    },
+    {
+      "criterion": "Increased hepatic enzymes (AST or ALT) above the upper limit of normal within the past 3 months.",
+      "label": "met"
+    },
+    {
+      "criterion": "Evidence of fatty liver (as detected by an increase in echogenicity or brightness of the liver) by EUS exam.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Liver biopsy for suspected NAFLD is clinically indicated as determined by Dr Naga Chalasani, one of our staff hepatologists who is an expert in NAFLD.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inpatient status.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Normal liver enzyme tests (AST, ALT).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Previous or current alcohol abuse (\u22653 drinks/day for men; \u22652 drinks/day for women)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00586313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

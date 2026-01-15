@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02373592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of type 2 diabetes mellitus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Dorsalis pedis pulse in both feet",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "In risk group 2 or 3 using the diabetic foot risk classification system as specified by the International Working Group on the Diabetic Foot.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Operating cell phone or a caregiver with an operating cell phone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current ulcers or open amputation sites",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active osteoarthropathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe peripheral vascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Foot infection",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, but no pus or tearing. Physical exam and lab studies were normal otherwise.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02373592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

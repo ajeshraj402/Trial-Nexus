@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01929538",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "benign biliary stricture caused by chronic pancreatitis",
+      "label": "met",
+      "evidence": "abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malignancy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cirrhosis",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute/chronic hepatitis or abnormal hepatic imaging",
+      "label": "does_not_trigger",
+      "evidence": "lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145)"
+    },
+    {
+      "criterion": "first attack of acute pancreatitis",
+      "label": "triggers",
+      "evidence": "The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting"
+    }
+  ],
+  "notes": "Patient has gall stone pancreatitis, no history of allergies or smoking. Family history positive for hypertension.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01929538",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

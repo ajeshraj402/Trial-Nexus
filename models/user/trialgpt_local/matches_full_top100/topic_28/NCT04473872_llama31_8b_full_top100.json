@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04473872",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Allocation Software program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurodevelopmental treatment program (BOBATH treatment approach)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inspiratory Muscle Training Program with Threshold IMT device",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diaphragmatic breathing exercise",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Being over 40 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stroke diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The Mini-mental test score is above 23",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other neurological or orthopedic problems that affect functionality and balance, other than stroke",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "High blood pressure, heart disease which may prevent rehabilitation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with pulmonary disease (COPD)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have undergone thoracic or cardiovascular surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Agnosia or a person with visual impairment,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with epilepsy,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The medical condition is not stable,",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with reluctance towards treatment,",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, but inclusion criteria for respiratory muscle training and diaphragmatic breathing exercise are met. Exclusion criterion 'The medical condition is not stable' is also met.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04473872",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

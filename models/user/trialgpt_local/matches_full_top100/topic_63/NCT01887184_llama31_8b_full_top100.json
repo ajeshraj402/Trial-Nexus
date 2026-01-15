@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01887184",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiology grade I-III",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18-60 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients having upper endoscopy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical history or electrocardiographic evidence of heart block, ischaemic - heart disease, asthma, sleep apnoea syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI > 35kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 54-year-old obese woman with abdominal pain, nausea and vomiting. She has hypercholesterolemia and 2 NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01887184",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

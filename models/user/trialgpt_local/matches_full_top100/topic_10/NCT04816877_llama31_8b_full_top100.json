@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04816877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of acute pancreatitis confirmed by revised Atlanta criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted to the medical floor within 48 hours of emergency department arrival at Beth Israel Deaconess Medical Center (BIDMC) in Boston, Massachusetts.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-65",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active illicit drug use",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Discharged from the emergency department",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Direct admission to ICU from emergency department",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known allergy to opioid medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age <18 or >65",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known chronic pain syndrome or concurrent other medical condition with chronic pain",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active encephalopathy/confusion/delirium/psychiatric illness or any other condition that limits capacity",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known chronic opioid use",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal insufficiency (baseline Creatinine of >2 and/or acute kidney injury with Creatinine>3 on admission)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known allergy to acetaminophen or hepatic dysfunction otherwise limiting acetaminophen",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04816877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02564848",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Age 65 and older",
+      "label": "not_met",
+      "evidence": "The patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Staging",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    },
+    {
+      "criterion": "ER+ invasive breast cancer as determined by treating physician",
+      "label": "met",
+      "evidence": "The tumor is HER2-positive and ER/PR negative"
+    },
+    {
+      "criterion": "Plan to undergo lumpectomy within 3 months of study registration",
+      "label": "met",
+      "evidence": "She is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "Patients in whom lymph nodes are palpable and not suspicious who are found to be nodal tumor-free by nodal core needle biopsy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Plan to undergo lumpectomy within 60 days of study registration (without sentinel node biopsy)",
+      "label": "met",
+      "evidence": "She is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "Patients enrolled after surgery: pT1-2NX, or pT1-2N0, ER+ invasive breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "DCIS or LCIS may be present with invasive cancer",
+      "label": "met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    },
+    {
+      "criterion": "Patients enrolled prior to surgery: Diagnosis of clinical T1-2N0 ER+ invasive breast cancer as determined by treating physician",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior history of ipsilateral (invasive or DCIS) breast cancer",
+      "label": "not_met",
+      "evidence": "She does not smoke or consume alcohol. She is not sexually active and has no children."
+    },
+    {
+      "criterion": "Diagnosis of clinical T3 or T4 breast cancer",
+      "label": "not_met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with diagnosis of ductal or lobular carcinoma in situ",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with diagnosis of inflammatory breast cancer",
+      "label": "not_met",
+      "evidence": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant."
+    },
+    {
+      "criterion": "Patients who have undergone neoadjuvant chemotherapy for current primary breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients planning to have mastectomy or had a mastectomy of the ipsilateral breast",
+      "label": "not_met",
+      "evidence": "She is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "Prior history of ipsilateral (invasive or DCIS) breast cancer",
+      "label": "not_met",
+      "evidence": "She does not smoke or consume alcohol. She is not sexually active and has no children."
+    }
+  ],
+  "notes": "The patient has a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant, which is HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02564848",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02062554",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "less than 24 hours after the onset of MI symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ST-segment elevation of a least 1 mm (frontal plane) or 2 mm (horizontal plane) in two contiguous leads",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "myocardial necrosis, as evidenced by increase to at least one value above the 99th percentile above the reference limit of CK-MB (25 U/L) and troponin I (0\u00b704 ng/mL)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "followed by a decline of both",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cognitive impairment",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients unable to attend follow-up",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Concomitant diseases with short-term survival expectancy, i.e. cancer, severe COPD",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a family history of CAD and severe stenosis in the left internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02062554",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

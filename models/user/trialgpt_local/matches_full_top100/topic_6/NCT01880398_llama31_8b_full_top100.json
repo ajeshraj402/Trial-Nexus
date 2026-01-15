@@ -1,0 +1,26 @@
+{
+  "trial_id": "NCT01880398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of Fistula in ano without tributeries",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Multiple fistula and associated ano rectal conditions",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, with recent C diff infection and antibx use.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01880398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

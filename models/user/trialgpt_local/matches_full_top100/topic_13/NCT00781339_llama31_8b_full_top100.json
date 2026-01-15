@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00781339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Condition requiring chronic transurethral catheterization for at least 1 month prior to enrollment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Indwelling transurethral catheter not scheduled for exchange for at least 1 week from first treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Documented asymptomatic bacteriuria as defined in the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Vital signs within the following limits: blood pressure 90 to 160 mm Hg systolic and 50 to100 mm Hg diastolic, pulse rate 45 to 100 bpm, respiratory rate 8 to 24 respirations per minute, oral body temperature 35.5\u00baC to 38.0\u00baC",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Screening must occur within 14 days of enrollment into the study",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of hepatitis B or C, HIV, AIDS, or other immunodeficiency disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Systemic antibiotics within 7 days of enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any condition that, in the opinion of the principal investigator, would make the subject unsuitable for the study or place the subject at additional risk.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Any investigational drug or investigational device within 30 days of enrollment in the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or lactating; or of child-bearing potential unless using highly effective birth control method for 1 month prior to and during the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter, and recurrent UTIs. They are currently being treated for urosepsis and have a non-obstructing stone in the L ureter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00781339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

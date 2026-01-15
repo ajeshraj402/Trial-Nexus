@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01951378",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 3 years and < 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of physician-diagnosed asthma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presenting to ED with acute asthma exacerbation according to attending physician",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "PAS score < 3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immediate resuscitation required",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic lung disease (other than asthma)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congenital heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neuromuscular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspected intrathoracic foreign body",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is or may be pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently breast feeding",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01951378",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

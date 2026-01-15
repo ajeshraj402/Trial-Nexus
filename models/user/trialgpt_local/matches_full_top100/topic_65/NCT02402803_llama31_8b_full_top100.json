@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02402803",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "men and women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "initiated on statin therapy in the clinical setting",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of rhabdomyolysis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of prior allergic reaction to statins",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of liver failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications to antecubital phlebotomy or finger stick",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy, but no history of rhabdomyolysis or liver failure.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02402803",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

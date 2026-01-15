@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00921609",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diagnosis of acromegaly from pituitary adenoma visualized by MRI",
+      "label": "met",
+      "evidence": "MRI reveals a macroadenoma with no invasion"
+    },
+    {
+      "criterion": "elevated IGF-1 levels compared to age and gender matched control values",
+      "label": "met",
+      "evidence": "Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL"
+    },
+    {
+      "criterion": "nadir GH response to OGTT > 1mg/L",
+      "label": "unknown",
+      "evidence": "no mention of OGTT or GH response"
+    },
+    {
+      "criterion": "already agreed to undergo surgical resection of pituitary adenoma prior to study entry",
+      "label": "met",
+      "evidence": "She is on stable doses of octreotide LAR since her diagnosis was confirmed"
+    },
+    {
+      "criterion": "provide informed consent",
+      "label": "unknown",
+      "evidence": "no mention of patient providing informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intercurrent medical or psychiatric illness",
+      "label": "unknown",
+      "evidence": "no mention of intercurrent medical or psychiatric illness"
+    },
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "She is married and has 2 children, using IUD as contraceptive method"
+    },
+    {
+      "criterion": "use of insulin",
+      "label": "unknown",
+      "evidence": "no mention of patient using insulin"
+    },
+    {
+      "criterion": "use of estrogen, progesterone, testosterone or thyroid hormone",
+      "label": "met",
+      "evidence": "She is on stable doses of octreotide LAR"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly and prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00921609",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

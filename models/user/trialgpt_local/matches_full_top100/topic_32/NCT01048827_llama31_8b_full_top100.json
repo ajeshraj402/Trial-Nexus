@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01048827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-69 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of AML",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CR with \u22642 courses of induction chemotherapy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Remission bone marrow bx w/i 2 wks of beginning post remission rx.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "One cycle of post-remission consolidation w/standard dose cytarabine or HDAC with <8 doses of HDAC.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Benign CSF: Lumbar puncture with cell count, differential and protein to determine lack of extramedullary leukemia required w/i 2 weeks of post- remission therapy IF CSF status is unknown or has been positive at dx.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No active infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Creatinine <2.0 mg/dl.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cardiac ejection fraction \u226540%.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate pulmonary function with DLCO \u226540% of predicted.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No co-morbid medical condition that would jeopardize the chance of tolerating aggressive chemotherapy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of AML and has undergone consolidation chemotherapy. He is currently in remission and meets several inclusion criteria, but does not meet the creatinine criterion due to elevated levels.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01048827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

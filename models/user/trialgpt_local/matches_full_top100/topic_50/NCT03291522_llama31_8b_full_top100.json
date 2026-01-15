@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03291522",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "azoospermia_diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "testicle_count",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "consent_signed",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "psychological_conditions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "underlying_medical_condition",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, no developmental delay.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03291522",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

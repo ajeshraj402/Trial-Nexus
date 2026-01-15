@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01850199",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gestational diabetes diagnosed according the National Diabetes data Group",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregestational diabetes (diagnosed or suspected)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Illiteracy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no computer connected to internet availability",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unwillingness to participate in the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She is complaining of sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01850199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

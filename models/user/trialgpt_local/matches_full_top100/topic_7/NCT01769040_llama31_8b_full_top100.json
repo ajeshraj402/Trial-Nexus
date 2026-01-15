@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT01769040",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recruited from hospitals in the capital region of Denmark.",
+      "label": "met"
+    },
+    {
+      "criterion": "The patients will be referred to Hvidovre hospital for liver vein catheterisation, a diagnostic procedure included in the standard diagnostic programme for liver cirrhosis.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child-Pugh score above 12",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Clinical signs of infection or biochemical signs of infection with leucocytes > 10x10^9/L and C-Reactive Protein (CRP)> 20 or positive urine culture",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01769040",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

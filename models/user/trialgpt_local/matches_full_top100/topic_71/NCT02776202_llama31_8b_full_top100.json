@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02776202",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Sickle cell disease (SCD) patients who are 3-18 years old.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically significant neurologic event (stroke) or any neurologic defect lasting > 24 hours and accompanied by an infarct on cerebral magnetic resonance imaging (MRI).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimum of two episodes of acute chest syndrome within the preceding 2-year period defined as new pulmonary alveolar consolidation involving at least one complete lung segment (associated with acute symptoms including fever, chest pain, tachypnea, wheezing, rales or cough that is not attributed to asthma or bronchiolitis).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of 3 or more severe pain events per year in the 2 years prior to enrollment.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Availability of 10/10 genotypically HLA identical related donor.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have a Karnofsky score \u2265 50 or WHO/ECOG \u2265 2 for patients age \u2265 16, Lansky score \u2265 50 for patients age < 16.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate cardiac function: shortening fraction of > 25% or ejection fraction of > 55% by echocardiogram.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate renal function: serum creatinine within normal limits or creatinine clearance >70 ml/min/1.73 m2.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate liver function: Total bilirubin within normal limits and AST/ALT <2.5x upper limit of normal.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with symptomatic cardiac insufficiency or arrhythmia.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with cirrhosis on liver biopsy.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatitis B, hepatitis C, or HIV seropositive patients.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of severe pain events and meets the criteria for adequate renal function. However, they have symptomatic cardiac insufficiency, which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02776202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

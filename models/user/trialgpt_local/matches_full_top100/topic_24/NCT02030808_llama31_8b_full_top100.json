@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02030808",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiologists physical class",
+      "label": "met",
+      "evidence": "II-III"
+    },
+    {
+      "criterion": "elective open thoracotomy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "New York Heart Association class",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Forced vital capacity < 50% of the predicted values",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatic diseases",
+      "label": "not_met",
+      "evidence": "normal blood chemistry"
+    },
+    {
+      "criterion": "Renal diseases.",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.5 mg/dl, BUN: 10 mg/dl"
+    },
+    {
+      "criterion": "Reactive airways.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neuromuscular diseases.",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "Asthma",
+      "label": "not_met",
+      "evidence": "U/A: Color: yellow, Appearance: cloudy"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Increased risk of regurgitation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02030808",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

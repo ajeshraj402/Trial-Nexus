@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02837835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "3-day-old"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "female infant"
+    },
+    {
+      "criterion": "Neonatal jaundice",
+      "label": "met",
+      "evidence": "diagnosed with neonatal jaundice that may require phototherapy"
+    },
+    {
+      "criterion": "Hospitalized in general intensive care unit",
+      "label": "met",
+      "evidence": "kept in an incubator due to her gestational age"
+    },
+    {
+      "criterion": "Nosocomial pneumonia with Gram-negative",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age >18 years",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Weight >110 kg",
+      "label": "not_met",
+      "evidence": "2.1 kg"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding women",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to beta - lactam antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal impairment: clearance <60 calculated by the Cockcroft and Gault",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.3 mg/dL"
+    },
+    {
+      "criterion": "Known history of pulmonary fibrosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients included in another research protocol",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02837835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

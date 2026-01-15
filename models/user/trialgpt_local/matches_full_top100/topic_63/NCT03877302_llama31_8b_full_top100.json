@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03877302",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gestational_age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "parity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "communication_ability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_risk",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "systemic_disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "labor_stage",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is an obese woman with abdominal pain, nausea and vomiting. She has a history of hypercholesterolemia and NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT03877302",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

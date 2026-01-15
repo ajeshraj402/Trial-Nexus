@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01575652",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic peritoneal dialysis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "18-55 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no antihypertensive drug usage prior 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of malignant hypertension or hypertensive encephalopathy or cerebrovascular accident within the 6 months prior to the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic liver diseases, and recent acute illness and/or history of any overt chronic inflammatory disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. He is on standard CAPD program.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01575652",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

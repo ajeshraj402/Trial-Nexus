@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00427778",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptoms of urinary stress urinary incontinence",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Urodynamic Stress urinary incontinence confirmed by urodynamic studies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to understand spoken and written English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe pelvic organ prolapse (> or = stage 3 on the Pelvic Organ Prolapse Quantification System - POP-Q)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindications to pessary use (including acute vaginal/urinary or pelvic infections, vaginal or cervical lesions or unexplained vaginal bleeding)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to properly fit the incontinence ring",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She experiences symptoms of urinary stress urinary incontinence and has urodynamic studies confirming the condition.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00427778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

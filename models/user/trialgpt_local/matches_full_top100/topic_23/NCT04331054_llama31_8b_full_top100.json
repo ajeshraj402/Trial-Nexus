@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04331054",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "lab_proved_infection_by_covid_19",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hospitalization_required",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "social_security_affiliated",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "current_inhaled_steroid_treatment",
+      "label": "met",
+      "evidence": "uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg"
+    },
+    {
+      "criterion": "intensive_care_unit_required",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cognitive_impairment",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "participation_in_another_study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications_to_treatments",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "admitted_for_isolation_social_reason_or_comorbidities",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "long_term_patient_treated_with_digitalis_disopyramide_procainamide_or_phenothiazine",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently using inhaled corticosteroids. He has symptoms that worsen throughout the work week, but improve outside the workplace.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04331054",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

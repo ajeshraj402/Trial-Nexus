@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01661621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "urinary tract symptoms and previous treatment modalities",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "vital signs monitoring, general physical examinations of all systems (including digital rectal examination), serum prostatic specific antigen (PSA), and urinalysis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "record Patient Perception of Bladder Condition (PPBC), IPSS (IPSS-T, IPSS-V, IPSS-S), Overactive Bladder Symptom Score (OAB-SS), and quality of Life index (QoL-I)scores",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "obtain maximum flow rate (Qmax), voided volume, postvoid residual volume (PVR), total prostate volume (TPV), and transitional zone index (TZI)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "vital signs monitoring and record adverse events",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "record PPBC, IPSS (IPSS-T, IPSS-V, IPSS-S), OAB-SS and QoL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "check urinalysis for urinary tract infection if patient has symptoms suggestive of urinary tract infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "check Qmax, voided volume, and PVR",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with severe cardiopulmonary disease and such as congestive heart failure, arrhythmia, poorly controlled hypertension, not able to receive regular follow-up",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with urinary retention, urodynamically proven detrusor underactivity or PVR \u2265250 mL",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with known active urinary tract infection, urinary stone or malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with history of urethral injury or transurethral surgery for prostate or bladder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01661621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

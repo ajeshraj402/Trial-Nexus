@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02123576",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hospitalized patients with acute or chronic liver disease",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Type I HRS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aged greater than or equal to 18",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-pregnant",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy or hypersensitivity to PTX or intolerance to methylxanthines (e.g. caffeine, theophylline)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of nephrotoxic drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age less than 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy, but no other significant medical issues.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02123576",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

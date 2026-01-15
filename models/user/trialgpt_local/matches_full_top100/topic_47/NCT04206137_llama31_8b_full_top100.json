@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04206137",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic Low back pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic Low back pain (pain for > 3 month)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any history related to spinal surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous administration of epidural injections.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Low Back Pain due to specific pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological deficits (like stroke)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic low back pain and no history of spinal surgery or epidural injections. However, he had a stroke which may be a contraindication to exercise.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04206137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

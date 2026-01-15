@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04017260",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic discharging sinus/sinuses in natal cleft with or without surrounding tissue inflammation and with associated pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PSD in intergluteal region",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recurrent pilonidal sinus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Terminally ill",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled diabetics",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immunocompromised and immunosuppressed patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute pilonidal abscess",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and recent antibiotic use, which may indicate immunocompromised status. However, patient's overall condition does not clearly meet the exclusion criteria for terminally ill or uncontrolled diabetics.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04017260",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

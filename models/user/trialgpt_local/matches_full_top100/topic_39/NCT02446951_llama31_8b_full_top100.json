@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02446951",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "birth to 7 days post-natal age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "present in Minneapolis or St Paul ED during the pre-implementation or implementation period",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chief complaint of jaundice",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "children born prematurely",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concern for sepsis or bacterial infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "in-born error of metabolism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "metabolic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "positive newborn screen (e.g. Sickle Cell Disease, Cystic Fibrosis)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02446951",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

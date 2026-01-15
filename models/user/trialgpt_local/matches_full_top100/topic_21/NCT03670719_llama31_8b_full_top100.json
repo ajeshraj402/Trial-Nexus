@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03670719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "chronic_cervical_pain",
+      "label": "met",
+      "evidence": "more than 3 months of cervical pain evolution"
+    },
+    {
+      "criterion": "flexion_rotation_test_positive",
+      "label": "met",
+      "evidence": "positive flexion rotation test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "spine_surgery",
+      "label": "not_met",
+      "evidence": "no recent spine surgery"
+    },
+    {
+      "criterion": "head_mouth_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes_mellitus",
+      "label": "not_met",
+      "evidence": "healthy with no history of allergies or using any medications"
+    },
+    {
+      "criterion": "recent_infection_arthritis",
+      "label": "not_met",
+      "evidence": "no recent infection and/or inflammatory arthritis"
+    },
+    {
+      "criterion": "cervical_brain_traumatism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication_manual_therapy_training",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03670719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

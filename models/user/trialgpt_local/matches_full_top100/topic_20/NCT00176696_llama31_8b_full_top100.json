@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT00176696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years of age"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English speaking"
+    },
+    {
+      "criterion": "surgery_position",
+      "label": "met",
+      "evidence": "supine position"
+    },
+    {
+      "criterion": "incision_size",
+      "label": "met",
+      "evidence": "at least 4 inches"
+    },
+    {
+      "criterion": "surgical_location",
+      "label": "met",
+      "evidence": "below the level of their arms"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "met",
+      "evidence": "negative Sure-Vue pregnancy test"
+    },
+    {
+      "criterion": "anesthesia_type",
+      "label": "met",
+      "evidence": "surgery under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgical_location",
+      "label": "not_met",
+      "evidence": "head, neck or arms"
+    },
+    {
+      "criterion": "chronic_pain_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cognitive_disability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "peripheral_vascular_disease",
+      "label": "not_met",
+      "evidence": "arms"
+    },
+    {
+      "criterion": "carpal_tunnel_syndrome",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_substance_abuse_cognitive_impairments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stroke_upper_extremities",
+      "label": "not_met",
+      "evidence": "upper extremities"
+    },
+    {
+      "criterion": "mastectomy_surgery_lymph_nodes",
+      "label": "not_met",
+      "evidence": "arms"
+    },
+    {
+      "criterion": "telephone_availability",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "anesthesia_type",
+      "label": "triggers",
+      "evidence": "nerve block or regional anesthesia"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "electrical_device",
+      "label": "not_met",
+      "evidence": "pacemaker or defibrillator"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly, prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00176696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00338559",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Elective Uni- or Bilateral Strabismus repair",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ASA >2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of Prematurity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of Reflux",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of Neurological Disease",
+      "label": "met",
+      "evidence": "quote: 'Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed after the second MRI.'"
+    },
+    {
+      "criterion": "Difficult Airway",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obesity",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has RRMS, but no history of neurological disease that would trigger exclusion. She smokes and drinks occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00338559",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

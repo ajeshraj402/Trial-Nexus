@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT04084769",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participants participated in and completed study MET50 (MET50 Groups 1, 2, or 3 only)",
+      "label": "met"
+    },
+    {
+      "criterion": "For Group 2 only (Menveo vaccine-primed participants only; enrichment population):",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participant is pregnant, or lactating, or of childbearing potential and not using an effective method of contraception or abstinence from at least 4 weeks prior to the first vaccination until at least 4 weeks after the last vaccination.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Receipt of any vaccine in the 4 weeks (28 days) preceding the trial vaccination or planned receipt of any vaccine before Visit 3 except for influenza vaccination, which may be received at least 2 weeks before study investigational vaccine",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia. He was diagnosed with atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04084769",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

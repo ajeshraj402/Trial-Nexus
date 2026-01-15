@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03565393",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children with acute watery diarrhea, 3 or more watery stool in any 24-hour period of <7 days duration with none or some dehydration",
+      "label": "met"
+    },
+    {
+      "criterion": "Aged between 1-3 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Received written consent from parents",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children with bloody diarrhea, severe diseases (severe sepsis, meningitis, severe pneumonia with respiratory distress requiring intensive care and ancillary support such as oxygen inhalation, orophryngeal suction etc.)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Child in a situation and could interfere with the optimal participation to the study or constitute a particular risk of non-compliance",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She has abdominal pain and diarrhea, and her stool samples are positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03565393",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

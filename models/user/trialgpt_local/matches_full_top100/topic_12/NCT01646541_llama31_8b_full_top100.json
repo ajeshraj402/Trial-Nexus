@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01646541",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Greater than 6 months post-mechanical or bioprosthetic mitral valve replacement or mitral valve repair (quadrangular resection, triangular resection, sliding plasty, and/or annuloplasty) surgery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dyspnea at rest or with exertion (NYHA II, III, or IV) [Symptomatic Study Group]",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Asymptomatic control group meeting criteria 1 and 2 above",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or prior chronic vasodilator therapy for pulmonary hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known collagen vascular disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV infection: Based on self-report /historical diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Portal hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior anorexigen use",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01646541",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00608140",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic chronic heart failure, New York Heart Association (NYHA) class II to IIIb",
+      "label": "met"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction of 0.35 due to non-ischemic etiology",
+      "label": "met"
+    },
+    {
+      "criterion": "Evidence by transthoracic echocardiography (TTE) of moderate or severe MR without obvious primary mitral valve pathology",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Peak VO2 less than or equal to 22 ml/kg/min, as obtained at study entry",
+      "label": "met"
+    },
+    {
+      "criterion": "Optimal heart failure therapy for at least 6 months prior to study entry",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant coronary artery disease (greater than 75% lesion in any vessel) by coronary angiography or by a history of a prior heart attack",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Heart failure due to active myocarditis, congenital heart disease, or obstructive hypertrophic cardiomyopathy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Significant ventricular arrhythmias not treated with an implantable defibrillator",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00608140",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03865056",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hypoxemia",
+      "label": "met",
+      "evidence": "The patient developed respiratory failure requiring mechanical ventilation."
+    },
+    {
+      "criterion": "Respiratory rate > 25 breaths/minute",
+      "label": "met",
+      "evidence": "He had a respiratory rate of ... (not specified)"
+    },
+    {
+      "criterion": "Partial pressure of arterial carbon dioxide (PaCO2) \u2264 45 mmHg",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of clinical history of underlying chronic respiratory failure.",
+      "label": "met",
+      "evidence": "The patient had no previous history of respiratory issues."
+    },
+    {
+      "criterion": "Systolic arterial pressure < 90 mmHg after optimal fluid therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cardiogenic pulmonary edema",
+      "label": "met",
+      "evidence": "The patient had signs of septicemia and developed respiratory failure."
+    },
+    {
+      "criterion": "Glasgow Coma Scale < 12",
+      "label": "met",
+      "evidence": "He was treated with plasma exchange and corticosteroids, indicating severe condition"
+    },
+    {
+      "criterion": "Imminent death",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to noninvasive ventilation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of consent",
+      "label": "met",
+      "evidence": "The patient was treated with plasma exchange and corticosteroids, indicating informed decision"
+    },
+    {
+      "criterion": "Age < 18 years",
+      "label": "not_met",
+      "evidence": "The patient is a 23-year-old man."
+    },
+    {
+      "criterion": "Invasive mechanical ventilation for > 48 hours in the same hospital admission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Immediate need for intubation",
+      "label": "not_met",
+      "evidence": "The patient was treated with plasma exchange and corticosteroids, indicating no immediate need"
+    }
+  ],
+  "notes": "Patient has atypical hemolytic uremic syndrome, previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03865056",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01687842",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Turner syndrome with homogeneous 45,X karyotype",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "Age between 8 and 18 years",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Somatic state compatible with the evaluation",
+      "label": "met",
+      "evidence": "in physical exam"
+    },
+    {
+      "criterion": "Functional language and IQ \u2265 80 for the transfer tests",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent signed by the holders of parental authority, the patient and the mother for her own participation (DNA collection)",
+      "label": "met",
+      "evidence": "signed informed consent form"
+    },
+    {
+      "criterion": "Affiliation to Social Security (beneficiary or assignee)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The primary endpoint will be the overall score to the AQ (Autism Quotient) questionnaire and to the SRS (Social Reciprocity Scale), in comparison to the expected scores for the general population.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Additional condition associated with an autism spectrum disorder",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Turner syndrome not related to an homogeneous 45,X karyotype",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome, short stature, delayed puberty and developmental delay. She is treating with GH since 6 months ago without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01687842",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

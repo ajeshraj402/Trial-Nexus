@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03405649",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy women between 8 weeks and 50 weeks after delivery.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women who can read, write and understand English.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to perform strength training or moderate-intensity exercise.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Athletes/well-trained mothers (i.e. mothers undergoing regular strength training).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Smokers and women who are planning to become pregnant over the subsequent year.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, but mother is healthy and can read/write English.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03405649",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

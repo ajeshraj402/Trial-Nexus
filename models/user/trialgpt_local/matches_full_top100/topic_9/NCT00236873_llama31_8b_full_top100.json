@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00236873",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "History of simple or complex partial epilepsy that has been documented or witnessed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "an electroencephalogram (EEG) during the preceding 5 years that has a pattern consistent with the diagnosis of partial epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "during an 8-week baseline phase, patient must have at least 8 partial seizures while maintaining therapeutic levels of antiepileptic drugs (AEDs) and have no more than one seizure-free interval of up to 3 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and no seizure-free interval longer than 3 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "good physical health",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients having solely generalized seizures or lacking documentation of partial epilepsy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with generalized tonic-clonic seizures or other generalized epilepsies in the absence of an EEG consistent with partial epilepsy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "generalized seizures, which are defined by the EEG wave pattern",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "seizures that lack an abnormal pulsation pattern on EEG",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "female patients who are pregnant or nursing, or those not using adequate birth control",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "if capable of having children",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth. He has had seizures since age 13 and was recently tapered off Dilantin.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00236873",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

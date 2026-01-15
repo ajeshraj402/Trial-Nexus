@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00257933",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asthma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "previous visits to ED or primary care for asthma care",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "clinical decision by ED attending physician to admit to ACU after standardized initial ED treatment",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sickle cell disease, cystic fibrosis, or cardiac disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication to corticosteroid administration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "systemic corticosteroid treatment within two weeks of presenting to the ED",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has asthma and was admitted to the emergency department with a diagnosis of severe asthma exacerbation. He is a candidate for general corticosteroid therapy.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00257933",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

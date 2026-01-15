@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00570323",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All subjects must be female.",
+      "label": "met",
+      "evidence": "The patient is a 42 year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Postmenopausal status, defined as any one of the following criteria:",
+      "label": "met",
+      "evidence": "She had no palpable masses on breast exam."
+    },
+    {
+      "criterion": "Documented history of bilateral oophorectomy.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 60 years or more.",
+      "label": "not_met",
+      "evidence": "The patient is a 42 year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Amenorrhea for at least 12 months and intact uterus.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Amenorrhea for less than 12 months and a follicle stimulating hormone (FSH) and estradiol concentration within postmenopausal range including: patients who have had a hysterectomy and patients who have received hormone replacement.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients must have histologically confirmed invasive breast cancer with a primary tumor of 3 cm or more in greatest dimension as measured by clinical examination.",
+      "label": "met",
+      "evidence": "Core biopsy was done and revealed a 1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "Estrogen receptor and/or progesterone receptor positive disease.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients must not have received any prior treatment for current or newly diagnosed breast cancer.",
+      "label": "met",
+      "evidence": "The tumor was HER2-positive and ER/PR negative."
+    },
+    {
+      "criterion": "Patients must have not received previous treatment with any of the study medications or similar drugs.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No use of selective estrogen receptor modulators (SERM) such as raloxifene or similar agents in the past 2 years.",
+      "label": "met",
+      "evidence": "She is using \u201cwell women\u201d multivitamins daily and no other medication."
+    },
+    {
+      "criterion": "WHO performance status of 0, 1, or 2.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adequate organ function defined as follows:",
+      "label": "met",
+      "evidence": "CXR was unremarkable."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Premenopausal status.",
+      "label": "not_met",
+      "evidence": "The patient is a postmenopausal woman"
+    },
+    {
+      "criterion": "Other coexisting malignancies with the exception of basal cell carcinoma or cervical cancer in situ.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with brain metastasis.",
+      "label": "not_met",
+      "evidence": "There is no mention of brain metastasis"
+    },
+    {
+      "criterion": "WHO performance status of 3 or 4.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of smoking and occasional alcohol consumption, but these do not appear to be significant clinical disorders.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00570323",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

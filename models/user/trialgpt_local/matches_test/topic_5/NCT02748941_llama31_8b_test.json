@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT02748941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Carotid stenosis \u2265 50% NASCET",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "Case: ipsilateral carotid stenosis stroke, certified by MRI or CT in the preceding month, with no others causes of stroke",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Control: no clinical sign or MRI hint for a recent stroke",
+      "label": "met",
+      "evidence": "no sensory or motor defects"
+    },
+    {
+      "criterion": "Signed informed consent form",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient affiliated to a social security system or equivalent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Modified Rankin scale > 3",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Homolateral stroke or TIA > 1 month",
+      "label": "not_met",
+      "evidence": "no prior syncope occasional HA"
+    },
+    {
+      "criterion": "Medical history of homolateral carotid surgery, cervical radiation, carotid occlusive, homolateral intracranial stenosis, risk of developing arterial thromboembolic events",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal failure (creatinine clearance < 50 ml/min)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindication to ultrasound (sonovue)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02748941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

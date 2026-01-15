@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00040196",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable clinical response to L-DOPA and DAergic agents",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "early or mild-to-moderate PD (Hoehn & Yahr scale < 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-demented, non-depressed, with parkinsonian symptoms and signs primarily akineto-rigid",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mild or moderate tremor (UPDRS tremor ratings 1 or 2 in the right upper limb)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "familial history of PD",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "marked resting tremor (UPDRS scale > 3 in the right upper limb)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "progressive neurological disorders other than PD",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a stable clinical response to L-DOPA and DAergic agents, is in an early or mild-to-moderate stage of PD, and does not have dementia or depression. However, the patient's resting tremor status is unknown.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00040196",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

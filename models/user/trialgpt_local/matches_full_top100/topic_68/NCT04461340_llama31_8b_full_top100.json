@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04461340",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults (\u02c318 years) COVID-19 positive patients",
+      "label": "met",
+      "evidence": "PCR"
+    },
+    {
+      "criterion": "Moderate infection (pneumonia \u00b1 leucopenia or lymphopenia)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe or life threatening COVID infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating females",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in any investigational clinical study, other than observational",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy or hypersensitivity to sirolimus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Taking immunosuppressive drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Glomerular filtration rate (GFR) < 30 ml/min by CKD-EPI equation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensated heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, but no severe or life-threatening COVID infection. He is not pregnant or lactating, and there is no indication of participation in any investigational clinical study.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04461340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

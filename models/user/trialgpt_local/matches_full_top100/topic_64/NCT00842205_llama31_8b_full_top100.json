@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00842205",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "must undergo liver biopsy",
+      "label": "met",
+      "evidence": "recent biopsy was negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "must undergo antiviral treatment",
+      "label": "met",
+      "evidence": "on IFN, RBV and direct antiviral drugs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "liver sample not obtained",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "blood samples for HCV testing not obtained in specified time points during antiviral therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55-year-old man with chronic HCV infection, on antiviral treatment. Recent biopsy and medical records show no signs of exclusion criteria.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00842205",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

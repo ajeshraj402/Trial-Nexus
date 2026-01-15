@@ -1,0 +1,110 @@
+{
+  "trial_id": "NCT00751270",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Presumed malignant glioma based on clinical and radiologic evaluation",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Tumor must be accessible for injection and must not be located in the brainstem, midbrain, contained within the ventricular system, or located in an infratentorial location",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine."
+    },
+    {
+      "criterion": "Patients must be planning to undergo standard radiation therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must be 18 years of age or older",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Performance status must be KPS > or equal to 70",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have SGOT (AST) < 3x upper limit of normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have serum creatinine < 2mg/dl and calculated creatinine clearance >10ml/min",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have platelets > 100,000/mm3 and WBC > 3000/mm3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients of reproductive age must agree to use a medically accepted form of birth control while on the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must give study specific informed consent prior to enrollment",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must be able to tolerate MRI scan procedure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior or ongoing liver disease including known cirrhosis, hepatitis B or C infection but not to exclude patients with a distant history of resolved hepatitis A infection",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on immunosuppressive drugs (with exception of corticosteroid)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known HIV+ patients",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with acute infections (viral, bacterial or fungal infections requiring therapy)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding patients. Female patients of childbearing age must have negative serum or urine pregnancy test within 1 week of beginning therapy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of metastatic disease or other malignancy (except squamous or basal cell skin cancers)",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma, which is a type of malignant glioma."
+    },
+    {
+      "criterion": "Prior radiation therapy to the brain or prior treatment for brain tumor (except prior biopsy or subtotal resection)",
+      "label": "triggers",
+      "evidence": "Patient has received field radiation t10-l1 followed by 11 cycles of temozolomide."
+    },
+    {
+      "criterion": "Other serious co-morbid illness or compromised organ function",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's history of anaplastic astrocytoma and prior radiation therapy make them likely ineligible. However, the patient's current condition and treatment plan are unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00751270",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

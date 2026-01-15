@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT03383445",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients \u226565 years-old diagnosed with severe AS (defined as: jet velocity \u2265 4.0 m/s or mean gradient \u2265 40 mmHg or velocity ratio <0.25 AND aortic valve area \u2264 1.0 cm2 or aortic valve area index \u2264 0.6 cm2/m2; OR mean gradient >30 mmHg AND aortic valve area \u2264 1.0 cm2 or aortic valve area index \u2264 0.6 cm2/m2 AND >1200 Agatston units for women or >2000 Agatston units for men as determined by non-contrast CT).",
+      "label": "met"
+    },
+    {
+      "criterion": "Small aortic annulus defined as a mean aortic annulus diameters \u02c222 mm as measured by 3D-computed tomography (CT) and/or 3D-transesophageal echocardiography (TEE).",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prohibitive surgical risk as determined by the Heart Team",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Severe pulmonary disease",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Dialysis-dependency",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Porcelain aorta",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Aortic root dilatation >45 mm",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Coronary artery disease (CAD) not treatable by percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG), or SYNTAX score >32 (in the absence of prior revascularization)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Non-calcific aortic stenosis",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has severe AS, small aortic annulus, and no prohibitive surgical risk or dialysis-dependency. However, coronary artery disease is not treatable by PCI or CABG.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03383445",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

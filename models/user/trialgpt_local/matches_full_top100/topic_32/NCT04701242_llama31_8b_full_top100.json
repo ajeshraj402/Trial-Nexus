@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04701242",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17 years old"
+    },
+    {
+      "criterion": "Acute myocardial infarction (STEMI or NSTEMI) within 48 hours from the onset of symptoms.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Baseline LDL-C above 125 mg/dl for those who were not on consistent lipid lowering therapy; or above 100 mg/dl for those who were compliant (\u2265 90 days) on moderate intensity statin therapy.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Refusal to participate in the study.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Proved intolerance to statins on previous use.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Having conditions (or taking medications) that would not allow concomitant safe statins use. [such as patients receiving Cyclosporine - Gemfibrozil -Pazopanib - Tipranavir - Itraconazole - Ketoconazole]",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those who are already compliant on high intensity statins.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those who are already on statins plus non-statin agent (ezetimibe-PCSK9i-BAS).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known familial dyslipidemia or having TG>500 mg/dl or LDL-C>190 mg/dl which are highly suggestive of familial or secondary causes.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or contemplating pregnancy in the following 12 months. [relevant for females in the child-bearing period]",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04701242",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

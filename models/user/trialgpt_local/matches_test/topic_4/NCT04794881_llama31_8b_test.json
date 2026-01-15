@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04794881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newborn infants admitted anywhere in the Neonate unit or Neonatal Unit of Paediatric",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Emergency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Underwent lumbar puncture as part of the workup for sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cerebrospinal fluid visibly tinged with blood (macro traumatic). To ensure objectivity, two Pediatricians must have a consensus that the CSF sample is visibly blood-tinged when viewed in bright ambient light.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "0.33ng/ml, CSF PCT has a sensitivity of 92%, a specificity of 87%, a positive predictive value (PPV) of 85.2%, and a negative predictive value (NPV) of 93%. We in our study didn't include other CSF conventional parameters for probable meningitis, such as CSF WBC, CSF Sugar, and CSF Protein for the definition of probable meningitis because we intended to study these tests as index tests, and hence they could not also be part of the reference standard.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically too unstable to undergo 2 lumbar punctures within the span of 48 hours",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04794881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

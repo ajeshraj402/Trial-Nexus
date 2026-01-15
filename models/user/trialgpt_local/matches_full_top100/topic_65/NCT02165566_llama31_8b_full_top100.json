@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02165566",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "critical care patients with blood glucose concentration >180mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients and patients enrolled on other studies were excluded.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with type 1 diabetes,",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with insulin-dependent diabetes are excluded and patients with glycated hemoglobin (glycosilated hemoglobin) >5.6% are also excluded because of the potential of underlying insulin resistance.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes, which is a significant medical issue.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02165566",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

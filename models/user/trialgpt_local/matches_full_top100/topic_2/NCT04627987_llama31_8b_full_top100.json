@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04627987",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic severe aortic stenosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "effective orifice area <1.0 cm2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "indexed EOA of 0.6cm/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "peak velocity >4.0 m/s",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mean gradient >40mmHg",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "more than moderate valve disease other than AS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of dilated or hypertrophic cardiomyopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy/breast feeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eGFR <30ml/min",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CMR incompatible devices",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to complete the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other conditions that would prevent participation in the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptomatic severe aortic stenosis and meets criteria for surgical or transcatheter AVR. No contraindications noted.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04627987",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

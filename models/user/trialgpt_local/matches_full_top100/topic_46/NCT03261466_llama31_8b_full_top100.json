@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03261466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "30-year-old male"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "TB vaccination history",
+      "label": "not_met",
+      "evidence": "no positive history of TB vaccination"
+    },
+    {
+      "criterion": "Smoking status",
+      "label": "met",
+      "evidence": "does not smoke"
+    },
+    {
+      "criterion": "Illicit drug use",
+      "label": "met",
+      "evidence": "does not use any illicit drugs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adverse reactions to the product or component of the product",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Genetic obesity (Prader Willi syndrome, Down syndrome)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic diseases, hepatic or gastroenterological diseases",
+      "label": "not_met",
+      "evidence": "no mention of chronic diseases"
+    }
+  ],
+  "notes": "Patient has been admitted to the hospital after 10 days of cough and fever. He has a positive sputum culture for Mycobacterium tuberculosis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT03261466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02836665",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female aged \u2265 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Written informed consent prior to study participation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Adults who are contractually capable and mentally able to understand and follow the instructions of the study personnel.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Dermatological emergency patient",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Male or female aged < 18 years",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Missing informed consent prior to study participation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41 year old male with tinea pedis infection, no underlying disease history.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02836665",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

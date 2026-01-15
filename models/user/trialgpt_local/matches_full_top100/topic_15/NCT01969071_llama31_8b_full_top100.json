@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01969071",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of mitral valve insufficiency with or without coronary artery disease and a",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "LVEF of \u2264 45 %",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "findings of acute or chronic renal failure (serum creatinine (sCr)> 1.5 mg/dL)",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe hepatic disease (alanine aminotransferase or aspartate aminotransferase > 100 U litre/L)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD, mitral valve prolapse, and atrial fibrillation. Recent abdominal mass and pancreatic adenocarcinoma diagnosis.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01969071",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

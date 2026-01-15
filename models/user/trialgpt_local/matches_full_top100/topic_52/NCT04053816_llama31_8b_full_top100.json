@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04053816",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Undergoing isolated CABG surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous AF",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ongoing infection/sepsis at the time of recruitment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pre-operative high-degree atrioventricular block",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-operative serum K+ >5.5 mEq/L",
+      "label": "met",
+      "evidence": "lab study"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever or blood in stool.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04053816",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

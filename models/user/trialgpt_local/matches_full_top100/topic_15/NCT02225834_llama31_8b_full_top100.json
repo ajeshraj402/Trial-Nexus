@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02225834",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory or infectious diseases",
+      "label": "triggers",
+      "evidence": "fevers/rigors and bandemia"
+    },
+    {
+      "criterion": "cancer",
+      "label": "triggers",
+      "evidence": "pancreatic adenocarcinoma at the head of pancreas"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She also has pancreatic adenocarcinoma.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02225834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

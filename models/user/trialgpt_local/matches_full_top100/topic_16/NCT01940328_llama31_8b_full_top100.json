@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT01940328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Belongs to one of the following categories: A. Acute decompensated left HF",
+      "label": "met"
+    },
+    {
+      "criterion": "Dyspnea at rest or with minimal activity",
+      "label": "met"
+    },
+    {
+      "criterion": "Rales on auscultation",
+      "label": "met"
+    },
+    {
+      "criterion": "Evidence of pulmonary congestion or edema on chest X-ray.",
+      "label": "met"
+    },
+    {
+      "criterion": "BNP level >400 pg/ml",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Compensated left HF: patients with significant stable left HF (NYHA II-III)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Non-CHF controls: patients without CHF and without uncontrolled hypertension",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Decompensated left HF subgroup & Non CHF controls",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has acute decompensated left HF with pulmonary congestion and edema on chest X-ray, meets criteria for category A. However, patient also belongs to the exclusion criterion of Decompensated left HF subgroup & Non CHF controls.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01940328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

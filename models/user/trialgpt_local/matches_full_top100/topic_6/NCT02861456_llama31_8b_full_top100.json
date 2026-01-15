@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02861456",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "sports medicine physicians serving as non-randomized control cohort",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "functional progression to guide treatment protocol",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "advanced imaging performed already (MRI, SPECT, CT)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "red flags present (bowel/bladder problems, saddle anesthesia, progressive neurological deficits, recent fever or infection, unexplained weight loss, unable to change symptoms with mechanical testing)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of C diff infections and recent antibx use. Advanced imaging was performed already.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02861456",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

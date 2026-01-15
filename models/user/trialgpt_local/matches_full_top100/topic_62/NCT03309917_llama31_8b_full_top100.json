@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03309917",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "patient's age is 46"
+    },
+    {
+      "criterion": "Patient planned for Whipple's surgery or total pancreatic resection",
+      "label": "unknown",
+      "evidence": "no mention of planned surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cardiac disease, including congestive heart failure (NYHA II-IV), myocardial infarction, valvular heart disease or atrial fibrillation",
+      "label": "not_met",
+      "evidence": "no mention of cardiac disease"
+    },
+    {
+      "criterion": "Neurologic disease considered to affect cerebral blood flow, including dementia, epilepsy, and apoplexy",
+      "label": "unknown",
+      "evidence": "no mention of neurologic disease"
+    },
+    {
+      "criterion": "Intake of moclobemide, isocarboxazid or tricyclic antidepressants",
+      "label": "not_met",
+      "evidence": "patient reported no use of lipid-lowering medications"
+    }
+  ],
+  "notes": "Patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, but no other cardiovascular risk factors mentioned.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03309917",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02732340",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age<65 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute DeBakey I aortic dissection is confirmed by CTA",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac function is NYHA(New York Heart Association) I-II",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the onset time< 2 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the patient or family members can understand the research plan and will participate in this study and provide a written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dissection involved the superior mesenteric artery, renal artery and coronary artery,",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may indicate a serious complication of nervous system. However, the overall assessment is likely ineligible due to the exclusion criteria.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02732340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

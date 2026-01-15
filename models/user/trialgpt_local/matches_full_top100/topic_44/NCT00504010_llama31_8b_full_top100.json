@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "met",
+      "evidence": "well-dressed and well-nourished adolescent who is alert and cooperative"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "not_met",
+      "evidence": "no other medical condition"
+    },
+    {
+      "criterion": "chronic or acute leg pain",
+      "label": "met",
+      "evidence": "complaining of scoliosis and back pain, aggravated by physical activities"
+    },
+    {
+      "criterion": "neuropathy involving one or both legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a candidate for scoliosis surgery according to perioperative MEP monitoring. He has been experiencing problems with routine activities such as basketball and soccer.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

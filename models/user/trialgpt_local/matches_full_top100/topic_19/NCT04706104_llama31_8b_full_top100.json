@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04706104",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients",
+      "label": "met",
+      "evidence": "patient is a 65 yo man"
+    },
+    {
+      "criterion": "will undergo open-heart surgery",
+      "label": "met",
+      "evidence": "Patient is to be transferred to the CCU for catheterization and EPS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under the age of 18 years",
+      "label": "not_met",
+      "evidence": "patient is a 65 yo man"
+    },
+    {
+      "criterion": "Bundle branch block in preoperative ECG",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Arrhythmia in preoperative ECG",
+      "label": "met",
+      "evidence": "the patient went into monomorphic VT on telemetry"
+    },
+    {
+      "criterion": "allergies specific to known drugs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Electrolyte disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04706104",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

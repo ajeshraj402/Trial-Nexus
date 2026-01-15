@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03670719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "chronic_cervical_pain",
+      "label": "met",
+      "evidence": "complaining of scoliosis and back pain, more than 3 months of cervical pain evolution"
+    },
+    {
+      "criterion": "flexion_rotation_test_positive",
+      "label": "met",
+      "evidence": "positive flexion rotation test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_spine_surgery",
+      "label": "not_met",
+      "evidence": "no mention of recent spine surgery"
+    },
+    {
+      "criterion": "diabetes_mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recent_infection_or_arthritis",
+      "label": "not_met",
+      "evidence": "no mention of recent infection or inflammatory arthritis"
+    },
+    {
+      "criterion": "contraindication_manual_therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a well-dressed and well-nourished adolescent who is alert and cooperative, with a scoliotic curve measured as 45 degree.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03670719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

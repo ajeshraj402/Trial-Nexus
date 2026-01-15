@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02260466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Significant aortic stenosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient \u2265 70 years old and NYHA class \u22652 and LVEF <60% or global LV strain more than -17%",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other severe disease with a life prognosis below than 1 year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Already known other causes of amyloidosis than senile amyloidosis will be excluded",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has significant aortic stenosis and meets criteria for surgical aortic valve replacement. No exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02260466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

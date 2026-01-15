@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00311987",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "LDL-C level greater than the NCEP goals as determined by patients' risk category",
+      "label": "met",
+      "evidence": "FBS: 100 mg/dl, HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Baseline lipid criteria: LDL-C = 100 to160 mg/dL (as calculated from Q1 and Q2 lipid results)",
+      "label": "met",
+      "evidence": "FBS: 100 mg/dl, HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Compliance with medication dosing instructions during the single-blind placebo run-in period is 80% to 120%",
+      "label": "met",
+      "evidence": "Patient claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2)"
+    },
+    {
+      "criterion": "Collect laboratory samples: Hematology/chemistry, Urine sample, Pregnancy test, Thyroid function tests",
+      "label": "met",
+      "evidence": "Lab study is as bellow: FBS: 100 mg/dl, HbA1c: 6.5%, Cholesterol: 190 mg/dl, TG: 140 mg/dl"
+    },
+    {
+      "criterion": "Dietary counseling (ATP III)",
+      "label": "met",
+      "evidence": "Patient is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of thyroid disorders of any form within 24 weeks prior to study entry",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active liver disease and/or liver transaminases greater than 1.5 X upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00311987",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

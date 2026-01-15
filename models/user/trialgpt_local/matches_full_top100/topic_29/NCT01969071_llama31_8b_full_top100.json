@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01969071",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of mitral valve insufficiency with or without coronary artery disease and a",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF of \u2264 45 %",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "findings of acute or chronic renal failure (serum creatinine (sCr)> 1.5 mg/dL)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe hepatic disease (alanine aminotransferase or aspartate aminotransferase > 100 U litre/L)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe chronic obstructive pulmonary disease (forced expired volume in 1 s < 50 % of predicted or < 2.0 litre)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of prior coronary artery bypass graft (CABG) surgery or myocardial infarction (MI) within the previous month",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has had type 1 diabetes for 11 years and has been on insulin since diagnosis. He has never been prescribed oral agents for diabetes management.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01969071",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

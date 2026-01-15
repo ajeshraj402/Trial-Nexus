@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01110447",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed as having cirrhosis of liver",
+      "label": "met",
+      "evidence": "clinical, biochemical, and ultrasonographical or liver histological data"
+    },
+    {
+      "criterion": "patients diagnosed at Inpatient/Outpatient Liver Clinic of Department of Hepatology, PGIMER, Chandigarh",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alcohol intake during the past 6 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous transjugular intrahepatic portosystemic shunt or shunt surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant comorbid illness such as heart, respiratory, or renal failure",
+      "label": "not_met",
+      "evidence": "patient does not have any signs of dementia"
+    },
+    {
+      "criterion": "any neurologic diseases such as Alzheimer's disease, Parkinson's disease, and nonhepatic metabolic encephalopathies",
+      "label": "triggers",
+      "evidence": "patient has Parkinson's disease"
+    },
+    {
+      "criterion": "patients on psychoactive drugs, such as antidepressants or sedatives",
+      "label": "not_met",
+      "evidence": "patient is on Levodopa and Trihexyphenidyl"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease but does not have any signs of dementia. He is on medications that help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT01110447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

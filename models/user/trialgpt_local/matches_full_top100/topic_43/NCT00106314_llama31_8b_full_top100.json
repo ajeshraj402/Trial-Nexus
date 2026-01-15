@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00106314",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of Crohn's disease made at least 3 months prior to study entry.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "C-reactive protein above the upper limit of normal.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently have moderately active Crohn's disease.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women who are pregnant or lactating or of childbearing potential.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of colostomy, ileostomy, intestinal resection resulting in short bowel syndrome or symptomatic strictures.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptoms (abdominal pain, vomiting) and radiographic evidence of mechanical bowel obstruction within the previous 6 months.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Fistulizing disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Positive stool culture for enteric pathogens and/or C. difficile toxin.",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of significant disease.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptoms and radiographic evidence of mechanical bowel obstruction within the previous 6 months, which is a likely exclusion criterion.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00106314",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

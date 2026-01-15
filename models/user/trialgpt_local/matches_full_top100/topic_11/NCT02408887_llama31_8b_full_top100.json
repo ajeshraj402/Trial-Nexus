@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02408887",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically or cytologically confirmed at least 1 thyroid nodule",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "thyroid nodule is greater than or equal to 1 cm but less than or equal to 4 cm measured in greatest dimension and confirmed by the Laboratory of Pathology, NCI or confirmed by the pathology laboratory of the enrolling institution",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "indeterminate thyroid biopsy per Bethesda System for reporting thyroid cytopathology with BRAF V600E mutation or RET/PTC rearrangement",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "cytologically or histologically suspicious or confirmed PTC per Bethesda System for reporting thyroid cytopathology",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "absence of radiographic evidence of extrathyroidal extension",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absence of abnormal lymphadenopathy suggesting metastatic PTC on physical examination and/or imaging studies",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ECOG performance status less than or equal to 2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate organ function to safely undergo general anesthesia and thyroidectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability of subject to understand and the willingness to sign a written informed consent document",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women must not become pregnant prior to surgery or during the first 3 months after surgery",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous thyroid surgery",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tumors are deemed unresectable by clinical/imaging criteria",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known synchronous distant metastatic disease",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with a history of XRT and multiple surgeries, which may make them ineligible for the study.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02408887",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

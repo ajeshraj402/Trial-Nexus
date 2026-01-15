@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02881372",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pediatric patient, ages 3-17 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known diagnosis of EoE based upon esophageal biopsy demonstrating \u226515 eos/hpf and lack of symptomatic or histological response to PPI therapy and/or normal esophageal pH evaluation.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known or suspected flare-inducing food trigger based upon supporting histological evidence.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Already undergoing a baseline EGD followed by food reintroduction and repeat EGD, as standard of care at the recommendation of the child's gastroenterologist.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent for the subject's participation in the study provided by the parent/ legal guardian and child/adolescent assent for subjects 7-17 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Assent by the patient's pediatric gastroenterologist for the patient's participation in the study.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of other disorders associated with similar clinical, histological or endoscopic features, such as PPI-responsive esophageal eosinophilia, esophageal eosinophilia associated with gastroesophageal reflux disease (GERD), Crohn's disease, infectious esophagitis (i.e. herpes simplex virus or candida), drug-associated esophagitis, collagen vascular disease, hypereosinophilic syndrome and eosinophilic gastroenteritis.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous or current diagnosis of cancer or leukemia.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of chemotherapy within the past 3 months.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of esophageal stricture or food impaction.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of anaphylaxis or other severe adverse reaction to the specific food trigger being tested.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02881372",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

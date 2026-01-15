@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02865616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u2265 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide informed consent, or have a caregiver able to provide consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Meets the definition of non-severe recurrent CDI (see Section 2.1, above)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has had a positive stool test for C. difficile within 60 days of enrolment",
+      "label": "met",
+      "evidence": "The stool samples must were positive for Clostridium difficile toxin."
+    },
+    {
+      "criterion": "Able to undergo colonoscopy and enemas",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to participate in follow up as part of the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "In addition, the patient must agree to undergo stool testing and blood screening tests that are part of the study, including hepatitis and HIV testing",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy < 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of severe CDI ((neutropenia (ANC<1000) or WBC>30, creatinine >2X baseline,",
+      "label": "triggers",
+      "evidence": "The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg)"
+    },
+    {
+      "criterion": "History of chronic diarrhea",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Need for regular use of agents that affect GI motility (narcotics such as codeine or morphine, agents such as loperamide or metoclopramide)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of antibiotics for another infection (other than CDI)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Colostomy",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Elective surgery that will require preoperative antibiotics planned within 6 months of enrolment",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant or planning to get pregnant in the next 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to tolerate MET-2 for any reason",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool test for C. difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02865616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04298957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women \u2265 45 years with a positive screening test (abnormal cytology and/or persistence",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HPV positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Type 2 or 3 transformation zone (a partly or invisible transformation zone)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or previous diagnosis of cervical cancer.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy or pregnancy wish.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previously cone biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer, HPV 16 positive, and three sexual partners. She underwent tubal ligation.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04298957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

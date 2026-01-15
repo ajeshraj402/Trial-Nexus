@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01252875",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recent ischemic stroke As soon as possible after the event, once the neurologic deficit is stabilized (investigator judgment). These ischemic strokes include TIA with ischemic lesion documented by CT or MRI.",
+      "label": "met"
+    },
+    {
+      "criterion": "Documented atherosclerotic stenosis in carotid artery (investigator judgment) (based on the results of Duplex echography, CTA, MRA or X ray- angiography), Or in the aortic arch (investigator judgment) (based on TEE or CTA), Or in other brain artery: vertebral, basilar or other intracranial artery (based on CTA, MRA, XRA), Or in coronary arteries (past history of acute coronary syndrome, coronary revascularization or positive coronary angiography)",
+      "label": "met"
+    },
+    {
+      "criterion": "Statin treatment is indicated, following ANSM guidelines (French drug agency), age >18 years, rankin score \u2264 4, patient or a legal representative signs consent, patient is affiliated to social security system",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ischemic stroke/TIA due to arterial dissection (investigator judgment)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Cardiac source of embolism (e.g., mitral stenosis, endomyocardial fibrosis) without documented atherosclerotic stenosis : a patient with atrial fibrillation or a past history of recent myocardial infarction or calcified aortic stenosis can be randomized",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Uncontrolled hypertension (investigator judgment)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history. He is taking insulin and vitamin D supplements.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01252875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

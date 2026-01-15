@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03169257",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children and adolescents (6-16 years)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "obese (OB) and normal weight (NW, control group) according to the International Obesity Task Force (IOTF) criteria",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "both genders",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diet na\u00efve",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "specific causes of endocrine or genetic obesity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "type 1 or type 2 diabetes",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous heart, respiratory, liver and kidney diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current or past use of hormonal or interfering therapies (lipid-lowering, hypoglycemic, or antihypertensive treatments)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a family history of CAD and severe stenosis in the left internal carotid artery. However, he is physically active and his fasting glucose and triglyceride levels are within normal limits.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03169257",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03745183",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Indigenous T'boli patient aged 18 years old and above, male or female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with clinically diagnosed tinea imbricata with microscopically confirmed skin",
+      "label": "met",
+      "evidence": "quote: Tinea pedis infection confirmed as his diagnosis by the observation of segmented fungal hyphae during a microscopic KOH wet mount examination."
+    },
+    {
+      "criterion": "scraping positive for potassium hydroxide (KOH)",
+      "label": "met",
+      "evidence": "quote: Tinea pedis infection confirmed as his diagnosis by the observation of segmented fungal hyphae during a microscopic KOH wet mount examination."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who were treated or undergoing treatment with topical anti-fungal for 2 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "or oral anti-fungal 1 month before the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who were taking other systemic medications such as cytotoxic and immunosuppressive drugs",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with known liver disease, kidney dysfunction, hematologic problems (e.g. anemia)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with or suspected allergy to Senna alata extract",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "41 year old male patient with tinea pedis infection, no history of underlying disease, normal physical exam and lab studies.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT03745183",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

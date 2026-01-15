@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01967212",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stroke",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "above 18 years-old",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pharyngeal stage dysphagia",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "on trachea",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cannot follow one command",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, mild Hoehn-Yahr Stage I. He is alert and cooperative with no signs of dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01967212",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

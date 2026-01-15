@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01335763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "Type of diabetes",
+      "label": "not_met",
+      "evidence": "type 1 diabetes for 11 years"
+    },
+    {
+      "criterion": "Oral hypoglycemic agents",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient attending community pharmacy",
+      "label": "met",
+      "evidence": "patient reports that he is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies"
+    },
+    {
+      "criterion": "HbA1c level",
+      "label": "met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Insulin use",
+      "label": "not_met",
+      "evidence": "The patient reports that he is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies"
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "met",
+      "evidence": "He reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management. Most recently, he has been using insulin glargine 55 units once daily, and insulin aspart sliding scale 3 times daily."
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Works night shift",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal impairment",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "Clinically unstable",
+      "label": "met",
+      "evidence": "With this episode of hyperglycemia, he is not experiencing any nausea, vomiting, or abdominal discomfort, and he appears well."
+    },
+    {
+      "criterion": "Unwilling/unable to attend follow up visits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unlikely to adhere to study procedures",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis, for which he was hospitalized. He is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01335763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

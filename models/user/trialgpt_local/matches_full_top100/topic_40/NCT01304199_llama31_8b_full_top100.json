@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01304199",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "treated with curative intent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aged above 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "of both sexes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence of disease at the time of collecting information",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to comprehend and communicate",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cancer diagnosed and treated at AIIMS, at least 3 months before entry into the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refuse to provide informed consent for this study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treated for cancer outside AIIMS",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but is otherwise eligible.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01304199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

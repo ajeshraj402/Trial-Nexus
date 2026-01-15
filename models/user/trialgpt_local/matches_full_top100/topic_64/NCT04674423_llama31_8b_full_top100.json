@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04674423",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age more than 20 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presence of HBsAg positivity for more than 6 months that indicated chronic HBV infection;",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "HBV viral load more than 20000 IU/mL in HBeAg positive or more than 2000 IU/mL in HBeAg Negative CHB patients;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of liver injury which was defined as histology activity index (HAI) >3 by Knodell necroinflammantion scoring system or liver fibrosis stage 2 or stage 3 by Metavir scoring system;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver histology available for evaluation 6 months before starting screening is also acceptable. This criteria is limited to subjects enrolling TAF treatment group.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ALT level between 1-2 folds of ULN for at least one occasion in recent 1 year before screening;",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Treatment na\u00efve;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other etiology of chronic hepatitis; Those patients with spontaneous clearance of HCV defined as presence of anti-HCV antibody but undetectable of HCV RNA at least 3 months before enrollment and without history of anti-viral treatment could be included.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe comorbid disorders;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Uncontrolled diabetes mellitus (HBA1c > 8.5%);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current evidence or suspicious of malignancy;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diagnosis of liver cirrhosis;",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "eGFR < or = 30 ml/min/1.73m2.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HBV infection, liver injury and is treatment na\u00efve.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT04674423",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

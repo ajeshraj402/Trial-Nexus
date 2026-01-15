@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00841555",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients who have De novo glioblastoma multiforme, anaplastic astrocytoma, anaplastic oligodendrogliomas, mixed anaplastic oligoastrocytomas, gliosarcoma of the Brain, not involving the brain stem or optics chiasm, diagnosed following biopsy or tumor removal.",
+      "label": "met",
+      "evidence": "anaplastic astrocytoma s/p radiation"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Given written consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a Karnofsky score of < 60 [Appendix B] or age < 18 years.",
+      "label": "does_not_trigger",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Prior chemotherapy and/or radiotherapy of their glioblastomamultiforme, anaplastic astrocytoma, anaplastic oligodendrogliomas, mixed anaplastic oligoastrocytomas, gliosarcoma.",
+      "label": "does_not_trigger",
+      "evidence": "This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle."
+    },
+    {
+      "criterion": "Tumors located in the brainstem or optic chiasm.",
+      "label": "does_not_trigger",
+      "evidence": "The tumor is located in the T-L spine"
+    }
+  ],
+  "notes": "Patient's Karnofsky score and prior chemotherapy/radiotherapy status are unknown.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00841555",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

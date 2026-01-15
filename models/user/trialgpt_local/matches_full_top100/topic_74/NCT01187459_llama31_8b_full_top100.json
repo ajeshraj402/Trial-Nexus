@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT01187459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between 8-18 years of age, and have been in remission for at least 4 weeks as indicated by a PCDAI <10.",
+      "label": "met"
+    },
+    {
+      "criterion": "assigned without bias to a dose group",
+      "label": "met"
+    },
+    {
+      "criterion": "one-hour fasting blood sample and a spot urine collection will be collected, a PCDAI will be administered, and patients will complete a food frequency questionnaire (FFQ) that will include information on Vitamin D and calcium supplement use (including dose and duration) as well as a lifestyle and demographic questionnaire.",
+      "label": "met"
+    },
+    {
+      "criterion": "Treatment Visit: One-hour fasting blood and spot urine will be collected and the PCDAI will be administered at baseline, 3 months (+/- 1 week), and 6 months (+/- 1 week) after baseline.",
+      "label": "met"
+    },
+    {
+      "criterion": "25OHD concentrations are thought to stabilize after 8 weeks of supplementation at a constant dose.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "taking corticosteroids, or taking more than 400 IU Vitamin D at enrollment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "occurrence of adverse events that are judged to be severe enough for discontinuation.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01187459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

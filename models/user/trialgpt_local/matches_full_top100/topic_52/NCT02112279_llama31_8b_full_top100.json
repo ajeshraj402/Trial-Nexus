@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02112279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "positive C. difficile test within the 10 days prior to the procedure",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen."
+    },
+    {
+      "criterion": "continued symptoms of c-difficile infection",
+      "label": "met",
+      "evidence": "dizziness and severe diarrhea since yesterday"
+    },
+    {
+      "criterion": "patients must have failed at least two courses of appropriate antibiotic therapy for C. diff to be a candidate for this procedure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under 18 years of age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "negative C. difficile test within the 10 days prior to the procedure",
+      "label": "not_met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen."
+    },
+    {
+      "criterion": "no symptoms of c-difficile infection",
+      "label": "met",
+      "evidence": "dizziness and severe diarrhea since yesterday"
+    },
+    {
+      "criterion": "less than two courses of appropriate antibiotic therapy for C. difficile infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has symptoms consistent with c-difficile infection, but lab study is not provided to confirm the number of courses of antibiotic therapy failed.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02112279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

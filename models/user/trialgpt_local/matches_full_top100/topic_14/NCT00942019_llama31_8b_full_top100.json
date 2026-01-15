@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00942019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age between 14 and 22 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "smokers CO \u2265 15 ppm",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-smokers CO \u2264 6 ppm",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asthma > GINA I\u00b0",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "others chronic diseases or infections (e.x. HIV, tuberculosis, malignancy)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has COPD and OSA, but no recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00942019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

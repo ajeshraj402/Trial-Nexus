@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03345641",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "premature birth",
+      "label": "met",
+      "evidence": "born at the age of 38 weeks"
+    },
+    {
+      "criterion": "mother with no psychotic troubles or addiction",
+      "label": "met",
+      "evidence": "The mother had a normal pregnancy with no complication"
+    },
+    {
+      "criterion": "newborn with no unfavourable vital prognosis, organic malformation and/or genetic anomaly diagnosed",
+      "label": "met",
+      "evidence": "He has no developmental delay in the physical assessment"
+    },
+    {
+      "criterion": "mother's age \u2265 18 years",
+      "label": "met",
+      "evidence": "The mother had a normal pregnancy with no complication"
+    },
+    {
+      "criterion": "native French speaker",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "premature birth",
+      "label": "not_met",
+      "evidence": "born at the age of 38 weeks"
+    },
+    {
+      "criterion": "mother with psychotic troubles or addiction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "newborn with unfavourable vital prognosis, organic malformation and/or genetic anomaly diagnosed",
+      "label": "not_met",
+      "evidence": "He has no developmental delay in the physical assessment"
+    },
+    {
+      "criterion": "mother's age < 18 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no native French speaker",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03345641",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

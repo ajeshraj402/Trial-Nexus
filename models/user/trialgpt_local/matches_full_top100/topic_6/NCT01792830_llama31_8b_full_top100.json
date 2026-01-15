@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01792830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males or females between the ages of 18 and 80 years undergoing primary coronary artery bypass graft surgery (CABG).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Post surgical hyperglycemia (Blood glucose >140 mg/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with and without a history of type 2 diabetes",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severely impaired renal function (serum creatinine \u22653.0 mg/dl or a glomerular filtration rate < 30 ml/min) or clinically significant hepatic failure.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects with acute hyperglycemic crises such as diabetic ketoacidosis (DKA) and hyperosmolar hyperglycemic states.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moribund patients and those at imminent risk of death (brain death or cardiac standstill).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients or next-to-kin with mental conditions rendering the subject or family member unable to understand the nature, scope, and possible consequences of the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Female subjects who are pregnant or breast-feeding at time of enrollment into the study.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no severely impaired renal function. Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01792830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

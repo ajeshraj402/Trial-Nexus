@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00290121",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "schizophrenia",
+      "label": "met",
+      "evidence": "DMS-IV"
+    },
+    {
+      "criterion": "18 to 60 years old",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Right handed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Begin a treatment with olanzapine and had not received it for at leat 6 months",
+      "label": "not_met",
+      "evidence": "med compliance"
+    },
+    {
+      "criterion": "Other medication accepted (except antipsychotic)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concomitant axis-I or axis-II disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unstable medical condition",
+      "label": "not_met",
+      "evidence": "no recent history of fever, cough, chills, sputum production, CP, abd pain"
+    },
+    {
+      "criterion": "Concomitant antipsychotic medications",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has schizophrenia and meets other inclusion criteria. However, there is no clear indication of concomitant axis-I or axis-II disorders or unstable medical condition.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00290121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03337893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "birth_weight",
+      "label": "met",
+      "evidence": "3200 gr"
+    },
+    {
+      "criterion": "birth_week",
+      "label": "met",
+      "evidence": "38 weeks"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serious_illness",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with undescended testis. He has no developmental delay and normal physical assessment.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03337893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

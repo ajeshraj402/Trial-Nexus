@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04808726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Know reading",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Primiparity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Term and healthy birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Having a healthy newborn",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vaginal delivery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Not knowing Turkish",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiparousness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Early childbirth",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The health status of the newborn is not good",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Caesarean delivery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT04808726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

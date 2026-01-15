@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03334578",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of gastroschisis",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "Age less than 1 year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sex male",
+      "label": "met",
+      "evidence": "male baby boy"
+    },
+    {
+      "criterion": "Birth weight greater than or equal to 1500 grams",
+      "label": "met",
+      "evidence": "3200 gr"
+    },
+    {
+      "criterion": "Gestational age greater than or equal to 32 weeks",
+      "label": "met",
+      "evidence": "38 weeks"
+    },
+    {
+      "criterion": "Normal physical assessment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No developmental delay",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Palpable testis in the left scrotum",
+      "label": "met",
+      "evidence": "palpable testis is the left scrotum"
+    },
+    {
+      "criterion": "Non-palpable testis in the right scrotum",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Normal penis shape and size",
+      "label": "met",
+      "evidence": "penis is normal in shape and size"
+    },
+    {
+      "criterion": "Not circumcised",
+      "label": "met",
+      "evidence": "he is not circumcised"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Gestational age less than 32 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Birth weight less than 1500 grams",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Definitive bowel atresia based on physician diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male baby boy with a complaint of empty scrotum at the right side. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03334578",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

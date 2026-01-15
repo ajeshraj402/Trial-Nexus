@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04713774",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 years old"
+    },
+    {
+      "criterion": "kidney transplant",
+      "label": "not_met",
+      "evidence": "no mention of recent kidney transplant"
+    },
+    {
+      "criterion": "medical history available",
+      "label": "met",
+      "evidence": "family history and medical evaluation mentioned"
+    },
+    {
+      "criterion": "biological parameters of the past year available",
+      "label": "met",
+      "evidence": "serum alkaline phosphatase level mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bisphosphonate treatment",
+      "label": "triggers",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    },
+    {
+      "criterion": "multiple organ transplant patients",
+      "label": "met",
+      "evidence": "no mention of multiple organ transplants"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but is starting Bisphosphonate treatment. Family history is available.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04713774",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

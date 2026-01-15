@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02879825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mitral valve prolapse diagnosed in echocardiography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Affiliation to social security",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No contraindication to MRI or exercise ECG",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age above 18",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mitral valve prolapse with severe regurgitation and instable hemodynamic state",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior MRI with contrast within the last month",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior diagnosis of primary cardiomyopathy potentially responsible for myocardial fibrosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to exercise ECG: severe handicap, poor physical capacity",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication to MRI: implantable device, claustrophobia, metal debris",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal insufficiency with creatinine clearance <30 ml/min or prior serious side effect related to infusion of a magnetic contrast agent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or breast-feeding women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Minors <18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02879825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02808754",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid endarterectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "symptomatic disease with >50% stenosis by duplex",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asymptomatic disease with >60% stenosis by duplex ultrasound",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of radial pulse on either arm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known Deep venous thrombosis (DVT) in arm",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Arteriovenous fistula or graft in both arms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosed hypercoagulable state",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing lymphedema or axillary node dissection both arms",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of dementia, intellectual disability, or mental illness including depression, anxiety, or schizophrenia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Simultaneous coronary artery bypass grafting",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has significant bilateral carotid stenosis and is symptomatic with dizziness. He does not have any exclusion criteria that would make him ineligible for the trial.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02808754",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

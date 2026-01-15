@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00590681",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed GBM as determined by central pathology review",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Supratentorial location",
+      "label": "unknown",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "18 years of age; Karnofsky performance status > 60;",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man with a history of anaplastic astrocytoma..."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Malignant gliomas graded less than GBM",
+      "label": "triggers",
+      "evidence": "The tumor is an unresectable anaplastic astrocytoma, not a GBM."
+    },
+    {
+      "criterion": "Infratentorial tumor location",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine..."
+    }
+  ],
+  "notes": "Patient's tumor type and location are inconsistent with trial inclusion criteria. Further investigation of patient's medical history and current condition would be necessary to determine eligibility.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00590681",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

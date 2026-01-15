@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04815954",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age>18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Kidney transplant recipient",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent signed",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urinary tract Previous surgery on bladder or urinary tract Unusual urinary anastomosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe vascular complications during surgery with blood loss >1000 ml Haemodynamic shock or profund instability after surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04815954",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

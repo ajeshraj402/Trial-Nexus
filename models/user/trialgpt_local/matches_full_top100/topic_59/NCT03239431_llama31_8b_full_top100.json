@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03239431",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis of asthma",
+      "label": "met",
+      "evidence": "consistent history and prior documented evidence of variable airflow obstruction"
+    },
+    {
+      "criterion": "age greater than 18 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "signed written informed consent to participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute exacerbation of asthma by GINA guideline",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "respiratory diseases that can show similar symptoms to asthma",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "neuromuscular diseases that may affect the seal off the mouthpiece during spirometry and FOT",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "uncontrolled or active contagious respiratory infection diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "smoking history more than 10 pack years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "significant comorbid illnesses that limit the life expectancy to less than 1 year",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "mentally not fit or physically contraindicated for spirometry and FOT",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "psychiatric disease or cognitive impairment that may limit their ability of understanding or giving consent to the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03239431",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

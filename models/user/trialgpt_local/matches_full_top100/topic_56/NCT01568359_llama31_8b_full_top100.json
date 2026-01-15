@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01568359",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "acromegaly or nonfunctioning pituitary"
+    },
+    {
+      "criterion": "treatment",
+      "label": "met",
+      "evidence": "pituitary condition treatment"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "written consent"
+    },
+    {
+      "criterion": "site",
+      "label": "met",
+      "evidence": "Emory Clinic/Emory University hospital"
+    },
+    {
+      "criterion": "stage of disease",
+      "label": "met",
+      "evidence": "active acromegaly or nonfunctioning pituitary adenoma"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "> 18 years old"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "< 18 years old"
+    },
+    {
+      "criterion": "prior other diseases",
+      "label": "unknown",
+      "evidence": "chronic renal disease stage 3 or worse (estimated GFR > 60)"
+    }
+  ],
+  "notes": "41-year-old man with acromegaly, underwent transsphenoidal surgery 4 months ago. Lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01568359",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

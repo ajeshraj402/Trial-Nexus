@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00095472",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "sickle cell disease",
+      "label": "met",
+      "evidence": "known history"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "normal blood pressure"
+    },
+    {
+      "criterion": "hypercholesterolemia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "smoking",
+      "label": "not_met",
+      "evidence": "no smoking habits"
+    },
+    {
+      "criterion": "herbal medications",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "arteriosclerotic cardiovascular disease",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "peripheral arteriosclerotic vascular disease",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NO-dependent drugs",
+      "label": "not_met",
+      "evidence": "no recent treatment"
+    }
+  ],
+  "notes": "Patient has severe bone pain and a history of sickle cell crises. He is afebrile with normal blood pressure.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00095472",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

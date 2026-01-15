@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04206319",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histopathological confirmation of prostate adenocarcinoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Biochemical progression after definitive surgery or radiation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PSA <= 30 ng/mL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Negative CT scan/MRI and Tc99 bone scan for metastatic prostate cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of findings on PET scan suspicious for metastatic prostate cancer in bone",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Testosterone >= 100 ng/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status of 0-1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recovery from acute toxicity related to prior therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hematological eligibility parameters (within 16 days before treatment initiation)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hepatic function eligibility parameters (within 16 days before treatment initiation)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate renal function defined by eGFR within normal as predicted by the CKD-EPI equation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No other active malignancies within 36 months of treatment initiation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with immunocompromised status due to Human Immunodeficiency Virus (HIV) infection or other immunodeficiency diseases",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic administration of systemic corticosteroids within 28 days of treatment initiation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receipt of any organ transplantation, including allogeneic stem-cell transplantation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of prior chemotherapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of prior systemic therapy with radionuclides (e.g., strontium-89, samarium-153, rhenium-186, rhenium-188, or radium 223 dichloride)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receipt of an investigational agent within 28 days (or 56 days for an antibody-based therapy) of treatment initiation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and prostate cancer. He meets most inclusion criteria but has a history of prior chemotherapy, which triggers exclusion.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04206319",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

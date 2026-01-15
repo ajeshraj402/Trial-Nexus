@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02099006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women between ages of 18 and 65",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "complain of localized provoked vulvar pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "meet the criteria for the diagnosis of localized provoked vulvodynia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "failed or unable to tolerate previous attempts at systematic therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "surgery will be specifically recruited",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dermatologic or neurologic condition as primary cause of pain",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy to medications or base itself",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concurrent use of Gabapentin (NeurontinTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "concurrent use of Amitriptyline (ElavilTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "concurrent use of Nortriptyline (PamelorTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "concurrent use of Desipramine (NorpraminTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "concurrent use of Tramadol (UltramTM, ConZipTM, RybixTM, RysoltTM, Ultram ERTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "concurrent use of Pregabalin (LyricaTM)",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain and nausea. Past medical history includes hypercholesterolemia and 2 NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT02099006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

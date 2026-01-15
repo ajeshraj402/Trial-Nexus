@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00466973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "concomitant cardiac surgery",
+      "label": "met",
+      "evidence": "The patient underwent brain MRI which revealed a single plaque in the brainstem."
+    },
+    {
+      "criterion": "AF",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "re-do or emergency procedures",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "The patient is divorced and is not currently in any sexual relationship."
+    },
+    {
+      "criterion": "age less than 19 years old",
+      "label": "not_met",
+      "evidence": "The patient is a 20 year old"
+    },
+    {
+      "criterion": "age more than 75 years old",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has RRMS and underwent brain MRI which revealed a single plaque in the brainstem. She experienced lower extremities weakness led to balance problem.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00466973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

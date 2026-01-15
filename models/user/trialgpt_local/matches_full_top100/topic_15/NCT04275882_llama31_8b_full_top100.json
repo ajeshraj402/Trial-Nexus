@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04275882",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ECG / ECO within the last 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "older than 18 years and younger than 90 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "signed the informed consent form",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cases without optimal electro or echocardiographic examination due to limited echogenicity",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy showing pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04275882",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

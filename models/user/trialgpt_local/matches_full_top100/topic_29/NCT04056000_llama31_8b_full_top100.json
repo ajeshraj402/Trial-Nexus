@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04056000",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "already_known_to_researchers",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "male",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "18 - 35 years old",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "recreationally_active",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed_metabolic_impairment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic_use_of_prescribed_pharmaceuticals",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is homeless and has lost his insulin supply, which may impact his ability to participate in the trial.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04056000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

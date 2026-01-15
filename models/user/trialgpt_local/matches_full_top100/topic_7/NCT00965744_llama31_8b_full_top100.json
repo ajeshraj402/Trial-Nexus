@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00965744",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with liver cirrhosis accompanied by portal hypertension and secondary hypersplenism due to hepatitis, alcoholic cirrhosis or schistosomiasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "who undergoing elective azygoportal disconnection and splenectomy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Liver function as Child-Pugh C",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin < 9 g/dL",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has liver cirrhosis with grade II esophageal varices and recent admission for UGIB due to NSAID gastritis. He is being treated for hepatic encephalopathy and has an increase in total and direct bilirubin, as well as AFP levels.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00965744",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

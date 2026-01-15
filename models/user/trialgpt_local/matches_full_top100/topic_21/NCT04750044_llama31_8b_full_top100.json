@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04750044",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "increased serum amylase or lipase after ERCP",
+      "label": "met",
+      "evidence": "high CRP (145), high amylase (1200)"
+    },
+    {
+      "criterion": "new or worsening abdominal pain compatible with pancreatitis after ERCP",
+      "label": "met",
+      "evidence": "abdominal pain and vomiting"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "complications such as abdominal perforation or bleeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe acute pancreatitis with multi-organ failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of alcohol consumption and smoking, but no other relevant medical conditions.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04750044",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

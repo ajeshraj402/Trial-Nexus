@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "child stool test must be positive for STH",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "has not been taken any antehelminthic drug in the previous six months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age of the child less than 2 years old and more than 5 years old",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "his/her stool test negative for any intestinal helminth",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positive. She is sexually active, menopausal, smokes, and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

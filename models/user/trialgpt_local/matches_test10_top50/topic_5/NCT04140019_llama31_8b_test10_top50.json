@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04140019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "early ICA",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "CMR feasibility",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "blinded CMR results",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refractory angina",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ICA < 24 hours after admission",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "hemodynamic instability",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD...",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04140019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

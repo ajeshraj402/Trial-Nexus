@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "residence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "high-school teacher, likely fluent in English"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "not_met",
+      "evidence": "no prior pregnancies"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI",
+      "label": "triggers",
+      "evidence": "41.5 BMI, 41.54 BMI"
+    },
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "met",
+      "evidence": "complaining of sleep apnea"
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "not_met",
+      "evidence": "singleton pregnancy"
+    }
+  ],
+  "notes": "Patient is an obese woman with weight concerns, considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

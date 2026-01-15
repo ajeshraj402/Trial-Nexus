@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01112657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "single clinical event suggestive of MS within last 2 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "new neurological abnormality present for at least 24 hours",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "written informed consent given",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis of MS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other disease that could better explain signs and symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "scheduled to participate in interventional treatment trial",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "condition that could interfere with MRI evaluation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has experienced similar pain twice in the past year, and ultrasound revealed several gallstones, biliary sludge and CBD stones. However, no indication of MS or other conditions that would exclude her from participating.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01112657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT04281771",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe aortic valve stenosis",
+      "label": "met",
+      "evidence": "jet velocity greater than 4.0m/s or Doppler Velocity index <0.25"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis",
+      "label": "met",
+      "evidence": "New York Heart Association (NYHA) functional class 2 or greater"
+    },
+    {
+      "criterion": "Surgical risk is deemed high or intermediate",
+      "label": "met",
+      "evidence": "Society of Thoracic Surgery (STS) risk score"
+    },
+    {
+      "criterion": "Aortic annulus diameter < 6 months prior",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Access artery diameters < 6 months prior",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient is unwilling or unable to comply with study-required follow-up evaluations",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Myocardial infarction within 30 days to index procedure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe mitral regurgitation or stenosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04281771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

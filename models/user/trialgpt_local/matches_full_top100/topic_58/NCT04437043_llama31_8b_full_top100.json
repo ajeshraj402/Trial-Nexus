@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04437043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old"
+    },
+    {
+      "criterion": "ASA grade",
+      "label": "met",
+      "evidence": "I to III"
+    },
+    {
+      "criterion": "general anesthesia tolerance",
+      "label": "met",
+      "evidence": "able to tolerate general anesthesia"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "signed and dated informed consent form prior to treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "life expectancy",
+      "label": "not_met",
+      "evidence": "no mention of life expectancy"
+    },
+    {
+      "criterion": "compliance with study protocol",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    }
+  ],
+  "notes": "Patient has severe migratory pain in the right lower quadrant of his abdomen, likely due to acute perforated appendicitis. He is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04437043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

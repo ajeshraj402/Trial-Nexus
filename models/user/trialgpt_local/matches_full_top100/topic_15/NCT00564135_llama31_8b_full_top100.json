@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00564135",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "fibroids, endometriosis, abnormal bleeding, uterine prolapse and intra-epithelial neoplasia of the cervix grade 3.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "hysterectomy is the most common major gynecological operation performed; in previous study, 20% of women will have undergone a hysterectomy by the age of 50 years, mostly for nonmalignant conditions such as uterine fibroids, endometriosis, abnormal bleeding, uterine prolapse and intra-epithelial neoplasia of the cervix grade 3.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Fever is the most common perioperative complication of hysterectomy, arising in about 25%.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "If they experienced pelvic reconstructive surgery for pelvic organ prolapse or stress urinary incontinence",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "If they have bacteriuria and clinical urinary tract symptoms, e.g. dysuria, frequency, urgency and stress incontinence before surgery",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00564135",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

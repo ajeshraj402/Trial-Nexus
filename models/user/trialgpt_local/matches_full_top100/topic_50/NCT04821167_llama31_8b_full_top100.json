@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04821167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed as intra-canalicular (emergent/ peeping) testes",
+      "label": "met",
+      "evidence": "laparoscopy"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "above 14 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with retractile testes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with retractile testes that were distal to the external ring",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "with nonpalpable testes",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, diagnosed with intra-canalicular (emergent/ peeping) testes via laparoscopy.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04821167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

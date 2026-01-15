@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02328222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "F"
+    },
+    {
+      "criterion": "PRA class I and II HLA <20%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "living donor",
+      "label": "met",
+      "evidence": "Living donor"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "co-morbidities requiring steroid use",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "delayed graft function or AR during 5 days post-transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who decided to leave the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiorganic recipients",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and was stabilized.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02328222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

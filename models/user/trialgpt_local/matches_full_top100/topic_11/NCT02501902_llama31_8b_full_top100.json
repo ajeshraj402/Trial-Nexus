@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02501902",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically-confirmed metastatic pancreatic ductal adenocarcinoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Availability of a tumor tissue specimen. If no archived tumor tissue is available, then a de novo biopsy is required for patient participation.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky Performance Status 70 or greater.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate Bone Marrow, Renal, and Liver Function.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior treatment with a CDK 4/6 inhibitor.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior treatment with nab-P for the treatment of metastatic disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with known CNS metastases, carcinomatous meningitis, or leptomeningeal disease as indicated by clinical symptoms, cerebral edema, and/or progressive growth.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of any other malignancy within 3 years prior to enrollment, except for adequately treated basal cell or squamous cell skin cancer, or carcinoma in situ of the cervix.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and a history of XRT. They have worsening dysphagia and poor oral intake.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02501902",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

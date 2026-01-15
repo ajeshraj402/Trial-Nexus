@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03395756",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "midluteal phase of their cycle, and will be enrolled if a serum progesterone level is >3ng/ml.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Healthy women of reproductive age (18-39 years old) with BMI 18-30 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Regular menses for the last 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cycle duration 24 to 35 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women using copper IUD, sterilization, or barrier methods as current or preferred birth control method, and women reporting exclusive sex with women",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English- or Spanish-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any contraindications to progesterone contraception per teh CDC Medical Eligibility Criteria (Category 3 or 4)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On medications that can alter, or be altered by, progesterone contraceptive steroid hormone (e.g., aminoglutethimide or other anti-steroid medication)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of any hormonal contraceptive pill, patch, or vaginal ring in the month prior to recruitment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of depot-medroxyprogesterone acetate in teh 10 months prior to recruitment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently pregnant and/or breastfeeding",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of allergic reaction to depot medroxyprogesterone acetate (rash, urticaria, anaphylaxis)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acne and mild hirsutism, with elevated testosterone levels. She also has irregular menstrual cycles and nipple discharge. However, she is on stable doses of octreotide LAR for her acromegaly diagnosis.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT03395756",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

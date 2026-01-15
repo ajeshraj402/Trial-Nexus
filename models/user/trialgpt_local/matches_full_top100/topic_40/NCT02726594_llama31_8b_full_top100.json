@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02726594",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "study participation",
+      "label": "met",
+      "evidence": "acceptance of study participation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MRI contraindications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "claustrophobia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, to be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02726594",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

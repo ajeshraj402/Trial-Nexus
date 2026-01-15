@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01428089",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Iron supplementation for a maximum of 30 days prior to admission",
+      "label": "met"
+    },
+    {
+      "criterion": "Inpatient Admission: The subject will be admitted to the CRU, or alternate UVA hospital unit, at 0900-1000 h.",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 11.5 g/dL for non-African American subjects",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Hemoglobin less than 12 g/dl and hematocrit less than 36%",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 17-year-old boy with symptoms of vomiting, non-bloody diarrhea, abdominal pain, fever, chills, and loss of appetite. He has no underlying disease and is not on any medications.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01428089",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

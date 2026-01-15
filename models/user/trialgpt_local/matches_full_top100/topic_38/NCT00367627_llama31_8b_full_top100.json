@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35 years old"
+    },
+    {
+      "criterion": "myasthenia gravis",
+      "label": "met",
+      "evidence": "class IIa, positive anti-AChR antibody test, single fiber electromyography (SFEMG) was positive"
+    },
+    {
+      "criterion": "diplopia and fatigue and weakness",
+      "label": "met",
+      "evidence": "mainly her upper limbs"
+    },
+    {
+      "criterion": "pyridostigmine 60 mg three times a day",
+      "label": "met",
+      "evidence": "takes pyridostigmine"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "35 years old"
+    },
+    {
+      "criterion": "serious chronic illness",
+      "label": "unknown",
+      "evidence": "has some symptoms that interfere with her job"
+    },
+    {
+      "criterion": "parents/guardian are not willing to give consent",
+      "label": "unknown",
+      "evidence": "no mention of parents/guardian unwillingness"
+    }
+  ],
+  "notes": "35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

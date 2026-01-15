@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04281316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed with COPD (FEV1/FVC < 70%) and long term indication for home NIV for",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Compliance with NIV (less than 5 hours and more than 1 hour) per night on average",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Na\u00efve to Nasal High Flow (NHF) therapy, i.e. having not used NHF in the last 6 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to understand, follow objectives and methods of protocol in French language.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient affiliated to social security insurance or beneficiary of social health insurance.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing and able to give written Informed Consent and to comply with the requirements of the study protocol.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant uncontrolled cardiac disease (investigator judgment), and/or Left Ventricular Ejection Fraction (LVEF) < 45%.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known co-existing obstructive sleep apnea requiring expiratory pressure above 6 cmH20.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Severe nasal obstruction, previous upper airway surgery preventing the usage of NHF, or, at the discretion of investigator, any other contraindication for using the NHF.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are unable or unwilling to give informed consent.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Participating in another research study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04281316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

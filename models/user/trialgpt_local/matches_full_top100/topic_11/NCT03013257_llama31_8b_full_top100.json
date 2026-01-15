@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT03013257",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A diagnosis of GD based on standard clinical criteria (elevated thyroid hormone levels, suppressed TSH, positive TSHR auto-antibody, diffuse goiter \u00b1 high RAI uptake).",
+      "label": "met"
+    },
+    {
+      "criterion": "Aged between 18 and 70 years old at the time of informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Have had at least one GD relapse. A relapse is defined as recurrent or persistent hyperthyroidism despite completing a continued course of ATDs for 18 months or more.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Indicated for RAI treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "Valid consent is obtained",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prefer or have clear indications for surgery (such as those with large compressive goiter, suspected or documented thyroid malignancy, wishing to become pregnant within 6 months or with moderate to severe GO).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Have pre-existing vocal cord palsy",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and is experiencing worsening dysphagia, poor oral intake, weight loss, and lethargy.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03013257",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

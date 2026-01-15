@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00546234",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis_of_asthma",
+      "label": "met",
+      "evidence": "clinical_presentation"
+    },
+    {
+      "criterion": "spirometry_testing_results",
+      "label": "met",
+      "evidence": "FEV1_60%_predicted"
+    },
+    {
+      "criterion": "currently_prescribed_inhaled_corticosteroids",
+      "label": "met",
+      "evidence": "treated_with_combination_of_inhaled_corticosteroids_and_Zafirlukast"
+    },
+    {
+      "criterion": "current_smoker",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis_of_COPD",
+      "label": "not_met",
+      "evidence": "non-significant_past_medical_history"
+    },
+    {
+      "criterion": "currently_enrolled_in_another_clinical_trial",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00546234",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03237611",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "No prior chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Confirmed malignancy, scheduled to receive carboplatin monotherapy, or carboplatin in combination with agents of minimal, low, or moderate emetic potential",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Laboratory parameters adequate for chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) of 3 or 4",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of nausea and vomiting or use of major antiemetic agents during the 24 hours before chemotherapy administration",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients receiving radiotherapy within 5 days prior to the carboplatin",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known allergy to any of the 3 antiemetics",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03237611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

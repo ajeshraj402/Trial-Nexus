@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00194610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women ages 18 and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of interstitial cystitis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has severity/stage of disease: at least 12 voids/day with the presence of pelvic pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ability to follow study instructions and likely to complete all required visits.",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Negative urine pregnancy test on the day of treatment prior to the administration of study medication (for females of childbearing potential; if applicable)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of any medications that might interfere with neuromuscular function",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any medical condition that may put the subject at increased risk with exposure to Botox including diagnosed myasthenia gravis, Eaton-Lambert syndrome, amyotrophic lateral sclerosis, or any other disorder that might interfere with neuromuscular function",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Females who are pregnant, breast-feeding, or planning a pregnancy during the study or who think that they may be pregnant at the start of the study, or females of childbearing potential who are unable or unwilling to use a reliable form of contraception during the study",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known allergy or sensitivity to any of the components in the study medication",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concurrent participation in another investigational drug or device study, or participation in the 30 days immediately prior to study enrollment.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stress incontinence",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Urinary tract infection at time of enrollment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Overtly psychotic or suicidal",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a urinary tract infection and is pregnant, but is likely eligible due to the severity of her symptoms.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00194610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

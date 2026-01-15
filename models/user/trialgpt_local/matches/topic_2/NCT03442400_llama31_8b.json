@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03442400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "coronary stenoses between 40-70% severity and severe aortic stenosis undergoing TAVR work-up",
+      "label": "met",
+      "evidence": "The patient underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease, but also had carotid US showing moderate heterogeneous plaque with bilateral 1-39% ICA stenosis."
+    },
+    {
+      "criterion": "severe aortic stenosis undergoing TAVR work-up",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. Repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "documented intraprocedural hemodynamic instability",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication to adenosine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of cardiogenic shock",
+      "label": "does_not_trigger",
+      "evidence": "The patient was sent home from cardiology clinic with Lasix and BB (which he did not tolerate), continued to have worsening SOB and LE edema, but there is no mention of cardiogenic shock."
+    },
+    {
+      "criterion": "presence of acute coronary syndrome",
+      "label": "does_not_trigger",
+      "evidence": "The patient underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease, indicating no acute coronary syndrome."
+    }
+  ],
+  "notes": "The patient's carotid US shows moderate heterogeneous plaque with bilateral 1-39% ICA stenosis, but it is unclear if this meets the trial's inclusion criteria for coronary stenoses between 40-70% severity. Additionally, there is no mention of contraindication to adenosine.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03442400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

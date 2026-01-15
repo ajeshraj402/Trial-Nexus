@@ -1,0 +1,26 @@
+{
+  "trial_id": "NCT04555499",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected_stroke",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unconscious",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62-year-old African-American man with left-sided weakness and facial droop, admitted to ICU for monitoring.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04555499",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00274170",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "migraine with or without an aura who met the criteria of the International Headache Society",
+      "label": "met",
+      "evidence": "The patient is diagnosed with the migraine headache and is under treatment."
+    },
+    {
+      "criterion": "with at least one prior episode of a similar headache",
+      "label": "met",
+      "evidence": "The attacks come 2 times or more per week and each episode lasts around a day or a half."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy and lactation",
+      "label": "unknown"
+    },
+    {
+      "criterion": "pre-medication within six hours of being enrolled in the study",
+      "label": "unknown"
+    },
+    {
+      "criterion": "more than six prior headaches per month",
+      "label": "not_met",
+      "evidence": "The attacks come 2 times or more per week and each episode lasts around a day or a half."
+    },
+    {
+      "criterion": "allergy to the study drugs",
+      "label": "unknown"
+    },
+    {
+      "criterion": "non-migraine headache",
+      "label": "not_met",
+      "evidence": "The patient is diagnosed with the migraine headache and is under treatment."
+    }
+  ],
+  "notes": "A 15 year old girl with a history of recurrent bilateral headache. The attacks are associated with nausea and photophobia.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT00274170",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

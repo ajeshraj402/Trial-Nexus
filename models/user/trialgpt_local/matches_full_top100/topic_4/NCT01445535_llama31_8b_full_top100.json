@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01445535",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cluster of differentiation 2 (CD2)-expressing lymphoid malignancy, confirmed by pathology",
+      "label": "met",
+      "evidence": "pathology"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years.",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Laboratory tests: Creatinine less than or equal to 1.5 mg/dL or creatinine clearance greater than or equal to 60 ml/min;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) greater than or equal to 1000/mm(3), platelet greater than or equal to 75,000/mm(3); unless impairment due to respective organ impairment by tumor.",
+      "label": "met",
+      "evidence": "lab tests"
+    },
+    {
+      "criterion": "No active symptomatic ischemic heart disease, myocardial infarction or congestive heart failure within the past year.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must not have a marked baseline prolongation of Q wave, T wave (QT/QTc) interval (e.g., demonstration of a corrected QT interval (QTc) interval >500 milliseconds (ms)).",
+      "label": "met",
+      "evidence": "lab tests"
+    },
+    {
+      "criterion": "Human immunodeficiency virus (HIV) negative, because of the unknown effects of combined therapy with chemotherapy and an immunosuppressive agent on HIV progression.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent by the patient or patient's representative.",
+      "label": "met",
+      "evidence": "consent form"
+    },
+    {
+      "criterion": "Willing to use contraception.",
+      "label": "met",
+      "evidence": "patient statement"
+    },
+    {
+      "criterion": "Not pregnant or nursing, because of the unknown effects of dose-adjusted etoposide, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) or siplizumab on the developing fetus and infant.",
+      "label": "met",
+      "evidence": "patient statement"
+    },
+    {
+      "criterion": "No serious underlying medical condition or infection that would contraindicate treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with central nervous system (CNS) involvement are eligible for treatment on this study.",
+      "label": "met",
+      "evidence": "study protocol"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients less than 18 years of age will be excluded because siplizumab has not been given to minors in combination with chemotherapy.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 44-year-old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01445535",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

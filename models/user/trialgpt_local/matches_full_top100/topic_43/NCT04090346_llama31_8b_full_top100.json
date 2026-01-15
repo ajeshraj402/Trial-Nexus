@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04090346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recurring CDI after three episodes of mild to moderate C Diff infections and failure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "to respond to appropriate antimicrobial treatment of six to eight weeks.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metronidazole",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Vancomycin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least two episodes of severe C diff infection that have required hospitalization and significant morbidity within one year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe C Diff infection requiring hospitalization and non-responsive to maximal medication therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "advanced Human Immunodeficiency Virus (HIV) or Acquired Immunodeficiency Syndrome (AIDS)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cirrhosis of the liver",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent bone marrow transplants",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medication suppressed immune systems (allowed per physician discretion if benefit outweighs risk)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Toxic megacolon or ileus present",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman with a recent history of aspiration pneumonia and Clostridium difficile toxin-positive stool samples. She has experienced recurring CDI after three episodes of mild to moderate C Diff infections and failure to respond to appropriate antimicrobial treatment.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04090346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

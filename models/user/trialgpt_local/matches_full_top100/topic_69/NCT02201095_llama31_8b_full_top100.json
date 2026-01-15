@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton uncomplicated pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective caesarean section under spinal anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgery and anaesthesia expected to be uncomplicated",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled for tubal ligation surgery as part of caesarean section",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diseases of pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "grand multiparity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative pyrexia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative hypothermia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant co-existing maternal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "co-existing maternal disease that could impact on temperature",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying diseases, presenting for elective caesarean section under spinal anaesthesia. She has no allergies to any food or drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

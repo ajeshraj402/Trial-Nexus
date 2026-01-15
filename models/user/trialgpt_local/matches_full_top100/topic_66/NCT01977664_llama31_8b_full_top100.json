@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01977664",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of syndrome of repeated oocyte maturation",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Clinical diagnosis of Hashimoto disease",
+      "label": "met",
+      "evidence": "lab results"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with matured oocytes in IVF cycles",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease and meets inclusion criteria, but does not have matured oocytes in IVF cycles.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT01977664",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "16 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "met",
+      "evidence": "desires IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sexually_transmitted_infection",
+      "label": "not_met",
+      "evidence": "no history of sexually transmitted infection"
+    },
+    {
+      "criterion": "desire_another_pregnancy",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, but no other significant medical conditions. She is on treatment and has regular menses.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

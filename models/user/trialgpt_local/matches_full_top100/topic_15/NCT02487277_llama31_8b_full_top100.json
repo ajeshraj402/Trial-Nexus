@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT02487277",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Greater than or equal to 18 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Histologically confirmed pancreatic adenocarcinoma",
+      "label": "met",
+      "evidence": "pancreatic adenocarcinoma at the head of pancreas"
+    },
+    {
+      "criterion": "Borderline resectable disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Performance status of Eastern Cooperative Oncology Group (ECOG) of 0-1",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Therapy na\u00efve",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evaluable disease with either: RECIST-defined measurable disease",
+      "label": "unknown",
+      "evidence": "9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass"
+    },
+    {
+      "criterion": "Adequate organ function including: Bone marrow: Absolute Neutrophil Count (ANC) \u22651500/mm3, platelets \u2265100,000/mm3 and",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatic: Serum total bilirubin \u22641.5 x upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal: Serum creatinine (sCr) \u2264 1.5 x ULN, or creatinine clearance (Ccr) \u2265 40 mL/min as calculated by the Modified Cockcroft-Gault formula.",
+      "label": "met",
+      "evidence": "SCr 2.1 in [**3-17**]"
+    },
+    {
+      "criterion": "Peripheral neuropathy < grade 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alkaline phosphatase \u2264 2 times the ULN unless bone metastasis is present in the absence of liver metastasis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age younger than 18 years old",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Locally advanced or metastatic disease",
+      "label": "triggers",
+      "evidence": "pancreatic adenocarcinoma at the head of pancreas"
+    },
+    {
+      "criterion": "Known allergy to hyaluronidase",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to prophylactic dose low molecular weight heparin (LMWH) , including Patients with recent gastrointestinal bleeding",
+      "label": "triggers",
+      "evidence": "abdominal mass"
+    },
+    {
+      "criterion": "History of heparin induce thrombocytopenia on LMWH",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects with previous severe hemorrhagic events on LMWH",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known contraindications to heparin including: Recent central nervous system bleed, intracranial or spinal lesion at high risk for bleeding",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active bleeding (major): more than 2 units transfused in 24 hours",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, mitral valve prolapse, atrial fibrillation, hyperlipemia, hypertension, chronic kidney disease, and hypothyroidism. She also has an abdominal mass and pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02487277",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

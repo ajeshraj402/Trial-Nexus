@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03836430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton newborn",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "born between 32 and 37 weeks of gestation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mother fluent in either English or Spanish",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "maternal history of major psychosis or suicidality",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mother currently addicted to drugs or alcohol or being treated for drug addiction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "health condition limiting mother's ability to care for her infant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary diagnosis in infant is unrelated to prematurity",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "infant not in legal and physical custody of the mother",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with undescended testis, but there are no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03836430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

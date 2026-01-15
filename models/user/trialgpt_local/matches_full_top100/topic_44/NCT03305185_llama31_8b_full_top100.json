@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03305185",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of AIS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female from 10 to 15 year-old, inclusive, at the time of consent provided",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Skeletal immaturity, defined as a Risser grade (amount of ossification and eventual fusion of the iliac apophysis) of 0, 1, or 2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cobb angle of 25-40",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No prior conservative or surgical treatment for AIS",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "An underlying cause or association that may cause scoliosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Leg length discrepancies or lower limb deformities that may interfere with spinal posture",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous spinal surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cognitive impairment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those receiving any other forms of treatment including alternative medicine for the treatment of their scoliosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those who are unable to return for follow-up to complete the trial",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03305185",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

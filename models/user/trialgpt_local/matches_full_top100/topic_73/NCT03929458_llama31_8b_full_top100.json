@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03929458",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "Both sexes aged between 20-90 years."
+    },
+    {
+      "criterion": "hemodialysis",
+      "label": "not_met",
+      "evidence": "She is a 3-day-old female infant with jaundice..."
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "She is diagnosed with neonatal jaundice that may require phototherapy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe_infections",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "autoimmune_disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_malnutrition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "oral_nutrition_supplements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability_to_follow_protocol",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03929458",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

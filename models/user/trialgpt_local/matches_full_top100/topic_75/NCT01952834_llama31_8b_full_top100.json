@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01952834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40-75 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of known coronary artery disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable angina or myocardial infarction by history, ECG, and/or enzymatic criteria within 1 month of enrollment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular dysfunction as defined by an left ventricular ejection fraction documented as < 45% within 1 year of enrollment by an echocardiogram, MRI, or nuclear imaging.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled hypertension with a blood pressure greater than 170/100 mmHg at the screening visit.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but no history of coronary artery disease. He does not have unstable angina or myocardial infarction within the past month.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01952834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT01443923",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Be greater than or equal to18 years old and have an identifiable primary care provider.",
+      "label": "met"
+    },
+    {
+      "criterion": "Have documented chronic HCV infection by demonstration of a positive test for hepatitis C antibody and HCV RNA of 2,000 IU/mL or greater.",
+      "label": "met"
+    },
+    {
+      "criterion": "Infected with HCV GT-1 virus.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "If coinfected, have either documentation of HIV-1 infection by licensed enzyme-linked immunosorbent assay (ELISA) confirmed by a Western Blot or history of HIV RNA of 1,000 copies/mL or greater.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Have histopathologic features consistent with chronic HCV infection at the time of enrollment. A liver biopsy within 3 years (36 calendar months) prior to screening may be used as the baseline biopsy.",
+      "label": "met"
+    },
+    {
+      "criterion": "Are na(SqrRoot) ve to prior IFN-based treatment for HCV.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Have CD4 cell counts greater than or equal to 100 cells/mm(3).",
+      "label": "met"
+    },
+    {
+      "criterion": "Willing to have genetic testing.",
+      "label": "met"
+    },
+    {
+      "criterion": "Not pregnant or breastfeeding. Serum pregnancy test must be negative at screening for female participants.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Agree not to become pregnant if a female of childbearing potential while on the study and for at least 6 months after stopping RBV.",
+      "label": "met"
+    },
+    {
+      "criterion": "Be able and willing to either learn to safely inject medication or find another person to inject the medication for him/her.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of other experimental therapies (including expanded access/compassionate use of HIV antiretrovirals) within 30 days or 5 half-lives (whichever is longer), prior to enrollment.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Current use of an efavirenz-based (or other NNRTI) or protease inhibitor HIV antiretroviral regimen.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01443923",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

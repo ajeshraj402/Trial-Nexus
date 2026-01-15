@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02741531",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hysterectomy or myomectomy planned for a benign gynecologic reason",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient is scheduled to have surgery with one of the minimally invasive gynecologic surgeons at George Washington University Hospital (GWUH)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient is planned for a robotic assisted total laparoscopic hysterectomy (RA-TLH) or a total laparoscopic hysterectomy (TLH) or robotic assisted or laparoscopic myomectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient is capable of informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the patient has no baseline urinary disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy or myomectomy is indicated for malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient has urinary disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and underwent multiple urological procedures, including suprapubic prostatectomy. He also had a severe urethral stricture that required surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02741531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

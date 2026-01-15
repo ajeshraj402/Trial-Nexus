@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03597360",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males or females with severe AD dementia (MMSE<12) between the ages of 70 to 90 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Meet the criteria of AD (NIA-AA).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If on any of the following medications: acetylcholinesterase inhibitors and/or memantine, participants must be on a stable dose for at least 60 days.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically stable for at least 3 months.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or past history of malignancy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of radiotherapy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological disorder other than AD.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently receiving other experimental treatments.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical or imaging evidence of stroke (with more than 1-2 lacunar infarcts on CT scan or MRI).",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Major depression, bipolar affective disorder or psychosis.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+6 weeks of gestational age with mild headache and leg swelling. BP 146/99, urine dipstick 3+ proteins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03597360",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04030741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "abdominal pain, diffuse abdominal discomfort, poor appetite, malaise"
+    },
+    {
+      "criterion": "lab_work",
+      "label": "met",
+      "evidence": "leukocytosis"
+    },
+    {
+      "criterion": "imaging",
+      "label": "met",
+      "evidence": "distended appendix with thickened appendiceal wall without perforation, abscess or gangrene on CT scan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated_appendicitis",
+      "label": "not_met",
+      "evidence": "no generalized peritonitis and no abscess formation on ultrasound"
+    },
+    {
+      "criterion": "appendicular_mass",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_non_operative_treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "crp_levels",
+      "label": "not_met",
+      "evidence": "no C-reactive proteins > 40 mg/L"
+    },
+    {
+      "criterion": "previous_abdominal_surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04030741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

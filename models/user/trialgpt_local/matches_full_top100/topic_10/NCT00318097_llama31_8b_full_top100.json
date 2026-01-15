@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT00318097",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "GnRH independent precocious puberty",
+      "label": "met"
+    },
+    {
+      "criterion": "Polyostotic fibrous dysplasia",
+      "label": "met"
+    },
+    {
+      "criterion": "Caf\u00e9-au-lait spots with coast of Maine borders and respect for the midline",
+      "label": "met"
+    },
+    {
+      "criterion": "Non-autoimmune hyperthyroidism",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any MAS patient or control who has not or cannot discontinue any home regimens of antihistamines or glucocorticoids (including inhaled steroids) at least seven days prior to skin testing.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Any MAS patient or control on tricyclic antidepressants within two weeks prior to skin testing.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00318097",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

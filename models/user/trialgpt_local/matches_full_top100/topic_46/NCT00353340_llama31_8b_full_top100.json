@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00353340",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged 18 year or older with GFR 15-60ml/min calculated by MDRD formula",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled to undergo cardiac catheterization",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serum creatinine levels more than 8mg/dl or GFR less than 15ml/min",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Change in serum creatinine levels of \u00b30.5mg/dl during the previous 24 hours.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00353340",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

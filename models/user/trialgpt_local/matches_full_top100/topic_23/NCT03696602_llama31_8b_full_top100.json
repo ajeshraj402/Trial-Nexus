@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03696602",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asthma defined by a complaint of wheezing, cough and dyspnoea",
+      "label": "met",
+      "evidence": "complaint"
+    },
+    {
+      "criterion": "positive response to methacholine or exercise challenge",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other respiratory diseases than asthma",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, history of asthma for 3 years. FEV1 of 63% predicted.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT03696602",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

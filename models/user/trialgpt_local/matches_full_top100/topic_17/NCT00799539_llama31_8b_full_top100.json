@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00799539",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "Patient is 64yo"
+    },
+    {
+      "criterion": "multiple myeloma",
+      "label": "met",
+      "evidence": "Patient has multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis"
+    },
+    {
+      "criterion": "measurable disease",
+      "label": "met",
+      "evidence": "Presence of measurable disease (secretory multiple myeloma or oligosecretory or nonsecretory multiple myeloma)"
+    },
+    {
+      "criterion": "karnofsky performance status >60",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet count >= 100 x 10^9/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hemoglobin >= 80 g/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "absolute neutrophil count (ANC) >= 1.0 x 10^9/L",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "aspartate aminotransferase (AST) <= 2.5 times the upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alanine aminotransferase (ALT) <= 2.5 times the upper limit of normal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum creatinine < = 2 mg/dL",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "corrected serum calcium < 14 mg/dL",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoldering multiple myeloma or monoclonal gammopathy of undetermined significance (MGUS)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Waldenstr\u00f6m's disease or other conditions in which IgM M-protein is present in the absence of a clonal plasma cell infiltration with lytic bone lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior or current systemic therapy for multiple myeloma including steroids (with exception of emergency use of a short course [maximum 4 days] of steroids before randomization or of prior or current use of bisphosphonates)",
+      "label": "met",
+      "evidence": "Patient was treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant"
+    },
+    {
+      "criterion": "Radiation therapy within 30 days before enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Plasmapheresis within 30 days before enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major surgery within 30 days before enrollment (Kyphoplasty is not considered major surgery)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Peripheral neuropathy or neuropathic pain Grade 2 or higher, as defined by National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE), Version",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multiple comorbid conditions that may impact tolerability of high-dose chemotherapy with stem cell transplantation.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00799539",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

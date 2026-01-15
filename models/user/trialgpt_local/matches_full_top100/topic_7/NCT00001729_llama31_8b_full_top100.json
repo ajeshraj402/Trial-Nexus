@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00001729",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age above 18 years, male or female.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum alanine or asparate aminotransferase activities that are above the upper limit of normal (ALT greater than 41 or AST greater than 31 U/L) on an average of three determinations taken during the previous 6 months.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of anti-HCV and HCV RNA in serum tested at least once during the previous six months.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of chronic hepatitis on liver biopsy done within the previous 12 months with a histology activity index of at least 6 (out of a maximum of 22).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Decompensated liver disease, as marked by bilirubin greater than 4 mg%, albumin less than 3.0 gm%, prothrombin time greater than 2 sec prolonged, or history of bleeding esophageal varices, ascites or hepatic encephalopathy.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or, in women of child-bearing potential or spouses of such women, inability to practice adequate contraception, defined as vasectomy in men, tubal ligation in women, or use of condoms and spermacide, or birth control pills, or an intrauterine device.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant systemic or major illnesses other than liver disease, including congestive heart failure, renal failure (creatinine clearance less than 50 ml/min), organ transplantation, serious psychiatric disease or depression, and angina pectoris.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-existing anemia (hematocrit less than 36% for men and less than 34% for women) or known history of hemolytic anemia.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Antiviral or immunosuppressive therapy within the last 6 months.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00001729",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

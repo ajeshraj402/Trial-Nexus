@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01367834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of Turner syndrome",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "Less than the 50th percentile for length for the general female population",
+      "label": "met",
+      "evidence": "short stature"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior Growth Hormone (GH) therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetes",
+      "label": "unknown",
+      "evidence": "TSH was 3 and FBS was 75"
+    },
+    {
+      "criterion": "Allergy to metacresol (a preservative in the GH liquid that is injected)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications for Magnetic Resonance Imaging (MRI) (such as metal in the body)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Part of a Y chromosome in child's karyotype",
+      "label": "not_met",
+      "evidence": "45X"
+    },
+    {
+      "criterion": "Parent/guardian is not willing for child to be randomized to be in the treatment group",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Parent/guardian is not willing for child to have some of her developmental testing digitally recorded for scoring",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, short stature and delayed puberty. Treating with GH since 6 months ago.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01367834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

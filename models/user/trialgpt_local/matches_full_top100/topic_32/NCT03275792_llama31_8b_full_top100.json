@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03275792",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age <18.0 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "STEC infection [positive culture OR antigen OR polymerase chain reaction test for Stx/gene]",
+      "label": "met",
+      "evidence": "stools"
+    },
+    {
+      "criterion": "Day of illness 1-10: Children who develop HUS will do so by day #14 of illness;8 restricting enrolment to the first 10 days will ensure all participants are at risk of HUS.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of evolving HUS: A) Hematocrit <30% OR B) Platelet count <150 x 109/L;",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Responsible physician desires patient admission (therefore unable to randomize);",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "17 year old boy with STEC infection, no underlying disease or medications.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03275792",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

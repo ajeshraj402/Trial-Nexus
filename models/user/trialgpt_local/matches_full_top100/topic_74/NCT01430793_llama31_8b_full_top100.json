@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01430793",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Vitamin D level less than 20 ng/dl",
+      "label": "met",
+      "evidence": "The serum alkaline phosphatase is 300 IU/L (the normal range is 44- 147 IU/L)."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Vitamin D deficiency (VDD) has resurfaced as a significant public health problem in recent years.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prevalence of VDD of 92% and 81% in ambulatory patients has been reported from centers in Karachi and Lahore recently.",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient's sister had the same problems. She was diagnosed with Paget's disease of bone when she was 52 years old.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01430793",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

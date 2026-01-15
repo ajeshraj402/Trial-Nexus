@@ -1,0 +1,92 @@
+{
+  "trial_id": "NCT04765943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "continuous electrocardiographic monitoring until medical discharge",
+      "label": "met"
+    },
+    {
+      "criterion": "Before discharge a cMRI (days 6-10 after AMI) will be performed and after an ILR will be implanted",
+      "label": "met"
+    },
+    {
+      "criterion": "Following medical discharge, enrolled patients will daily transmit the device register, which will be analyzed by specialized personnel. An intervention will take place if any arrhythmic event is registered following the current recommendations of scientific society.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients will be reevaluated 6 months after the coronary revascularization performed during hospitalization",
+      "label": "met"
+    },
+    {
+      "criterion": "Periodic clinical checkup will take place according to the protocols specified by our center",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients will be followed-up during the first 2 years after the AMI. Periodic checkups will be programmed according to the protocols of our center.",
+      "label": "met"
+    },
+    {
+      "criterion": "ICD and ILR implanted patients will daily transmit the device register that will be weekly reviewed",
+      "label": "unknown"
+    },
+    {
+      "criterion": "After the 2 years follow-up, the ILR, in those patients without an ILR, will be explanted and a cMRI will be performed.",
+      "label": "met"
+    },
+    {
+      "criterion": "Detection and therapy programming will be standardized and included two zones: Ventricular Fibrillation (VF) (Cycle Length [CL] < 250 ms) and Ventricular Tachycardia Zone 1 (CL from 250 to 320 ms).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "MRI protocol: All patients will undergo contrast-enhanced MRI with a 1.5-T or 3 T scanner.",
+      "label": "met"
+    },
+    {
+      "criterion": "Late Enhancement images will be used for infarct characterization. Infarct and heterogeneous tissue (i.e., gray zone) mass will be quantified by 2 methods: 1) the full width at half",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-ischemic etiology of left ventricular dysfunction by cMRI.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patient already implanted with a cardiac device (pacemaker, ICD or ICD-TRC).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Indication of pacemaker, ICD or ICD-TRC implantation during hospitalization.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Allergy or hypersensitivity to any implatable device component.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Contraindication for cMRI performance.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Life expectancy under 1 year due to a non-cardiac cause.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Concomitant valvulopathy with indication for surgery.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "High functional class (NYHA IV).",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04765943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

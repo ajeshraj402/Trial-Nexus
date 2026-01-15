@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04819451",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is between 18 and 80 years of old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with ICH rupture into the ventricle in the primary basal ganglia region or non-aneurysmal subarachnoid hemorrhage confirmed by skull imaging examination",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient is admitted to hospital within 72 hours after onset",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent of the patients or their family members, and signed informed consent for CSF replacement treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "willing to join in the study",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The project research assistant records the group and informs the specialist of the type of replacement fluid required",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, severe diarrhea, and low blood pressure.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04819451",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

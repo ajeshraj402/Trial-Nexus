@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04545424",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is between 18 and 65 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "Receiving mechanical ventilation for \u22647 days",
+      "label": "met"
+    },
+    {
+      "criterion": "Bilateral pulmonary opacities not fully explained by pleural effusions, atelectasis, or hydrostatic pulmonary edema for <48h",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Missed ARDS window (>48hrs)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Refractory hypotension (> 0.2 mcg/kg/min of norepinephrine or equivalent dose for 6 h or longer)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04545424",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

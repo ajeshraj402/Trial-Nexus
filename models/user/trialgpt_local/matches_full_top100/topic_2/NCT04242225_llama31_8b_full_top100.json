@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04242225",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe degenerative high flow AS",
+      "label": "met",
+      "evidence": "echocardiographic criteria: aortic valve (AV) effective orifice area (EOA) of < 1 cm2, mean AV gradient of > 40 mmHg, or AV peak systolic velocity of > 4.0 m/s"
+    },
+    {
+      "criterion": "symptomatic from the AS",
+      "label": "met",
+      "evidence": "dyspnea in NYHA-class II or greater, angina pectoris, or syncope"
+    },
+    {
+      "criterion": "survival time more than one year",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute myocardial infarction within 30 days",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "aortic valve is a congenital unicuspid or bicuspid valve, or is noncalcified",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe degenerative high flow AS and is symptomatic from the AS. No contraindications for open chest surgery mentioned.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04242225",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

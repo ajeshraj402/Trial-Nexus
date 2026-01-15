@@ -1,0 +1,84 @@
+{
+  "trial_id": "NCT01429376",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic heart failure patients with left ventricular systolic dysfunction (left ventricular ejection fraction < 40%)",
+      "label": "met"
+    },
+    {
+      "criterion": "Outpatients",
+      "label": "met"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) class I-IV",
+      "label": "unknown"
+    },
+    {
+      "criterion": "18 years and older",
+      "label": "met"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients who are not able to cooperate or undergo pulmonary function tests",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Other diseases that can lead to obstructive lung function: asthma, cystic fibrosis",
+      "label": "met"
+    },
+    {
+      "criterion": "Malignancy with bad prognosis (survival < 6 months)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Hospitalisation to the pulmonary department in the past 6 weeks, in this case patients will have the pulmonary function tests \u2265 6 weeks after discharge",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients who are already participating in another study within the cardiology department",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pulmonary: lung surgery (lobectomy/pneumectomy)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Neuromuscular diseases: ALS, poliomyelitis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pericardial: major pericardial effusion",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Large mediastinal processes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Collagen vascular diseases",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Active/recent infection",
+      "label": "met"
+    },
+    {
+      "criterion": "Use of antibiotics or anti-inflammatory medication, such as etanercept, infliximab, systemic use of corticosteroids and NSAID's other than acetylsalicylic acid",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01429376",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

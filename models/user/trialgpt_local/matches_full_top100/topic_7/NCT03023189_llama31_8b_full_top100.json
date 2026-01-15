@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03023189",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient treated by a prehospital physician-staffed SMUR team, a firefighter physician-staffed ambulance (ARBSPP), an hospital EMS or an ICU",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute upper digestive bleeding (< 24h) in the shape of hematemesis, described either by the physician, the patient, a relative or a member of the medical team",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known or suspected cirrhosis (based on clinical/biological/radiographic/anamnestic data)",
+      "label": "met",
+      "evidence": "quote: HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "Affiliated or recipient of the French social security",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Written consent (or under emergency procedures)",
+      "label": "met",
+      "evidence": "quote: referred for admission throught the ED by hepatology clinic"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known ongoing pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "TA already given (if inter-hospital transfer)",
+      "label": "not_met",
+      "evidence": "quote: Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose."
+    },
+    {
+      "criterion": "Endoscopy already performed for the current haemorrhagic episode",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hospitalization for over 24h in an intensive care unit or a routine care unit",
+      "label": "not_met",
+      "evidence": "quote: Recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis"
+    },
+    {
+      "criterion": "Exclusive lower digestive bleeding or melena only",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient in cardiac arrest at the arrival of the prehospital medical team, whether recovered or not",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient already randomised once in EXARHOSE study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "TA Counter-indications",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis and recent UGIB, referred for admission through ED by hepatology clinic. Started on lactulose for presumptive diagnosis of hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03023189",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

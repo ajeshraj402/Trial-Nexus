@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03043131",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old"
+    },
+    {
+      "criterion": "surgical_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "physical_examination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lab_results",
+      "label": "met",
+      "evidence": "A1c: 11.3%, Creatinine: 0.9 mg/dL"
+    },
+    {
+      "criterion": "surgical_department",
+      "label": "met",
+      "evidence": "Postgraduate Institute of Medical Education and Research, Chandigarh"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital_heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old"
+    },
+    {
+      "criterion": "liver_function",
+      "label": "not_met",
+      "evidence": "Serum Bilirubin: 0.9mg %"
+    },
+    {
+      "criterion": "renal_function",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03043131",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

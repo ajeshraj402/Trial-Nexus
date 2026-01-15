@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00129662",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Understanding of spoken English language",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Evidence of respiratory disease (either asthma or COPD)",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor level of English language; English not first language",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Poor eyesight or literacy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00129662",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

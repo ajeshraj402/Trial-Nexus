@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03724318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "use of anti-coagulants provides protection against thrombus formation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LAACS procedure is routinely conducted on patients undergoing per-operative ablation for AF during CABG and valve operations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "closure of the LAA with a clip device rather than a single suture is more effective",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AtriClip devices are used for LAA closure in the LAACS trial",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "biopsy from the right atrial appendage is taken during operation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "venous blood and urine samples are drawn during surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "follow-up is based on yearly contact with the patients' hospital records and telephone contact",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "imaging study is conducted one year after the operation to assess the quality of the closure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "long-term continuous ambulatory heart-rhythm monitoring (Holter) is offered to patients with AF onset after the operation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients are stratified by ongoing use of anti-coagulant medications",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the standard procedure for LAA closure in the LAACS trial is using AtriClip devices",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tissue, blood and urine samples are analyzed when the last sample has been drawn",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "endocarditis",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no possible follow-up",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "planned closure of the left atrium appendage as part of surgery",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03724318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

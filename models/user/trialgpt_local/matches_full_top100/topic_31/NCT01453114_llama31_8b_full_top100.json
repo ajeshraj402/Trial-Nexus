@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01453114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years and older"
+    },
+    {
+      "criterion": "planning_pregnancy_or_already_pregnant",
+      "label": "met",
+      "evidence": "already pregnant"
+    },
+    {
+      "criterion": "stable_remission_from_depression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "current_or_recent_treatment_with_antidepressant",
+      "label": "met",
+      "evidence": "Current or recent treatment with an antidepressant (stable dosage for at least the last four weeks)"
+    },
+    {
+      "criterion": "history_of_major_depressive_episode",
+      "label": "met",
+      "evidence": "Have a history of a major depressive episode"
+    },
+    {
+      "criterion": "decide_to_discontinue_antidepressant_medication_for_pregnancy",
+      "label": "met",
+      "evidence": "Decide to discontinue antidepressant medication for pregnancy"
+    },
+    {
+      "criterion": "current_receiving_psychiatric_care_outside_MGH_Center_for_Women_s_Mental_Health",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "met",
+      "evidence": "Written, informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant_risk_for_self_harm_or_harm_to_others",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychotic_symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "meeting_criteria_for_primary_SCID-I/P_diagnosis_of_schizophrenia_bipolar_disorder_an_active_eating_disorder_dementia_delirium_or_other_cognitive_disorder",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence_of_active_substance_and/or_alcohol_abuse_disorder_within_six_months_prior_to_screening_visit",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "current_use_of_mood_stabilizers_antipsychotics_or_antiepileptics",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "have_received_cognitive-behavioral_or_interpersonal_therapy_within_the_last_year",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient tested positive for HPV 16 and has a history of smoking (30 packs/year) and alcohol consumption. She underwent tubal ligation.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01453114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

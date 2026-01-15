@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03888495",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-35 years"
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "lives with husband/partner within pre-selected study clusters"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "Consent from husband/partner as well as eligible woman"
+    },
+    {
+      "criterion": "marital_status",
+      "label": "met",
+      "evidence": "Women in polygynous unions, if the wife co-resides with her husband"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "consent",
+      "label": "not_met",
+      "evidence": "Either woman or partner does not give consent"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03888495",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

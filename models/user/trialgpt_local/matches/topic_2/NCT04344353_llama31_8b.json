@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT04344353",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 18 years of age",
+      "label": "met",
+      "evidence": "Patient is a 48-year-old male."
+    },
+    {
+      "criterion": "Patients who are candidates for aortic valve replacement",
+      "label": "met",
+      "evidence": "Patient has severe aortic stenosis with worsening LV function and EF was 25%."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have previously undergone other aortic valve surgery",
+      "label": "does_not_trigger",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Patients on hemodialysis",
+      "label": "unknown",
+      "evidence": "No information about dialysis status"
+    }
+  ],
+  "notes": "Patient's exact date of birth is not provided, but age is given as 48 years. No mention of previous aortic valve surgery or current infection.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04344353",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

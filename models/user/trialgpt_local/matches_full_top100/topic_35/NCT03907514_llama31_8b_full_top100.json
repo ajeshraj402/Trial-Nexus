@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03907514",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Brazilian adolescents literate in Portuguese",
+      "label": "met",
+      "evidence": "She is a book worm and spend her free time in a public library near her home."
+    },
+    {
+      "criterion": "Brazilian adolescents able to use smartphone",
+      "label": "met",
+      "evidence": "She recently noticed that that there are more attacks around her menstrual period. She is diagnosed with the migraine headache and is under treatment."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adolescents with intellectual, sensory or physical disabilities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adolescents not capable to read and write/type",
+      "label": "not_met",
+      "evidence": "She is a book worm and spend her free time in a public library near her home."
+    }
+  ],
+  "notes": "The patient has migraine headache and is under treatment. She lives with her both parents.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT03907514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

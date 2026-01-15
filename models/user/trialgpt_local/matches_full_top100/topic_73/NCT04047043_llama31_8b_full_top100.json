@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04047043",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recipient age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Donor age between 18 and 45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ABO group compatibility with the recipient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal psychological workup",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recipient patients with pre-existing renal failure requiring hemodialysis or continuous hemofiltration, glomerular filtration rate \u2264 30 ml /min by renal scan",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Re-transplant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HA1C > 7%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT04047043",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

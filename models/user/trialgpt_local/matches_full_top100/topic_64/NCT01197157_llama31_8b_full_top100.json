@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01197157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 and <60",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Liver biopsy showing chronic hepatitis with significant fibrosis using Ishak scoring system.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Compensated liver disease; serum bilirubin < 1.5 mg/dl, INR no more than 1.5, serum albumin > 3.4, platelet count >75,000 mm, and no evidence of hepatic decompensation (hepatic encephalopathy or ascites).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acceptable hematological and biochemical indices (hemoglobin 13g/dl for men and 12 g/dl for women; neutrophil count 1500/mm3 or more and serum creatinine <1.5 mg/dl).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to be treated and to adhere to treatment requirements.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major uncontrolled depressive illness.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Solid organ transplantation.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Autoimmune conditions, known to be exacerbated by peginterferon and ribavirin.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Untreated thyroid disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or unwilling to comply with adequate contraception.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe concurrent medical disease such as severe hypertension, heart failure, significant coronary heart disease, poorly controlled diabetes, chronic obstructive pulmonary disease.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known hypersensitivity to drugs used to treat HCV.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01197157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

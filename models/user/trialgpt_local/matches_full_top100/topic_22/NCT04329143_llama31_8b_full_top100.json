@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04329143",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "Previous cholecystectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Common bile duct stone",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptomatic or asymptomatic",
+      "label": "met",
+      "evidence": "complaining of abdominal pain"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unfit for surgery",
+      "label": "not_met",
+      "evidence": "normal vital signs"
+    },
+    {
+      "criterion": "Refused surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04329143",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

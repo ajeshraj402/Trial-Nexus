@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02429349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal patients who are diagnosed with conditions that necessitate chemo- or radiotherapy",
+      "label": "met",
+      "evidence": "patient's diagnosis of Hashimoto's thyroiditis"
+    },
+    {
+      "criterion": "pre- and post-pubertal patients who are diagnosed with conditions that necessitate chemo- or radiotherapy and wish to preserve their ovarian function",
+      "label": "met",
+      "evidence": "patient wishes to preserve her ovarian function"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with acute or chronic conditions that would preclude surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hyper- or hypo-coagulation disorders",
+      "label": "not_met",
+      "evidence": "no mention of coagulation disorders"
+    },
+    {
+      "criterion": "lung conditions precluding mechanical ventilation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "brain death",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and wishes to preserve her ovarian function. She does not have any conditions that would preclude surgery.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02429349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

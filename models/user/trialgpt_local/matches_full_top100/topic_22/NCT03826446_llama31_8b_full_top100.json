@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03826446",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "No permeation of surrounding fat planes",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "No encasement of major vascular structures",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, absess or gangrene."
+    },
+    {
+      "criterion": "No extensive local spread",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No distant metastases or peritoneal infiltration",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, absess or gangrene."
+    },
+    {
+      "criterion": "Only operable cases of right colon cancer by (CT scan criteria)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Perforation or obstruction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metastatic colon cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients undergoing colectomy including another part of the colon than right colon",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03826446",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

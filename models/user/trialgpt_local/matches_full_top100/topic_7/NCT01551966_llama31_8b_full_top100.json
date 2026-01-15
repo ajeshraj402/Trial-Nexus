@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01551966",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "cirrhosis",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "referral for EGD under general sedation",
+      "label": "met",
+      "evidence": "referred for admission throught the ED by hepatology clinic"
+    },
+    {
+      "criterion": "not participating in other clinical studies",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written informed consent obtained",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication for upper endoscopy or video capsule ingestion",
+      "label": "not_met",
+      "evidence": "no mention of contraindications"
+    },
+    {
+      "criterion": "upper gastrointestinal strictures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dysphagia or gastrointestinal tract strictures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "swallowing disorders with or without impaired consciousness",
+      "label": "not_met",
+      "evidence": "no mention of swallowing disorders"
+    },
+    {
+      "criterion": "calcium channel blocking agents medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diverticulosis (Marphan's or Ehlers Danlos's syndrome)",
+      "label": "not_met",
+      "evidence": "no mention of diverticulosis"
+    },
+    {
+      "criterion": "cardiac pacemaker or other implanted electro medical device",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "scheduled for MRI examination within 7 days after ingestion of the capsule",
+      "label": "not_met",
+      "evidence": "no mention of scheduled MRI"
+    }
+  ],
+  "notes": "Patient has cirrhosis and was referred for EGD under general sedation. However, there is no clear indication that written informed consent was obtained.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01551966",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

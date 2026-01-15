@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00542243",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Initial biopsy, performed at UHN",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA < 20 ng/ml",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to swallow and retain oral medication",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to read and write (IPSS questionnaire is self-administered)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Understand instructions related to study procedures",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Give written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Glucocorticoids, except inhaled or topical",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Finasteride (PROSCAR, Propecia)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Dutasteride (Avodart)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anabolic steroids",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Drugs with antiandrogenic properties",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in an investigational or marketed drug trial within the 30 days prior to the first dose of study drug",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention. He has a large prostate and bladder issues, but his recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT00542243",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

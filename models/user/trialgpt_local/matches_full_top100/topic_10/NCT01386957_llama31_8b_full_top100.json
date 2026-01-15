@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01386957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 6 months and< 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Idiopathic nephrotic syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 6 months or > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Congenital nephrotic syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Pt is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT01386957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

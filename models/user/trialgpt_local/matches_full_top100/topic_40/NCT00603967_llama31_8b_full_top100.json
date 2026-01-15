@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00603967",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postmenopausal women aged greater than or equal to 40 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosis of breast cancer stages I-IIIA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "planned therapy for the treatment group must include aromatase inhibitors using third generation non-steroidal aromatase inhibitors, anastrozole or letrozole",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "bone mineral density measurement must range from normal to osteopenia (T-scores between +2.0/-2.0)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "must be ambulatory willing and able to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "no current use of medications affecting bone metabolism, namely: estrogen, raloxifene, tamoxifen, bisphosphonates, GnRH analogues, glucocorticoids of at least 5 mg daily for 1 month or more, anabolic steroids and dilantin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no evidence of diseases known to interfere with bone metabolism, such as hyperparathyroidism, hyperthyroidism, osteomalacia, chronic liver disease, renal failure, hypercortisolism, malabsorption, and immobilization",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no current alcohol or tobacco abuse",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be started on Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00603967",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

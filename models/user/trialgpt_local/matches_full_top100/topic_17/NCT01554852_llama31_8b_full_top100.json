@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01554852",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 18 years or greater",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Newly diagnosed as having symptomatic multiple myeloma or non-secretory multiple myeloma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Provide written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing potential and male patients whose partner is a woman of child bearing potential must be prepared to use contraception in accordance with (and consent to) the Celgene-approved process for thalidomide and lenalidomide Risk Management and Pregnancy Prevention, or commit to absolute and continuous abstinence",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of child bearing potential must have a negative pregnancy test performed by a healthcare professional in accordance with the Celgene-approved process for thalidomide and lenalidomide Risk Management and Pregnancy Prevention",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asymptomatic myeloma",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Solitary plasmacytoma of bone. (Patients with previous solitary plasmacytoma now progressed to symptomatic or non-secretory myeloma are eligible)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Extramedullary plasmacytoma (without evidence of myeloma)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous (<5 years since diagnosis) or concurrent active malignancies, except surgically-removed basal or squamous cell carcinoma of the skin, treated carcinoma in situ of the breast or cervix, or incidental histologic finding of prostate cancer (TMN stage of T1a or 1b). Patients with remote histories (>5 years) of other cured malignancies may be entered.",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented diagnosis of Myelodysplastic Syndrome (MDS) that meets International Prognostic Scoring System (IPSS) criteria for high-risk disease",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous treatment for myeloma, except the following: local radiotherapy to relieve bone pain or spinal cord compression; or prior bisphosphonate treatment; or corticosteroids within the last 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known history of allergy contributable to compounds containing boron or mannitol",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Grade 2 or greater (NCI criteria) peripheral neuropathy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens including melphalan, prednisone, VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01554852",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

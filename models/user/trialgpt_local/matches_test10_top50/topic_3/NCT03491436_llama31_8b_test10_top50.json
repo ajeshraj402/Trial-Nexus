@@ -1,0 +1,30 @@
+{
+  "trial_id": "NCT03491436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnancies > 10 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primipara",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital malformations of the fetus",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03491436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

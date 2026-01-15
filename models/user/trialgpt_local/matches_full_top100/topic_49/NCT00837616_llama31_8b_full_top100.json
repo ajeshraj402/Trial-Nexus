@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00837616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Girls with Turner Syndrome",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "Female subjects with Y material will be allowed providing gonadectomies have been performed previously",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age: 13-20 years",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Subjects have completed or nearly completed their linear growth",
+      "label": "met",
+      "evidence": "treats with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height"
+    },
+    {
+      "criterion": "Previous growth hormone (GH) therapy discontinued at least 6 months prior to study participation",
+      "label": "met",
+      "evidence": "treats with GH since 6 months ago"
+    },
+    {
+      "criterion": "Stable thyroid replacement therapy will be allowed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Celiac disease on stable diets will be allowed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any previous hormone replacement therapy (HRT) will be allowed",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes Mellitus on insulin therapy, insulin sensitizers or oral hypoglycemics",
+      "label": "not_met",
+      "evidence": "TSH was 3 and FBS was 75 in the latest lab study"
+    },
+    {
+      "criterion": "Inflammatory Bowel Disease (ulcerative colitis or Crohn's disease), celiac disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cigarette smoking",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any other chronic conditions, that, in the opinion of investigators could impair the metabolism of nutrients",
+      "label": "not_met",
+      "evidence": "obese, mentally retarded girl"
+    },
+    {
+      "criterion": "Severe obesity, i.e., Body Mass Index (BMI) >95th centile",
+      "label": "met",
+      "evidence": "obese"
+    }
+  ],
+  "notes": "Patient has Turner syndrome and is on GH therapy. She does not have diabetes or inflammatory bowel disease.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00837616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

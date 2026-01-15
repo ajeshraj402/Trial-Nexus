@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02571309",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 6 years",
+      "label": "met",
+      "evidence": "The patient is a 15-year-old boy."
+    },
+    {
+      "criterion": "Diagnosed asthma",
+      "label": "met",
+      "evidence": "He presents with shortness of breath, chest tightening and cough. He was admitted to the emergency department with diagnosis of severe asthma exacerbation."
+    },
+    {
+      "criterion": "Asthma control score (ACT/C-ACT) less than 20",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the asthma control, participation in other drug trial, and a patient or all caregiver(s) (in case the patient is a child) incapable to read Swedish.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Data collection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has asthma and meets some of the inclusion criteria, but it's unclear if their asthma control score is less than 20. They do not meet any exclusion criteria.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02571309",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

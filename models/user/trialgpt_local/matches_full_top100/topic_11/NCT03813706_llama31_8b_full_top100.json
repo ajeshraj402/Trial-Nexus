@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03813706",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged from 18 years old to 80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the primary treatment of patients with right or bilateral PTC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients will voluntarily enter the study after informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients refused to participate in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non first operation patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "other malignant tumor history",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "distant metastasis",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, but meets inclusion criteria and does not have distant metastasis.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03813706",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

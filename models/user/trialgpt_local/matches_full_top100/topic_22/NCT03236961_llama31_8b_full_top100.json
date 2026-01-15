@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03236961",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "CT confirmed uncomplicated acute appendicitis",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Ability to give consent to participate in the study",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 years or over 60 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy or contraindication to antibiotic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metformin medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe systemic illness (for example malignancy, medical condition requiring immunosuppressant medication)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT confirmed complicated acute appendicitis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03236961",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

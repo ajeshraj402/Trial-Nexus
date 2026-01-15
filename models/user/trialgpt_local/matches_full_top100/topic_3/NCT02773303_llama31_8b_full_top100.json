@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02773303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clear diagnosis of ASD",
+      "label": "met",
+      "evidence": "initial qEEG"
+    },
+    {
+      "criterion": "high starting delta wave level",
+      "label": "met",
+      "evidence": "initial qEEG"
+    },
+    {
+      "criterion": "iPhone 4s or later",
+      "label": "met",
+      "evidence": "device requirements"
+    },
+    {
+      "criterion": "all iPads except first generation iPAD running OS v7 or later",
+      "label": "met",
+      "evidence": "device requirements"
+    },
+    {
+      "criterion": "computer running Windows 7 or later",
+      "label": "met",
+      "evidence": "device requirements"
+    },
+    {
+      "criterion": "Tablet running Android 4.1 or later",
+      "label": "met",
+      "evidence": "device requirements"
+    },
+    {
+      "criterion": "Internet connection",
+      "label": "met",
+      "evidence": "device requirements"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of hearing impairment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "co-morbidities such as Rett-Syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe 'exploding' headache and abnormal vasculature with a draining vein from L temporal lobe consistent with AVM. However, they were ambulating independently without difficulty.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02773303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

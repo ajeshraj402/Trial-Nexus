@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04017260",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic discharging sinus/sinuses in natal cleft with or without surrounding tissue inflammation and with associated pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSD in intergluteal region",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recurrent pilonidal sinus",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute pilonidal abscess",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recent abdominal mass, and pancreatic adenocarcinoma. She is currently being treated with IV antibiotics for an infected fluid collection or abscess.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04017260",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

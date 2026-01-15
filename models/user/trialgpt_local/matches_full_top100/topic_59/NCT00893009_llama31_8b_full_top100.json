@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00893009",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable stage II and III (GOLD) COPD, diagnosed 2 years ago",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosed 2 years ago",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Heart failure",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Malignancy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immune suppressed",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00893009",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

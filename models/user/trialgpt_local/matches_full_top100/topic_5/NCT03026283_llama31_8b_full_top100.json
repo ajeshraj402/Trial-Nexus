@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03026283",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "capable of giving informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to cooperate with the technician performing the procedure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI <= 50",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non-ST Elevation Myocardial Infarction (STEMI) Electrocardiogram (EKG) without acute changes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "medically necessary appointment for CCTA for the purpose of evaluation of coronary stenosis for the provisional diagnoses of chest pain or angina or angina equivalent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to take nitroglycerin and beta blockers",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of coronary stenting or coronary artery bypass graft",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe or end stage renal disease as diagnosed as estimated glomerular filtration rate (eGFR)<50",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI>50",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03026283",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

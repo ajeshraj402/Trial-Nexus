@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01745952",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fully characterized refractory unifocal neocortical epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on a stable drug regimen for at least one month",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to complete a seizure dairy either by the patient or by a significant other",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Metal in the head including deep brain stimulators, aneurysmal clips, ventricular shunts, cochlear implants, ossicular reconstruction of the middle ear\u2026",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pacemaker, implantable cardioverter-defibrillator (ICD)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability and CHF. He has been experiencing seizures with facial twitching on the right and generalized shaking.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01745952",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

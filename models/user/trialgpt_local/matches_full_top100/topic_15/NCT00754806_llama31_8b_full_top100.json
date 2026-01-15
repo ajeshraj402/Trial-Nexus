@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00754806",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "splenomegaly",
+      "label": "met",
+      "evidence": "15 cm or longer spleens"
+    },
+    {
+      "criterion": "patient_confirmation",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "normal_sized_spleens",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient_denial",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00754806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

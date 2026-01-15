@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04356326",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant patient between 10 and 14 weeks of gestation + 6 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic hypertension, whether treated or not, know before pregnancy or diagnosed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "signed the written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "affiliation to social security",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "medical history requiring anticoagulation (antiphospholipid syndrome, deep vein thromboembolic disease, pulmonary embolism, atherothrombosis, patient with mechanical heart valves)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient receiving aspirin for another indication outside pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active bleeding",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT04356326",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

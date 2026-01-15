@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00792948",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "morphologic diagnosis of acute lymphoblastic leukemia (ALL)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "evidence of ALL involvement in bone marrow and/or blood",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Philadelphia (Ph) positive and/or BCR/ABL positive as confirmed by standard cytogenetics, fluorescent in situ hybridization (FISH), and/or polymerase chain reaction (PCR) testing performed by local laboratory",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "bilirubin =< 3.0 x institutional upper limit of normal (IULN)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) =< 3.0 x IULN and/or serum glutamate pyruvate transaminase",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients may have received no more than one course of remission induction therapy for ALL",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with M0 acute myeloid leukemia (AML) or mixed lineage leukemia are not eligible for this study",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with L3 (Burkitts) are also not eligible",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has systemic mastocytosis, but does not meet criteria for ALL or Philadelphia chromosome positivity.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00792948",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

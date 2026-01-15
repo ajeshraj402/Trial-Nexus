@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02506959",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Refractory or relapsed myeloma, defined as one or more of the following:",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Treated with first-line therapy including at least 2 cycles of lenalidomide, bortezomib or thalidomide, and one or more of the following:",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Less than partial response (PR) to first-line therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Relapse after first (1st) line therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "High-risk cytogenetics, defined by deletion (del)(13q) by conventional cytogenetics, or by del(17p), t(4;14), t(14;16), t(14;20) or 1q+ by fluorescence in situ hybridization (FISH)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Relapse after a prior autologous stem cell transplant (ASCT)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Plasma cell leukemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Soft tissue plasmacytoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine =< 1.8 mg/dL and/or estimated serum creatinine clearance >= 50 ml/min",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT) and/or serum glutamate pyruvate transaminase (SGPT) =< 3 x upper limit of normal",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Serum bilirubin =< 2 x upper limit of normal, unless proven to be due to disease involvement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alkaline phosphatase =< 2 x upper limit of normal, unless proven to be due to disease involvement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate pulmonary function with forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC) and diffusion capacity of the lung for carbon monoxide (DLCO) >= 50% of expected corrected for hemoglobin and/or volume",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate cardiac function with left ventricular ejection fraction >= 40%",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior whole brain irradiation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having received radiation therapy to head and neck (excluding eyes), and internal organs of chest, abdomen or pelvis in the month prior to enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has refractory myeloma with relapse after first-line therapy and autologous stem cell transplant. She meets several inclusion criteria but has not received radiation therapy in the past month.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT02506959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02351362",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult (\u226518 years of age)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV-positive at the time of enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Initiating ART on day of enrollment, or already initiated on ART",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to provide written informed consent for study participation and data collection",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to speak and understand spoken English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Must possess a working cell phone during the enrollment visit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not previously enrolled in the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient requests to be transfered to non-study site for HIV care and treatment on day of recruitment/enrollment",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unknown exclusion criterion",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer, is HPV-positive, smokes heavily, and drinks alcohol frequently. She was offered a radical hysterectomy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02351362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02340936",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 and 70 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "Diffuse large B-cell lymphoma (LDCGB) histological diagnosis according to the WHO classification.",
+      "label": "met"
+    },
+    {
+      "criterion": "Refractory lymphoma or relapsed after 1st line treatment consisting of rituximab combined with a regimen of chemotherapy including anthracyclines.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Eastern cooperative oncology group performance status (ECOG) less than or equal to 2.",
+      "label": "met"
+    },
+    {
+      "criterion": "Resolution of toxicities caused by the 1st line regimen to less than or equal to grade 2.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing age must obtain a negative pregnancy test before starting medically supervised therapy study.",
+      "label": "met"
+    },
+    {
+      "criterion": "12 male patients must accept to use a latex condom during any sexual relations with women of childbearing potential.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "All patients must understand that the study drug could potentially have a teratogenic risk.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients that previously received any antitumor agent for the treatment of LDCGB except rituximab in combination with regimen including anthracyclines or radiotherapy as part of first-line treatment.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Known involvement of the central nervous system (CNS) by lymphoma.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis with ICH and seizure/stroke, which may compromise their ability to comply with treatment. Additionally, they have a large pericardial effusion due to Burkitt's lymphoma, which requires further evaluation.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02340936",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

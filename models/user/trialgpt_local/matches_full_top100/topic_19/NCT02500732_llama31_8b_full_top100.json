@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02500732",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "1 or more syncopal spells in the year preceding enrolment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "More than -2 points on the Calgary Syncope Symptom Score",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226518 years with informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other causes of syncope, such as ventricular tachycardia",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02500732",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

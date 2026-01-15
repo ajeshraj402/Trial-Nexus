@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01383564",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least one nocturnal awakening or early morning awakening caused by asthmatic symptoms",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "symptoms (cough, wheeze, chest tightness, and breathlessness)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "habitual snoring; able to give consent for joining the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active smoking or quit smoking <6 months or smoking history >10 pack-years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cardiac failure",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cerebrovascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lung disease except asthma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "dementia or poor hand function that would inhibit the patients cooperating the sleep study or CPAP treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01383564",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04316793",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "unilateral, chronic non-traumatic shoulder pain",
+      "label": "met",
+      "evidence": "patient's own words"
+    },
+    {
+      "criterion": "localized pain in the shoulder region or referred according to the territory of the infraspinatus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of a palpable nodule inside a tight muscle band reproducing the patient's pain",
+      "label": "met",
+      "evidence": "patient's own words"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cancer or metastasis in organs or tissues above the pelvis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Shoulder capsulitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Shoulder, thorax or mastectomy surgeries",
+      "label": "not_met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "Shoulder bone fracture",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "C4-C5 or C6 radiculopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Osteoporosis or excessive atrophy of the infraspinous fossa (infraspinatus <10 mm)",
+      "label": "not_met",
+      "evidence": "normal bowel sounds"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has several gallstones and biliary sludge, and surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04316793",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

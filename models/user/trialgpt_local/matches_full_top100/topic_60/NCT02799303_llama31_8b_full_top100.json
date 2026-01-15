@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02799303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age greater than or equal to 50 years old",
+      "label": "met",
+      "evidence": "patient is a 63-year-old man"
+    },
+    {
+      "criterion": "life expectancy greater than or equal to 10 years, according to the clinical judgement of study investigators",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "of study investigators",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of previous prostate biopsy",
+      "label": "not_met",
+      "evidence": "no mention of previous prostate biopsy"
+    },
+    {
+      "criterion": "PSA level measurement within 3 years of recruitment date",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abnormal digital rectal examination of the prostate consistent with prostate cancer",
+      "label": "not_met",
+      "evidence": "no mention of abnormal digital rectal examination"
+    },
+    {
+      "criterion": "history of prostate cancer in one or more first-degree relatives diagnosed at less than 50 years of age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lower urinary tract voiding symptoms (IPSS greater than or equal to 8)",
+      "label": "not_met",
+      "evidence": "no mention of lower urinary tract voiding symptoms"
+    },
+    {
+      "criterion": "prior or current use of 5-alpha reductase inhibitor medications (finasteride or dutasteride)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient unable to communicate in English in order to give proper informed consent",
+      "label": "not_met",
+      "evidence": "no mention of patient unable to communicate in English"
+    },
+    {
+      "criterion": "claustrophobia or other medical indication which would preclude MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any medical condition which, in the opinion of the investigator, might interfere with the evaluation of the study objectives",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02799303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

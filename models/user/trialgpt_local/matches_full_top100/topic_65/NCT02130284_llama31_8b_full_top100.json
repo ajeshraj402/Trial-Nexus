@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02130284",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 14-75 years of age at time of screening",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has a clinical diagnosis of type 1 diabetes, as determined via medical record or source documentation by an individual qualified to make a medical diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On pump therapy at the time of screening with insulin sensitivity and insulin carbohydrate ratio",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate venous access as assessed by investigator or appropriate staff",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is unable to tolerate tape adhesive in the area of sensor placement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has any unresolved adverse skin condition in the area of sensor or device placement (e.g., psoriasis, rash, Staphylococcus infection)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is actively participating in an investigational study (drug or device) wherein they have received treatment from an investigational study (drug or device) in the last 2 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has a positive urine or serum pregnancy screening test",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02130284",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

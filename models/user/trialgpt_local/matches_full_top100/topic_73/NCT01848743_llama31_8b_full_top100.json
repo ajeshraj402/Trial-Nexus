@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01848743",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HBsAg (+) > 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ALT > 5X ULN",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prolongation of prothrombin time > 3 seconds and bilirubin level > 2 mg/dl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "20-75 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HAV, HCV, HDV and HIV co-infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug, metabolic or alcohol as cause of hepatitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anti-viral treatment in recent 6 mnths",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant woman",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT01848743",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

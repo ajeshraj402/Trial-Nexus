@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03394040",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diarrhea",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "current enrollment in NIH protocol",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "able to provide 50ml stool sample within 2-3 hours",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically unstable patient",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "NINR employee or subordinate/relative/co-worker",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has diarrhea and is able to provide a stool sample, but their clinical stability is unknown.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03394040",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

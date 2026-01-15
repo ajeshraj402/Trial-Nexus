@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02316249",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recruitment via direct contact from patient population",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Randomization to use estrogen cream or placebo",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "New diagnosis of any conditions that are reactions/adverse events occur from the use of Estrace or placebo",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lack of compliance with study procedures",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, and recent enlargement of hands and feet. She is on stable doses of octreotide LAR.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02316249",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

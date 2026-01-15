@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00306813",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years at the time of signing the informed consent form.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Multiple myeloma with Durie-Salmon stage II or III and considered to have disease progression after at least 1 previous anti-myeloma regimen.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects must have not have recieved more than 3 previous anti-myeloma regimens and must be relapsed or refractory following at least one regimen of anti-myeloma therapy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have measurable levels of myeloma paraprotein in serum (>0.5 g/dl) or urine (>0.2 g excreted in a 24-hour collection sample).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status score of 0, 1 or 2.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative serum or urine pregnancy test within 7 days of starting each cycle. Men and WCBP must agree to use adequate contraceptive methods.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Must have a 2-d echocardiogram indicating LVEF \u2265 55% within 42 days prior to first dose of study drug.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life extpectancy > 3 months.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating females.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Heart failure (EF < 55%).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any of the following laboratory abnormalities Absolute neutrophil count (ANC) <1500/mm3 (1x109/L).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior history of any other malignancies except for adequately treated basal cell, insitu cervical or breast cancer or other for which the patient has been disease free for 5 years.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with relapse and is on hemodialysis. She has a history of hypercalcemia, but was treated with pamidronate and dialysis. The patient's life expectancy is unknown.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00306813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04294316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ICU patients with successful resuscitation after out-hospital or in-hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cardiorespiratory arrest",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Younger than 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute or history of neurological disorder: stroke, bleeding, trauma,",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe dementia, psychiatric or neuromuscular disability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Untreated Acute coronary syndrome",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of CAD and severe stenosis in the left internal carotid artery, but no other cardiovascular risk factors. He is physically active and reported no use of lipid-lowering medications.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04294316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

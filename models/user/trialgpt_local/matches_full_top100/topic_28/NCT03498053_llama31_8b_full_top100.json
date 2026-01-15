@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03498053",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age (25-35 years)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Caucasian",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Smoking Marlboro as usual brand for at least 3 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Used to smoke between 13 and 25 cigarettes a day (around a package/day)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Heavy smoker (minimum of 25 cigarettes/day)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Smokes more than 1 brand on a regular base.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Amount of cigarettes per day varies \u00b110, between days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Daily medication use",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Experienced adverse effects due to smoking",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suffering chronic illness",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03498053",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

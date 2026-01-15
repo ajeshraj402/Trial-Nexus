@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03250910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > or = 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic HCV infection, defined as detectable HCV antibody (anti-HCV; Abbott HCV EIA 2.0, Abbott Laboratories, Abbott Park, Illinois, USA) and quantifiable serum HCV RNA (Cobas TaqMan HCV Test v2.0, Roche Diagnostics GmbH, Mannheim, Germany, lower limit of quantification [LLOQ]: 25 IU/mL) for \u2265 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic kidney disease (CKD) stage \u2265 4,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Organ transplantation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior DAA exposure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refusal to provide written informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03250910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

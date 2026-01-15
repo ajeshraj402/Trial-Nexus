@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01072110",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-85 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability of subjects to understand character and individual consequences of clinical trial",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects undergoing colonoscopy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide written informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe Coagulopathy (Prothrombin time < 50% of control, Partial thromboplastin time > 50 s)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Impaired renal function (Creatinine > 1.2 mg/dl)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active gastrointestinal bleeding",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known allergy to fluorescein, acriflavin or cresyl violet",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Residing in institutions (e.g. prison)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01072110",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

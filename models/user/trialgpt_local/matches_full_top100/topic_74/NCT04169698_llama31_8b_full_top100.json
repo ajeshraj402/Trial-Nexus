@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04169698",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult \u2265 18 year old and medically stable",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Recent kidney transplantation (up to 3 months)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Stabilization of renal allograft function",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Normal liver function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Reduced bone mineral density at least one SD lower than normal level for the same age and gender (T-score < -1)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor or unstable graft function (creatinine >200 lmol/L)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skeletal malignancies or bone metastases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Risk for osteosarcoma, such as Paget's disease of the bone",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Unstable medical condition",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04169698",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

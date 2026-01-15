@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03902262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Kawasaki disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute abdomen requiring surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic gastrointestinal disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Incomplete data on the charts",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has carotid bruits, significant bilateral carotid stenosis, and PVD. He reports occasional dizziness but no prior syncope or residual deficits from a possible stroke 10-15 years ago.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03902262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03234296",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18-60 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT confirmed uncomplicated acute appendicitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to give informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 or over 60 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy or contraindication to antibiotic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metformin medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal insufficiency",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe systemic illness (for example malignancy, medical condition requiring immunosuppressant medication)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Complicated acute appendicitis confirmed by CT scan",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma and a diverticular abscess, but is being treated with antibiotics.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03234296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

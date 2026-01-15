@@ -1,0 +1,64 @@
+{
+  "trial_id": "NCT02336516",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient aged from 6 months to 18 years old, residing in France, with a D+HUS according to the definition used by the National Institute for Public Health Surveillance (InVS)",
+      "label": "met"
+    },
+    {
+      "criterion": "Renal impairment with a serum creatinine > 60\u03bcmol/l in children less than 2 years old and > 75\u03bcmol/l over 2 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "AND hemolytic anemia defined by hemoglobin < 10g/dl associated with schizocytes \u2265 2%",
+      "label": "met"
+    },
+    {
+      "criterion": "Collection of free and informed consent of the holders of parental authority",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 6 months and > 18 years.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Administration of antibiotics in the 15 days preceding the diagnosis of D+HUS.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Personal or family history of atypical HUS .",
+      "label": "unknown"
+    },
+    {
+      "criterion": "More than 15 days between the onset of diarrhea and the diagnosis of D+HUS.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Hypersensitivity to azithromycin, erythromycin, or any macrolide",
+      "label": "unknown"
+    },
+    {
+      "criterion": "patient treated with dihydroergotamine, ergotamine or cisapride",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Severe hepatic impairment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "No affiliation to a social security scheme (beneficiary or legal)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has been experiencing vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02336516",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

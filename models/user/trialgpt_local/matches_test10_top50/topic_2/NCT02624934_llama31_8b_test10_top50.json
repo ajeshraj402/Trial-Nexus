@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT02624934",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Scheduled for Cardiac MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Aortic valve area on echocardiogram",
+      "label": "not_met",
+      "evidence": "severe aortic stenosis with worsening LV function. EF was 25%"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ambulatory and able to complete 6 minute walk test",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other significant valvular heart disease",
+      "label": "triggers",
+      "evidence": "severe aortic stenosis with worsening LV function. EF was 25%"
+    },
+    {
+      "criterion": "Unable to complete 6 minute walk test",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02624934",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

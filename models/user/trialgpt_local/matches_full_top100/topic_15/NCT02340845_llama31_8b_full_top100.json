@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02340845",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient's age is between 18 and 85 years.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is not taking anticoagulants or on antiplatelet therapy.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient does not have a history of abdominal fistula, gastroenteral perforation, peptic ulcer diseases, or intra-abdominal abscess within 6 months prior to study enrollment.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has not had major surgery within 4 weeks prior to study enrollment.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient does not currently have uncontrolled hypertension, diabetes, or clinically significant cardiac arrhythmia.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Female patients should not be pregnant or breastfeeding.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient's platelet counts must be greater than 100,000/mL.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient's hemoglobin must be greater than 9.0 g/dL.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient does not have significant abnormal hepatic and/or renal function.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient's tumors are measurable; between 0.2 - 10 cm in size and number between 1-15.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemoglobulin less than 9 g/dL and WBC less than 4.0 k/\u00b5L.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Platelet count less than 100,000/\u00b5L.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "INR greater than 1.5",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic/pancreatic tail mass likely diverticular abscess given recent history of diverticulitis.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02340845",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

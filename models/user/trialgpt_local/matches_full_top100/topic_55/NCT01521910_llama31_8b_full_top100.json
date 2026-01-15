@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01521910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diabetes mellitus type 1",
+      "label": "met",
+      "evidence": "laboratory study"
+    },
+    {
+      "criterion": "duration at least 10 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "onset before age of 35",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "presence of diabetic retinopathy",
+      "label": "met",
+      "evidence": "physical exam"
+    },
+    {
+      "criterion": "albuminuria>=300mg/24 h in at least 2/3 sterile urine samples",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no clinical or laboratory evidence of other kidney or urinary tract disease",
+      "label": "met",
+      "evidence": "laboratory study and physical exam"
+    },
+    {
+      "criterion": "GFR above 20mL/min/1.73M2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-study decline in GFR>= 2 mL/min/year",
+      "label": "met",
+      "evidence": "laboratory study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of congestive heart failure or myocardial infarction or coronary bypass",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "surgery within the last three months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, but no other relevant medical history mentioned.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01521910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

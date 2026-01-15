@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00911131",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "grade I and grade II esophageal varices by conventional endoscopy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients aged 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients able to give consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients eligible and willing to undergo upper endoscopy and PillCam ESO capsule",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dysphagia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Zenker's diverticulum",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient is off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00911131",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

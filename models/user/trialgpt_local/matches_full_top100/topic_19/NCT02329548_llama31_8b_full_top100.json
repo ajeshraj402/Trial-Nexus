@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02329548",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "prior_documented_sweat_response",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "speaks_english_well_enough",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "somatic_or_psychiatric_illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "skin_defect_or_rash",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known_sweat_disorder",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "long_qt_syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02329548",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02379130",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "singleton",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mother_age",
+      "label": "met",
+      "evidence": "18 years of age or older"
+    },
+    {
+      "criterion": "support_person",
+      "label": "met",
+      "evidence": "significant other, mother"
+    },
+    {
+      "criterion": "developmental_deficit",
+      "label": "met",
+      "evidence": "complaining of short stature, delayed in puberty and developmental delay"
+    },
+    {
+      "criterion": "medical_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contagion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chromosomal_anomalies",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "severe_motor_disability",
+      "label": "met",
+      "evidence": "obese, mentally retarded girl in the physical exam"
+    }
+  ],
+  "notes": "Patient has Turner syndrome and is treating with GH. She also has developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02379130",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

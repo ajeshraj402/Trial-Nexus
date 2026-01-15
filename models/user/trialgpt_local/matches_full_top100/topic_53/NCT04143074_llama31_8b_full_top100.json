@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04143074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children living in Gdansk",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI above 85 percentile",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "consent of parent/ caregivers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "confirmed congenital or metabolic diseases connected with obesity risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lack of consent of parent/ caregivers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT04143074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "not_met",
+      "evidence": "does not desire an IUD"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sexually_transmitted_infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "desire_another_pregnancy",
+      "label": "not_met",
+      "evidence": "does not desire another pregnancy"
+    },
+    {
+      "criterion": "uterine_fibroids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "breast_cancer",
+      "label": "not_met",
+      "evidence": "no history of breast cancer"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

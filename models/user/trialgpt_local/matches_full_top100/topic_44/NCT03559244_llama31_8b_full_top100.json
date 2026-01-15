@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03559244",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male patients with pectus carinatum",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symmetric or asymmetric pectus carinatum",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Compression test positive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pressure of correction <10 PSI",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of orthosis use",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chondro-manubrial pectus carinatum",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concomitant severe scoliosis (Cobb angle>20)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for surgery according to perioperative MEP monitoring",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03559244",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

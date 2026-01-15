@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00281502",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 18 to 70 years of age, inclusive.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has cirrhosis due to chronic HCV infection as documented by:",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has evidence of hepatic encephalopathy as evidenced by: Neuro-psychometric Testing (Number Connection Test, Trails Test, etc.).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is non-azotemic (creatinine <1.5mg/dL) and ambulatory at screening.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has cirrhosis due to chronic HCV as documented by: pathologic or clinical and radiographic evidence of cirrhosis with a positive HCV RNA PCR level.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject successfully participated in and continues to meet all eligibility criteria required in Phase A of the study based on completion of tests, Breath Tests, and Radiological Marker.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has a Number Connection Test score >50 sec at time of enrollment.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has received active interferon therapy within 2 weeks of enrollment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is pregnant or lactating.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has a life expectancy of less than 100 days.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has a history of alcohol abuse within 6 months of enrollment.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject has active gastrointestinal bleeding at time of enrollment.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has used an agent that alters intestinal motility, eg, methadone, cholestyramine, tricyclic antidepressants.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject is unable to take oral medication.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has used neomycin or other antibiotic within 2 weeks of enrollment or is actively using lactulose at time of enrollment.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has cirrhosis due to chronic HCV infection, evidence of hepatic encephalopathy, and meets other inclusion criteria. However, patient has a history of NSAID gastritis and recent admission for UGIB, which may be exclusionary.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00281502",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

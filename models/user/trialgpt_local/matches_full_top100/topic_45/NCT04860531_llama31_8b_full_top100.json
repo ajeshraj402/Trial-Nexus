@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04860531",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Continuous or intermittent gradually progressive back pain for more than 3 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not significantly improving on medical treatment and/or physical modalities.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients age between 20 and 40 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Local / paraspinal pain or tenderness with or without radiation to buttock , groin or thigh.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Increase of pain on extension , rotation or lateral bending .",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "MRI detected synovitis of the facet joint as defined and graded by Czervionke and Fenton, 2008.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute low back trauma, fractures, malignancies and inflammatory diseases.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pain score of < 4 at rest on visual analog scale.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radicular neurologic complaints.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04860531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

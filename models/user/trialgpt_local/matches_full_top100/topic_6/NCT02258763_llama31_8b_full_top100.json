@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02258763",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Children admitted with severe pneumonia as defined by the presence of all the following as below:",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "3 months to 59 months old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of cough and/or shortness of breath",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unwell for <= 7 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Increased respiratory rate ( \u2265 50/min if \u226412 months old, \u2265 40/min)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any of the following signs/symptoms are present at examination that would necessitate admission: chest retractions, cyanosis, saturation< 92% on air, poor feeding or lethargy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented fever (axillary /central temp \u2265 38/38.5\u00b0C) within 24 hrs of admission",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Abnormal chest radio graph(CXR) with presence of alveolar infiltrates",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Responds to IV antibiotics by the first 72 hrs and able to go home with oral antibiotics",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children who (a) are transferred from another hospital (b) refuse blood taking (c) have a doctor diagnosis of asthma or recurrent wheezing illness (d) have a diagnosis of bronchiolitis i.e. wheezing in a child with a CXR with no consolidation (e) do not have an acute illness ( ie >7 days) (f) are unable to come for follow-up (g) do not have community acquired pneumonia e.g. aspiration pneumonia (h)have a complicated pneumonia with effusion, pneumothorax, clinical suspicion of necrotizing pneumonia (i)require paediatric intensive care unit (PICU) admission or use of non-invasive ventilation (j)significant comorbidities that can increase the risk of having a complicated pneumonia- (k) need other antibiotics like anti-staph or macrolides (l)have an extra-pulmonary infection e.g. meningitis (m)are allergic to penicillin (n) are unable to tolerate oral antibiotics and (o)have underlying illness that can predispose to recurrent pneumonia",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02258763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

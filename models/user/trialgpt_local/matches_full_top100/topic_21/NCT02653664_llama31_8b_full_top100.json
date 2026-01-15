@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02653664",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "veteran_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_pain",
+      "label": "met",
+      "evidence": "experience moderate to severe chronic pain on a regular basis"
+    },
+    {
+      "criterion": "language_proficiency",
+      "label": "met",
+      "evidence": "able to read, speak and understand English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cognitive_impairment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_issues",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "opioid_use",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02653664",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

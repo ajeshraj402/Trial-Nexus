@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02485262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult Chronic HCV patients aged >18",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Treatment na\u00efve",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with cirrhosis and no cirrhosis. Cirrhosis defined as stage 4 fibrosis on liver biopsy or Fibro sure results indicating cirrhosis or has clinical findings suggestive of cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients meet the indication to receive one of the SOF treatment based regimens",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Co-infected patients with HIV or Hepatitis B",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient received one of the DAAs regimens",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with active substance abuse and alcohol abuse",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient received prior DAA regimen",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensated cirrhotic patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has contraindication to receive SOF",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Chronic HCV infection for the past 2 years. On IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02485262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

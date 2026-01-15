@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03042026",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "20-80 years old"
+    },
+    {
+      "criterion": "Acromegaly patients or Healthy Adults",
+      "label": "met",
+      "evidence": "known case of Acromegaly"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age less than 20 years old or older than 80 years old",
+      "label": "not_met",
+      "evidence": "41-year-old man"
+    }
+  ],
+  "notes": "Patient underwent transsphenoidal surgery 4 months ago and takes vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT03042026",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

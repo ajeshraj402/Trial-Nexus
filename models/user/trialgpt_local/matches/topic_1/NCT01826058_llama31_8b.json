@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT01826058",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MESCC is present",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention, indicating MESCC."
+    },
+    {
+      "criterion": "Localized spine metastases (C1 to L5 level); Maximum 3 separate sites and maximum 2 contiguous vertebral bodies",
+      "label": "met",
+      "evidence": "Patient's tumor is located in the T-L spine, which falls within the specified range."
+    },
+    {
+      "criterion": "Performance state before the occurrence of neurologic symptoms : Eastern Cooperative Oncology Group 0-2",
+      "label": "unknown",
+      "evidence": "No information provided about patient's performance state before neurologic symptoms occurred."
+    },
+    {
+      "criterion": "Age \u226520",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, meeting the age criterion."
+    },
+    {
+      "criterion": "MRI within 2 weeks is mandatory",
+      "label": "unknown",
+      "evidence": "No information provided about MRI timing."
+    },
+    {
+      "criterion": "Paraspinal mass < 5cm in maximum dimension",
+      "label": "met",
+      "evidence": "Patient's tumor size is not specified, but it is described as a conus mass, which may be smaller than 5cm."
+    },
+    {
+      "criterion": "Inoperable patients - refused or medically unfit for decompression surgery",
+      "label": "met",
+      "evidence": "Patient has unresectable anaplastic astrocytoma and was treated with radiation, indicating inoperability."
+    },
+    {
+      "criterion": "life expectancy > 3 months",
+      "label": "unknown",
+      "evidence": "No information provided about patient's life expectancy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Retropulsed bony fragment causing cord compression",
+      "label": "does_not_trigger",
+      "evidence": "Patient's tumor is described as a conus mass, not a retropulsed bony fragment."
+    },
+    {
+      "criterion": "Paraplegia \u2265 48 hours",
+      "label": "unknown",
+      "evidence": "No information provided about patient's paraplegia duration."
+    },
+    {
+      "criterion": "Histology preferred to perform the chemotherapy as the first option (e.g. lymphoma, myeloma)",
+      "label": "does_not_trigger",
+      "evidence": "Patient has anaplastic astrocytoma, not a type of cancer that typically requires chemotherapy as the first option."
+    }
+  ],
+  "notes": "MRI timing and life expectancy are unknown. Further information would be needed to confirm eligibility.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01826058",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02404727",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Osteoarthritis of the hip joint",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate bone quality for insertion of a cementless acetabular component",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 70 years and above, capable and empowered",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Informed written consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient may only participate with one hip",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe nerve, muscle and vascular disease in the lower extremities",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients that during surgery are assessed not suitable for treatment with cementless hip prosthesis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe osteoporosis (T-score < 4.0) as assessed by DXA scan before surgery.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with previous hip fractures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have previously undergone correction of bone malalignment of the hip or other major hip surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has osteoarthritis of the hip joint and adequate bone quality for insertion of a cementless acetabular component. However, their age is not specified as above 70 years.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02404727",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04643873",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "met",
+      "evidence": "family history"
+    },
+    {
+      "criterion": "insulin use",
+      "label": "not_met",
+      "evidence": "no insulin use mentioned"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "glucose control",
+      "label": "met",
+      "evidence": "regulated by diet and/or medication"
+    },
+    {
+      "criterion": "exercise",
+      "label": "met",
+      "evidence": "volunteering to exercise at least 3 days a week"
+    },
+    {
+      "criterion": "communication",
+      "label": "met",
+      "evidence": "able to communicate in Turkish written and verbal"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "blood pressure 110/75 mmHg"
+    },
+    {
+      "criterion": "cardiovascular problem",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neuropathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "systemic disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04643873",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

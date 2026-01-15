@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02206126",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age between 20-55 years",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "body mass index (BMI) \u2265 30 kg/m2 and < 40 kg/m2",
+      "label": "met",
+      "evidence": "obesity hypoventilation syndrome"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoking",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of dietary supplements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of medications that could interfere in body weight, metabolic profile and blood pressure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of permanent pacemaker; use of \u03b1-adrenergic blocking agents",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent changes (within previous 6 months) in body weight (> 3 kg), in dietary intake and in intensity or frequency of physical exercise",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis of diabetes mellitus, hypertension, dyslipidemia (with drug treatment) and kidney disease",
+      "label": "not_met",
+      "evidence": "DM2"
+    },
+    {
+      "criterion": "Clinical history of thyroid dysfunction, angina pectoris, peripheral vascular disease, peripheral neuropathy, heart failure, liver failure, chronic pulmonary disease, gastroesophageal reflux disease, myocardial infarction and stroke; finger deformity that prevents the proper use of the sensors that are necessary to evaluate OSA and endothelial function; and previous bilateral cervical-thoracic sympathectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or lactating women were not allowed into the study",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02206126",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

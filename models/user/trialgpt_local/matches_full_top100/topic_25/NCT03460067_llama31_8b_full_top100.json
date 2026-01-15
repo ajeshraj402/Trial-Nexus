@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03460067",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "Karnofsky Performance Status",
+      "label": "met",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Invasive Ductal Carcinoma Diagnosis",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma in the left upper outer quadrant"
+    },
+    {
+      "criterion": "HER2 Status",
+      "label": "met",
+      "evidence": "The tumor was HER2-positive"
+    },
+    {
+      "criterion": "Postmenopausal Status",
+      "label": "met",
+      "evidence": "postmenopausal woman"
+    },
+    {
+      "criterion": "Clinical Staging",
+      "label": "unknown",
+      "evidence": "no suspicious axillary or internal mammary nodes on MRI or ultrasound, but no cT1-2N0 information provided"
+    },
+    {
+      "criterion": "Neoadjuvant Chemotherapy with Trastuzumab",
+      "label": "met",
+      "evidence": "undergo neoadjuvant chemotherapy with a trastuzumab based regimen prior to surgery"
+    },
+    {
+      "criterion": "Lumpectomy and Sentinel Lymph Node Biopsy",
+      "label": "met",
+      "evidence": "Patients are required to undergo lumpectomy with sentinel lymph node biopsy"
+    },
+    {
+      "criterion": "Pathologic Review",
+      "label": "unknown",
+      "evidence": "no evidence of residual disease in the tumor bed, but no information on fibrotic area or treatment related change in lymph nodes"
+    },
+    {
+      "criterion": "Fibrotic Area and Surgical Margins",
+      "label": "unknown",
+      "evidence": "fibrotic area located at least 3 mm away from surgical margins, but no information on tumor bed size"
+    },
+    {
+      "criterion": "Smoking Status",
+      "label": "not_met",
+      "evidence": "smokes frequently"
+    },
+    {
+      "criterion": "Alcohol Consumption",
+      "label": "met",
+      "evidence": "consumes alcohol occasionally"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inflammatory Breast Cancer",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Previous Malignancy",
+      "label": "not_met",
+      "evidence": "no previously diagnosed malignancy excluding basal or squamous cell carcinoma of the skin"
+    },
+    {
+      "criterion": "Metastatic Disease",
+      "label": "unknown",
+      "evidence": "CXR was unremarkable, but no information on metastatic disease"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with invasive ductal carcinoma and HER2-positive status. She has undergone neoadjuvant chemotherapy with trastuzumab and plans for completion of one year of trastuzumab.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03460067",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

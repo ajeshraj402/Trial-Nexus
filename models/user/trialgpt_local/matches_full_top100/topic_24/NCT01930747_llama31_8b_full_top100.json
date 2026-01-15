@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01930747",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "laparoscopic bariatric surgery",
+      "label": "met",
+      "evidence": "Examples of laparoscopic bariatric procedures are gastric band, sleeve gastrectomy, gastric bypass, gastric bypass after lap band, and revision of a gastric bypass"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "The patient is a 55 year old man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of laparotomy",
+      "label": "not_met",
+      "evidence": "Further evaluation revealed: IPSS score : 15, Post-void residual: 70 mL, Prostate volume (TRUS): 60 mL, Prostate-specific antigen (PSA) level: 3.2 ng/mL"
+    }
+  ],
+  "notes": "The patient has lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01930747",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00590135",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mild to moderate calcific AS of a tricuspid or bicuspid aortic valve",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Echocardiographic derived mean pressure gradient >10 mmHg and an aortic valve area of 0.9 to 1.7 cm2 by continuity equation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Laboratory evidence of LDL-c>70 mg/dl within 12 months prior to recruitment.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Left ventricular ejection fraction <50%",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Valvular area of 0.9 cm2 and a mean gradient >30 mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rheumatic heart disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": ">Moderate (2+) aortic insufficiency",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF of 25%. He also has bicuspid aortic valve, dilated ascending aorta, and mild pulmonary artery systolic hypertension.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00590135",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

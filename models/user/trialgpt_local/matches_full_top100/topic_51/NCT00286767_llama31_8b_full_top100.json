@@ -1,0 +1,39 @@
+{
+  "trial_id": "NCT00286767",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-1 infection",
+      "label": "met",
+      "evidence": "OraQuick rapid test using venipuncture whole blood"
+    },
+    {
+      "criterion": "Screening CD4+ cell count less than or equal to 100 cells/mm(3)",
+      "label": "met",
+      "evidence": "CD4 < 100 cells/microL from an outside laboratory within 8 weeks prior to screening"
+    },
+    {
+      "criterion": "Residence within the wider Washington D.C. area (approximately within a 120-mile radius from the NIH Bethesda campus)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active drug or alcohol use or dependence that, in the opinion of the investigator, would interfere with adherence to study requirements.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "the protocol regarding blood draws, diagnostic testing, and follow-up",
+      "label": "does_not_trigger"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00286767",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

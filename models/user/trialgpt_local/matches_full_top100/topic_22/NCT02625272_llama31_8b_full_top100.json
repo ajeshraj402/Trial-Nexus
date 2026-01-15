@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02625272",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed right colon cancer",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Clinical stage: I, II, III",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No preoperative chemoradiotherapy",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "No past surgical history",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No serious preoperative complication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS): 0-1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age: 18-80",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Malignant neoplasm of other sites (including transverse, descending, sigmoid colon cancer, and rectal cancer)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metastatic cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Multiple cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious complications (including bowel perforation, bowel obstruction, gastrointestinal hemorrhage)",
+      "label": "not_met",
+      "evidence": "The temperature is within the normal limits with normal vital signs."
+    },
+    {
+      "criterion": "Pregnant and lactating women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Psychological disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Steroid administration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cardiac infarction within six months",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and leukocytosis, but no other serious complications mentioned.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02625272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

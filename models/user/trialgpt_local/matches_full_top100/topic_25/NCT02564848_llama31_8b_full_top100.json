@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02564848",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age > 65",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Staging: T1-2N0 ER+ invasive breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Plan to undergo lumpectomy within 3 months of study registration",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ductal or lobular carcinoma in situ",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inflammatory breast cancer",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neoadjuvant chemotherapy for current primary breast cancer",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of 3 pregnancies and live births, and is currently using multivitamins daily.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02564848",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

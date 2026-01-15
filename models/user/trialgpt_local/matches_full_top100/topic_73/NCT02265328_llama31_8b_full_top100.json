@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02265328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-65 Years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Actively consuming alcohol within 6 weeks of entry into the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Failure to obtain informed consent",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active infection or sepsis",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other concomitant causes of liver disease: viral hepatitis, autoimmune liver disease,",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02265328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

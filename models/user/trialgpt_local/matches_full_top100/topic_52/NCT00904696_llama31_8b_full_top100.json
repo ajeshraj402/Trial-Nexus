@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00904696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "ibs_diagnosis",
+      "label": "met",
+      "evidence": "abdominal pain, bloating and constipation in whom organic pathology has been excluded"
+    },
+    {
+      "criterion": "endoscopy_done",
+      "label": "met",
+      "evidence": "All patients would have had endoscopy done in the past 3 years to exclude organic lower gastrointestinal pathology."
+    },
+    {
+      "criterion": "progut_prescribed",
+      "label": "met",
+      "evidence": "All patients would have been prescribed Progut (1-3 capsules per day)by their physicians."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_medical_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "immunocompromised",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "hypersensitivity_to_progut",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever or severe symptoms mentioned.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00904696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

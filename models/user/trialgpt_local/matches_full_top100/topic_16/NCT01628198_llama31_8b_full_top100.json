@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01628198",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "\u2265 18 and \u2264 85 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Refractory hypertension (per JNC-7, this is defined as BP \u2265 140/90 mmHg despite treatment with at least 3 anti-hypertensive drugs, at least one of which is a diuretic, or treatment by \u2265 4 anti-hypertensive drugs)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stable anti-hypertensive drug regimen, where no modifications have occurred for at least 2 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Accessibility of renal vasculature",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand the requirements of the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to adhere to study restrictions and comply with all post-procedural follow-up requirements",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has a known secondary cause of hypertension",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has isolated White coat hypertension",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has Type 1 Diabetes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has known significant renovascular abnormalities (e.g., significant renal artery stenosis, previous renal artery stenting or angioplasty that precludes the RSDN procedure because of no sites for ablation treatment, or the presence of an accessory renal artery in which the main renal artery is estimated to supply <75% of the kidney)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has hemodynamically significant valvular heart disease for which reduction of blood pressure would be considered hazardous",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has New York Heart Association (NYHA) Class III or IV congestive heart failure, due to either systolic or diastolic dysfunction",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01628198",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04803474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Klinefelter or Turner syndrome as confirmed by genetic testing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sufficient knowledge of the Dutch language to complete the questionnaires",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "KS: Patients not under treatment in the EMC, AMC or VUmc or no planned visits during the study period",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "TS: No laboratory values or no questionnaires available in patient records",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe psychiatric or neurologic disorders or other reasons for inability to complete the questionnaires as assessed by the treating physician.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failure to obtain informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but is currently under treatment and has normal laboratory values.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04803474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

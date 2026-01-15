@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04157777",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cephalic presentation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "vertex presentation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "alive primiparous pregnancy at 38-40th gestational weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no cesarean or uterine surgical operation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aged between 17 and 40",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no risk factors",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiparous \u2264 three times",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "literate",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no counter indication for vaginal birth",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of any cesarean operation or uterus surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "dead fetus",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "vaginal bleeding with no explanation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "twin pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "presence of fetal anomaly",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, short stature, delayed puberty and developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04157777",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

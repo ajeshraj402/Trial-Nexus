@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02325375",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "ALS Patients diagnosed with ALS and patients suspected to have ALS.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18 Controls Age >18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "expected to enable detection of smaller difference also in serum and relations between CD163 and clinical findings.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute infections including neuroinfection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other disorders known to have elevated levels of sCD163",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and ICH, which may contraindicate lumbar puncture.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02325375",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

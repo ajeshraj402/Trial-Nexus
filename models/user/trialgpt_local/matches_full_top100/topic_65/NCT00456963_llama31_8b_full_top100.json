@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00456963",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "25 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Diabetes Type",
+      "label": "met",
+      "evidence": "type 1 diabetes confirmed with molecular analysis"
+    },
+    {
+      "criterion": "Blood Pressure",
+      "label": "not_met",
+      "evidence": "SBP < 130 mmHg and DBP < 85 mmHg"
+    },
+    {
+      "criterion": "Fasting Glucose",
+      "label": "met",
+      "evidence": "100 mg/dl"
+    },
+    {
+      "criterion": "Waist Circumference",
+      "label": "unknown",
+      "evidence": "not mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Enrolment Procedures",
+      "label": "triggers",
+      "evidence": "enrolled by general practitioners associated with the Italian Society of General Practitioners"
+    },
+    {
+      "criterion": "Trial Design",
+      "label": "unknown",
+      "evidence": "prospective, Italian, multicentre, double-blind, randomised, placebo-controlled, 3-arm, parallel group comparison"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and presents with shortness of breath and fatigue during activities. He is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00456963",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

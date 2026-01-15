@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00101829",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Weighs at least 40 kg",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Meets European criteria proposed by the American-European Consensus Group for primary",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sjogren's syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has 1 or more of the following symptoms of Sjogren's syndrome: fatigue; joint pain;",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Agrees to use acceptable methods of contraception during the study and for 12 months after the end of treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known coronary artery disease, significant cardiac arrhythmias, or severe congestive heart failure (New York Heart Association class III or IV)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current use of anticoagulants",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and ICH, but no recent symptoms. No known coronary artery disease or severe congestive heart failure.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00101829",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

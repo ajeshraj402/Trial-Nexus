@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00570180",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients previously diagnosed with MM based on criteria from the International Myeloma Working Group (IMWG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Working Group (IMWG)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age 18 years at the time of signing Informed Consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A patient may have received up to 4 months of other anti myeloma therapy, as part of the induction therapy, prior enrollment and still be considered eligible to participate in the study, as long as the patient's multiple myeloma has not progressed on the current regimen and the other eligibility criteria are met.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is t(4;14) positive on screening assay.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Peripheral neuropathy of Grade 2 or greater.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with evidence of mucosal or internal bleeding and/or refractoriness to platelet transfusions (i.e., unable to maintain a platelet count 50 x 10^9 /L).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with an absolute neutrophil count (ANC) < 1.0 x 10^9/L.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Treatment to raise the ANC, such as granulocyte colony-stimulating factor (G-CSF) or granulocyte-macrophage colony-stimulating factor (GM-CSF) is not allowed within 14 days of study entry.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with hemoglobin < 80 g/L despite transfusion.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concomitant therapy medications that include corticosteroids (> 10 mg per day of prednisone or equivalent) or other therapy that is or may be active against myeloma prior to day 1 (with the exception of radiation therapy or induction therapy as part of the current regimen).",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She has received various treatments including melphalan, prednisone, VAD regimen, autologous stem cell transplant, thalidomide, velcade, and pamidronate.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00570180",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00983541",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "intra or extrahepatic cholangiocarcinoma confirmed by biopsy/brushings, biliary aneuploidy demonstrated by FISH, or elevated CA 19-9 greater than 100 ng/mL in the presence of a radiographic malignant stricture",
+      "label": "met",
+      "evidence": "pancreatic adenocarcinoma at the head of pancreas"
+    },
+    {
+      "criterion": "deemed surgically unresectable by a surgical oncologist",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malignant disease encompassable within a single radiation field",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "laboratory values: Hemoglobin \u2265 8.0 (can be transfused to attain this value)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chemotherapy within one month of starting radiation therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous abdominal radiotherapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "uncontrolled infection or severe active comorbid disease",
+      "label": "met",
+      "evidence": "fevers/rigors and bandemia"
+    },
+    {
+      "criterion": "previous malignancy in the past five years, excluding nonmelanoma skin cancers and in situ cervical, bladder or uterine cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "distant metastatic disease (outside regional lymph nodes)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic flecture/pancreatic tail mass likely diverticular abscess given recent history of diverticulitis. She was treated with IV antibiotics.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00983541",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

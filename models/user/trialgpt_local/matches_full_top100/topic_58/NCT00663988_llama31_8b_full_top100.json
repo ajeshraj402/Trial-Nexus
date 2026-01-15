@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart/liver/kidney",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "at least 3 sites were matched within 6 HLA sites",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart/liver/kidney",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "donor: not the same blood type and 1 or 2 sites were matched within 6 HLA sites",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

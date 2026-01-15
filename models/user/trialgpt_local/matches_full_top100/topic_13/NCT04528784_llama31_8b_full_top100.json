@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04528784",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Multiple Sclerosis",
+      "label": "met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "Age \u226518 years old",
+      "label": "met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "Ambulatory",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bladder storage related symptom",
+      "label": "met",
+      "evidence": "Recurrent UTIs with Klebsiella/Pseudomonas"
+    },
+    {
+      "criterion": "Male or female",
+      "label": "met",
+      "evidence": "62 yo male"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Indwelling urethral catheter or suprapubic catheter",
+      "label": "triggers",
+      "evidence": "Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "Urologic disease including bladder malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetic mellitus",
+      "label": "met",
+      "evidence": "Insulin Dependant Diabetic"
+    },
+    {
+      "criterion": "Pregnant women or planning to be pregnant during the study time",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. However, urologist is not concerned with leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04528784",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

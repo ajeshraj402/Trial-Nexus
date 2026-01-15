@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "tumor_type",
+      "label": "met",
+      "evidence": "DCIS"
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skinSpacing",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "does not drink alcohol or smoke"
+    },
+    {
+      "criterion": "collagenVascularDisease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductalComponent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltratingLobularHistology",
+      "label": "not_met",
+      "evidence": "family history is negative for any psychologic problems"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on anti-depressants for the past 6 months.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

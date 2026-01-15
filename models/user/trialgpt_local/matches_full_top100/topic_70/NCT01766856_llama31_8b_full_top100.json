@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01766856",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "3-16 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "being scheduled for myringoplasty/tympanoplasty with removal of a patent tube or for repair of existing eardrum perforation remaining after a tube",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "less than or equal to 8 weeks prior to surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "syndromic or with craniofacial malformation (eg, Down syndrome, cleft palate)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "parent anticipates being unable to keep appointments (e.g., moving out of area)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "child unable to tolerate testing",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a 46-year-old Asian woman with MDD, complaining of persistent feelings of sadness and loss of interest in daily activities. She has been on anti-depressants for the past 6 months but still experiences symptoms.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01766856",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02871908",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age younger than 18 years",
+      "label": "unknown"
+    },
+    {
+      "criterion": "oral or intravenous antibiotic therapy which started within 24 hours of enrollment",
+      "label": "met"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-existing acute or chronic diarrhea",
+      "label": "not_met"
+    },
+    {
+      "criterion": "history of chronic gastrointestinal disease (e.g., inflammatory bowel disease, cystic fibrosis, celiac disease, food allergy) or other severe chronic disease (e.g., neoplastic diseases)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "immunodeficiency",
+      "label": "not_met"
+    },
+    {
+      "criterion": "use of probiotics within 2 weeks prior to enrollment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "use of antibiotics within 4 weeks prior to enrollment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "prematurity",
+      "label": "not_met"
+    },
+    {
+      "criterion": "exclusive breastfeeding",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02871908",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

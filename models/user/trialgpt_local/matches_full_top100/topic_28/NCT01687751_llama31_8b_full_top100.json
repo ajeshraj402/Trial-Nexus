@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01687751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater or equal to 19 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Difficult to control or intractable symptom (REF 38, page 3)",
+      "label": "met",
+      "evidence": "REF 38, page 3"
+    },
+    {
+      "criterion": "Midazolam CSCI would normally be considered for symptom management",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent is able to be provided in the English language",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Goals of care include do not resuscitate (DNR)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "For intractable symptoms, patient would prefer proportional sedation rather than no sedation or total sedation.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Second or third degree heart block (without pacemaker)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncompensated congestive heart failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Heart rate less than 50 beats per minute",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Mean arterial blood pressure (MAP) < 60",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Weight below 35 kg. or above 85 kg.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01687751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00640757",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between the ages of 21 to 60, inclusive"
+    },
+    {
+      "criterion": "waist_circumference",
+      "label": "met",
+      "evidence": "Waist greater than 40 inches for men and 35 inches for women"
+    },
+    {
+      "criterion": "weight_stability",
+      "label": "met",
+      "evidence": "Weight has been stable for at least 6 months (no more than 5 pounds gained or lost)"
+    },
+    {
+      "criterion": "contraception",
+      "label": "not_met",
+      "evidence": "For women of childbearing potential: subject must be willing to use acceptable form of contraception"
+    },
+    {
+      "criterion": "hdl_cholesterol",
+      "label": "met",
+      "evidence": "HDL cholesterol < 40 mg/dL (men) or < 50 mg/dL (women)"
+    },
+    {
+      "criterion": "triglycerides",
+      "label": "met",
+      "evidence": "Triglycerides \u2265150 mg/dL"
+    },
+    {
+      "criterion": "blood_pressure",
+      "label": "met",
+      "evidence": "Blood pressure \u2265130/\u2265 85 mmHg"
+    },
+    {
+      "criterion": "fasting_glucose",
+      "label": "not_met",
+      "evidence": "Fasting glucose \u2265110-125 mg/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart_attack_or_stroke",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "She doesn't use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant_illness",
+      "label": "unknown",
+      "evidence": "Her cardiac assessment is normal. Her joints and ROM are within  normal."
+    },
+    {
+      "criterion": "inability_to_read",
+      "label": "met",
+      "evidence": "She is a high-school teacher"
+    },
+    {
+      "criterion": "blood_donation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has weight concerns, sleep apnea, PCO and dissatisfaction with her body shape. She likes to try diets and exercise to lose weight.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00640757",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

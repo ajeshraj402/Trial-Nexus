@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02150083",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women over the age of 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with stress urinary incontinence planning to undergo midurethral sling placement",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior incontinence surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant surgery for pelvic organ prolapse except for anterior repair",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intraoperative cystotomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients taking anticholinergic medication",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol use. She has leukocytosis, urea elevation, high CRP, high amylase, and Glucose level of 15.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT02150083",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

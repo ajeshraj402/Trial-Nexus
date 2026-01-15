@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02582749",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All subjects or their legally authorized representative must be informed of the investigational nature of the study and provide written informed consent and HIPAA authorization for release of personal health information before performance of any study related procedure not part of routine medical care.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Men \u2265 18 years of age at the time of informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Histological or cytological evidence of prostate adenocarcinoma.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior cytotoxic chemotherapy for metastatic prostate cancer.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior concomitant therapy with ketoconazole, aminoglutethimide or abiraterone acetate or enzalutamide (MDV3100) or intent to treat with the above.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02582749",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

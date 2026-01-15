@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04635930",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age group",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Both males and females",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemiplegic patients demonstrating weakness of scapular muscles i.e., less than grade 3 on manual muscle testing scale.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemiplegics who understand and follow verbal commands.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemiplegic patient with cognitive and perceptual disorders.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemiplegic patient having sensory, behavioral dysfunction and emotional liability.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participating in any experimental rehabilitation or drug studies.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has anaplastic astrocytoma of the spine, complicated by severe lower extremity weakness and urinary retention. The tumor is unresectable and patient has received radiation therapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04635930",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

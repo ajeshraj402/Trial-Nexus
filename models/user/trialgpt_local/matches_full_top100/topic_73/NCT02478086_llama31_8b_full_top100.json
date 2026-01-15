@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02478086",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Preterm infant of less than 32 gestational weeks and weighting less than 1500g.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Randomized single-blinded clinical trial.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preterm infant with severe congenital malformation",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with acute kidney failure.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02478086",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

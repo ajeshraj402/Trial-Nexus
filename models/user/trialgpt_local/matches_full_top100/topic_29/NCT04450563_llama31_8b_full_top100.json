@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04450563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A clinical diagnosis of type 1 diabetes for at least one year, as per their treating diabetes physician in agreement with the primary investigator's clinical judgment (confirmatory C-peptide and antibodies will not be required)",
+      "label": "met"
+    },
+    {
+      "criterion": "HbA1c between 7 and 10.5% (both extremes inclusive), performed within the last 6 months",
+      "label": "met"
+    },
+    {
+      "criterion": "Insulin pump use (of any modality) for minimum 3 months",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or < 2 week use of any other anti-hyperglycemic agent other than insulin",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Severe diabetic ketoacidosis within the last 3 years (\"severe\" referring to need to present to medical attention and requirement of intravenous insulin)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis, but this episode does not appear severe. He is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04450563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

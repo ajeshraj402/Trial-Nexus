@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02415088",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective arthroscopic shoulder surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective hospital admission for one night",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 years and < 75 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) physical status classification 1, 2 of 3.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe obesity ( BMI > 35)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe COPD (Gold\u2265 3) or restrictive (FEV1 < 50%) lungdisease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "coagulation disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous injury or surgery of the involved shoulder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pre-existing neuropathy or myopathy of the involved arm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy or contra-indication for the medication used in the study",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT02415088",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

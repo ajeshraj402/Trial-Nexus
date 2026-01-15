@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02489669",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic kidney disease (CKD) scheduled for coronary",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "and/or peripheral angiography and/or angioplasty with an eGFR <45 ml/min/1.73 m2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At high risk for CI-AKI according to Mehran's score \u226511 and/or Gurm's score >7",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute pulmonary edema",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute myocardial infarction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent contrast media exposure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "End-stage CKD on chronic dialysis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple myeloma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current enrolment in any other study when enrolment in the REMEDIAL III would involve deviation from either protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiogenic shock",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 55 year old man with lower urinary tract symptoms and normal blood chemistry. He has CKD scheduled for coronary angiography.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02489669",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

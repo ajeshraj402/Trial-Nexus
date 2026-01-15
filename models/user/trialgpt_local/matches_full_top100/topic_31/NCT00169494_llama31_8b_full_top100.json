@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00169494",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "10-25 years old"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "written informed consent"
+    },
+    {
+      "criterion": "health_problems",
+      "label": "met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "met",
+      "evidence": "negative urine pregnancy test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant_or_breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pulmonary_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiovascular_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurologic_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal_condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic_condition",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "previous_vaccination",
+      "label": "met",
+      "evidence": "HPV 16 positive"
+    }
+  ],
+  "notes": "The patient has cervical cancer and is HPV 16 positive, but otherwise appears to be a good candidate for the trial.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00169494",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

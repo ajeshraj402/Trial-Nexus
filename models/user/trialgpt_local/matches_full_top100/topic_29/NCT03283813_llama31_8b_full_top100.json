@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03283813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "both sexes"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between 6 and 18 years of age"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "obese, according to the IOTF criteria (Cole TJ et al., 2000)"
+    },
+    {
+      "criterion": "pubertal stage",
+      "label": "met",
+      "evidence": "pubertal stage \u2265 3 according to the Tanner stage (Tanner et al., 1961)"
+    },
+    {
+      "criterion": "homa_ir",
+      "label": "met",
+      "evidence": "HOMA-IR > 2,5 or insulin > 15 \u00b5U/ml"
+    },
+    {
+      "criterion": "serum_zinc_level",
+      "label": "met",
+      "evidence": "Serum Zinc level in the range of normality or under the normal levels"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adverse_reactions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "genetic_obesity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "metabolic_obesity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic_diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medical_treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "supplementation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who has been experiencing hyperglycemia and concern for diabetic ketoacidosis. He reports being homeless and having lost his insulin supply.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03283813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

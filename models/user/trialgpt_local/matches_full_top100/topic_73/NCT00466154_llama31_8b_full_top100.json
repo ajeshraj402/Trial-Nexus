@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00466154",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hypercholesterolemic low-moderate risk patients without hypolipidemic drugs for at least one month.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226518 years on stable AHA step 1 diet.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "For primary prevention, LDL > 130 mg/dL and for secondary prevention LDL>70 and <100mg/dL.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CPK, ALT and AST < 1.5 x upper limit of normal at baseline.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women currently receiving cyclical hormones.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with hypolipidemic drugs during the last month.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Oral corticosteroids, NSAID, COX-1 inhibitors and other antiplatelet drugs.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with childbearing potential unless on safe contraception.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00466154",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

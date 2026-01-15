@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT04833621",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Being in the Intensive Care Unit",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Over the age of 18",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Diagnosed with sepsis/ septic shock",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under the age of 18",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having a cardiac pacemaker",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Amputated lower limbs",
+      "label": "does_not_trigger",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, but there is no mention of amputation."
+    },
+    {
+      "criterion": "Having severe venous insufficiency or major injuries to their lower extremities",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having neuromuscular disease",
+      "label": "triggers",
+      "evidence": "Patient has anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "Malignancy",
+      "label": "does_not_trigger",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but this is not considered a reason for exclusion in the trial criteria."
+    }
+  ],
+  "notes": "The patient's neuromuscular disease (anaplastic astrocytoma) likely triggers exclusion. However, there is no mention of being in the ICU or having sepsis/septic shock, which are required for inclusion. The overall assessment is likely ineligible due to the presence of a malignancy that could be considered a reason for exclusion.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04833621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

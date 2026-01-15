@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT04549285",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age <21 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Positive for current or recent SARS-CoV-2 infection or COVID-19 exposure within the 4 weeks prior to the onset of symptoms.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Fever \u226538.0 degrees C for \u226524 hours or report of subjective fever lasting 24 hours",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory evidence of inflammation, including, but not limited to, one or more of the following: an elevated CRP, ESR, fibrinogen, procalcitonin, d-dimer, ferritin, LDH, or IL-6; elevated neutrophils, reduced lymphocytes, low albumin",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Clinically severe disease that requires hospitalization",
+      "label": "met"
+    },
+    {
+      "criterion": "Multisystem (\u22652) organ involvement: I. Cardiovascular involvement (ANY of the listed criteria)",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of acquired or congenital immunodeficiency (due to immunosuppressive therapy, HIV, previous treatment for cancer, etc.)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "History of cancer",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a pregnant woman with symptoms consistent with COVID-19 related MIS-C. However, she has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04549285",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

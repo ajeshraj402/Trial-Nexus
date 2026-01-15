@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00801307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willing and able to complete the requirements of this study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to complete the study in 5 working days or less",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to perform pulmonary function tests",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "never smoker",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pulmonary function tests within the normal range",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "documented clinical diagnosis of moderate or severe persistent asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "stable asthma in the 4 weeks prior to selection",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obese subject/patient having a Body Mass Index (BMI) > 35",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "past or present respiratory disease including being free from the common cold and rhinitis for at least 4 weeks before selection except asthma for asthmatic patients and COPD for COPD patients",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00801307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

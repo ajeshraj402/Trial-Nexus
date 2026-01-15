@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02216760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Evidence of VT on ICD interrogation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presumed scar related VT post myocardial infarct/dilated cardiomyopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age range 18-85yrs",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ICD implantation for primary or secondary prophylaxis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to catheter ablation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coronary revascularisation required",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ventricular tachycardia due to transient, reversible causes",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of cardiac thrombus",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02216760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01707771",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI =/> 35 kg/m2",
+      "label": "met",
+      "evidence": "patient's BMI is: 41.54"
+    },
+    {
+      "criterion": "age 30-60 years",
+      "label": "met",
+      "evidence": "The patient is a 32-year-old..."
+    },
+    {
+      "criterion": "both sexes",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery, disabling cardiac or pulmonary diseases, cancer, long-term treatment with oral corticosteroids, and mental illness.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Roux-&-Y Gastric Bypass (RYGB) involves the use of a surgical stapler...",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01707771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT02492347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Neonates 37 weeks or more gestation at birth",
+      "label": "met"
+    },
+    {
+      "criterion": "Age of parent/ person with parental responsibility being at least 16 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "Clinically well parent/ person with parental responsibility",
+      "label": "met"
+    },
+    {
+      "criterion": "English Speaking parent/ person with parental responsibility",
+      "label": "met"
+    },
+    {
+      "criterion": "Neonate at least 48 hours old",
+      "label": "met"
+    },
+    {
+      "criterion": "Maternal SSRI use at any point in pregnancy",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates less than 37 weeks gestation at birth",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Age of parent/ person with parental responsibility under 16 years old",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Neonate who is clinically unwell with risk of infection on examination",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with undescended testis, but meets several inclusion criteria.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02492347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

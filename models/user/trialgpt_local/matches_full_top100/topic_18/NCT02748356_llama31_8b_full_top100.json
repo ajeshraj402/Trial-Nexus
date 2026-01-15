@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02748356",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u22656 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Spina bifida and neuropathic bladder, as determined by the attending physician",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Utilization of intermittent catheterization for bladder management",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of 2 or more urinary tract infections (UTIs) in the past year",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Community dwelling",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has a known genitourinary pathology beyond neuropathic bladder (e.g. vesicoureteral reflux, bladder stones, kidney stones, etc)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uses prophylactic antibiotics",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Uses intravesicular agents to reduce UTI (e.g. gentamycin)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Has psychologic or psychiatric conditions influencing the ability to follow instructions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participates in another study in which results would be confounded",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Is pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of multiple urological procedures, including suprapubic prostatectomy, and currently uses intermittent catheterization for bladder management. He does not have any known genitourinary pathology beyond neuropathic bladder.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02748356",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

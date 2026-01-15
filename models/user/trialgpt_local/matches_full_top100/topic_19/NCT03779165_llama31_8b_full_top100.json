@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03779165",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recurrent, sustained ventricular tachycardia",
+      "label": "met",
+      "evidence": "patient's symptoms"
+    },
+    {
+      "criterion": "implanted with implantable cardioverter defibrillator (ICD) or cardiac resynchronization therapy cardioverter defibrillator (CRT-D)",
+      "label": "met",
+      "evidence": "patient has ICD/CRT-D"
+    },
+    {
+      "criterion": "patients planned for 3D mapping and radiofrequency ablation of ventricular tachycardia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "myocardial substrate",
+      "label": "met",
+      "evidence": "patient has structural heart disease"
+    },
+    {
+      "criterion": "patients who are able to understand and sign informed consent",
+      "label": "met",
+      "evidence": "patient is able to understand"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with combined mechanical aortic and mitral valve prostheses",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with RF ablation of VT done in the last 12 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with known damaged ICD/CRT-D electrode or battery",
+      "label": "not_met",
+      "evidence": "patient's device is functioning"
+    },
+    {
+      "criterion": "Patients undergoing VT ablation who have not been implanted with ICD or CRT-D",
+      "label": "met",
+      "evidence": "patient has ICD/CRT-D"
+    },
+    {
+      "criterion": "Patients not willing or able to undergo clinical follow-up of ICD/CRT-D device",
+      "label": "not_met",
+      "evidence": "patient is willing and able"
+    },
+    {
+      "criterion": "Patients with life expectancy < 1 year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not able to understand or willing to sign informed consent",
+      "label": "met",
+      "evidence": "patient is able to understand"
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. Patient was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03779165",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

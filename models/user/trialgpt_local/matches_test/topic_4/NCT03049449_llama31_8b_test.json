@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT03049449",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Malignancy Criteria",
+      "label": "met",
+      "evidence": "Burkitt's lymphoma"
+    },
+    {
+      "criterion": "CD30 expression",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hodgkin lymphoma",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "tumor mass effects or spinal cord compression",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma, but CD30 expression is unknown. Patient does not have Hodgkin lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03049449",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

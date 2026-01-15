@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT01539083",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Previously diagnosed with multiple myeloma based on international myeloma working group (IMWG) criteria.",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum M-protein greater than or equal to (>=) 1 gram per deciliter (g/dL) (>=10 gram per liter);",
+      "label": "met"
+    },
+    {
+      "criterion": "Urine M-protein >=200 milligram (mg) per 24 hour and Serum Free Light chain (FLC) assay: Involved FLC Level >=10 mg/dL (>=100 mg/L) provided serum FLC ratio is normal;",
+      "label": "met"
+    },
+    {
+      "criterion": "Meet the pretreatment laboratory criteria as specified in the study protocol at and within 21 days before baseline (Day 1 of Cycle 1, before bortezomib administration for induction).",
+      "label": "met"
+    },
+    {
+      "criterion": "Have ECOG status 0-2.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has previously received treatment for multiple myeloma (including prior therapy with radiation or pulsed dexamethasone) as specified in the study protocol.",
+      "label": "does_not_trigger"
+    },
+    {
+      "criterion": "Has a history of any other malignancy within 5 years before enrolment as specified in the study protocol.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens including melphalan, prednisone, VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01539083",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

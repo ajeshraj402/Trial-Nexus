@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04501510",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fractures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "voluntary participation and consent to participate in the study signed by the parent and patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "declaration of participation in an X-ray and ultrasound examination during all 8 weeks post-injury",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no medical contraindications to participate in the study program",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous injuries of a similar body area",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "plaster immobilization",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fractures referred for surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy. The sister had the same problems at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04501510",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

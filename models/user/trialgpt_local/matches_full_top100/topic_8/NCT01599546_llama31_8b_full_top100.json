@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01599546",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-term",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Full-term",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital anomalies or recognizable malformation syndromes",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mother's self-reported use of illicit drugs or alcohol during pregnancy;",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Richter's transformation, which is a significant health condition that may compromise academic functioning.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01599546",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

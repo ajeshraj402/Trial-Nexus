@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04087382",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients Aged between 18 and 80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with acute ischemic stroke due to occlusion of the MCA or ICA suitable for endovascular treatment, as evidenced by CTA, MRA or angiogram.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with symptoms onset between 6- 24 hours from arrival to the time of femoral puncture.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients known to have hemorrhagic diathesis, coagulation factor deficiency, or oral anticoagulant therapy with INR > 2.0.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a pre-existing neurological or psychiatric disease that would confound the neurological evaluations; mRS score before the onset of stroke must be \u2264 1.",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04087382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

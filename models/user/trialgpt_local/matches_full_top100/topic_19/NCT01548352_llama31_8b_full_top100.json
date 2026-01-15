@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01548352",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients presenting to the emergency department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Syncope within the last 12 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 40 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients without loss of consciousness and with certain neurological causes (e.g. recurrent epilepsy, hemiplegia at presentation)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No written informed consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01548352",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

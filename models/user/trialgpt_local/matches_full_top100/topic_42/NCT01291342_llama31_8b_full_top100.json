@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01291342",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-40 years old"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "nonsmoker"
+    },
+    {
+      "criterion": "obesity_status",
+      "label": "met",
+      "evidence": "not obese"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "breath_samples_provided",
+      "label": "met",
+      "evidence": "able to provide breath samples"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "medication_status",
+      "label": "not triggers",
+      "evidence": "only prenatal vitamins"
+    },
+    {
+      "criterion": "obesity_status",
+      "label": "triggers",
+      "evidence": "BMI 24, not obese"
+    },
+    {
+      "criterion": "chronic_disease_history",
+      "label": "unknown",
+      "evidence": "no specific past medical issues"
+    },
+    {
+      "criterion": "hypertension_history",
+      "label": "not triggers",
+      "evidence": "no history of chronic hypertension"
+    },
+    {
+      "criterion": "diabetes_status",
+      "label": "not triggers",
+      "evidence": "family history of DM type 2, not insulin-dependent"
+    },
+    {
+      "criterion": "renal_disease_status",
+      "label": "unknown",
+      "evidence": "no renal disease mentioned"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild hypertension and proteinuria. She has no specific past medical issues and only uses prenatal vitamins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01291342",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

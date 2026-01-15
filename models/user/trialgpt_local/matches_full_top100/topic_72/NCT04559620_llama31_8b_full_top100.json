@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04559620",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mother",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Commitment to finish all questionnaires and to participate in the creation of a CD to be played to her baby.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "be older than 18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mother",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Younger than 18 years",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Infant",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She has symptoms despite treatment.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT04559620",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

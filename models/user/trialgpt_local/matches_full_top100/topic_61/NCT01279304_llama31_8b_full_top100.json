@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01279304",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cT1-2 invasive breast cancer",
+      "label": "met",
+      "evidence": "cytologically confirmed"
+    },
+    {
+      "criterion": "positive axillary lymph nodes",
+      "label": "met",
+      "evidence": "5 positive lymph nodes"
+    },
+    {
+      "criterion": "At least 3 cycles of primary systemic treatment have been given",
+      "label": "met",
+      "evidence": "given (irrespective of the regimen)"
+    },
+    {
+      "criterion": "No standard axillary lymph node dissection is performed prior to chemotherapy",
+      "label": "met",
+      "evidence": "not performed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cT3-T4 invasive breast cancer prior to any treatment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with > 3 suspicious axillary nodes on imaging",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cN2-3 prior to any treatment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "More than focally irradical surgery and breast conserving therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01279304",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

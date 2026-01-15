@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01781507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 to 65 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Physician diagnosis of mild asthma based on the NIH guidelines",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Physician diagnosis of allergic rhinitis and confirmed by at least 3+ skin test response to at least one allergen",
+      "label": "met"
+    },
+    {
+      "criterion": "Evidence of abnormal, reversible airway function on impulse oscillometry",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Ability to cooperate in measurement of impulse oscillometry",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with inhaled or oral corticosteroids within one month of screening visit",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Change in dosage of intranasal corticosteroids, or oral anti-leukotrienes within one month of screening visit",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Known history of reflux, lung disease, or congenital heart disease",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has myasthenia gravis and takes pyridostigmine. She still experiences symptoms that interfere with her job.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT01781507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

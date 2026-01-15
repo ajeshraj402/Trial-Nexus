@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "19 yo"
+    },
+    {
+      "criterion": "Gestational Age",
+      "label": "met",
+      "evidence": "32+ 6 weeks"
+    },
+    {
+      "criterion": "HIV Status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CD4 Count",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy Test",
+      "label": "not_met",
+      "evidence": "female of reproductive potential"
+    },
+    {
+      "criterion": "Contraception",
+      "label": "met",
+      "evidence": "uses prenatal vitamins"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypertension",
+      "label": "triggers",
+      "evidence": "BP of 146/99 and urine dipstick with 3+ proteins"
+    },
+    {
+      "criterion": "Untreated Hypogonadism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or Breast Feeding",
+      "label": "met",
+      "evidence": "no specific past medical issues"
+    }
+  ],
+  "notes": "Patient has mild headache and leg swelling, but no fever or chills. She is complaining of fatigue.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

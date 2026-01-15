@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00463450",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Postmenopausal status (amenorrhea for at least 12 months)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "45 - 65 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Application of estrogen or cyclic estrogen/progestin preparation other than the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "medication for at least 6 months prior to Visit 1",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uterine bleeding of unknown etiology within the last 2 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous or existing or suspected carcinoma of the breast",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto disease, but it does not seem to be a contraindication for this trial. However, her high TSH levels and low free T4 levels may require further evaluation.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00463450",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

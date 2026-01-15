@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00502970",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult males and non-pregnant females (more than 18 and less than equal to 50 years of age).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment na\u00efve patients.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serological evidence of hepatitis C infection by an anti-HCV antibody test",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HCV PCR positive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Genotype 3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Absence of cirrhosis on liver biopsy.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of alcohol or drug abuse.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not consent to be included in the study.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or breast feeding females.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Genotype non 3",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of cirrhosis on liver biopsy.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of HCV Cirrhosis and recent admission for UGIB, which may indicate decompensated liver disease.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00502970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

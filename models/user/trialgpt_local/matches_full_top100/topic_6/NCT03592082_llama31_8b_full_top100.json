@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03592082",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55yo woman"
+    },
+    {
+      "criterion": "Hospitalized patient with documented positive stool test for CDiff",
+      "label": "met",
+      "evidence": "C diff assay positive on admission"
+    },
+    {
+      "criterion": "Able and willing to provide informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Breastfeeding",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to BSS or other salicylates, including aspirin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of bleeding disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of gastrointestinal bleed",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of gastrointestinal ulcer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic use of anticoagulants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic NSAID use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03592082",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

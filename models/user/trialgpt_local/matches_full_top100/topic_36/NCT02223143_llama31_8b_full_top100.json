@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02223143",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "follow-up",
+      "label": "met",
+      "evidence": "clinical visiting, phone follow-up, or records from the NHIB Taiwan"
+    },
+    {
+      "criterion": "vital signs",
+      "label": "met",
+      "evidence": "obtained at each clinical visit"
+    },
+    {
+      "criterion": "adverse events",
+      "label": "met",
+      "evidence": "obtained at each clinical visit"
+    },
+    {
+      "criterion": "concurrent medication information",
+      "label": "met",
+      "evidence": "obtained at each clinical visit"
+    },
+    {
+      "criterion": "laboratory specimens",
+      "label": "met",
+      "evidence": "obtained as complete as possible"
+    },
+    {
+      "criterion": "atherosclerotic vascular diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "at least 1 CV risk factor",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "apparent healthy persons",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamically significant valvular or congenital heart disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "non-cardiovascular diseases which may affect prognosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns, sleep apnea, PCO and dissatisfaction with her body shape. She has no prior pregnancies and does not smoke or use any drugs.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT02223143",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

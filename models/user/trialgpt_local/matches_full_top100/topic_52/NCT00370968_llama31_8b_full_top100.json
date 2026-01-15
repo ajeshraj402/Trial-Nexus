@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00370968",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 1 month up to 36 months",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Passage of 3 or more liquid stools in a 24-hour period, every day, and at least one in 12 hours prior to admission",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diarrhea for < 7days (168 hours)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe systemic illness requiring intensive care management; systemic infection will be suspected if there is a general appearance of non-wellbeing with one or more of the following symptoms: shrill cry and irritability, temperature instability, hypotension, hypoglycemia, altered sensorium, lethargy or refusal of feeds, abdominal distension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic illness like Tuberculosis, Nephrotic syndrome, malignancy etc or any surgical disorder",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe malnutrition (weight for age <65% of NCHS median",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gross blood in stool",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday. He has returned from an international trip few days ago and was living in a camp in Sudan for a month.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00370968",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

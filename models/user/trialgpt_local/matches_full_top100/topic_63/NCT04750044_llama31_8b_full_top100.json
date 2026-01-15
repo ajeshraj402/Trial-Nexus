@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04750044",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is 54 years old"
+    },
+    {
+      "criterion": "increased serum amylase or lipase after ERCP",
+      "label": "not_met",
+      "evidence": "no mention of increased serum amylase or lipase after ERCP"
+    },
+    {
+      "criterion": "new or worsening abdominal pain compatible with pancreatitis after ERCP",
+      "label": "met",
+      "evidence": "patient experienced similar pain twice in the past year and current epigastric pain radiates to the right upper quadrant"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intended procedure not completed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abdominal perforation or bleeding",
+      "label": "not_met",
+      "evidence": "no mention of abdominal perforation or bleeding"
+    },
+    {
+      "criterion": "severe acute pancreatitis with multi-organ failure",
+      "label": "not_met",
+      "evidence": "patient is mildly febrile and BP is 150/85, but no mention of multi-organ failure"
+    },
+    {
+      "criterion": "PEP has occurred and additional imaging tests and endoscopy are required",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of chronic pancreatitis",
+      "label": "not_met",
+      "evidence": "no mention of history of chronic pancreatitis"
+    },
+    {
+      "criterion": "malignant tumors",
+      "label": "not_met",
+      "evidence": "no mention of malignant tumors"
+    },
+    {
+      "criterion": "pregnant women or lactating women",
+      "label": "met",
+      "evidence": "patient is menopausal"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and 2 NVDs, but no other relevant medical history mentioned.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04750044",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

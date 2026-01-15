@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00189163",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological severity of chronic hepatitis C will be done using the modified histological activity index (HAI) scoring system by Ishak for grading and staging",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic viral hepatitis and that for steatosis and steatohepatitis will be done using the scoring system that is currently being used in the NIH-funded Virahep-C study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatitis C patients who underwent previous therapy for their liver disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Genotype other than type 1",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hep C cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00189163",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

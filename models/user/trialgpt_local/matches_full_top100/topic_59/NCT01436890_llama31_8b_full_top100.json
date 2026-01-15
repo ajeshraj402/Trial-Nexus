@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01436890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "asthma diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FEV1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "good health",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "female pregnancy test",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hormone replacement therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lung disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "past smoker",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "asthma treatment change",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has asthma and is in good health, but his mother's quote suggests he didn't respond to corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01436890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

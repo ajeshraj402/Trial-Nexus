@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00281502",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 18 to 70 years of age, inclusive.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has cirrhosis due to chronic HCV infection as documented by:",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is non-azotemic (creatinine <1.5mg/dL) and ambulatory at screening.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has a Number Connection Test score >50 sec at time of enrollment.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is pregnant or lactating.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has a life expectancy of less than 100 days.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00281502",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

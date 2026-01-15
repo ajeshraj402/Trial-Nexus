@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "met",
+      "evidence": "completed the four square step test in 14 seconds"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "not_met",
+      "evidence": "normal joints and ROM"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns, sleep apnea, PCO, and dissatisfaction with her body shape. She has high blood pressure (130/80) and a BMI of 41.54.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

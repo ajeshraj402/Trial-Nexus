@@ -1,0 +1,131 @@
+{
+  "trial_id": "NCT04529369",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "IPSS score",
+      "label": "met",
+      "evidence": "15"
+    },
+    {
+      "criterion": "post-void residual",
+      "label": "met",
+      "evidence": "70 mL"
+    },
+    {
+      "criterion": "prostate volume (TRUS)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "PSA level",
+      "label": "met",
+      "evidence": "3.2 ng/mL"
+    },
+    {
+      "criterion": "maximum flow rate",
+      "label": "met",
+      "evidence": "10 mL/sec"
+    },
+    {
+      "criterion": "patient's demographic data",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "IPSS, MSHQ-EjD, and MSHQ scores",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pre-operative Q-max and PVR results",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pre-operative BPH and/or erectile dysfunction medical treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pre-operative PSA, transabdominal ultrasound sizing of the prostate, serum creatinine and hemoglobin, urinalysis and culture, cystoscopy findings including the anatomical distribution of prostatic adenomas",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "procedure: Middle-Lobe only PVP procedure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neurogenic lower urinary tract dysfunction (Neurogenic Bladder)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "not competent to give consent and/or inability to provide answers to the questionnaire",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient who refuse to participate in the study",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients without a median lobe",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who have renal impairment secondary to BPH",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level",
+      "label": "triggers",
+      "evidence": "PSA level: 3.2 ng/mL"
+    },
+    {
+      "criterion": "patients with refractory hematuria secondary to BPH",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with urethral strictures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with bladder cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with history of pelvic radiotherapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "55 year old man visiting his primary care physician for lower urinary tract symptoms. Further evaluation revealed IPSS score : 15, Post-void residual: 70 mL, Prostate-specific antigen (PSA) level: 3.2 ng/mL.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT04529369",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

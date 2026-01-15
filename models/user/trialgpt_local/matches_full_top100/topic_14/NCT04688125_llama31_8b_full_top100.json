@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04688125",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years old",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "Sleep testing shows an apnea-hypopnea index or respiratory event index \u22655",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is PAP na\u00efve.",
+      "label": "met",
+      "evidence": "Daughter also reports med compliance and compliance with BiPap at night."
+    },
+    {
+      "criterion": "Patient's diagnosis is obstructive sleep apnea, obesity hypoventilation syndrome, or central sleep apnea syndrome",
+      "label": "met",
+      "evidence": "obstructive sleep apnea, obesity hypoventilation syndrome"
+    },
+    {
+      "criterion": "Prescribed therapy is CPAP, A-PAP, or BPAP in a spontaneous modality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is able to provide consent",
+      "label": "met",
+      "evidence": "Daughter also reports med compliance and compliance with BiPap at night."
+    },
+    {
+      "criterion": "Patient is English speaking (limited to English for device)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Offered the opportunity to participate in this study.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prescribed therapy is BPAP ST or ASV",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is not able to provide consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient is not able to speak or read English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Nasal or facial trauma or surgery that leaves atypical facial features",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04688125",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

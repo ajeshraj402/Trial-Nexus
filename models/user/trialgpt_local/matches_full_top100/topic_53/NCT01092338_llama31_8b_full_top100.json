@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01092338",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV seropositive",
+      "label": "met",
+      "evidence": "standard techniques"
+    },
+    {
+      "criterion": "Age for perinatally-acquired HIV/AIDS Group (PA subjects)",
+      "label": "met",
+      "evidence": "5.0 to 24.9 y"
+    },
+    {
+      "criterion": "Age for non-perinatally-acquired HIV/AIDS Group (non-PA subjects)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "In usual state of good health",
+      "label": "met",
+      "evidence": "no hospitalizations, emergency room or unscheduled acute illness visits for 2 weeks prior"
+    },
+    {
+      "criterion": "Subject and/or family commitment to the 3-month study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other chronic health conditions that may affect growth, dietary intake, and/or nutritional status",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participation in another HIV intervention study with impact on 25D serum concentrations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of vit D supplementation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Baseline elevated serum calcium concentration",
+      "label": "does_not_trigger",
+      "evidence": "Ca: 9.2mg/dl"
+    },
+    {
+      "criterion": "Non-English speaking",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain, but otherwise unremarkable past medical and drug history.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01092338",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

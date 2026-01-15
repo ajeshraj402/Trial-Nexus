@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01595737",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF \u2264 35%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication for elective surgery for coronary revascularisation, with or without mitral valve repair.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Freely choose to participate in trial and sign an informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The patient does not accept the protocol.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy (hypersensitivity) to levosimendan, any of its components or to riboflavin.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe hypotension or severe tachycardia prior to entering study.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant mechanical obstruction affecting ventricular filling and/or emptying.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01595737",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

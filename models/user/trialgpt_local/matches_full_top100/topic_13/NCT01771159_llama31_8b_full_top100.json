@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01771159",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 and older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "spinal cord injury and/or chronic, irreversible neuropathic bladder dysfunction from other progressive neurological syndromes including Stroke, multiple sclerosis and Parkinsonism.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "minimum duration of injury and bladder dysfunction of 2 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "utilize an indwelling Foley catheter, an indwelling suprapubic catheter, diapers or external (condom) catheter drainage or intermittent self-catheterization but finds the current alternative to be socially unsatisfactory.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "recognize the investigational nature of the 'tissue bonding cystostomy' device and must be willing to return for periodic follow-up.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willing and capable of signing the Informed Consent Document (ICD).",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "English-speaking subjects will be accepted for participation.",
+      "label": "met",
+      "evidence": "protocol text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "reversible spinal cord injury or a reversible neurological illness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "injured less than two years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "acceptable forms of urological management utilizing intermittent self-catheterization, or spontaneous voiding with the use of an external collecting appliance.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "advanced neuropathic bladder dysfunction of less than 2 years duration",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "females of child-bearing age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. They are currently on ditropan and detrol.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01771159",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

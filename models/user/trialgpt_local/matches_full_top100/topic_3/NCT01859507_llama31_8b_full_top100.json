@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01859507",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "resistant vaginismus",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe 'exploding' headache",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital anomalies in the lower female genital tract",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "underlying vascular malformation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a severe 'exploding' headache and abnormal vasculature with a draining vein from L temporal lobe, which may be an underlying cause for her condition.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01859507",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

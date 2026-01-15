@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02976246",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "RenaKvit-vessel",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "RenaKvit-bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Dialysis treatment",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gender",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Weight",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Vitamin K treatment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic GI-malabsorption",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ongoing malignancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Abuse of alcohol or other euphoric drug",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Total/subtotal parathyroidectomy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment with vitamin K-antagonist",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation/other arrhythmia of significance",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy. The patient's sister had the same problems and was diagnosed with Paget's disease at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02976246",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

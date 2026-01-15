@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03672214",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Financial compensation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "joint information meeting for women booked for planned CD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective caesarean section",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Antibiotic therapy during the last week before caesarean section",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u2265 3 prior CDs.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs, including with Pseudomonas and Enterococcus. They also have a non-hodgkins Marginal Zone Lymphoma of the left orbit and SLE with transverse myelitis.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03672214",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01866800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 65 years old who is able and willing to give an informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients undergoing planned trans-femoral TAVI.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Calculated eGFR below 60ml/min/1.73m2 (MDRD).",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of acute coronary syndrome in the past 30 days.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current dialysis treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine, making him a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01866800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

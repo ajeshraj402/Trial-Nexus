@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00194597",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of male Chronic Pelvic Pain Syndrome Type III",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18 - 65",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pelvic pain duration of at least 3 months",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Urinary tract infection within the last year",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sexually transmitted disease within 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Antiviral therapy or antibiotics within the last 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, which may be a contraindication for treatment. Patient's history of prostate biopsy or cystoscopy within 3 months is also a concern.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00194597",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

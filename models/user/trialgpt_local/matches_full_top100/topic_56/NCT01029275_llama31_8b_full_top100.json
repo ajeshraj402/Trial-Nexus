@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01029275",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "acromegaly_status",
+      "label": "met",
+      "evidence": "known case of Acromegaly"
+    },
+    {
+      "criterion": "GH_secretion_after_glucose_load",
+      "label": "met",
+      "evidence": "unsuppressed GH secretion after a glucose load"
+    },
+    {
+      "criterion": "IGF_1_level",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "pituitary_adenoma_on_MRI",
+      "label": "met",
+      "evidence": "presence of a pituitary adenoma on MRI"
+    },
+    {
+      "criterion": "informed_consent_given",
+      "label": "met",
+      "evidence": "informed consent given"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acromegaly_previous_treatment",
+      "label": "not_met",
+      "evidence": "no mention of previous treatment"
+    },
+    {
+      "criterion": "contraindication_to_pituitary_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hyperprolactinemia_above_200_ng/ml",
+      "label": "not_met",
+      "evidence": "no mention of hyperprolactinemia"
+    },
+    {
+      "criterion": "visual_field_defect_needing_rapid_transsphenoidal_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication_to_octreotide_treatment",
+      "label": "not_met",
+      "evidence": "no mention of contraindication to octreotide"
+    }
+  ],
+  "notes": "The patient underwent transsphenoidal surgery 4 months ago and takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01029275",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

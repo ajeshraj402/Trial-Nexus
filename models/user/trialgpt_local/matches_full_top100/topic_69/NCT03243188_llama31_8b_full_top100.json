@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03243188",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "attending St Joseph's Hospice day centre or being visited at home by their community specialist palliative care nursing/medical team and their carers",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adult patients with a cancer diagnosis and their carers",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to understand and communicate in written and spoken English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Paediatric patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients without a cancer diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to understand written or spoken English",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "67-year-old healthy woman with no underlying disease, first vaccination this year. She takes daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT03243188",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

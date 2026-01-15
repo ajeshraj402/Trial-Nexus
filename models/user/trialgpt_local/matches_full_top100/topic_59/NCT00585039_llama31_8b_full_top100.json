@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00585039",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "asthma_diagnosis",
+      "label": "met",
+      "evidence": "diagnosed a year ago by any physician"
+    },
+    {
+      "criterion": "asthma_exacerbation",
+      "label": "met",
+      "evidence": "presented to the ED with an asthma exacerbation judged by a physician to be of a moderate or severe degree"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_lung_disease",
+      "label": "not_met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "uncorrected_congenital_heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "foreign_body_aspiration",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00585039",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

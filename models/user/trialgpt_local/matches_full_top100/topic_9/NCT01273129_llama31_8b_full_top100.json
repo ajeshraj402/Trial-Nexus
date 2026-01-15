@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01273129",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "drug_resistant_epilepsy",
+      "label": "met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "focal_onset_seizures",
+      "label": "met",
+      "evidence": "text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MRI_scan",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "bleeding_disorder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching and generalized shaking, which required valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01273129",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

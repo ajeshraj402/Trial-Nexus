@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03920683",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 ans",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetes mellitus (type 1 or 2)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients addressed to a one-day hospitalization to assess cardiovascular comorbidities, between January 2014 and May 2017, in the diabetes department, in the Piti\u00e9-Salp\u00eatri\u00e8re hospital",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Coronary artery calcium score available",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Toe-brachial index available",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of coronary artery disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of Raynaud's syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Opposition of the patient",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of CAD, which is a significant exclusion criterion. However, the overall assessment is likely eligible due to other inclusion criteria being met.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03920683",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

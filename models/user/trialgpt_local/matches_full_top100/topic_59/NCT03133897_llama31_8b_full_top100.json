@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03133897",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children admitted during the study period with a diagnosis of asthma exacerbation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children aged 18 months to 17 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children who received oral Corticosteroids in the Emergency Department prior to admission under our hospital Emergency Department Nursing Medical Directive and/or Pre-Printed Order Form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children who have received more than one dose of oral CS prior to enrolment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children whose caregivers do not understand English or French",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03133897",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

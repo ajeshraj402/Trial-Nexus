@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00487279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Randomized Arm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Evidence of Coronary Artery Disease (CAD)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients aged 18 years or above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical CE-MRI within the past 12 months (scheduled or completed)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of cardiac arrest or spontaneous or inducible sustained VT (15 beats or more at a rate of 120 BPM or greater)*",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unexplained syncope",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, but also had recent cardiac arrest and spontaneous VT.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00487279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

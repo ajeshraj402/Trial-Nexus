@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01195090",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "diabetes_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "insulin_use",
+      "label": "met",
+      "evidence": "using insulin glargine 55 units once daily, and insulin aspart sliding scale 3 times daily"
+    },
+    {
+      "criterion": "a1c_level",
+      "label": "not_met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "renal_function",
+      "label": "met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication_sitagliptin_pioglitazone",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_function",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "pregnancy_lactation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01195090",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

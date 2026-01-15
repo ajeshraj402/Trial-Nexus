@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT03043131",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgery department of Postgraduate Institute of Medical Education and Research, Chandigarh",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "will be recruited into the study. Full informed consent will be obtained from each eligible patient before enrolment into the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medical history including any comorbidities or prior surgical intervention",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Physical examination",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Routine Laboratory tests including: Haemogram, Liver function tests, Renal function tests, Coagulogram.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Base line arterial blood gases with lactate",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "2D echo cardiogram",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Haemoglobin level will be maintained at8gm/dl on CPB and 10gm/dl before separation from bypass.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Arterial blood gases (ABG) before induction, ABG five minutes after CPB, ABG at the end of the termination of CPB, ABG after half an hour stay in the ICU soon after the patient is shifted from completion of surgery, ABG before the patient is extubated.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Additives and their amounts added to the prime to correct acidosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intra operative aortic cross clamp time",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Duration of bypass",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients undergoing surgery for congenital heart diseases.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients of age less than 18 years.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with liver dysfunction (Serum Bilirubin >1.2mg %).",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with renal dysfunction (Serum Creatinine >1.5mg %).",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with severe left ventricular dysfunction with ejection fraction <30%.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients undergoing cardiac surgeries in emergency conditions.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing CABG along with heart valve replacement or repair.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is a genetic disorder that affects the liver and brain. He has been experiencing tremors since a year ago and has a Kayser-Fleischer ring in his ophthalmologic exam.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03043131",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

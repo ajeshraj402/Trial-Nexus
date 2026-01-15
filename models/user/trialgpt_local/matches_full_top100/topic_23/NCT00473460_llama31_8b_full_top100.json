@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00473460",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female out-patients >/= 45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects suffering from chronic bronchitis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "FEV1</= 70% and FEV1/FVC </= 70% predicted from age, height and sex",
+      "label": "not_met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted"
+    },
+    {
+      "criterion": "No documented episode of AECB (requiring treatment) within 6 weeks of randomization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "and not experiencing an exacerbation at the time of screening",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sputum production on most days, even when exacerbation free",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects presented with at least two documented (i.e. requiring antibiotics and/or systemic steroid administration) acute exacerbation episodes during the last 12 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If receiving chronic therapy with inhaled long acting bronchodilators and/or inhaled or systemic steroids, the treatment must have remained stable for the preceding 6 weeks prior to screening",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Smoking history of at least 20 pack-years",
+      "label": "met",
+      "evidence": "He doesn't smoke or use illicit drugs"
+    },
+    {
+      "criterion": "Subjects willing and able to give fully informed written consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with contra-indications to moxifloxacin",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known bronchial carcinoma, pulmonary tuberculosis, cystic fibrosis, documented chronic bronchial asthma or diffuse bronchiectasis",
+      "label": "triggers",
+      "evidence": "He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness"
+    },
+    {
+      "criterion": "Subjects who are actively participating in intensive pulmonary rehabilitation programs",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects with a known history of chronic colonization of pathogenic organisms resistant to moxifloxacin, e.g. Pseudomonas spp, MRSA",
+      "label": "triggers",
+      "evidence": "He doesn't smoke or use illicit drugs"
+    },
+    {
+      "criterion": "No systemic or inhaled antibiotic therapy during the 6 weeks prior to screening and any long term antibiotic usage",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects requiring home ventilatory support for COPD and those who have a tracheostomy in situ (subjects requiring home/potable oxygen therapy or CPAP for sleep apnea can be included)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of asthma, but the symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00473460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

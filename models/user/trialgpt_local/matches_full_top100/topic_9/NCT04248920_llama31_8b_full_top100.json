@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04248920",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults (aged \u226518 years) visiting a participating ED for a seizure or an epilepsy-related concern.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults on anti-seizure medication prior to coming to the ED or prescribed anti-seizure medication at the ED.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Providing informed consent and having sufficient English language skills to complete questionnaires and participate in the intervention.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous participation in the C2C program.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known diagnosis of psychogenic non-epileptic seizures (PNES).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He was recently tapered off Dilantin and had no further seizure events during hospitalization.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04248920",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

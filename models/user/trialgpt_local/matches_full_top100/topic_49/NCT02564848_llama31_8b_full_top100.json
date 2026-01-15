@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02564848",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Female age 65 and older",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Staging",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients enrolled prior to surgery: Diagnosis of clinical T1-2N0 ER+ invasive breast cancer as determined by treating physician. DCIS or LCIS may be present with invasive cancer.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients enrolled after surgery: pT1-2NX, or pT1-2N0, ER+ invasive breast cancer. DCIS or LCIS may be present with invasive cancer.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plan to undergo lumpectomy within 3 months of study registration, or underwent lumpectomy within 60 days of study registration (without sentinel node biopsy)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with diagnosis of ductal or lobular carcinoma in situ",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with diagnosis of inflammatory breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who have undergone neoadjuvant chemotherapy for current primary breast cancer (past treatments for other cancers are acceptable)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, short stature, delayed puberty and developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02564848",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

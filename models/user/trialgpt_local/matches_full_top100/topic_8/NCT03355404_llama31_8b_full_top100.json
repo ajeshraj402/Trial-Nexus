@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03355404",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Major patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient hospitalized for surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with reduced mobility",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with a mental disability",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient suffering from a severe psychiatric pathology",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has CLL and large cell transformation, but is not eligible due to exclusion criteria.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03355404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

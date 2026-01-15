@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04637282",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 5 and 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of classic CLN3 disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mild-to-moderate CLN3 disease documented by UBDRS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant can independently walk for a distance of at least 20 feet",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant can tolerate swallowing oral medication or has gastric/jejunostomy tube",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant's parents/guardians agree to comply with study conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Asymptomatic CLN3 disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically documented generalized motor status epilepticus within 4 weeks of Baseline visit",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but her age and CLN3 disease diagnosis make her eligible for the study. However, she has asymptomatic CLN3 disease, which makes her not eligible.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT04637282",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

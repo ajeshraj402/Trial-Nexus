@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03130517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gestational_age",
+      "label": "met",
+      "evidence": "48hr-72hr"
+    },
+    {
+      "criterion": "anemia",
+      "label": "met",
+      "evidence": "Reticulocytic count 10%"
+    },
+    {
+      "criterion": "serum_total_bilirubin",
+      "label": "met",
+      "evidence": "18mg/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perinatal_asphyxia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "congenital_malformation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_respiratory_distress",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03130517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

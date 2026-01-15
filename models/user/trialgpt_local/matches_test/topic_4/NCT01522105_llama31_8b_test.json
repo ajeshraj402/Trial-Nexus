@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT01522105",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 3 months and < 16 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bacterial meningitis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Gram-negative bacteria in the CSF",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Creatinine clearance < 80ml/min/1.73m2",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01522105",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

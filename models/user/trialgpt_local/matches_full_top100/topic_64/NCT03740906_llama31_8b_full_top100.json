@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03740906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "voluntarily signed informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u226518 years on day of signing informed consent form",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recent injecting drug use (within the previous 6 months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eligible for DAA therapy as per the PBS",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable or unwilling to provide informed consent or abide by the requirements of the study",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "alcoholic liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has chronic HCV infection and is eligible for DAA therapy. However, he has a history of recent coinfection with HBV which may be relevant to his treatment plan.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03740906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

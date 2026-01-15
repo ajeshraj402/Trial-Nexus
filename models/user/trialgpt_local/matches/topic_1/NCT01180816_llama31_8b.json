@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT01180816",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female patients of \u226518 years of age.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Patients with a documented histologic diagnosis of newly diagnosed or glioblastoma multiforme (GBM), anaplastic astrocytoma (AA) or anaplastic mixed oligoastrocytoma (AOA).",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Patients must have at least one confirmed and evaluable tumor site.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass"
+    },
+    {
+      "criterion": "Patients must have a Karnofsky performance status \u226560% (or the equivalent ECOG level of 0-2) and an expected survival of \u2265 three months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No other chemotherapy for two weeks prior to treatment under this research protocol",
+      "label": "met",
+      "evidence": "This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women who are pregnant or lactating.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with significant intercurrent medical or psychiatric conditions that would place them at increased risk or affect their ability to receive or comply with treatment or post-treatment clinical monitoring.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Karnofsky performance status and expected survival are unknown. Patient's chemotherapy history is unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01180816",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

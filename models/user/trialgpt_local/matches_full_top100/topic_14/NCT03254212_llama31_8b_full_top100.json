@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03254212",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients with heart failure and reduced ejection fraction (LVEF < 45%) due to ischemic or hypertensive heart disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate to severe central sleep apnea/cheyne stokes respiration.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment should be stable for the last 30 days preceding entry into the study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "O2 /CPAP therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active smoking",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primary valvular heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "nasal obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI \u2265 32 Kg/m2",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cardiac surgery/transient ischemic attack/stroke/resynchronization therapy within 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "nocturnal hypoventilation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving opiates or methadone medication.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03254212",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

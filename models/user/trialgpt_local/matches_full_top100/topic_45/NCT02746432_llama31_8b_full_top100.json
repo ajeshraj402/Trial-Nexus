@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02746432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "The patient is a 34-year-old African American man"
+    },
+    {
+      "criterion": "Documented CRC by histopathology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient not consenting to the study or refused.",
+      "label": "not_met",
+      "evidence": "The patient is afebrile within the normal blood pressure."
+    },
+    {
+      "criterion": "Metastatic disease at the time of diagnosis.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to insulin",
+      "label": "not_met",
+      "evidence": "No splenomegaly was detected in the physical exam."
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "The patient has no positive history of drug allergy."
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and has had positive history of sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02746432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

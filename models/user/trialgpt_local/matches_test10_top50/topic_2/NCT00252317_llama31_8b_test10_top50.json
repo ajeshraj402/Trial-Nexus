@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT00252317",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "valvular aortic stenosis with a aortic valve area < 1,0 cm2",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Willingness to give written informed consent",
+      "label": "met",
+      "evidence": "patient statement"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with stable angina pectoris",
+      "label": "met",
+      "evidence": "symptoms"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with syncope at exertion",
+      "label": "met",
+      "evidence": "symptoms"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with dizziness at exertion",
+      "label": "met",
+      "evidence": "symptoms"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with previous pulmonary oedema",
+      "label": "met",
+      "evidence": "history"
+    },
+    {
+      "criterion": "New York Heart Association functional class II-IV",
+      "label": "met",
+      "evidence": "symptoms"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Sitting systolic pressure < 100 mmHg",
+      "label": "not_met",
+      "evidence": "BP"
+    },
+    {
+      "criterion": "Creatinine > 200 mM at screening",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal artery stenosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or planned pregnancy",
+      "label": "not_met",
+      "evidence": "age and sex"
+    },
+    {
+      "criterion": "Participation in other studies",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any patient characteristic that may interfere with compliance with the study protocol",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, symptoms of SOB and LE edema, and history of HTN and hyperlipidemia. He is willing to give written informed consent.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00252317",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

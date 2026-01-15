@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01334983",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "be described in detail and verbal consent will be obtained from those desiring to participate.",
+      "label": "met"
+    },
+    {
+      "criterion": "Eligible subjects must have a diagnosis of Stage III or IV NSCLC or extensive stage SCLC, or Stage IV colon cancer",
+      "label": "met"
+    },
+    {
+      "criterion": "be receiving a chemotherapeutic regimen that requires visits to the Mayo Clinic Department of Medical Oncology < every 4 weeks for the first 6 weeks following enrollment",
+      "label": "met"
+    },
+    {
+      "criterion": "Pathological confirmation is not required if the oncology provider specializing in lung cancer has a high level of certainty regarding the diagnosis.",
+      "label": "met"
+    },
+    {
+      "criterion": "The participants will be required to be fluent in the English language and have intact cognitive status (Folstein mini-mental score > 25).",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pain numeric rating scale (NRS) scores > 7/10",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Fatigue NRS score > 8/10",
+      "label": "unknown"
+    },
+    {
+      "criterion": "paralysis of > 2 limbs (< antigravity strength in all major muscle groups)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Severe cerebellar ataxia",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Chronic (> 1 year) non-cancer pain either >5/10 or causing the patient to apply for or receive disability payments.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, recent antibx use in the last month on prior admission. Was also txd for Cdiff at that time for 14 d. course with po vanco.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01334983",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

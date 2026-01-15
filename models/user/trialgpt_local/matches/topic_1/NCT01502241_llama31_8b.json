@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01502241",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed supratentorial anaplastic astrocytoma or glioblastoma",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, but it's not specified as supratentorial."
+    },
+    {
+      "criterion": "Age > 65",
+      "label": "not_met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Karnofsky performance score > 60%",
+      "label": "unknown",
+      "evidence": "None"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Serious medical or neurological condition with a poor prognosis",
+      "label": "triggers",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, indicating a serious medical condition."
+    },
+    {
+      "criterion": "HIV infection",
+      "label": "unknown",
+      "evidence": "None"
+    }
+  ],
+  "notes": "Karnofsky performance score is unknown. Patient's medical condition may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01502241",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

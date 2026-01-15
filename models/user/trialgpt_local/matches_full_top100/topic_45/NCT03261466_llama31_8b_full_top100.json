@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03261466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "African American man"
+    },
+    {
+      "criterion": "Disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adverse reactions to the product or component of the product",
+      "label": "not_met",
+      "evidence": "no positive history of drug allergy"
+    },
+    {
+      "criterion": "Genetic obesity (Prader Willi syndrome, Down syndrome)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and is experiencing severe bone pain. He has been treated with oxycodone in the past two weeks without benefit.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03261466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

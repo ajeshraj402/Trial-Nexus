@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04163146",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 6 - 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No asthma or asthma medication in the last 2 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal baseline spirometry",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Smartphone possession (parents or participants) with ability of internet connection",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed written consent (parents, parents & children >12 years old)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cohort B. Children and adolescents with asthma",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Major respiratory events (e.g., severe respiratory infection, chest trauma) or other health-related events that may hamper the performance of lung function measurements (e.g., surgery, trauma) within the 3-month period of observation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has asthma and is currently using inhaled corticosteroid and fluticasone. However, he meets some inclusion criteria and does not meet any other exclusion criteria.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04163146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

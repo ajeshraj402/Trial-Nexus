@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04617730",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "external beam radiotherapy of the bilateral inguinal nodal region",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least 25 fractions of 1.8-2Gy per fraction",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Re-irradiation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients under the age of 18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients not willing to participate (no informed consent)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone external beam radiotherapy, meeting inclusion criteria. Exclusion criteria of re-irradiation and patients under the age of 18 are met.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04617730",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

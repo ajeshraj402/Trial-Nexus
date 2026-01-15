@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01589380",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Moderate to severe aortic stenosis",
+      "label": "met",
+      "evidence": "peak aortic valve jet velocity of 3.0 - 4.5 m/s, mean pressure gradient of 25 - 49 mmHg, or aortic valve area of 0.76 - 1.5 cm2"
+    },
+    {
+      "criterion": "Asymptomatic aortic stenosis",
+      "label": "met",
+      "evidence": "Stationary or minimum dyspnea on exertion (NYHA Fc \u2264 I or II)"
+    },
+    {
+      "criterion": "SBP 120-140 mmHg with or without medication",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Patients who were prescribed ACEI or ARBs for treatment of hypertension will be enrolled after 2 weeks wash-out period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patient agrees to the study protocol and the schedule of clinical, cardiopulmonary exercise test, and echocardiographic follow-up, and provides informed, written consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptomatic aortic stenosis: presence of exertional dyspnea (\u2265 NYHA Fc III), angina or syncope",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Very severe aortic stenosis regardless of presence of symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled HTN (SBP > 160 or DBP >100) without ACEI or ARBs during 2-weeks wash out period in patients who were prescribed ACEI or ARBs for treatment of hypertension",
+      "label": "not_met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Patients with known history of coronary artery disease including myocardial infarction, regardless of the treatment (medication only, percutaneous coronary intervention, or coronary artery bypass grafting)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Planned cardiac surgery or planned major non-cardiac surgery within the study period",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01589380",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

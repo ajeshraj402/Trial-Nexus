@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02638233",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic genotype 1 HCV infection",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Fibrosis F0-F3 (i.e. non-cirrhotic confirmed by Fibroscan <12.5kPa)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Stable opiate substitution therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Regular visits at the low threshold facility during the last month",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack or unwillingness of safe contraception, pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver cirrhosis (Fibroscan \u226512.5kPa)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Coinfection with HBV (Hepatitis B Virus) or HIV",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe comorbidities resulting in a life expectancy of less than five years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HCC (Hepatocellular carcinoma)",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has chronic genotype 1 HCV infection, fibrosis F0-F3, and no evidence of liver cirrhosis or HCC. He is on stable opiate substitution therapy and has regular visits at the low threshold facility.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02638233",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "child stool test must be positive for STH",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age of the child less than 2 years old and more than 5 years old",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "his/her stool test negative for any intestinal helminth",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient is a 20 year old Caucasian female with Relapsing Remitting Multiple Sclerosis (RRMS) confirmed after MRI. She smokes 10 cigarettes per day and drinks alcohol occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

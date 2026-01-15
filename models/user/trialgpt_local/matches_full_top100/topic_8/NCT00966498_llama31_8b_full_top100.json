@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00966498",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with high risk recurrent or refractory solid tumors following initial chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tumor must be sensitive to chemotherapy (maximum 8 cycles) and/or radiation defined as a greater than 50% reduction in size of the primary and/or metastatic sites.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "under 35 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life expectancy of at least 8 weeks and performance status (Karnofsky or Lansky score) of at least 70%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acceptable candidates for peripheral blood stem cell transplantation based on their pre-transplant evaluation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "central nervous system tumors are not eligible for this protocol",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "significant functional deficits in major organs which would interfere with successful outcome following PBSCT",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active CNS disease or marrow involvement with the tumor at the time of transplant",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "disease progression after tandem PBSC #1 will not be eligible for tandem PBSC #2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women of childbearing potential who are currently pregnant (HCG+) or who are not practicing adequate contraception",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous stem cell transplant",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Richter's transformation, which may be a contraindication for this trial.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00966498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

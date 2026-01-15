@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03937947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 16 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission to critical care",
+      "label": "met",
+      "evidence": "quote: 'Patient was initially admitted to the ICU'"
+    },
+    {
+      "criterion": "Abnormal brain CT Scan",
+      "label": "met",
+      "evidence": "quote: 'C diff assay positive on admission, and pt had leukocytosis consistent with C diff.'"
+    },
+    {
+      "criterion": "Post resuscitation Glasgow coma score (GCS) \u226412, or GCS motor component \u22645",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Normal brain CT scan",
+      "label": "not_met",
+      "evidence": "quote: 'C diff assay positive on admission'"
+    },
+    {
+      "criterion": "Unlikely to survive for the next 24 hours in the opinion of the ICU Consultant or Consultant Neurosurgeon treating the patient",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03937947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

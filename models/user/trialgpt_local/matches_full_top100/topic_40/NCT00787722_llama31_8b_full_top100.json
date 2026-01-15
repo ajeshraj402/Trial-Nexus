@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00787722",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 16-65",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Established diagnosis of Devic's disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "NMO-IgG aquaporin-4 autoantibody positive",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Paraplegia or quadriplegia and legal blindness",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any illness that in the opinion of the investigators would jeopardize the ability of the patient to tolerate aggressive chemotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior history of malignancy except localized basal cell, squamous skin cancer or carcinoma in situ of the cervix",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and will be started on Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00787722",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

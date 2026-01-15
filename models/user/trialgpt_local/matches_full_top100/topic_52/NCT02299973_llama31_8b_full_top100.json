@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02299973",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Irritable bowel syndrome with predominant diarrhoea as defined by the ROME III criteria and with symptoms of abdominal bloating",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "IBS symptom score > 3 on at least 2 subscores (abdominal discomfort, abdominal bloating, abdominal pain, urgency, stool frequency, stool consistency)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 18 - 75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal screening protocol which includes screening for infectious diseases (eg. blood HIV, Syphilis, Hepatitis B or C; stool: enteropathogens, clostridium, ESBL, CPE)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "predominant constipation as defined by Rome III criteria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or inadequate anti conception for the duration of the trial",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "celiac disease",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "any contra-indications for colonoscopy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptoms of dizziness, severe diarrhea, and abdominal pain. He has a history of living in a camp in Sudan for a month and recently returned from an international trip.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02299973",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

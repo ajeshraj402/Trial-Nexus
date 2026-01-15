@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00839969",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "OAB symptoms",
+      "label": "met",
+      "evidence": "BFLUTS questionnaire and Urgency Perception Scale"
+    },
+    {
+      "criterion": "Maximum flow rate of less than 15 ml/s on a volume voided of 200mls or more",
+      "label": "met",
+      "evidence": "pressure flow studies"
+    },
+    {
+      "criterion": "Patients must be able to give informed consent for the study",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of concurrent urodynamic stress incontinence",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "Patient unfit or unwilling to undergo a general anaesthetic",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "Patients with bladder pathology or haematuria of unknown origin",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "Patients with neurological disorders (as these may affect voiding)",
+      "label": "not_met",
+      "evidence": null
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Has severe bulbar urethral stricture requiring surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00839969",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

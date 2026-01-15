@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04646252",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred for routine screening",
+      "label": "met",
+      "evidence": "primary prevention outpatient clinic of Attikon University hospital"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "disease (PAD)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart failure (HF)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stroke",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, drinks 60 units of alcohol per week, smokes 22 cigarettes per day. Family history positive for type 2 diabetes.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04646252",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

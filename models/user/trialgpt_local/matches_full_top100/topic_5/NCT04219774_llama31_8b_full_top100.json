@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT04219774",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 21",
+      "label": "met"
+    },
+    {
+      "criterion": "Complete occlusion of cervical ICA on imaging studies (MRA or CTA) and confirmed with History of TIA or stroke",
+      "label": "unknown"
+    },
+    {
+      "criterion": "increased MTT and/or TPP on CTP in the ipsilateral side of the occluded ICA specifically in the middle cerebral artery (MCA) territory when compared to the opposite unaffected hemisphere",
+      "label": "met"
+    },
+    {
+      "criterion": "All occlusion is due to atherosclerotic disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "MoCA < 26",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-atherosclerotic occlusive disease that may have caused the occlusion, including moyamoya, dissection, trauma or other causes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Tandem occlusion",
+      "label": "unknown"
+    },
+    {
+      "criterion": "No evidence of increased MTT and /or PTT on CT perfusion",
+      "label": "met"
+    },
+    {
+      "criterion": "Severe co-morbid diseases: end-stage renal disease, renal insufficiency, liver cirrhosis, chronic obstructive pulmonary disease (COPD) requiring home oxygen, terminal illness such as cancer, Parkinson disease or other neurodegenerative diseases, severe cognitive heart failure, seizures, debilitating stroke, modified Rankin scale (mRS) \u22653",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Short life expectancy due to cancer or other co-morbid diseases",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Class D on COICA classification",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. Carotid U/S showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04219774",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

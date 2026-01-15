@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04423055",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women 18 years and older currently using COCs or who have a COC prescription",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intending to initiate COCs for contraception",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to using a COC or a contraceptive implant (Category 3 or 4 in the CDC Medical Eligibility Criteria [MEC])",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently participating in a clinical trial or have participated within the past 30 days",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with no specific past medical issues, using prenatal vitamins. She has a family history of DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT04423055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

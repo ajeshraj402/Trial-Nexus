@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00458471",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sustained spinal cord injury >18 months earlier",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "neurogenic bladder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "indwelling urinary catheter (either transurethral or suprapubic)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no vesicoureteral reflux",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "urolithiasis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "indwelling nephrostomy catheter",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "supravesical urinary diversion",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has neurogenic bladder and indwelling suprapubic catheter, but no vesicoureteral reflux. No urolithiasis or nephrostomy catheter.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT00458471",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

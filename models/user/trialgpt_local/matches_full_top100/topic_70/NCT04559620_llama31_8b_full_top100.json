@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04559620",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mother",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Commitment to finish all questionnaires and to participate in the creation of a CD to be played to her baby.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Older than 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Infant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gestational age between 26 0/7 and 30 6/7 weeks",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mother",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Younger than 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Infant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Major congenital or chromosomal anomalies",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "46-year-old Asian woman with MDD, complaining of persistent feelings of sadness and loss of interest in daily activities. She has been on anti-depressants for the past 6 months but still experiences symptoms.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT04559620",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "met",
+      "evidence": "desires IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI_history",
+      "label": "not_met",
+      "evidence": "no mention of STI during the three months prior to enrollment"
+    },
+    {
+      "criterion": "desire_for_further_pregnancy",
+      "label": "unknown",
+      "evidence": "no information about desire for further pregnancy within six months of giving birth"
+    }
+  ],
+  "notes": "The patient has cervical cancer, but it is stage 1B and she underwent a radical hysterectomy. She smokes 30 packs/year and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01389388",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women and men with RA, AS and other inflammatory forms of arthritis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cholesterol plaques demonstrated in carotid artery by ultrasound",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concomitant statin treatment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Arterial fibrillation or others with chronic irregular heart rhythm (because of CT)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindication to statin treatment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He is physically active and does not use lipid-lowering medications.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01389388",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

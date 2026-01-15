@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02354079",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with HBL: fasting LDL-C \u2264 50 mg/dl.",
+      "label": "met",
+      "evidence": "FBS: 100 mg/dl, HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Relative with HBL: fasting LDL-C \u2264 80 mg/dl and/or Apo B \u2264 50 mg/dl.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "At least one related family case suffering from HBL.",
+      "label": "met",
+      "evidence": "Family history is positive for DM type 1 in his uncle and his grandfather."
+    },
+    {
+      "criterion": "All subjects, including familial non-affected cases, must give written consent (dated and signed) to participate at the constitution of biobank.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of lipid-lowering drugs (statins, fibrates, ezetimibe, bile-acid sequestering resin) or nutraceuticals known to affect lipids.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient screened within an extreme metabolic disturbance (emergency situations, sepsis, hospitalization in intensive care unit).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with hyperthyroidism.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe liver failure.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "End stage chronic kidney disease.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious pancreatic failure.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anemia related to thalassemia or sickle cell disease.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Strict vegan diet or malnutrition.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02354079",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

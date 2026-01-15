@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04668404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "23-year-old man"
+    },
+    {
+      "criterion": "Confirmed Covid19 patient with positive RT PCR",
+      "label": "met",
+      "evidence": "positive RT PCR"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current therapy: Recent blood or blood component transfusion in the last 2 weeks.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV positive/ AIDS patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active malignancy within the last 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not willing to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has high blood pressure and signs of septicemia, but is being treated with plasma exchange and corticosteroids for atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04668404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

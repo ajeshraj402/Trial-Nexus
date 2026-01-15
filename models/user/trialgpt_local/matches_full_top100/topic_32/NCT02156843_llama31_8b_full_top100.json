@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT02156843",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients who have given voluntary written informed consent to participate in this study prior to conducting Screening (Visit 1) procedures;",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients 18 years of age or older with a diagnosis of type 2 diabetes;",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Women of childbearing potential (WOCBP) who agree to use appropriate birth control (double-barrier methods, hormonal contraceptives, or intrauterine device) for the duration of the study;",
+      "label": "unknown"
+    },
+    {
+      "criterion": "All women of childbearing potential must have a negative serum pregnancy test at Visit 1;",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients with a history of overt diabetic nephropathy, as defined by the following: A SCr measurement \u22651.3 (\u22651.25)mg/dL (111 \u00b5mol/L) for females or \u22651.5 (\u22651.45) mg/dL (128 \u00b5mol/L) for males;",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients must have a SCr measurement <3.0 mg/dL (265 \u00b5mol/L);",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient must have an eGFR of \u226520 mL/min/1.73m2, using the 4-variable Modification of Diet in Renal Disease equation;",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients must be taking a single ACE-I or ARB at a constant dose for at least 26 weeks prior to Visit 1;",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients taking any blood pressure medications in addition to an ACE-I or ARB, including diuretics, must be on a stable dose for 13 weeks prior to Visit 1;",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with type 1 diabetes or MODY (a monogenic form of diabetes);",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients receiving a renin inhibitor or an aldosterone antagonist or a combination of an ACE-I and an ARB within 26 weeks of Visit 1;",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has type 2 diabetes, but is also taking a combination of an ACE-I and an ARB, which makes them ineligible for the study.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT02156843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

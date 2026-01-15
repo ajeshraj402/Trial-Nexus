@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04514250",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 50 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Moderate aortic stenosis confirmed in the past 3 months by standard echocardiographic evaluation: aortic valve area >1.0 cm2 plus either maximal velocity 3.0-3.9 m/s or mean gradient 20-39 mmHg",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to undergo exercise stress testing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to understand and the willingness to provide written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any hemodynamic criterion for severe AS: maximal velocity >= 4 m/s, mean gradient >= 40mmHg, aortic valve area =< 1 cm2",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Percutaneous coronary intervention or coronary artery bypass grafting in the past three months, or have revascularization planned in the near future",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known, unrevascularized, and severe coronary artery disease (for example a 90% diameter stenosis or FFR<0.7 in the proximal left anterior descending artery)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Impaired left ventricular function (ejection fraction <50%)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unicuspid, bicuspid, or non-calcified aortic valve observed during echocardiography",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe aortic regurgitation, mitral valve disease, tricuspid regurgitation, or a significant intracardiac shunt",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Co-existing hypertrophic cardiomyopathy or severe septal hypertrophy >15mm",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has moderate aortic stenosis, impaired left ventricular function, and no known coronary artery disease. However, the patient's bicuspid aortic valve may be a concern for exclusion.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04514250",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

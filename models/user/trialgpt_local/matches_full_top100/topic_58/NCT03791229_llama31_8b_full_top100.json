@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03791229",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "appendectomy",
+      "label": "met",
+      "evidence": "underwent appendectomy"
+    },
+    {
+      "criterion": "ASA I physical score",
+      "label": "met",
+      "evidence": "ASA I physical score"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "previous surgery from right lower abdomen",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "preoperative pain complaint over 6 month",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03791229",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

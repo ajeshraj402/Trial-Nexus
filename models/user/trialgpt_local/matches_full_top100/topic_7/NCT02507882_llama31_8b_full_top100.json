@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02507882",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-infected patients confirmed by RT-PCR",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with and without fibrosis, cirrhosis and HCC",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HCV/HIV co-infection",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB due to NSAID gastritis. He is off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02507882",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

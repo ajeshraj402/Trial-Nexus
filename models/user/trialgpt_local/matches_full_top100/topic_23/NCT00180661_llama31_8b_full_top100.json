@@ -1,0 +1,49 @@
+{
+  "trial_id": "NCT00180661",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18-60; both sexes."
+    },
+    {
+      "criterion": "Post-bronchodilator FEV1 greater than 40% on the day of the bronchoscopy",
+      "label": "met"
+    },
+    {
+      "criterion": "No evidence of an exacerbation of asthma within the past 4 weeks.",
+      "label": "met"
+    },
+    {
+      "criterion": "Ability to cooperate with procedures",
+      "label": "met"
+    },
+    {
+      "criterion": "Ability to give consent",
+      "label": "met"
+    },
+    {
+      "criterion": "The bronchoscopist has determined the subject is clinically appropriate for bronchoscopy",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "FEV1 is less than 35% predicted before or less than 40% predicted after bronchodilator administration",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Asthma is clinically unstable",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of asthma and current symptoms are consistent with severe asthma. However, FEV1 is not provided in the patient's text.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00180661",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

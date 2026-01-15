@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01249222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "At least 3 of SIRS criteria",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "36> Tem> 38 \u25e6c",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HR>90 bpm (without medication)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "WBC<4000 or >12000 or > 10% immature neutrophil",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pass more than 24 hours from diagnosis of sepsis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "High likelihood of mortality (renal failure, hepatic encephalopathy, \u2026.) or imminent death(APACHE II score >25)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01249222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

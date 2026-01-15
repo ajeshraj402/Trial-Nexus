@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00654563",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "alert and cooperative man who does not have any signs of dementia"
+    },
+    {
+      "criterion": "memory_disorder",
+      "label": "not_met",
+      "evidence": "Parkinson's disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "less than 18 years of age (children)"
+    }
+  ],
+  "notes": "Patient is a 55-year-old man with Parkinson's disease, capable of providing informed consent and having a legal representative able to provide informed consent. However, he is excluded due to being under the age of 18.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT00654563",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

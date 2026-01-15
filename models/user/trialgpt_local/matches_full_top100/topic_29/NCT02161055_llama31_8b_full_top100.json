@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02161055",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe closed traumatic brain injury diagnosed in the clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Blood glucose levels > 7.0 mmol/L measured twice by rapid examination within 2 hours of hospital admission",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At the age of 18 - 80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Irrespective of gender",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Glasgow coma score between 3 and 8",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "At the age of < 18 years old or > 80 years old",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Glasgow coma score > 8",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis, but is currently well and not experiencing any nausea or vomiting.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02161055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00493610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with known hepatitis C",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "Patient on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy",
+      "label": "met",
+      "evidence": "His medical record shows previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "Patient on direct antiviral drugs",
+      "label": "met",
+      "evidence": "Direct antiviral drugs were added to his treatment 6 months ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significantly decompensated liver cirrhosis of Child's Class C",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Liver mass or hepatocellular cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "On antioxidant such as Vitamin E or Vitamin C",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to N-acetylcysteine",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with direct antiviral drugs. No evidence of liver mass or hepatocellular cancer, decompensated cirrhosis, pregnancy, or allergy to N-acetylcysteine.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00493610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

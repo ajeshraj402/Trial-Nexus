@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02073617",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "tavr_plan",
+      "label": "met",
+      "evidence": "underwent a preop workup for valvular replacement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "egfr",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "irregular_heart_rate",
+      "label": "not_met",
+      "evidence": "no angiographically apparent flow-limiting coronary artery disease"
+    },
+    {
+      "criterion": "contrast_allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent_ability",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02073617",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

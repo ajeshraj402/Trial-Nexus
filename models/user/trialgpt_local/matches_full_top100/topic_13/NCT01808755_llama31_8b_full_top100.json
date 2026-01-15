@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01808755",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "urinary tract infections",
+      "label": "met",
+      "evidence": "Recurrent UTIs with Klebsiella/Pseudomonas, Urinary Tract Infections-pseudomonas & enterococcus"
+    },
+    {
+      "criterion": "no antimicrobials within 4 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "not pregnant or contemplating pregnancy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "upper urinary tract infection",
+      "label": "not_met",
+      "evidence": "Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01808755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

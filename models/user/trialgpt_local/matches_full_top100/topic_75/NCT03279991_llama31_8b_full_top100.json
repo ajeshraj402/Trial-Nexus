@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03279991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "cardiovascular_disease",
+      "label": "met",
+      "evidence": "hypertension and hypercholesterolemia"
+    },
+    {
+      "criterion": "neurodegenerative_disease",
+      "label": "met",
+      "evidence": "Parkinson's disease"
+    },
+    {
+      "criterion": "cancer",
+      "label": "met",
+      "evidence": "no mention of cancer"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability_to_understand_and_want",
+      "label": "not_met",
+      "evidence": "alert and cooperative man who does not have any signs of dementia"
+    },
+    {
+      "criterion": "refusal_to_sign_informed_consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with Parkinson's disease. He has hypertension and hypercholesterolemia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03279991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT03364959",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged from 1 to 4 years old",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Male or female",
+      "label": "met"
+    },
+    {
+      "criterion": "With medically diagnosed asthma",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients who are used to use an inhalation chamber with a face mask",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients who have not had asthmatic decompensation for at least 1 month.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients' parents having given their written consent",
+      "label": "met"
+    },
+    {
+      "criterion": "With normal clinical respiratory examination on the day of the test.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients whose parents are unable to understand the purpose and conditions of the study",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients whose parents are unable to give their consent",
+      "label": "not_met"
+    },
+    {
+      "criterion": "clinical trial",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients presenting with a nasopharyngeal infection in the previous month",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Child with nasal obstruction, nocturnal snoring, adenoid facies or facial malformation",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patient presenting with an asthmatic decompensation episode in the previous month",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03364959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04715165",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective LC under general anesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "aged from 20 to 65 years old",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to regional block (coagulopathy, infection at the needle insertion site, or diaphragmatic paralysis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "altered conscious level",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "body mass index (BMI > 35)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04715165",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

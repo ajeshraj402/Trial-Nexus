@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03677349",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "reconstructive surgery after carcinological excision",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled post-operative radiotherapy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "coverage by the Social Security system",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "capacity to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "post-traumatic substance loss (ballistic autolysis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "surgical or anesthetic contraindication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or breastfeeding woman",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subject incapable of full age or deprived of liberty",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "indication for chemotherapy with highly neurotoxic agents",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to complete questionnaires or express feelings during the examination",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl, which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03677349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

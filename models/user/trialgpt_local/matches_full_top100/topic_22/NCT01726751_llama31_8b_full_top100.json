@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01726751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Rome II criteria",
+      "label": "met",
+      "evidence": "fulfilment of Rome II criteria"
+    },
+    {
+      "criterion": "abdominal pain episodically reaching > 4 on a 0-10 VAS",
+      "label": "met",
+      "evidence": "abdominal pain episodically reaching > 4 on a 0-10"
+    },
+    {
+      "criterion": "stable symptoms for the past 2 years",
+      "label": "met",
+      "evidence": "stable symptoms for the past 2 years"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other gastrointestinal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "somatic or psychiatric co-morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 31-year-old woman with abdominal pain. She meets the Rome II criteria and has stable symptoms for the past 2 years.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01726751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

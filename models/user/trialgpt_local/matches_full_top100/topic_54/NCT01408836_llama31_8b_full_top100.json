@@ -1,0 +1,43 @@
+{
+  "trial_id": "NCT01408836",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of Wegener's granulomatosis or microscopic polyangiitis, using criteria adapted by EUVAS from the disease definitions of the Chapel Hill consensus conference",
+      "label": "met",
+      "evidence": "documented positive serum MPO-ANCA in his medical record"
+    },
+    {
+      "criterion": "Biopsy proven, pauci-immune, necrotising and/or crescentic glomerulonephritis, in the absence of other defined glomerulopathy",
+      "label": "met",
+      "evidence": "Transbronchial biopsy revealed necrotic granulomas with multinucleated giant cells"
+    },
+    {
+      "criterion": "Severe renal impairment defined by: (i) oliguria (<400ml/24hr), or (ii) intention to commence dialysis within 48 hours of admission, and (iii) creatinine >500umol/l (5.8mg/dl)",
+      "label": "met",
+      "evidence": "His Birmingham Vasculitis Activity Score (BVAS) is above 4 since the beginning of his disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 or over 80 years",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Inadequate contraception in women of child-bearing age",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown"
+    }
+  ],
+  "notes": "A 57-year-old man with Wegener's granulomatosis, severe renal impairment, and positive serum MPO-ANCA. He is being treated with corticosteroid and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01408836",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

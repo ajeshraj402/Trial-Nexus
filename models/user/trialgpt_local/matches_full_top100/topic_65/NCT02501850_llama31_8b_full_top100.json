@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02501850",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age between 50-65 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active GLP-1R agonist, insulin or DPP-IV treatment.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver failure (3lsn AST and/or ALT)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Kidney failure (FG <30ml/min/1,73m2)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HbA1c> 10%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LDL-cholesterol> 180 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Triglycerides> 350 mg/dl",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes, not type 2. He is under 50 years old.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02501850",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

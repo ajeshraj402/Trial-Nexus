@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00879190",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women in labor or undergoing induction of labor",
+      "label": "met"
+    },
+    {
+      "criterion": "greater than or equal to 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "diagnosed with chorioamnionitis as defined by maternal temperature > or = 38.0 degrees Centigrade plus at least one of the following: maternal tachycardia (heart rate >110), fetal tachycardia (fetal heart rate baseline >160), purulent amniotic fluid, uterine tenderness",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or adverse reaction to penicillin or ampicillin, gentamicin, or sulbactam",
+      "label": "unknown"
+    },
+    {
+      "criterion": "having received antibiotics for the treatment of preterm premature rupture of membranes or other condition within the last 7 days",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has myasthenia gravis, but it is not an exclusion criterion. She meets all inclusion criteria and does not meet any exclusion criteria.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT00879190",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

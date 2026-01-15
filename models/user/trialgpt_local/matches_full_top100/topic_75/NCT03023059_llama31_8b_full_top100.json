@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03023059",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of AMD with choroidal neovascularization (CNV) in one eye",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal or dry AMD of any grade in the second eye",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willingness to maintain AREDS vitamin supplements throughout the study, or remain off these supplements for the duration of the study, if not taking them prior to the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed Consent at Baseline",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any current use of L-DOPA containing medication or dopamine agonist medication, or any planned use of any of these agents, except for study medication, during the study",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Concurrent use of monoamine oxidase (MAO) inhibitors",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, which is a significant orthostatic hypotension and neurologic condition that can impair vision. He is currently taking Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03023059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

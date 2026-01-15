@@ -1,0 +1,30 @@
+{
+  "trial_id": "NCT00172393",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Virologically-confirmed EV71 cases with CNS involvement",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No evidence of EV71 infection",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No evidence of CNS involvement",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00172393",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

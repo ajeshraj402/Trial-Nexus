@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02379130",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton",
+      "label": "met",
+      "evidence": "The baby boy is a first child."
+    },
+    {
+      "criterion": "mother_age",
+      "label": "met",
+      "evidence": "The mother had a normal pregnancy with no complication and was born at the age of 38 weeks"
+    },
+    {
+      "criterion": "support_person",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "developmental_deficit",
+      "label": "not_met",
+      "evidence": "He has no developmental delay in the physical assessment."
+    },
+    {
+      "criterion": "medical_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contagion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe_congenital_anomalies",
+      "label": "not_met",
+      "evidence": "The diagnostic laparoscopy showed an abdominal undescended testis."
+    },
+    {
+      "criterion": "severe_motor_disability",
+      "label": "not_met",
+      "evidence": "He has no developmental delay in the physical assessment."
+    },
+    {
+      "criterion": "mother_psychosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02379130",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

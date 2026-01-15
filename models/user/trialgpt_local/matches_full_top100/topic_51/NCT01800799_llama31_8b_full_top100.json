@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01800799",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female adults aged \u2265 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All patients should be proven to have UTI by detecting pyuria in urinalysis (WBC>10 per high power field) and had a positive urine culture result.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A KUB film, and renal sonography will be performed to exclude the possibility of urolithiasis or other urinary tract pathology.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not yet have lower urinary tract surgery in the past.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The patient has not yet accepted anticholinergic medication",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient or his legally acceptable representative has signed the written informed consent form.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe cardiopulmonary disease and such as congestive heart failure, arrhythmia, poorly controlled hypertension, not able to receive regular follow-up.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with uncontrolled confirmed diagnosis of acute urinary tract infection.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients have laboratory abnormalities at screening including: (1) Aspartate aminotransferase (AST) > 3 x upper limit of normal range. (2) Alanine aminotransferase (ALT) > 3 x upper limit of normal range. (3) Patients have abnormal serum creatinine level > 2 x upper limit of normal range.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female patients who is pregnant, lactating, or with child-bearing potential without contraception.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with any other serious disease or condition considered by the investigator not suitable for entry into the trial.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients participated investigational drug trial within 1 month before entering this study.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of fever, chills, nausea and vomiting. She also complains of dysuria, urgency and frequency. The urine culture showed Gram-negative rod-shaped bacterial cells, leukocytes, and leukocyte casts.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT01800799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

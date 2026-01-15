@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04509141",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "subjects aged 19-50 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "subjects with history of clinical diagnosis of migraine (interictal period)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "signed research approval forms, and were willing to take the study to completion.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subjects with pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lesions, wounds, infections and suffering from malignant diseases or tumor",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thrombophlebitis in the area at the selected acupuncture point",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "increasing liver function three times above normal values.",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "15 year old girl with recurrent bilateral headache, diagnosed with migraine headache and under treatment. Lives with parents, high-school student.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT04509141",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

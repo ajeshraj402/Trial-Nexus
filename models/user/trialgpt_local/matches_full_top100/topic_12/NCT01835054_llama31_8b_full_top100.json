@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01835054",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 or 21 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of at least moderate chronic OMR defined as an ERO \u226520mm2 and/or a regurgitant volume \u226530mL",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MR due to ischemic heart disease or cardiomyopathy",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous valve operation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of myocardial infarction or angiographycally documented coronary stenosis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, which may be a contraindication for surgery. However, the patient is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01835054",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

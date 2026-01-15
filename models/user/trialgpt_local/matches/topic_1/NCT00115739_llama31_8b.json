@@ -1,0 +1,110 @@
+{
+  "trial_id": "NCT00115739",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed anaplastic thyroid carcinoma",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma, not anaplastic thyroid carcinoma."
+    },
+    {
+      "criterion": "measurable disease",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "brain metastases stable for at least six weeks post-radiation therapy",
+      "label": "met",
+      "evidence": "Patient has a history of radiation therapy, but no mention of brain metastases stability."
+    },
+    {
+      "criterion": "Age 18 years, male or female",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Karnofsky performance status (KPS) of > 70%",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Life expectancy of at least 12 weeks",
+      "label": "met",
+      "evidence": "Patient has a history of cancer, but no mention of life expectancy"
+    },
+    {
+      "criterion": "Hematologic: ANC 1,500 mm3, hemoglobin 8.0 g/dl, platelets 100,000/mm3",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Normal serum calcium level within normal limits for the institution documented within 14 days prior to registration",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Adequate hepatic function as defined by a serum bilirubin 1.5 x the institutional upper limit of normal (ULN), and ALT and AST <2.5 x ULN, obtained within 14 days prior to registration",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Patients must have a serum creatinine less than 1.5 x the institutional upper limits of normal (adjusted for age) within 14 days of registration",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative pregnancy test at baseline, prior to receiving any study drug.",
+      "label": "met",
+      "evidence": "Patient is a man"
+    },
+    {
+      "criterion": "Patients must sign an informed consent prior to enrollment",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Anaplastic thyroid cancer that does not overexpress PDGF receptors or c-Abl by immunohistochemistry",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma, not anaplastic thyroid carcinoma."
+    },
+    {
+      "criterion": "Any medical or psychiatric illness which, in the opinion of the principal investigator, would compromise the patient's ability to tolerate this treatment regimen.",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "No concurrent radiotherapy (to the primary tumor) or chemotherapy may be given to the patient during the administration of the study drug.",
+      "label": "met",
+      "evidence": "Patient has a history of radiation therapy and chemotherapy, but no mention of current treatment"
+    },
+    {
+      "criterion": "Pregnant or lactating women, women of childbearing potential with either a positive pregnancy test (PPT) at baseline, or sexually active females not using reliable contraceptive methods while on study and for at least six months after chemotherapy.",
+      "label": "met",
+      "evidence": "Patient is a man"
+    },
+    {
+      "criterion": "Sexually active males not using reliable contraceptive methods while on the study and for at least six months after chemotherapy.",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Patients with malabsorption syndromes will be excluded.",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Serious concurrent infections.",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, not anaplastic thyroid carcinoma. No information is available on Karnofsky performance status, hematologic parameters, serum calcium level, hepatic function, or serum creatinine.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00115739",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

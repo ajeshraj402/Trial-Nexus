@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02907463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 18 years or older",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject is symptomatic for aortic stenosis (AS) or mixed aortic stenosis and aortic insufficiency (AS/AI) disease for which isolated surgical aortic valve replacement without concomitant procedures is indicated according to International guidelines.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Surgery starts with and is intended to be completed via a minimal invasive surgical approach. MIS is defined as a non-full sternotomy approach such as partial hemi-sternotomy, right anterior thoracotomy.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Surgery is intended to be completed with an EDWARDS INTUITY Elite Heart Valve.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject has signed and dated the investigation informed consent forms prior to any study-specific procedures are performed.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject is geographically stable and agrees to attend follow-up assessments as specified in the protocol and informed consent.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is diagnosed with pure aortic insufficiency.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject requires multiple valve replacement/repair",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject has Type 0 congenital true bicuspid aortic valve (i.e. absence of raphe and commissures are positioned about 180 degrees apart) or unicuspid aortic valve.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject has severe ventricular dysfunction defined as LVEF < 25%. RV pressure was 41 and had biatrial enlargement. EF was 25%.",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02907463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient reports"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age between 18-50 years old",
+      "label": "met",
+      "evidence": "age 35"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "physical exam and lab studies were not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "Current PTSD diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition or neurocognitive dysfunction",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were not remarkable for any other abnormalities"
+    },
+    {
+      "criterion": "that would affect function and/or task performance and/or interfere with the study protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any current (or within past 2 months) medical condition requiring medication that would interact with dronabinol or interfere with the study protocol",
+      "label": "not_met",
+      "evidence": "takes pyridostigmine 60 mg three times a day"
+    },
+    {
+      "criterion": "risk of harm to self or others that requires immediate intervention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of contraindications, current or past allergic or adverse reaction, or known sensitivity to cannabinoid-like substances (dronabinol/marijuana/cannabis/THC, cannabinoid oil, sesame oil, gelatin, glycerin, and titanium dioxide)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lack of fluency in English",
+      "label": "not_met",
+      "evidence": "patient is a research coordinator"
+    },
+    {
+      "criterion": "positive drug screen or alcohol breathalyzer",
+      "label": "not_met",
+      "evidence": "does not smoke or use illicit drugs"
+    },
+    {
+      "criterion": "unwilling/unable to sign informed consent document",
+      "label": "met",
+      "evidence": "patient reports"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

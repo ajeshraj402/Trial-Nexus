@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02293213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "No limitation, will include minorities and Spanish speaking"
+    },
+    {
+      "criterion": "participants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "met",
+      "evidence": "three sexual partners"
+    },
+    {
+      "criterion": "Currently taking the Category D or X medication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not currently sexually active with men",
+      "label": "met",
+      "evidence": "three sexual partners"
+    },
+    {
+      "criterion": "History of hysterectomy, bilateral oophorectomy, history of female sterilization",
+      "label": "unknown",
+      "evidence": "She underwent tubal ligation"
+    },
+    {
+      "criterion": "Partner with history of vasectomy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02293213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

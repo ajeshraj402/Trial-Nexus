@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00133835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "painful chronic pancreatitis",
+      "label": "met",
+      "evidence": "abdominal pain attack during the preceding 12 months"
+    },
+    {
+      "criterion": "at least 1 calcified stone greater than 4 mm in one of its axes in the cephalic or corporeal portion of the main pancreatic duct with upstream duct dilation",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene"
+    },
+    {
+      "criterion": "written informed consent obtained from the patient",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of treatment of the pancreas using ESWL, endoscopy, or surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pancreatic collection greater than 2 cm in diameter at magnetic resonance or CT Scan",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alkaline phosphatase levels greater than twice the upper limit of normal values or signs of cholangitis",
+      "label": "not_met",
+      "evidence": "lab work is remarkable for leukocytosis"
+    },
+    {
+      "criterion": "age below 18 years",
+      "label": "not_met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT00133835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

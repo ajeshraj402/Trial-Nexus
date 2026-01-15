@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01707771",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pulmonary disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "long-term treatment with oral corticosteroids",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mental illness",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT01707771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

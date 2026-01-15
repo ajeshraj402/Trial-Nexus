@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01872975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed and dated an Institutional Review Board (IRB)-approved consent form that conforms to federal and institutional guidelines",
+      "label": "met"
+    },
+    {
+      "criterion": "an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1",
+      "label": "met"
+    },
+    {
+      "criterion": "clinically T1-3, N1 breast cancer at the time of diagnosis (before neoadjuvant therapy)",
+      "label": "met"
+    },
+    {
+      "criterion": "pathologic confirmation of axillary nodal involvement at presentation (before neoadjuvant therapy) based on either a positive fine needle aspirate (FNA) or positive core needle biopsy",
+      "label": "met"
+    },
+    {
+      "criterion": "estrogen receptor (ER) analysis performed on the primary breast tumor before neoadjuvant therapy according to current American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guideline recommendations for hormone receptor testing",
+      "label": "met"
+    },
+    {
+      "criterion": "HER2 testing performed on the primary breast tumor before neoadjuvant chemotherapy according to the current ASCO/CAP guideline recommendations for human epidermal growth factor receptor 2 testing in Breast Cancer",
+      "label": "met"
+    },
+    {
+      "criterion": "completed a minimum of 8 weeks of standard neoadjuvant chemotherapy consisting of an anthracycline and/or taxane-based regimen",
+      "label": "met"
+    },
+    {
+      "criterion": "all removed axillary nodes must be histologically free from cancer at the time of definitive surgery",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "definitive clinical or radiologic evidence of metastatic disease",
+      "label": "triggers"
+    },
+    {
+      "criterion": "T4 tumors including inflammatory breast cancer",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01872975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

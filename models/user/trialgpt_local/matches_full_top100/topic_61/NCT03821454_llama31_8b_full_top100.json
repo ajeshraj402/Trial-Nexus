@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03821454",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "provision_of_informed_consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pathological_confirmation_of_breast_cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tumor_stage",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no_evidence_of_distant_metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "adequate_bone_marrow_function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate_hepatic_function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate_renal_function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "measurable_disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "karnofsky_score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "plt_100*10^9/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "wbc_4000/mm3",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence_of_metastatic_disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inflammatory_breast_cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "bilateral_breast_cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a postmenopausal woman with cytologically confirmed breast cancer. She has no contraindications for chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03821454",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

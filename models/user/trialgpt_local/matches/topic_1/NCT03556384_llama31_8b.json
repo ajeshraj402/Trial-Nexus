@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT03556384",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient has pathologically confirmed SDH-mutant/deficient GIST.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has recovered from the acute toxic effects of all prior chemotherapy, immunotherapy, or radiotherapy.",
+      "label": "unknown",
+      "evidence": "Patient has a history of anaplastic astrocytoma and received high-dose steroids, but it's unclear if they've fully recovered."
+    },
+    {
+      "criterion": "Patient has an ECOG Performance Status of 0-2.",
+      "label": "unknown",
+      "evidence": "Patient is a 45-year-old man with severe lower extremity weakness and urinary retention, but it's unclear what their current performance status is."
+    },
+    {
+      "criterion": "Patient has adequate hematologic, hepatic and renal function.",
+      "label": "unknown",
+      "evidence": "No information provided about patient's current lab values or organ function."
+    },
+    {
+      "criterion": "Has measurable or evaluable disease as per RECIST v1.1 (Appendix B).",
+      "label": "met",
+      "evidence": "Patient has a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma, indicating measurable disease."
+    },
+    {
+      "criterion": "Life expectancy of >12 weeks.",
+      "label": "unknown",
+      "evidence": "No information provided about patient's life expectancy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have had major surgery within 4 weeks of initiation of study medication.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are receiving other concurrent anti-neoplastic therapy (e.g., chemotherapy, targeted therapy, immunotherapy, or radiotherapy) at the start of study treatment.",
+      "label": "unknown",
+      "evidence": "Patient received high-dose steroids and radiation, but it's unclear if they're currently receiving any other therapies."
+    },
+    {
+      "criterion": "Patients with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of severe or uncontrolled systemic diseases [e.g., unstable or uncompensated respiratory, cardiac (including life threatening arrhythmias)].",
+      "label": "unknown",
+      "evidence": "Patient has hypertension and chronic pain, but it's unclear if they have any other uncontrolled systemic diseases."
+    },
+    {
+      "criterion": "Presence of cardiac impairment class III and IV definitions; OR history of myocardial infarction/active ischemic heart disease within one year of study entry; OR uncontrolled dysrhythmias; OR poorly controlled angina.",
+      "label": "unknown",
+      "evidence": "No information provided about patient's cardiac function or history."
+    },
+    {
+      "criterion": "Pregnant or breast-feeding females.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a complex medical history, including anaplastic astrocytoma and severe lower extremity weakness. It's unclear if they've fully recovered from prior therapies or have any uncontrolled systemic diseases.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03556384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

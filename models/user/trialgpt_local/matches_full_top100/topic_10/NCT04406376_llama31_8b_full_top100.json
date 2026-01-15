@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04406376",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients (\u226518 years) diagnosed with BP within 72 hour of onset.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adult patients willing to get treatment, attending follow up visits and signing informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients treated with antivirals (i.e acyclovir) for any reason simultaneously, such as Herpes Zoster (Ramsay- Hunt syndrome).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Palsy onset > 72 hours before diagnosis or unknown onset.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous episodes of BP.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients suspected for hypothalamic-pituitary-adrenal (HPA) axis suppression who have to be cautiously tapered due to high risk for adrenal insufficiency: steroid treatment in any dosage for more the 3 weeks (due to other indication) or cushingoid appearance.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication for steroid use: uncontrolled diabetes or hypertension, psychosis, peptic ulcer or upper GI bleeding, liver cirrhosis or portal hypertension, known allergy to prednisone, etc. Any case in which steroid treatment was stopped earlier than planned by the patient or the physician.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any conditions suspicious for non-idiopathic facial palsy: chronic otitis media, acute otitis media, mastoiditis, temporal bone/middle ear trauma, other cranial nerve neuropathies (i.e cranial nerve VIII), cerebrovascular disorders, tumor affecting facial nerve (i.e, parotid malignancy, schwannoma) or systemic causes (i.e multiple sclerosis, meningitis, sarcoidosis, HIV infection, etc).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with low compliance for treatment according to the physician.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or breast-feeding patients.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year, presenting with flushing and tachycardia concerning for another flare. This is patient's 3rd flare in 2 months, while still on steroid taper which is new for her.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04406376",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

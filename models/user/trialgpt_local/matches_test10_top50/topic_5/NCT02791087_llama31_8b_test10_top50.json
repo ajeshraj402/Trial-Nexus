@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT02791087",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 21-80",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Undergoing or underwent CABG with at least one saphenous vein graft",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Individuals unable to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-cardiac illness with life expectancy <2 years",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnant state",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to iodinated contrast",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant arrhythmia; heart rate \u2265 100 beats/min; systolic blood pressure \u226490 mmHg",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Renal dysfunction(Glomerular filtration rate (GFR) <30 mL/min/1.73m2)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA without residual deficits, HTN, HL, DMII, Moderate to Severe PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02791087",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03972644",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe AS defined as aortic valve area (AVA) \u22641 cm2, AND Transvalvular maximum velocity (Vmax) \u22653.5 m/s AND AS severity evaluated severe by a heart valve team conference.",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Considered to be asymptomatic (estimated by a consultant in cardiology)",
+      "label": "met",
+      "evidence": "consultant"
+    },
+    {
+      "criterion": "Considered to be candidate for AVR (transcatheter AVR/surgical AVR)",
+      "label": "met",
+      "evidence": "consultant"
+    },
+    {
+      "criterion": "Sign of increased LV filling pressures18 or reduced longitudinal LV systolic function",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Left atrial volume index (LAVi) > 34 ml/m2; OR ratio of early diastolic peak mitral inflow velocity (E) to early mitral annulus diastolic velocity (e') ratio E/e'avg>13; OR Threefold elevation in NT-proBNP compared to the upper expected age and gender value. OR GLS>-15",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "LVEF<50%",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Very severe AS defined as Vmax>5 m/s.",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concomitant severe valvular disease other than AS",
+      "label": "not_met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Previous valvular surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate<30 ml/min/m2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dementia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of childbearing potential",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He underwent cardiac cath with right heart cath and showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03972644",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

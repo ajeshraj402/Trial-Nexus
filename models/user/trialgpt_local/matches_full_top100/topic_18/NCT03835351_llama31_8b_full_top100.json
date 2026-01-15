@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03835351",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "unilateral or bilateral inguinal hernia repair",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to tolerate general anesthesia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "eligible for laparoscopic approach",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed with benign prostate hyperplasia (BPH)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "younger than 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH, but is otherwise eligible for the trial.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03835351",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

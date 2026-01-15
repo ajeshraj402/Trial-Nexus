@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01532349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of stage 2-5 Chronic Kidney Disease (estimated glomerular filtration rate [GFR] between 15 and < 90 ml/min/1.73m2) based on the new bedside Schwartz formula estimation using serum creatinine and height",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "1-21 years of age",
+      "label": "met",
+      "evidence": "patient age"
+    },
+    {
+      "criterion": "Willingness and ability to provide informed consent and assent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children less than 1 year of age (in whom risk of vitamin D toxicity may be increased)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current pregnancy or pregnancy within the last 12 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic kidney disease, is between 1-21 years of age, and does not have any exclusion criteria. However, pregnancy status is unknown.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01532349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

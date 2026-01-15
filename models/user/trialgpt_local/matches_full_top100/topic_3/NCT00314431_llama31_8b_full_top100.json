@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00314431",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Infants were eligible if they were born before 33 weeks gestational age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "required supplemental oxygen at 36 weeks gestational age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "were discharged home after neonatal intensive care",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates who had major congenital anomalies",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "had tracheostomy tubes",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presented with severe 'exploding' headache after hitting her head, diagnosed with AVM and discharged home.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT00314431",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

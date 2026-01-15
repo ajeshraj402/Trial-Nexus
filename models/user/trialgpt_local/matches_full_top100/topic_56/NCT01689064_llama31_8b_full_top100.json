@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01689064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of a pituitary adenoma requiring resection defined as pituitary lesion with any of the following:",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neuroimaging or clinical evidence of apoplexy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decline in central visual acuity worse than (best-corrected) Snellen equivalent of 20/25 in either eye",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically significant visual field loss as determined by Humphrey or Goldmann perimetry",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically significant cranial nerve deficit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically relevant neuroendocrine deficit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intolerance of optimal medical management",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient electing endoscopic resection approach",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concurrent chronic rhinosinusitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Revision pituitary adenoma resections",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe medical co-morbidities with the inability to undergo general anesthesia",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He has residual pituitary tumor and takes only vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01689064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

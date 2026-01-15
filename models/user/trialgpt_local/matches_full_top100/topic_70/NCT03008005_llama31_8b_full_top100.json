@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient states she can give informed consent"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age between 18-50 years old",
+      "label": "met",
+      "evidence": "46-year-old woman"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "Current PTSD diagnosis",
+      "label": "met",
+      "evidence": "HAM-D score is 20"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition or neurocognitive dysfunction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "that would affect function and/or task performance and/or interfere with the study protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any current (or within past 2 months) medical condition requiring medication that would interact with dronabinol or interfere with the study protocol",
+      "label": "not_met",
+      "evidence": "no mention of current medical conditions"
+    },
+    {
+      "criterion": "risk of harm to self or others that requires immediate intervention",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "presence of contraindications, current or past allergic or adverse reaction, or known sensitivity to cannabinoid-like substances (dronabinol/marijuana/cannabis/THC, cannabinoid oil, sesame oil, gelatin, glycerin, and titanium dioxide)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "lack of fluency in English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive drug screen or alcohol breathalyzer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "unwilling/unable to sign informed consent document",
+      "label": "met",
+      "evidence": "patient states she can give informed consent"
+    },
+    {
+      "criterion": "currently pregnant (positive pregnancy test), planning pregnancy, or lactating (women)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "under 18 or over 50 years of age",
+      "label": "not_met",
+      "evidence": "46-year-old woman"
+    },
+    {
+      "criterion": "traumatic brain injury (as defined by The American Congress of Rehabilitation as a person who has had a traumatically induced physiological disruption of brain function)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to tolerate small, enclosed spaces without anxiety (e.g. claustrophobia), as determined by self-report and/or a preliminary session in a mock scanner",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities. She is on anti-depressants for the past 6 months, but the symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

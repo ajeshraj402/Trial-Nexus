@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03264612",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "virgins",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "She is a 16-year-old girl."
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "Her BMI was 24, but she has gained 5 kg in the past few weeks."
+    },
+    {
+      "criterion": "clinical stability",
+      "label": "met",
+      "evidence": "She was clinically and medically stable during the study"
+    },
+    {
+      "criterion": "menstrual cycle duration",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiopulmonary or orthopaedic problems",
+      "label": "not_met",
+      "evidence": "She does not have any cardiopulmonary or orthopaedic problems mentioned."
+    },
+    {
+      "criterion": "hormonal drugs",
+      "label": "met",
+      "evidence": "She does not smoke and she is not sexually active, so it's unlikely she takes hormonal drugs."
+    },
+    {
+      "criterion": "abnormality in ovulation or PID",
+      "label": "not_met",
+      "evidence": "There is no mention of abnormality in ovulation or pelvic inflammatory diseases (PID)."
+    },
+    {
+      "criterion": "endocrine abnormality",
+      "label": "met",
+      "evidence": "She was diagnosed with Hashimoto disease, which is an endocrine abnormality."
+    }
+  ],
+  "notes": "The patient has Hashimoto disease and high TSH levels, but she does not have any other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT03264612",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

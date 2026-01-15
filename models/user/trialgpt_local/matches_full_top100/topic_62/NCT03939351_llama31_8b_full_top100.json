@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03939351",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient aged 18 or over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication of treatment with a carotid revascularization procedure (conventional surgery or angioplasty and stent)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acceptance to participate in the protocol",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Associated retinal ophthalmological pathology: diabetic retinopathy, age-related macular degeneration, retinal vein occlusion, CRSC (Central serous chorioretinopathy)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Refusal to participate in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not affiliated to a social security scheme",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may require treatment with a carotid revascularization procedure. However, there is no indication of associated retinal ophthalmological pathology or refusal to participate in the study.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03939351",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

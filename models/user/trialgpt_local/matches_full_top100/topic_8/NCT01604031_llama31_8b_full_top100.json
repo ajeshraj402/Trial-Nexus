@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01604031",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with B-CLL (not in Richter's transformation) with measurable disease.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Procurement consent signed and faxed to Research Coordinator",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV negative (can be pending at this time)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infected at time of protocol entry, or receiving antibiotics (other than prophylactic trimethoprim sulfamethoxazole).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CLL with large cell transformation, which may make them ineligible for the trial. They also have a rising white count and mildly elevated LDH, indicating possible infection or other exclusion criteria.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01604031",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

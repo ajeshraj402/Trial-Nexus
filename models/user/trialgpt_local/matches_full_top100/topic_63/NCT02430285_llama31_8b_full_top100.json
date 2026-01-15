@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02430285",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "consecutive patients entering the emergency department for possible acute biliary pancreatitis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "all consecutive patients entering the emergency department for possible acute biliary pancreatitis",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "gastrectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient in whom the cause of biliary obstruction was already identified by US",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain, nausea and vomiting. Ultrasound revealed gallstones, biliary sludge and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT02430285",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

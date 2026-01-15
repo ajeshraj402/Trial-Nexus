@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00675584",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Positive asthma predictive index (API) status",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A history of at least 4 wheezing episodes in the prior year with at least one physician diagnosed or at least 3 wheezing episodes in the prior year with at least one physician diagnosed and at least 3 months of asthma controller therapy in the prior year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Experienced a severe exacerbation requiring systemic corticosteroids, urgent unscheduled or emergency visit, or hospitalization in the 12 months before the screening visit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All immunizations must be completed, including varicella (unless the child has already had clinical varicella). If the child needs the varicella vaccine, this will be arranged with the primary care physician and must be received before study entry.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allows blood to be used for genetic analysis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to provide informed consent by the child's parent or guardian",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of more than six courses of systemic corticosteroids in the 12 months before the screening visit",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than two hospitalizations for wheezing illnesses in the 12 months before the screening visit",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of asthma and has experienced severe exacerbations requiring systemic corticosteroids. However, they have not used more than six courses of systemic corticosteroids in the past year.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00675584",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01345643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signs the consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Glasgow Coma Scale (GCS) score of 15",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "undergoing surgery which blood loss could be more than 800ml or 20% of the patient's whole blood volume",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse to sign consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who presents with hyperglycemia and concern for diabetic ketoacidosis. He reports being homeless and having lost his insulin supply.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01345643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

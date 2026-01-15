@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01370941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable daily intake of calcium",
+      "label": "met",
+      "evidence": "500-1200 mg, of which dairy products are minimum 500 mg"
+    },
+    {
+      "criterion": "speak and read Danish",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "written consent after verbal and written information",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known lactose intolerance / milk allergy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of calcium supplements in tablet or powder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intake of vitamin D supplements exceeding 10 micro grams/day",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01370941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

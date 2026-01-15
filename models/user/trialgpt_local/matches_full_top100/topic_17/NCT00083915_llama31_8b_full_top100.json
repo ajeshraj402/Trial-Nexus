@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00083915",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "active multiple myeloma requiring treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": ">450 mg/m2 of prior Adriamycin therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "baseline studies for determining eligibility within 35 days",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "performance status of 0-2 based on SWOG criteria",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "platelet count >= 100,000/microliters",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "creatinine <3 mg/dl and creatinine clearance >= 30 ml/minute",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "adequate hepatic function defined as serum transaminases < 2 x ULN and direct bilirubin < 2.0 mg/dl",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant co-morbid medical conditions or uncontrolled life threatening infection",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "prior autotransplant or allograft",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has active multiple myeloma requiring treatment, and meets several other inclusion criteria. However, she has a history of chronic obstructive pulmonary disease, which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00083915",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00685971",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "older than 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of CF by sweat testing/genetics",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vitamin D deficiency defined as a serum 25OHD level < 75 nmol/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on stable baseline vitamin D supplementation for at least 2 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Individuals with known hypercalcemia or renal stones",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "psychiatric history",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "use of tanning beds/travel to sunny location within the last 2 months",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, which may be a contraindication for vitamin D supplementation.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00685971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

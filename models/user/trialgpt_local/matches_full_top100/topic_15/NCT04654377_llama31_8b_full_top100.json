@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04654377",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic pancreatitis of at least 3 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 5 episodes of pain in the past 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pain score of at least 3 on a visual analog scale (VAS) of 0-10",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age 18-60yrs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute pancreatitis episode at the time of enrolment and/or during follow-up.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ongoing pain at the time of enrolment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pancreatic cancer.",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Other chronic diseases (including end organ damage related to diabetes).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adverse life event in the family in the past 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active substance use (alcohol, smoking, smokeless tobacco, Illicit drugs).",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass with fevers/rigors and bandemia. She underwent EUS with biopsy showing pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04654377",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

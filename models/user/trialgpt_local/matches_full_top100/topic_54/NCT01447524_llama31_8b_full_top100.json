@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01447524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diet or oral hypoglycaemic agents",
+      "label": "met",
+      "evidence": "treatment with corticosteroid and cyclophosphamides"
+    },
+    {
+      "criterion": "morbid obesity (BMI > 40kg/m2)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "good metabolic control (HbA1C <7.5%)",
+      "label": "not_met",
+      "evidence": "Hgb: 13 g/dl, HbA1C not mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "treatment with GLP-1 agonists, DPP-4 inhibitors, insulin",
+      "label": "met",
+      "evidence": "treatment with corticosteroid and cyclophosphamides"
+    },
+    {
+      "criterion": "serum creatinine >150 \u00b5mol/l",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Wegener's granulomatosis, being treated with corticosteroids and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01447524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

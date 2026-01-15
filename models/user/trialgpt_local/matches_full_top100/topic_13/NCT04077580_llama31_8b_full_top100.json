@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04077580",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age \u2265 70 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "recurrent UTIs defined as \u2265 3 episodes of antibiotic treated acute cystitis (acute symptoms specific/related to the urinary tract) during the last twelve months or \u2265 2 episodes during the last 6 months",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "able and willing to comply with all trial requirements",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the patient has taken methenamine hippurate within the last 12 months",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "the patient is allergic to methenamine hippurate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the patient has a urinary catheter (chronic indwelling catheters as well as intermittent urinary catheterisation)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has multiple prior admissions for UTIs, altered mental status, and urosepsis. Has an indwelling suprapubic catheter with significant leaking around the site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04077580",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

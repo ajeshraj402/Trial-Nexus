@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02910349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic asymptomatic aortic regurgitation grade 3 (moderate to severe) and grade 4",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "(severe)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No indication for the surgical treatment at the time of enrolment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "LV EF \u2265 50 %",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absence of more than mild concomitant valve disease or complex congenital heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clearance Creatinine < 30 mL/min",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication of magnetic resonance (implanted active device, ferromagnetic implant incompatible with magnetic resonance scanner, aneurysm clip, metallic fragment in the eye or near sensitive tissue)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02910349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

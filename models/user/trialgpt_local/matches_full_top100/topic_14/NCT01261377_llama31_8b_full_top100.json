@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01261377",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "COPD diagnosis",
+      "label": "met",
+      "evidence": "Known diagnosis of COPD (GOLD stage 2 or higher)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CPAP/BPAP device use",
+      "label": "not_met",
+      "evidence": "Daughter reports med compliance and compliance with BiPap at night"
+    },
+    {
+      "criterion": "Estimated GFR <30 ml/min/1.73 m2 or on hemodialysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women known to be pregnant or planning to be pregnant in next 6 months",
+      "label": "not_met",
+      "evidence": "No mention of pregnancy"
+    },
+    {
+      "criterion": "Cardiac pacemaker, metallic heart valves, metallic implants, claustrophobic",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic atrial fibrillation or frequent premature ventricular contractions",
+      "label": "not_met",
+      "evidence": "No mention of chronic atrial fibrillation or frequent premature ventricular contractions"
+    },
+    {
+      "criterion": "Using lipid-lowering medications, aspirin, oral steroids, steroid-sparing medications or anti-oxidant vitamin supplements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to stress cardiac testing",
+      "label": "not_met",
+      "evidence": "No mention of acute myocardial infarction within 48 hours, unstable angina not yet stabilized with medical therapy, ongoing chest pain, active broncho-constriction, uncontrolled cardiac arrhythmia, symptomatic severe aortic stenosis, aortic dissection, acute pulmonary embolism or pericarditis"
+    },
+    {
+      "criterion": "Uncontrolled COPD or acute COPD exacerbation",
+      "label": "not_met",
+      "evidence": "No mention of uncontrolled COPD or acute COPD exacerbation"
+    },
+    {
+      "criterion": "Known chronic inflammatory diseases like lupus or active infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, CHF, obesity hypoventilation syndrome, obstructive sleep apnea, DM2, ventricular tachycardia, hypothyroidism, schizophrenia, and COPD. She is currently using BiPap at night.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01261377",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

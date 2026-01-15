@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02731417",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postpartum urinary retention",
+      "label": "met",
+      "evidence": "confirmed by ultrasonography"
+    },
+    {
+      "criterion": "difficulty having voluntary micturition",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dermatitis over the acupuncture points",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active urinary tract infection",
+      "label": "not_met",
+      "evidence": "negative Nitrite, negative Leukocyte esterase"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with acute urinary retention and large prostate. He has normal blood chemistry and no signs of active urinary tract infection.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02731417",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

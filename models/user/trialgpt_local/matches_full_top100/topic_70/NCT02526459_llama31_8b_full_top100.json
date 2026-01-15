@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02526459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "baby with cephalic presentation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "less than 34 weeks gestation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "planned Caesarean section",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "planned pre-existing birth plan",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intrauterine fetal demise",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities. She is on anti-depressants for the past 6 months, but the symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT02526459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

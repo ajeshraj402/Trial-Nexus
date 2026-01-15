@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04342520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 57-year-old man."
+    },
+    {
+      "criterion": "first_time_memory_consultation",
+      "label": "met",
+      "evidence": "Patient received for the first time in Memory Consultation and not aware of his diagnosis"
+    },
+    {
+      "criterion": "mmse_score",
+      "label": "met",
+      "evidence": "The patient has a Mini-Mental State Assessment score (MMSE) \u2265 20"
+    },
+    {
+      "criterion": "primary_caregiver",
+      "label": "met",
+      "evidence": "Patient accompanied by a primary caregiver"
+    },
+    {
+      "criterion": "patient_consent",
+      "label": "met",
+      "evidence": "Patient able to provide consent to participate in research"
+    },
+    {
+      "criterion": "caregiver_consent",
+      "label": "met",
+      "evidence": "Caregiver is able to provide consent to participate in research"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "The patient is a man"
+    },
+    {
+      "criterion": "male_or_female_55_years_and_over",
+      "label": "met",
+      "evidence": "The patient is a 57-year-old man with abdominal pain and vomiting."
+    },
+    {
+      "criterion": "patient_not_aware_of_diagnosis",
+      "label": "met",
+      "evidence": "Patient received for the first time in Memory Consultation and not aware of his diagnosis"
+    },
+    {
+      "criterion": "caregiver_accompanies_patient",
+      "label": "met",
+      "evidence": "Caregiver accompanies the patient and is considered as the main caregiver during the consultation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "living_in_care_homes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "protected_by_law",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing_or_visual_impairment",
+      "label": "unknown",
+      "evidence": "His bowel sounds are normal. His heart rate is 115/min and blood pressure 110/75 mmHg."
+    },
+    {
+      "criterion": "opposing_research",
+      "label": "not_met",
+      "evidence": "The patient opposing research"
+    }
+  ],
+  "notes": "The patient has a history of alcohol consumption (60 units per week) and smoking (22 cigarettes per day).",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04342520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

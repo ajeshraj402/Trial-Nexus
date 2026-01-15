@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00302146",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "GBA mutations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "parkinsonism or unaffected subject at risk",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "controls without GBA1 mutations",
+      "label": "met",
+      "evidence": "Controls will include subjects without GBA1 mutations"
+    },
+    {
+      "criterion": "healthy volunteers",
+      "label": "met",
+      "evidence": "Healthy Volunteers and Control subjects will be matched for age, gender and handedness"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe cognitive deficits impairing decision making",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable or medically unsafe to withdraw from current medications",
+      "label": "met",
+      "evidence": "subjects on SSRIs and other psychoactive drugs"
+    },
+    {
+      "criterion": "pregnant or nursing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of neurologic conditions such as stroke or focal brain lesion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cannot lie on his/her back for a prolonged period of time",
+      "label": "met",
+      "evidence": "The swellings are non-tender and attached to the underlying bone"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but no history of neurologic conditions or severe cognitive deficits. No mention of pregnancy or nursing status.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00302146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

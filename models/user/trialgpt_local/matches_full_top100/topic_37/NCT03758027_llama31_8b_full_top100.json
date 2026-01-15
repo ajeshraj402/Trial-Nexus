@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03758027",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "be 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "meet criteria for problematic drinking or drug use",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "having been directly discharged from an inpatient psychiatric admission;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently under the influence of alcohol or any illicit or non-prescribed drugs;",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having received either of the treatment interventions as part of their current treatment;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having current suicidal or homicidal thoughts, plans, or attempts;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "experiencing current psychosis;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to read the self-report assessment forms in English without assistance;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She smokes 10 cigarettes per day and drinks alcohol occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT03758027",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03179891",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled for admission to the institution's EMU, GCRC or similar facility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "male and female subjects between 18 to 65 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "body weight of \u2265 40 kg to 111 kg",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinical diagnosis of epilepsy and scheduled to be admitted to an Epilepsy Monitoring Unit (EMU)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "average frequency of > 1 seizure every 3 days or > 10 seizures / month",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "female subjects have a negative serum pregnancy test at Screening",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently receiving at least one antiepileptic medication",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willing and able to complete informed consent/assent and HIPAA authorization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ability to comprehend and be informed of the nature of the study, as assessed by the PI or Sub-Investigator",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to consume standard meals",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "availability to volunteer for the entire study duration and willing to adhere to all protocol requirements",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "progressive neurological disorder such as brain tumor, demyelinating disease, or degenerative central nervous system (CNS) disease that is likely to progress in the next 12 months",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "respiratory failure (or is at risk for respiratory failure) or other severe cardiorespiratory disease with New York Heart Association Class III or IV functional status, or requires supplemental oxygen",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy and is scheduled to be admitted to an Epilepsy Monitoring Unit (EMU) for evaluation. However, the patient's average seizure frequency is not documented, making it difficult to assess their eligibility.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03179891",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02486783",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Gestational age",
+      "label": "met",
+      "evidence": "24W3D"
+    },
+    {
+      "criterion": "Pregnancy status",
+      "label": "met",
+      "evidence": "pregnant woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of recurrent UTI",
+      "label": "not_met",
+      "evidence": "no history of recurrent UTI prior to her pregnancy"
+    },
+    {
+      "criterion": "Underlying disease",
+      "label": "not_met",
+      "evidence": "no other underlying disease"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and severe flank pain. Vital signs: T = 39.7\u00baC, P = 117, R = 20, BP = 113/74 mm Hg.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02486783",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

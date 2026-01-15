@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02066129",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Physician-diagnosed asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 1 exacerbation treated with systemic (oral or injectable) corticosteroids in the past 12 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to perform reproducible spirometry",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current treatment with step 2 controller therapy [low-dose ICS, leukotriene receptor antagonist (LTRA)] OR current treatment with step 3 controller therapy [low-dose ICS + long-acting beta agonist (LABA), low-dose ICS + LTRA, or medium dose ICS] with a childhood Asthma Control Test (c-ACT) score of >19",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prebronchodilator FEV1 \u2265 60% predicted",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability and willingness to provide informed assent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systemic (oral or injectable) corticosteroids within previous 2-week period",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current or recent (previous 2-weeks) use of medications known to significantly interact with corticosteroid disposition, including but not limited to carbamazepine, erythromycin, phenobarbital, phenytoin, rifampin, and ketoconazole",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of chronic or active lung disease other than asthma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently treated with inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg. He has had exacerbations treated with systemic corticosteroids in the past year.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02066129",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

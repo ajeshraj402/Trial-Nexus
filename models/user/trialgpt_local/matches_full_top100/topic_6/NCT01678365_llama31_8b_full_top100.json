@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01678365",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "medications",
+      "label": "met",
+      "evidence": "oral amoxicillin/clavulanate therapy for further 7 days"
+    },
+    {
+      "criterion": "no oral food or fluid",
+      "label": "met",
+      "evidence": "nasogastric tubes were not used routinely"
+    },
+    {
+      "criterion": "intravenous hydration as necessary",
+      "label": "met",
+      "evidence": "patients who were stable, a febrile, could tolerate diet and had Complete blood count within normal limits were discharged home"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe septic shock at admission",
+      "label": "triggers",
+      "evidence": "patient was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**]"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01678365",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT02073617",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects must be more than 18 years of age",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "with a plan to undergo TAVR",
+      "label": "met",
+      "evidence": "The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US, and also underwent a cardiac cath with right heart cath"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "estimated glomerular filtration rate <40 mL/min/1.73m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "highly irregular heart rates, frequent extra systoles, additional extra pulsations, not in sinus heart rhythm",
+      "label": "not_met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "allergy to contrast media",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to consent",
+      "label": "met",
+      "evidence": "The patient presented for evaluation and underwent various tests, indicating they are able to provide informed consent."
+    }
+  ],
+  "notes": "Patient's EF is 25%, which may be relevant for assessing kidney function. However, no specific information about glomerular filtration rate was provided.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02073617",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

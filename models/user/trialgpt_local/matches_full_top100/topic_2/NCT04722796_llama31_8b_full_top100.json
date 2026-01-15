@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04722796",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 65 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe, bicuspid aortic stenosis: Mean gradient \u226540 mmHg",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active sepsis, including active bacterial endocarditis with or without treatment;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction \u2264 1 month (30 days) before the intended treatment [(defined as: Q wave MI, or non-Q wave MI with total CK elevation of CK-MB \u2265 twice normal in the presence of MB elevation and/or troponin level elevation (WHO definition)];",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Stroke or transient ischemic attack (TIA) within 3 months (90 days) of the procedure.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF was 25%. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04722796",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

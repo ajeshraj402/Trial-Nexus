@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital",
+      "label": "met",
+      "evidence": "patient's admission"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "met",
+      "evidence": "patient's recent flare"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met",
+      "evidence": "patient is a 22yo F"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

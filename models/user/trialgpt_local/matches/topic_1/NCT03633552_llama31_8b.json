@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT03633552",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed glioblastoma and anaplastic astrocytoma",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine, but it's not newly diagnosed."
+    },
+    {
+      "criterion": "age between 18 and 70 years",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Karnofsky Performance Scale Index equal or more than 60 percent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The patients will initially undergo surgery.",
+      "label": "does_not_trigger",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but it's not clear if they underwent surgery."
+    },
+    {
+      "criterion": "chronic hepatic failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of hematologic malignancies",
+      "label": "does_not_trigger",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but it's not clear if it's a hematologic malignancy."
+    }
+  ],
+  "notes": "Key unknowns include the patient's Karnofsky Performance Scale Index and whether they have undergone surgery. Additionally, the exact nature of their previous treatment is unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03633552",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

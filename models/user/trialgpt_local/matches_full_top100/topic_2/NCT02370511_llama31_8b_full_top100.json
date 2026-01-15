@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02370511",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient has severe calcific native mitral valve stenosis with mitral annular calcification with echocardiographically derived mitral valve area (MVA) of \u22641.5 cm2, or severe mitral regurgitation with severe mitral annular calcification and at least moderate mitral valve stenosis.",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Patient is symptomatic from mitral valve disease, as demonstrated by reported NYHA Functional Class II or greater, or symptoms during stress test.",
+      "label": "met",
+      "evidence": "patient report"
+    },
+    {
+      "criterion": "The patient is at least 22 years old.",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "The heart team agrees (and verified in the case review process) that valve implantation will likely benefit the patient.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All patients must be approved by the Patient Selection and Procedure Management Steering Committee (at least 2 member votes, one must be a cardiac surgeon).",
+      "label": "met",
+      "evidence": "committee approval"
+    },
+    {
+      "criterion": "The study patient has been informed of the nature of the study, agrees to its provisions and has provided written informed consent as approved by the Institutional Review Board (IRB) of the respective clinical site.",
+      "label": "met",
+      "evidence": "informed consent"
+    },
+    {
+      "criterion": "The study patient agrees to comply with all required post-procedure follow-up visits including annual visits through 5 years and analysis close date visits, which will be conducted as a phone follow-up.",
+      "label": "met",
+      "evidence": "patient agreement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Heart Team assessment of operability (the heart team considers the patient is a surgical candidate).",
+      "label": "not_met",
+      "evidence": "heart team assessment"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction \u2264 1 month (30 days) before the intended treatment [defined as: Q wave MI, or non-Q wave MI with total CK elevation of CK-MB \u2265 twice normal in the presence of MB elevation and/or troponin level elevation (WHO definition)].",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mitral annulus is not calcified (only applies to patients included in Native MV arm).",
+      "label": "not_met",
+      "evidence": "calcification present"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. RV pressure was 41 and had biatrial enlargement. Noted to have 2+ aortic insufficiency with mild MR.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02370511",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

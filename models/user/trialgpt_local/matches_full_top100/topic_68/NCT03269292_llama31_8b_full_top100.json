@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03269292",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "warm auto Immune hemolytic anemia primary or secondary",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "rheumatoid arthritis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Microangiopathic hemolytic anemia ( Thrombotic thrombocytopenic purpura (TTP) , Hemolytic-uremic syndrome (HUS) , Disseminated intravascular coagulation (DIC) )",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alloimmune hemolytic anemia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has atypical hemolytic uremic syndrome, which is a type of microangiopathic hemolytic anemia. However, the genetic survey revealed ADAMTS13 >10%, indicating that this is not TTP.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03269292",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04482907",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "multi-nodular goiter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "benign result in fine needle aspiration biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sick over the age of 18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "accept the research",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid function tests non-euthyroid individuals",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignant result in thyroid biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but is euthyroid after treatment. No renal failure or pregnancy mentioned.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04482907",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

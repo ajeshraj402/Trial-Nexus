@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04124783",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female who is at least 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Self-reports having at least two (2) daily hot flashes associated with menopause",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Taking hormonal therapy (currently or within the last 3 months)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has another existing medical condition that would prevent study compliance",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, taking daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT04124783",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04024085",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adult with a multiple sclerosis diagnosis",
+      "label": "met",
+      "evidence": "diagnosis of Paget's Disease of Bone was confirmed"
+    },
+    {
+      "criterion": "able to walk 50 meters without human help",
+      "label": "met",
+      "evidence": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening."
+    },
+    {
+      "criterion": "Expanded Disability Status Scale (EDSS) < 7",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "relapse of multiple sclerosis in the last 7-days",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute urinary tract infection",
+      "label": "not_met",
+      "evidence": "Further evaluation shows increased uptake of radioactive substance as well as an increase in urinary pyridinoline."
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be started on Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04024085",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

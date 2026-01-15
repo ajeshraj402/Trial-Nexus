@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02700776",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female greater than or equal to 40 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Presenting to UM Breast Center and BWMC for breast imaging: screening or diagnostic",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mammogram, breast ultrasound (US), breast MRI, stereotactic core needle biopsy,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ultrasound core needle biopsy, MRI guided breast biopsy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a recent screening diagnosis of breast cancer < = 3months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients presenting with mammogram findings with BIRADS of 0-6 < =3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to understand and the willingness to sign a written informed consent document.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a personal history of stage 0-4 breast cancer >3months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have known severe and/or uncontrolled medical or psychiatric conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "or other conditions that could affect their participation in the study, or personal history of other malignancies.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are unfit or unable to comply with having breast imaging studies such as mammogram, ultrasound, and MRI or breast biopsy or with study procedures-blood draw.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with personal history of ovarian cancer or other cancers.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a personal history of breast biopsy positive for atypical ductal hyperplasia (ADH), atypical lobular hyperplasia (ALH), lobular carcinoma in situ (LCIS).",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, and she has no history of allergies to any food or drugs. She exercises regularly for 30 minutes a day at least 5 days a week.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02700776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

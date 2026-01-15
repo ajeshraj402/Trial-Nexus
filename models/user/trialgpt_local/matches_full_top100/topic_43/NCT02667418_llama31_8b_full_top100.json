@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT02667418",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent obtained and signed",
+      "label": "met"
+    },
+    {
+      "criterion": "Age > 18",
+      "label": "met"
+    },
+    {
+      "criterion": "If female, participant must not be pregnant or nursing",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Negative pregnancy test required for females <61 years of age or without prior hysterectomy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Confirmed current diagnosis of CDI, determined by having >3 loose or semi-formed stools for participants over 24 hours AND Positive stool assay for C. difficile",
+      "label": "met"
+    },
+    {
+      "criterion": "EIA positive for toxin A/B; or Cytotoxin assay; or Nucleic Acid Amplification Test (NAAT, PCR or LAMP) based detection of toxigenic C. difficile",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Current episode represents the first recurrent episode of CDI within 3 months of the primary CDI episode in a patient who has not had CDI in the 3 months prior to the primary episode OR a second recurrent CDI episode occurring within 3 months of the first recurrent episode, as defined above",
+      "label": "unknown"
+    },
+    {
+      "criterion": "At least one of the previous CDI episodes must have been confirmed by a stool assay for C. difficile",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Inability to take oral capsules",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Receipt of >72 hours of antibiotics considered effective in the treatment of CDI, including metronidazole vancomycin fidaxomicin nitazoxanide rifaximin",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Prior infusion of bezlotoxumab within the previous 6 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Known presence of fulminant CDI, including hypotension, severe ileus or GI obstruction or incipient toxic megacolon",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Receipt of more than a single course of oral vancomycin, fidaxomicin, or a vancomycin tapering regimen since the primary episode of CDI as defined above",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Known allergy to vancomycin or fidaxomicin",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Acute or chronic diarrhea due to inflammatory bowel disease or other cause (e.g., presence of an ileostomy or colostomy) that would confound evaluation of response to CDI treatment",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool samples for Clostridium difficile toxin. She has had multiple episodes of diarrhea, including the current episode which represents her first recurrent episode within 3 months of the primary CDI episode.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02667418",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

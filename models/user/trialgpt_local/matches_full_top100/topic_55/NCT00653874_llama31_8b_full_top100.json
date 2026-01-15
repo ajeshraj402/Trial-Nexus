@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00653874",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Neonates born at 35 or more completed weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with clinical jaundice",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 25 to 168 hours",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates with Rh hemolytic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "those requiring NICU admission for more than 24 h",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having major congenital malformation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having received phototherapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is a genetic disorder that can cause liver damage and neurological symptoms. The patient's age and clinical presentation are consistent with the inclusion criteria.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00653874",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

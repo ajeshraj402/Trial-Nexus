@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01137773",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "non-traumatic SAH, ICH, or TBI",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Glasgow Coma Scale between 6 and 14",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "admitted to an ICU of University of Louisville Hospital",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients <18 and >80 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "GCS Motor score <4 or an overall GCS score of 15",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01137773",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

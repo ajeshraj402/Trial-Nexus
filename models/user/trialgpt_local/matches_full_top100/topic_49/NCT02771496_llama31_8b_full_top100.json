@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02771496",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of osteochondritis dissecans or focal articular cartilage defects as confirmed by x-ray or MRI",
+      "label": "met",
+      "evidence": "x-ray or MRI"
+    },
+    {
+      "criterion": "Diagnosis of Turner syndrome",
+      "label": "met",
+      "evidence": "karyotype study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-confirmed diagnosis",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH without estrogen therapy. She has short stature, delayed puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02771496",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

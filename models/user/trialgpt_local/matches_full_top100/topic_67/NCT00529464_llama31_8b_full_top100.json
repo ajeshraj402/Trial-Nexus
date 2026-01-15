@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00529464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "54-year-old woman"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "non-pregnant"
+    },
+    {
+      "criterion": "abnormal_smeaer_type",
+      "label": "met",
+      "evidence": "abnormal cervical squamous intraepithelial/glandular lesion"
+    },
+    {
+      "criterion": "hpv_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sexual_activity",
+      "label": "met",
+      "evidence": "sexually active with her husband and has 4 children"
+    },
+    {
+      "criterion": "contraception_use",
+      "label": "not_met",
+      "evidence": "uses no contraception"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "smokes"
+    },
+    {
+      "criterion": "alcohol_consumption",
+      "label": "met",
+      "evidence": "drinks alcohol frequently"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cytotoxic_chemo_within_last_year",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00529464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02900118",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with breast cancer bone metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at the initial diagnosis (group 1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "in a metastatic bone relapse (group 2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with a progression of bone metastasis (group 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment (hormone therapy, chemotherapy) not undertaken (group 1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior therapeutic change (group 2 and 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient not opposing the use of its data",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Claustrophobic patient",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with an uncontrolled diabetes (fasting glucose < 1.6 g / l)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with a pace-maker or another material incompatible with the MRI 3 Tesla",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Very algetic patient (Visual Analog Scale (VAS) > 7)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient under 18 or under guardianship",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Movement disorders (Parkinson disease, etc.) or dementia",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02900118",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

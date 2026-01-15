@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02241109",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient referred to routine clinical echocardiography at the Department of Cardiology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aortic sclerosis with or without stenosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any aortic valvular disease other than degenerative sclerotic, bi- or unicuspid valves",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known disease with expected survival <1 year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known malignant tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subvalvular obstruction (in LVOT) with mean pressure gradient >10mmHg",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has aortic sclerosis with stenosis, written informed consent obtained. However, patient is under 18 years old.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02241109",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

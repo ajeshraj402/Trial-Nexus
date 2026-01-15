@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02086825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "Cirrhosis of the liver based on biopsy or clinical and radiographic criteria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to provide informed consent (Grade 0 to 1 HE)",
+      "label": "met",
+      "evidence": "alert and cooperative man"
+    },
+    {
+      "criterion": "Acute renal failure (increase in baseline creatinine of 0.5mg/dL to a value of >2.0 mg/dL within 3 days).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of improvement in renal function after adequate fluid resuscitation using either normal saline or blood products (25% salt poor albumin, fresh frozen plasma, or packed red blood cells)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of sensitivity/allergy to lactulose or rifaximin or rifampin",
+      "label": "not_met",
+      "evidence": "doesn't smoke or use any illicit drugs"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to obtain informed consent",
+      "label": "met",
+      "evidence": "alert and cooperative man"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl which helps with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT02086825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

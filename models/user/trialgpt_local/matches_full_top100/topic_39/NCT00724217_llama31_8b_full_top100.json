@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00724217",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65"
+    },
+    {
+      "criterion": "total cholesterol levels",
+      "label": "met",
+      "evidence": ">180"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "both male and female"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heart disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "kidney disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thyroid disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurological diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "breastfed"
+    },
+    {
+      "criterion": "blood lipid modifying medications and/or supplements drugs and/or hypertension",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She meets the age, gender, and total cholesterol levels criteria for inclusion.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT00724217",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

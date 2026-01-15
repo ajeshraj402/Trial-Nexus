@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00261807",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Read and sign the consent form.",
+      "label": "met"
+    },
+    {
+      "criterion": "Male or female > 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Surgical diagnosis of severe necrotizing fasciitis, severe necrotizing skin and soft tissue infections (e.g. Fournier's gangrene)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "At least three of the following clinical signs and symptoms of local infection should be present: pain out of proportion to clinical findings, tenderness to palpation, swelling, erythema, induration, pus formation",
+      "label": "met"
+    },
+    {
+      "criterion": "Elevated temps.[100.4] or reduced temps. [<96]",
+      "label": "met"
+    },
+    {
+      "criterion": "Positive gram stain or wound culture obtained within 3 calendar days prior to the first dose of Daptomycin.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "If female, pregnant, or lactating and breast-feeding",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Previous antibiotic therapy exceeding 72 hours duration, unless patient is worsening clinically or has gram positive pathogens cultured from wound that are resistant to current antibiotic therapy.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. She has no history of recurrent UTI or underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00261807",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

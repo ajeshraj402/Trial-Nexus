@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00252317",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "valvular aortic stenosis with a aortic valve area < 1,0 cm2",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Willingness to give written informed consent",
+      "label": "met",
+      "evidence": "patient statement"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with stable angina pectoris",
+      "label": "met",
+      "evidence": "patient symptoms"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis with syncope at exertion",
+      "label": "met",
+      "evidence": "patient symptoms"
+    },
+    {
+      "criterion": "Patients in New York Heart Association functional class II-IV",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Sitting systolic pressure < 100 mmHg",
+      "label": "not_met",
+      "evidence": "BP"
+    },
+    {
+      "criterion": "Creatinine > 200 mM at screening",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal artery stenosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or planned pregnancy",
+      "label": "not_met",
+      "evidence": "age and sex"
+    },
+    {
+      "criterion": "Participation in other studies",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any patient characteristic that may interfere with compliance with the study protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treated with ACE-inhibitor or angiotensin receptor blocker within the last month",
+      "label": "not_met",
+      "evidence": "medication list"
+    },
+    {
+      "criterion": "Known allergy to ACE-inhibitors",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and symptoms of SOB and LE edema. He is willing to give written informed consent.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00252317",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

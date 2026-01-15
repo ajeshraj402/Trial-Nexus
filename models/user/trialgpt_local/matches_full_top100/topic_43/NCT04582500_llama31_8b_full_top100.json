@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04582500",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "able to provide written informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypersensitivity to iodine-containing compounds",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or lactating",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "diuretic therapy",
+      "label": "met",
+      "evidence": "diuretic therapy, and"
+    },
+    {
+      "criterion": "enrollment in other clinical research trials involving investigational drugs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a recent history of aspiration pneumonia treated with intravenous antibiotics, is febrile, tachycardic, hypotensive, and has positive stool samples for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04582500",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00426959",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed, locally confined adenocarcinoma of the prostate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA of less than 10 ngmL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Combined Gleason score 6 or less, with no individual Gleason score of 4 or 5",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient has decided to undergo brachytherapy at the Johns Hopkins Hospital as treatment choice for his prostate cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky Performance Status greater than 70",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prostate volume by TRUS less than 50 cc",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "International Prostate symptom score must be 18 or less",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed study-specific consent form prior to registration",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical or Pathological Lymph node involvement,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of distant metastases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radical surgery for carcinoma of the prostate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of smoking and drinking, but no underlying disease such as DM. His family history is positive for hyperlipidemia in his mother and MI in his father.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00426959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

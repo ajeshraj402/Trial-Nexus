@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04851002",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "44 years old"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "radiological_imaging",
+      "label": "met",
+      "evidence": "cardiac MRI showed a mass that was 3cm x 1cm on the lateral wall of the right atrium adjacent to the AV junction"
+    },
+    {
+      "criterion": "dental_implant_placement",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "Individuals who do not smoke"
+    },
+    {
+      "criterion": "keratinized_gingiva_width",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "soft_tissue_thickness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic_disorders",
+      "label": "not_met",
+      "evidence": "Patients with systemic disorders, including diabetes mellitus, metabolic bone disease, rheumatoid arthritis, mucocutaneous disorders, immunological disorders, hepatitis, or"
+    },
+    {
+      "criterion": "antibiotics_status",
+      "label": "not_met",
+      "evidence": "Individuals who were on antibiotics, anti-inflammatory agents, corticosteroids, immunosuppressants, anticoagulants, or hormonal contraceptives for any reason, at least 6 months prior to the procedure"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "not_met",
+      "evidence": "Pregnant and lactating individuals"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN, and previous viral encephalitis/meningitis with residual deficits. However, they do not have any systemic disorders or are on medications that would exclude them from the study.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04851002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

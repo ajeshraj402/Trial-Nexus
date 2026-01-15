@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01015378",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "First episode of uncomplicated diverticulitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "First episode of complicated diverticulitis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 or > 90",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Associated condition of the colon or rectum (cancer, IBD, polyps)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient unable to communicate in French, English or German",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01015378",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

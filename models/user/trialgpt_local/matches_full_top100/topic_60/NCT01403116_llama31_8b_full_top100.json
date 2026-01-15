@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01403116",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Serum testosterone of less than or equal to 300 ng/dL on two occasions within one week",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "(may wash out from previous oral, topical or buccal testosterone therapy)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant intercurrent disease of any type, in particular liver, kidney,",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncontrolled or poorly controlled heart disease, or psychiatric illness",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recent history of stroke, not including transient ischemic attack",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Untreated, sever obstructive sleep apnea.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hematocrit <35% or >48",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serum transaminases >2 times upper limit of normal, serum bilirubin > 2.0 mg/dL and",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serum creatinine > 2.0 mgk/dL",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI > or equal to 36",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention. He has a large prostate and bladder issues, but his recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01403116",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

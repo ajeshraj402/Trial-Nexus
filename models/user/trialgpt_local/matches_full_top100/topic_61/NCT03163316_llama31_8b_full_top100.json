@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03163316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "primary breast cancer by histopathology",
+      "label": "met",
+      "evidence": "cytologically confirmed"
+    },
+    {
+      "criterion": "axillary lymph nodes detected clinically or with superficial ultrasound on both axillae",
+      "label": "met",
+      "evidence": "detected clinically and with superficial ultrasound"
+    },
+    {
+      "criterion": "included lymph nodes with minimal axial diameter (4mm)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "heart pacemaker",
+      "label": "not_met",
+      "evidence": "no mention of heart pacemaker"
+    },
+    {
+      "criterion": "severe claustrophobia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neoadjuvant chemo-, immune- or endocrine therapy",
+      "label": "not_met",
+      "evidence": "candidate for tumor resection prior to chemotherapy"
+    },
+    {
+      "criterion": "axillary surgery or treatment history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recurrent axillary disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with HER2-positive and ER/PR-negative breast cancer, metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03163316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01354262",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes mellitus",
+      "label": "met",
+      "evidence": "DM type 2 in his father"
+    },
+    {
+      "criterion": "Hgb A1c greater then 7.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adults aged 34 to 69 years",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known primary hyperparathyroidism",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "sarcoidosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "tuberculosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "terminal illness",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of serum creatinine more than 2.0 mg/dL",
+      "label": "not_met",
+      "evidence": "His serum alkaline phosphatase is 300 IU/L"
+    },
+    {
+      "criterion": "vitamin D supplement more than 200 IU/day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be treated with Bisphosphonate.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01354262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

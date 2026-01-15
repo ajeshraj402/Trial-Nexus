@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02810236",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "focal breast pain, i.e. pain localizable by the patient to within one breast quadrant without other associated symptoms.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "women referred for imaging because of focal breast pain and women who report focal breast pain to the technologist or radiologist prior to imaging.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diffuse, radiating, or axillary pain associated palpable findings at the site of pain skin changes (erythema, thickening) nipple changes (discharge, retraction)",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently pregnant or breast-feeding history of recent trauma or infection of the affected breast history of ipsilateral breast cancer",
+      "label": "unknown",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02810236",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

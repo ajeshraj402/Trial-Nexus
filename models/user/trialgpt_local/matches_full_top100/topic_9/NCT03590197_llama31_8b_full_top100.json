@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03590197",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Generalized epilepsy with generalized onset motor seizure (ILAE 2017)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-60 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment-naive patients or patients who had not taken any treatment for at least 4 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of any recent traumatic brain injury, cerebral ischemia/TIA/stroke",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with neuroendocrinal tumors",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03590197",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

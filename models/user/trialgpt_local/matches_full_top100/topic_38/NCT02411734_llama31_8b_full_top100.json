@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "approached until 100 of them signs the Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted for rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "65 years old or older",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Speaks English",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Speaking English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read (even with glasses)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to write",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The expected results of the research: Results of this study will be published in a scientific journal.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

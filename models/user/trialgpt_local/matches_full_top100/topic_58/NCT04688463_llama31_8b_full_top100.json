@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04688463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "abdominal_pain",
+      "label": "met",
+      "evidence": "severe migratory pain in the right lower quadrant of his abdomen"
+    },
+    {
+      "criterion": "referred_to_specialist",
+      "label": "met",
+      "evidence": "referred with abdominal pain from January 2000 to June 2006"
+    },
+    {
+      "criterion": "treated_by_surgeon",
+      "label": "met",
+      "evidence": "surgeon on the pediatric general surgery service at the Health Sciences Centre (HSC)-Children's Hospital in Winnipeg."
+    },
+    {
+      "criterion": "diagnosis_of_appendicitis",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    },
+    {
+      "criterion": "diagnostic_laparoscopy",
+      "label": "met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "urgency_of_surgery",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abdominal_pain_duration",
+      "label": "not_met",
+      "evidence": "pain started four days ago"
+    },
+    {
+      "criterion": "other_surgical_conditions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other_medical_conditions",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04688463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

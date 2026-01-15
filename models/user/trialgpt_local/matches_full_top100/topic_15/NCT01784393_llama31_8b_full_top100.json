@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT01784393",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Radiation Dose",
+      "label": "met",
+      "evidence": "30 Gy in 10 fractions (3 Gy per fraction) over two weeks."
+    },
+    {
+      "criterion": "CHEMOTHERAPY",
+      "label": "met",
+      "evidence": "capecitabine tablets will be given concurrently with radiotherapy in the dose 1400 mg/m2 orally, in two daily divided doses."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior radiation therapy or prior palliative surgery to the painful site.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Impending fracture of the treatment site or planned surgical fixation of the bone.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01784393",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

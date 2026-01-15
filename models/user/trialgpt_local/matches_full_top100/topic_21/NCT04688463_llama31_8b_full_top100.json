@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04688463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "all children referred with abdominal pain from January 2000 to June 2006",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "referred by surgeon on the pediatric general surgery service at the Health Sciences Centre (HSC)-Children's Hospital in Winnipeg",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "children with abdominal pain > 7 days",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "children with abdominal pain due to other surgical or medical conditions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04688463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

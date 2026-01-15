@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01594853",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "X-ALD heterozygote carrier",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no medical contraindication to participating in a strength training program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to follow complex directions as determined by a score of \u22641 on a subset of questions taken from the NIH Stroke scale (Brott et al. 1989)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hip flexion strength: 6.6-15.8kg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hip extension strength: up to 18.3 kg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "normal passive range of motion at hips/knees/ankles",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to walk \u226550m",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of other neurological deficit that could interfere, such as previous stroke or muscle disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "congestive heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "orthopedic conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe pain that precludes study participation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "seizures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other medical condition that precludes participation in an exercise program, e.g., unstable angina, uncontrolled diabetes, uncontrolled hypertension",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently experiencing progressive lower extremity weakness and urinary retention. They have undergone radiation and chemotherapy but are still experiencing symptoms.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01594853",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

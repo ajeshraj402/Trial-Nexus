@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT00294775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic severe AVS referred for valve replacement",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe renal failure (s-creatinine >300 mmole/l)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate or severe hepatic failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate or severe LV systolic dysfunction (LVEF<40%)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients already treated with ACE-I or ARB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known intolerance for ARB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwilling to participate in the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is referred for valve replacement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00294775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

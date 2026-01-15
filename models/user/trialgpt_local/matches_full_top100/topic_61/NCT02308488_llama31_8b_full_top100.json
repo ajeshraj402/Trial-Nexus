@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02308488",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- or post-menopausal women with stage II - III breast cancer (AJCC 2002)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Biopsy-proven invasive breast cancer, excised with negative margins of at least 1 mm",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Status post segmental mastectomy or mastectomy and axillary node dissection with removal of at least 8 nodes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "One to 5 involved lymph nodes identified at axillary staging",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 2 weeks from last chemotherapy or before chemotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No more than sixty days from final surgery to simulation if no systemic therapy (includes chemotherapy and Hormonal therapy) is given",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient needs to be able to understand and demonstrate willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous radiation therapy to the ipsilateral breast",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than 5 involved nodes identified at axillary staging",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current treatment for active connective tissue disorders, such as lupus or scleroderma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. She is a candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02308488",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

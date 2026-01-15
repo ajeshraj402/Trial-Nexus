@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02477254",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "SLE patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female patients aged 18-35 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fulfilling the American College of Rheumatology (ACR) criteria for the classification of SLE",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having participated in the investigators' original HPV study in 2010",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Controls",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women aged 18-35 years, matched those of SLE patients recruited",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No known chronic medical diseases",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Having participated in our HPV study in 2010",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is a 37-year-old woman",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "She has three sexual partners and four children",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "She underwent tubal ligation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient tested positive for HPV 16",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "She smokes 30 packs/year and drinks alcohol frequently",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer, which may trigger exclusion. However, the overall assessment is likely ineligible due to other exclusions.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02477254",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

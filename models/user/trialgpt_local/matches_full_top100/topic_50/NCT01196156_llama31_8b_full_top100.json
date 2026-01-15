@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01196156",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "growth disorder",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "treatment with somatropin from Serono",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "parental permission",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "closed epiphysis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypersensitivity to somatropin or excipients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "active neoplasms",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with an abdominal undescended testis. He has no developmental delay and is breast feeding.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01196156",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

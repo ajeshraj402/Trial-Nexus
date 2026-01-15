@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01353430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Paget disease of bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fibrous dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diaphyseal medullary stenosis with malignant fibrous histiocytoma (DMS-MFH)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-specific bone disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Limb Girdle Muscular Dystrophy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Myopathy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FSH (Facioscapular muscular dystrophy) without the mutation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scapuloperoneal muscular dystrophy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Amyotrophic Lateral Sclerosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non specific muscular dystrophy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to give consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Different unrelated diagnosis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to provide consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's disease of bone and is starting Bisphosphonate therapy. The patient's sister had the same problems and was diagnosed with Paget's disease of bone at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01353430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04690881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-disabled",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Wijma Birth Experience / Expectation Scale A score",
+      "label": "met",
+      "evidence": "38 or more points"
+    },
+    {
+      "criterion": "living with spouse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primipary",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no risky pregnancy diagnosis",
+      "label": "met",
+      "evidence": "negative beta hcg test"
+    },
+    {
+      "criterion": "suitable weeks of gestation",
+      "label": "met",
+      "evidence": "between 20-30 weeks"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "risky pregnancy diagnosis during training",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absence from first week of pregnancy training program",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "more than one week absence",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "difficulty following group studies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "incomplete forms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "wanting to continue working",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, but is willing to participate and meets most inclusion criteria. No exclusion criteria met.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT04690881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

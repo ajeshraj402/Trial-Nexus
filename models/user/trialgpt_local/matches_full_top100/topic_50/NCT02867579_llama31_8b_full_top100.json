@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02867579",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women without pregnancy denial",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient consenting to participate to the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient enrolled in the national healthcare insurance program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient older than 18 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women with intellectual disabilities",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women with acute or chronic psychotic disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women who doesn't speak properly French",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02867579",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

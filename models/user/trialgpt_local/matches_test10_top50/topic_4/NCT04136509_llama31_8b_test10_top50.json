@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04136509",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Periodontally healthy patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Edentulous posterior maxilla",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of systemic diseases, that alter bone metabolism (osteoporosis, diabetes mellitus)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of medication known to alter bone remodelling (bisphosphonates, RANK ligand inhibitor monoclonal antibodies, corticosteroids)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of uncontrolled medical or psychiatric disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inflammations of the paranasal sinuses or the alveolar process",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of tumours or irradiation therapy in the head and neck region",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwillingness to return for follow-ups",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and CSF leak with meningitis, but these conditions are not explicitly mentioned in the exclusion criteria.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04136509",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

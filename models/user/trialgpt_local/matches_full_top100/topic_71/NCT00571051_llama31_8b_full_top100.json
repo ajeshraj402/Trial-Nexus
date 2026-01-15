@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI safety",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "study instructions",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic musculoskeletal diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurological conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy/nursing mother",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ongoing meditation practice",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has sleep apnea, PCO and dissatisfaction with body shape. She is considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

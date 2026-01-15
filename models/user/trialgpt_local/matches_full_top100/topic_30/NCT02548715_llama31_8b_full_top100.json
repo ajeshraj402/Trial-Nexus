@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02548715",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Biopsy proven head and neck cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treated with surgery in Edmonton, Alberta",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treated with curative intent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of sub-clinical hypothyroidism after head and neck surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Head and neck cancer of the thyroid gland, or other subsite involving the thyroid gland",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of radiation therapy and or chemotherapy to the head and neck",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02548715",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02575157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "postmenopausal women or males >50 years",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "taken oral bisphosphonates (risedronate or alendronate) for five years or more",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "holiday from the medication, or those who have been on a holiday for up to 3 months",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "25(0H) D level is above 30 ng/ml",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current steroid treatment at or greater than 5 mg/day prednisone or equivalent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The use of any other bone active medication other than risedronate or alendronate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been on bisphosphonates for more than five years and has a 25(0H) D level above 30 ng/ml. However, they are currently taking steroids which may be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02575157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

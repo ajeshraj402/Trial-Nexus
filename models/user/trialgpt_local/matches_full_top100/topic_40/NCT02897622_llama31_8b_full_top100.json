@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV Criteria",
+      "label": "met",
+      "evidence": "Diagnostic interview"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "met",
+      "evidence": "6 years ago and is worsening"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "met",
+      "evidence": "The patient has tried several treatments"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "The patient is a 60 year old man"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "Examination shows bilateral swellings around the molars"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02411916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35-year-old woman"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "met",
+      "evidence": "has a term live singleton gestation in cephalic presentation"
+    },
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "live singleton gestation"
+    },
+    {
+      "criterion": "cephalic presentation",
+      "label": "met",
+      "evidence": "cephalic presentation"
+    },
+    {
+      "criterion": "less than 4 prior vaginal deliveries",
+      "label": "met",
+      "evidence": "has had fewer than four prior vaginal deliveries"
+    },
+    {
+      "criterion": "no allergy to misoprostol",
+      "label": "met",
+      "evidence": "reports no allergy to misoprostol"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known major fetal malformation or chromosome abnormality",
+      "label": "not_met",
+      "evidence": "negative for pregnancy"
+    },
+    {
+      "criterion": "multiple gestation",
+      "label": "not_met",
+      "evidence": "singleton pregnancy"
+    },
+    {
+      "criterion": "breech or other malpresentation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "involvement in another clinical trial currently or previously in this pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT02411916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

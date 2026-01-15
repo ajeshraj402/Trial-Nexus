@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03263403",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Apparently healthy adult of 18 to 45 years of age.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sex: Male, Female and Transgender",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Apparently healthy based on a medical history taken prior to vaccination.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with child bearing potential must be non pregnant which will be confirmed by negative urine pregnancy test during screening and prior to vaccination on day 0 as well.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of Meningitis infection or vaccination with any Meningococcal vaccine.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receipt of investigational drugs or other investigational vaccines within 3 months prior to first injection with the study vaccine.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis, but it is not clear if they have received any Meningococcal vaccine. They also have a recent history of febrile illness.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03263403",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

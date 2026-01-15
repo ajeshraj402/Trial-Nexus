@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02237443",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "elective_surgery",
+      "label": "met",
+      "evidence": "admitted for evaluation of syncope and ventricular arrhythmias, to be transferred to the CCU for catheterization and EPS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "minor",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "prisoner",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "impaired_decision_making_capacity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02237443",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

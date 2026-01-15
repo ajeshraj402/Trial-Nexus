@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03744988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "met",
+      "evidence": "patient is a pregnant woman"
+    },
+    {
+      "criterion": "age between 20 and 35 years old",
+      "label": "met",
+      "evidence": "the patient is 25 years old"
+    },
+    {
+      "criterion": "live fetus",
+      "label": "met",
+      "evidence": "the patient has a live fetus"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women younger than 20 years old and older than 35 years old",
+      "label": "not_met",
+      "evidence": "patient is 25 years old"
+    },
+    {
+      "criterion": "intrauterine fetal death",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of pre-gestational hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of hormonal disorders (thyroid gland disorders and hyperprolactinemia)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "smoker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "polycystic ovary syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "signs or symptoms of hyper-androgenism (hirsutism, acne, oily skin, etc.)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a pregnant woman with fever and chills. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03744988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

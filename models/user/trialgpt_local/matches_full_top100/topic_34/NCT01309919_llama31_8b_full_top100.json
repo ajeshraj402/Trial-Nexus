@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "47 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "IUD desire",
+      "label": "met",
+      "evidence": "desires to use an IUD as postpartum contraception"
+    },
+    {
+      "criterion": "delivery location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI history",
+      "label": "unknown",
+      "evidence": "no mention of STI during the three months prior to enrollment"
+    },
+    {
+      "criterion": "desire for another pregnancy",
+      "label": "unknown",
+      "evidence": "no mention of desiring another pregnancy within six months of giving birth"
+    },
+    {
+      "criterion": "uterine fibroids or anomalies",
+      "label": "unknown",
+      "evidence": "no mention of uterine fibroids or anomalies"
+    },
+    {
+      "criterion": "neoplasia",
+      "label": "unknown",
+      "evidence": "no mention of known or suspected uterine or cervical neoplasia"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "unknown",
+      "evidence": "no mention of acute liver disease or liver tumor"
+    },
+    {
+      "criterion": "breast cancer history",
+      "label": "unknown",
+      "evidence": "no mention of history of breast cancer"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness, loss of interest in activities, and weight loss. She has no history of STI or neoplasia, but her husband was recently diagnosed with colon cancer.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

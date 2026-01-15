@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04842994",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Total thyroidectomy with or without central compartment dissection",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Redo total/completion thyroidectomy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients operated for benign diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemithyroidectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre operative cord fixity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "High risk for intraoperative RLN sacrifice as determined by the treating surgeon",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Redo patients undergoing unilateral procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients unwilling to participate in the trial",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone multiple surgeries, including XRT. However, they may still be eligible if they meet the inclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04842994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

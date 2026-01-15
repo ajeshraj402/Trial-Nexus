@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02157415",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to read, write and speak German or French",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of child bearing potential must test negative on standard urine pregnancy test two weeks prior to the start of the study and must agree to practice appropriate contraceptive methods until the end of the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Provision of voluntary consent to participate in the study, following a full explanation of the nature and purpose of the study, by signing the informed consent approved by the cantonal Ethics Committee (IEC) prior to all evaluations",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Symptomatic UTI",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hematuria",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fever (tympanic temperature > 38.5\u00b0C)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Surgical intervention to genito-urinary tract in the last 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients receiving any other concurrent catheter irrigation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known allergy or sensitivity to any of the ingredients in Uro-Tainer Polihexanide 0.02%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known allergy or sensitivity to chlorhexidine",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or Lactation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. They are currently on ditropan and detrol for urinary incontinence.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02157415",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

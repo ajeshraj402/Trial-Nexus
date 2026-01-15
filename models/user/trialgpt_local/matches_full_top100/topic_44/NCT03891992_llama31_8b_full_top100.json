@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03891992",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "positive tests of shoulder pain",
+      "label": "met",
+      "evidence": "clinical examination"
+    },
+    {
+      "criterion": "suspected by Plain X-ray to have shoulder instability",
+      "label": "met",
+      "evidence": "Plain X-ray"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previously underwent surgical intervention to shoulder joint for any reason",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of fracture repaired by metal plates or screws",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has scoliosis and back pain, but no other medical conditions. He is a candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03891992",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

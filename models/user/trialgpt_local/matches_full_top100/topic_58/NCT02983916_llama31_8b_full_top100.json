@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02983916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pain exists for at least 6 months postoperatively",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cine-MRI not performed for chronic pain (e.g. recurrent pain with episodes of bowel obstructions)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cine-MRI not performed for chronic pain (e.g. recurrent pain with episodes of bowel obstructions)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with acute perforated appendicitis, now a candidate for emergent laparoscopic appendectomy.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02983916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

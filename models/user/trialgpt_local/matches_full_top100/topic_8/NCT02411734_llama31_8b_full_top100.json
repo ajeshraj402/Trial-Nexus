@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "approached until 100 of them signs the Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "65 years old or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Speaks English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read (even with glasses)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Potential risk to the subjects: The research will not influence rehabilitation of the patients.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but is still able to speak English.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

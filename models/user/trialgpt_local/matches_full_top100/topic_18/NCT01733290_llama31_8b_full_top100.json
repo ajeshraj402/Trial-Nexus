@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01733290",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with age of 20 years old or above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Free of active urinary tract infection",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Free of bladder outlet obstruction on enrollment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients should have severe dysuria or urinary retention, large residual urine and",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have been treated with medication or other therapeutic modality for over 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with severe cardiopulmonary disease and such as congestive heart failure,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "arrhythmia, poorly controlled hypertension, not able to receive regular follow-up.",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01733290",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

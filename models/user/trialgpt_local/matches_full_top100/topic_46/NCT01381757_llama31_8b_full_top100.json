@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01381757",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sputum smear positive for acid-fast bacilli by microscopy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical symptoms and abnormal findings compatible with active TB on a previously performed chest radiograph",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "completed at least 5 months of treatment with antituberculous therapy within the past year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "not received any antituberculous treatment in the preceding 5 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willingness to provide a sputum sample for the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to follow verbal instructions for producing sputum",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willingness to undergo testing for HIV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willingness to allow storage of samples for future research",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "any condition that in the investigator s opinion places the subject at undue risk by participating in the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subjects younger than 12 years of age will be excluded from the study due to the difficulty of obtaining adequate sputum samples for the diagnosis of TB in this population and because there are no means for obtaining gastric aspirates at the reference centers",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with symptoms compatible with active TB, positive sputum smear, and willingness to provide a sputum sample.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01381757",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

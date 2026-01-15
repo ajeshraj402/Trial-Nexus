@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT02563379",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "essential HTN",
+      "label": "met",
+      "evidence": "BP of 146/99 and urine dipstick with 3+ proteins"
+    },
+    {
+      "criterion": "previous stroke",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes mellitus type 2",
+      "label": "not_met",
+      "evidence": "family history is positive for DM type 2"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "BMI was 24 at the first visit when she was at 6 weeks of gestational age"
+    },
+    {
+      "criterion": "dyslipidemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of coronary artery disease (CAD)",
+      "label": "not_met",
+      "evidence": "no shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed"
+    },
+    {
+      "criterion": "valvular heart disease (VHD)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "echocardiographic findings attributed to HTN",
+      "label": "not_met",
+      "evidence": "laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels"
+    },
+    {
+      "criterion": "white coat hypertension (WCH)",
+      "label": "met",
+      "evidence": "BP of 146/99 and urine dipstick with 3+ proteins"
+    },
+    {
+      "criterion": "masked hypertension (MH)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive family history for rhythm disturbances",
+      "label": "not_met",
+      "evidence": "family history is positive for DM type 2 and HTN"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "19 yo"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "paroxysmal or permanent AF",
+      "label": "not_met",
+      "evidence": "no clinical evidence of arrhythmia"
+    },
+    {
+      "criterion": "severe renal insufficiency (eGFR <25ml/min/1.73m2)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients unable to attend follow-up visits",
+      "label": "not_met",
+      "evidence": "she is able to attend follow-up visits"
+    },
+    {
+      "criterion": "clinical evidence of severe heart failure",
+      "label": "not_met",
+      "evidence": "physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine"
+    },
+    {
+      "criterion": "suspected secondary HTN",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "mental disorders",
+      "label": "not_met",
+      "evidence": "no shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed"
+    },
+    {
+      "criterion": "patients with cancer",
+      "label": "not_met",
+      "evidence": "no history of cancer"
+    }
+  ],
+  "notes": "Patient has essential HTN and several risk factors for cardiovascular disease. However, she does not have any exclusion criteria.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02563379",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

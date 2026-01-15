@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01276886",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "abdominal pain, associated with leukocytosis (>11x10^9) and/or fever >38\u00b0C, confirmed by imaging (CT scan, ultrasonography, water soluble contrast enema)",
+      "label": "met"
+    },
+    {
+      "criterion": "localized thickening (\u22654 mm) of the colonic wall",
+      "label": "met"
+    },
+    {
+      "criterion": "signs of inflammation of the pericolic fat, with abscess and/or extraluminal air and/or extraluminal contrast",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "colorectal cancer or diseases precluding adequate follow up",
+      "label": "triggers"
+    },
+    {
+      "criterion": "inflammatory bowel disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "irritable bowel syndrome",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01276886",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04722796",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe, bicuspid aortic stenosis: Mean gradient \u226540 mmHg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "NYHA classification \u2265 II",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active sepsis, including active bacterial endocarditis with or without treatment;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Estimated life expectancy < 12 months (365 days) due to carcinomas, chronic liver disease, chronic renal disease or chronic end stage pulmonary disease.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe bicuspid aortic stenosis with a mean gradient of 41 mmHg and NYHA classification II. He is likely eligible for the trial.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04722796",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

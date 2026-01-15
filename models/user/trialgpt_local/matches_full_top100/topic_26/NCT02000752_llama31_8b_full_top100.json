@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02000752",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "be invited to participate in the experiment. These requirements includes primiparous women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "from 20 to 35 years old, with 37 to 42 weeks of gestation, and with a low obstetric risk",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "labor with epidural analgesia. It is important to highlight that the midwife responsible for the labor is different from the acupuncturist responsible for the treatment.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Myomatosis",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coagulation disorders",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 45-year-old woman with abdominal pain, nausea, and vomiting. She has hypercholesterolemia and two C/sections. The ultrasound revealed several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02000752",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00804765",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI > 25 kg/m\u00b2",
+      "label": "met",
+      "evidence": "retrospective self reported weight"
+    },
+    {
+      "criterion": "No more that 21 weeks of gestation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Social security",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "fetal malformation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of obesity surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women with no understanding of French language",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women planning to move to another area",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women younger than 18 yrs",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple gestation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "high risk pregnancy",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "41-year-old obese woman with abdominal pain and vomiting, acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00804765",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

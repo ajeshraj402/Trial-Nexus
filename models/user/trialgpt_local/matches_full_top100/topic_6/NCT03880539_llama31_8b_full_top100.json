@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03880539",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age 18 years or older",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis of multi-recurrent CDI",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "received 10- to 14-day course of SOC therapy with oral VAN followed by a tapered VAN regimen",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active chronic diarrheal illness, such as (but not limited to) ulcerative colitis or Crohn's disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "planned surgery for CDI within 24 hours",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections and was treated with Vanco for an extended course of 6 weeks. She is highly unlikely to become pregnant due to being female.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03880539",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

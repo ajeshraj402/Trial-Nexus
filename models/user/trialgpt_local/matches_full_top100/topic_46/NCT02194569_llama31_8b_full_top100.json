@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02194569",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Critically ill patients requiring CRRT for AKI (RIFLE criteria)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Written informed consent from the patient or legal representative",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-existing chronic renal insufficiency requiring dialysis",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic immunosuppression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "liver cirrhosis Child-Pugh C",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe or shock-related hepatitis",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has TB and is critically ill, but no chronic renal insufficiency or immunosuppression mentioned.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02194569",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00112333",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-64"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "aspiration or severe respiratory complications linked to gastrointestinal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of over the counter medications within 7 days of the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastric surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medications altering gastrointestinal motility",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, but is otherwise healthy and on stable medication regimen.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00112333",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

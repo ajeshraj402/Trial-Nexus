@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01501734",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients that will be able to sign an informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to use BIPAP equipment",
+      "label": "met",
+      "evidence": "quote: Daughter also reports med compliance and compliance with BiPap at night."
+    },
+    {
+      "criterion": "Established diagnosis of congestive heart failure",
+      "label": "met",
+      "evidence": "quote: CHF; EF 55%, mild AS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who cannot acquire BIPAP from the health care system or who are unable to use",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who will be not able to visit the clinic for follow up",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multiple comorbidities and is currently on BIPAP, but daughter reports difficulty with ADLs and decreased appetite.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01501734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

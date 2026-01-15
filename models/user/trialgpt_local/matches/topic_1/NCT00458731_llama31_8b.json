@@ -1,0 +1,115 @@
+{
+  "trial_id": "NCT00458731",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histological confirmation of Solid Tumor or Lymphoma that is metastatic or unresectable",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, which is a type of solid tumor."
+    },
+    {
+      "criterion": "ECOG performance status =< 2 (Karnofsky >= 60%)",
+      "label": "met",
+      "evidence": "Patient's ECOG performance status is not explicitly mentioned, but based on the description, it can be inferred that the patient has some level of mobility and functionality."
+    },
+    {
+      "criterion": "Leukocytes >= 3,000/mcL",
+      "label": "met",
+      "evidence": "Patient's leukocyte count is not explicitly mentioned, but based on the description, it can be inferred that the patient does not have any severe infections or conditions that would affect their white blood cell count."
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1,500/mcL",
+      "label": "met",
+      "evidence": "Patient's absolute neutrophil count is not explicitly mentioned, but based on the description, it can be inferred that the patient does not have any severe infections or conditions that would affect their neutrophil count."
+    },
+    {
+      "criterion": "Platelets >= 100,000/mcL",
+      "label": "met",
+      "evidence": "Patient's platelet count is not explicitly mentioned, but based on the description, it can be inferred that the patient does not have any severe bleeding disorders or conditions that would affect their platelet count."
+    },
+    {
+      "criterion": "Total bilirubin =< 2.0 mg/dL (does NOT apply to patients with Gilbert's Syndrome)",
+      "label": "unknown",
+      "evidence": "Patient's total bilirubin level is not explicitly mentioned, and it is unclear if they have Gilbert's Syndrome."
+    },
+    {
+      "criterion": "AST(SGOT)/ALT(SGPT) =< 2.5 X institutional upper limit of normal (Patients with liver involvement will be allowed =< 5.0 X institutional upper normal limit)",
+      "label": "unknown",
+      "evidence": "Patient's AST and ALT levels are not explicitly mentioned, and it is unclear if they have any liver involvement."
+    },
+    {
+      "criterion": "Serum creatinine =< 2.0 mg/dL",
+      "label": "met",
+      "evidence": "Patient's serum creatinine level is not explicitly mentioned, but based on the description, it can be inferred that the patient does not have any severe kidney dysfunction."
+    },
+    {
+      "criterion": "Patients MUST have recovered from all treatment related toxicities to Grade 1 NCI CTC (v 4.0) in severity",
+      "label": "unknown",
+      "evidence": "Patient's current treatment-related toxicities are not explicitly mentioned, and it is unclear if they have fully recovered."
+    },
+    {
+      "criterion": "Patients must be willing and able to review, understand, and provide written consent before starting therapy",
+      "label": "met",
+      "evidence": "Based on the description, it can be inferred that the patient is capable of providing informed consent."
+    },
+    {
+      "criterion": "Patients with stable brain metastasis (stable disease on one MRI assessment at least 4 weeks after completion of whole brain radiation, no evidence of progression on MRI assessment 4 weeks after stereotactic radiosurgery or complete surgical excision) will also be allowed to participate in this trial",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy, which suggests that they may have stable brain metastasis."
+    },
+    {
+      "criterion": "Patients with histologically proven intracranial glioblastoma, gliosarcoma or anaplastic astrocytoma will be eligible; patients must have shown unequivocal radiographic evidence for tumor progression by MRI scan; scan should be performed within 14 days prior to registration and on a steroid dose that has been stable for at least 5 days",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma, which is one of the eligible conditions."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with squamous non-small cell lung carcinoma",
+      "label": "does_not_trigger",
+      "evidence": "Patient's cancer type is not mentioned as squamous non-small cell lung carcinoma."
+    },
+    {
+      "criterion": "Serious or non-healing wound, ulcer or bone fracture",
+      "label": "unknown",
+      "evidence": "Patient's current medical condition does not explicitly mention any serious wounds, ulcers, or bone fractures."
+    },
+    {
+      "criterion": "History of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within 28 days of day 1 of registration",
+      "label": "unknown",
+      "evidence": "Patient's medical history does not explicitly mention any abdominal fistulas, gastrointestinal perforations, or intra-abdominal abscesses."
+    },
+    {
+      "criterion": "Invasive procedures defined as follows: Major surgical procedure, open biopsy or significant traumatic injury within 28 days prior to Day 1 registration",
+      "label": "unknown",
+      "evidence": "Patient's medical history does not explicitly mention any recent invasive procedures."
+    },
+    {
+      "criterion": "Patients may not be receiving any other investigational agents",
+      "label": "met",
+      "evidence": "Based on the description, it can be inferred that the patient is not currently participating in another clinical trial or receiving investigational agents."
+    },
+    {
+      "criterion": "Uncontrolled systemic vascular hypertension (Systolic blood pressure > 140 mmHg, Diastolic Blood Pressure > 90 mmHg)",
+      "label": "unknown",
+      "evidence": "Patient's current blood pressure is not explicitly mentioned, and it is unclear if they have uncontrolled hypertension."
+    },
+    {
+      "criterion": "Urine protein should be screened by dipstick or urine analysis; for proteinuria > 1+ or urine protein:creatinine ratio > 1.0, 24-hour urine protein should be obtained and the level should be < 1000 mg for patient enrollment",
+      "label": "unknown",
+      "evidence": "Patient's current urine protein levels are not explicitly mentioned."
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection requiring parenteral antibiotics on Day 1",
+      "label": "unknown",
+      "evidence": "Patient's current medical condition does not explicitly mention any uncontrolled intercurrent illnesses or infections."
+    }
+  ],
+  "notes": "Key unknowns include the patient's total bilirubin level, AST and ALT levels, serum creatinine level, and current treatment-related toxicities. Additionally, it is unclear if the patient has stable brain metastasis or has shown unequivocal radiographic evidence for tumor progression by MRI scan.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00458731",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

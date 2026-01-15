@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03318991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ml/second",
+      "label": "met",
+      "evidence": "71 mL"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS)",
+      "label": "met",
+      "evidence": "\u2265 10"
+    },
+    {
+      "criterion": "quality-of-life questionnaire (QoL)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "transrectal ultrasound measurement of the prostate (TRUS)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "interstitial cystitis and neurogenic bladder confirmed after urodynamic studies",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "anticoagulants or platelet aggregation inhibition",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03318991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

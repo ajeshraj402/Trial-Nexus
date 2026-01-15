@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03531008",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 16 years and \u2264 65 years at time of enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosed with focal epilepsy with prior vEEG confirmation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Failure of adequate trials of 4 AEDs, with at least 2 due to failure of seizure control",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a seizure frequency of \u2265 2 focal seizures/month, including auras, and at least 1 observable seizures/month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to keep a daily seizure diary",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receiving \u2265 1 AED for treatment of seizures",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient has a diagnosis of idiopathic (\"primary\") generalized epilepsy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Progressive medical or neurological disorder",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proven autoimmune etiology",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Planning pregnancy in the next 12 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He has had seizures since age 13 and was recently tapered off Dilantin.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03531008",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

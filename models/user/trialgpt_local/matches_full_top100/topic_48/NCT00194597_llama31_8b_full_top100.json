@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00194597",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of male Chronic Pelvic Pain Syndrome Type III",
+      "label": "met",
+      "evidence": "diagnosis"
+    },
+    {
+      "criterion": "Age 18 - 65",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Pelvic pain duration of at least 3 months",
+      "label": "met",
+      "evidence": "physical exam"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Urinary tract infection within the last year",
+      "label": "not_met",
+      "evidence": "lab studies"
+    },
+    {
+      "criterion": "Sexually transmitted disease within 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Antiviral therapy or antibiotics within the last 3 months",
+      "label": "not_met",
+      "evidence": "medication history"
+    },
+    {
+      "criterion": "Currently taking any medications or recreational drugs containing nitrates 3A4 inhibitors such as erythromycin, ketoconazole, or itraconazole",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alpha-blocker therapy for treatment of high blood pressure or prostate problems",
+      "label": "not_met",
+      "evidence": "medication history"
+    },
+    {
+      "criterion": "Suffered a heart attack, stroke or life-threatening arrhythmia within the last months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cardiac failure or coronary artery disease causing unstable angina",
+      "label": "not_met",
+      "evidence": "lab studies"
+    },
+    {
+      "criterion": "Resting hypotension (BP<90/50) or hypertension (BP>170/110)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of hyperlipidemia in his mother and MI in his father. He smokes 15 cigarettes per day and drinks a beer per day.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00194597",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

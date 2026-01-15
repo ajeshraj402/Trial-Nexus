@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03347604",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years or older"
+    },
+    {
+      "criterion": "abdominal obesity",
+      "label": "met",
+      "evidence": "WHR > 0.85 in women, > 0.9 in men"
+    },
+    {
+      "criterion": "ability to transfer into a cardiac chair",
+      "label": "met",
+      "evidence": "able to understand and comply with testing instructions"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known lung disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03347604",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

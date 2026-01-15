@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04798248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participating Planned Parenthood health center",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "smartphone ownership",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fluent in English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "17-20 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "biologically able to become pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PHQ-8 score >= 10",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "penile-vaginal sex in past 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "penile-vaginal sex at least once a week",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trying to get pregnant or currently pregnant",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "given birth in past 6 months",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 54-year-old woman with abnormal cervical lesion and HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT04798248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

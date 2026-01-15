@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT00263562",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sickle cell",
+      "label": "met"
+    },
+    {
+      "criterion": "Acute pain",
+      "label": "met"
+    },
+    {
+      "criterion": "Age 8 and up",
+      "label": "met"
+    },
+    {
+      "criterion": "English or Spanish-speaking",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Fever greater than 101",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Acute chest syndrome or pneumonia",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Other SS complications",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of GI bleeding, HTN, or hyperglycemia/DM",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell disease and is experiencing acute pain. No fever or other exclusion criteria are present.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00263562",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

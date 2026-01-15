@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03549052",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "All ages will be accepted",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Isolated mitral valve lesion either stenosis or regurge.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concomitant Aortic valve lesion needs replacement.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Poor LV function (Low EF> 45%).",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has concomitant aortic valve lesion and poor LV function, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03549052",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

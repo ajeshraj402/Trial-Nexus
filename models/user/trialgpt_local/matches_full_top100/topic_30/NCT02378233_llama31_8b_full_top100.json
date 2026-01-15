@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02378233",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "breast-feed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18-40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy longer than week 36",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Single Pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Planned breastfeeding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No current thyroid disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Agree not to take iodine supplementation except as provided through the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Plans of another pregnancy within the first 6 months postpartum",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vegans",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis, but her symptoms improved significantly after starting Levothyroxine. She is still overweight and has a high anti-TPO level.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02378233",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

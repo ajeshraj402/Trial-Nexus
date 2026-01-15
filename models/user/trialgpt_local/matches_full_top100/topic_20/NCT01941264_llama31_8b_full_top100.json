@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01941264",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Residence in the study area and intention to stay",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged at least 16 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to provide biological samples",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "A history of sensitivity to sulphonamides",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a macroadenoma with no invasion, and is on stable doses of octreotide LAR. She is married and has 2 children.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT01941264",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

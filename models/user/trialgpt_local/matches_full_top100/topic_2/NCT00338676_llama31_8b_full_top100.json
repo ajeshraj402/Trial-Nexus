@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00338676",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 70 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AS with mean transmitral gradient > 10 mm Hg and aortic valve area < 2 cm2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No surgical indication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Rheumatic or congenital AS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Associated valvular disease grade \u2265 2/4",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Indication for surgery (severe AS (aortic valve area < 1 cm2 or < 0.6 cm2/m2 of body surface area and symptoms or congestive heart failure or left ventricular ejection fraction < 50%)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Renal insufficiency (creatinine clearance < 30 ml /min)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular outflow tract obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF of 25%. He underwent cardiac cath with right heart cath to evaluate pulm art pressures, showing no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00338676",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

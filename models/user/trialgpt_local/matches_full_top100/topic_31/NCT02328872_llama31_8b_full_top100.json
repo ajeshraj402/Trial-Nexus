@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02328872",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Australian residents with a cervix, aged 25-69 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "attending for routine cervical screening",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "born on or after 1st July 1980",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous total hysterectomy (uterus and cervix)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The presence of symptoms or signs for which cervical cancer must be excluded.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has stage 1B cervical cancer, but is otherwise healthy and attending routine screening.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02328872",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

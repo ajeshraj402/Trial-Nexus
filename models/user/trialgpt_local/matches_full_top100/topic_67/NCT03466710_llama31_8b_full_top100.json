@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03466710",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous routine screening Pap test",
+      "label": "met",
+      "evidence": "ASC-US, HPV positive"
+    },
+    {
+      "criterion": "previous routine screening Pap tests",
+      "label": "met",
+      "evidence": "two consecutive ASC-US or LSIL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or considering pregnancy in the next 18 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous excisional or ablative procedure of the cervix",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "younger than 18",
+      "label": "not_met",
+      "evidence": "age is 54"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical lesion, HPV positive, and previous routine screening Pap tests showing ASC-US or LSIL. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT03466710",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

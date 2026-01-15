@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT04514250",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 50 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Moderate aortic stenosis confirmed in the past 3 months by standard echocardiographic evaluation: aortic valve area >1.0 cm2 plus either maximal velocity 3.0-3.9 m/s or mean gradient 20-39 mmHg",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to undergo exercise stress testing",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to provide written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any hemodynamic criterion for severe AS: maximal velocity >= 4 m/s, mean gradient >= 40mmHg, aortic valve area =< 1 cm2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Percutaneous coronary intervention or coronary artery bypass grafting in the past three months, or have revascularization planned in the near future",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known, unrevascularized, and severe coronary artery disease (for example a 90% diameter stenosis or FFR<0.7 in the proximal left anterior descending artery)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired left ventricular function (ejection fraction <50%)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unicuspid, bicuspid, or non-calcified aortic valve observed during echocardiography",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF of 25%. He also has biatrial enlargement and RV pressure of 41. However, he does not have any exclusion criteria mentioned in the study.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04514250",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

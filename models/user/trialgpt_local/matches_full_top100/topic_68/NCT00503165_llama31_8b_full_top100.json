@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00503165",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "No contraindications to vaccination as specified in the Green Book - Immunisation Against Infectious Disease, HMSO.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known or suspected pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. He was treated with plasma exchange and corticosteroids for atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00503165",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

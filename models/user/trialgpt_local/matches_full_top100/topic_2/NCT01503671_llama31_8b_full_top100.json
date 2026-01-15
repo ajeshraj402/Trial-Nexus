@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01503671",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse who presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of hypersensitivity to any of the study drugs.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current acute decompensated HF (exacerbation of chronic HF manifested by signs & symptoms that may require IV therapy).",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01503671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

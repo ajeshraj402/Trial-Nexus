@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04307537",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Voluntarily signed written informed consent according to the rules of Good Clinical Practice (Declaration of Helsinki) and national regulations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male patient.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Anterior urethral stricture disease (penile, bulbar, penobulbar and panurethral strictures are allowed).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Procedure was ended with leaving a transurethral catheter in place with foreseen catheter removal and early postoperative imaging after x days.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Absence of signed written informed consent (Appendix B).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age < 18 years.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Female patients.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transgender patients.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Posterior urethral stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has anterior urethral stricture disease and a transurethral catheter was left in place. No exclusion criteria were met.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04307537",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

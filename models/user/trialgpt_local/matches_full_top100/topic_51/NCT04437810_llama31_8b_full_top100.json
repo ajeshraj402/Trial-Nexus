@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04437810",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25-year-old"
+    },
+    {
+      "criterion": "cirrhosis_and_sb_p",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline_creatinine",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antibiotic_treatment_within_one_week",
+      "label": "met",
+      "evidence": "negative blood culture"
+    },
+    {
+      "criterion": "significant_cardiac_failure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "known_chronic_kidney_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency and frequency. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04437810",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

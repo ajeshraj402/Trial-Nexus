@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03826446",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "no permeation of surrounding fat planes",
+      "label": "met",
+      "evidence": "CT scan criteria"
+    },
+    {
+      "criterion": "no encasement of major vascular structures",
+      "label": "met",
+      "evidence": "CT scan criteria"
+    },
+    {
+      "criterion": "no extensive local spread",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no distant metastases or peritoneal infiltration",
+      "label": "met",
+      "evidence": "study inclusion criteria"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforation or obstruction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "metastatic colon cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "colectomy including another part of the colon than right colon",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. Hypertension, hyperlipidemia and hypothyroidism history. Smokes 1 pack per day for 40 years.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03826446",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

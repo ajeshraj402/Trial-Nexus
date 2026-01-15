@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01532349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of stage 2-5 Chronic Kidney Disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "1-21 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willingness and ability to provide informed consent and assent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children less than 1 year of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current pregnancy or pregnancy within the last 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her BMI is 23, BP: 120/75, HR: 75/min.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01532349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

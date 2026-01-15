@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03306095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presence of Portal Hypertension with or without cirrhosis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 and 80 years of age.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prophylactic EVL",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Septicemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with advanced hepatocellular carcinoma (HCC)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Failure to control variceal bleeding by emergency endoscopic therapy.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03306095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

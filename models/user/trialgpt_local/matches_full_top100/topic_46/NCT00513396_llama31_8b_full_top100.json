@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00513396",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Consecutive patients reporting to the study center",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sputum-positive for acid-fast bacilli",
+      "label": "met",
+      "evidence": "positive sputum culture"
+    },
+    {
+      "criterion": "HIV-uninfected",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "MDR-TB defined as resistance to at least the following two drugs: Isoniazid and Rifampicin.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwilling to give consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abnormal renal or hepatic profile",
+      "label": "not_met",
+      "evidence": "lab study is reported bellow"
+    },
+    {
+      "criterion": "History suggestive of isoniazid hypersensitivity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lactating mother",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous history of taking any of the following: kanamycin, prothionamide, levofloxacin, cycloserine and p-aminosalicylic acid",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00513396",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

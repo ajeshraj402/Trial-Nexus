@@ -1,0 +1,95 @@
+{
+  "trial_id": "NCT03528642",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histopathologic or molecular confirmation of either IDH-mutant DA or IDH-mutant AA",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Age >= 16 years",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status =< 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin > 9.0 g/dL",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Leukocytes >= 3.0 x 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1.5 x 10^9/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelets >= 100 x 10^9/L",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "International normalized ratio (INR) =< 1.5 x upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Partial thromboplastin time (PTT) or activated partial thromboplastin time (APTT) =< 1.5 x ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total bilirubin =< 1.5 x institutional ULN and < 3 mg/dL for patients with Gilbert's disease",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) (serum glutamic-oxaloacetic transaminase [SGOT]) & alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT]) =< 3 x institutional ULN",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Creatinine =< 1.5 x institutional ULN or creatinine clearance >= 60 mL/minute",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients must not have received prior chemotherapy to treat the glioma.",
+      "label": "not_met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Patient must not have received prior radiation therapy to the brain. Prior radiation therapy to the head and neck is also excluded if radiation fields overlap.",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Patient must have no evidence of either infratentorial or spinal involvement with tumor.",
+      "label": "not_met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Patients who are unable to swallow tablets.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's history of hypertension and chronic pain may impact eligibility, but no clear evidence is provided. Additionally, the patient's current treatment regimen (high-dose steroids) may be a concern for eligibility.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03528642",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

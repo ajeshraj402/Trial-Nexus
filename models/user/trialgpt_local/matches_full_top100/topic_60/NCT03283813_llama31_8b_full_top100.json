@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03283813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "both sexes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "between 6 and 18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "obese, according to the IOTF criteria (Cole TJ et al., 2000)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pubertal stage \u2265 3 according to the Tanner stage (Tanner et al., 1961)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HOMA-IR > 2,5 or insulin > 15 \u00b5U/ml",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum Zinc level in the range of normality or under the normal levels.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adverse reactions to the product or component of the product (allergies\u2026)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Genetic obesity (Prader Willi syndrome, Down syndrome), Metabolic obesity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Chronic diseases, hepatic or gastroenterological diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medical treatment for chronic diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Supplementation with inositol-like products or supplements containing Zinc and Inositol.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine, but recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03283813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

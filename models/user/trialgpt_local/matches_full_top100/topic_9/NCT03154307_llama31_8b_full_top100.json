@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03154307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Experience \u2265 3 seizures/month in the month prior to starting study",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "No status epilepticus in the last 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No change in medication in last 30 days",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of implanted electronic devices (e.g., pacemaker, medication pump, brain or vagus nerve stimulator, cochlear implant)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of intracranial metal (e.g., aneurysm clip)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to cooperate with non-sedated, navigated TMS testing",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03154307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02836665",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "boy"
+    },
+    {
+      "criterion": "asthma diagnosis",
+      "label": "met",
+      "evidence": "diagnosed a year ago"
+    },
+    {
+      "criterion": "shortness of breath",
+      "label": "met",
+      "evidence": "presents with shortness of breath"
+    },
+    {
+      "criterion": "chest tightening",
+      "label": "met",
+      "evidence": "chest tightening and cough"
+    },
+    {
+      "criterion": "asthma treatment",
+      "label": "not_met",
+      "evidence": "didn't respond to the usual corticosteroid inhaler"
+    },
+    {
+      "criterion": "general corticosteroid therapy candidate",
+      "label": "met",
+      "evidence": "candidate for general corticosteroid therapy"
+    },
+    {
+      "criterion": "spirometry results",
+      "label": "met",
+      "evidence": "FEV1 of 60% of the predicted"
+    },
+    {
+      "criterion": "past medical history",
+      "label": "unknown",
+      "evidence": "non-significant"
+    },
+    {
+      "criterion": "family history",
+      "label": "met",
+      "evidence": "asthma in his mother and his uncle"
+    },
+    {
+      "criterion": "previous treatment",
+      "label": "not_met",
+      "evidence": "used to be treated with combination of inhaled corticosteroids and Zafirlukast"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Written informed consent prior to study participation (mother's statement)"
+    },
+    {
+      "criterion": "institutional commitment",
+      "label": "unknown",
+      "evidence": "no mention of institutional commitment"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02836665",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

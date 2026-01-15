@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02246270",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Women aged 18-85 with history of recurrent urinary tract infections.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Definition of Recurrent UTI: if experienced either more than 3 symptomatic UTI episodes in the past year (including the index infection) or 2 such episodes in the past 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Definition of UTI: >103 cfu/mL of a uropathogen in midstream urine culture from a woman experiencing more than 2 symptoms of cystitis (dysuria, urgency, frequency, suprapubic pain, or hematuria) or, in the absence of a culture, demonstration of pyuria on urinalysis and more than 2 urinary symptoms, as well as complete and rapid resolution of symptoms in response to antibiotic therapy for UTI.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Taking any anticoagulant such as warfarin sodium, heparin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known aneurysm, thrombocytopenia, hemorrhagic disease, hemophilia, gastrointestinal ulceration, polyps, or diverticula",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and is taking antibiotics for the current infection. However, they have a non-obstructing stone in the L ureter and are experiencing significant leaking around the suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT02246270",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

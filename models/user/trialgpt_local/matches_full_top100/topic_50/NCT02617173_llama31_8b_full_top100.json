@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02617173",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "primary infertility",
+      "label": "met",
+      "evidence": "Azoospermia"
+    },
+    {
+      "criterion": "pathological sperm tests indices",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "genetic syndromes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Azoospermia secondary to chemotherapy, bone marrow transplantation or radiation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "5 months old male with undescended testis. Diagnostic laparoscopy confirmed abdominal location.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02617173",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

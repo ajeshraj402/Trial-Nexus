@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04649008",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "medication-refractory epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "planned intracranial EEG (IEEG) placement",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hypothesized to have temporal lobe epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindication to 3T MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior intracranial surgery or device",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He was recently tapered off Dilantin and had no further seizure events during hospitalization.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04649008",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

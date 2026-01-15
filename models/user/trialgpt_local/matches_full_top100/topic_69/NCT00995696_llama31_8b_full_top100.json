@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00995696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "received a new prescription for an antidepressant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recruited from families receiving care at Nationwide Children's Hospital or Community Physician Practices affiliated with Nationwide Children's Hospital",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Families who speak do not speak English",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "families with children who are actively psychotic",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman, no underlying disease. She takes daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT00995696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

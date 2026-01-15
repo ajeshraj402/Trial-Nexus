@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01455792",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous_biopsy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "psa_level",
+      "label": "met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "dre_trus_findings",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refusal_to_sign_consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "withdrawal_during_study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications_to_mri",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous_high_quality_mri",
+      "label": "met",
+      "evidence": "text"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and suspicious findings on DRE/TRUS. He has given informed consent.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01455792",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

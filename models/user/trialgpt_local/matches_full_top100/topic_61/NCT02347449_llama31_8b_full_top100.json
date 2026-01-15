@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02347449",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgical treatment for breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "evaluation of lymph node status with sentinel lymph node procedure or full axillary dissection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive involvement of 1-3 axillary lymph nodes as confirmed by histologic examination",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status 0 or 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "candidate for treatment of their cancer with systemic chemotherapy in addition to hormonal therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Eligible Staging Criteria: T1-3 N1 M0",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "breast tumor must undergo central pathology review at GHI and must be found adequate for the Oncotype DX assay",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "breast tumor must be estrogen-receptor positive and HER2 positive (IHC/FISH) as per institutional guidelines",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior history of breast cancer in the same breast",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "newly diagnosed with more than one operable primary breast tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multi-centric tumors",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known metastatic breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "<2mm invasive tumor as assessed by local pathologist",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "received any kind of neoadjuvant treatment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02347449",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

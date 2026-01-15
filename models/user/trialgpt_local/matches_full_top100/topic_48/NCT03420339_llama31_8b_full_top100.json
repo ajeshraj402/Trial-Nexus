@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03420339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participant must be a child or adolescent between the ages of 4 years, 0 months, and 13 years, 0 months (participants must not be older than 12 years, 11 months).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant must have a valid diagnosis of attention deficit/hyperactivity disorder (AD/HD). No specification of type (e.g., predominately inattentive type, predominately hyperactive-impulsive type, or combined type) will be necessary.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participant must exhibit disruptive behavior, defined as one or more of the following:",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participant must already be prescribed a stimulant medication for the treatment of AD/HD symptoms and at an approved dose for age.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "a diagnosis of autism, conduct disorder, or intellectual disability in the moderate, severe or profound range.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prescribed or taking a stimulant dosage outside of recommended therapeutic range.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Tinea pedis infection, but no underlying disease such as DM. He smokes and drinks moderately.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT03420339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

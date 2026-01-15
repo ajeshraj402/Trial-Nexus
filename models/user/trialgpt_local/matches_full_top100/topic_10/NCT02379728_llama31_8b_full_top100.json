@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "low-risk singleton pregnancy"
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "not_met",
+      "evidence": "singleton pregnancy"
+    },
+    {
+      "criterion": "fetal_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "maternal_age",
+      "label": "met",
+      "evidence": "22yo"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is otherwise healthy and responded well to treatment.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

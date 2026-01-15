@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03379961",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46-year-old"
+    },
+    {
+      "criterion": "gender",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "MDD"
+    },
+    {
+      "criterion": "medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol_use",
+      "label": "not_met",
+      "evidence": "does not drink alcohol"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "not_met",
+      "evidence": "does not smoke"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "medication",
+      "label": "triggers",
+      "evidence": "on anti-depressants for the past 6 months"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on medication. She also has some digestive issues recently.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT03379961",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

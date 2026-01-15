@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02258048",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologic or radiographic evidence of cirrhosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "able to provide informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "MELD score <10",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of variceal bleeding, ascites, hepatorenal syndrome, or overt hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "inability to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cirrhosis and is able to provide informed consent, but MELD score not mentioned. No history of variceal bleeding or ascites.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02258048",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

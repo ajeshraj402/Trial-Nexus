@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03891732",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "men being screened for prostate cancer in the project 'Prevention of Obesity-related Cancers'",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 50-75",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Screening na\u00efve, defined as no blood taking for PSA within past 5 years AND no prostate biopsy within past 5 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PSA 4-50 ng/mL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Agree for non-contrast MRI scanning of prostate",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Men who are contraindicated for MRI(Pacemaker in-situ, Metallic implants which are not MRI-compatible, or Claustrophobia)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior history of prostate cancer",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a large prostate and bladder issues, suitable for urethral catheterization and TURP. Recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03891732",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

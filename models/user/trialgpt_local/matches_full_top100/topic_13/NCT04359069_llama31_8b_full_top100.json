@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04359069",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) class I-III",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of neurogenic bladder",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with chronic indwelling Foley catheterization or suprapubic catheterization",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of neurogenic bladder and is on a suprapubic catheter, which makes them ineligible for the study.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04359069",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03830671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willing and able to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "aged between 18 years and 70 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "positive sputum culture result or positive GeneXpert result",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "evidence of RR-TB or MDR-TB by GeneXpert or culture-based DST",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non pre-XDR-TB or XDR-TB",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willing to use effective contraception of women at childbearing age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chest X-ray compatible with pulmonary TB diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre-XDR-TB or XDR-TB",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known allergy to any drug of the regimen",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "currently taking or took part in another trial less than three months before study initiation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV positive",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abnormal ECG with QT prolongation over 430ms of men while 450 of women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "critically ill, and in the judgment of the investigator, unlikely to take part in the study",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known to be pregnant or breast-feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe cardiovascular diseases such as heart failure, hypertension (poor blood pressure control), arrhythmia or post-infarction status",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male with symptoms of cough, profuse nocturnal sweating and loss of appetite. He has a positive sputum culture for Mycobacterium tuberculosis which are sensitive to first-line TB drugs.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT03830671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

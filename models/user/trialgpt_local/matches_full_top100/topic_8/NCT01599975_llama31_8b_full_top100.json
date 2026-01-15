@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "met",
+      "evidence": "HIV infected on stable ART regimen for 5 months or greater"
+    },
+    {
+      "criterion": "Cognitive function",
+      "label": "met",
+      "evidence": "International HIV Dementia Scale score <10"
+    },
+    {
+      "criterion": "Depression",
+      "label": "met",
+      "evidence": "Beck Depression Inventory score <16"
+    },
+    {
+      "criterion": "Viral load",
+      "label": "met",
+      "evidence": "HIV-1 RNA PCR <50 copies/mL"
+    },
+    {
+      "criterion": "CD4 count",
+      "label": "met",
+      "evidence": "documented CD4 count >200 within 3 months of entry visit"
+    },
+    {
+      "criterion": "Laboratory values",
+      "label": "met",
+      "evidence": "baseline CBC and chemistry panel Grade 1 or normal"
+    },
+    {
+      "criterion": "Pregnancy test",
+      "label": "met",
+      "evidence": "negative serum or urine pregnancy test within 48 hours prior to entry"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "ability and willingness of subject to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypertension",
+      "label": "not_met",
+      "evidence": "SBP >140 and DBP >90 at screening and baseline"
+    },
+    {
+      "criterion": "Untreated hypogonadism, hypothyroidism or hyperthyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Initiation of antidepressants, thyroid medication or anabolic steroids",
+      "label": "not_met",
+      "evidence": "within 6 weeks of screening visit"
+    },
+    {
+      "criterion": "Pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": "negative serum or urine pregnancy test within 48 hours prior to entry"
+    },
+    {
+      "criterion": "Clinically significant EKG abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of coronary artery disease, atherosclerotic disease, left ventricular hypertrophy, cardiomegaly, syncope, congestive heart failure, myocardial infarction, pacemaker, clinically significant arrhythmia, angina, history of treatment for arrhythmia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Brain related opportunistic infections, stroke, intracranial lesions/disease, or meningitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of epilepsy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation. He has had multiple treatments for his disease, including FCR therapy and PCR therapy. He currently has a rising white count and mildly elevated LDH.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04076488",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "haemodialysis patients older than 60 years",
+      "label": "met",
+      "evidence": "patient is a 55yo woman"
+    },
+    {
+      "criterion": "able to walk 20 meters independently without walking aids",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "currently exercising less than one training session per week",
+      "label": "met",
+      "evidence": "patient was treated with Vanco for an extended course of 6 weeks"
+    },
+    {
+      "criterion": "maintenance of a stable medical regimen for 4 weeks prior to initiation of study and",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "considered to maintain a stable regimen for the course of the study",
+      "label": "met",
+      "evidence": "patient was treated with Vanco for an extended course of 6 weeks"
+    },
+    {
+      "criterion": "signed informed consent to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant concomitant disease states",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindications to physical exercise",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known or suspected non-compliance, drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to follow the procedures of the study, e.g. due to language problems,",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychological disorders, dementia, etc. of the participant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "participation in another study with investigational drug within the 30 days preceding and during the present study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04076488",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

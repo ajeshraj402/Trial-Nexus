@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT02071849",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "The subject is 18 years of age or older",
+      "label": "met",
+      "evidence": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve..."
+    },
+    {
+      "criterion": "The subject has bi-leaflet aortic valve morphology",
+      "label": "met",
+      "evidence": "severe aortic stenosis with underlying bicuspid aortic valve"
+    },
+    {
+      "criterion": "The subject has documented aortic valve disease which may or may not include: Aortic valve insufficiency",
+      "label": "met",
+      "evidence": "2+ aortic insufficiency with mild MR"
+    },
+    {
+      "criterion": "The subject needs correction of BAV annular dilatation in patients with chronic AI and dilated annulus",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "All patients will be excluded who require emergency surgery for any reason.",
+      "label": "does_not_trigger",
+      "evidence": "no mention of emergency surgery"
+    },
+    {
+      "criterion": "The subject's aortic valve morphology is not bicuspid.",
+      "label": "does_not_trigger",
+      "evidence": "severe aortic stenosis with underlying bicuspid aortic valve"
+    }
+  ],
+  "notes": "Unknown: EF was 25%, which is below the exclusion criterion of <35%. However, this may be due to severe aortic stenosis and not necessarily a contraindication for the trial.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02071849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

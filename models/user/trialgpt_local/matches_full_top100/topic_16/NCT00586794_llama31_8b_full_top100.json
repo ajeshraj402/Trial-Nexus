@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00586794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent obtained",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age at least 14 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of cyanosis with < 93 % arterial oxygen saturation (measured by transcutaneous pulse oximetry)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary hypertension secondary to any etiology other than those specified in the protocol",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD. Pulmonary consult recommended an empiric, compassionate sildenafil trial.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00586794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

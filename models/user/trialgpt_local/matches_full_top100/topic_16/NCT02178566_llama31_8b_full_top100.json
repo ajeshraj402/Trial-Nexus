@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02178566",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Willing to sign informed consent prior to initiation of any study mandated procedure",
+      "label": "met"
+    },
+    {
+      "criterion": "Male or female \u2265 40 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "Clinical diagnosis of moderate to severe COPD, with an obstructive pattern on pulmonary function tests showing both: FEV1/FVC < 0.7 and FEV1 \u2264 60% of predicted value, on standard COPD therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "Current or past smokers of \u2265 10 pack years",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients fulfilling one or more of the following criteria of documented COPD exacerbation within 1 months prior to screening:",
+      "label": "triggers"
+    },
+    {
+      "criterion": "BMI > 40 kg/m2",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02178566",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

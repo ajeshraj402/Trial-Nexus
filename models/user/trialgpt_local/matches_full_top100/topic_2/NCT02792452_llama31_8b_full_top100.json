@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02792452",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Moderate AS with AVA between 1-1.4cm2, and AVMG<40 millimetres of Mercury (mmHg)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left Ventricular Ejection Fraction (LVEF) \u226550%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac related symptoms; shortness of breath, chest pain or syncope.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to exercise and undertake pharmacological stress, ie previously known",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe aortic or mitral regurgitation or severe mitral stenosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant pulmonary disease like severe (Chronic Obstructive Pulmonary Disease (COPD) or pulmonary fibrosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other known non-cardiovascular disease associated with poor prognosis like metastatic cancer",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02792452",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

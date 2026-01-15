@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years, suspected heart rhythm disorder, and no previous diagnosis of rhythm disorder.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients had a 12-channel ECG record performed at the first visit. If a rhythm disturbance was detected at that time, the patient was treated according to the guidelines and was not included in the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the investigators divided participants into two groups: the test group and control group, where the patients in the test group received a wearable device.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who met these criteria were invited to participate in a study that was approved by the Ethics Committee of the Republic of Slovenia (number 0120-299/2017-7, KME 47/06/17), and written informed consent confirmed their participation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the Personal Digital Mobile Body Sensor is listed in the medical device category, has the status of a medical device with all necessary certifications, and is owned by Savvy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the ECG sensor consists of two electrodes, which are placed 8.5 cm apart, and measures the potential between these two closely placed body-surface electrodes.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the measurement is transmitted via Bluetooth connection to a smartphone, where the device is paired and managed via the MobECG mobile application.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the user can monitor the heart rate on the meter display with a curve and calculate it on an ongoing basis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the measurements are collected on the phone and can be transmitted to the physician in two ways: (1) pressing the button, the user can prepare a PDF report and send it to the physician's e-mail address or (2) transfer the data via USB cable to the physician's computer.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the recordings can show different disorders but need to be evaluated so that artefacts can be distinguished from the actual disturbance of the rhythm.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "VisECG enables us to review and accurately analyze the recording and produce a report that can be submitted to physicians of other specialities for consultation or delivered to the patient and his or her physician as a measurement result.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the study included the patients and their family physician.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years, on examination on the ECG, the patient was not in sinus rhythm, and that the patient has a known heart rhythm disorder and / or is being treated for it.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with no specific past medical issues. She uses prenatal vitamins and has a family history of DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

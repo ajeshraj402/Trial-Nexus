@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01272687",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "Paget's disease of bone"
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "signed informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "signed informed consent"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's disease of bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01272687",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

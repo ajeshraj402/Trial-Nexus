@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01526720",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 diabetes mellitus",
+      "label": "met",
+      "evidence": "laboratory study"
+    },
+    {
+      "criterion": "Relatives of patients with potentially monogenic newly diagnosed type 2 diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anti-GAD antibodies, malignancies, and any condition severely impairing liver and/or kidney function.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All subjects consume a weight-maintaining diet containing 200-250 g of carbohydrate/day for at least three days before studies.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which is a genetic disorder that affects copper metabolism. The patient's laboratory study shows low serum caeruloplasmin and raised 24 hour urine copper excretion.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01526720",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

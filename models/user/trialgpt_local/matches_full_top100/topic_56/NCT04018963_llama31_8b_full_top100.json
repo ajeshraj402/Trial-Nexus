@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04018963",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pituitary tumor",
+      "label": "met",
+      "evidence": "Enhanced MRI shows a pituitary tumor"
+    },
+    {
+      "criterion": "endoscopic surgery required",
+      "label": "met",
+      "evidence": "Endoscopic surgery is required according to the pituitary tumor treatment guidelines."
+    },
+    {
+      "criterion": "Karnofsky performance status \u2265 70",
+      "label": "met",
+      "evidence": "The patient has Karnofsky performance status \u2265 70"
+    },
+    {
+      "criterion": "informed consent signed",
+      "label": "met",
+      "evidence": "The patient has signed the informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous transsphenoidal surgery or other nasal surgery",
+      "label": "not_met",
+      "evidence": "no mention of previous surgery"
+    },
+    {
+      "criterion": "nasal tumors history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe head or face trauma history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "congenital sinus malformation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or lactation"
+    },
+    {
+      "criterion": "serious systemic diseases without control",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "poor compliance",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma and underwent transsphenoidal surgery 4 months ago. He takes only vitamin D and multivitamins after the surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT04018963",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

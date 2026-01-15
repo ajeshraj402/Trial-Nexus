@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02813616",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 - 80 years old"
+    },
+    {
+      "criterion": "ibs_c",
+      "label": "met",
+      "evidence": "IBS-C"
+    },
+    {
+      "criterion": "cc",
+      "label": "met",
+      "evidence": "CC"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "secondary_cc",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02813616",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

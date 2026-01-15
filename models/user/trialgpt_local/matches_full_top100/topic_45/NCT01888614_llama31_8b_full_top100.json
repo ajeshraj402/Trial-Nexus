@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01888614",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient sickle cell clinic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "adult sickle patients presenting for follow up at the outpatient sickle cell clinic",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "syndrome, or COPD exacerbation and/or a significant pulmonary dysfunction in the recent (3-6 month) past",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A recent (2 week) history of lung infection, asthma, acute chest syndrome, or COPD exacerbation and/or a significant pulmonary dysfunction in the recent (3-6 month) past",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01888614",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

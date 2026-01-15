@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00234494",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Previously untreated or relapsed locally advanced or metastatic transitional cell carcinoma of the bladder.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable disease as per RECIST.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No known central nervous system metastasis.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior organ allograft.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No history of other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that might affect the interpretation of the results of the study or render the subject at high risk from treatment complications.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of bleeding diathesis or coagulopathy.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00234494",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

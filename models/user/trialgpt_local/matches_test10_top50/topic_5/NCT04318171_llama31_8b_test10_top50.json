@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04318171",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u2265 18 years age with vascular disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Male / Female",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18 years age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with congenital vascular abnormalities/syndromes",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant patients will not be recruited in this study.",
+      "label": "met",
+      "evidence": "study text"
+    },
+    {
+      "criterion": "Those unable to provide consent.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Anyone who is taking part in any other research.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Potential participants who might not adequately understand verbal explanations or written information given in English, or who have special communication needs.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD...",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04318171",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

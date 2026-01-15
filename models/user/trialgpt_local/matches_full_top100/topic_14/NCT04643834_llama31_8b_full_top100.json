@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04643834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female patients, age 18 and older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "undergoing cardiac surgery with CPB or off pump CABG",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vasopressor requirement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mechanical circulatory support",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dialysis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mechanical ventilation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "cardiac arrest necessitating resuscitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "aborted sudden death",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "preoperative cardiac massage",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "preoperative intra-aortic balloon pump",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. They are on BiPap with 5L and have hypoxia and O2 sats 70s.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT04643834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

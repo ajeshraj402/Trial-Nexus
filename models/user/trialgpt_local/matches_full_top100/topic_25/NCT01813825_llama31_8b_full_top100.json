@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "tumor_type",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "met",
+      "evidence": "clear surgical margins"
+    },
+    {
+      "criterion": "skinSpacing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dcis",
+      "label": "met",
+      "evidence": "DCIS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "extensive_intraductal_component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "not_met",
+      "evidence": "infiltrating ductal breast carcinoma"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

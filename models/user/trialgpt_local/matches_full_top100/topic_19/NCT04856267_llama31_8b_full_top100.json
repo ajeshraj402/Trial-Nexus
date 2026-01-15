@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04856267",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosed with cardiac AL amyloidosis using standard diagnostic techniques and criteria at the NAC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing and able to provide written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient who already have a cardiac device inserted, such as a permanent pacemaker (PPM), implantable cardioverter-defibrillator (ICD) or implantable cardiac monitor (ILR)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other pre-existing cardiac or other pathology which, in the investigators opinion, would adverse affect primary outcome data collection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04856267",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

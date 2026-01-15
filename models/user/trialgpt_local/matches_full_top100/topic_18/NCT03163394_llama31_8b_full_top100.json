@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03163394",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is between 1 to 24 months of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has reported or measured fever >38.5 degrees C (101.3 degrees F)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "RSV Positive at time of urine collection",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Flu Positive at time of urine collection",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known GU abnormality",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurogenic bladder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Frequent catheterizations",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Indwelling catheter",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Antibiotics in the last 7 days",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe 2cm bulbar urethral stricture and will require surgical fixation when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03163394",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01771523",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "thyroidectomy",
+      "label": "met",
+      "evidence": "s/p neck mass resection; unable to perform thyroidectomy"
+    },
+    {
+      "criterion": "thyroidectomy",
+      "label": "met",
+      "evidence": "s/p RAI ablation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "substernal goitre",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "non differentiated cancer",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with high bleed risk, proximity to trachea and recurrent laryngeal nerve, and large tumor size.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01771523",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

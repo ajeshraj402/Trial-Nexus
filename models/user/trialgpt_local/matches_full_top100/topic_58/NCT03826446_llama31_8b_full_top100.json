@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03826446",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "no permeation of surrounding fat planes",
+      "label": "met",
+      "evidence": "CT scan"
+    },
+    {
+      "criterion": "no encasement of major vascular structures",
+      "label": "met",
+      "evidence": "CT scan"
+    },
+    {
+      "criterion": "no extensive local spread",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no distant metastases or peritoneal infiltration",
+      "label": "met",
+      "evidence": "study criteria"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforation or obstruction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "metastatic colon cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "colectomy including another part of the colon",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in right lower quadrant, nausea and vomiting. CT scan showed acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03826446",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

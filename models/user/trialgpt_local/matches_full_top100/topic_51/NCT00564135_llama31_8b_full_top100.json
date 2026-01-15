@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00564135",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fibroids",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "endometriosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "abnormal bleeding",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "uterine prolapse",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "intra-epithelial neoplasia of the cervix grade 3",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pelvic reconstructive surgery for pelvic organ prolapse or stress urinary incontinence",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "bacteriuria and clinical urinary tract symptoms, e.g. dysuria, frequency, urgency and stress incontinence before surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. She has no history of recurrent UTI or underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00564135",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

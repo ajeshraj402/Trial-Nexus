@@ -1,0 +1,37 @@
+{
+  "trial_id": "NCT04825080",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic carotid artery stenosis >60%",
+      "label": "met",
+      "evidence": "physical examination and a DUS at the S. Orsola Malpighi hospital from 2019 to 2025"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "carotid revascularization",
+      "label": "unknown"
+    },
+    {
+      "criterion": "transient ischemic attach or a stroke within the 6-months before the enrollment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "restenosis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "carotid total occlusion",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has asymptomatic carotid artery stenosis >60% with a physical examination and a DUS at the S. Orsola Malpighi hospital from 2019 to 2025, but there is no mention of carotid revascularization or transient ischemic attach/stroke within the past 6 months.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04825080",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

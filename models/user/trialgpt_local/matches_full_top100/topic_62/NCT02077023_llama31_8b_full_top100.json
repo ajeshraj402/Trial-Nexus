@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02077023",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "screening_program",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "health_questionnaire",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "carotid_artery_disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has significant carotid artery disease (>50% stenosis) detected by duplex ultrasound, which makes them eligible for the cohort observation cases. However, they are unable to give informed consent due to their age.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02077023",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

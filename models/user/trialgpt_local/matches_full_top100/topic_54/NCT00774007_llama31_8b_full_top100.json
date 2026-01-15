@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00774007",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "IBS patients (both males and females) with positive diagnosis based on Rome II criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients capable of conforming to the study protocol;",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who have given their free and informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written Consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with ascertained Inflammatory Bowel Diseases (Crohn disease, Diverticular disease, Ulcerative colitis, Infectious colitis, Ischemic colitis, microscopic colitis); food intolerance/allergy; active malignancy of any type, or history of a malignancy;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of major abdominal surgeries;",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00774007",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

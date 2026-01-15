@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02193451",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men seeking further treatment for their bothersome lower urinary tract symptoms (LUTS)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "which may include surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PROMS (questionnaire) study component: Men randomised (enrolled) to the UPSTREAM trial (Phase I) who were willing to be contacted for long term follow up, as indicated on their original (Phase I) consent form.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "NHS Digital data extraction study component: Men randomised (enrolled) to the UPSTREAM trial (Phase I).",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "were unable to pass urine without a catheter (urinary retention)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "had a relevant neurological disease, such as a stroke",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "were undergoing treatment for prostate or bladder cancer",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "had previously had prostate surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "were not medically fit for surgery, or were unable to complete outcome assessments",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures. Severe bulbar urethral stricture found during flexible cystoscopy.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02193451",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

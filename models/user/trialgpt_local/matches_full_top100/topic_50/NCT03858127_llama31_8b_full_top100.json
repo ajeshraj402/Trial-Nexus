@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03858127",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male preterm infants born \u226432 weeks of gestational age",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "Written informed consent provided",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Female sex assignment at birth",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Male preterm infants born >32 weeks of gestational age",
+      "label": "not_met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "Male infants born at term",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "5 months old male with undescended testis, normal pregnancy and birth.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03858127",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

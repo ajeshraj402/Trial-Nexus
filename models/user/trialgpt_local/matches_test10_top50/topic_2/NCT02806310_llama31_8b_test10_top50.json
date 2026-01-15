@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT02806310",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled_to_have_a_cardiac_MRI",
+      "label": "met",
+      "evidence": "patient_underwent_preop_workup_for_valvular_replacement_with_preop_chest_CT_scan_and_carotid_US"
+    },
+    {
+      "criterion": "already_had_an_MRI_within_the_past_year",
+      "label": "met",
+      "evidence": "patient_presented_here_for_evaluation_after_previous_admission"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "without_BAV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "already_had_surgery_for_aortic_valve_problems_and/or_aortopathy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "patient_has_bicuspid_aortic_valve_and_is_undergoing_evaluation_for_valvular_replacement",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02806310",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

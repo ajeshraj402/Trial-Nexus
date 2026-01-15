@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04141111",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent prior to enrolment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female, aged between 18-65 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Type 2 Diabetes Mellitus for more than 12 months, on insulin, on a stable dose for 60 days prior to screening",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Available clinical records for the past 12 months, regarding medical treatment for diabetes and A1c evaluations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A1c >7.5 % in the 60 days prior to screening",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Discrepancies between A1c and glycaemic levels (the log book not reflecting the A1c result) that justify the clinical decision of pCGM future use",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Decision to use Carelink iPro must precede enrollment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to adhere to protocol requirements",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient reports that he is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patient states that at the time of his initial diagnosis with type 1 diabetes he was hospitalized with a glucose value >1000 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Most recently, he has been using insulin glargine 55 units once daily, and insulin aspart sliding scale 3 times daily",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The patient has had previous episodes of diabetic ketoacidosis, for which he was hospitalized",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Gestational Diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or planning to become pregnant during the course of the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Continuous Glucose Monitoring use by any device or manufacturer in the year prior to screening",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serious or unstable medical or psychological condition which, in the opinion of the investigator, would compromise the subject's safety or successful participation in the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to comply with study requirements",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years. He presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04141111",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

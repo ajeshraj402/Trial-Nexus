@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03791814",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Be 18 years of age or older on day of signing the informed consent form.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have positive anti-HCV antibody titers and detectable HCV RNA level before or after the initiation of MATCH-D.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HCV genotype 1 and 4",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have an HCV treatment status that is one of the following: Treatment na\u00efve: Naive to all anti-HCV treatment Prior IFN or PEG-IFN + Ribavirin Treatment failures: Null responders, Partial responders, Relapsers P/R Intolerant: Subjects were intolerant to a prior IFN or PEG-IFN and Ribavirin regimen, Subjects discontinued treatment prematurely and were therefore unable to complete a full course of therapy because of drug-related toxicity.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has evidence of decompensated chronic liver disease such as presence of or history of ascites, gastric or variceal bleeding, hepatic encephalopathy or other signs or symptoms of advanced liver disease.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have Child-Pugh B or C cirrhosis (these patients will need to be referred to a hepatologist for HCV therapy).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have a likelihood of receiving a renal transplant or liver transplant during the study treatment period.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has cirrhosis, esophageal varices, and recent UGIB. Also describes new imbalance leading to a fall, which may indicate hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03791814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

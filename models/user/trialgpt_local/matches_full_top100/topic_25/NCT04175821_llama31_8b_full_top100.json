@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04175821",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "post mastectomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "complete microscopic excision of primary tumour and stage II",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery, stage I or IV disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "past history of malignancy except basal cell skin cancer",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has breast cancer with post mastectomy and complete microscopic excision of primary tumour and stage II. No past history of malignancy except basal cell skin cancer.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04175821",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

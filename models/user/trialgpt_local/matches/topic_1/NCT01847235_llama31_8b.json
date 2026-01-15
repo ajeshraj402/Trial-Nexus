@@ -1,0 +1,90 @@
+{
+  "trial_id": "NCT01847235",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven anaplastic oligodendroglioma or oligoastrocytoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Progressed or relapsed after surgery or radiation therapy",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma complicated by progressive lower extremity weakness and urinary retention, indicating progression or relapse."
+    },
+    {
+      "criterion": "Female or male aged 20 years or over",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "At least 1 measurable mass lesion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status 0-3",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, but no mention of ECOG performance status."
+    },
+    {
+      "criterion": "Adequate organ function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absolute neutrophil count > 1,500/\u03bcL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "platelet count > 75,000/\u03bcL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hemoglobin greater than 9 g/dL or 900g/L",
+      "label": "met",
+      "evidence": "Patient has hypertension and chronic pain, but no mention of hemoglobin levels."
+    },
+    {
+      "criterion": "serum creatinine less than 1.5 times the upper limit of laboratory normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "total serum bilirubin less than 1.5 times the upper limit of laboratory normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AST or ALT less than three times the upper limit of laboratory normal",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior course of temozolomide",
+      "label": "does_not_trigger",
+      "evidence": "Patient received temozolomide as part of their therapy, but it's not clear if they had a prior course."
+    },
+    {
+      "criterion": "Combined glioblastoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant woman",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man, so this criterion does not apply."
+    }
+  ],
+  "notes": "Key unknowns include the patient's ECOG performance status, absolute neutrophil count, platelet count, hemoglobin levels, serum creatinine, total serum bilirubin, and AST or ALT levels. Additionally, it is unclear if the patient had a prior course of temozolomide.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01847235",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

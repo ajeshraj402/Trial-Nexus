@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04690881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "non-disabled",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Wijma Birth Experience / Expectation Scale A score",
+      "label": "met",
+      "evidence": "38 or more points"
+    },
+    {
+      "criterion": "living with spouse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "primipary",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no risky pregnancy diagnosis",
+      "label": "met",
+      "evidence": "negative beta hcg test"
+    },
+    {
+      "criterion": "suitable gestational age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "risky pregnancy diagnosis",
+      "label": "not_met",
+      "evidence": "negative beta hcg test"
+    },
+    {
+      "criterion": "absence from first week of training",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "difficulty following group studies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "incomplete forms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willingness to continue study",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She has diplopia and weakness affecting her upper extremities despite treatment.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT04690881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

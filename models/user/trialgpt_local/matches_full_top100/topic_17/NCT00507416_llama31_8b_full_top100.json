@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00507416",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "64yo woman"
+    },
+    {
+      "criterion": "Multiple Myeloma",
+      "label": "met",
+      "evidence": "s/p allogeneic transplant with recurrent disease and systemic amyloidosis"
+    },
+    {
+      "criterion": "Measurable Disease",
+      "label": "met",
+      "evidence": "Quantifiable serum M-protein value (>1 g/dL of immunoglobulin (Ig)G or IgM M-protein)"
+    },
+    {
+      "criterion": "Voluntary Written Informed Consent",
+      "label": "met",
+      "evidence": "Voluntary written informed consent must be given before performance of any study related procedure"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Smoldering Multiple Myeloma or Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Waldenstr\u00f6m's Disease or Other Conditions with IgM M-protein",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior Systemic Therapy for Multiple Myeloma",
+      "label": "met",
+      "evidence": "Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant"
+    },
+    {
+      "criterion": "Radiation Therapy within 2 weeks before randomization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Major Surgery within 30 days before randomization",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of Allergy to Study Medications or Excipients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "\u2265Grade 2 Peripheral Neuropathy on Clinical Examination within 21 days before enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinical Laboratory Values within 21 days prior to enrollment",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis and is on hemodialysis for ESRD. She was treated with various therapies, including melphalan and prednisone, VAD regimen, and autologous stem cell transplant.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00507416",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

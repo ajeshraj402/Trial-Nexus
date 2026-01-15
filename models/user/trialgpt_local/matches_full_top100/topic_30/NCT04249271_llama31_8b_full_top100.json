@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04249271",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous infertility with known thyroidal function",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "previous infertility with known thyroidal function (TSH, anti-TPO)",
+      "label": "met",
+      "evidence": "lab results"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "other endocrine pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "manifest thyroidal pathology",
+      "label": "not_met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "contraindication against pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "after repeated miscarriage (3 or more)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heavy smokers (20 cig per day or more)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04249271",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

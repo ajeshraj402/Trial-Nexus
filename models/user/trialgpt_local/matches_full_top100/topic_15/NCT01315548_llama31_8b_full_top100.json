@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01315548",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "solid pancreatic tumor masses by previous cross-sectional imaging techniques",
+      "label": "met",
+      "evidence": "US, CT, MR"
+    },
+    {
+      "criterion": "Age 18 to 90 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed informed consent for EUS with contrast-enhancement, elastography and EUS-FNA",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior surgical treatment with curative intent or chemo-radiotherapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients diagnosed with mucin producing tumors, pancreatic cystic tumors, etc.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass. She presents with fevers/rigors and bandemia. CT abdomen without contrast showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01315548",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

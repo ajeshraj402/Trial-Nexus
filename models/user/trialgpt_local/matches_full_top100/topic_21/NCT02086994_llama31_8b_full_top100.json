@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02086994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancies of more than 28 weeks' gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe preeclampsia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "polyhydramnios",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous uterine scar",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02086994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

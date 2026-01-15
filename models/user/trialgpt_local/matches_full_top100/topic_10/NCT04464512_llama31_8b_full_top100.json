@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04464512",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-65",
+      "label": "met"
+    },
+    {
+      "criterion": "ASA I-III",
+      "label": "met"
+    },
+    {
+      "criterion": "Willing to participate in post-operative psychiatric care",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe renal disease (Creatinine clearance < 30)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Acute Ethanol Intoxication (serum ethanol > 0.080)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04464512",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

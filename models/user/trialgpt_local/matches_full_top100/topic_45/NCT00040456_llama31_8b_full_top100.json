@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00040456",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe sickle hemoglobinopathy",
+      "label": "met",
+      "evidence": "known history"
+    },
+    {
+      "criterion": "male and female patients of all races",
+      "label": "met",
+      "evidence": "patient is a 34-year-old African American man"
+    },
+    {
+      "criterion": "adult and pediatric patients with Hb SC disease",
+      "label": "met",
+      "evidence": "lab study: Hemoglobine electrophoresis: 91% HbS 6%HbF 3%HbA2"
+    },
+    {
+      "criterion": "able to swallow the Mg pidolate preparation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "at least one prior painful crisis",
+      "label": "met",
+      "evidence": "patient had severe pain in his lower back that radiated to both thighs scored 9 out of 10"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "transfused within 90 days of study entry",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "elevated (>1.5 times upper limit of normal for age) BUN, creatinine, or liver function tests > 3 times the upper limit of normal for age",
+      "label": "not_met",
+      "evidence": "lab study: Hgb: 8 g/dl, AST: 22 U/L, ALT: 43 U/L, Alk P: 53 U/L"
+    },
+    {
+      "criterion": "take a magnesium-containing medication (Mylanta, Maalox, etc.) on a regular (i.e., more than 2 days per week) basis",
+      "label": "not_met",
+      "evidence": "patient has no positive history of drug allergy"
+    }
+  ],
+  "notes": "Patient is a 34-year-old African American man with severe bone pain due to sickle cell disease. He has had multiple painful crises in the past and meets several eligibility criteria.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00040456",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

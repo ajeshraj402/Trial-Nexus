@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00301652",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "new diagnosis of ANCA associated vasculitis",
+      "label": "met",
+      "evidence": "Wegener's granulomatosis was diagnosed for him"
+    },
+    {
+      "criterion": "renal involvement attributable to active ANCA associated vasculitis",
+      "label": "met",
+      "evidence": "Elevated serum creatinine between 150 and 500 umol/l - renal biopsy"
+    },
+    {
+      "criterion": "serum ANCA positive by indirect immunofluorescence (IIF) and positivity in the anti-PR3 or anti-MPO by ELISA",
+      "label": "met",
+      "evidence": "MPO-ANCA: 153 EU"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "more than two weeks treatment with cyclophosphamide (CYC) or other cytotoxic drug within previous 6 months or with oral corticosteroids (OCS) for more than 4 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-existence of another multisystem autoimmune disease, e.g. SLE",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00301652",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

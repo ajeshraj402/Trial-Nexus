@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04064957",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 yr. of age or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Clinical diagnosis of a non-penetrating traumatic SCI to the cervical spine",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of Recent or ongoing infection",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Clinically significant cardiovascular, lung, renal, hepatic, or endocrine disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has hypertension and hypothyroidism but no acute intracranial findings on CT angiogram. He is being monitored in the ICU for 24 hours.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04064957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

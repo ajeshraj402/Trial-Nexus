@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT00089427",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must be \u226518 years old.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Patients must have undergone a gross total resection of the solid contrast-enhancing lesion(s) > 1.0 cm in diameter.",
+      "label": "not_met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Patients must be able to have catheters placed within 14 days of tumor resection (including a planned Gross Total Resection following an initial biopsy or subtotal resection).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have histopathologic confirmation of malignant glioma from resection specimen.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Diagnosis must be consistent with either GBM, AA, or malignant mixed OA.",
+      "label": "met",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Patients must be in adequate general condition and meet the following criteria: a. Karnofsky Performance Scale score \u2265 70.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with residual contrast-enhancing tumor crossing the midline, multifocal tumor not amenable to gross total resection or non-parenchymal tumor dissemination (e.g., subependymal or leptomeningeal).",
+      "label": "triggers",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Patients with clinically significant increased ICP (e.g., impending herniation), uncontrolled seizures or requirement for immediate palliative treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Unknown Karnofsky Performance Scale score and catheter placement status. Unresectable tumor may trigger exclusion criterion.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00089427",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

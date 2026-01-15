@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01931605",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "urinary retention due to obstructive benign prostatic hyperplasia",
+      "label": "met",
+      "evidence": "BPH confirmed by endoscopy"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "78 years old"
+    },
+    {
+      "criterion": "indwelling urinary catheter for at least 1 month",
+      "label": "met",
+      "evidence": "catheter left in place"
+    },
+    {
+      "criterion": "at least one failure of a trial without catheter despite alpha-blocker treatment for at least 72 hours",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed about alternative treatment",
+      "label": "met",
+      "evidence": "urology suggested surgical fix"
+    },
+    {
+      "criterion": "signed informed consent form",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prostate cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of relevant neurological disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "urethral stricture",
+      "label": "not_met",
+      "evidence": "severe 2cm bulbar urethral stricture"
+    },
+    {
+      "criterion": "chronic persistent local pathology",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has an indwelling urinary catheter due to severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01931605",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

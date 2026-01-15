@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental Retardation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Traumatic Brain Injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "New onset or marked worsening of a seizure disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a pregnant woman who developed fever, chills, nausea, vomiting, dysuria, urgency and frequency. She has no history of recurrent UTI prior to her pregnancy or any other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

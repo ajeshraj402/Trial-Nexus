@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01621971",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "patients undergoing mitral valve surgery for chronic mitral regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "estimated pulmonary hypertension (systolic PAP > 50 mmHg estimated by the velocity of tricuspid valve regurgitation in preoperative transthoracic echocardiography)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who agreed to participate in this study and signed written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrial fibrillation, atrial flutter, multiple ventricular ectopic contractions, continuous inotropic support, LV ejection fraction (EF) < 30%, emergent surgery, obstructive cardiomyopathy, bleeding diatheses, bronchial asthma and had biochemical evidence of hepatic disease or renal impairment.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The pharmacist implements the randomization process for grouping the patients by giving the enrolled patients, a patient identification number (PIN). Then, the patients are stratified by their PIN in a 1:1 ratio to receive IH (Primacor, Sanofi-Synthelabo Canada Inc., Markham, ON, Canada) (Group IH) or IV (Group IV) milrinone. The investigators are blinded to the allocation of the study group.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anesthesia and Patient Monitoring When the patient arrived in the operating room, continuous monitoring of a five-lead ECG (lead II and V5), the bispectral index (BIS), pulse oximetry, and invasive arterial pressure via the radial artery are started. Patients are given midazolam 1.5-2 mg intravenously in the patient holding area. Anesthesia is induced with propofol 1-1.5 mg/kg, fentanyl 10-15 \u03bcg/kg, and rocuronium 0.9 mg/kg.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient refused right heart cath for evaluation of response to sildenafil but tolerated an inpatient trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01621971",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

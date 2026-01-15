@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a woman"
+    },
+    {
+      "criterion": "willingness to give consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy to lidocaine",
+      "label": "not_met",
+      "evidence": "no mention of allergy"
+    },
+    {
+      "criterion": "contraindications to IUD use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a distended appendix with thickened appendiceal wall, but no perforation or abscess.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04494347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "mitral regurgitation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "atrial fibrillation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "watchman labeling guidelines",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "short-term oral anticoagulation therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "follow-up visits",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mitral valve anatomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mitral stenosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication for anticoagulation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intra-cardiac thrombus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior occlusion of LAA",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "implanted mechanical mitral valve",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "long-term warfarin therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypercoagulable state",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04494347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

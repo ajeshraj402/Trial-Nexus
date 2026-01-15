@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04741737",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age over 19 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who are expected to undergo surgery under the diagnosis of ipsilateral breast tumor recurrence",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who had partial mastectomy and sentinel lymph node biopsy for prior operation for the initially diagnosed breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients considered to be axillary lymph node negative from clinical findings",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who understand and willingly participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with recurrence in other regions.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are not eligible to perform SLNB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who received mastectomy or axillary lymph node dissection for prior operation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who experienced recurrence within a year from the primary operation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patientes who are known to have axillary lymph node metastasis before the secondary operation, histologically confirmed from tissue biopsy or cytology",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with a history of breast cancer and underwent lumpectomy. She has no palpable masses on breast exam and is using multivitamins daily.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04741737",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

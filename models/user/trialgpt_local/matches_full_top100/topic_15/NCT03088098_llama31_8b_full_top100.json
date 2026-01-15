@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03088098",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "atrial fibrillation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suitable anatomy for transfemoral TAVI with the Portico Transcatheter Aortic Valve System",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mechanical heart valve or other indication for oral anticoagulation (i.e. recent pulmonary embolism)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "contraindication for oral anticoagulation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but also has atrial fibrillation and a mechanical heart valve, which are contraindications for the trial.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03088098",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

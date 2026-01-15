@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01106443",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Indeterminate or benign pathology on fine needle aspirate biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "> 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous thyroid surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous neck surgery in field of thyroidectomy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous neck irradiation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pre-operative hypocalcemia or hypoparathyroidism",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT, but does not have previous thyroid surgery or neck irradiation.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01106443",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

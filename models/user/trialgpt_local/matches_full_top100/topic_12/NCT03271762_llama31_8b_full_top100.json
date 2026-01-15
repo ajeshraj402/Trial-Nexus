@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03271762",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Primary Mitral Regurgitation grade 3+ or 4+",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients in class II to IV NYHA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mitral valve anatomy appropriate to MitraClip\u00ae therapy and mitral valve surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evolving endocarditis or active endocarditis or inflammatory disease in the last 3 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient who cannot tolerate procedural anticoagulation or post procedural antiplatelet regimen",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03271762",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

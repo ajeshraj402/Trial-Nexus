@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "15 years old"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "migraine headache"
+    },
+    {
+      "criterion": "treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial anesthesia for cesarean delivery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "external cephalic version",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "non-labor procedure",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She has been diagnosed with migraine headache and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00471809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "15 years old"
+    },
+    {
+      "criterion": "Asthma diagnosis",
+      "label": "met",
+      "evidence": "diagnosed a year ago"
+    },
+    {
+      "criterion": "FEV1",
+      "label": "unknown",
+      "evidence": "60% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systemic corticosteroids for asthma",
+      "label": "not_met",
+      "evidence": "less than four courses in the past year"
+    },
+    {
+      "criterion": "Hospitalization for wheezing illnesses",
+      "label": "unknown",
+      "evidence": "no hospitalizations mentioned"
+    }
+  ],
+  "notes": "The patient has moderate to severe persistent asthma and meets most of the inclusion criteria. However, his FEV1 is not explicitly stated as being below 80% predicted, so this criterion is unknown.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00471809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

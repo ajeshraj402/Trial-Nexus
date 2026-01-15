@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02746432",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Documented CRC by histopathology",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient not consenting to the study or refused.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Metastatic disease at the time of diagnosis.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to insulin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She does not meet the age criterion for the study and has pregnancy, which are exclusion criteria.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02746432",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

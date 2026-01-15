@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01524991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological or cytological proof of urothelial carcinoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years at the time of consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent and HIPAA authorization for release of personal health information",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior Autoimmune disease: Patients with a history of inflammatory bowel disease, including ulcerative colitis and Crohn's Disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No active CNS metastases. Subjects with neurological symptoms must undergo a head CT scan or brain MRI to exclude brain metastasis.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms and IPSS score of 15, but no history of autoimmune disease or active CNS metastases.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01524991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03987893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57-year-old gentleman"
+    },
+    {
+      "criterion": "ACLF with presence of hepatic encephalopathy > grade 2 as per WHC",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or those who are suspected to be having acute fatty liver of pregnancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Malarial hepatopathy, enteric hepatitis, or ischemic hepatitis.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Serum Na <125 mEq/litre",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Gastrointestinal (GI) obstruction, ileus, or gastric retention",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Bowel perforation",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Toxic colitis or toxic megacolon",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Structural brain lesions (as indicated by computed tomography imaging if available and confirmed by neurological exam)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Other causes of altered mental status (i.e. not meeting the definition of hepatic encephalopathy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Uncontrolled infection with hemodynamic instability requiring vasopressors.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03987893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

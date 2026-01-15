@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04156490",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "MCA stroke greater than 70cc in size.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with a midline shift > 1 mm",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemorrhagic conversion (PH2 or higher. )",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemicraniectomy within 6 hours from initiation of hypertonic therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemicraniectomy with no repeat CT imaging prior to the operation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemicraniectomy emergently without hypertonic therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, but recent abdominal mass and pancreatic adenocarcinoma diagnosis may impact eligibility.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04156490",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

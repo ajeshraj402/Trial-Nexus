@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02276547",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe symptomatic mitral regurgitation (Stage D)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High surgical risk for open mitral valve surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject meets the anatomical eligibility criteria for available size(s)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "NYHA Class III or IV heart failure",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "DMR deemed by the heart team to be operable.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prohibitive risk, deemed too frail or listed for cardiac transplant.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation. She remains symptomatic and is prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02276547",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00497094",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Atherosclerosis is the underlying disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with an asymptomatic stenosis >80% (NASCET) with a documented progression of the degree of stenosis to >80% within 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurologist\u00b4s explicit consent to potentially perform CAS",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Underlying disease other than atherosclerosis (inflammatory or autoimmune disease)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He is physically active, but his LDL-C level is high.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00497094",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

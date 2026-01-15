@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT01630096",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "male or female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "testing positive for c. diff",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than 18 yrs of age",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Mentally handicapped",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those sick enough to require surgery at diagnosis shall not be enrolled, as they should be operated at that point.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients in whom severe ileus or suspected small bowel obstruction is present.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01630096",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04652830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Uni- and multiparous women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Ability to understand Swedish language",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability participate in a three months follow-up program",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diastasis of the rectus abdominis muscles > 3 cm",
+      "label": "met",
+      "evidence": "ultrasound"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ongoing pregnancy",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age <18 years or >50 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "< 3 months or >12 months post partum",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of neurologic, musculoskeletal or psychiatric disorders",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Interrectal diastasis < 3 cm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, nausea and vomiting. Past medical history of hypercholesterolemia and C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04652830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02714439",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with an abnormal Pap test, positive HPV test or any history of cervical dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with an intact cervix (patients who have undergone previous LEEP, cone and/or cryotherapy are eligible)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative urine or serum pregnancy test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women who are at least 21 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to provide informed consent and sign a written Informed Consent Document (ICD)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women < 21 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women who have undergone a hysterectomy with removal of the cervix",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with a known allergy to proflavine, acriflavine, or iodine",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women who are pregnant or nursing",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly and prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02714439",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

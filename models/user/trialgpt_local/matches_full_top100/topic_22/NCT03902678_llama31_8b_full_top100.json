@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03902678",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with liver cirrhosis and PVT which don't fulfill criteria of malignancy by triphasic CT abdomen defined as, (neovascularity of thrombus, arterial enhancement with rapid washout, direct invasion by adjacent hepatic mass and diameter of thrombus more than 23 mm), either :",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "With or without hepatic mass",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Undergone local treatment or surgical treatment following a diagnosis of HCC and develop PVT during their follow up.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncooperative or excessively apprehensive patient",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anticoagulation treatment or non-substituted coagulopathy (International Normalized Ratio \u2265 1.5, Platelet count \u2264 50.000 cells/mm3, heparin administration at therapeutic doses).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inhibition of platelet aggregation by clopidogrel and other thienopyridines.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications of sedation (Uncontrolled Diabetes Mellitus, Uncontrolled Thyroid Disorders, Pregnancy, Respiratory Embarrassment, Reactional Drugs like Antidepressants and Anti-anxiety Agents).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients fulfilling criteria of malignancy by triphasic CT on abdomen.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Extra hepatic metastasis of HCC.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Child-Pugh classification stage C.",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03902678",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

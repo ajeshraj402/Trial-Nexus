@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01796444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient aged 18 years and above",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with histological proven invasive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical T1-T2 disease with no distant metastasis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with clinical N0 status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient for whom conservative surgery with sentinel lymph node (SLN) technique is feasible from the start in terms of carcinologic",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with positive SLNs 1~2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed consent to participate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of neoadjuvant chemotherapy or hormone therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of breast cancer (ipsilateral, i.e. recurrence, or contralateral breast)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of any other invasive cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Initial metastatic disease known",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impossibility to undergo medical examinations of the study for geographical, social or psychological reasons",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of smoking and alcohol consumption.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01796444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

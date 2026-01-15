@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT02808338",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Demographics",
+      "label": "met"
+    },
+    {
+      "criterion": "Anthropometric Measurements",
+      "label": "unknown"
+    },
+    {
+      "criterion": "PAP Prescription information (if available)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Medical History and physical examination",
+      "label": "met"
+    },
+    {
+      "criterion": "Sleep History- Including that past 30 day detailed report",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Diagnostic PSG history (copies of sleep studies)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Current Medications",
+      "label": "met"
+    },
+    {
+      "criterion": "Vital Signs (at beginning of PSG night)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Research Trial PSG- Randomized to one of the four devices",
+      "label": "not_met"
+    },
+    {
+      "criterion": "30 day Take Home with Modified Philips BiPAP ASV device",
+      "label": "met"
+    },
+    {
+      "criterion": "Ability to provide consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u2265 21",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participants who are acutely ill, medically complicated or who are medically unstable",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Symptomatic chronic heart failure (NYHA 2-4) and reduced LVEF\u226445%",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of COPD, OSA, obesity hypoventilation syndrome, dCHF. They are currently prescribed servo ventilation therapy at home with recent adherence and efficacy data from PAP device demonstrating. However, they have been hospitalized for heart failure within the last two months.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02808338",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

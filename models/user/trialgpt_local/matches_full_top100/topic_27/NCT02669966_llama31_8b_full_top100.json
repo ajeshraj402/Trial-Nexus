@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02669966",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "anti-HCV positive by ELISA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HCV RNA negative by PCR",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "evaluated and cleared by Hepatology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "meet criteria for living kidney donation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "approved by the UF Health Shands Kidney Transplant Medical Review Board",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "recipient may be HCV antibody negative or anti-HCV antibody positive but HCV RNA negative by PCR",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recipient must meet the criteria for kidney transplantation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "approved by the UF Health Kidney Transplant Program Medical Review Board",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence of alcoholic liver disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no evidence of bleeding from esophageal varices",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no evidence of hemochromatosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no evidence of autoimmune hepatitis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alcoholic liver disease",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "bleeding from esophageal varices",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hemochromatosis",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "autoimmune hepatitis",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection but is on combination therapy and direct antiviral drugs. Recent biopsy was negative for hepatocellular carcinoma.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT02669966",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

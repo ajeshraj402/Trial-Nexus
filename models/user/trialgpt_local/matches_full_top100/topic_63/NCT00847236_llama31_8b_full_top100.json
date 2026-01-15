@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT00847236",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients signing Informed Consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is an obese woman",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients less than 50 years old",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain, nausea and vomiting. Similar past experiences.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT00847236",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

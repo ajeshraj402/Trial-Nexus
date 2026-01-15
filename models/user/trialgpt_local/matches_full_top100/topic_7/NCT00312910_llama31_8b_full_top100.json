@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00312910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "liver cirrhosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "major complication of cirrhosis in the past",
+      "label": "met",
+      "evidence": "variceal bleeding, encephalopathy and SBP"
+    },
+    {
+      "criterion": "evidence for portal hypertension",
+      "label": "met",
+      "evidence": "grade II esophageal varices"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alcoholic cirrhosis who still consume alcohol",
+      "label": "not_met",
+      "evidence": "off ETOH for a year (corroborated with pt)"
+    },
+    {
+      "criterion": "chronically treated with antibiotics or lactulose",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has liver cirrhosis with past variceal bleeding and encephalopathy, and evidence of portal hypertension. No indication of ongoing alcohol use.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00312910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

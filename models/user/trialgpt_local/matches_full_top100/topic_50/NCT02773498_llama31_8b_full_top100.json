@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02773498",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "2 consecutive spermograms (with \u00b13 months interval) confirming absence of sperm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "(azoospermia)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of non-obstructive azoospermia on the basis of a complete history, physical examination, endocrine profile, ultrasound and chromosomal analysis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of previous testicular surgery, except orchiopexy for undescended testis.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Monochordy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, diagnosed with abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02773498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

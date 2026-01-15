@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04073953",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "G6PD deficient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "otherwise normal healthy adults aged 18 to 65",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known history of liver, kidney or hematological disease (other than G6PD deficiency)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known history of cardiac disease, non-sinus rhythm arrhythmia or QT prolongation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Autoimmune disorders",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Report of an active infection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is pregnant or breast-feeding, or is expecting to conceive during the study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. Positive anti-AChR antibody test and SFEMG. On acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT04073953",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

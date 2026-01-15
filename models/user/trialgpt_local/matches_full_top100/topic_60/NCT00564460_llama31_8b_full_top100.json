@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00564460",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TRUS-confirmed prostate gland > 30 g",
+      "label": "met",
+      "evidence": "Abdominopelvic CT scan revealed a large prostate"
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "The patient is a 63-year-old man"
+    },
+    {
+      "criterion": "fit and scheduled to receive TURP",
+      "label": "met",
+      "evidence": "He is a candidate for urethral catheterization and TURP"
+    },
+    {
+      "criterion": "approval of the treating urologist",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "able to understand and provide written informed consent in English",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active psychiatric condition",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous Finasteride use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abnormal DRE",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "PSA greater than 4.0 ng/ml",
+      "label": "not_met",
+      "evidence": "Prostate-specific antigen (PSA) level: 3.5 ng/mL"
+    },
+    {
+      "criterion": "current anticoagulation use (Heparin, Warfarin)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ESRD",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous prostate or urethral surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "deemed to be a candidate for immediate surgery (within 1 week of initial evaluation)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT00564460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00149721",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of idiopathic hydrocephalus",
+      "label": "met",
+      "evidence": "clinical and CT or MRI imaging demonstrating ventricular dilation, confirmed by an established protocol of continuous CSF drainage via spinal catheter"
+    },
+    {
+      "criterion": "Patients who are found to be eligible for VP shunt insertion on the basis of improvement in cognition/psychomotor speed, gait, or urinary continence",
+      "label": "met",
+      "evidence": "referred for surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known peripheral gland failure (primary hypogonadism, primary adrenal insufficiency, primary hypothyroidism)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known history of pituitary tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pituitary surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pituitary hemorrhage",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Brain irradiation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Identified causes of secondary hydrocephalus (subarachnoidal bleeding, meningitis, encephalitis, head trauma)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and high anti-TPO levels. She was treated with Levothyroxine and showed significant improvement.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00149721",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

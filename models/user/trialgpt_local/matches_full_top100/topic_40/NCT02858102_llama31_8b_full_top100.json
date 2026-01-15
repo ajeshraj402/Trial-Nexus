@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02858102",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Paget's Disease of Bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bisphosphonate will be started as first-line therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dependence or severe alcohol consumers (>300 g/week)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Co-infection with Hepatitis B, C or HIV",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and will be treated with Bisphosphonate. However, they have a family history of hypertension and DM type 2.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02858102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

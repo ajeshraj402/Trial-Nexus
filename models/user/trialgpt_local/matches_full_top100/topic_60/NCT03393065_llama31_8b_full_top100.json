@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03393065",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 or older",
+      "label": "met",
+      "evidence": "The patient is a 63-year-old man"
+    },
+    {
+      "criterion": "Admitted to the Intensive Care Unit",
+      "label": "met",
+      "evidence": "presenting to the Emergency Department with a history of acute urinary retention"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active arm diuretic administration algorithm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Intravenous diuretics will be used only to decrease the BLS to < 15",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03393065",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "trial_id": "NCT01594853",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis, X-ALD heterozygote carrier",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no medical contraindication to participating in a strength training program",
+      "label": "met",
+      "evidence": "The patient has hypertension, but it's mentioned as 'high-dose' and not uncontrolled."
+    },
+    {
+      "criterion": "able to follow complex directions as determined by a score of \u22641 on a subset of questions taken from the NIH Stroke scale (Brott et al. 1989)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hip flexion strength: 6.6-15.8kg",
+      "label": "met",
+      "evidence": "The patient has severe lower extremity weakness, but the exact strength is not mentioned."
+    },
+    {
+      "criterion": "hip extension strength: up to 18.3 kg",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "normal passive range of motion at hips/knees/ankles",
+      "label": "met",
+      "evidence": "The patient has urinary retention, but it's not mentioned as affecting mobility."
+    },
+    {
+      "criterion": "able to walk \u226550m",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of other neurological deficit that could interfere, such as previous stroke or muscle disease",
+      "label": "triggers",
+      "evidence": "The patient has anaplastic astrocytoma and severe lower extremity weakness."
+    },
+    {
+      "criterion": "congestive heart failure",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cancer",
+      "label": "triggers",
+      "evidence": "The patient has anaplastic astrocytoma."
+    },
+    {
+      "criterion": "orthopedic conditions",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe pain that precludes study participation",
+      "label": "triggers",
+      "evidence": "The patient has chronic pain."
+    }
+  ],
+  "notes": "Key unknowns include the patient's hip extension strength, ability to follow complex directions, and ability to walk \u226550m. Additionally, it is unclear if the patient's cancer or neurological deficits would interfere with study participation.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01594853",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

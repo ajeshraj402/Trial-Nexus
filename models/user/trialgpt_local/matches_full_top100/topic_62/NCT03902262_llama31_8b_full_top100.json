@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03902262",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Kawasaki disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute abdomen requiring surgery",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic gastrointestinal disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Incomplete data on the charts",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may be a contraindication for the trial. However, further evaluation is needed to confirm this.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03902262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

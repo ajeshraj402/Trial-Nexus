@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00391157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willing and able to comply with protocol requirements",
+      "label": "met",
+      "evidence": "patient's opinion"
+    },
+    {
+      "criterion": "given voluntary written informed consent",
+      "label": "met",
+      "evidence": "patient's understanding"
+    },
+    {
+      "criterion": "age over 18 and under 65 years old",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "recently diagnosed with symptomatic Multiple Myeloma",
+      "label": "met",
+      "evidence": "standard criteria"
+    },
+    {
+      "criterion": "has measurable disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ECOG performance status < 2",
+      "label": "met",
+      "evidence": "patient's condition"
+    },
+    {
+      "criterion": "life-expectancy >3 months",
+      "label": "met",
+      "evidence": "patient's prognosis"
+    },
+    {
+      "criterion": "laboratory values within 14 days before Baseline visit",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previously received treatment with VELCADE",
+      "label": "not_met",
+      "evidence": "no mention of previous treatment"
+    },
+    {
+      "criterion": "previously received treatment for Multiple Myeloma",
+      "label": "met",
+      "evidence": "patient's history"
+    },
+    {
+      "criterion": "had major surgery within 4 weeks before enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "platelet count < 50x 109/L within 14 days before enrollment",
+      "label": "not_met",
+      "evidence": "patient's lab results"
+    },
+    {
+      "criterion": "absolute neutrophil count < 1.0 x 109/L within 14 days before enrollment",
+      "label": "not_met",
+      "evidence": "patient's lab results"
+    },
+    {
+      "criterion": "hypersensitivity to bortezomib, boron or mannitol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "received other investigational drugs within 14 days before enrollment",
+      "label": "not_met",
+      "evidence": "no mention of previous treatment"
+    },
+    {
+      "criterion": "known to be seropositive for the human immunodeficiency virus (HIV)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and has been treated with various medications, including melphalan, prednisone, VAD regimen, and thalidomide.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00391157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

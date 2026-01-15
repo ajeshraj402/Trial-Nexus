@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02775630",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Randomization",
+      "label": "met",
+      "evidence": "The list of days will be balanced by randomly alternating blocks."
+    },
+    {
+      "criterion": "Gender, age",
+      "label": "met",
+      "evidence": "A 39-year-old man"
+    },
+    {
+      "criterion": "respiratory history",
+      "label": "met",
+      "evidence": "He had these symptoms for 5 days during the past 2 weeks."
+    },
+    {
+      "criterion": "bronchial endoscopy antecedent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Admission Status (external or hospitalized)",
+      "label": "met",
+      "evidence": "He came to the clinic"
+    },
+    {
+      "criterion": "analgesic and anxiolytic Processing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anxiety Questionnaire HAD (Hospital Anxiety and Depression Scale)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-medication received",
+      "label": "met",
+      "evidence": "He doubled his oral corticosteroids in the past week."
+    },
+    {
+      "criterion": "vital parameters before and after the examination: heart rate, oxygen saturation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Way passage of the endoscope (nose or mouth)",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "Time of endoscopy (between the input and the output of the endoscopy suite)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Quantity Xylocaine used during the exam",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor understanding of the French language",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "major hearing impairment",
+      "label": "not_met",
+      "evidence": "He doesn't smoke or use illicit drugs."
+    },
+    {
+      "criterion": "severe cognitive or psychiatric disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. His symptoms improve within 1-2 hours outside the workplace.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02775630",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

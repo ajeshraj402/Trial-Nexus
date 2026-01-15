@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00006436",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Aggressive CD20 positive Diffuse Large B-cell lymphoma",
+      "label": "met",
+      "evidence": "confirmed by Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "HIV + serology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All stages (I-IV) of disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG Performance status 0-4",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NHL previously untreated with cytotoxic chemotherapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "44 year old female"
+    },
+    {
+      "criterion": "Laboratory tests (unless impairment due to respective organ involvement by tumor): Creatinine less than or equal to 1.5 mg/dl or creatinine clearance greater than or equal to 50 ml/min",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bilirubin less than 2.0 mg/dl, or total bilirubin less than or equal to 4.5 mg/dl with direct fraction less than or equal to 0.3 mg/dl in participants for whom these abnormalities are felt to be due to protease inhibitor therapy",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "AST and ALT less than or equal to 3x ULN (AST and ALT less than or equal to 6x ULN for participants on hyperalimentation for whom these abnormalities are felt to be due to the hyperalimentation)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ANC greater than or equal to 1000/mm(3)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet greater than or equal to 75,000/mm(3) (unless impairment due to ITP)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability of participant to provide informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous rituximab",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or nursing.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current clinical heart failure or symptomatic ischemic heart disease.",
+      "label": "triggers",
+      "evidence": "large pericardial effusion, cardiac MRI showed a mass that was 3cm x 1cm on the lateral wall of the right atrium adjacent to the AV junction"
+    },
+    {
+      "criterion": "Serious underlying medical condition or infection other than HIV that would contraindicate SC-EPOCH-R.",
+      "label": "triggers",
+      "evidence": "severe sinus infxn, caused mild non-focal residual deficits"
+    }
+  ],
+  "notes": "Patient has a large pericardial effusion and a mass on the lateral wall of the right atrium adjacent to the AV junction, which may indicate cardiac involvement. The patient also had a severe sinus infection that caused mild non-focal residual deficits.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00006436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

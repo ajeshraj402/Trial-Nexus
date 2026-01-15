@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT01510847",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "haemoglobin_level",
+      "label": "met",
+      "evidence": "13 g/dl"
+    },
+    {
+      "criterion": "haematocrit_level",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "albumin_level",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "alt_level",
+      "label": "met",
+      "evidence": "15 U/L"
+    },
+    {
+      "criterion": "ast_level",
+      "label": "met",
+      "evidence": "13 U/L"
+    },
+    {
+      "criterion": "alkaline_phosphatase_level",
+      "label": "met",
+      "evidence": "53 U/L"
+    },
+    {
+      "criterion": "creatinine_level",
+      "label": "met",
+      "evidence": "0.5 mg/dl"
+    },
+    {
+      "criterion": "sodium_level",
+      "label": "met",
+      "evidence": "137 mEq/l"
+    },
+    {
+      "criterion": "potassium_level",
+      "label": "met",
+      "evidence": "4 mEq/l"
+    },
+    {
+      "criterion": "psa_level",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hb1c_level",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "insulin_therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "recurrent_hypoglycaemia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "malignancy_history",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adverse_drug_reaction_to_testosterone",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "testosterone_replacement",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "warfarin_therapy",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "steroids_therapy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has TB, but meets most inclusion criteria. Exclusion due to warfarin and steroids therapy.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01510847",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

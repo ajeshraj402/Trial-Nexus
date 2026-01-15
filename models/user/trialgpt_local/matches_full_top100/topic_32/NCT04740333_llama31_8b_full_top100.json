@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04740333",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "sepsis or septic shock upon admission",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no previous diagnosis of diabetes mellitus",
+      "label": "met",
+      "evidence": "He has no other underlying disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "admission hypoglycemia (blood glucose levels below 70 mg / dL)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients who were given insulin or intravenous glucose before the first ICU blood glucose measured level",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has symptoms of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04740333",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

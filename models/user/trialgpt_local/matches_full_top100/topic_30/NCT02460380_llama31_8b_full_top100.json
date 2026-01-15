@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02460380",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with PCOS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vitamin D deficiency (serum 25-hydroxyvitamin D<20 ng/mL)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Thyroid disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hyperprolactinemia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Congenital adrenal hyperplasia",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Androgen-secreting tumors",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cushing's syndrome",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but it is being treated with Levothyroxine.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02460380",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

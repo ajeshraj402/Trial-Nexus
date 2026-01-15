@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00783393",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed anaplastic astrocytoma on the tentorium at first relapse",
+      "label": "met",
+      "evidence": "MRI scan"
+    },
+    {
+      "criterion": "unequivocal evidence of tumor recurrence or aggravation by MRI scan after treatment for initial onset",
+      "label": "met",
+      "evidence": "MRI scan"
+    },
+    {
+      "criterion": "anaplastic astrocytoma diagnosed histologically by the last pathological diagnostic tests (including initial diagnosis) prior to initial administration of temozolomide",
+      "label": "met",
+      "evidence": "pathologic diagnosis report"
+    },
+    {
+      "criterion": "tissue samples available for Central Pathologic Reviewer",
+      "label": "met",
+      "evidence": "available"
+    },
+    {
+      "criterion": "MRI scan performed within 14 days before initial temozolomide administration",
+      "label": "met",
+      "evidence": "MRI scan"
+    },
+    {
+      "criterion": "assessable tumor site confirmed by MRI",
+      "label": "met",
+      "evidence": "MRI scan"
+    },
+    {
+      "criterion": "Age >=18 years, either sex, inpatients or outpatients",
+      "label": "met",
+      "evidence": "patient's age and status"
+    },
+    {
+      "criterion": "Use of medically approved contraception methods in fertile subjects",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status >=70",
+      "label": "met",
+      "evidence": "patient's condition"
+    },
+    {
+      "criterion": "Adequate clinically laboratory values obtained within 14 days before initial temozolomide administration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tumor biopsy, regardless of tumor resection at initial diagnosis",
+      "label": "met",
+      "evidence": "biopsy report"
+    },
+    {
+      "criterion": "prior radiation therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of treatment with dacarbazine",
+      "label": "triggers",
+      "evidence": "history of treatment"
+    },
+    {
+      "criterion": "Subjects who received chemotherapy within 6 weeks before initial temozolomide administration",
+      "label": "triggers",
+      "evidence": "patient's history of chemotherapy"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy. However, they have also received chemotherapy within the past 6 weeks, which is a contraindication for this trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00783393",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

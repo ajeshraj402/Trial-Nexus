@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00388115",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Females of ages \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Core biopsy proven invasive breast cancer OR Core biopsy proven low or intermediate grade DCIS.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tumor less than or equal to 2.0 cm in diameter.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior surgical treatment for breast cancer within 30 days.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy of > 10 years, not including the diagnosis of cancer.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status of 0-2.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent given.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Multifocal invasive breast cancer patients are eligible. All tumors that are palpable or visualized by USS can be treated.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Male subjects",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ages < 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Breast tumor > 2.0 cm in diameter.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of distant metastatic disease.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00388115",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

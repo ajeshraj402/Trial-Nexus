@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00096902",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "neurocardiogenic syncope or presyncope",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive tilt table testing",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant coronary artery disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychosis or psychotic depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unwilling to experience hypnosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, which may interfere with study interventions.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00096902",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

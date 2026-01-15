@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03903744",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "At least one documented spontaneous VVS during preceding 12 months or one syncope in history leading to injury and minimum 2 presyncopal events during preceding 12 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Refractory to all recommended types of standard treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Significantly decreased quality of life due to syncope",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other possible and treatable causes of syncope such as significant cardiac disease, cardiac arrhythmia or abnormalities of vertebro-basiliar arteries",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of stroke or TIA",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03903744",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

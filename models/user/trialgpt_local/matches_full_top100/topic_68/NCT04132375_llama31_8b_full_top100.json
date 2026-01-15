@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT04132375",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Case of Bloody Diarrhea",
+      "label": "met",
+      "evidence": "The patient has an increase in the number of daily stools and alteration in the stool consistency, with presence of visible blood."
+    },
+    {
+      "criterion": "Case of Shiga Toxin producing Escherichia coli Infection",
+      "label": "not_met",
+      "evidence": "No laboratory criteria for STEC infection were met."
+    },
+    {
+      "criterion": "Case of Hemolytic Uremic Syndrome",
+      "label": "met",
+      "evidence": "The patient presents with microangiopathic hemolytic anemia, thrombocytopenia, and renal compromise."
+    },
+    {
+      "criterion": "Age of \u2265 1 to < 10 y.",
+      "label": "met",
+      "evidence": "The patient is a 23-year-old man, which does not meet this criterion."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Microangiopathic hemolytic anemia defined as LDH above the ULN for age with the finding of schistocytes on peripheral smear and a negative Coomb's test",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Thrombocytopenia: platelet count < 150 \u00d7 103/\u03bcL",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has high blood pressure and signs of septicemia, but no clear indication of HUS. However, the presence of microangiopathic hemolytic anemia and thrombocytopenia suggests that the patient may be at risk for developing HUS.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04132375",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

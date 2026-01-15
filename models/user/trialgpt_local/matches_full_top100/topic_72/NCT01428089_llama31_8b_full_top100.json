@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01428089",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Iron supplementation for a maximum of 30 days prior to admission",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inpatient Admission: The subject will be admitted to the CRU, or alternate UVA hospital unit, at 0900-1000 h.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin \u2265 11.0 g/dL for African American subjects or \u2265 11.5 g/dL for non-African American subjects",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin less than 12 g/dl and hematocrit less than 36%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01428089",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03984695",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Scheduled to leave jail within 3 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "actively intoxicated",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe psychological distress",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer, HPV 16 positive. She has three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03984695",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

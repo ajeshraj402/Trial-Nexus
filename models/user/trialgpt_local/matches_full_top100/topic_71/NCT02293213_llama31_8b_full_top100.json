@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02293213",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Ethnic Background",
+      "label": "met",
+      "evidence": "No limitation, will include minorities and Spanish speaking participants"
+    },
+    {
+      "criterion": "Health Status",
+      "label": "met",
+      "evidence": "no limitation"
+    },
+    {
+      "criterion": "Sexually active with men",
+      "label": "met",
+      "evidence": "She doesn't use any contraceptive methods for the past 4 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently Pregnant",
+      "label": "not_met",
+      "evidence": "She had no prior pregnancies"
+    },
+    {
+      "criterion": "Not currently sexually active with men",
+      "label": "met",
+      "evidence": "She doesn't use any contraceptive methods for the past 4 months"
+    }
+  ],
+  "notes": "Patient is an obese woman with weight concerns, considering a laparoscopic gastric bypass. She has sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02293213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

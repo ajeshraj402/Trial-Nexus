@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00381914",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy singleton term born infants",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "born to healthy breastfeeding women",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infants of mothers with history of gestational diabetes or hypertension in pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic alcohol use",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but meets inclusion criteria and does not have any exclusion triggers.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00381914",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

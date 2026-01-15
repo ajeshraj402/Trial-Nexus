@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03588286",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "2-40 days following a myocardial infarct",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Impaired left ventricular systolic function (LVEF\u226440% or at least moderately impaired)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 or >85;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Nursing home resident dependent on one or more activities of daily living;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant non-cardiac co-morbidity with high likelihood of death within 1 year (this would include any metastatic malignancy, or other terminal disease);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant psychiatric illnesses that may be aggravated by device implantation or that may preclude regular follow up;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intravenous drug abuse (ongoing);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unresolved infection associated with risk for hematogenous seeding;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing implantable cardioverter-defibrillator (ICD);",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Secondary prevention indication for an ICD (i.e. sustained ventricular arrhythmias occurring more than 48 hours after qualifying myocardial infarction (patients with ventricular arrhythmias occurring \u226448 hours of myocardial infarction, or with non-sustained ventricular tachycardia at any time, are not excluded));",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "On the heart transplant list;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recurrent unstable angina despite revascularisation (defined as ongoing chest pain or ischemic symptoms at rest or with minimal exertion despite adequate treatment with anti-anginal medications);",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Congestive heart failure New York Heart Association class IV, defined as shortness of breath at rest, which is refractory to medical treatment (not responding to again in 2-3 days and if symptoms have resolved or treatment performed can be",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03588286",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

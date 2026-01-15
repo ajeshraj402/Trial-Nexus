@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00362180",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Group A",
+      "label": "met",
+      "evidence": "patient is a healthy subject"
+    },
+    {
+      "criterion": "Group D",
+      "label": "not_met",
+      "evidence": "no mention of impaired fasting glucose and mixed dyslipidemia"
+    },
+    {
+      "criterion": "Group E",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Group F",
+      "label": "not_met",
+      "evidence": "no mention of Familial Hypobetalipoproteinemia (FHBL)"
+    },
+    {
+      "criterion": "Group G",
+      "label": "not_met",
+      "evidence": "no mention of Diabetes and hypercholesterolemia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Medical, surgical, laboratory or other conditions which in the judgment of the Physician Investigator would make the subject unsuitable for enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "potentially interfere with subject participation or completion of the study",
+      "label": "not_met",
+      "evidence": "no mention of such conditions"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00362180",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

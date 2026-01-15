@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03431285",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Known diagnosis of SCD based on sickle cell tests and hemoglobin electrophoresis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18 to 60 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acute onset of painful crises, defined as having an onset within 7 days",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Breast-feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Altered mental status",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a known history of Sickle cell disease and is experiencing severe bone pain. He has been treated with oxycodone, but it was not beneficial.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03431285",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

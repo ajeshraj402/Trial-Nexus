@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04856735",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA I-II",
+      "label": "met",
+      "evidence": "ASA I-II"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial anesthesia contraindications",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergic to drugs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04856735",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03023059",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A diagnosis of AMD with choroidal neovascularization (CNV) in one eye",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal or dry AMD of any grade in the second eye",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness to maintain AREDS vitamin supplements throughout the study, or remain off these supplements for the duration of the study, if not taking them prior to the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed Consent at Baseline",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any current use of L-DOPA containing medication or dopamine agonist medication, or any planned use of any of these agents, except for study medication, during the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of monoamine oxidase (MAO) inhibitors",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a known history of sickle cell disease and is experiencing severe bone pain. He has been treated with oxycodone in the past two weeks, but it was not beneficial.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03023059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

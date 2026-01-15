@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01038791",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients in stable conditions (no acute exacerbations in the 4 weeks before enrolment)",
+      "label": "met",
+      "evidence": "Patient has been stable for 4 weeks"
+    },
+    {
+      "criterion": "well adapted to ventilation and without problems with the ventilation mask.",
+      "label": "met",
+      "evidence": "Patient is well adapted to ventilation and does not have problems with the mask."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with acute respiratory failure, recent exacerbations, severe co-morbidities (i.e. hearth failure, recent stroke etc.)",
+      "label": "not_met",
+      "evidence": "Patient does not have acute respiratory failure or recent exacerbations"
+    },
+    {
+      "criterion": "Recent upper airways surgery.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. They are currently on BiPap with 5L and have been experiencing agitation and altered mental status.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01038791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

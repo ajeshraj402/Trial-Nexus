@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01296503",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic multiple myeloma in accordance with the International Myeloma Working Group criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 18-70 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Performance status 0-2 by the Eastern Cooperative Oncology Group (ECOG) criteria",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal hepatic function, defined as serum bilirubin <3 mg/dl and alanine aminotransferase(ALT) and asparagin aminotransferase (AST) <4x normal",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "evidence of disease progression after ASCT",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiac dysfunction (systolic ejection fraction <50%)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis and is on hemodialysis for ESRD. She was admitted last week with hypercalcemia and treated with pamidronate, calcitonin, and dialysis.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01296503",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

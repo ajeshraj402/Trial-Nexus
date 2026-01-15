@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04545892",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingness to participate",
+      "label": "met",
+      "evidence": "signed informed consent form"
+    },
+    {
+      "criterion": "no chronic or acute disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "eating or drinking at least one hour before measurements",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "eating spicy food for one day before testing",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypertension",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04545892",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

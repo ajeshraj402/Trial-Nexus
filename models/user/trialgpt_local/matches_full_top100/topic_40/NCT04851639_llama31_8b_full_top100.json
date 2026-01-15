@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04851639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born male",
+      "label": "met",
+      "evidence": "patient is a 60 year old man"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "not_met",
+      "evidence": "The diagnosis of Paget's Disease of Bone was confirmed"
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "patient is a 60 year old man complaining"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not born male",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "not diagnosed with advanced or metastatic prostate cancer",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "not able to read and speak English",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone, which is a condition that affects bone health. He will be started on Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04851639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

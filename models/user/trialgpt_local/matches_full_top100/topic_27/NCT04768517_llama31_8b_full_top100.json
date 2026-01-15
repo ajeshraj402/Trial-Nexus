@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04768517",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age > 20 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV coinfection during IFN-based or IFN-free antiviral therapy for HCV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Achieving SVR, defined as undetectable serum HCV RNA at week 12 off-therapy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor access to sites for venipuncture",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV, but also has direct antiviral drugs added. He has a history of inguinal hernia surgery.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT04768517",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

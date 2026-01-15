@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00854815",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "perforation_identified",
+      "label": "met",
+      "evidence": "hole in the appendix or fecalith in the abdomen"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "no_perforation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant_comorbidity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, febrile with tenderness, rebound tenderness and guarding on palpation.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00854815",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

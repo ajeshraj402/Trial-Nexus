@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00495781",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "renal anemia",
+      "label": "met",
+      "evidence": "low serum caeruloplasmin (0.05 g/l)"
+    },
+    {
+      "criterion": "therapy with iron",
+      "label": "met",
+      "evidence": "laboratory study was significant for a low serum caeruloplasmin (0.05 g/l)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "autoimmune diseases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic inflammation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "liver disease",
+      "label": "met",
+      "evidence": "Wilson disease was confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver)"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which is a liver disease. However, renal anemia and therapy with iron are present.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00495781",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00510783",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age 18 or older",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient presenting to Grady Memorial Hospital's Emergency Department after having a tonic-clonic seizure (primary or secondarily generalized) within the last 4 hours",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "presentation to the Emergency Department. The most likely expected causes of a seizure are noncompliance to existing antiepileptic drug regimen, refractory epilepsy with breakthrough seizure, metabolic aberration, alcohol withdrawal, or unknown.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-English speaking",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "first time seizure",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "seizures other than tonic-clonic seizure (primary or secondarily generalized)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "more than 3 seizures in 24 hours or status epilepticus, pregnant patients by history or by urine pregnancy testing",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serious neurologic insult resulting in seizure but where seizure is not the primary reason for admission (e.g. traumatic brain injury with seizure or hemorrhagic stoke would be excluded)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication to IV levetiracetam",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "received IV phenytoin within 24 hours",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "known allergy to phenytoin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00510783",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

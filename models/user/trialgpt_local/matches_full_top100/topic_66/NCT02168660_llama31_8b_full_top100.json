@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02168660",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "16 years"
+    },
+    {
+      "criterion": "BMI > 95% for age",
+      "label": "met",
+      "evidence": "24, gained 5 kg in past few weeks"
+    },
+    {
+      "criterion": "serum 25-OH D level < or + to 25 ng/mL",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI < 95% for age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum 25-OH D level > 25 ng/mL",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "current Vitamin D supplementation > 400 IU/day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anti-convulsant therapy, anti-hypertensive therapy, lipid lowering medication",
+      "label": "not_met",
+      "evidence": "does not smoke"
+    },
+    {
+      "criterion": "any medications that affect glucose metabolism (e.g., metformin, insulin)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "daily glucocorticoid therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "lab results were remarkable for high TSH levels (15 mU/L) and low free T4 levels (0.18 ng/dl)"
+    },
+    {
+      "criterion": "any disorders of bone or calcium metabolism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic or renal disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "any malabsorptive disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline serum Calcium > 11 ng/dL (> 2 SD above the mean)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any genetic disorder that predisposes to obesity (e.g., Prader Willi",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypothalamic obesity",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, high TSH levels and low free T4 levels. She does not smoke or take any medications that affect glucose metabolism.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT02168660",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

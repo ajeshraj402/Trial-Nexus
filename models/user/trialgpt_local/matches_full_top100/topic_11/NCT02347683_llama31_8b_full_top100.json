@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02347683",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "19 or older"
+    },
+    {
+      "criterion": "Planned surgery",
+      "label": "met",
+      "evidence": "total /near total thyroidectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "75 yo M"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone multiple treatments, including XRT. They are experiencing worsening dysphagia and poor oral intake.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02347683",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

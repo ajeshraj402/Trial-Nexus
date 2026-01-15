@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT00385853",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically verified glioblastoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "paraffin blocks of tumor that must be sent for analysis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Karnofsky Performance Status greater than or equal to 60",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adequate laboratory values as described by the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life expectancy of greater than 12 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient must be able to undergo serial MR imaging",
+      "label": "met",
+      "evidence": "Patient is undergoing MRI."
+    },
+    {
+      "criterion": "Patients must be on an enzyme-inducing anti-epileptic drug(s) as listed in the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No steroids or a stable dose of steroids for at least 5 days or a decreasing dose",
+      "label": "not_met",
+      "evidence": "Patient has high-dose steroids."
+    },
+    {
+      "criterion": "Mini-mental status examination of 15 or greater",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breast-feeding women",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a man."
+    },
+    {
+      "criterion": "Prior chemotherapy or cranial radiation therapy for glioblastoma",
+      "label": "triggers",
+      "evidence": "Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide"
+    },
+    {
+      "criterion": "Prior biologic or immunotherapy less than 2 weeks prior to registration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pleural effusion or ascites that causes respiratory compromise",
+      "label": "does_not_trigger",
+      "evidence": "Patient does not have pleural effusion or ascites."
+    }
+  ],
+  "notes": "Unknown Karnofsky Performance Status, laboratory values, life expectancy, and mini-mental status examination. Patient has high-dose steroids which may trigger exclusion criterion 'No steroids or a stable dose of steroids for at least 5 days or a decreasing dose'.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00385853",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

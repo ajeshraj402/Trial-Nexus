@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01085565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "symptoms of bone metastases",
+      "label": "met",
+      "evidence": "frequent headaches, generalized bone pain and difficulty chewing"
+    },
+    {
+      "criterion": "targeted tumor(s) accessible to ExAblate device",
+      "label": "met",
+      "evidence": "ExAblate MRgFUS device accessible"
+    },
+    {
+      "criterion": "pain score \u2265 4 at the targeted tumors",
+      "label": "met",
+      "evidence": "NRS (0-10 scale) pain score \u2265 4"
+    },
+    {
+      "criterion": "targeted tumor-bone interface > 1cm from skin, major nerve or hollow viscera",
+      "label": "met",
+      "evidence": "non-tender and attached to the underlying bone"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgical stabilization of affected weight bearing bony structure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "targeted tumor at impending fracture site of weigh bearing bone",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical stabilization of tumor site with metallic hardware",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT01085565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

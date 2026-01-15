@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02768402",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe mitral regurgitation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) Class II, III, IVa or heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Excessive calcification or thickening of mitral valve annulus, severe mitral stenosis,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fused commissures, valvular vegetation or mass",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular end diastolic dimension > 7cm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02768402",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

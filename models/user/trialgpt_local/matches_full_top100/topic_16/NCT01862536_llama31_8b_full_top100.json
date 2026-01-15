@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01862536",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and female U.S. Veteran patients 40-85 years old, with Gold Stage II COPD by pulmonary function testing (FEV1/FVC <0.70; performed within 6 months of recruitment.",
+      "label": "met",
+      "evidence": "pulmonary function testing"
+    },
+    {
+      "criterion": "Eligible subjects must have PH documented on transthoracic echocardiogram within 6 months of baseline visit demonstrating an RV systolic pressure >40mmHg.",
+      "label": "met",
+      "evidence": "transthoracic echocardiogram"
+    },
+    {
+      "criterion": "To confirm the presence of PH, a right-heart catheterization will be performed, with subjects randomized to treatment only if catheterization shows a: mPAP >25 mm Hg.",
+      "label": "met",
+      "evidence": "right-heart catheterization"
+    },
+    {
+      "criterion": "PH belonging to the following subgroup of the updated Dana Point Clinical Classification: Group 3 (PH associated with lung disease and/or hypoxemia) specifically, Group 3.1 (chronic obstructive pulmonary disease [COPD]) as the major criteria.",
+      "label": "met",
+      "evidence": "Dana Point Clinical Classification"
+    },
+    {
+      "criterion": "Patients may also have minor clinical features associated with 3.2 (Interstitial disease) (such as mild fibrosis on high resolution chest CT, but total lung capacity>80% predicted) and 3.3 (sleep disordered breathing) (AHI <15 or 20/hour).",
+      "label": "met",
+      "evidence": "high resolution chest CT"
+    },
+    {
+      "criterion": "6-minute walk distance between 50-450 meters at screening visit.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "PH belonging to the following subgroups of the updated Dana Point Clinical Classification: Group 1 Idiopathic heritable drug or toxin-induced Associated Pulmonary Arterial Hypertension (APAH) with connective tissue disease congenital heart disease or HIV",
+      "label": "not_met",
+      "evidence": "Dana Point Clinical Classification"
+    },
+    {
+      "criterion": "Group 2 left atrial hypertension Group 4 chronic thromboembolic PH or other forms of PH not associated with primary lung disease",
+      "label": "not_met",
+      "evidence": "Dana Point Clinical Classification"
+    },
+    {
+      "criterion": "Patients with a history of systemic hypotension in the ambulatory setting (reproducible measurements of systolic blood pressure <89 mmHg) on chart review.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with moderate or severe hepatic impairment (Child-Pugh B and C)",
+      "label": "not_met",
+      "evidence": "Child-Pugh classification"
+    },
+    {
+      "criterion": "Patients with severe renal insufficiency (GFR <30 ml/min/1.73 m2)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01862536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00463450",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Postmenopausal status (amenorrhea for at least 12 months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "45 - 65 years of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Application of estrogen or cyclic estrogen/progestin preparation other than the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "medication for at least 6 months prior to Visit 1",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uterine bleeding of unknown etiology within the last 2 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous or existing or suspected carcinoma of the breast",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach ideal height. She is an obese, mentally retarded girl in the physical exam.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00463450",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02076711",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Aortic valve area \u22641,2 cm2 and/or transaortic maximal velocity (VmaxAO) of 3,0-5,0 m/s",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sinus rhythm >60/min after 5 minutes of rest",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF \u226550%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Male or female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 20-100 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Safe birth control management for women of childbearing potential.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative urine-HCG for women of childbearing potential",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to understand the written patient information and to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systolic BP <100 mmHg after 5 minutes of rest",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Left ventricular posterior wall thickness >17 mm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signs or history of major myocardial infarction and/or severe ischemic heart disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe asthma or chronic obstructive pulmonary disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has critical aortic stenosis, severe global hypokinesis, and dilated ascending aorta. He also underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02076711",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

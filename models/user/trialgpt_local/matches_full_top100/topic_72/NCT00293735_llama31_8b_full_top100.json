@@ -1,0 +1,37 @@
+{
+  "trial_id": "NCT00293735",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "16-year-old girl recently diagnosed with myasthenia gravis, class IIa.",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test and single fiber electromyography (SFEMG) was positive."
+    },
+    {
+      "criterion": "complains of diplopia and weakness affecting in her upper extremities.",
+      "label": "met"
+    },
+    {
+      "criterion": "on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of bronchial asthma, emphysema, heart block, angina, cardiomyopathy or myocardial infarction.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "any history or signs of congestive cardiac failure, or arrhythmia with a ventricular rate of less than 60 bpm.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis and is on treatment. However, she still experiences symptoms.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT00293735",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

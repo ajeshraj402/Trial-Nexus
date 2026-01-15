@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01010607",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Stroke onset",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "NIH Stroke Scale on admission to study",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Affected Upper limb function on Fugl-Meyer scale",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to understand instructions and to move freely the unaffected upper limb",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe cognitive impairment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Aphasia or Neglect that impair ability to understand instructions or to execute tasks",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, but no history of allergies or using any medications. His family history is positive for type 2 diabetes.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01010607",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

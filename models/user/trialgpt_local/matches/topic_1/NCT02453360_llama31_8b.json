@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT02453360",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "The subject is scheduled for elective unilateral TKA",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The subject is \u2265 18 years and \u2264 80 years;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The subject's weight is between 70-120 kg;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patient agrees to receive an adductor canal block.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists class 1-3",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject is < 18 years of age or >80 years of age;",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Subject is non-English speaking;",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is known or believed to be pregnant;",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is a prisoner;",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptomatic untreated gastroesophageal reflux or otherwise at risk for perioperative aspiration;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any condition for which the primary anesthesia care team deems neuraxial anesthesia inappropriate;",
+      "label": "triggers",
+      "evidence": "unresectable anaplastic astrocytoma s/p radiation"
+    }
+  ],
+  "notes": "Patient's age and medical history may make neuraxial anesthesia inappropriate. Unknown if patient agrees to receive adductor canal block or meets ASA class criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02453360",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

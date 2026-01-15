@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04042168",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age 40 and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "screen at pulmonology clinic",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on at least one maintenance inhaler",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a secondary diagnosis of congestive heart failure and other respiratory conditions that the investigators deem could confound the diagnosis including but not limited to pneumonia",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "bronchiectasis and lung cancer will be excluded",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04042168",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

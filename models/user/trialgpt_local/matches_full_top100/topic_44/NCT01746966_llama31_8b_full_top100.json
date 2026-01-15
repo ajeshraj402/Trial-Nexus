@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01746966",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy controls age of 20-60",
+      "label": "met",
+      "evidence": "conclusion of preventive medicine"
+    },
+    {
+      "criterion": "Patients with RA according to ARA 1987 revised criteria and disease activity DAS 3-5",
+      "label": "met",
+      "evidence": "ARA 1987 revised criteria and disease activity DAS 3-5"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Past shoulder trauma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Shoulder osteoarthritis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rotator cuff disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Shoulder injections",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cervical spondylosis with nerve root compression, Cervical symptomatic disc syndromes",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy complaining of scoliosis and back pain. Scoliotic curve is measured as 45 degree.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01746966",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

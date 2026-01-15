@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01307722",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Advanced chronic heart failure (HF) will be defined as left ventricular ejection fraction less than 35%, creatinine less than 2 mg/dL, and CHF NY functional class III-IV for more than 3 months.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Enrolled patients should be admitted to hospital due to heart failure requiring adjustment of inotropic agents or diuretics within recent 6 months.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of mitral stenosis or prosthetic mitral valve",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any abnormality of atrial septum (e.g., atrial septal defect or aneurysm)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01307722",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

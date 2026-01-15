@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02291796",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "Patient A is a 30-year-old male"
+    },
+    {
+      "criterion": "admission_to_cardiovascular_intensive_care_unit",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis_of_st_segment_elevation_acs",
+      "label": "met",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation."
+    },
+    {
+      "criterion": "hyperfibrinogenemia_within_72_hours_of_symptom_onset",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bezafibrate_allergy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_fibrate_treatments",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiogenic_shock",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic_failure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_neoplastic_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic_inflammatory_disease_or_active_infectious_process",
+      "label": "met",
+      "evidence": "Patient A has not any positive history of TB vaccination."
+    },
+    {
+      "criterion": "anti-inflammatory_or_immunosuppressive_therapies",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "fibrinolysis_with_streptokinase",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A has a positive sputum culture for Mycobacterium tuberculosis which are sensitive of the first-line TB drugs (isoniazid, streptomycin, rifampicin and ethambutol).",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02291796",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

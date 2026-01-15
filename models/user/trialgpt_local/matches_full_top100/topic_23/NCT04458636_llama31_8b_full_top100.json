@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT04458636",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "asthma_history",
+      "label": "met",
+      "evidence": "3 years of asthma history"
+    },
+    {
+      "criterion": "symptoms_duration",
+      "label": "met",
+      "evidence": "5 days during the past 2 weeks"
+    },
+    {
+      "criterion": "medication_use",
+      "label": "met",
+      "evidence": "inhaler and oral corticosteroids"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atopic_childhood_asthma",
+      "label": "unknown"
+    },
+    {
+      "criterion": "primary_lung_malignancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "clinically_relevant_disease",
+      "label": "unknown"
+    }
+  ],
+  "notes": "A 39-year-old man with a history of asthma and current symptoms of cough and shortness of breath. He uses an inhaler and oral corticosteroids.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04458636",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

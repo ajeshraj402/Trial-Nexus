@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT04197934",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological confirmation of either glioblastoma, IDH wildtype (GBM), anaplastic astrocytoma, IDH wildtype (AA) or non-small cell lung cancer (NSCLC)",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine"
+    },
+    {
+      "criterion": "EGFR Status: GBM/AA must have EGFR amplification and/or EGFRvIII mutation",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Previous treatments: Patients with GBM/AA must have been previously treated with radiation and temozolomide",
+      "label": "met",
+      "evidence": "Patient has received field radiation t10-l1 followed by 11 cycles of temozolomide"
+    },
+    {
+      "criterion": "Radiographic progression: Patients with GBM/AA must have radiographic progression based on RANO criteria",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Measurable disease",
+      "label": "met",
+      "evidence": "Patient has a tumor located in the T-L spine, unresectable anaplastic astrocytoma"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) 0 or 1",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant persons",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Any cytotoxic chemotherapy or other anticancer drugs for the treatment of advanced NSCLC from a previous treatment regimen =< 14 days prior to registration",
+      "label": "does_not_trigger",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Radiation therapy to the brain =< 12 weeks prior to registration",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "notes": "Patient's EGFR status is unknown, and radiographic progression based on RANO criteria is also unknown. However, overall assessment is likely eligible due to the presence of measurable disease and previous treatments.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04197934",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

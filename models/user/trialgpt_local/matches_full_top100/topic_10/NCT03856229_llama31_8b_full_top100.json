@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03856229",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "older_than_18_years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "gasometry_at_admission_confirms_moderate_or_severe_pcp",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "receiving_trimethoprim_sulfamethoxazole_in_doses_of_15_to_20_mg_per_kg_per_day_from_first_24_hours_after_admission",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "began_adjuvant_treatment_with_steroids_in_first_48_hours_after_admission",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "no_history_of_chronic_pulmonary_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "apache_at_hospitalization_less_than_20_points",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergic_to_tmp_smx_who_have_not_tolerated_desensitization",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_inflammatory_infectious_autoimmune_or_neoplastic_diseases_except_kaposi_sarcoma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pleural_or_pericardial_effusion_and_meningitis_from_any_cause",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "septic_shock_not_related_to_pcp",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03856229",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

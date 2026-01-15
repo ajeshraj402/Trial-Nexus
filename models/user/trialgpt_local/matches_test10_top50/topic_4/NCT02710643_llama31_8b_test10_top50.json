@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT02710643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed follicular lymphoma grade I-IIIa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stage IA or IIA (no more than 2 contiguous nodal regions) non bulky (<7 cm)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FLIPI \u22642, FLIPI2 \u22642",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previously untreated",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Staging with PET-CT, bone marrow biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Qualitative/quantitative PCR basal evaluation of Bcl-2/IgH rearranged cells in peripheral blood and bone marrow",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Follicular lymphoma grade IIIb",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stage greater than II with more than 2 nodal sites and/or B symptoms and/or bulky disease (>7 cm)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FLIPI >2, FLIPI2 >2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age < 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous treatments for non-Hodgkin's lymphoma",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Dementia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and presented with symptoms of cholecystitis. They have a large pericardial effusion and were diagnosed with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02710643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

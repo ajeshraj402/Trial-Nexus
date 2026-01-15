@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02136459",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years and over"
+    },
+    {
+      "criterion": "surgery_performed_by",
+      "label": "met",
+      "evidence": "one of two surgeons"
+    },
+    {
+      "criterion": "disease_type",
+      "label": "met",
+      "evidence": "benign or malignant thyroid disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vocal_cord_palsy",
+      "label": "triggers",
+      "evidence": "pre-existing vocal cord palsy"
+    },
+    {
+      "criterion": "invasive_thyroid_cancer",
+      "label": "triggers",
+      "evidence": "invasive thyroid cancers"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02136459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

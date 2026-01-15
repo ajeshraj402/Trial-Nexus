@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01818557",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "blood glucose testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age between 20 weeks 0 days and 32 weeks 0 days of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "singleton pregnancies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "maternal age over 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients able to read and write in English or Spanish",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of gestational diabetes mellitus using criteria supported by the American College of Obstetrics and Gynecology (ACOG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients identified as not requiring medical therapy (insulin or glyburide) after the first week of initial blood glucose monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosis of GDM made by any method or criteria other than the one outlined above",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with pre-existing diabetes mellitus",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT01818557",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

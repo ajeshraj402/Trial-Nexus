@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT01004874",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have histologically confirmed diagnosis of WHO grade IV primary malignant glioma (glioblastoma multiforme or gliosarcoma).",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not glioblastoma multiforme or gliosarcoma."
+    },
+    {
+      "criterion": "Patients have to be within 6 weeks of the last major surgical procedure.",
+      "label": "unknown",
+      "evidence": "No information provided about recent surgery"
+    },
+    {
+      "criterion": "Age > or = to 18 years.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, so age is met."
+    },
+    {
+      "criterion": "An interval of at least 2 weeks and not > 6 weeks between prior major surgical procedure and study enrollment.",
+      "label": "unknown",
+      "evidence": "No information provided about recent surgery"
+    },
+    {
+      "criterion": "Karnofsky > or = to 60%.",
+      "label": "met",
+      "evidence": "Patient has chronic pain, but no information suggests Karnofsky score is < 60."
+    },
+    {
+      "criterion": "Hemoglobin \u2265 9.0 g/dl.",
+      "label": "unknown",
+      "evidence": "No information provided about hemoglobin level"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) \u2265 1,500 cells/microliter.",
+      "label": "unknown",
+      "evidence": "No information provided about ANC"
+    },
+    {
+      "criterion": "Platelets \u2265 125,000 cells/microliter.",
+      "label": "unknown",
+      "evidence": "No information provided about platelet count"
+    },
+    {
+      "criterion": "Serum creatinine \u2264 1.5 mg/dl.",
+      "label": "unknown",
+      "evidence": "No information provided about serum creatinine level"
+    },
+    {
+      "criterion": "Signed informed consent approved by the Institutional Review Board.",
+      "label": "met",
+      "evidence": "Patient has undergone multiple treatments, so likely signed informed consent."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or breast feeding.",
+      "label": "unknown",
+      "evidence": "No information provided about pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "Co-medication that may interfere with study results; e.g. immuno-suppressive agents other than corticosteroids.",
+      "label": "met",
+      "evidence": "Patient is on high-dose steroids, but no other immunosuppressants mentioned."
+    },
+    {
+      "criterion": "Prior treatment with radiotherapy or chemotherapy for a brain tumor, irrespective of the grade of the tumor.",
+      "label": "triggers",
+      "evidence": "Patient has undergone radiation and temozolomide for anaplastic astrocytoma"
+    },
+    {
+      "criterion": "Inadequately controlled hypertension (defined as systolic blood pressure > 150 and/or diastolic blood pressure > 100 mmHg).",
+      "label": "unknown",
+      "evidence": "No information provided about blood pressure"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, which is not the same as glioblastoma multiforme or gliosarcoma. Patient has undergone radiation and chemotherapy for their tumor, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01004874",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

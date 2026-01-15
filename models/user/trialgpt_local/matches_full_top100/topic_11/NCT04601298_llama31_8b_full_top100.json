@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04601298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical cytology diagnosis of Bethesda category III (AUS/FLUS) pathological confirmation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "of thyroid malignancy after surgery.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pathological confirmation of other thyroid carcinomas, including follicular carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medullary carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "undifferentiated Spindle cell carcinoma and lymphoma were excluded",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "female who were pregnant were excluded",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with mental disorders were excluded",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients without the complete clinical data were excluded",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may be relevant for trial eligibility.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04601298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

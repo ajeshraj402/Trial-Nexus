@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01803334",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "32 yo"
+    },
+    {
+      "criterion": "Diagnosed with a benign surgical pathology",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient scheduled for elective minimally invasive gynecologic surgery",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a diagnosis of gynecologic cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of prior laparoscopic surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Emergency surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to follow up in the office for post operative visits",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT01803334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

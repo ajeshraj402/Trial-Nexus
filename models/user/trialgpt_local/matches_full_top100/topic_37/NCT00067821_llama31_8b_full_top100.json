@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00067821",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "20 year old"
+    },
+    {
+      "criterion": "Radiographic diagnosis",
+      "label": "met",
+      "evidence": "brain tumor (including, but not limited to high grade gliomas)"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "signed a document of informed consent indicating their awareness"
+    },
+    {
+      "criterion": "Prior treatment",
+      "label": "met",
+      "evidence": "newly diagnosed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age and weight",
+      "label": "not_met",
+      "evidence": "20 years old, weighs unknown kg"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": "no mention of pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "Metallic implant",
+      "label": "unknown",
+      "evidence": "no mention of metallic implant"
+    },
+    {
+      "criterion": "Gadolinium reaction",
+      "label": "unknown",
+      "evidence": "no mention of Gadolinium reaction"
+    },
+    {
+      "criterion": "Diabetes mellitus or steroid-induced hyperglycemia",
+      "label": "unknown",
+      "evidence": "no mention of diabetes mellitus or steroid-induced hyperglycemia"
+    }
+  ],
+  "notes": "Patient has RRMS, underwent brain MRI which revealed a single plaque in the brainstem and another lesion in the left cerebral hemisphere. She is under treatment for 7 months.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00067821",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

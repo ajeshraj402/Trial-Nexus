@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is a parturient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will be asked to fill out the STAI questionnaire",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will complete the pre procedure questionnaire",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will be asked to fill out the Pain Catastrophizing Scale form",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will be asked about their primary support person",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will be randomized to whether their companion will be allowed in the room or not",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will fill out the STAI questionnaire again after the completion of the neuraxial procedure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient will record their perception of pain during the placement of the labor epidural catheter using a VAS",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient is receiving neuraxial anesthesia for a cesarean delivery",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "External cephalic version",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-labor procedure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a severe 'exploding' headache and was diagnosed with an AVM. She refused PT evaluation but was ambulating independently without difficulty.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

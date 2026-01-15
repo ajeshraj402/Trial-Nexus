@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00502970",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult males and non-pregnant females (more than 18 and less than equal to 50 years of age).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment na\u00efve patients.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serological evidence of hepatitis C infection by an anti-HCV antibody test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HCV PCR positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Genotype 3",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of cirrhosis on liver biopsy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of alcohol or drug abuse.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not consent to be included in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding females.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Genotype non 3",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Chronic HCV infection for the past 2 years. IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00502970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

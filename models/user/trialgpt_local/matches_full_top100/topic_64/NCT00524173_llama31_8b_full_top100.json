@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00524173",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than 18 years and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known serum HBsAg positivity for 24 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Detectable HBV DNA greater than 10(4) IU/ml",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels 1.5 times the upper limit of normal",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver biopsy within 2 years of entry that is consistent with chronic hepatitis and with a histology activity index (HAI) score of 4 or more",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous or current treatment with tenofovir or emtricitabine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Co-infection with hepatitis delta virus (HDV) as defined by the presence of anti-HDV in serum and/or HDV antigen in the liver",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Co-infection with hepatitis c virus (HCV) as defined by the presence of HCV RNA in serum",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Decompensated liver disease as defined by serum bilirubin greater than 2.5 milligram per deciliter",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of HCV and recent coinfection with HBV, but no evidence of decompensated liver disease or co-infection with HDV.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00524173",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

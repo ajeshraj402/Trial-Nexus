@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03208582",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "Able to speak fluent English",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosed with osteogenesis imperfecta",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to stand",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Not treated with bisphosphonates",
+      "label": "not_met",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of other chronic illnesses",
+      "label": "met",
+      "evidence": "hypertension in his mother and DM type 2 in his father"
+    },
+    {
+      "criterion": "Balance problems",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent fracture (in the last 6 months)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent (last 12 months) or current treatment likely to affect bone",
+      "label": "met",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03208582",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

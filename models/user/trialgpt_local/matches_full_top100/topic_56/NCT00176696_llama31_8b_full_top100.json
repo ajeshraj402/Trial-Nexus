@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT00176696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English speaking"
+    },
+    {
+      "criterion": "surgery_position",
+      "label": "met",
+      "evidence": "supine position"
+    },
+    {
+      "criterion": "surgical_incision_length",
+      "label": "met",
+      "evidence": "at least 4 inches"
+    },
+    {
+      "criterion": "surgical_location",
+      "label": "met",
+      "evidence": "below the level of their arms"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anesthesia_type",
+      "label": "met",
+      "evidence": "general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery_location",
+      "label": "not_met",
+      "evidence": "head, neck or arms"
+    },
+    {
+      "criterion": "chronic_pain_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cognitive_disability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "peripheral_vascular_disease",
+      "label": "not_met",
+      "evidence": "arms"
+    },
+    {
+      "criterion": "carpal_tunnel_syndrome",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_substance_abuse_cognitive_impairments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "stroke_upper_extremities",
+      "label": "not_met",
+      "evidence": "upper extremities"
+    },
+    {
+      "criterion": "mastectomy_surgery_affected_lymph_nodes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "telephone_availability",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "anesthesia_type",
+      "label": "not_met",
+      "evidence": "nerve block or regional anesthesia"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "electrical_device",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acromegaly due to pituitary adenoma and recent surgery. He takes only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00176696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

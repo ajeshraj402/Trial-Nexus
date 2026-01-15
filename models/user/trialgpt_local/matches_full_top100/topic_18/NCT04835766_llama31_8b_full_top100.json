@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04835766",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Placenta accreta managed either by cesarean hysterectomy or by uterine sparing",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "conservative treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bladder injury was diagnosed and repaired during surgery 6 months ago",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with neurological problems",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of congenital urinary system anomalies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Urinary tract infections (UTIs)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous urologic surgeries",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with stone bladder or tumour",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diabetic patients",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe 2cm bulbar urethral stricture and will require surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04835766",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

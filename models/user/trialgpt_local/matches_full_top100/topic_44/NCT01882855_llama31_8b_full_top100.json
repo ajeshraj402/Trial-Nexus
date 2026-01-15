@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01882855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ambulatory patient with cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of alcohol abuse within six months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active gastrointestinal bleeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to provide informed consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01882855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

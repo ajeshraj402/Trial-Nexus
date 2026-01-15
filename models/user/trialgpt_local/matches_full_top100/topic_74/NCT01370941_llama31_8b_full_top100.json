@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01370941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "stable daily intake of calcium",
+      "label": "met",
+      "evidence": "500-1200 mg, of which dairy products are minimum 500 mg"
+    },
+    {
+      "criterion": "language proficiency",
+      "label": "met",
+      "evidence": "Speak and read Danish"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Written consent after verbal and written information"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "lactose intolerance / milk allergy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "calcium supplements in tablet or powder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vitamin D supplements exceeding 10 micro grams/day",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01370941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

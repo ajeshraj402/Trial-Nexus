@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01340118",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sensitized to aeroallergens and previously diagnosed to have asthma based on the",
+      "label": "met",
+      "evidence": "documentation of airway hyperresponsiveness (methacholine PC20 \u2264 8 mg/mL) and/or reversible airflow obstruction (\u2265 12% improvement in FEV1 in response to inhaled beta-2-agonist)"
+    },
+    {
+      "criterion": "maintained asthma control without controller medication for 3 months or more",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FeNO > 25 ppb",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "who had significant pulmonary disease other than asthma or a history of",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastroesophageal reflux",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01340118",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

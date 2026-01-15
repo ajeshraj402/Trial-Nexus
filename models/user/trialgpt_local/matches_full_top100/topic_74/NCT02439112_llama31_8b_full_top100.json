@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02439112",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed with Multiple Myeloma requiring treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to speak and understand Danish",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "spinal cord compression",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unstable vertebral fracture (SINS score >12)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone and is being treated with Bisphosphonate. They have multiple myeloma requiring treatment.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02439112",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

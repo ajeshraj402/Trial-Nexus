@@ -1,0 +1,43 @@
+{
+  "trial_id": "NCT04143061",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Z-score of \u2265 -2 standard deviations (SD) on the Weight-for-height table of the World Health Organization (WHO) Child Growth Standards",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent obtained",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to attend all scheduled visits and to comply with all trial procedures",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participant is pregnant, or lactating, or of childbearing potential and not using an effective method of contraception or abstinence from at least 4 weeks prior to vaccination until at least 4 weeks after vaccination",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Previous vaccination against meningococcal disease with either the trial vaccine or another vaccine (i.e., mono- or polyvalent, polysaccharide, or conjugate meningococcal vaccine containing serogroups A, C,Y, or W; or meningococcal B serogroup containing vaccine)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of meningococcal infection, confirmed either clinically, serologically, or microbiologically",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient has a history of atypical hemolytic uremic syndrome and was previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. This may contraindicate intramuscular vaccination in the Investigator's opinion.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04143061",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

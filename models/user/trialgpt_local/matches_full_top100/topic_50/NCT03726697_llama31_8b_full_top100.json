@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03726697",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hypoglycemia",
+      "label": "met",
+      "evidence": "less than 1 hour old admitted to the normal nursery"
+    },
+    {
+      "criterion": "diabetes in mother",
+      "label": "met",
+      "evidence": "infant of diabetic mother (any type of diabetes)"
+    },
+    {
+      "criterion": "gestational age",
+      "label": "met",
+      "evidence": "late preterm (34 - 37 weeks' gestation)"
+    },
+    {
+      "criterion": "birth weight",
+      "label": "met",
+      "evidence": "low birth weight (< 2.5 kg ) or Small for gestational age"
+    },
+    {
+      "criterion": "birth weight",
+      "label": "met",
+      "evidence": "Large for gestational age (> 4 kg or > 90th centile on Fenton's growth chart)"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "developmental delay",
+      "label": "not_met",
+      "evidence": "no developmental delay in the physical assessment"
+    },
+    {
+      "criterion": "testis palpability",
+      "label": "met",
+      "evidence": "palpable testis is the left scrotum with non-palpable testis in the right scrotum"
+    },
+    {
+      "criterion": "circumcision status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnostic laparoscopy result",
+      "label": "met",
+      "evidence": "abdominal undescended testis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major congenital abnormality",
+      "label": "not_met",
+      "evidence": "no complication in the pregnancy"
+    },
+    {
+      "criterion": "NICU admission immediately after birth",
+      "label": "not_met",
+      "evidence": "admitted to the normal nursery"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "parental consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03726697",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

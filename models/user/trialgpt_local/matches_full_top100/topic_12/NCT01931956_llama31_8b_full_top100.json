@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01931956",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "primary regurgitant jet originates from malcoaptation of the A2 and P2 scallops",
+      "label": "met"
+    },
+    {
+      "criterion": "male or non-pregnant female",
+      "label": "met"
+    },
+    {
+      "criterion": "trans-septal catheterization is determined to be feasible by the treating physician",
+      "label": "met"
+    },
+    {
+      "criterion": "predicted procedural mortality risk calculated using the STS surgical risk calculator of \u226512%",
+      "label": "met"
+    },
+    {
+      "criterion": "symptomatic moderate to severe (3+) or severe (4+) chronic MR and in the judgment of the investigator intervention to reduce MR is likely to provide symptomatic relief for the patient",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "evidence of an Acute Myocardial Infarction (AMI) in the prior 12 weeks of the intended treatment",
+      "label": "not_met"
+    },
+    {
+      "criterion": "MV orifice area <4.0 cm2",
+      "label": "unknown"
+    },
+    {
+      "criterion": "leaflet flail is present and Flail Width \u226515 mm, or Flail Gap \u226510 mm.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome with severe mitral valve prolapse and regurgitation. She remains symptomatic and is prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT01931956",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

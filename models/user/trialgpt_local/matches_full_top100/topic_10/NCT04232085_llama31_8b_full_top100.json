@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04232085",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed diagnosis of systemic mastocytosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Primary Immune Deficiencies: Chronic granulomatous disease (CGD)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Available donor as follows: Cohort A - Fully HLA matched sibling or other first-degree family member",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with adequate organ function as measured by Cardiac: Left ventricular ejection fraction (LVEF) at rest must be \u2265 35%.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary: forced expiratory volume-one second (FEV1), forced vital capacity (FVC), diffusing capacity of the lungs for carbon monoxide (DLCO) > 50% predicted",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior allogeneic stem cell transplant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled bacterial, viral, or fungal infection at the time of enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is currently stable on medication. Donor eligibility criteria are met for Cohort A.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04232085",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

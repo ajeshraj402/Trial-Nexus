@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02718092",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "WON diagnosed on contrast-enhanced dual phase CT abdomen/pelvis (CECT) or MRI with gadolinium",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All WON centered within the pancreatic/peri-pancreatic space not requiring percutaneous drainage, \u2265 6cm, located within 2cm of the enteric wall, not extending into the flanks or pelvis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "WON with single loculation, with no extension into the flanks, pelvis or into the root of the small bowel mesentery.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspected/confirmed infected WON (defined as temp \u2265 100.5\u00b0F, serum WBC \u2265 15x10^9/L, positive blood cultures or positive Gram stain/culture of aspirated necrotic material) and/or Symptomatic WON (defined as abdominal pain, gastric/intestinal/biliary outlet obstruction resulting in nausea, vomiting, early satiety, jaundice, or persistent malaise) at a time interval of \u2265 4 weeks from attack of acute pancreatitis complicated by pancreatic necrosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented history of acute or chronic pancreatitis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to obtain consent for the procedure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recent abdominal mass, and pancreatic adenocarcinoma. She is currently being treated with IV antibiotics.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02718092",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

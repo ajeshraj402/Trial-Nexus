@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02634619",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male \u2265 18 years old with diagnosis of bulbar urethral stricture by voiding cystourethrogram",
+      "label": "met",
+      "evidence": "voiding cystourethrogram"
+    },
+    {
+      "criterion": "Strictures must predominantly include the proximal and/or mid-bulbar urethra",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male patients with bulbar urethral stricture > 1 cm in length",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior urethroplasty",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Artificial urinary Sphincter placement",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male urethral sling placement",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of multiple urological procedures, but none that would likely trigger exclusion. He will need to be taken to the OR for surgical repair when stable.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02634619",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

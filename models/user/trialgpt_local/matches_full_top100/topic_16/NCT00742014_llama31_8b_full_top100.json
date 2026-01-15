@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00742014",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Significant pulmonary arterial hypertension (mean pulmonary artery pressure > 25 mm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients aged 4-18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suprasystemic pulmonary artery pressures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of right heart failure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of ventricular arrhythmia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00742014",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

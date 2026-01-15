@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00517504",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "concurrent non-pharmacological therapies will be stabilized for a minimum period of 2 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior to the child's entry into the drug phase of the study. At each medication follow-up visit, a detailed history will be obtained and recorded for all concurrent treatments.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Screening assessment: The child's parent and teacher/daycare provider, if applicable, will need to complete some forms that describe the child's problems with overactivity, impulsivity and inattention.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child must meet the DSM-IV criteria for AD or PDD NOS as determined via a parent interview on the ADI-R and on child observation via the ADOS, or DD.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child must have categorical and dimensional evidence of clinically significant ADHD symptoms in multiple settings that have been present for at least six months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "36-84 month old children",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child with prior failed treatment with an adequate trial of methylphenidate;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current history of chronic tic disorder (e.g., Tourette syndrome with current severity of moderate or more), or a family history of Tourette's Disorder.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 12 year old girl with Turner syndrome, treating with GH since 6 months ago. She has short stature, delayed in puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00517504",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

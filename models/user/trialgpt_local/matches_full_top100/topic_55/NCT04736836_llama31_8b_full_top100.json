@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT04736836",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age 18 to 75 years",
+      "label": "met"
+    },
+    {
+      "criterion": "experiencing at least one episode of OHE",
+      "label": "met"
+    },
+    {
+      "criterion": "MELD score \u2264 25.13",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neurological or communication problems",
+      "label": "triggers"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "triggers"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "triggers"
+    },
+    {
+      "criterion": "active infection",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04736836",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00774007",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25 years old"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnosis of IBS",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory bowel disease",
+      "label": "met",
+      "evidence": "no history of Crohn disease, Diverticular disease, Ulcerative colitis, Infectious colitis, Ischemic colitis, microscopic colitis"
+    },
+    {
+      "criterion": "active malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal disease",
+      "label": "not_met",
+      "evidence": "creatinine < 2.0 mg/dL"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT00774007",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

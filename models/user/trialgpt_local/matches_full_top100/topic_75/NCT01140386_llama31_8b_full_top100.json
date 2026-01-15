@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01140386",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age <18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hospitalized for greater than or equal to 24 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "VTE documented during hospital admission",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age >18",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 55-year-old man with mild Parkinson's disease, living with his wife and children. He has hypertension and hypercholesterolemia in his past medical history.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT01140386",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

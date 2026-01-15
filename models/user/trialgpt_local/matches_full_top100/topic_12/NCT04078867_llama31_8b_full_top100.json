@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04078867",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Rheumatic mitral valve disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Surgery for mitral valve replacement",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe functional tricuspid regurgitation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with non-rheumatic mitral disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Combined mitral and aortic valve replacement",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome, severe mitral valve prolapse with regurgitation, and is planned for mitral valve repair/replacement surgery. However, she was lost to follow-up and remains symptomatic.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04078867",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT00466388",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is at least 18 years old and able to give written informed consent",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subject has received external beam radiotherapy > 4000 cGy for SCCA of the head and/or neck",
+      "label": "met"
+    },
+    {
+      "criterion": "Radiation therapy was completed at least 16 weeks (4 months) prior to enrollment into the study but not greater than 52 weeks (12 months)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Radiation included at least three of four of the major salivary glands (submandibular and parotid glands) in the initial field",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Primary therapy was designed with curative intent. Surgery is permitted if the Grade 1 or 2 xerostomia by CTC version 3.0 criteria (Appendix D)",
+      "label": "met"
+    },
+    {
+      "criterion": "Demonstratable salivary flow as assessed by the clinician after administration of a potent sialogogue such as lemon juice (1 teaspoon)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subject has at least one anatomically intact parotid gland and one submandibular gland",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance status of 0, 1, or 2",
+      "label": "unknown"
+    },
+    {
+      "criterion": "An EKG obtained has been performed in the past 6 months showing no arrhythmias or contraindication to administration of a muscarinic agent AND there has been no interval change in cardiac health",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subject is able to eat an oral diet to maintain adequate hydration and nutrition",
+      "label": "met"
+    },
+    {
+      "criterion": "Subject has provided informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Subject is English speaking and of sufficient mental capacity to comply with the study requirements",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has a life expectancy less than 12 months.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Subject is known or suspected to have persistent disease after curative intent",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Subject is greater than 12 months out from completion of radiation therapy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Subject is pregnant or nursing",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has received external beam radiotherapy. However, they have a life expectancy less than 12 months due to their disease status.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00466388",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

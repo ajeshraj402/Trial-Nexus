@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04064957",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 yr. of age or older.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical diagnosis of a non-penetrating traumatic SCI to the cervical spine",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of: Recent or ongoing infection,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically significant cardiovascular, lung, renal, hepatic, or endocrine disease,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neurodegenerative disorders,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cancer,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Immunosuppression as defined by WBC < 3, 000 cells/ml at baseline screening,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chemical or ETOH dependency,",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Having a contraindication to MRI scans",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has cirrhosis, grade II esophageal varices, and recent admission for UGIB. He also describes new imbalance leading to a fall and may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04064957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

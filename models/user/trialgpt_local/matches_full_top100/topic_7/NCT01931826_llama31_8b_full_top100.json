@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01931826",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age between 15 and 65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "an established diagnosis of hepatosplenic schistosomiasis as the cause of portal hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "a history of UGIB secondary to rupture of esophageal varices, with at least 20 days having elapsed since the most recent episode of bleeding",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic alcoholism",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "evidence of decompensated liver disease of mixed etiology or of any chronic disease that contraindicated surgery",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of fundal varices on endoscopy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of UGIB secondary to rupture of esophageal varices, but also has chronic alcoholism and evidence of decompensated liver disease.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01931826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

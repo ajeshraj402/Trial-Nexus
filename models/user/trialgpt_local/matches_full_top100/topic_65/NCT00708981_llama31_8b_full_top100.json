@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00708981",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 Diabetes mellitus",
+      "label": "met",
+      "evidence": "American Diabetes Association criteria"
+    },
+    {
+      "criterion": "Advanced Diabetic Nephropathy (ADN)",
+      "label": "met",
+      "evidence": "proteinuria or micro/macro-albuminuria and impaired GFR by MDRD equation"
+    },
+    {
+      "criterion": "Macroalbuminuria",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Microalbuminuria",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diabetic Retinopathy or laser therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Minimal cognitive function for a diabetes self management",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Fasting or random Blood glucose <400mg/DL",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 Diabetes Mellitus",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Creatinine > 4.0 mg/dl and/or an estimated GFR of < 15 ml/min",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal replacement therapy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis, but meets inclusion criteria for Type 2 Diabetes mellitus. He does not have serum creatinine > 4.0 mg/dl or an estimated GFR of < 15 ml/min.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00708981",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03517579",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Graves' disease confirmed by laboratory testing",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to understand English and follow instructions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intermediate and high risk differentiated thyroid cancer requiring radioiodine remnant ablation or moderately high dose I-131 for treatment of residual cervical disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to understand simple English and follow instructions",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diseases involving cervical spine, such as spondylosis and severe degenerative joint disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant Women",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elderly",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "persons unable to understand simple instructions",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, which may be a contraindication for the trial. Additionally, patient's age and ability to follow instructions are not clear indicators of eligibility.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03517579",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

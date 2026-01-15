@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02443259",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Late preterm infants",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pre eclampsia in mothers",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parental Consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major congenital malformation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eclampsia ( seizures in mother)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mothers on antipsychotic drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical Chorioamnionitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Birth Asphyxia (Apgar score of less than 7 at 1 minute of age)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple gestation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "25-year-old G1 P1 pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency and flank pain. Gram-negative rod-shaped bacterial cells in urine culture.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02443259",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

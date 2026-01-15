@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02248064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD and on LTOT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "IPF on LTOT or ambulatory oxygen",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to mobilise for a 6 minute walk test",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unable to consent to study,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Partial pressure of oxygen < 6.0 kilopascals (kPa) or Partial pressure of carbon dioxide > 8kilopascals on air,",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Exacerbation of the underlying lung disease in the previous 4 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unstable cardiovascular disease (e.g. arrhythmia, hypertension/hypotension or angina)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD and is on LTOT. They have a history of atrial septal defect repair, diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD, and COPD on home oxygen.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02248064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

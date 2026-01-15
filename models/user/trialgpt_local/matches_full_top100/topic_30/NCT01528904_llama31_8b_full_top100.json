@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01528904",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Autoimmune hyper or hypothyroidism",
+      "label": "met",
+      "evidence": "diagnosed by an endocrinologist, treated"
+    },
+    {
+      "criterion": "Clinical and laboratory tests",
+      "label": "met",
+      "evidence": "high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "Ultrasound thyroid examination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Seen by gynecologist at Clinic for Gynecology up until 20th week of gestation",
+      "label": "met",
+      "evidence": "seen by gynecologist"
+    },
+    {
+      "criterion": "Not later than 20th week of gestation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any other chronic diseases",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, treated with Levothyroxine. No other chronic diseases mentioned.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01528904",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

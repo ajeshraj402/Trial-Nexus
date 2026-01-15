@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04133571",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "20-70 years"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "Male"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists(ASA)class",
+      "label": "met",
+      "evidence": "\u0399-\u2162"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lidocaine allergy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac conduction with partial or total block",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient with progressive hepatic or renal impairment",
+      "label": "not_met",
+      "evidence": "no evidence of urethral strictures, no evidence of ureteral obstruction"
+    },
+    {
+      "criterion": "patient with class III anti-arrhythmia agent(ex:amiodarone)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient with acute porphyria",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and multiple prior admissions for UTIs. The patient's current condition is urosepsis resolved after treatment.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04133571",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

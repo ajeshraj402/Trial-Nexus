@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02417740",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age 12 years or above, male or female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Known diagnosis of NCPH, or to be at the risk for NCPH by virtue of underlying disease processes such as but not limited to; CGD, SCD, Mastocytosis, CVID, CF, and CHF.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of other forms of liver disease that typically result in cirrhosis.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatitis C as defined by the presence of hepatitis C RNA in serum.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02417740",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

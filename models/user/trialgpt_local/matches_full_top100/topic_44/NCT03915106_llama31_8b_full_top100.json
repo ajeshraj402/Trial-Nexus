@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03915106",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "AIS patients who attend the scoliosis clinic at specialized outpatient clinic in",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prince of Wales hospital and require wearing brace",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who suffer from severe scoliosis and require surgery on their first clinic visit",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Can read and understand either English or Chinese",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "To observe (i.e. not require to wear brace) after clinic visit",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cannot read or understand either English or Chinese",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for surgery according to perioperative MEP monitoring",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03915106",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

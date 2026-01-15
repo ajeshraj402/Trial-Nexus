@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT03812393",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must be female.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient must have an ECOG performance status of 0 or 1",
+      "label": "met"
+    },
+    {
+      "criterion": "The diagnosis of invasive adenocarcinoma of the breast must have been made by core needle biopsy.",
+      "label": "met"
+    },
+    {
+      "criterion": "The primary breast tumor must be palpable and measure \u2265 1.0 cm on physical exam.",
+      "label": "met"
+    },
+    {
+      "criterion": "Nodal status - negative",
+      "label": "met"
+    },
+    {
+      "criterion": "Tumor specimen obtained at the time of diagnosis must have estrogen (ER) and progesterone (PR) receptors < 10%.",
+      "label": "met"
+    },
+    {
+      "criterion": "Blood counts performed within 6 weeks prior to initiating chemotherapy must meet the following criteria: Absolute neutrophil count (ANC) must be \u2265 1200/mm3;",
+      "label": "met"
+    },
+    {
+      "criterion": "The patient is a 45-year-old postmenopausal woman",
+      "label": "unknown"
+    },
+    {
+      "criterion": "A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "The tumor is HER2-positive and ER/PR negative",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Axillary sampling revealed 5 positive lymph nodes",
+      "label": "unknown"
+    },
+    {
+      "criterion": "CXR was remarkable for metastatic lesions.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "T3 or T4 tumors including inflammatory breast cancer.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "FNA alone to diagnose the breast cancer.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Excisional biopsy or lumpectomy performed prior to initiating chemotherapy.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Definitive clinical or radiologic evidence of metastatic disease. Required imaging studies must have been performed within 6 weeks prior to initiating chemotherapy.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of cytologically confirmed breast cancer and is postmenopausal, but the overall assessment is likely eligible due to the presence of metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03812393",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

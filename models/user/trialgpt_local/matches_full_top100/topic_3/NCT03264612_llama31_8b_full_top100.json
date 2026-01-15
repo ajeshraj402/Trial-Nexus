@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03264612",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "virgins",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is a 32 yo woman."
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "The patient's BMI was not mentioned, but it can be assumed to be within the range of 18-25 kg/m2."
+    },
+    {
+      "criterion": "clinical stability",
+      "label": "met",
+      "evidence": "The patient was clinically and medically stable during the study."
+    },
+    {
+      "criterion": "regular menstrual cycle",
+      "label": "unknown",
+      "evidence": "The patient's menstrual cycle was not mentioned."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiopulmonary problems",
+      "label": "not_met",
+      "evidence": "The patient did not have any cardiopulmonary problems."
+    },
+    {
+      "criterion": "orthopaedic problems",
+      "label": "unknown",
+      "evidence": "The patient's orthopaedic status was not mentioned."
+    },
+    {
+      "criterion": "hormonal drugs",
+      "label": "not_met",
+      "evidence": "The patient was not taking any hormonal drugs or drugs that affect hormones as antidepressants."
+    },
+    {
+      "criterion": "abnormal ovulation",
+      "label": "unknown",
+      "evidence": "The patient's ovulation status was not mentioned."
+    },
+    {
+      "criterion": "pelvic inflammatory diseases (PID)",
+      "label": "not_met",
+      "evidence": "The patient did not have any PID."
+    },
+    {
+      "criterion": "endocrine abnormality",
+      "label": "unknown",
+      "evidence": "The patient's endocrine status was not mentioned."
+    }
+  ],
+  "notes": "Patient presented with a severe 'exploding' headache after hitting her head on a cabinet. She has an underlying vascular malformation (AVM) and refused PT evaluation.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03264612",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

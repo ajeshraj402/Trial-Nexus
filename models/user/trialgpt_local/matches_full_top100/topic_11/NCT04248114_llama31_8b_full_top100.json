@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04248114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "assessment of thyroid gland",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neck surgical procedure prior to test",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abnormalities in anterior neck",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clear second crease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, but no prior neck surgical procedure or abnormalities in anterior neck mentioned.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04248114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

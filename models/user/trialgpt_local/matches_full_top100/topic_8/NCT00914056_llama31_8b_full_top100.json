@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00914056",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of hepatic cirrhosis based on biopsy, clinical and/or radiological findings.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Stable HE (chronic): On daily lactulose for more than 6 months without hospitalization",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treated with lactulose on a daily basis, with restoration of mental status to baseline.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lives with an adult individual who is willing to serve as a full-time caregiver.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able and willing to give informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of antibiotics, including rifaximin.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient without an adult caregiver.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing focal neurological deficits, seizures or other indication of structural neurological disorder.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Actively abusing illicit drugs or alcohol.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation. He presented with his disease back in [**10/2119**] with an elevated white count and LDH.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00914056",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

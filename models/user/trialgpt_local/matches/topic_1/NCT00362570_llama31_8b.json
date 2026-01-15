@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT00362570",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "anaplastic oligodendroglioma or mixed oligoastrocytoma",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not oligodendroglioma or mixed oligoastrocytoma."
+    },
+    {
+      "criterion": "age > 18",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Karnofsky status > 70%",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior chemotherapy or cranial irradiation",
+      "label": "triggers",
+      "evidence": "Patient received temozolomide and CPT-11 with Avastin, which is a form of chemotherapy. Additionally, patient underwent field radiation t10-l1."
+    }
+  ],
+  "notes": "Karnofsky status unknown due to lack of information in patient text. Exclusion criteria likely triggers due to prior chemotherapy and cranial irradiation.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00362570",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

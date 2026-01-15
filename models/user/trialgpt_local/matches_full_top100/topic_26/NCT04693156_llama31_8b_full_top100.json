@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04693156",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective laparoscopic cholecystectomy",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "ASA I-II",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient refusal",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "perforation of the gallbladder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients with acute cholecystitis",
+      "label": "not_met",
+      "evidence": "abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting"
+    },
+    {
+      "criterion": "history of the previous gallbladder surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "She has 2 children, and she is menopausal"
+    },
+    {
+      "criterion": "morbid obesity",
+      "label": "not_met",
+      "evidence": "Her BP is 150/85"
+    },
+    {
+      "criterion": "psychiatric disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "epilepsia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal insufficiency",
+      "label": "not_met",
+      "evidence": "Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift"
+    },
+    {
+      "criterion": "coagulopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patients known allergic to drugs used for study",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has gallstones and biliary sludge, but no acute cholecystitis. Surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04693156",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

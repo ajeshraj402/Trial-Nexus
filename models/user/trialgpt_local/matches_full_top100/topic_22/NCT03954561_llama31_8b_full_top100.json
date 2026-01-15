@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03954561",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "location",
+      "label": "met",
+      "evidence": "Buddhist Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Chiayi, Taiwan"
+    },
+    {
+      "criterion": "endoscopist",
+      "label": "met",
+      "evidence": "YHH and CWT"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "31 years old"
+    },
+    {
+      "criterion": "previous_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bowel_prep",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "ascites",
+      "label": "not_met",
+      "evidence": "The temperature is within the normal limits with normal vital signs."
+    }
+  ],
+  "notes": "31-year-old woman complaining of abdominal pain. Computed Tomography shows distended appendix.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03954561",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

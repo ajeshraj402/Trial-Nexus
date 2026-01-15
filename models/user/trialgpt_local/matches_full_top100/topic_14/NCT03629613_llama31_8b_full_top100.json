@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03629613",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "be diagnosed with CVD",
+      "label": "met",
+      "evidence": "COPD, CHF; EF 55%, mild AS"
+    },
+    {
+      "criterion": "be between 50-85 years old",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "be postmenopausal, meaning having had cessation of menses for at least 12 consecutive months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no CVD conditions",
+      "label": "not_met",
+      "evidence": "COPD, CHF; EF 55%, mild AS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic kidney/renal disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic heart failure",
+      "label": "triggers",
+      "evidence": "CHF; EF 55%, mild AS"
+    },
+    {
+      "criterion": "neuromuscular disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "already supplementing with antioxidants or vitamins within 5 days of the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CHF and is currently on lasix, which may indicate chronic heart failure. However, overall assessment is likely_ineligible due to exclusion of chronic heart failure.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03629613",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

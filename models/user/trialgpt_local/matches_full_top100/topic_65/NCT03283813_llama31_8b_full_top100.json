@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03283813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "IOTF criteria (Cole TJ et al., 2000)"
+    },
+    {
+      "criterion": "pubertal stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HOMA-IR or insulin level",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum zinc level",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adverse reactions to product",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "genetic obesity",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic diseases",
+      "label": "met",
+      "evidence": "hepatic or gastroenterological diseases"
+    },
+    {
+      "criterion": "medical treatment for chronic diseases",
+      "label": "met",
+      "evidence": "ACE inhibitors and Beta blockers"
+    },
+    {
+      "criterion": "supplementation with inositol-like products",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis, but is being treated for cardiomyopathy.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03283813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

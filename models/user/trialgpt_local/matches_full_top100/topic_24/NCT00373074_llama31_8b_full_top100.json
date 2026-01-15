@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00373074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetric patients aged 18 or more years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Post-dural puncture headache (PDPH) after a confirmed or likely unintentional dural puncture with an epidural needle.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medically suitable for and have consented to epidural blood patch (EBP) for treatment of PDPH",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous epidural blood patch (EBP) related to the same unintentional dural puncture (including prophylactic EBP)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "EBP to be performed more than 5 days after the unintentional dural puncture.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of significant low or radicular back pain (requiring treatment) during pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women in whom a further dural puncture occurs at the time of epidural needle insertion for the EBP",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis other than PDPH subsequently confirmed.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms. He has an IPSS score of 15 and post-void residual of 70 mL.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT00373074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

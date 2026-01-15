@@ -1,0 +1,110 @@
+{
+  "trial_id": "NCT00761280",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "The patient has provided written informed consent prior to any study-related procedure.",
+      "label": "met",
+      "evidence": "Patient text does not explicitly mention this, but it is implied by the context."
+    },
+    {
+      "criterion": "The patient is at least 18 years of age and equal to or below 70 years.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "The patient has a present diagnosis of AA or secondary GBM.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma (AA) of the spine."
+    },
+    {
+      "criterion": "The lesion (or sum of lesions) does not exceed 50 ccm in volume (central MRI review).",
+      "label": "unknown",
+      "evidence": "No specific information about tumor size is provided."
+    },
+    {
+      "criterion": "All patients have recurrent or refractory disease, i.e. disease has progressed after prior surgery and radiotherapy at any time of the disease course or stage.",
+      "label": "met",
+      "evidence": "Patient's tumor is unresectable and has progressed despite radiation."
+    },
+    {
+      "criterion": "The patient is eligible for chemotherapy.",
+      "label": "unknown",
+      "evidence": "No specific information about chemotherapy eligibility is provided."
+    },
+    {
+      "criterion": "The patient is on a maximum dose of 4 mg/day dexamethasone or equivalent doses for other corticosteroids, which has been stable or decreasing for at least 3 weeks prior to Screening.",
+      "label": "unknown",
+      "evidence": "Patient is taking high-dose steroids, but no specific information about dosage or duration is provided."
+    },
+    {
+      "criterion": "The patient is male or a non-pregnant, non-lactating female.",
+      "label": "met",
+      "evidence": "Patient is a man."
+    },
+    {
+      "criterion": "Females of childbearing potential must have a negative beta-HCG pregnancy test at Screening.",
+      "label": "unknown",
+      "evidence": "No specific information about patient's reproductive status or pregnancy test results is provided."
+    },
+    {
+      "criterion": "The patient has recovered from acute toxicity caused by any previous therapy.",
+      "label": "unknown",
+      "evidence": "Patient has experienced severe side effects, but no specific information about recovery is provided."
+    },
+    {
+      "criterion": "The patient has a life expectancy of at least 3 months.",
+      "label": "met",
+      "evidence": "Patient's condition is terminal, implying a short life expectancy."
+    },
+    {
+      "criterion": "The patient has a Karnofsky Performance Status of at least 70%.",
+      "label": "unknown",
+      "evidence": "No specific information about patient's performance status is provided."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient unable or not willing to comply with the protocol regulations.",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not suggest any unwillingness to comply."
+    },
+    {
+      "criterion": "The investigator deems it necessary to surgically (re-)resect the present tumor.",
+      "label": "unknown",
+      "evidence": "No specific information about surgical plans is provided."
+    },
+    {
+      "criterion": "Tumor surgery, tumor debulking, or other neurosurgery within 3 months prior to randomization.",
+      "label": "does_not_trigger",
+      "evidence": "Patient's tumor is unresectable and has been treated with radiation."
+    },
+    {
+      "criterion": "Radiotherapy or stereotactic (gamma knife) radiosurgery within 3 months prior to randomization.",
+      "label": "met",
+      "evidence": "Patient has received radiation therapy, but it was more than 3 months ago."
+    },
+    {
+      "criterion": "Prior interstitial brachytherapy of the brain with permanent implants.",
+      "label": "unknown",
+      "evidence": "No specific information about patient's treatment history is provided."
+    },
+    {
+      "criterion": "Chemotherapy, hormone therapy, or any other therapy with established or suggested anti-tumor effects within 4 weeks (nitrosoureas: 6 weeks) prior to randomization.",
+      "label": "does_not_trigger",
+      "evidence": "Patient has received chemotherapy, but it was more than 4 weeks ago."
+    },
+    {
+      "criterion": "Prior anti-TGF-beta 2 targeted therapy.",
+      "label": "unknown",
+      "evidence": "No specific information about patient's treatment history is provided."
+    }
+  ],
+  "notes": "Patient has a complex medical history, including severe side effects from previous treatments. Specific information about some inclusion and exclusion criteria is lacking or unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00761280",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

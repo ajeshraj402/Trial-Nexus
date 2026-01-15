@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04688463",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abdominal pain",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "children referred",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgeon on pediatric general surgery service",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HSC-Children's Hospital in Winnipeg",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abdominal pain duration > 7 days",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abdominal pain due to other surgical or medical conditions",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04688463",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

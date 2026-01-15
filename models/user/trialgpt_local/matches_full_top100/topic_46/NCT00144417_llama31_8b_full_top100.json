@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00144417",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Suspected pulmonary tuberculosis with acid-fast bacilli in a stained smear of expectorated or induced sputum.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Karnofsky score of at least 60 (requires occasional assistance but is able to care for most of his/her needs; see Appendix B).",
+      "label": "met"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Women with child-bearing potential must agree to practice an adequate (barrier) method of birth control or to abstain from heterosexual intercourse during study therapy.",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Serum amino aspartate transferase (AST) activity \u2264 3 times the upper limit of normal",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Serum total bilirubin level \u2264 2.5 times the upper limit of normal",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Serum creatinine level \u2264 2 times the upper limit of normal",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Complete blood count with hemoglobin level of at least 7.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Complete blood count with platelet count of at least 50,000/mm3",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory parameters done at, or <14 days prior to, screening: Serum potassium > 3.5 meq/L",
+      "label": "met"
+    },
+    {
+      "criterion": "Will be discontinued from the study, but followed for 14 days to detect late toxicities from study therapy.",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Breast-feeding",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Known intolerance to any of the study drugs",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Current or planned therapy during the intensive phase of therapy using drugs having unacceptable interactions with rifampin (rifabutin can be substituted for rifampin during the continuation phase of therapy).",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has suspected pulmonary tuberculosis and meets most inclusion criteria. However, they have a history of prolonged QT syndrome which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00144417",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

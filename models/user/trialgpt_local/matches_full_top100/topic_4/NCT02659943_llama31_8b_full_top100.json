@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02659943",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Malignancy criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical performance status of ECOG 0-1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Room air oxygen saturation of 92% or greater",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients that require urgent therapy due to tumor mass effects or spinal cord compression.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women of child-bearing potential who are pregnant or breastfeeding because of the potentially dangerous effects of the preparative chemotherapy on the fetus or infant.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma, but requires urgent therapy due to tumor mass effects and is pregnant.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02659943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

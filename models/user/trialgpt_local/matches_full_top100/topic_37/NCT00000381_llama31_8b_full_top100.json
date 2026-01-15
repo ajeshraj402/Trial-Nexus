@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00000381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Generalized anxiety disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current major depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Panic disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Obsessive-compulsive disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current substance abuse",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She experiences lower extremities weakness, balance problems, and one-sided vision loss.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00000381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

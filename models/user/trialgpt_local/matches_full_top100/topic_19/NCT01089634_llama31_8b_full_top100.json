@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01089634",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "first_crt_defibrillator_system",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medtronic_crt_defibrillator_with_lvcm_feature",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient_informed_consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "geographic_stability_and_availability_for_follow_up",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pre_existing_lv_lead",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life_expectancy_less_than_1_year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other_clinical_trial_affecting_study_objectives",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01089634",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

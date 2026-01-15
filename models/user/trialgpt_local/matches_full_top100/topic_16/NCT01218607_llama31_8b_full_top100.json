@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01218607",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent by patient prior to initiation of any study-mandated procedure.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female patients > 40 years with atrial septal defect type secundum and > 40 years of age at the time of repair",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative pre-treatment pregnancy test and must use a reliable method of contraception during study treatment and for at least 3 months after study treatment termination.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women not of childbearing potential are defined as postmenopausal (amenorrhea for at least 1 year), or documented surgically or naturally sterile.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impairment of organic function (renal, hepatic)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Arterial hypotension (systolic blood pressure < 85 mmHg)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anaemia (Hb< 10 g/dl)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Decompensated symptomatic polycythemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thrombocytopenia (< 50000/\u00b5l)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Significant valvular diseases, other than tricuspid or pulmonary regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic lung disease or total lung capacity < 80% of predicted value",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of significant pulmonary embolism",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women of child-bearing age who are sexually active without practising reliable methods of contraception",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has atrial septal defect type secundum, chronic lung disease, and history of significant pulmonary embolism. However, they have tolerated an inpatient trial of sildenafil without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01218607",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02638922",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "tall stature",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "short stature",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "delayed in puberty",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "developmental delay",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "45X karyotype study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Turner syndrome diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "GH treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "estrogen therapy avoidance",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "obesity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mental retardation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "menarche",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ideal height",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 12 year old girl with Turner syndrome, short stature and developmental delay. She is on GH treatment without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02638922",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

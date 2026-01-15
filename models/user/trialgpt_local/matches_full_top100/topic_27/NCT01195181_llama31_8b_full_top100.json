@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01195181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Naive adult subject",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active HCV infection (HCV-RNA positive)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "histological/biochemical signs of chronic hepatitis or compensated cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willingness of treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autoimmune disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe depression or psychiatric disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous decompensation of cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastroesophageal bleeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "major disease with a life expectancy of less than 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or nursing",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. No evidence of exclusion criteria.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01195181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

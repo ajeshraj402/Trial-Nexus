@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00911625",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 Diabetes Mellitus of more than 1 year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "GFR less than 30 ml/min/1.73m2 or dialysis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age greater than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Entry blood glucose (fasting or random) greater than 180mg%",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 Diabetes Mellitus",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New onset hyperglycemia",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has had type 1 diabetes for 11 years and has been on insulin since diagnosis. He is currently experiencing hyperglycemia after not taking his insulin for 3 days.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00911625",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

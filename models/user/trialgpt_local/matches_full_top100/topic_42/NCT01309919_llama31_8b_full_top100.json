@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 yo Hispanic female"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "Hispanic female, speak either English or Spanish"
+    },
+    {
+      "criterion": "IUD desire",
+      "label": "met",
+      "evidence": "desire to use an IUD as their postpartum contraception (IUD arm)"
+    },
+    {
+      "criterion": "no IUD desire",
+      "label": "met",
+      "evidence": "do NOT desire an IUD as their contraception (Diary Only arm)"
+    },
+    {
+      "criterion": "delivery location",
+      "label": "met",
+      "evidence": "plan to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "STI history",
+      "label": "unknown",
+      "evidence": "no specific past medical issues"
+    },
+    {
+      "criterion": "desire for another pregnancy",
+      "label": "unknown",
+      "evidence": "no information about desire for another pregnancy within six months of giving birth"
+    },
+    {
+      "criterion": "uterine fibroids or anomalies",
+      "label": "unknown",
+      "evidence": "no information about uterine fibroids or anomalies"
+    },
+    {
+      "criterion": "neoplasia",
+      "label": "unknown",
+      "evidence": "no information about known or suspected uterine or cervical neoplasia"
+    },
+    {
+      "criterion": "acute liver disease",
+      "label": "unknown",
+      "evidence": "laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels"
+    },
+    {
+      "criterion": "breast cancer history",
+      "label": "unknown",
+      "evidence": "no information about history of breast cancer"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has no specific past medical issues, but her family history is positive for DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

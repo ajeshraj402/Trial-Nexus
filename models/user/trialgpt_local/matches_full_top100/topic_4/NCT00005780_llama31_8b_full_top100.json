@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00005780",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All stages of disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lymph node of greater than or equal to 2 cm accessible for biopsy/harvest or greater than 1000/microliters of circulating tumor cells in the blood",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status of less than or equal to 3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate major organ function (serum creatinine 1.5 mg/dl or creatinine clearance greater than 60 ml/min; bilirubin less than 2 mg/dl (total) except less than 5 mg/dl in patients with Gilbert's syndrome as defined by greater than 80% unconjugated; ANC greater than 1000 and platelets greater than 100,000)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No active symptomatic ischemic heart disease, myocardial infarction or congestive heart failure within the past year. If MUGA is obtained, the LVEF should exceed 40%",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Antibodies to HIV or presence of hepatitis B surface antigen",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma with pericardial effusion, but no CNS involvement. However, patient has a history of viral encephalitis/meningitis which may be a contraindication for trial participation.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00005780",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

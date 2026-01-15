@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00342706",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "African American and Latino primiparous pregnant or newly parenting (0-6 weeks)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age 15-18 years inclusive",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Teens who are 19 years old if they have not graduated from high school",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-English speaking",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any serious medical condition or disability that would interfere with the participant responding adequately to evaluation measures",
+      "label": "met",
+      "evidence": "quote: The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting... Her heart rate is 115/min and blood pressure 110/75 mmHg. The lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glucose level of 15."
+    },
+    {
+      "criterion": "Obvious cognitive impairment that interferes in participating in informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Incarceration at enrollment or during the study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with lab studies showing leukocytosis, high CRP, high amylase, and Glucose level of 15. Her abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00342706",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

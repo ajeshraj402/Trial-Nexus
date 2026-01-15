@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02458118",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with chronic pancreatitis (as defined by the Cambridge criteria)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergy to secretin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Claustraphobia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refusal to consent for the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MRI contraindications e.g. pacemaker, artificial heart valve",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous abdominal surgery except appendectomy or hernia repair",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of chronic abdominal pain from causes other than pancreatitis eg. inflammatory bowel or coeliac disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women (safety concerns from injection of secretin)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients younger than 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but no other exclusion criteria mentioned. She is an adult and has chronic pancreatitis.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT02458118",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

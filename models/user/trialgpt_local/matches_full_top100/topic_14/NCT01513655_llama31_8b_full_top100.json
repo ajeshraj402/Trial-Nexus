@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01513655",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient admitted with a NIV-requiring exacerbation of COPD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "COPD with a FEV1/FVC <0.7 after bronchodilatation.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2265 1 acute hypercapnic respiratory failure (AHRF *)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Optimal medical treatment of COPD, ie. inhaled steroids, long-acting \u03b22-agonist",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tiotropium, according to GOLD guidelines.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Address in Capital Region",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients are able to give verbal consent and sign a written consent form and understand Danish-",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severely depressed level of consciousness / confusion / non-cooperative.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Respiratory rate <12/min",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe hypoxia, such as requiring more than 15L O2/min.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Large amounts of sputum.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Vomiting and high risk for aspiration.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to accept NIV.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recent abdominal, facial or upper airway surgery.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Malignancy or life expectancy <6 months because of disease other than COPD",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of COPD, OSA and obesity hypoventilation syndrome. They have been admitted with a NIV-requiring exacerbation of COPD and have received optimal medical treatment. However, they do require high amounts of oxygen (5L) and have altered mental status.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01513655",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

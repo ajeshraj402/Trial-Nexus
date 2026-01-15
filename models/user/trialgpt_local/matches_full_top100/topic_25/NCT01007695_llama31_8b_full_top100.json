@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01007695",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Biopsy-proven invasive adenocarcinoma of the breast",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Females at least 18 years-old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not pregnant, as demonstrated by a negative serum or urine pregnancy test in women of child bearing potential",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing to have a biopsy at the start of study if adequate sample for gene array is not available",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG Performance status 0-2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to provide informed consent and have signed an approved consent form that conforms to federal and institutional guidelines",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for immediate chemotherapy as determined by the patients' physicians, e.g., present or imminent compromise of vital organs or unacceptable symptoms from the tumor.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known hypersensitivity to valproic acid or its components or peanut allergy",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of smoking and alcohol consumption, but no other significant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01007695",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02225834",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "stroke_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "symptom_time_onset",
+      "label": "not_met",
+      "evidence": "10-15 years ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inflammatory_disease",
+      "label": "met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "cancer",
+      "label": "met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "hematological_disease",
+      "label": "met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "severe_renal_failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_liver_failure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02225834",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

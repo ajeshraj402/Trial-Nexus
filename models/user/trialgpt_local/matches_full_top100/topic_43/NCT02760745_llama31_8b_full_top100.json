@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02760745",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "fever at least during the last day",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "shivering during current febrile illness",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "immune deficiency",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "antibiotics treatment up to 48 hours before the presentation",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has fever and shivering, but no indication of immune deficiency or recent antibiotics treatment.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02760745",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

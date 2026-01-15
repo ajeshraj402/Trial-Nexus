@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00412386",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Bicuspid Aortic Valve",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Aortic Root Dilatation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Congenital Heart Disease",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "MRI Eligibility Criteria Met",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Age 10-18 years",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under 10 years and over 19 years of age",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Systemic Hypertension for Age and Height",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, bicuspid aortic valve, and tobacco abuse. He presented with progressive shortness of breath and lower extremity edema due to severe aortic stenosis.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00412386",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

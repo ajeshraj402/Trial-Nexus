@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00557115",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of acute exacerbation of COPD",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "radiological and microbiological evidence of pneumonia with co-existing COPD",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant co-morbidity that could limit exercise training & testing",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "attendance at a pulmonary rehabilitation programme in the preceding year",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and recent XRT, which may limit exercise training & testing. Also, patient is experiencing worsening dysphagia for solids and poor oral intake.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00557115",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

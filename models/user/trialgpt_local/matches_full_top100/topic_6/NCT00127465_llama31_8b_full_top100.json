@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00127465",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "starting outpatient radiotherapy treatment",
+      "label": "met",
+      "evidence": "treated with Vanco for an extended course of 6 weeks given her recurrent C diff"
+    },
+    {
+      "criterion": "with breast, prostate, cervical or laryngeal cancer",
+      "label": "met",
+      "evidence": "Patient is a 55yo woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receiving palliative care",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe pain or symptoms causing distress",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00127465",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

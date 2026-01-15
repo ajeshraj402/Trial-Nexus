@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01257880",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-55 years",
+      "label": "met"
+    },
+    {
+      "criterion": "Ability to speak, read, and understand English",
+      "label": "met"
+    },
+    {
+      "criterion": "Documented diagnosis of migraine aura (MA) for a \u22652 year period preceding enrollment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Average of 4 to 14 migraine days per month for the 3-month period preceding enrollment",
+      "label": "met"
+    },
+    {
+      "criterion": "Migraine prevention regimen stable for at least 30 days prior to enrollment",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Postmenopausal female",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Documented right-to-left shunt (RLS) with 11 to 100 ET at rest or following calibrated or uncalibrated respiratory strain by TCD",
+      "label": "unknown"
+    }
+  ],
+  "notes": "62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT01257880",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

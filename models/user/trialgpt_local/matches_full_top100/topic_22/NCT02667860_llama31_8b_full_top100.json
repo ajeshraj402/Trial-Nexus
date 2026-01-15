@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02667860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "surgical procedure with curative purpose",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "American Society of Anaesthesiologists Physical Status (ASA) I, II and III",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman complaining of abdominal pain..."
+    },
+    {
+      "criterion": "elective surgery",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "denial of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "advanced neoplasia",
+      "label": "not_met",
+      "evidence": "Her lab work is remarkable for leukocytosis."
+    },
+    {
+      "criterion": "urgent surgery",
+      "label": "not_met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "ASA IV",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and leukocytosis, but no signs of advanced neoplasia or urgent need for surgery.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02667860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

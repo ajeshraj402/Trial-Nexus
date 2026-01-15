@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02714439",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "abnormal Pap test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive HPV test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of cervical dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "intact cervix",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "negative urine or serum pregnancy test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >= 21 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability to understand and provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "previous LEEP, cone and/or cryotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "confirmed diagnosis of high-grade cervical dysplasia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HRME imaging study performed for research purposes only",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willingness to sign a written Informed Consent Document (ICD)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 21 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hysterectomy with removal of the cervix",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known allergy to proflavine, acriflavine, or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or nursing",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability or unwillingness to provide informed consent",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16. She smokes 30 packs/year and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02714439",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

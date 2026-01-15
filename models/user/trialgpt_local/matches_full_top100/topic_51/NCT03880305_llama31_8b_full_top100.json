@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03880305",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neonates with suspected sepsis",
+      "label": "met",
+      "evidence": "temperature instability, hypotension, poor perfusion"
+    },
+    {
+      "criterion": "non-specific signs and symptoms or focal signs of infection",
+      "label": "met",
+      "evidence": "fever and chills, nausea and vomiting, dysuria, urgency and frequency, severe pain in the flank"
+    },
+    {
+      "criterion": "temperature instability",
+      "label": "met",
+      "evidence": "T = 39.7\u00baC"
+    },
+    {
+      "criterion": "hypotension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "poor perfusion with pallor and mottled skin",
+      "label": "met",
+      "evidence": "pallor and mottled skin"
+    },
+    {
+      "criterion": "tachycardia or bradycardia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "apnoea, respiratory distress, grunting, cyanosis, irritability, lethargy, seizures",
+      "label": "met",
+      "evidence": "respiratory distress"
+    },
+    {
+      "criterion": "feeding intolerance, abdominal distention, jaundice, petechiae, purpura, and bleeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "later complications of sepsis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obvious features of dehydration",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "major congenital malformations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "GIT functional or organic obstruction, hematological disorders, hypersplenism",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a pregnant woman with symptoms of fever and chills, nausea and vomiting, dysuria, urgency and frequency, and severe pain in the flank. The urine culture showed Gram-negative rod-shaped bacterial cells.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03880305",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

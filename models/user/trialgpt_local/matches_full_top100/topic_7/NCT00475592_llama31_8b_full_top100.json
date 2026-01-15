@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00475592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Advanced cirrhosis with portal hypertension based on imaging, clinical suspicion, or liver biopsy",
+      "label": "met",
+      "evidence": "imaging"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years old",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Able to give consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current implantable cardioverter-defibrillators or pacemaker in place",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suspected intestinal obstruction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Esophageal swallowing disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00475592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

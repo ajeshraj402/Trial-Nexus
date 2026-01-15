@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02266199",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Signing the consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with \u2265 18 years of age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lack of signature of the informed consent",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All physical and mental impairments which don\u00b4t allow the completion of the questionnaire or answering the interview",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Richter's transformation, which may be a contraindication for treatment. However, patient's performance status is excellent.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT02266199",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

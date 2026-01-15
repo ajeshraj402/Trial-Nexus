@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02773615",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u2265 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is stable and in adequate clinical condition to undergo CTA + CTP",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormalities, atrial fibrillation, renal insufficiency with glomerular filtration rate (GFR)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "< 60 ml/min or known contrast allergy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presents with chest pain in the ED, but no ECG-signs of acute ischemia and Hs Troponine T level/evolution indicative of ischemia.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02773615",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

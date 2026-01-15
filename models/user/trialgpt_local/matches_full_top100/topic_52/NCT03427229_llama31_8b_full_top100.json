@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03427229",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recurrent C. difficile infection",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "Possibility to undergo standard antimicrobial therapy for recurrent C. difficile infection",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Approval of informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Possibility to undergo protocol diagnostic and therapeutic procedures",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Stool negativity for parasites",
+      "label": "met",
+      "evidence": "Fecal occult blood Negative"
+    },
+    {
+      "criterion": "Stool negativity for Salmonella spp., Shigella spp., Yersinia enterocolitica, Campylobacter, Streptococcus agalactiae, Staphylococcus aureus, enteropathogenic Escherichia coli and other microorganisms except for C. difficile",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Blood negativity for: Hepatitis A virus-Immunoglobulin M, HBsAg, Anti-Hepatitis C Virus, Anti-Human Immunodeficiency Virus1-2, venereal disease reaction level (VDRL)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects <18 years old",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior colectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negativity of C. difficile toxin in stools",
+      "label": "not_met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "Mild clinical picture of C. difficile infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High risk of post-colonoscopy complications",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has recurrent C. difficile infection with severe clinical picture, and meets most inclusion criteria.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03427229",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

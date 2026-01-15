@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02944825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "indwelling ureteral stents",
+      "label": "met",
+      "evidence": "within the 2 weeks prior to the procedure visit for removal"
+    },
+    {
+      "criterion": "kidney stone treatment surgery",
+      "label": "met",
+      "evidence": "shockwave lithotripsy [SWL], ureteroscopy [URS], retrograde intrarenal surgery [RIRS], percutaneous nephrolithotomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "indwelling urethral catheter",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "indwelling suprapubic catheter",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "indwelling nephrostomy tube",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clean intermittent catheterization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. He has a severe bulbar urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02944825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

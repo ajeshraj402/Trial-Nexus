@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03585933",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed informed patient consent form",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe valvular disease other than AS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant coronary heart disease requiring revascularisation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of myocardial infarction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is eligible for valvular replacement. However, there is no mention of coronary heart disease or history of myocardial infarction.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03585933",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

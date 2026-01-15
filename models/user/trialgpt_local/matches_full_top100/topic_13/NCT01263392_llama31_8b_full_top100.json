@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01263392",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "received IC by a consistent person",
+      "label": "met"
+    },
+    {
+      "criterion": "healthy child with spina bifida who requires clean intermittent catheterization (CIC)",
+      "label": "met"
+    },
+    {
+      "criterion": "child either self-catheterizes or receives catheterization by a consistent person",
+      "label": "met"
+    },
+    {
+      "criterion": "child/parent/caregiver able to read and understand English in order to consent to participation in the study and to respond to verbal questions about the experience and satisfaction with the catheter",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prophylaxis; allergy to PVC product; diabetes mellitus; history of bladder pathology (i.e. tumours, calculus); surgical history of augmentation (cystoplasty, continent diversion)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a neurogenic bladder with an indwelling suprapubic catheter and a history of recurrent UTIs. They also have multiple comorbidities, including hypertension, BPH, and SLE. However, they do not have any contraindications to participating in the study.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01263392",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

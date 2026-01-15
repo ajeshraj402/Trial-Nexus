@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04141306",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Differentiated thyroid cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ablation therapy with post dose scintigraphy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least one radioiodine bone uptake without structural correlation on high-resolution imaging",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "A single radio iodine bone uptake with structural correlation on imaging",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of bone metastasis after a skeletal related event including spinal cord compression, pathological fracture, need for external beam radiation, surgery to bone, or development of hypercalcemia of malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Follow up less than 6 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Missing data in medical record",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is under treatment for 7 months. She has a history of C-section and smokes 10 cigarettes per day.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT04141306",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

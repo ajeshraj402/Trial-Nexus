@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT04201132",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male and non-pregnant female subjects whose age is \u2265 20 years and \u2264 80.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient is willing and capable of complying with all study protocol requirements, including the specified follow-up visits and can be contacted by telephone.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient or his/her authorized legal representative must sign a written informed consent form that has been approved by the local governing Institutional Review Board (IRB)/ Ethics Committee (EC) of the respective clinical site.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient is diagnosed with carotid artery stenosis treatable with carotid artery stenting and is considered a high operative risk for CEA.",
+      "label": "met"
+    },
+    {
+      "criterion": "Symptomatic carotid stenosis \u2265 50% as determined by angiography using NASCET methodology. Symptomatic is defined as ipsilateral transient monocular blindness: amaurosis fugax; ipsilateral carotid transient ischemic attack (TIA), with neurologic symptoms persisting less than 24 hours; or ipsilateral non-disabling stroke within 180 days of the procedure.",
+      "label": "met"
+    },
+    {
+      "criterion": "Asymptomatic carotid stenosis \u2265 80% as determined by angiography using NASCET methodology.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient has a modified Rankin Scale score of \u2264 2 at the time of informed consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient is willing and able to take dual antiplatelet therapy for a minimum of 30 days.",
+      "label": "met"
+    },
+    {
+      "criterion": "Target lesion located at the carotid bifurcation and/or proximal internal carotid artery (ICA).",
+      "label": "met"
+    },
+    {
+      "criterion": "Single de novo or restenotic (post carotid endarterectomy (CEA)) target lesion or severe tandem lesions that can be covered by a single Neuroguard stent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Target lesion length is \u2264 20 mm (for 30 mm stents) or is \u2264 30 mm (for 40 mm stents).",
+      "label": "met"
+    },
+    {
+      "criterion": "Index vessel diameter (segment covered by the mid-portion of the stent) between 4.0 mm and 6.0 mm at the site of the target lesion.",
+      "label": "met"
+    },
+    {
+      "criterion": "Distal vessel diameter at the site of filter deployment is between 4.0 mm to 7.0 mm.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy of less than one year, cancer with metastatic spread and/or undergoing active chemotherapy treatment, or currently requiring an organ transplantation.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "An evolving, acute, or recent disabling stroke in the last 30 days.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of paroxysmal atrial fibrillation that requires chronic anticoagulation",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has carotid artery stenosis and is considered a high operative risk for CEA. He is willing to take dual antiplatelet therapy and has a modified Rankin Scale score of \u2264 2.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04201132",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

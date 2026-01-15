@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT02417298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is 18 years old and older",
+      "label": "met"
+    },
+    {
+      "criterion": "Presenting with acute sickle cell crisis pain",
+      "label": "met"
+    },
+    {
+      "criterion": "Pain described as diffuse throughout the body or localized to joint/extremity/back",
+      "label": "met"
+    },
+    {
+      "criterion": "Describes pain to be greater than or equal to 2 on the NRS",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receiving IM therapy only",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Standard therapy plan is not morphine or dilaudid",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Previous enrollment in study",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and presents with severe bone pain. The patient's symptoms are consistent with acute sickle cell crisis pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02417298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02821377",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Refractory ascites defined according to the International Ascites Club criteria",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ascites",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "congestive heart failure (defined by clinical exam and echocardiogram)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute renal failure",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatocellular carcinoma based on the Barcelona Clinic liver Cancer (BCLC) criteria",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "complete portal vein thrombosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has refractory ascites, but no congestive heart failure or acute renal failure. However, hepatocellular carcinoma is a possible exclusion criterion.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02821377",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

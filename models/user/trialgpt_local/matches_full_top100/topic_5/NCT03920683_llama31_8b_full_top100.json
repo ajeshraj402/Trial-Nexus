@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03920683",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 ans",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetes mellitus (type 1 or 2)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients addressed to a one-day hospitalization to assess cardiovascular comorbidities",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Coronary artery calcium score available",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of coronary artery disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of Raynaud's syndrome",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but is referred for evaluation of PVD. Further review of symptoms and examination findings suggest that patient may be eligible.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03920683",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

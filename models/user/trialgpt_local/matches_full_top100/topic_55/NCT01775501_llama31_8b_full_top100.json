@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01775501",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed advanced HCC",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No cirrhosis or Child-Pugh A cirrhosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Measurable lesions",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "All acute toxic effects of any prior treatment have resolved to NCI-CTCAE v4.0 grade 1 or less",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to swallow and retain oral medication",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior systemic regimens for HCC",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CLIP score > 3",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG PS > 1",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinically apparent central nervous system metastases or carcinomatous meningitis",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which is a genetic disorder that can cause liver damage and other complications. The patient's history of tremors, jaundice, hepatosplenomegaly, and hypotonia suggest advanced liver disease.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01775501",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

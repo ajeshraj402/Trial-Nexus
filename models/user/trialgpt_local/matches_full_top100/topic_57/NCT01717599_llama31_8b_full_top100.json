@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01717599",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Consecutive patients were recruited for the study who presented to the Yonsei University Medical Center with variable symptom or cause for ERCP older than 20years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients were excluded from study participation if they had a contraindication for diclofenac, including patients with recently diagnosed peptic ulcer disease or active/recent gastrointestinal hemorrhage within 4 weeks.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Entry to the study was restricted to patients advised to have endoscopic retrograde cholangiography with or without pancreatography for extrahepatic cholestasis and/or impaired liver function tests.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The intramuscular route was selected on the basis of available small sized data suggesting that intramuscular NSAIDs are effective in preventing post-ERCP pancreatitis, perhaps owing to more rapid and complete bioavailability than with oral administration.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients were sedated with IV midazolam and IV continuous infusion of propofol under monitoring by anesthesiologist during whole time of procedure.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "they had a contraindication for diclofenac, including patients with recently diagnosed peptic ulcer disease or active/recent gastrointestinal hemorrhage within 4 weeks.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "renal failure (Cr > 1.4)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "those who had taken an NSAID during the preceding week (ASA 325 mg daily or less acceptable)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting. She drinks alcohol frequently and does not smoke.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01717599",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

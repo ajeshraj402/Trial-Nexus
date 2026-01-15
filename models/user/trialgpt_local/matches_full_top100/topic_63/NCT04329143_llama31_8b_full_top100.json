@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04329143",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "54-year-old"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "Previous cholecystectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Common bile duct stone",
+      "label": "met",
+      "evidence": "CBD stones"
+    },
+    {
+      "criterion": "Symptomatic or asymptomatic",
+      "label": "met",
+      "evidence": "symptomatic"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unfit for surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Refused surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "54-year-old obese woman with abdominal pain, nausea and vomiting. Ultrasound revealed several gallstones, biliary sludge and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04329143",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

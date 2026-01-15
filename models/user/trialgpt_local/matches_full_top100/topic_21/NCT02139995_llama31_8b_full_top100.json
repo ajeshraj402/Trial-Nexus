@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02139995",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Hemoglobin level",
+      "label": "met",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18 or more"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "not_met",
+      "evidence": "no history of allergies or using any medications"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "not_met",
+      "evidence": "cross-sectional imaging was negative for obstructive pancreatitis"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02139995",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

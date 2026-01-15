@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02556099",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "3-day-old"
+    },
+    {
+      "criterion": "Time-averaged maximum velocity (TAMV) TCD Velocity in the conditional (170 - 199 cm/sec) or abnormal (\u2265200 cm/sec) range by Transcranial Doppler ultrasonography examination within 6 months of enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Currently on commercial hydroxyurea for primary stroke prevention, or previously enrolled in SCATE, a previous stroke with abnormal or conditional TCD prior to stroke event.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Parent or guardian willing and able to provide informed consent and child gives assent",
+      "label": "met",
+      "evidence": "The family history is unremarkable. The baby is breastfed."
+    },
+    {
+      "criterion": "Ability to comply with study related treatments, evaluations, and follow-up visits",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to take or tolerate daily oral hydroxyurea",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergy to hydroxyurea therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known positive serology to HIV infection",
+      "label": "not_met",
+      "evidence": "Laboratory results are as follows: ... CRP: 3 mg/L"
+    },
+    {
+      "criterion": "Current lactation",
+      "label": "met",
+      "evidence": "The baby is breastfed."
+    },
+    {
+      "criterion": "Abnormal historical laboratory values (most recent pre-enrollment values unless previously enrolled in SCATE): Hemoglobin concentration < 6.0 gm/dL",
+      "label": "not_met",
+      "evidence": "Laboratory results are as follows: ... Hemoglobin concentration: not specified"
+    },
+    {
+      "criterion": "Use of therapeutic agents for sickle cell disease (e.g., hydroxyurea, arginine, decitabine, magnesium, chronic transfusions) within 3 months of enrollment unless they have an abnormal TCD velocity and receive commercial hydroxyurea for primary stroke prevention or were previously enrolled in the SCATE study or for secondary stroke prevention in a child with a previous stroke.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current participation in other therapeutic clinical trials, except SCATE",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She was born at 38w3d of gestation and has an uncomplicated pregnancy history.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02556099",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

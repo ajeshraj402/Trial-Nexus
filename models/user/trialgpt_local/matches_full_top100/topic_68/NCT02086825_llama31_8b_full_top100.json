@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02086825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "23-year-old man"
+    },
+    {
+      "criterion": "Cirrhosis of the liver",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "Grade 0 to 1 HE"
+    },
+    {
+      "criterion": "Acute renal failure",
+      "label": "met",
+      "evidence": "increase in baseline creatinine of 0.5mg/dL to a value of >2.0 mg/dL within 3 days"
+    },
+    {
+      "criterion": "Absence of improvement in renal function after adequate fluid resuscitation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of sensitivity/allergy to lactulose or rifaximin or rifampin",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT02086825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

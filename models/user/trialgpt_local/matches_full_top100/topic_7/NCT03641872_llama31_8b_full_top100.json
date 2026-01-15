@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03641872",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic liver failure-ACLF in Cirrhosis study in China, the Ch-CANONIC study (NCT02457637)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute-on chronic liver failure (ACLF) was first described by Japanese researchers in 1995.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatocellular carcinoma or other liver malignancies",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV Cirrhosis, grade II esophageal varices, and recent admission for UGIB. Patient also describes new imbalance leading to a fall during which he may have hit his head on.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03641872",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

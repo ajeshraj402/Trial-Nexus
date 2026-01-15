@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02666989",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Major Depressive Episode according to DSM-V",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mild to Moderate depression (8>HAM-D-17 <24)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receiving antidepressant medication with no change in medication in the last two weeks or not receiving antidepressants medication",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Psychotic depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Agitated depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bipolar depression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current suicidality or past suicide attempt",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Psychotic disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug and/or alcohol abuse",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man with mild Parkinson's disease, complaining of slowness of movement and tremors. He has no signs of dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02666989",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

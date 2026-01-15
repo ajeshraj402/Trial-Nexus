@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT02395107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asymptomatic severe aortic stenosis (Vmax > 3.5 m/sec and aortic valve area < 1 cm2)",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Moderate LV systolic dysfunction (LVEF < 50%)",
+      "label": "does_not_trigger",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Concomitant moderate-severe aortic valve regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant moderate-severe mitral valve regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's aortic insufficiency is described as '2+ aortic insufficiency', which may be considered severe, but the exact severity is unclear. Further clarification would be needed to determine eligibility.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02395107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

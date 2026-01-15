@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01697059",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Maximum 48-hour-history of abdominal pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diagnosis of acute appendicitis based on clinical, laboratory and/or radiologic criteria",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Duration of symptoms > 48 hours",
+      "label": "not_met",
+      "evidence": "The pain is four days old"
+    },
+    {
+      "criterion": "Presence of an appendiceal abscess on imaging",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinical or laboratory suspicion of advanced appendicitis, peritonitis or perforation",
+      "label": "not_met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "Significant comorbidities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability or unwillingness to complete a 1-week course of oral antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to penicillin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has been diagnosed with acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT01697059",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

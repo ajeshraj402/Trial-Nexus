@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03373006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male, 45 years of age or older.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of prostate adenocarcinoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical stage T1a, T1b, T1c, T2a, T2b orT2c.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gleason score of 7 (3+4 or 4+3).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA density less than 0.375.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "One, two, or three tumor suspicious regions identified on multiparametric MRI.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative radiographic indication of extra-capsular extent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky performance status of at least 70.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Estimated survival of 5 years or greater, as determined by treating physician.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Tolerance for anesthesia/sedation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to give informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of any condition (e.g., metal implant, shrapnel) not compatible with MRI.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe lower urinary tract symptoms as measured by an International Prostate Symptom Score (IPSS) of 20 or greater.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of other Primary non-skin malignancy within previous three years.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetes.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smoker.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and a large prostate. He has a PSA level of 3.5 ng/mL and a normal recent blood chemistry.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03373006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

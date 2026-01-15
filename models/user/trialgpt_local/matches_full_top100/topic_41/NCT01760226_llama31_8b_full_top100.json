@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01760226",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed, histologically confirmed, Group B or C diffuse large B-cell lymphoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primary mediastinal B-cell lymphoma",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous chemotherapy or radiation therapy in the previous 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior anthracyclines",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, but no mention of lymphoma or other exclusion criteria. Medications help with symptoms.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT01760226",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

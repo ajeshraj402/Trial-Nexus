@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03699098",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Non-thyroid head and neck cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with RT alone or in combination with surgery and/or chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid gland disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "abnormal thyroid hormone levels before radiotherapy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved after Levothyroxine treatment and thyroid profile is mostly within normal range.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03699098",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

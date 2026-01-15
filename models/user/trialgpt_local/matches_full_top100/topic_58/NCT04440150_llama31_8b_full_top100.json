@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04440150",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients diagnosed as acute appendicitis cases according to clinical (preoperative and peroperative) and preoperative laboratory findings and imaging modalities (ultrasound, computed tomography), and pathologic results",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who were operated by the same surgical team of the Kahramanmaras Sutcu Imam University Hospital.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients younger than 18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Negative appendectomies according to peroperative findings and pathologic findins",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients whose data were not available",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who were operated by the other surgical team of the Kahramanmaras Sutcu Imam University.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in right lower quadrant of abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils. CT scan showed acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04440150",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

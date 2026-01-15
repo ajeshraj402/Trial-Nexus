@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00001256",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis",
+      "label": "met",
+      "evidence": "Wegener's granulomatosis"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "Prior documentation of vasculitis",
+      "label": "met",
+      "evidence": "positive serum MPO-ANCA in medical record"
+    },
+    {
+      "criterion": "Glomerulonephritis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inflammatory sinusitis with histopathological evidence of granulomatous inflammation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pulmonary nodule or infiltrates in a patient in the absence of infection",
+      "label": "met",
+      "evidence": "bilateral multiple infiltrates in the upper lobes"
+    },
+    {
+      "criterion": "Evidence of active disease as defined by a Vasculitis Disease Activity Index of greater than or equal to 3",
+      "label": "met",
+      "evidence": "Birmingham Vasculitis Activity Score (BVAS) is above 4"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of infection by gram stain and/or culture specimens",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent (within four weeks) increase in GC or cytotoxic drug therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who are pregnant or nursing infants will not be eligible",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Processes that would predispose to enhanced risk of MTX toxicity: acute or chronic liver disease, alcohol abuse (greater than 14 oz of 100 proof liquor or equivalent per week), active peptic ulcer disease, and inability to comply with study guidelines",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serological evidence of infection with human immunodeficiency virus",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 57-year-old man with Wegener's granulomatosis, positive serum MPO-ANCA, and bilateral multiple infiltrates in the upper lobes. He has been treating with corticosteroid and cyclophosphamides for 4 months.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00001256",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

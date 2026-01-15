@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02118233",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic carotid stenosis",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "hemodynamically significant carotid artery stenosis",
+      "label": "met",
+      "evidence": "angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior large vessel infarct",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intracranial stenosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has carotid bruits and significant bilateral carotid stenosis. No prior large vessel infarct or intracranial stenosis reported.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02118233",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

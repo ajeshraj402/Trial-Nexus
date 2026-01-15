@@ -1,0 +1,90 @@
+{
+  "trial_id": "NCT00869050",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "metastatic neuroendocrine tumor",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "progressive metastatic disease",
+      "label": "met",
+      "evidence": "CT scan"
+    },
+    {
+      "criterion": "carcinoid tumors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pancreatic neuroendocrine tumors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pheochromocytomas",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "neuroendocrine tumors of unknown primary site",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "measurable disease",
+      "label": "met",
+      "evidence": "CT scan"
+    },
+    {
+      "criterion": "non pregnant females",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "men and women of childbearing potential",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior chemotherapy with capecitabine or temozolomide",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypersensitivity to capecitabine, 5-FU, temozolomide or DTIC",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serious medical or psychiatric illness preventing informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tumor spread to central brain and spinal cord",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV-positive patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior malignancies in the last 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, but does not meet inclusion criteria for metastatic neuroendocrine tumor. Patient is also on high-dose steroids and has hypertension.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00869050",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

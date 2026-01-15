@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02584985",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient eligible for surgery",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Affiliation to Social Security System",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Tumor stadified T4 with en-bloc resection",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Possible mechanical trans-sutural anastomosis",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Distant metastasis at diagnosis",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol or follow-up schedule",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT. They have worsening dysphagia for solids and poor oral intake, which may impact their ability to comply with the study protocol.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02584985",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

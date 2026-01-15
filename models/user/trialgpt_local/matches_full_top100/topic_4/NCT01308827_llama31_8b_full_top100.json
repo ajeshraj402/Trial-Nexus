@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01308827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pneumonia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "meningitis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dengue fever",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01308827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

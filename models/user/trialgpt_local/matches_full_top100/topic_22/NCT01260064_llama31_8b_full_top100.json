@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01260064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "preoperative diagnosis of acute appendicitis",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "candidate for laparoscopic appendectomy under general anesthesia",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not volunteered to join the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosed to have peroperative or histopathological pathology other than acute appendicitis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. She had poor appetite as well as malaise.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01260064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

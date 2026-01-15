@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01335763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or Female over 18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Type 2 diabetes for at least 6 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Taking 1 or more oral hypoglycemic agents",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient attending your community pharmacy where you decided that addition of insulin glargine may be of benefit to the patient",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Baseline HbA1c 7.5 - 11%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have used, or currently using, Insulin",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Works night shift",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal impairment(Serum Creatinine: females \u2265 124 mmol/l, males \u2265 133 mmol/l)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically unstable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwilling/unable to attend follow up visits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unlikely to adhere to study procedures (eg. due to cognitive limitations, severe psychiatric disorder or alcoholism)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 2 diabetes and is taking oral hypoglycemic agents. He does not have a history of ketoacidosis or renal impairment.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01335763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

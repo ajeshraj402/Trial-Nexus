@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01510847",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "T2DM with no change in type/dose of diabetic medication in the last 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Haemoglobin level between 13.5 - 18g/dl",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Haematocrit level between 40 - 54%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Albumin level between 3.5 - 5.0 g/dL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ALT level up to 36 U/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "AST level < 41 U/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ALP level < 130 U/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Creatinine (up to 60 years) level between 0.57 - 1.36 mg/dL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Satisfactory haematological or biochemical functions tests only",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written Informed Consent is obtained",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is willing to comply with study procedures and is able to return to the clinic for scheduled visits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HbA1C level > 9%",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is on insulin therapy",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of malignancy (except skin cancer) during last 5 years",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Sickle cell disease and history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01510847",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

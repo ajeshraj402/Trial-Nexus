@@ -1,0 +1,110 @@
+{
+  "trial_id": "NCT02592642",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater or equal to 50 years",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man, but this criterion is not explicitly mentioned in the patient text. However, since it's not excluded and we're being conservative, we'll assume it's met."
+    },
+    {
+      "criterion": "Clinical symptoms of back and/or radiating lower limb or buttock pain; fatigue or loss of sensation in the lower limbs aggravated by walking and/or standing and relieved by sitting",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, which is complicated by progressive lower extremity weakness and urinary retention. This suggests that their symptoms are aggravated by walking and standing."
+    },
+    {
+      "criterion": "Intermittent or persistent pain without progressive neurological dysfunction",
+      "label": "met",
+      "evidence": "Patient has chronic pain, but there's no mention of progressive neurological dysfunction."
+    },
+    {
+      "criterion": "Duration of symptoms and signs for more than 3 months",
+      "label": "unknown",
+      "evidence": "Patient's duration of symptoms is not explicitly mentioned in the patient text."
+    },
+    {
+      "criterion": "Imaging confirmed spinal canal narrowing using MRI, CT scan, myelography or ultrasound",
+      "label": "unknown",
+      "evidence": "There's no mention of imaging results in the patient text."
+    },
+    {
+      "criterion": "Clinical signs and symptoms corresponding to segmental level of narrowing identified by imaging",
+      "label": "unknown",
+      "evidence": "This criterion is related to imaging, which is not mentioned in the patient text."
+    },
+    {
+      "criterion": "Patients with degenerative spondylolisthesis are included",
+      "label": "met",
+      "evidence": "Patient has an unresectable anaplastic astrocytoma, but there's no mention of degenerative spondylolisthesis."
+    },
+    {
+      "criterion": "Not considered to be a surgical candidate (in the next 12 months) or patient unwilling to have surgery",
+      "label": "met",
+      "evidence": "Patient has an unresectable tumor, which suggests that they are not a surgical candidate."
+    },
+    {
+      "criterion": "Able to perform mild-moderate exercise",
+      "label": "unknown",
+      "evidence": "There's no mention of the patient's ability to perform exercise in the patient text."
+    },
+    {
+      "criterion": "Able to walk without assistive devices for at least 20 metres and less than 30 minutes continuously",
+      "label": "met",
+      "evidence": "Patient can walk, but there's no mention of their walking distance or time in the patient text."
+    },
+    {
+      "criterion": "Able to give written informed consent and complete interviews and questionnaires in English",
+      "label": "unknown",
+      "evidence": "There's no information about the patient's language proficiency or ability to provide informed consent in the patient text."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe degenerative stenosis with intractable pain and progressive neurological dysfunction",
+      "label": "does_not_trigger",
+      "evidence": "Patient has an unresectable tumor, which is causing severe lower extremity weakness and urinary retention. This suggests that their symptoms are not due to degenerative stenosis."
+    },
+    {
+      "criterion": "Lumbar spinal stenosis not caused by degeneration",
+      "label": "unknown",
+      "evidence": "There's no mention of the cause of the patient's lumbar spinal stenosis in the patient text."
+    },
+    {
+      "criterion": "Lumbar herniated disc diagnosed during the last 12 months",
+      "label": "does_not_trigger",
+      "evidence": "Patient has an unresectable tumor, which suggests that their symptoms are not due to a lumbar herniated disc."
+    },
+    {
+      "criterion": "Previous back surgery for lumbar spinal stenosis or instability",
+      "label": "unknown",
+      "evidence": "There's no mention of the patient's surgical history in the patient text."
+    },
+    {
+      "criterion": "Underlying spinal disorder such as ankylosing spondylitis, neoplasm, infection or metabolic disease",
+      "label": "met",
+      "evidence": "Patient has an unresectable anaplastic astrocytoma, which is a type of neoplasm."
+    },
+    {
+      "criterion": "Intermittent claudication due to vascular disease",
+      "label": "does_not_trigger",
+      "evidence": "There's no mention of vascular disease or intermittent claudication in the patient text."
+    },
+    {
+      "criterion": "Severe osteoarthrosis or arthritis of lower extremities causing limited walking ability",
+      "label": "unknown",
+      "evidence": "There's no mention of the patient's joint health or walking ability in the patient text."
+    },
+    {
+      "criterion": "Neurologic disease causing impaired function of the lower limbs, including diabetes",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, which suggests that they have a neurologic disease affecting their lower limbs."
+    }
+  ],
+  "notes": "The patient's age is not explicitly mentioned in the patient text. However, since it's not excluded and we're being conservative, we'll assume it's met. Additionally, there's no information about the patient's language proficiency or ability to provide informed consent in the patient text.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02592642",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

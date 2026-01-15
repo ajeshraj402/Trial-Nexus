@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT03207139",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age equals or more than 20 years old",
+      "label": "met"
+    },
+    {
+      "criterion": "Willing to sign the informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Pathology-proved intermediate to high risk group prostate cancer patients (PSA > 10 ng/mL, or Gleason score 7-10, or clinical stage >T2a) OR Prior radiotherapy or prostatectomy for prostate cancer with biochemical recurrence defined as: post prostatectomy: increase in PSA of > 0.2 ng/mL in two or more consecutive blood samples post radiotherapy: PSA levels of \u2265 2 ng/mL above the post-therapy nadir",
+      "label": "met"
+    },
+    {
+      "criterion": "Life expectancy more than 3 months",
+      "label": "met"
+    },
+    {
+      "criterion": "Time elapsed from the last PSA determination until PET was no more than 2 weeks in all patients.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to tolerate the PET/CT scan, such as those with claustrophobia, unable to lie still",
+      "label": "triggers"
+    },
+    {
+      "criterion": "With renal impairment (glomerular filtration rate lower than 30 ml/min/1.73 m2), and allergy to medium contrast",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of prostate cancer, but meets inclusion criteria for intermediate to high risk group patients.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT03207139",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

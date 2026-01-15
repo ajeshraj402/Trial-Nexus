@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02284334",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Weight > 15 kg",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Girls \u2265 11 years of age and/or who have achieved menarche must have a negative urine pregnancy test.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Genetic and/or biochemical diagnosis of mitochondrial disease.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eat meals by mouth during the day.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes requiring insulin.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receive daytime total parenteral nutrition (TPN) and/or continuous enteral feedings.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prescribed dietary contraindication to mixed meal tolerance testing, e.g., ketogenic diet.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any investigational drug use within 30 days prior to enrollment.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating females.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Persons unable to fast for at least 4 hours.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, but no history of allergies or using any medications. His family history is positive for type 2 diabetes.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02284334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

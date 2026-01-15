@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01025583",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children 3-36 months old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "seen in pediatrician offices",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presenting acute diarrhea",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "lasting less than 48 h",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "body weight/height ratio below the 5th percentile",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinical signs of severe dehydration",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical signs of a coexisting severe acute systemic illness (meningitis, sepsis, pneumonia)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. No mention of body weight/height ratio or clinical signs of severe dehydration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT01025583",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

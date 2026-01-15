@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04671511",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "breast_cancer_type",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "lymph_node_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "performance_status",
+      "label": "met",
+      "evidence": "ECOG Scale of Performance Status less than 2"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "understand, accept, and have signed the approved consent form"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_ipsilateral_axillary_surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "distant_metastases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_radiotherapy_to_axillary_nodes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neoadjuvant_therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypersensitivity_to_blue_dye",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04671511",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

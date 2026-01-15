@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03233243",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "older_than_40_years",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "high_cv_risk_euro_society_guidelines",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_cv_events",
+      "label": "triggers",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "known_hepatic_dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He also has a systolic murmur in the neck.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03233243",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

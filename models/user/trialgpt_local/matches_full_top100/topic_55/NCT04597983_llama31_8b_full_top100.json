@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04597983",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22-year-old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "19-25.5 kg\u00b7m-2"
+    },
+    {
+      "criterion": "cycling experience",
+      "label": "not_met",
+      "evidence": "no mention of cycling experience"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol drinker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "metabolic pathology",
+      "label": "not_met",
+      "evidence": "no mention of metabolic issues"
+    },
+    {
+      "criterion": "cardiorespiratory pathology",
+      "label": "not_met",
+      "evidence": "no mention of cardiorespiratory issues"
+    },
+    {
+      "criterion": "digestive pathology",
+      "label": "met",
+      "evidence": "jaundice, hepatosplenomegaly"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. Physical exam revealed jaundice and hepatosplenomegaly.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04597983",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

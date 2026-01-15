@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04509362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes >1 year prior to consent date",
+      "label": "met",
+      "evidence": "investigator's judgment"
+    },
+    {
+      "criterion": "HbA1c < 12.5%",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Age 7-17 years at the initiation of the system",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Multiple Daily Injections (Basal Bolus therapy) with Total daily insulin use of great than 8.0 units per day over a 1-week period",
+      "label": "met",
+      "evidence": "patient's regimen"
+    },
+    {
+      "criterion": "Will be able to download information into the Medtronic CareLink software",
+      "label": "met",
+      "evidence": "access to internet from home"
+    },
+    {
+      "criterion": "Clinically able to start the AHCL system",
+      "label": "met",
+      "evidence": "investigator's judgment"
+    },
+    {
+      "criterion": "History of 3 clinic visits in the last year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Type 1 diabetes confirmed with molecular analysis 7 years ago",
+      "label": "met",
+      "evidence": "molecular analysis"
+    },
+    {
+      "criterion": "Diagnosis of type 1 diabetes is based on the investigator's judgment; C peptide level and antibody determinations are not required",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 25 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Shortness of breath and fatigue during activities",
+      "label": "met",
+      "evidence": "patient's symptoms"
+    },
+    {
+      "criterion": "Diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "DKA in the 6 months prior to screening visit",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Untreated diabetes retinopathy, or other causes that ,in the investigator's opinion, precludes the individual from participating in the trial.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and is willing to download information into the Medtronic CareLink software. However, they are diagnosed with cardiomyopathy which may be a contraindication for participation.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04509362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

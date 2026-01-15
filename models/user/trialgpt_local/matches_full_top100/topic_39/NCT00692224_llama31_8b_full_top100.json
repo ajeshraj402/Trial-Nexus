@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00692224",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226535 weeks gestation",
+      "label": "met",
+      "evidence": "unremarkable"
+    },
+    {
+      "criterion": "total serum bilirubin \u2265 6 mg/dL at 24\u00b16 h of life",
+      "label": "met",
+      "evidence": "21.02 mg/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Rh incompatibility",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Those given exchange transfusion/ phototherapy within 24 h of age.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major gross congenital anomaly",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anticipated to require neonatal intensive care or required neonatal intensive care for more than 24 h.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Systemic sepsis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT00692224",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

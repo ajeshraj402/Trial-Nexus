@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT00498238",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Laboratory evidence of subclinical hypothyroidism",
+      "label": "met",
+      "evidence": "high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "Laboratory evidence of subclinical hypothyroidism",
+      "label": "met",
+      "evidence": "TSH: 2.35 mU/L, Free T4: 2.7 ng/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Myocardial infarction, cerebrovascular event or angiography with stent placement",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Serious infection in the month before recruitment",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and was treated with Levothyroxine, symptoms improved significantly.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00498238",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

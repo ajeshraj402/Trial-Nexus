@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01846806",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Ambulatory patients with HCV cirrhosis will be screened for participation in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to complete Number Connection Test",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active interferon therapy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of alcohol abuse within six months",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active gastrointestinal bleeding",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, but is on interferon therapy and has active GI bleeding.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT01846806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

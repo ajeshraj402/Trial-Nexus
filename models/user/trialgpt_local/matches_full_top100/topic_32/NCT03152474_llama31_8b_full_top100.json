@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03152474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe Sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Septic Shock",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "On glucocorticoids",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On Vitamin A",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On any active medical research study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Failed ACTH stimulation test (All serum cortisol concentrations < 20 mg/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03152474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

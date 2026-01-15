@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00319176",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulliparous or multiparous women with intrauterine pregnancies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "twice daily treatment doses of enoxaparin (1 mg/kg \u00b1 20% SC BID)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subjects who consent to the study",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women who are not pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women who are receiving enoxaparin at prophylactic doses (i.e., 30 mg twice daily or 40 mg daily)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT00319176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

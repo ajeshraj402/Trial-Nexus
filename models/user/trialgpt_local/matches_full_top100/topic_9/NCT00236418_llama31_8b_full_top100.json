@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00236418",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Body weight >25 kilograms (55 pounds)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of primary generalized epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "must have primary generalized tonic-clonic (PGTC) seizures treated with 1 or 2 antiepileptic drugs",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "must have three PGTC seizures during baseline period, with at least 1 during each 28-day period of baseline",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "females must not have had their first menstrual period or be postmenopausal, or are physically incapable of child bearing, or if of child bearing potential, sexually abstinent, or using adequate birth control measures, and have a negative pregnancy test before study entry",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not have epilepsy, such as those with a treatable cause of seizure (for example, active infection or cancer)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with progressive disorders (for example, active infection, cancer or metabolic disturbance)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients diagnosed with Lennox-Gastaut syndrome",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of seizures occurring in only cluster patterns (numerous seizures occurring over a short period of time [<30 minutes])",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "documented history (previous 3 months) of generalized tonic-clonic status epilepticus (status epilepticus is a prolonged seizure or seizures repeated frequently over 20 to 30 minutes so that recovery between episodes does not occur) while receiving appropriate antiepileptic medication",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of severe intellectual disability, CHF, and epilepsy. He has had seizures since age 13 and was recently tapered off Dilantin. His EEG reports are pending.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00236418",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

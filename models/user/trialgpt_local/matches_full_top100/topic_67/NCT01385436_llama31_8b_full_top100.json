@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01385436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "CIN2+cervical lesions"
+    },
+    {
+      "criterion": "location",
+      "label": "met",
+      "evidence": "all over Croatia"
+    },
+    {
+      "criterion": "referral",
+      "label": "met",
+      "evidence": "National Reference Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "54 years old"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT01385436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

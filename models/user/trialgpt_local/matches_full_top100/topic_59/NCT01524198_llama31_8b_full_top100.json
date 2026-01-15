@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01524198",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children 2-12 years of age with physician diagnosed asthma or a previous episode of",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SOB that responded well to \u03b22-agonists who present to the ER with moderate or severe",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children with mild asthma exacerbation.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Children with severe asthma exacerbation who are in critical condition or need immediate intervention.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT01524198",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

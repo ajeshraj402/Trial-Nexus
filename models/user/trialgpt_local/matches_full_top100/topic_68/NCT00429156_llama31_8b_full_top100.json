@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT00429156",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COPD patient with AHRF who survives after treatment with NIV and successfully weaned off for at least 48 hours.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients who have been intubated and mechanically ventilated can be included if they have also been treated with NIV in the same hospital admission",
+      "label": "met"
+    },
+    {
+      "criterion": "Significant obstructive sleep apnoea ruled out by overnight polysomnography done after successful weaning of NIV (Apnoea-hypopnoea index, AHI, < 10/hr)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients willing to give their written informed consent to participate in the study",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients understand that he/she would be randomised into receiving home NIV or sham ventilation",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients who are able to use the home pressure support ventilators after a period of acclimatisation and training before discharge from the hospital",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active smoker",
+      "label": "not_met"
+    },
+    {
+      "criterion": "An increase of \u2265 15% in FEV1 after inhaled salbutamol (200\u03bcg)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Obstructive sleep apnoea (OSA) with apnoea-hypopnoea index (AHI) of \u2265 10/hr",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has atypical hemolytic uremic syndrome and was treated with plasma exchange and corticosteroids. He has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT00429156",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

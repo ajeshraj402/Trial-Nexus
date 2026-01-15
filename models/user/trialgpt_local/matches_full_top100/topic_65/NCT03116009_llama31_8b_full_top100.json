@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03116009",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obese pregnant women with BMI > 30 kg/m2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "First prenatal visit or subsequent visit prior to 20 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Maternal age > 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness to participate in the study and give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pre-existing DM or pre-gestational diabetes mellitus,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gestational age more than 20 weeks at time of enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unknown or inability to determine gestational age even with last menstrual period",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous medical history of gestational diabetes mellitus.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis, but the study focuses on gestational diabetes. The patient's HbA1C is within normal limits.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03116009",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

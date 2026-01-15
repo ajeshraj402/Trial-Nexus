@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02873351",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of intermediate or advanced dry AMD",
+      "label": "met",
+      "evidence": "documented in medical record"
+    },
+    {
+      "criterion": "taking AREDS vitamin supplements",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous prescription for L-DOPA or dopamine agonist medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concurrent use of monoamine oxidase (MAO) inhibitors",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eye condition that can impair vision",
+      "label": "met",
+      "evidence": "documented in medical record"
+    },
+    {
+      "criterion": "neurologic conditions that can impair vision",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Parkinson's Disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dark adaptation rod intercept < 6.5 minutes",
+      "label": "met",
+      "evidence": "lab study results"
+    },
+    {
+      "criterion": "significant orthostatic hypotension",
+      "label": "not_met",
+      "evidence": "physical exam and lab study results"
+    },
+    {
+      "criterion": "significant ECG abnormalities",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a documented diagnosis of Wegener's granulomatosis, which is an exclusion criterion. However, the patient is also taking corticosteroid and cyclophosphamides, which may be relevant to the study.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT02873351",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

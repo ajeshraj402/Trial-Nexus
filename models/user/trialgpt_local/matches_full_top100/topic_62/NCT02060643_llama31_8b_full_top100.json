@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02060643",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46-year-old man"
+    },
+    {
+      "criterion": "histologically confirmed cancer or benign tumours of the head and neck area treated with hemi-neck radiotherapy to \u2265 50Gy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Received radiotherapy to the neck area more than 24 months previously",
+      "label": "met",
+      "evidence": "more than 24 months previously"
+    },
+    {
+      "criterion": "Intervening neck dissection allowed",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Be able to provide written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have active head and neck cancer",
+      "label": "not_met",
+      "evidence": "no use of lipid-lowering medications"
+    },
+    {
+      "criterion": "Patients with a prior history of carotid endarterectomy or carotid angioplasty and stenting",
+      "label": "triggers",
+      "evidence": "carotid endarterectomy or carotid angioplasty and stenting"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery, which may be a contraindication for this trial.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02060643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

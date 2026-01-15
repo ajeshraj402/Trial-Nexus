@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02340520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Established diagnosis of COPD with FEV1 <60% predicted",
+      "label": "met",
+      "evidence": "spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values"
+    },
+    {
+      "criterion": "FEV1/FVC <70% and <+15% FEV1 response to bronchodilator.",
+      "label": "met",
+      "evidence": "spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values"
+    },
+    {
+      "criterion": "Patients of both genders will be included.",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "IRB approved written informed consent will be obtained from each subject.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recent (<1 month) exacerbation of COPD,",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known hypersensitivity to beta agonists, theophylline, steroids, or roflumilast.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current or recent (<2 weeks) treatment with oral steroids, theophylline or other methylxanthines, or roflumlast.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis or history of asthma,",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "uncontrolled hypertension, or congestive heart failure.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of Cardiac arrhythmia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of seizures.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of Liver disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. He has a known case of COPD since 2 years ago and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02340520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

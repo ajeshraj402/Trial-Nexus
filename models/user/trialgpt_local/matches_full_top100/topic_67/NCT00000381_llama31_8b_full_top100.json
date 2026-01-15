@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00000381",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Generalized anxiety disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current major depression",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Panic disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Obsessive-compulsive disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current substance abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00000381",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

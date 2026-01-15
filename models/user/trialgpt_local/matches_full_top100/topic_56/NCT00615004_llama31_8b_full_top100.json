@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00615004",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first-line treatment",
+      "label": "met",
+      "evidence": "trans-sphenoidal surgery via microscopic and/or endoscopic approach"
+    },
+    {
+      "criterion": "disease control",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "available follow-up after 12 months of treatment",
+      "label": "met",
+      "evidence": "lab studies after primary resection surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "second surgery within 3 months from first surgery",
+      "label": "not_met",
+      "evidence": "no mention of second surgery"
+    },
+    {
+      "criterion": "combined dopamine-agonists and SSA because of a mixed GH/PRL-secreting tumor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "s.c. octreotide for longer than 15 days",
+      "label": "not_met",
+      "evidence": "no mention of s.c. octreotide"
+    },
+    {
+      "criterion": "second-line treatment before the completion of the 12 months or with a follow-up shorter than 6 months after surgery or pharmacotherapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41-year-old man with Acromegaly who underwent transsphenoidal surgery 4 months ago and is now on vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00615004",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

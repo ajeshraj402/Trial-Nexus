@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03279991",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "cardiovascular disease",
+      "label": "met",
+      "evidence": "healthy with no history of allergies or using any medications"
+    },
+    {
+      "criterion": "neurodegenerative disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cancer",
+      "label": "met",
+      "evidence": "no history of allergies or using any medications"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability to understand and to want",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "refusal to sign the informed consent",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03279991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

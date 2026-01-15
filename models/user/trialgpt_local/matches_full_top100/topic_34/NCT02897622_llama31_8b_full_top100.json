@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV",
+      "label": "met",
+      "evidence": "Diagnostic and statistical manual of mental disorders fourth edition Criteria based on diagnostic interview"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "met",
+      "evidence": "Patient's statement about past 3 weeks"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Patient's statement about not using any drugs and not smoking"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "Patient's statement about being menopausal and having no past medical history of psychologic problems"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "Patient's statement about not losing appetite for 3 weeks"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "47-year-old Asian woman with persistent feelings of sadness, loss of interest in activities, and weight loss. She has a history of digestive issues and her husband was recently diagnosed with colon cancer.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

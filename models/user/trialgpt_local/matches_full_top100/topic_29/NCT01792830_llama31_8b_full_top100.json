@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01792830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "surgical_condition",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diabetes_history",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal_function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic_failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyperglycemic_crisis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moribund_status",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mental_condition",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes, currently experiencing hyperglycemia and concern for diabetic ketoacidosis. He has been on insulin since diagnosis and has never been prescribed oral agents.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01792830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

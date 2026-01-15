@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03744325",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sensitization to egg white",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive double-blind, placebo-controlled food challenge to heated egg white",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor adherence",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Uncontrolled or severe asthma",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe systemic illness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active autoimmune disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active, malignant neoplasia",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and is on Levodopa and Trihexyphenidyl. He still experiences difficulty initiating movements, stiffness, and slowness.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03744325",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

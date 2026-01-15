@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02703311",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe (3+ to 4+) secondary Mitral Regurgitation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Symptomatic heart failure (NYHA Class III-IVa) despite guideline directed medical therapy including CRT if indicated",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The Local Site Heart Team concur that surgery will not be offered as a treatment option and that medical therapy is the intended therapy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transfemoral access and transseptal deployment of the Cardioband is determined to be feasible",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject is willing and able to provide informed consent and follow protocol",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "EF < 20%",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "LVEDD \u2265 70 mm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heavily calcified annulus or leaflets",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02703311",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

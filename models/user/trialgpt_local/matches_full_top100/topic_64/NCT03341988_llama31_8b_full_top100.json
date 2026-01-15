@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03341988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-60 years"
+    },
+    {
+      "criterion": "hcv_infection",
+      "label": "met",
+      "evidence": "chronic HCV infection with Plasma HCV RNA greater than 15,000 IU/mL"
+    },
+    {
+      "criterion": "treatment_naive",
+      "label": "met",
+      "evidence": "Treatment na\u00efve"
+    },
+    {
+      "criterion": "cirrhosis_compensated",
+      "label": "met",
+      "evidence": "compensated liver cirrhosis"
+    },
+    {
+      "criterion": "hcv_hbv_hiv_coinfection_absence",
+      "label": "met",
+      "evidence": "Absence of coinfection with HBV or HIV"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hcv_hbv_hiv_coinfection",
+      "label": "not_met",
+      "evidence": "The patient is a 55-year-old man diagnosed with HCV 2 years ago and the recent coinfection with HBV."
+    },
+    {
+      "criterion": "prior_antiviral_therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "haemoglobin_level_less_than_10mg_dl",
+      "label": "not_met",
+      "evidence": "His BP: 130/75, HR: 90/min and BMI: 27. His abdomen is soft with no ascites or tenderness."
+    },
+    {
+      "criterion": "liver_disease_decompensated",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03341988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

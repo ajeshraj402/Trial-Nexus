@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00382447",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with orders for routine 2.5 mg albuterol sulfate nebulizer therapy",
+      "label": "met",
+      "evidence": "The patient is a known case of COPD since 2 years ago."
+    },
+    {
+      "criterion": "ordered either Q4 or Q6 hours who consent to the study.",
+      "label": "met",
+      "evidence": "The patient smokes 20 cigarette per day. His past medical history is remarkable for BPH and he is using Flomax for that."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adults with nebulizer therapy ordered more frequently than Q4 hours.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant patients are excluded.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. He is acutely ill but oriented and conscious.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT00382447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

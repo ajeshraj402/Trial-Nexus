@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02575040",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inflammatory bowel disease diagnosed at least 6 months ago",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Failure of either one immunomodulator of at least 3 months duration, or TNF inhibitor",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "full induction treatment, or corticosteroids, or intolerance to either of these drugs.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently active disease, partial Mayo score \u22654 for ulcerative colitis, or CDAI \u2265200",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "negative HIV , Human T-cell leukemia virus I/II, negative stool culture, Negative C diff toxin, negative Cytomegalovirus",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No informed consent",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non active inflammatory bowel disease.",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active infection in either the donor or the recipient,",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Response to biological agents",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She has active infection and no informed consent.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02575040",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

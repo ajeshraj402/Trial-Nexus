@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03656172",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Metastatic solid tumor or not",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anemia by functional martial deficiency (as defined in the NCCN2016 recommendations): o Hb < 11 g/DL, TSAT < 20% and ferritinlike between 30 and 800 ng/ml",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Initial assessment of anemia carried out at the laboratory of Biopathology of the ICO",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with malignant hemopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with chronic renal failure with an estimation of renal filtration rate according to the formula CKD-EPI < 60 ml/min/1.73 m\u00b2.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with vitamin B12 deficiency, folate deficiency, hemolysis and/or hemoglobinopathy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with active infection.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with bone marrow tumor. Confirmation by a osteo-medullary biopsy (BOM) or a myelogram is not necessary to exclude the patient.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but there is no indication of malignant hemopathy, chronic renal failure, vitamin B12 deficiency, folate deficiency, hemolysis, or hemoglobinopathy. He does not have an active infection and his bone marrow tumor status is unknown.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03656172",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

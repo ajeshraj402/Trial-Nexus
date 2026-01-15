@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04303026",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "Continuous worsening of hip pain with an onset of minimum 3 months",
+      "label": "met",
+      "evidence": "worsening"
+    },
+    {
+      "criterion": "Hip Pain intensity >40mm on a visual analogue scale (VAS) ranging from 0 (no pain) to 100mm (maximal pain) during weight bearing for the last 7 days",
+      "label": "met",
+      "evidence": "hip pain intensity >40mm"
+    },
+    {
+      "criterion": "HHS < 65 (Harris Hip Score)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hip OA fulfilling the ACR (American College of Rheumatology) criteria [33]",
+      "label": "met",
+      "evidence": "Paget's Disease of Bone"
+    },
+    {
+      "criterion": "Will and able to consent and comply with the study protocol",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "eGFR (estimated glomerular filtration rate) < 35 ml/min or hypocalcemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Exposure to any treatment affecting bone other than Ca+D ( bisphosphonates, Denosumab teriparatide or continuous treatment of prednisolone)",
+      "label": "not_met",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    },
+    {
+      "criterion": "Diseases affecting bone and joints (i.e inflammatory joint diseases, osteonecrosis with segmental collapse and deformation, primary bone cancer or known skeletal metastases)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe vitamin D deficiency (S-25(OH)D < 25 nmol/l) has to be supplemented with Ca+D before zoledronic acid infusion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ipsilateral knee prosthesis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contralateral hip prosthesis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women of child bearing potential (WOCBP). Female participants must be in a postmenopausal state or permanent sterile.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypersensitivity or previous allergic reaction to ZA or other bisphosphonates",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and will be started on Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04303026",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

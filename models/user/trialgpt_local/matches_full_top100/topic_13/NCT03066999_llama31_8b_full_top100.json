@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03066999",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 yo"
+    },
+    {
+      "criterion": "difficult urinary catheterization indication",
+      "label": "met",
+      "evidence": "s/p CVA, neurogenic bladder with indwelling suprapubic catheter"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "62 yo"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. Urologist not concerned with leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03066999",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

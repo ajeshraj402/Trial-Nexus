@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03314259",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male patients aged 41 to 80 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Going for elective inguinal hernia repair (laparoscopic or open) under general anesthesia",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to tamsulosin : known allergy, known orthostatic hypotension",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant cardiac co-morbidities (New York Heart Association functional classification >2) or heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a severe bulbar urethral stricture and will require surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03314259",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

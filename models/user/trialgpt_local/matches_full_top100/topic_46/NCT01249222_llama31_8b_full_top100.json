@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01249222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "At least 3 of SIRS criteria",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "36> Tem> 38 \u25e6c",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "HR>90 bpm (without medication)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "WBC<4000 or >12000 or > 10% immature neutrophil",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pass more than 24 hours from diagnosis of sepsis.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "High likelihood of mortality (renal failure, hepatic encephalopathy, \u2026.) or imminent death(APACHE II score >25)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01249222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

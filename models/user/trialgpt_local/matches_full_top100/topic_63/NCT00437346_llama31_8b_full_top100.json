@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00437346",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "54 years"
+    },
+    {
+      "criterion": "Rome II criteria fulfilled",
+      "label": "met",
+      "evidence": "epigastric pain radiates to the right upper quadrant, getting worse after eating fatty food"
+    },
+    {
+      "criterion": "Helicobacter test negative (urease-test)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes",
+      "label": "not_met",
+      "evidence": "no mention of diabetes"
+    },
+    {
+      "criterion": "Prior gastrointestinal surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment with proton pump inhibitors / H2 blockers the last 30 days",
+      "label": "not_met",
+      "evidence": "no mention of recent PPI/H2 blocker use"
+    },
+    {
+      "criterion": "Pregnancy / lactation",
+      "label": "not_met",
+      "evidence": "menopausal"
+    },
+    {
+      "criterion": "Current use of NSAIDs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious psychiatric illness",
+      "label": "not_met",
+      "evidence": "no mention of serious psychiatric illness"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and 2 NVDs, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT00437346",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

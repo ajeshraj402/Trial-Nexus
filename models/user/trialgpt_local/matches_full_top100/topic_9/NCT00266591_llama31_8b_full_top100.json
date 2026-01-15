@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00266591",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Body weight >90 pounds",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "documented history of frequent partial onset seizures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "at least four partial onset seizures per month while taking a constant antiepileptic drug dosage during the screening period",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "a recent history of maintenance on 1 or 2 standard antiepileptic drugs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "females must be postmenopausal for at least 1 year, or if of childbearing age, be sexually abstinent, surgically sterile, or using adequate birth control measures, and have a negative pregnancy test before study entry.",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not have epilepsy, such as patients with treatable causes of seizure (for example, cancer or active infection)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have a documented history (previous 3 months) of generalized status epilepticus while receiving anticonvulsant medication (status epilepticus is a prolonged seizure or seizures repeated frequently over 20 to 30 minutes so that recovery between episodes does not occur)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have seizures occurring in only clustered patterns (numerous seizures over a short period of time)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a significant history (within 2 years) of medical disease (heart, kidney, hormone, gynecologic, muscle, bone, gastrointestinal, metabolic, liver diseases or cancer with a metastatic potential)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of alcohol or drug abuse history within the past 1 year.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe intellectual disability, CHF, and epilepsy. He has a history of seizures since age 13 and was recently tapered off Dilantin. His EEG reports are pending.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00266591",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

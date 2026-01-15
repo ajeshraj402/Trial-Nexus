@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00714064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton uncomplicated pregnancy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "reside in Darwin, the Tiwi Islands, or other remote community where consent has been obtained",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intends to deliver child at the Royal Darwin Hospital or other designated hospital where consent has been obtained",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "has given informed consent to participate",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "had 23vPPV within the previous three years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "had a previous dose of dTpa",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, diagnosed via laparoscopy. No developmental delay or complications mentioned.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT00714064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

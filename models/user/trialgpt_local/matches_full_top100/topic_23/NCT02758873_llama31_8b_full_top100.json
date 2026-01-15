@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02758873",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Physician-diagnosed asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Taking inhaled corticosteroids (ICS) with/without second line controller",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating females",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participating in another clinical trial (other than observational trials and registries)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with asthma, using ICS and LABA/LTRA. Symptoms worsen at work.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02758873",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

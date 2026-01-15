@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04424940",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptoms_of_COVID_19",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "fever_or_headaches_medicines",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "thermometer_availability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "warm_forehead_symptoms",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "trouble_breathing_shortness_of_breath",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "chest_pain",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cough",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sore_throat",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "runny_nose",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "loss_of_smell",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diarrhea",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "headache",
+      "label": "met",
+      "evidence": "yes"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "COVID_19_suspected_clinically",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "children",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "refuse_to_participate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has hypertension and proteinuria, but her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT04424940",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

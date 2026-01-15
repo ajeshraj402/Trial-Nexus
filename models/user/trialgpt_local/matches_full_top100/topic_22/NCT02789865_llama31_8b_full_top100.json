@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02789865",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Alvarado scores \u22657",
+      "label": "met",
+      "evidence": "with or without US/CT"
+    },
+    {
+      "criterion": "acute appendicitis",
+      "label": "met",
+      "evidence": "diagnosed of uncomplicated"
+    },
+    {
+      "criterion": "US/CT suggested acute appendicitis",
+      "label": "met",
+      "evidence": "uncomplicated"
+    },
+    {
+      "criterion": "could not exclude acute appendicitis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated appendicitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "periappendiceal abscess",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications for colonoscopy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to cooperate or provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation, abscess or gangrene.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02789865",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

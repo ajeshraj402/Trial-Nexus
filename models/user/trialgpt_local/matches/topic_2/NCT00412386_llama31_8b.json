@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT00412386",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with Bicuspid Aortic Valve",
+      "label": "met",
+      "evidence": "bicuspid aortic valve, and underlying bicuspid aortic valve"
+    },
+    {
+      "criterion": "meet eligibility criteria for MRI",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under 10 years and over 19 years of age",
+      "label": "does_not_trigger",
+      "evidence": "48 M, which is between 10-19 years old"
+    },
+    {
+      "criterion": "systemic hypertension for age and height",
+      "label": "met",
+      "evidence": "h/o HTN hyperlipidemia"
+    }
+  ],
+  "notes": "Age eligibility unclear; patient has systemic hypertension, but it's not clear if it's for their age and height.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00412386",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

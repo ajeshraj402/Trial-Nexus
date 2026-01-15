@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT02625272",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed right colon cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical stage: I, II, III",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No preoperative chemoradiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No past surgical history",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No serious preoperative complication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS): 0-1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age: 18-80",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Histologically confirmed left colon cancer",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical stage: IV",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative chemoradiotherapy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Past surgical history",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Malignant neoplasm of other sites (including transverse, descending, sigmoid colon cancer, and rectal cancer)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metastatic cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Multiple cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serious complications (including bowel perforation, bowel obstruction, gastrointestinal hemorrhage)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant and lactating women",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Psychological disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Steroid administration",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cardiac infarction within six months",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT02625272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

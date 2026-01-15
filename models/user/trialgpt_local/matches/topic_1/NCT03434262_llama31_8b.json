@@ -1,0 +1,120 @@
+{
+  "trial_id": "NCT03434262",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Participants with recurrent, progressive, or refractory brain tumors.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "Age \u2265 1 year and < 25 years at the time of screening.",
+      "label": "not_met",
+      "evidence": "Patient is a 45-year-old man, so does not meet this criterion."
+    },
+    {
+      "criterion": "Participants must have received their last dose of anticancer therapy (including experimental) at least 4 weeks prior to study enrollment.",
+      "label": "met",
+      "evidence": "Patient has completed radiation and temozolomide treatment, so meets this criterion."
+    },
+    {
+      "criterion": "Participants must have had their last fraction of radiation at least 4 weeks prior to study enrollment.",
+      "label": "met",
+      "evidence": "Patient has completed radiation treatment, so meets this criterion."
+    },
+    {
+      "criterion": "Participants who are receiving corticosteroids must be on a stable or decreasing dose for at least 1 week prior to study enrollment with no plans for escalation.",
+      "label": "unknown",
+      "evidence": "Patient is receiving high-dose steroids, but it's unclear if the dose has been stable or decreasing."
+    },
+    {
+      "criterion": "Participants must have a Lansky (\u2264 16 years) or Karnofsky (> 16 years) score of at least 50 and, in the opinion of the investigator, a minimum life expectancy of at least 6 weeks at the time of study enrollment.",
+      "label": "unknown",
+      "evidence": "Patient's Karnofsky score is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participant must have adequate bone marrow and organ function defined as: ANC \u2265 1000/mm^3 without growth factor support within 7 days of the test.",
+      "label": "unknown",
+      "evidence": "Patient's ANC is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participants with recurrent, progressive, or refractory Non-WNT Non-SHH (NWNS) Medulloblastoma or Ependymoma as confirmed through central pathology review.",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma, not NWNS Medulloblastoma or Ependymoma."
+    },
+    {
+      "criterion": "Participants must be able to swallow medication. It is acceptable to administer medication via a g-tube if participant has a g-tube.",
+      "label": "met",
+      "evidence": "Patient can swallow medication, so meets this criterion."
+    },
+    {
+      "criterion": "Participant must have adequate bone marrow and organ function defined as: Platelet count \u2265 50,000/mm^3 without support of a platelet transfusion within 7 days of the test.",
+      "label": "unknown",
+      "evidence": "Patient's platelet count is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participants with recurrent, progressive, or refractory brain tumors.",
+      "label": "met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "Participants must have received their last dose of anticancer therapy (including experimental) at least 4 weeks prior to study enrollment.",
+      "label": "met",
+      "evidence": "Patient has completed radiation and temozolomide treatment, so meets this criterion."
+    },
+    {
+      "criterion": "Participants must have had their last fraction of radiation at least 4 weeks prior to study enrollment.",
+      "label": "met",
+      "evidence": "Patient has completed radiation treatment, so meets this criterion."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Participants with a diagnosis of recurrent, progressive, or refractory low grade glioma (LGG).",
+      "label": "does_not_trigger",
+      "evidence": "Patient has anaplastic astrocytoma, not LGG."
+    },
+    {
+      "criterion": "Previous exposure to a CDK4/6 inhibitor (palbociclib, abemaciclib, or ribociclib).",
+      "label": "unknown",
+      "evidence": "Patient's treatment history is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participants with a history of clinically significant, uncontrolled heart disease and/or repolarization abnormalities.",
+      "label": "unknown",
+      "evidence": "Patient's medical history is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participants with any history of QTc prolongation (i.e. QTc interval of > 450 msec).",
+      "label": "unknown",
+      "evidence": "Patient's ECG results are not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Participants who meet the requirements of the screening phase will then be evaluated for Participants receiving any other investigational agents.",
+      "label": "does_not_trigger",
+      "evidence": "Patient is not receiving any other investigational agents."
+    },
+    {
+      "criterion": "Participants with other clinically significant medical disorders (serious infections or significant cardiac, pulmonary, hepatic, psychiatric, GI disease, or other organ dysfunction) that in the investigator's judgment could compromise their ability to tolerate or absorb protocol therapy or would interfere with the study procedures or results.",
+      "label": "unknown",
+      "evidence": "Patient's medical history is not mentioned, so this criterion cannot be assessed."
+    },
+    {
+      "criterion": "Female participants who are breastfeeding a child.",
+      "label": "does_not_trigger",
+      "evidence": "Patient is a male, so does not meet this criterion."
+    },
+    {
+      "criterion": "Participants with QTc interval of > 450 msec on screening ECG.",
+      "label": "unknown",
+      "evidence": "Patient's ECG results are not mentioned, so this criterion cannot be assessed."
+    }
+  ],
+  "notes": "Key unknowns include the patient's Karnofsky score, ANC, platelet count, and ECG results. Additionally, it is unclear if the patient has received any other investigational agents or has a history of clinically significant medical disorders.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03434262",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

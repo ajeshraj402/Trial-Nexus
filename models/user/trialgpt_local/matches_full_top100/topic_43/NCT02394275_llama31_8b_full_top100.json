@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02394275",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 years old"
+    },
+    {
+      "criterion": "Informed Consent",
+      "label": "met",
+      "evidence": "patient is able to provide informed consent"
+    },
+    {
+      "criterion": "CDI Diagnosis",
+      "label": "met",
+      "evidence": "stool samples positive for Clostridium difficile toxin"
+    },
+    {
+      "criterion": "Multiple CDI Episodes",
+      "label": "met",
+      "evidence": "\u2265 2 episodes of CDI within 6 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Investigational Product",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neutropenia",
+      "label": "not_met",
+      "evidence": "no mention of neutrophil count"
+    },
+    {
+      "criterion": "Toxic Megacolon or Perforation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastroenteritis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Colostomy or Ileostomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "FMT or Enema Tolerance",
+      "label": "met",
+      "evidence": "no mention of intolerance"
+    },
+    {
+      "criterion": "Systemic Antibiotic Therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Saccharomyces boulardii or Probiotics",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is febrile, but these symptoms are not consistent with CDI. The patient's stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02394275",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

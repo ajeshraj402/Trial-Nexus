@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04330508",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18-65 years and chronic HCV infection.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Group A: Patients with hepatitis C (Non-cirrhotic) [n= 150]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Group B: Patients with hepatitis C related compensated-cirrhosis [n= 150]",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current overt hepatic encephalopathy or during the last 1 month",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "TIPS (transjugular intra- hepatic porto-systemic shunt)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04330508",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

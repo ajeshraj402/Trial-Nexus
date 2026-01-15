@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02691910",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "oral medication",
+      "label": "met",
+      "evidence": "Patient was treated with Vanco for an extended course of 6 weeks."
+    },
+    {
+      "criterion": "axillary temperature \u226537.5\u00baC (or history of fever in the last 48 hours)",
+      "label": "not_met",
+      "evidence": "Pt was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**] with leukocytosis but no fever."
+    },
+    {
+      "criterion": "Age > 5 years",
+      "label": "met",
+      "evidence": "Patient is a 55yo woman"
+    },
+    {
+      "criterion": "Ability to swallow oral medication",
+      "label": "met",
+      "evidence": "Patient was treated with Vanco for an extended course of 6 weeks."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malnutrition (weight-for-age \u2264 3 standard deviations below the mean)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-infection with any other Plasmodium species",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02691910",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

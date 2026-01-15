@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04851639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "born male",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, but does not have advanced or metastatic prostate cancer.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04851639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

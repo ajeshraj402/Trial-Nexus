@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03980132",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age_over_18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "capacity_to_understand_study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gd_diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "euthyroid_at_randomization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "proposed_for_total_thyroidectomy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior_cervicotomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "associated_hyperparathyroidism",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "associated_thyroid_cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "iodine_allergy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone XRT, which may interfere with study requirements.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03980132",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

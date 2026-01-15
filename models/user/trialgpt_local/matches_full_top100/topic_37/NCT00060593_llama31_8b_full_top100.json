@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00060593",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "20 year old"
+    },
+    {
+      "criterion": "health_status",
+      "label": "met",
+      "evidence": "good health"
+    },
+    {
+      "criterion": "self_care_ability",
+      "label": "met",
+      "evidence": "no difficulties or need for help in performing self-care or instrumental activities of daily living"
+    },
+    {
+      "criterion": "walking_ability",
+      "label": "met",
+      "evidence": "able to walk for at least 400 meters"
+    },
+    {
+      "criterion": "clinical_record_number",
+      "label": "met",
+      "evidence": "valid Clinical Center Medical Record Number"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cognitive_impairment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiovascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurological_diseases",
+      "label": "met",
+      "evidence": "diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed"
+    },
+    {
+      "criterion": "musculo_skeletal_disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pacemakers_brain_stimulators",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of RRMS and underwent brain MRI which revealed plaques in the brainstem and left cerebral hemisphere. She is currently under treatment for RRMS.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00060593",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

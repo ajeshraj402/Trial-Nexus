@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00048490",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "History of localization-related epilepsy for two or more years",
+      "label": "met",
+      "evidence": "Epilepsy as above, CHF, depression"
+    },
+    {
+      "criterion": "Patients are on a stable anti-convulsant regimen defined as unchanged medicines and dose modifications lower than 20% in the last month.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Seizures are not completely responsive to medical treatment (1 or more seizures per week for at least 6 months) and patients have continued seizures despite best medical treatment in the past.",
+      "label": "met",
+      "evidence": "The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode."
+    },
+    {
+      "criterion": "The patients have a localized neocortical seizure focus, based on EEG and neuroimaging findings.",
+      "label": "met",
+      "evidence": "Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe coronary disease",
+      "label": "not_met",
+      "evidence": "CHF"
+    },
+    {
+      "criterion": "Increased intracranial pressure as expressed by the presence of papilledema",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cardiac pacemakers",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Take neuroleptic or antidepressant medications",
+      "label": "not_met",
+      "evidence": "Past Medical History: Depression"
+    },
+    {
+      "criterion": "Progressive neurologic disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He presented with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00048490",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

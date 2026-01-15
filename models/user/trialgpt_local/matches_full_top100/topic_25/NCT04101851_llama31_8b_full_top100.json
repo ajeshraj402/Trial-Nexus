@@ -1,0 +1,88 @@
+{
+  "trial_id": "NCT04101851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent prior to breast-conserving surgery, including expected cooperation of the patients for follow-up, must be obtained and documented according to the European regulatory requirements.",
+      "label": "met"
+    },
+    {
+      "criterion": "Histologically confirmed unilateral primary invasive carcinoma of the breast (core biopsy). Multifocal or multicentric tumors are allowed if breast-conserving surgery is planned.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age at diagnosis at least 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "imaging techniques with estimated tumor stage between cT1c-T3 prior to NAST",
+      "label": "unknown"
+    },
+    {
+      "criterion": "triple-negative or HER2-positive invasive breast cancer",
+      "label": "met"
+    },
+    {
+      "criterion": "clinically and sonographically tumor-free axilla prior to core biopsy (cN0/iN0)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "in cases with cN0 and iN+, a negative core biopsy or fine needle aspiration (FNA)",
+      "label": "met"
+    },
+    {
+      "criterion": "biopsy of the sonographically suspected lymph node is required",
+      "label": "unknown"
+    },
+    {
+      "criterion": "no evidence for distant metastasis (M0)",
+      "label": "met"
+    },
+    {
+      "criterion": "standard NAST with radiologic complete response (rCR)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "planned breast-conserving surgery with postoperative external whole-breast irradiation (conventional fractionation or hypofractionation)",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of malignancy within last 5 years, except curatively treated basalioma of the skin and carcinoma in situ of the cervix",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Time since last cycle of NAST >3 months (optimal <1 month)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "histologically non-invasive breast carcinoma",
+      "label": "triggers"
+    },
+    {
+      "criterion": "ER-positive/HER2-negative disease (triple-positive tumors are allowed)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "cT4 or iT4 tumors",
+      "label": "triggers"
+    },
+    {
+      "criterion": "pregnant or lactating patients",
+      "label": "triggers"
+    },
+    {
+      "criterion": "no radiologic complete response at the end of NAST",
+      "label": "triggers"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with a history of smoking and alcohol consumption. She has a HER2-positive invasive breast cancer and is in a relation with one partner.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04101851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

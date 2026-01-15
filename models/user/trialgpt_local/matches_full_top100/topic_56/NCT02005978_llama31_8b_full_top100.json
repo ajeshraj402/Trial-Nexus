@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02005978",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of acromegaly, and treated at the department of Endocrinology, Copenhagen University Hospital, Rigshospitalet, Denmark (tertiary referral hospital)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes mellitus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Treatment with medications potentially influencing glucose metabolism, including thiazides and steroids (replacement therapy with hydrocortisone not included but matched for)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic or earlier events of acute pancreatitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inflammatory bowel disease (Mb. Crohn/ulcerous colitis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bowel resection or larger gastrointestinal surgical interventions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Blood percent < 6.5 mmol/L",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "41-year-old man with known Acromegaly, underwent transsphenoidal surgery 4 months ago, lab studies show IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT02005978",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

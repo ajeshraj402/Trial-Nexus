@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03513679",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age 30 years and older",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Diagnosis of CSM with correlative imaging studies (MRI or CT-myelogram)",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    },
+    {
+      "criterion": "Able to ambulate without assistance and stand without assistance with participant eyes open for a minimum of 10 seconds",
+      "label": "not_met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, which suggests difficulty walking."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lumbar/thoracic surgery or lower extremity surgery",
+      "label": "triggers",
+      "evidence": "Patient had unresectable anaplastic astrocytoma s/p radiation, which suggests previous spinal cord treatment."
+    },
+    {
+      "criterion": "BMI greater than 35",
+      "label": "unknown",
+      "evidence": "None mentioned in patient text"
+    }
+  ],
+  "notes": "Patient's severe lower extremity weakness and urinary retention may impact ambulation, but no clear indication of previous lumbar/thoracic surgery or BMI > 35.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03513679",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

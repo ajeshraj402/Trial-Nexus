@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03498794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult Patients with infected hydronephrosis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Infected hydronephrosis due to ureteric stone or ureteric stricture.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uremic and non uremic patients.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a contraindication to either form of drainage (uncorrected coagulopathy,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "urethral stricture disease, bladder outlet obstruction, pregnancy, ureteral stone greater than 15 mm., or Steinstrasse).",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass with fevers/rigors and bandemia. CT abdomen showed a large heterogeneous left upper abdominal mass consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03498794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

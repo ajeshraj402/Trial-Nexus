@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02629133",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37-year-old woman"
+    },
+    {
+      "criterion": "residence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "substance_use",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "ipv",
+      "label": "met",
+      "evidence": "IPV within the last 3 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "informed_consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language_understanding",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and smokes heavily, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02629133",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01758640",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history_of_ESRD_on_HD_and_peritoneal_dialysis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "watery_non_bloody_diarrhea_and_weakness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history_of_2_prior_C_diff_infections",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recent_antibx_use",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "INR_not_within_target_range",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, watery non-bloody diarrhea and weakness. She also has a history of 2 prior C diff infections and recent antibx use.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01758640",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

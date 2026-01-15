@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02985268",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic heart failure as defined by New York Heart Association (NYHA) class II, III or ambulatory IV;",
+      "label": "met"
+    },
+    {
+      "criterion": "Treatment and compliance with optimal medical therapy for heart failure for at least 30 days;",
+      "label": "met"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction \u2264 35%, as assessed by any one of the following methods: echocardiography, contrast left ventriculography, gated blood pool scan or cardiac magnetic resonance imaging (MRI);",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy less than 12 months due to noncardiac conditions;",
+      "label": "triggers"
+    },
+    {
+      "criterion": "ACC/AHA Stage D Heart Failure;",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and is symptomatic. However, they have a history of gestational diabetes mellitus and hypertension with pregnancy, which may impact their life expectancy.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02985268",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

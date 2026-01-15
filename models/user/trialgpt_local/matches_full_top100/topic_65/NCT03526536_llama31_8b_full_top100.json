@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03526536",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients over 18 years old with diabetes (both sexes)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "presenting without any kidney disease or with ESRD on hemodialysis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Undergoing major elective surgery procedures such as abdominal, pulmonary, GU/GYN, vascular, renal, neurologic, and orthopedic surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Signed informed consent for the study.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with elevated preoperative blood glucose of a value > 150 mg/dL or < 350 mg/dL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Baseline chemistry with a potassium at or above 3.5",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient does not give informed consent for the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient does not have decisional capacity or a surrogate.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient cannot understand or read English.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a preoperative blood glucose < 150 mg/dL or >350 mg/dL",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients without diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with kidney disease that are not on hemodialysis",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and is undergoing surgery. He has elevated preoperative blood glucose levels, which may be a concern.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03526536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03721523",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "capacity to give informed consent",
+      "label": "met",
+      "evidence": "patient reported no use of lipid-lowering medications"
+    },
+    {
+      "criterion": "Partial Anterior Circulatory Stroke (PACS) or Transient Ischaemic Attack (TIA)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Carotid Stenosis >50%",
+      "label": "met",
+      "evidence": "severe stenosis in the left internal carotid artery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lacking capacity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Carotid Artery occlusion",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to contrast agent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant disability or immobility such that participation would cause stress",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "46-year-old man with dizziness and frequent headaches, severe stenosis in the left internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03721523",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

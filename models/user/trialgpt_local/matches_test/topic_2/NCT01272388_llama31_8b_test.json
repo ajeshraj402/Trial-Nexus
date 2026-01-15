@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT01272388",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe aortic stenosis (AVA < 1.0 cm2)",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "left ventricular hypertrophy",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "EF \u2265 45%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NYHA functional class \u2265 2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ambulatory (able to perform a 6 minute walk test)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal sinus rhythm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 years of age and older",
+      "label": "met",
+      "evidence": "age"
+    },
+    {
+      "criterion": "Able and willing to comply with all the requirements for the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for ongoing nitrate medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "SBP < 110mmHg or MAP < 75mmHg",
+      "label": "not_met",
+      "evidence": "BP"
+    },
+    {
+      "criterion": "Moderately severe or severe mitral regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderately severe or severe aortic regurgitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Creatinine clearance < 30 mL/min",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01272388",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

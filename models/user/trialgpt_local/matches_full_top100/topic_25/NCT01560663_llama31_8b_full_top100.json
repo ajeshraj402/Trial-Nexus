@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01560663",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent form signed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female with pathologically confirmed diagnosis of primary invasive operable breast cancer, stage IIa-IIIc",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tumors \u2265 2cm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Triple negative phenotype patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate performance status (ECOG <2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate renal and liver function and bone marrow reserve",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical or radiologic evidence of Metastatic disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior or concurrent anti-cancer therapy for current disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a postmenopausal woman with HER2-positive and ER/PR-negative breast cancer, stage unknown. She has adequate performance status and renal and liver function.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01560663",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

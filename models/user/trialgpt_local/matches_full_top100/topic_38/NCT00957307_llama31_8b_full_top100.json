@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35-year-old woman"
+    },
+    {
+      "criterion": "myasthenia gravis",
+      "label": "met",
+      "evidence": "class IIa, positive anti-AChR antibody test, single fiber electromyography (SFEMG) was positive"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "Beta hcg: negative for pregnancy"
+    },
+    {
+      "criterion": "bilateral mastectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "frailty",
+      "label": "met",
+      "evidence": "able to cooperate"
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "35 years of age"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "Beta hcg: negative for pregnancy"
+    },
+    {
+      "criterion": "bilateral mastectomy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has myasthenia gravis and takes pyridostigmine. She still experiences symptoms that affect her job.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

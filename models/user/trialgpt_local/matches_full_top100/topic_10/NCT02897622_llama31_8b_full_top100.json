@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV Criteria",
+      "label": "met",
+      "evidence": "Diagnostic interview"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "met",
+      "evidence": "Unknown"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "unknown",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Unknown"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "Unknown"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "Normal CBC, normal differential"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "not_met",
+      "evidence": "None"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but is currently stable on home regimen and responded well to IV steroids. Failed aspirin challenge due to adverse reaction.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00080587",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients will be a subset of patients participating in the multicenter IVUS protocol.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness to travel to the NIH to participate in the NHLBI MRI/IMT study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pacemaker",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Defibrillator",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Brain aneurysm clips",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Implanted active medical devices (neural stimulators, cochlear implants, insulin pumps, etc.)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe claustrophobia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to gadolinium based contrast agents (only excludes the gadolinium portion of the test)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors. He is physically active and has normal fasting glucose and triglyceride levels.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00080587",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

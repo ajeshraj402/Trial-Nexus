@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01678066",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "1 month old to 8 years old"
+    },
+    {
+      "criterion": "surgery_location",
+      "label": "met",
+      "evidence": "lower abdominal or lower extremity surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "surgery_location",
+      "label": "triggers",
+      "evidence": "abdominal undescended testis (upper abdominal)"
+    }
+  ],
+  "notes": "The patient is a 5-month-old male with an abdominal undescended testis, which may require upper abdominal surgery. However, the patient's age and surgery location are not entirely excluded from the trial.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT01678066",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01351974",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary invasive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "45-year-old postmenopausal woman",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "radiotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known allergic reactions to blue dye or isotope",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of cytologically confirmed breast cancer and is a candidate for tumor resection.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01351974",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

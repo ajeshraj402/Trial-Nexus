@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03952637",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age at time of full ICF signing",
+      "label": "met",
+      "evidence": "6 months old and les than or equal to 12 months old"
+    },
+    {
+      "criterion": "Biallelic mutations in GLB1",
+      "label": "met",
+      "evidence": "Documented deficiency of Beta-galactosidase enzyme by clinical laboratory testing"
+    },
+    {
+      "criterion": "Phenotype consistent with a diagnosis of Type I GM1 gangliosidosis",
+      "label": "met",
+      "evidence": "Symptomatic subjects: as determined by the opinion of the Principal Investigator"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "AAV9 antibody titers >1:50",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or lactating subjects",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis-->ICH-->seizure/stroke and CSF leak w/ meningitis s/p lumbar drain placement, but these conditions do not appear to be relevant to the trial.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03952637",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03617055",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "full term neonate",
+      "label": "met",
+      "evidence": "documented perinatal asphyxia"
+    },
+    {
+      "criterion": "admitted to neonatal intensive care unit of Assiut University Children Hospital",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "period from Jan. 2019 to Jan. 2020",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm neonate < 37 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "neonates who died within the first 24 hours of admission",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03617055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

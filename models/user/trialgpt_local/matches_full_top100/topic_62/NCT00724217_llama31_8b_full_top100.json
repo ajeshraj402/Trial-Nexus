@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00724217",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "46-year-old man, physically active"
+    },
+    {
+      "criterion": "total cholesterol levels",
+      "label": "met",
+      "evidence": "LDL-C and HDL-C levels were 545 and 53\u2009mg/dL, respectively"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between the ages of 18-65"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "male"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": "fasting glucose and triglyceride levels (85 and 158\u2009mg/dL, resp.) were within normal limits"
+    },
+    {
+      "criterion": "heart disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "kidney disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "thyroid disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurological diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic disease",
+      "label": "not_met",
+      "evidence": "no other cardiovascular risk factors such as smoking, high blood pressure"
+    },
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "blood lipid modifying medications and/or supplements drugs and/or hypertension",
+      "label": "not_met",
+      "evidence": "The patient reported no use of lipid-lowering medications"
+    }
+  ],
+  "notes": "Patient has severe stenosis in the left internal carotid artery (LICA) and moderate stenosis in the right internal carotid artery (RICA).",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00724217",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

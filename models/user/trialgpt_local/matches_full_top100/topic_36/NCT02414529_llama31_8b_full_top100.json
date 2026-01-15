@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02414529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obese subjects",
+      "label": "met",
+      "evidence": "BMI is: 41.54"
+    },
+    {
+      "criterion": "Pubertal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "32-year-old"
+    },
+    {
+      "criterion": "Pre diabetes/high risk of diabetes",
+      "label": "met",
+      "evidence": "HbA1C between 5.7 - 6.4%"
+    },
+    {
+      "criterion": "25-OH vitamin D level less than 20 ng/ml",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willingness to comply with study protocol requirements",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment on medication known to effect vitamin D, calcium and glucose metabolism",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Vitamin D supplementation greater than 400 IU daily in the preceding 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant major organ system illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of nephrolithiasis or hypercalcemia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females who are pregnant",
+      "label": "not_met",
+      "evidence": "She doesn't use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "Significant psychiatric illness: schizophrenia, bipolar disorder, active substance abuse, and uncontrolled major depression.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Attendance at tanning salon",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT02414529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00495209",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed and intact invasive ductal carcinoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women with a single measurable mass less than or equal to 3 cm",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Women who are awaiting the surgical removal of breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Surgery is scheduled at least 2 weeks from the time of recruitment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing to come to MDACC or Fudan University Cancer Hospital (FUCH) for 5 consecutive days to receive the EQT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years of age or older because the assessment tools are not validated for use in minors.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with lobular carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior or planned neoadjuvant treatment with chemotherapy or radiotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hyperlipidemia and MI in family members, but no underlying disease. Smokes 15 cigarettes per day and drinks a beer per day.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00495209",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

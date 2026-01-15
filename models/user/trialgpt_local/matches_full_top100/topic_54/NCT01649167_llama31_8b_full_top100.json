@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01649167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women in the first trimester of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "between 16 and 46 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "singleton gestation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic metabolic disease (diabetes, pregestational dyslipidemia)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "collagen vascular diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory bowel disease and chronic inflammatory conditions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cortico steroid use",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of Wegener's granulomatosis, but is currently being treated with corticosteroids and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01649167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

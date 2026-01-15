@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01436890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FEV1 between 50% and 80%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "good stable health",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "relevant lung diseases other than asthma",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "past smoker with \u226510 pack per year",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent change in asthma treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently using ICS and fluticasone. He has not had any recent changes to his asthma treatment.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01436890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

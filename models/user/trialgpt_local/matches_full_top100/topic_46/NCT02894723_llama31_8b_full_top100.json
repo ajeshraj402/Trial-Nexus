@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02894723",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Stage 1 hypertensive patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "None to two risk factors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "BMI between 25 to 32",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Twenty for hours ambulatory blood pressure monitor (ABPM)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of any drug that may affect nitric oxide synthesis and/or blood pressure values",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal failure defined as estimated glomerular filtration rate (eGFR) less than 60 ml/min",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "A previous diagnosis of ischemic heart disease, Transient ischemic attack (TIA), Stroke or peripheral arterial disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been admitted to the hospital after 10 days of cough and fever. He has a positive sputum culture for Mycobacterium tuberculosis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02894723",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

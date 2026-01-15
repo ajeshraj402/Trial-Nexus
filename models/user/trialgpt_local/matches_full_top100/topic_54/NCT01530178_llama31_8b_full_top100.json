@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT01530178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "concomitant illnesses except treated hypothyroidism will be recruited and also have an HbA1C",
+      "label": "met"
+    },
+    {
+      "criterion": "less than 9%",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Menstruating women must have a negative pregnancy test.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Lactating and pregnant women will be excluded",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Anemia defined by Hemoglobin of less than 12 gm/dl",
+      "label": "unknown"
+    },
+    {
+      "criterion": "History of substance abuse (evaluated by medical history and CRAFFT questionnaire)",
+      "label": "not_met"
+    },
+    {
+      "criterion": "On any other medication which affects blood sugars",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having any other chronic condition except hypothyroidism stable on medications",
+      "label": "triggers"
+    },
+    {
+      "criterion": "On chronic medications that may affect glucose excursions",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Hemoglobin less than 12 g/dl",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Positive pregnancy test (based on Urine)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Pregnant or lactating mothers",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Known allergy to Januvia",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01530178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

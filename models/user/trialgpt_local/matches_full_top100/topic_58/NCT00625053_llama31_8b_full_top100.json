@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00625053",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18 years or older",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of reducible incisional hernias up to 200 cm\u00b2",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Medically fit for general anesthesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Comprehension and use of French language",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Installed in the geographical region without foreseeable move for two years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Incarcerated hernia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ongoing chronic pain syndrome, other than hernia origin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coagulation disorders, prophylactic or therapeutic anticoagulation, unable to stop",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "platelet antiaggregation therapy 10 days before surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "American Society of Anesthesiology Class 4 and 5 patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergency surgery, peritonitis, bowel obstruction, strangulation, perforation",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has acute perforated appendicitis with free fluid in the pelvis and is a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00625053",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

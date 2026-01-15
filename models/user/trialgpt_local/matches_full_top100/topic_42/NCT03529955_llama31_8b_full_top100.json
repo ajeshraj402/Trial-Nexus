@@ -1,0 +1,37 @@
+{
+  "trial_id": "NCT03529955",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Must understand the risks and the benefits/purpose of the study and provide signed and dated informed consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Must be 18 years at time of signing the informed consent form.",
+      "label": "not_met",
+      "evidence": "19 yo Hispanic female"
+    },
+    {
+      "criterion": "Willing to participate in all required evaluations and procedures in the study including the ability to swallow pills without difficulty.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Increasing or changing dose of topical therapy within 14 days of study day 0 (including but not limited to topical corticosteroids, tacrolimus, pimecrolimus).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding.",
+      "label": "met"
+    }
+  ],
+  "notes": "Patient is pregnant and has a history of hypertension.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03529955",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

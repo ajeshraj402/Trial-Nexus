@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02069366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 21-45 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current PTSD diagnosis [related to civilian trauma]",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant medical or neurological condition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less than a high school education",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lack of fluency in English",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Night shift work",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities. She is on anti-depressants for the past 6 months, but the symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT02069366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

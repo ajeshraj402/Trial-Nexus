@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03212079",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cancer survivor",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Live within the Baltimore Maryland area",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Finished active cancer treatment at least three months ago",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Overweight or obese and do not exercise daily",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No physical limitation to do mild to moderate physical activities",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a smart phone with Wi-Fi internet connection at home",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Actively using an email account",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing to accept random study assignment",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Already doing moderate to high physical activities in their daily life",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planning to relocate within the next 4-5 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, but has some physical limitations and does not exercise daily.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT03212079",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

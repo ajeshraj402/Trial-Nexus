@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02707198",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis",
+      "label": "met"
+    },
+    {
+      "criterion": "Recent antibx use in the last month on prior admission",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Tube feeding",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Undergoing dialysis and other renal treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "An existing C. difficile infection",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02707198",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04049604",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "35 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "pregnancy status",
+      "label": "not_met",
+      "evidence": "using IUD as contraceptive method"
+    },
+    {
+      "criterion": "NIPT results",
+      "label": "met",
+      "evidence": "unusual results led to interpretation of 'test failure' or multiple aneuploidies inconsistent with a viable fetus"
+    },
+    {
+      "criterion": "follow-up testing",
+      "label": "met",
+      "evidence": "normal-appearing fetus on ultrasound examination and/or normal fetal or neonatal karyotype"
+    },
+    {
+      "criterion": "malignancy treatment",
+      "label": "unknown",
+      "evidence": "stable doses of octreotide LAR since diagnosis was confirmed"
+    },
+    {
+      "criterion": "travel ability",
+      "label": "met",
+      "evidence": "no mention of inability to travel"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "married and has 2 children, indicating ability to understand and sign informed consent document"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known malignancy treatment",
+      "label": "unknown",
+      "evidence": "stable doses of octreotide LAR since diagnosis was confirmed"
+    },
+    {
+      "criterion": "inability to travel",
+      "label": "unknown",
+      "evidence": "no mention of inability to travel"
+    }
+  ],
+  "notes": "Patient has history of acne, mild hirsutism, and elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT04049604",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

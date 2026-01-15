@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02508623",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of liver cirrhosis",
+      "label": "met",
+      "evidence": "clinical, biochemical and radiological criteria"
+    },
+    {
+      "criterion": "Presence of esophageal varices at high risk of bleeding",
+      "label": "met",
+      "evidence": "Grade II Esophageal varices"
+    },
+    {
+      "criterion": "Hepatic Venous Pressure Gradient > 12 mmHg.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "19\u2264 age \u226475",
+      "label": "met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "Informed Consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients already treated with beta blockers",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Treatment with systemic antibiotics and/or non-absorbable intestinal antibiotics in the previous two weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bacterial infection, spontaneous bacterial peritonitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "overt hepatic encephalopathy in the last week",
+      "label": "not_met",
+      "evidence": "presumptive diagnosis of hepatic encephalopathy"
+    },
+    {
+      "criterion": "active gastrointestinal bleeding, or in the last week",
+      "label": "not_met",
+      "evidence": "Recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis"
+    },
+    {
+      "criterion": "active alcoholism or drug abuse in last 3 weeks",
+      "label": "met",
+      "evidence": "Per last liver clinic note has been off ETOH for a year (corroborated with pt)"
+    },
+    {
+      "criterion": "Acute Alcoholic Hepatitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatocellular carcinoma or other neoplasm",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has liver cirrhosis, esophageal varices, and recent UGIB. He is off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02508623",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

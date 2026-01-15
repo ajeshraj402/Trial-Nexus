@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT01509950",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "study staff member will describe the study and offer participation",
+      "label": "met"
+    },
+    {
+      "criterion": "patient agrees to participate, signs research protocol and HIPAA consent forms",
+      "label": "met"
+    },
+    {
+      "criterion": "pregnant women undergoing primary or repeat cesarean section",
+      "label": "met"
+    },
+    {
+      "criterion": "maternal age greater than or equal to 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "gestational age greater than or equal to 34 weeks",
+      "label": "met"
+    },
+    {
+      "criterion": "elective and non-elective cesarean section",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 or Type 2 diabetes",
+      "label": "not_met"
+    },
+    {
+      "criterion": "BMI greater than 35",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pre-operative diagnosis of chorioamnionitis",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01509950",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

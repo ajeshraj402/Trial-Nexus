@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02469272",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "histologic evidence of NASH",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "NAFLD activity score (NAS) \u22654 with \u22651 in each component",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant alcohol consumption for a period of more than 3 consecutive months within 1 year prior to screening",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Another form of liver disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Recent antibiotic use within 3 months or need for chronic antibiotic therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of drugs historically associated with NAFLD or drugs known to improve NASH",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, developed abdominal pain followed by bloating and nausea as well as loose bowel movements. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02469272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

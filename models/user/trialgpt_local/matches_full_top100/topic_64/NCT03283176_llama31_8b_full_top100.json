@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03283176",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-related liver cirrhosis",
+      "label": "met",
+      "evidence": "medical records"
+    },
+    {
+      "criterion": "candidate for therapy with Sofosbuvir and Daclatasvir with or without Ribavirin",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic hepatitis due causes other than chronic HCV infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coinfection with HIV or HBV infection",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensated cirrhosis",
+      "label": "not_met",
+      "evidence": "medical records"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. On IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03283176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

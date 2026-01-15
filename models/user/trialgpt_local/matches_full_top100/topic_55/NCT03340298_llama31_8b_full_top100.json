@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03340298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "overweight or obese",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "weight within the 6 months before registration in the study",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "attending a competitive sport",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has tremors, jaundice, hepatosplenomegaly and hypotonia. Wilson disease was confirmed by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03340298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

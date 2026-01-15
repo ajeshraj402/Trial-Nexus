@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00025805",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "verifiable diagnosis of active Crohn's disease of at least 4 months' duration",
+      "label": "met",
+      "evidence": "endoscopic or radiographic findings and histopathologic changes on endoscopic biopsy"
+    },
+    {
+      "criterion": "age over 18",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Crohn's Disease Activity Index score between 225 and 450",
+      "label": "met",
+      "evidence": "diarrhea rating or abdominal pain rating of greater than or equal to 25"
+    },
+    {
+      "criterion": "stable regimen of one or a combination of the following drug doses and durations",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of barrier or hormonal methods of birth control for male and female subjects who are not surgically sterile or postmenopausal",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "negative serum beta-hCG for women of child-bearing potential",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "negative results on stool examination for culture of enteric pathogens",
+      "label": "met",
+      "evidence": "Clostridia difficile toxin assay, enteric parasites and their ova"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "use of any the following medications within the specified time period prior to the first dose of study drug or at any time during the study",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple bowel resections (greater than or equal to 200 cm) AND enteral or parenteral therapy to maintain weight",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time).",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00025805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

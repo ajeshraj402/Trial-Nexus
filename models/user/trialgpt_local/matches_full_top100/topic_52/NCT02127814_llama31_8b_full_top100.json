@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02127814",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Receiving antibiotics for not more than 48 hours prior to enrollment and free from",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diarrhea",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to understand and sign informed consent and HIPPA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "available throughout the study period",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subjects should have the mental ability to understand and willingness to fulfill all the details of the protocol",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "three or more soft and unformed or watery stools per day at admission",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "receiving chemotherapy or radiation therapy",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of inflammatory bowel disease",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NPO without PO meds",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "neutropenia (an absolute neutrophil count (ANC) of less than 1500/microL)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV positive with a CD4+ T-lymphocyte count <400 per mcL blood",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "requiring care in an intensive care unit",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "status-post bowel resection during hospitalization",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but no fever and blood pressure is low.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02127814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

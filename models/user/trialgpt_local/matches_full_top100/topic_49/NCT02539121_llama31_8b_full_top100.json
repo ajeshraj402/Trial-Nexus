@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02539121",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women from 18 to 40 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "eutectic delivery, gestation between 37 and 42 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "labors with epidural analgesia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant woman with metal allergy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with anticoagulant treatment",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is an obese, mentally retarded girl in the physical exam. She has a karyotype study revealing 45X and confirmed diagnosis of Turner syndrome.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02539121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

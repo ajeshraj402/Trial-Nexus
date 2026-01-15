@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03477890",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptoms of angina or angina-equivalent informed by the Rose Angina questionnaire.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intermediate or no obstructive coronary disease i.e. no coronary stenosis >70% in an artery >2.5 mm, as revealed by CT coronary angiography.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "A health problem that would explain the angina, e.g. anaemia, moderate-severe aortic stenosis, hypertrophic obstructive cardiomyopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obstructive disease evident in a coronary artery (diameter >2.5 mm), i.e. >50 - 70% circumferential plaque extending for \u22652 coronary segments, or a stenosis>70% as revealed by CT coronary angiography",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lack of informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Flow-limiting coronary disease defined by a fractional flow reserve (FFR) \u22640.80 in an artery>2.5 mm.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and a splenic/pancreatic tail mass likely diverticular abscess given recent history of diverticulitis.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03477890",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

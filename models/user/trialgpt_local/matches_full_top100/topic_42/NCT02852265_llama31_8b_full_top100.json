@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02852265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "UC Davis medical office",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently COCs or intending to initiate COCs at the time of the office visit",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to using a COC or a contraceptive implant (Category 3 or 4 in the CDC Medical Eligibility Criteria)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Adults unable to consent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Individuals who are not yet adults (infants, children, teenagers)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age with BP of 146/99 and urine dipstick with 3+ proteins. She has no specific past medical issues.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02852265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

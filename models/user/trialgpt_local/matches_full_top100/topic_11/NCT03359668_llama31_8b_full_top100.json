@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03359668",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-operative thyroidectomy patients with pathology-proven papillary thyroid cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "PTC needing lymph node staging for potential neck dissection.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with history of prior surgery within the head and neck.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with history of prior radiation to the head and neck.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with history of lymphoma, leukemia, or other lymphoproliferative disorders affecting the head and neck.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant/breast feeding patients (by question).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with history of XRT to neck, but no prior surgery or radiation within head and neck. No mention of lymphoma, leukemia, or other lymphoproliferative disorders affecting the head and neck.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03359668",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

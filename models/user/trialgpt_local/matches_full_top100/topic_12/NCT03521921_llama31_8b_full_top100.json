@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03521921",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "retrospective enrolments are allowed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "follow-up visit will be performed at 30 days, 1 year and up to 5 years after the procedure",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who are eligible for Mitraclip device according to current national and international guidelines (and their future revisions) and per investigator evaluation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who are willing and capable of providing informed consent, participating in all Follow-ups associated with this clinical investigation at an approved clinical investigational center",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "symptomatic severe (4+) MR, or 3+ MR and NYHA > II",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mitral valve anatomy should be suitable for MitraClip",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "signed (by subject or legal representative) and dated approved subject informed consent form prior to any study related data collection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "valve anatomy is unsuitable for MitraClip therapy as per the indication in the Mitraclip IFU",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently participating in the study of an investigational drug or device",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the subject is unable or not willing to complete follow-up visits and examination for the duration of the study",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome with severe mitral valve prolapse and regurgitation, but remains symptomatic and is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03521921",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

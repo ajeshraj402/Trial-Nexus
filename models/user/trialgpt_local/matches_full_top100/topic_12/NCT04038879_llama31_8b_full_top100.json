@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04038879",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Referred for isolated aortic or mitral valve repair or replacement due to valve regurgitation",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Claustrophobia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metallic contraindications to MRI (e.g. noncompatible aneurysm clip etc)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known intracardiac shunt",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planned concomitant cardiac surgical procedure such as coronary artery bypass, septal myomectomy, or other valve procedure.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than mild mitral or aortic stenosis.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "For patients enrolled with mitral regurgitation: greater than mild aortic regurgitation.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "For patients enrolled with aortic regurgitation: greater than mild mitral regurgitation.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, but remains symptomatic and is prepared to undergo surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04038879",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

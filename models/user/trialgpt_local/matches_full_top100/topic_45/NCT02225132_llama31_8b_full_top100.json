@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02225132",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 15 years",
+      "label": "met",
+      "evidence": "The patient is a 34-year-old African American man"
+    },
+    {
+      "criterion": "Homozygous sickle cell disease (HbSS)",
+      "label": "met",
+      "evidence": "The patient has had positive history of sickle cell crises since childhood."
+    },
+    {
+      "criterion": "ANC greater than or equal to 2,000/microL, platelets greater than or equal to 150,000/microL, Hb > 5.4g/dL",
+      "label": "met",
+      "evidence": "WBC: 10000 /mm3, Plt: 300000 /ml, Hgb: 8 g/dl"
+    },
+    {
+      "criterion": "Patients on angiotensin-converting enzyme inhibitors and angiotensin receptor blockers should be on a stable dose for 2 weeks prior to initiating or adjusting",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women or patients planning to get pregnant during the study period",
+      "label": "not_met",
+      "evidence": "The patient is afebrile within the normal blood pressure. No splenomegaly was detected in the physical exam."
+    },
+    {
+      "criterion": "Patients unwilling to use two forms of contraception throughout the period of HU administration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients receiving chronic transfusion therapy",
+      "label": "not_met",
+      "evidence": "The lab study is as bellow: Hemoglobine electrophoresis: 91% HbS 6%HbF 3%HbA2"
+    },
+    {
+      "criterion": "Patients receiving a HU dose of greater than or equal to 20 mg/kg/day",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with history of allergy or intolerance to HU judged by the investigator to be prohibitive against restarting HU",
+      "label": "not_met",
+      "evidence": "He has no positive history of drug allergy."
+    },
+    {
+      "criterion": "6 Patients with end stage renal disease defined as GFR <10mL/min/1.73m(2)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients being treated with antiretroviral agents (such as didanosine and stavudine) because of a higher risk for potentially fatal pancreatitis, hepatic failure, hepatitis, and severe peripheral neuropathy when co-administered with hydroxyurea.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participation on any other chronic investigative treatment studies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02225132",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

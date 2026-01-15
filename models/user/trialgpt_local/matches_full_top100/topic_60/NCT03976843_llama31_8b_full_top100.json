@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03976843",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically proven prostate adenocarcinoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prostate cancer with high risk features defined as Gleason 8 and higher OR PSA > 20 ng/mL OR clinical stage T3a (i.e. likely extraprostatic extension on MRI) or T3b",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "eligible for and planning to undergo radical prostatectomy and lymphadenectomy regardless of findings on 18F-DCFPyL PET/CT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status <2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate organ and marrow function as defined below: Hemoglobin greater than or equal to 9 g/dL, leukocytes greater than or equal to 3,000/mcL, platelets greater than or equal to 100,000/mcL, total bilirubin <2 X normal institutional limits, AST(SGOT)/ALT(SGPT) less than or equal to 3 X normal institutional limits, creatinine <2 X normal institutional limits, eGFR greater than or equal to 50 mL/min/1.73 m2 for patients with creatinine levels above institutional normal",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ability of subject to understand and the willingness to sign a written informed consent document",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness and ability to undergo biopsy of radiotracer-avid lesion if feasible",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness and ability to undergo multiparametric prostate MRI and 18F-DCFPyL PET/CT",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "any investigational agents in the past 28 days prior to enrollment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical stage T4 (tumor invades adjacent structures except seminal vesicles)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "distant metastatic disease on conventional imaging studies (computed tomography of the abdomen and pelvis and 99mTc-methylene diphosphonate bone scan (bone scan))",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "any prior hormone therapy used to treat prostate cancer, except limited androgen receptor antagonist therapy, defined as less than or equal to 3 days of treatment. The medication must be discontinued within 5 half-lives of the compound prior to study entry",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "any prior therapy for prostate cancer with surgery, radiation, and/or chemotherapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03976843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

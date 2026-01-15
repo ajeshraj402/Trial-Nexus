@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04044248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to provide written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Endoscopically proven acute or recurrent VH from GVs, or high risk GVs",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior indwelling TIPS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior endovascular obliteration procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Elevated heart pressures (left or right)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heart failure or severe valvular insufficiency",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe pulmonary hypertension",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rapidly progressive liver failure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe or uncontrolled hepatic encephalopathy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Uncontrolled systemic infection or sepsis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unrelieved biliary obstruction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe uncontrolled hepatic encephalopathy, which is a likely exclusion criterion.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT04044248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

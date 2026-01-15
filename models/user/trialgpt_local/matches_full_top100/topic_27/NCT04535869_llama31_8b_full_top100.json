@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04535869",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COVID-19",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "contraindicated medications",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy or HCV infection",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection but is on treatment. No severe liver disease mentioned.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT04535869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

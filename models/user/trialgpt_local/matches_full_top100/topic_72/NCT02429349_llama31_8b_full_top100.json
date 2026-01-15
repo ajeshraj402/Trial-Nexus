@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02429349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre- and post-pubertal patients who are diagnosed with conditions that necessitate chemo- or radiotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "wish to preserve their ovarian function",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with acute or chronic conditions that would preclude surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyper- or hypo-coagulation disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lung conditions precluding mechanical ventilation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "brain death",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She has diplopia and weakness affecting her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02429349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

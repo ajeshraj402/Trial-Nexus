@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01472640",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Able to understand the written patient information and to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CHF, NYHA-class I, II or III at visit 0",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "LVEF \u226445 %",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 30 to 85 (both inclusive)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stable pharmacological treatment of heart failure according to ESC guidelines for the last 3 months prior to randomisation (visit 1)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Myocardial infarction (MI), unstable angina or coronary revascularization within the last three months prior to visit 1",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hospitalisation due to incompensated heart disease within 30 days prior to randomisation (visit 1)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on home oxygen. They have been admitted with complaints of worsening shortness of breath and have refused a right heart cath for evaluation of response to sildenafil.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01472640",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

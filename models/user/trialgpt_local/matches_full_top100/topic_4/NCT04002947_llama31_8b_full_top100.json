@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04002947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed histologic diagnosis of an aggressive B-cell lymphoma",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "morphologic appearance of DLBCL or high-grade B-cell lymphoma (HGBL)",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "DLBCL, NOS, Activated B-cell type (ABC) or DLBCL, NOS, Germinal center B-cell type (GCB)",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "T-cell/histiocyte-rich large B-cell lymphoma or Primary cutaneous DLBCL, leg-type",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "EBV+ DLBCL, NOS or ALK+ large B-cell lymphoma",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "High-grade B-cell lymphoma, NOS or High-grade B-cell lymphoma, with MYC and BCL2 and/or BCL6 rearrangements",
+      "label": "met",
+      "evidence": "the Laboratory of Pathology, NCI"
+    },
+    {
+      "criterion": "Measurable lymph nodes or masses of at least 1.5 centimeters (cm) on baseline CT or Stage II, III, or IV disease as classified by the Ann Arbor Classification",
+      "label": "met",
+      "evidence": "baseline CT or Ann Arbor Classification"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "ECOG performance status less than or equal to 2",
+      "label": "met",
+      "evidence": "patient's ECOG performance status"
+    },
+    {
+      "criterion": "Adequate organ and marrow function as defined below unless dysfunction is felt to be secondary to lymphoma involvement as determined by the treating investigator",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Primary DLBCL of the central nervous system (PCNSL) or Primary mediastinal B-cell lymphoma (PMBL)",
+      "label": "not_met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "Plasmablastic lymphoma or Intravascular large B-cell lymphoma",
+      "label": "not_met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "B-cell lymphoma, unclassifiable, with features intermediate between DLBCL and classical Hodgkin lymphoma",
+      "label": "not_met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "Current or prior anti-cancer treatment for DLBCL prior to enrollment",
+      "label": "not_met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "Major surgical procedure within 28 days of first dose of study drug",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a confirmed histologic diagnosis of an aggressive B-cell lymphoma and meets several inclusion criteria. However, the patient's medical history suggests that they may have had prior anti-cancer treatment for DLBCL, which would make them ineligible for enrollment.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04002947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

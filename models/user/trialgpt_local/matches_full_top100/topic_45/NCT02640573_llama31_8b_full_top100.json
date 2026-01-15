@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02640573",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of HbSC disease",
+      "label": "met",
+      "evidence": "known history of Sickle cell disease"
+    },
+    {
+      "criterion": "Score of 80 or lower on the AdultQLTM 3.0 Sickle Cell Disease Module, or any disease-related complication",
+      "label": "not_met",
+      "evidence": "severe bone pain scored 9 out of 10"
+    },
+    {
+      "criterion": "Hydroxyurea usage in the last 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic RBC transfusion therapy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy, or refusal to use medically effective birth control if female and sexually active",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current phlebotomy therapy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of sickle cell crises since childhood, but no indication of pregnancy or current phlebotomy therapy.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02640573",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

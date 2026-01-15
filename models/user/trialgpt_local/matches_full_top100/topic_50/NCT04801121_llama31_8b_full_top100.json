@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04801121",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "performing the ultrasound at their first trimester scan",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Fetal malformation or abnormal karyotype",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Maternal height from spine to chest > 43 cm (for technical reasons)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with an undescended testis. He has no developmental delay and the diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04801121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

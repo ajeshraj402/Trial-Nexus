@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00196729",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thyroid_cancer_type",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thyroid_cancer_stage",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgery_type",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thyroid_cancer_type",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "thyroid_cancer_stage",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00196729",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

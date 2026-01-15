@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03152188",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "21-75 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "(a) Liver Biopsy (b) Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "(c) Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "(d) Endoscopic evidence of varices or portal gastropathy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "At least two HE episodes, one within the last year but not within the last month",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to give written, informed consent (mini-mental status exam>25 at the time of consenting)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Disease-related: (1) MELD score>17",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "(2) WBC count<1000",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "(3) TIPS, non-elective hospitalization or HE within last month",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "(4) on dialysis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "(5) known untreated, in-situ luminal GI cancers",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation with Richter's transformation. He has had multiple treatments including FCR, PCR, R-CVP, and Campath therapy.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03152188",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

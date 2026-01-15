@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03431103",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Veterans from the Salem VAMC pulmonary clinics",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recent PFT diagnostic of COPD (FEV1/FVC <0.7 and FEV1< 80%)",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "compliant with CPAP therapy",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "orthopedic problems, fall-risk, balance problems;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any regular participation in structured exercise sessions;",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "other concomitant sleep disorder;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unstable cardiovascular or pulmonary disease;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute infectious illness in the prior month;",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hospitalization in prior month;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prescription of systemic glucocorticoids or immune-suppressive agents in the prior month and",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "weight above 330 pounds, the limit allowed by the Wii pressure sensor floor mat.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. They are compliant with CPAP therapy but have had recent hospitalization and may have unstable cardiovascular or pulmonary disease.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03431103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

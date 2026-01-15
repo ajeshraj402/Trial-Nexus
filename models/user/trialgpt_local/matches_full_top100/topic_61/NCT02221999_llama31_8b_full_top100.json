@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02221999",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women aged \u226518years and \u226470 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least on measurable disease according to the Response Evaluation Criteria in Solid Tumors (RECIST)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically confirmed invasive breast cancer, tumor size \u22652 cm, T2-4 N0-3M0",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ER/PR/HER-2 and Ki-67 status detected on core biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior systemic or loco-regional treatment of breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Adequate bone marrow function: WBC\u22654.0\u00d710^9/L, Absolute neutrophil count\uff08ANC\uff09\u22651.5\u00d710^9/L, Platelets\uff08PLT\uff09\u2265100\u00d710^9/L, Hemoglobin\uff08Hb\uff09\u226590g/L; aspartate aminotransferase(AST), Alanine aminotransferase (ALT)\u22641.5 upper normal limit (UNL), creatinine\u22641.5 UNL, bilirubin\u22641.5UNL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No obvious main organs dysfunction",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwilling or unable to use an acceptable method of contraception in 8 weeks (including 8 weeks) after final dose of test drug",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is pregnant or breast feeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inflammatory breast cancer and metastatic breast cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of cytologically confirmed breast cancer, with a tumor size of 3 cm. She is HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02221999",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

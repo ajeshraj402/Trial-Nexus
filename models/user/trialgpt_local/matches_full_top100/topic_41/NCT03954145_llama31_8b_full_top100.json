@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03954145",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Minimum of 11 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At completion of fixed orthodontic therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of all 6 mandibular canines and incisors",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Active decay",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of dental restorations",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Tooth fracture",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Periodontal disease",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with Parkinson's disease. He has difficulty initiating movements, stiffness and slowness in general.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03954145",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

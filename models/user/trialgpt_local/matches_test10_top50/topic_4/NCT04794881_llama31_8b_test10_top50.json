@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04794881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newborn infants admitted anywhere in the Neonate unit or Neonatal Unit of Paediatric",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Emergency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Underwent lumbar puncture as part of the workup for sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cerebrospinal fluid visibly tinged with blood (macro traumatic). To ensure objectivity, two Pediatricians must have a consensus that the CSF sample is visibly blood-tinged when viewed in bright ambient light.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically too unstable to undergo the 2nd LP",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Development of fresh contraindications for performing the 2nd LP",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis-->ICH-->seizure/stroke and CSF leak w/ meningitis s/p lumbar drain placement.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04794881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

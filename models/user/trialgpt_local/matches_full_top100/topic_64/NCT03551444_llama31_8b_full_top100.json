@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03551444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "Confirmed HCV viremia by PCR",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "CHILD Pugh A",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HCC diagnosed by criteria according to AASLD guidelines",
+      "label": "not_met",
+      "evidence": "negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "HCC patients should have been treated prior to randomization by resection, or ablation and achieving rCR",
+      "label": "met",
+      "evidence": "treated prior to randomization by resection"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients below 18 old",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with advanced liver condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients known HBV or HIV infection",
+      "label": "not_met",
+      "evidence": "recent coinfection with HBV"
+    },
+    {
+      "criterion": "Prior history of liver transplantation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HCC treatment but without rCR before randomization",
+      "label": "met",
+      "evidence": "treated prior to randomization by resection"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03551444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

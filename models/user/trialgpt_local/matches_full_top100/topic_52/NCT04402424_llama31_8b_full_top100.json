@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04402424",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred on TWR colorectal cancer pathway",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "County Hospital",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 18+",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Capacity to consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has a stoma",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous colorectal cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients lacking capacity to give informed consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "34 year old man with dizziness and severe diarrhea since yesterday, V. cholerae seen in stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04402424",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

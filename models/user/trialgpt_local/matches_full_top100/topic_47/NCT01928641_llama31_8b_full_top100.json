@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01928641",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ischemic stroke patients admitted to Acute Stroke Unit at Asan Medical Center",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ischemic stroke patients older than 20 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "symptom onset within 24 hours",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who cannot explain the symptom onset due to altered consciousness, aphasia, or cognitive decline",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop, slurred speech. Hypertension, hyperlipidemia, hypothyroidism, smoker, unknown family history.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT01928641",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

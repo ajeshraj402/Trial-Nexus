@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03158805",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "BMI: 41.5"
+    },
+    {
+      "criterion": "weight-related comorbidity",
+      "label": "met",
+      "evidence": "hypertension, type 2 diabetes"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "does not use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "suicidal ideation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinically unstable medical disease",
+      "label": "met",
+      "evidence": "BP: 130/80, HR: 195/min"
+    }
+  ],
+  "notes": "Patient is a 34-year-old obese woman with weight concerns and multiple comorbidities. She has not used any contraceptive methods for the past 4 months.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT03158805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

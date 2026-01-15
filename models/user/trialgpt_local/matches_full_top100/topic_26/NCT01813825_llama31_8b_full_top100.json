@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "tumor_stage",
+      "label": "met",
+      "evidence": "Tis, T1, N0 M0 - American Joint Committee Classification"
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skin_spacing",
+      "label": "not_met",
+      "evidence": "no mention of skin spacing"
+    },
+    {
+      "criterion": "histology",
+      "label": "met",
+      "evidence": "DCIS"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "not_met",
+      "evidence": "no mention of collagen-vascular disease"
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "met",
+      "evidence": "no mention of infiltrating lobular histology"
+    }
+  ],
+  "notes": "Patient has gallstones and biliary sludge, but no indication of likely triggers for exclusion.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

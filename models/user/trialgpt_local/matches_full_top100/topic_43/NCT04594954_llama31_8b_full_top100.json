@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04594954",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Upper GI endoscopy for other indications",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18-55 yrs of age with NAFLD",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI \u2264 35 or Body Mass Index (BMI) is \u226430 to 34.9 kg/m2 with at least one treated or untreated comorbid condition",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "comorbid condition (hypertension, dyslipidaemia, cardiovascular disease, glucose intolerance, sleep apnoea, NASH)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ambulatory and able to perform the ILBS healthy lifestyle (diet and exercise program)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Failed to life style therapy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HIV, HBsAg or HCV positive",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior bariatric surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Change in weight of \u22645 % within 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Malignancy within 5 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent major surgery; history of seizure disorder",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of aspiration pneumonia. She has been febrile and complained of abdominal pain and diarrhea.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04594954",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00305591",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "60 yo"
+    },
+    {
+      "criterion": "Biopsy-proven cirrhosis",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "Clinically stable",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Fluent English (required for psychometric testing)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ferro-magnetic implants",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Claustrophobia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Weight >120kg",
+      "label": "not_met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "Significant renal impairment (Creatinine >150 micromol/L)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Poorly controlled Diabetes (particularly type I with microvascular complications)",
+      "label": "not_met",
+      "evidence": "HTN"
+    },
+    {
+      "criterion": "Alcohol: if alcoholic liver disease is the aetiology of their liver disease they should be abstinent. Otherwise less than 20g per day.",
+      "label": "met",
+      "evidence": "Per last liver clinic note has been off ETOH for a year (corroborated with pt)"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00305591",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

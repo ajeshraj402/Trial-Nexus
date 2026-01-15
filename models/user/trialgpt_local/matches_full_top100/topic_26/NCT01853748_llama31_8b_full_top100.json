@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01853748",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "HER2-positive Stage I histologically confirmed invasive carcinoma of the breast",
+      "label": "met"
+    },
+    {
+      "criterion": "ER/PR determination is required",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Bilateral breast cancers that individually meet eligibility criteria are allowed",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or breastfeeding",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Use of potent CYP3A4 inhibitors during the study treatment period",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has gallstones and biliary sludge, but no history of previous invasive breast cancer or prior chemotherapy in the past 5 years.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01853748",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

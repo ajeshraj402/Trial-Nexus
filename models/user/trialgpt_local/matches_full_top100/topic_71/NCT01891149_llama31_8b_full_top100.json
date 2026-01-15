@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01891149",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Presentation to the Fistula Care Centre in Lilongwe for medical evaluation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to consent for study participation in Chichewa",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female aged 18-45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness to undergo pelvic ultrasound for assessment of pelvic organs",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No history of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current pregnancy or pregnancy within the past six weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Seriously or terminally ill",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman with weight concerns, sleep apnea, PCO and dissatisfaction with her body shape. She has a BMI of 41.5 and lab results show FBS: 98 mg/dl, TG: 150 mg/dl, Cholesterol: 180 mg/dl, LDL: 90 mg/dl, HDL: 35 mg/dl.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01891149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

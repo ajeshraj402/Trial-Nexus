@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03252028",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "test in comparison to the most reliable standard tools",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "X-rays",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "dnr 2015-429-32",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "all post neurosurgical patients with suspect infection or fever",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Controls Alzheimer's disease (n=20)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "CSF samples were collected and kept frozen from patients (N=20) that were diagnosed with Alzheimer's disease at the Memory Clinic, Sk\u00e5ne University Hospital in Malm\u00f6.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Normal CSF",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma and a large pericardial effusion. They have a history of PCOS, Obesity, HTN, and past medical history of viral encephalitis/meningitis.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT03252028",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

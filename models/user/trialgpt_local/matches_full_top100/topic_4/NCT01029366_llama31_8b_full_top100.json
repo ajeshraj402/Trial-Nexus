@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01029366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CD19+ B cell malignancies",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no available curative treatment options",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "limited prognosis (several months to < 2 year survival)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "CD19+ leukemia or lymphoma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ALL in CR2 or CR3 and not eligible for allogeneic SCT",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Follicular lymphoma, previously identified as CD19+: At least 2 prior combination chemotherapy regimens",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Stage III-IV disease",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Less than 1 year between last chemotherapy and progression",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Disease responding or stable after most recent therapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "CLL: At least 2 prior chemotherapy regimens",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Less than 2 years between last chemotherapy and progression",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Not eligible or appropriate for conventional allogeneic SCT",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Mantle cell lymphoma: Beyond 1st CR with relapsed or persistent disease and not eligible or appropriate for conventional allogeneic or autologous SCT",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Uncontrolled active infection",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Active hepatitis B or hepatitis C infection",
+      "label": "unknown",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Concurrent use of systemic steroids",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and presented with symptoms of cholecystitis. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01029366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

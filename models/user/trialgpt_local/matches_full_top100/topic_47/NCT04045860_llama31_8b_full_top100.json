@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04045860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults (18 years of age or older)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Any head and neck cancer patient undergoing laryngectomy, neck dissection,",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "maxillectomy or mandibulectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Inpatient and referred for HNL treatment following surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with previous chemoradiation therapy or head and neck surgery accepted",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients who undergo neck dissection surgery that do not present with symptoms of HNL",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with free tissue transfer reconstruction",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unwilling or unable to consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04045860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

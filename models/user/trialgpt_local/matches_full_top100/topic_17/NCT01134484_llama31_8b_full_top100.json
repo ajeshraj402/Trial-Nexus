@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01134484",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed diagnosis of symptomatic MM based on standard criteria.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No prior or current systemic therapy for MM, including steroids.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At least 18 years and less than 65 years of age.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of quantifiable M protein in serum (e.g. greater than 1 g/dL for IgG MM, greater than 0.5 g/dL of IgA or IgD MM) or urine (e.g. greater than 200 mg/day for BJ MM).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status (PS) at least 60%.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to comply with the protocol requirements.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate organ function, including heart, liver, kidney (serum creatinine less than 2 mg/dL).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelet count at least 70 x 10/mcL and absolute neutrophil count at least 1 x 10/mcl.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Agreement from both male and female patients to follow the risk management program established for the prevention of pregnancy, including double methods for contraception and beta-HCG tests for women of childbearing potential and contraception for males.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of asymptomatic MM or of MGUS based on standard criteria.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has received other investigational drugs within 30 days before enrollment.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis. She is on hemodialysis for ESRD and represents for malaise, weakness, and generalized body aching.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01134484",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

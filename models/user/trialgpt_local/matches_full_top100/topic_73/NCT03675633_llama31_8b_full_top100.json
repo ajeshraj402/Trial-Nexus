@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03675633",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Liver cirrhosis of any etiology diagnosed by clinical parameters involving laboratory tests, endoscopic or radiologic evidence of cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of decompensation (hepatic encephalopathy, ascites, variceal bleeding, jaundice)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior liver or kidney transplant",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03675633",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

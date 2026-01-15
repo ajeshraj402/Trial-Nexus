@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03975855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cT1-4c",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female / male patient aged \u2265 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent (ICF)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suspicious lymph nodes after neoadjuvant therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No confirmed breast cancer and no abnormality in the breast",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient uses Marcumar",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a postmenopausal woman with a history of breast cancer and has undergone lumpectomy. She has no palpable masses on breast exam.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03975855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

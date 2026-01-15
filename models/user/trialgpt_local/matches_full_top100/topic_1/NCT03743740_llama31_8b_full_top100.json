@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03743740",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis by neurologist",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 18-65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stage II or III according to MGFA",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mini Mental Test score over 24",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Volunteer for study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cognitive problem and Mini Mental Test score below 24",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Myasthenic crisis in last month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Modification of medical treatment and dose in last month",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Systemic, orthopedic and neurological disease in addition to the disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma with severe lower extremity weakness and urinary retention. They have undergone radiation and chemotherapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03743740",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

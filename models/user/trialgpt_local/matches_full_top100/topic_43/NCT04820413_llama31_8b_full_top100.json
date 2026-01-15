@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04820413",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 years old"
+    },
+    {
+      "criterion": "j-pouch",
+      "label": "met",
+      "evidence": "J-pouch"
+    },
+    {
+      "criterion": "pdaI",
+      "label": "met",
+      "evidence": "> 7"
+    },
+    {
+      "criterion": "chronic pouchitis diagnosis",
+      "label": "met",
+      "evidence": "established diagnosis of chronic pouchitis"
+    },
+    {
+      "criterion": "antibiotic treatment for pouchitis",
+      "label": "met",
+      "evidence": "ciprofloxacin and/or metronidazole within 3 months"
+    },
+    {
+      "criterion": "concomitant disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "probiotic intake",
+      "label": "not_met",
+      "evidence": "within last 2 weeks prior to study intervention"
+    },
+    {
+      "criterion": "clinical trial participation",
+      "label": "met",
+      "evidence": "participation in another clinical trial within previous 30 days before baseline"
+    },
+    {
+      "criterion": "serious food allergies",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "immunosuppression",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or breastfeeding",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. Stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04820413",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

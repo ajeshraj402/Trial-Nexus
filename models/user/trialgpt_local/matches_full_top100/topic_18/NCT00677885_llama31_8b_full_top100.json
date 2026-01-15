@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00677885",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "probable Alzheimer disease, Parkinson disease, or frontotemporal dementia",
+      "label": "met",
+      "evidence": "diagnosis"
+    },
+    {
+      "criterion": "capacity to consent to research",
+      "label": "met",
+      "evidence": "patient can consent"
+    },
+    {
+      "criterion": "healthy volunteers",
+      "label": "met",
+      "evidence": "no health issues mentioned"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current psychiatric disease, substance abuse or severe systemic disease",
+      "label": "not_met",
+      "evidence": "no history of psychiatric disease or substance abuse mentioned"
+    },
+    {
+      "criterion": "laboratory tests with clinically significant abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "subjects on blood-thinning medications, having coagulation disorders, or clinically significant abnormal blood clotting test (PT/PTT)",
+      "label": "not_met",
+      "evidence": "no mention of blood-thinning medications"
+    },
+    {
+      "criterion": "prior participation in other research protocols or clinical care in the last year such that radiation exposure, including that from this protocol, would exceed the guidelines set by the Radiation Safety Committee (RSC)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or breast feeding",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or breastfeeding"
+    },
+    {
+      "criterion": "positive result on urine screen for illicit drugs",
+      "label": "not_met",
+      "evidence": "no mention of illicit drug use"
+    },
+    {
+      "criterion": "subjects who cannot lie on their back for extended periods of time",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of neurological disease other than Alzheimer disease, Parkinson disease, or frontotemporal dementia",
+      "label": "not_met",
+      "evidence": "no mention of other neurological diseases"
+    },
+    {
+      "criterion": "subjects who have a cardiac pacemaker or metal in their body",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "subjects taking cyclosporine A",
+      "label": "not_met",
+      "evidence": "no mention of cyclosporine A"
+    }
+  ],
+  "notes": "Patient has a history of urological procedures, including suprapubic prostatectomy and urethral stricture. He is currently stable with good urine output.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00677885",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT02610621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient is a 45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Age 18 and older",
+      "label": "met",
+      "evidence": "45-year-old"
+    },
+    {
+      "criterion": "Not pregnant or lactating",
+      "label": "met",
+      "evidence": "She does not smoke or consume alcohol. She is not sexually active and has no children."
+    },
+    {
+      "criterion": "Clinical T1 or T2 invasive cancer with no suspicious palpable adenopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative fine needle aspiration or core biopsy for abnormal axillary nodes on preoperative imaging",
+      "label": "met",
+      "evidence": "Axillary sampling revealed 5 positive lymph nodes."
+    },
+    {
+      "criterion": "Planned treatment with breast conserving surgery and whole breast irradiation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chemotherapy required postoperatively based on patient and tumor characteristics at diagnosis",
+      "label": "met",
+      "evidence": "The patient is using multivitamins and iron supplements. She agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "Candidate for tumor resection",
+      "label": "met",
+      "evidence": "She is a candidate for tumor resection"
+    },
+    {
+      "criterion": "Age 18 and older",
+      "label": "met",
+      "evidence": "45-year-old"
+    },
+    {
+      "criterion": "Not pregnant or lactating",
+      "label": "met",
+      "evidence": "She does not smoke or consume alcohol. She is not sexually active and has no children."
+    },
+    {
+      "criterion": "Clinical T1 or T2 invasive cancer with no suspicious palpable adenopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative fine needle aspiration or core biopsy for abnormal axillary nodes on preoperative imaging",
+      "label": "met",
+      "evidence": "Axillary sampling revealed 5 positive lymph nodes."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Suspicious palpable axillary adenopathy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Biopsy demonstrating axillary nodal metastases",
+      "label": "triggers",
+      "evidence": "Axillary sampling revealed 5 positive lymph nodes."
+    },
+    {
+      "criterion": "Treatment by mastectomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neoadjuvant chemotherapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Co-morbidities rendering the patient not a candidate for chemotherapy, surgery, or irradiation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindication to radiation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. She has a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02610621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

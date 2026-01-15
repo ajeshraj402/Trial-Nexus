@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00265226",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sputum positive for pulmonary tuberculosis",
+      "label": "met",
+      "evidence": "positive sputum culture"
+    },
+    {
+      "criterion": "treated previously for more than 1 month as per the RNTCP/WHO guidelines",
+      "label": "met",
+      "evidence": "RNTCP/WHO guidelines"
+    },
+    {
+      "criterion": "Default/Treatment Failure/Treatment Relapse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "willing to give written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypersensitive to ATTs being administered",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-infected with HIV, hepatitis B or hepatitis C",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant and lactating females or females of child bearing age with a urine HCG positive result 24-48 hours prior to every injection of Mw till 8 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "abnormal renal function, liver function or hematological tests",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "seriously ill and moribund patients with complications such as low lung reserve, marked tachypnoea, chronic cor pulmonale, congestive heart failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severely malnourished patients with body mass index (BMI) < 15",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe hypoalbuminemia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00265226",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

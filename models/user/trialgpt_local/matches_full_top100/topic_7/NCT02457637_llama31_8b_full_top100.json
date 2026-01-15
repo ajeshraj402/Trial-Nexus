@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02457637",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic liver disease patients including non-alcoholic fatty liver disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients, chronic liver hepatitis patients without cirrhosis, compensated cirrhosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients and decompensated cirrhosis patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having acute liver injury [ALT(alanine aminotransferase)>3NL(normal level),AST(aspartate aminotransferase)>3NL or TB(total bilirubin)>2NL within 1 week - before enrollment] or acute decompensation[having ascites, hepatic encephalopathy, bacterial infection ,gastrointestinal bleeding or jaundice(TB>5NL)within 1 month]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inpatient (hospitalization >1 days)(including patient in emergency observation wards)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma or other liver malignancies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignancy of other organs",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic liver disease, including non-alcoholic fatty liver disease and decompensated cirrhosis. They have had recent hospitalization for UGIB and are being treated for hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02457637",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

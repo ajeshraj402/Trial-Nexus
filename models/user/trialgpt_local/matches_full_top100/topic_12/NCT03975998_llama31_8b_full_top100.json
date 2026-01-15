@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03975998",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "18-75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Asymptomatic patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe organic mitral valve regurgitation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Preserved left ventricular function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The likelihood of MV repair should be more than 90%",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pulmonary hypertension (>50 mmHg at rest)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation, either on 12-lead ECG or holter-monitoring",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and is symptomatic. She remains prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03975998",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

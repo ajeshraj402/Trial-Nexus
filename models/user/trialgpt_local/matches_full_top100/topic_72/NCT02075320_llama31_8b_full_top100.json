@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02075320",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226518 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known lung lesion(s) based on SOC non-contrast CT",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative urine pregnancy test in women of child-bearing potential (WCBP) within 1 week prior to s-DCT",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Undergone a non-contrast chest CT in a time frame that will accommodate experimental imaging (s-DCT) within 2 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Institutional Review Board (IRB) written informed consent obtained and signed",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Expose a fetus to unnecessary radiation exposure",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Intervening therapies or procedures (i.e. biopsy or excision of lesions) done in between the SOC imaging and the s-DCT",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02075320",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

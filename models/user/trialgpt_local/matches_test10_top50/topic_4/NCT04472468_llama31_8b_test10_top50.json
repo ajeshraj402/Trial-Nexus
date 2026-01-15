@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04472468",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed active malignancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of at least moderate (>10cm) pericardial effusion on CT or Echocardiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients unable to give an informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous history of open-heart surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous history of pericardial window or pericardial instillation of sclerosing therapy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "scheduled thoracic or cardiac surgery within the next 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients with contraindications for endovascular procedure such as disseminated intravascular coagulopathy or significant ongoing bleeding tendency, and systemic septicaemia.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient with small or loculated pericardial effusion that is not accessible by subxiphoid approach.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has confirmed active malignancy and moderate pericardial effusion, but previous history of open-heart surgery and scheduled thoracic or cardiac surgery within the next 3 months are unknown.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04472468",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

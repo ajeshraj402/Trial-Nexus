@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT00810849",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed pericardial effusion on echocardiography",
+      "label": "met",
+      "evidence": "echocardiography"
+    },
+    {
+      "criterion": "evidence of definite or probable tuberculous pericarditis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "within 1 week of starting antituberculosis treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "presence of an alternative cause of pericardial disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "use of corticosteroids within the previous month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hypersensitivity or allergy to the Mycobacterium w vaccine",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age < 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "patient has a history of viral encephalitis/meningitis and CSF leak with meningitis",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00810849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

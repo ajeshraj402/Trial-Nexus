@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02737241",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BPH surgical candidates",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failed medical treatment, IPSS score >15",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Peak urinary flow rate (Qmax) <15 ml/sec",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Recurrent attacks of urine retention with failed trial voiding",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hematuria of prostatic origin with failed medical treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vesical stone secondary to BPH",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative work up: All patients will be thoroughly evaluated by medical history and physical exam, digital rectal exam (DRE), prostate specific antigen (PSA), urinalysis and urine culture, international index of prostate symptom score (IPSS), transrectal ultrasound (TRUS) measurement of prostatic volume and biopsy whenever indicated, measurement of post-void residual assessment (PVR), and maximum urinary flow rate (Qmax).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Randomization: Patients will be randomly assigned to the study groups on the day of the surgery after signing the informed consent for participation in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with neurological disorder which might affect bladder function as cerebrovascular stroke or Parkinson disease.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active urinary tract infection.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of bladder cancer (within the last 2 years).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prostate cancer patients.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with bleeding tendency, ongoing anticoagulants or antiplatelet medications.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02737241",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

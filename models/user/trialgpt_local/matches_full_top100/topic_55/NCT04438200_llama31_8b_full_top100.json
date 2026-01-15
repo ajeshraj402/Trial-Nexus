@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04438200",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged >10 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-metabolic cause of death",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No longer than 24 hours since the time of death",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lived in Guatemala (exposure to fortified sugar)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Aged <10 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Individuals with metabolic or nutritional conditions",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Longer than 24 hours since the time of death",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Not Guatemalan resident (Tourist, visitor etc.)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration. No indication of metabolic or nutritional conditions.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04438200",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

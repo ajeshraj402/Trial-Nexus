@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT03068520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject with glial brain tumors",
+      "label": "met",
+      "evidence": "anaplastic astrocytoma of the spine"
+    },
+    {
+      "criterion": "Subjects with metastatic brain tumors that were treated with stereotactic radiation (SRS)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with metastatic brain tumors which were not treated",
+      "label": "met",
+      "evidence": "tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "glial tumor with no histological diagnosis",
+      "label": "does_not_trigger",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma"
+    },
+    {
+      "criterion": "non breast of lung metastasis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non compliance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to lay still during the scanning",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MRI non",
+      "label": "does_not_trigger",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma"
+    },
+    {
+      "criterion": "renal failure/gadolinium sensitivity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's metastatic status is unclear, but given the presence of a spinal cord conus mass and unresectable anaplastic astrocytoma, it may be assumed that this is not a case of non-breast or lung metastasis. However, further clarification would be necessary to confirm.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03068520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

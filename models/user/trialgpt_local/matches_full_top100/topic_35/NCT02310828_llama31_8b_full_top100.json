@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02310828",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-65 years male/female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "episodic and chronic cluster headache",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who meet the International Classification of Headache Disorders II criteria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "for medication overuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She has been diagnosed with migraine headache and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02310828",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

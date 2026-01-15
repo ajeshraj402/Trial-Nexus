@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02526459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "baby with cephalic presentation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "less than 34 weeks gestation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "planned Caesarean section",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intrauterine fetal demise",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fetus with congenital anomalies",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has myasthenia gravis, but no other abnormalities noted.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02526459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

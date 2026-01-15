@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04426435",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18- 70 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin level is at least 8g/dl",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Female gender",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known case of breast cancer",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unstable conditions",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Disabling Pulmonary Disease and History of Asthma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe kidney disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Creatinine level greater than 2mg/dl",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Proteinuria",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The SGOT level more than 3 times of the normal threshold",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Bilirubin levels greater than 2mg/dl",
+      "label": "not_met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "Positive history of hypersensitivity to saffron, rose water and honey",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Systemic disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive history of gout or high level of uric acid",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "An individual who uses antidepressants due to depression",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Simultaneous use of drugs that affect fatigue",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a known history of sickle cell disease and has been experiencing severe pain. He has had positive history of sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT04426435",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

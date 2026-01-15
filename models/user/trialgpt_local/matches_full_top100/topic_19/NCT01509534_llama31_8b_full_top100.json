@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01509534",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe, recurrent, certain or suspected reflex syncopes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "syncopes, aged \u2265 40 years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Reflex syncopes due to reversible causes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suspected of certain cardiac syncope",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Syncope caused by orthostatic hypotension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-syncopal causes of transient loss of consciousness",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01509534",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

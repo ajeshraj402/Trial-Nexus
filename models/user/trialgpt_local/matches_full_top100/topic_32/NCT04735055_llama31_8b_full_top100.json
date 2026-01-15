@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04735055",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "acute pancreatitis diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admitted to ER within 24 hours after the beginning of abdominal pain",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sign a treatment rejection form immediately after admission to the hospital and leave the hospital",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "uncompleted data",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric patients",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "very poor general conditions",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Lab results show hemoglobin: 9.7 g/dL, platelet: 110,000 /cu.mm, creatinine: 3.6 mg/dL, BUN: 73 mg/dL, direct bilirubin: 2.4 mg/dL, LDH: 881 IU/L.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04735055",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

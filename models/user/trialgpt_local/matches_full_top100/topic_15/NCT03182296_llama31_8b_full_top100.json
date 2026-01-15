@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03182296",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnancy with diagnosis of GDM, within the last 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No other previous pregnancies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Complete resolution of GDM after delivery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI between 17 and 30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy without problems in glucose homeostasis, within the last 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No other previous pregnancies",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Insulin secretion-sensitivity index-2 (ISSI-2) > 800 on oral glucose tolerance test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI between 17 and 30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous treatment (within 6 months) with synthetic exendin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Breast feeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current pregnancy",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Renal dysfunction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma and a diverticular abscess, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03182296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

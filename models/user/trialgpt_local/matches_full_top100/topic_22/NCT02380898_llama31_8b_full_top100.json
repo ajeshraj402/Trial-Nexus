@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02380898",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulligravida",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "healthy women",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "delivered single term baby",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists physical status 1 or 2",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous caesarean section",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-eclampsia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gestational diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "trauma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fractures or chronic pain in shoulder joints, forearms, upper limbs",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "cardiovascular or biliary system disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women undergoing emergency caesarean",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous history of abdominal surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02380898",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

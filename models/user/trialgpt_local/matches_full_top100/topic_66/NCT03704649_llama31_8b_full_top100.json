@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03704649",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participates in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "resides in Upper Manya Krobo district",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "is 12 to 16 years of age",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "does not speak local dialect - Krobo",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, but meets inclusion criteria and does not have any exclusion triggers.",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT03704649",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

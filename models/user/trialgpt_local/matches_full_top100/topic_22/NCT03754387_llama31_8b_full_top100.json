@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03754387",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "chronic appendicitis",
+      "label": "met",
+      "evidence": "suffered from chronic appendicitis"
+    },
+    {
+      "criterion": "US findings",
+      "label": "met",
+      "evidence": "hyperemia and fecalith, \u2264 1.1 cm in diameter, compressible or non-compressible, no abscess, no phlegmon"
+    },
+    {
+      "criterion": "CT findings",
+      "label": "met",
+      "evidence": "hyperemia and fecalith, fat stranding, \u2264 1.1 cm in diameter, no abscess, no phlegmon"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous abdominal surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gastro-intestinal entities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gynaecological disease",
+      "label": "met",
+      "evidence": "all female patients consulted a gynaecologist"
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03754387",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

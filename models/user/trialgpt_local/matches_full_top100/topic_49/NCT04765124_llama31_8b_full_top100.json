@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04765124",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Histologically confirmed HER2-positive breast cancer",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "Locally advanced disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Breast surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Transferred from another hospital",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Data transferred to another hospital",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH without estrogen therapy. She has short stature, delayed puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04765124",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

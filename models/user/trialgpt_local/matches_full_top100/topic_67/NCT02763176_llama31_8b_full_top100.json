@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02763176",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Intrauterine pregnancy <= 70 days' gestation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Be in general good health",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English speaking competency",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Be willing and able to sign consent forms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Agree to comply with the study procedures, including returning for three study visits that each involve a blood draw and urine pregnancy test for measuring hCG",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participating in the trial",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women less than 18 years of age",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A Pap smear revealed abnormal cervical squamous intraepithelial/glandular lesion. She tested positive for HPV 16.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT02763176",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

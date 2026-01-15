@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02150083",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women over the age of 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with stress urinary incontinence planning to undergo midurethral sling placement",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior incontinence surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Concomitant surgery for pelvic organ prolapse except for anterior repair",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intraoperative cystotomy",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients taking anticholinergic medication",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is considering a laparoscopic gastric bypass, but has prior incontinence surgery which likely triggers exclusion.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02150083",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

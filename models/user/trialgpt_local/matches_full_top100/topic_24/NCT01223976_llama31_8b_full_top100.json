@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01223976",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "psoriasis and psoriatic arthritis",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "aged 18-90",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of TB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known allergy to TST",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current or past treatment with anti-TNF alpha",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms and normal blood chemistry. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01223976",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02149797",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic cholelithiasis",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute cholecystitis",
+      "label": "not_met",
+      "evidence": "ultrasound"
+    },
+    {
+      "criterion": "choledocholithiasis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "less than 18 years old",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "American Society of Anesthesiologist (ASA) grade IV or V",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. CT scan showed evidence of acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02149797",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04573049",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic stenosis",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "Mean transaortic gradient \u2265 40 mmHg(at rest or stress)",
+      "label": "met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Arotic valve area <0.8 cm2 and/or aortic valve area index< 0.5cm2/m2",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "Cardiac dysfunction",
+      "label": "met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "LVEF\u226450% (estimated by Simpson)",
+      "label": "met",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "NT-proBNP\u22651500ng/L\uff1b",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptoms of dyspnea and fatigue when at rest or after slight exertion (New York Heart Association \u2265 \u2162 -\u2163)",
+      "label": "met",
+      "evidence": "He was sent home from cardiology clinic with Lasix and BB (which he did not tolerate), continued to have worsening SOB and LE edema"
+    },
+    {
+      "criterion": "Intermittant fluid retention and/or symptoms induced by low cardiac output at rest, but lack of hemodynamic instability",
+      "label": "met",
+      "evidence": "He was sent home from cardiology clinic with Lasix and BB (which he did not tolerate), continued to have worsening SOB and LE edema"
+    },
+    {
+      "criterion": "Signed (by the subjects or their legally acceptable representatives) informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "document indicating that they understand the purpose of and procedures required for the study and are willing to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Decompensated acute cardiac failure due to hemodynamic instability",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "A historty of torsade de points ventricular tachycardia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known allergic reaction or sensitivity to Levosimendan or excipients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Received levosimendan within 1 week prior to the planned clinical trial",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum potassium < 3.5 mmol/L and > 5.5 mmol/L before the drug study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Systolic blood pressure < 90mmHg at baseline",
+      "label": "not_met",
+      "evidence": "RV pressure was 41"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate (eGFR) \u226430 mL/min/1.73m2.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to participate in study for being critically ill asssed by clinicians",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, cardiac dysfunction, and symptoms of dyspnea and fatigue. However, he does not have decompensated acute cardiac failure due to hemodynamic instability or other exclusion criteria.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04573049",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

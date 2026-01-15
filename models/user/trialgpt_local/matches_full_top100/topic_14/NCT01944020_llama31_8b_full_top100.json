@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01944020",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical diagnosis of obstructive sleep apnea (OSA) and excessive daytime sleepiness",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "body mass index of at least 25 kg/m^2",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior treatment with CPAP",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "shift workers",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "type 2 diabetes",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "poorly controlled severe hypertension",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "anemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of coronary artery disease, transient ischemic attack, stroke",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently taking anti-psychotic, anti-depressive, or hypnotic medications",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "females currently taking hormone replacement therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01944020",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

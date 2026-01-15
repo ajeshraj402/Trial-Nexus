@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03684538",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute diarrhea",
+      "label": "met",
+      "evidence": "Patient presented with watery, non bloody diarrhea"
+    },
+    {
+      "criterion": "Patients whose parents signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who have dehydration according to the World Health Organization (WHO)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinical scale",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe dehydration",
+      "label": "not_met",
+      "evidence": "Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff"
+    },
+    {
+      "criterion": "Coexisting severe infection (e.g. sepsis, pneumonia, meningitis)",
+      "label": "not_met",
+      "evidence": "Pt was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**] with leukocytosis but no fever"
+    },
+    {
+      "criterion": "Immune deficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients whose parents refuse to provide written informed consent",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who do not comply with treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03684538",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

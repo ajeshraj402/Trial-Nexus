@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03291678",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age above six months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "SEX must be male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Surgical approach is closure of internal ring via percutaneous technique after delivery of undescended testis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age less than 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with palpable undescended testis",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03291678",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04153721",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled_colorectal_surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admission_within_8_days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "email_address_and_internet_connection",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "informed_consent_ability",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under_18_years_old",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant_or_lactating",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "under_guardianship",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for follow-up lab studies after his primary resection surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT04153721",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

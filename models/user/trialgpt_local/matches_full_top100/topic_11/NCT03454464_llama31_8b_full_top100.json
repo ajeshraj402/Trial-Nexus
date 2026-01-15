@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03454464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Tumor diameter less than 1cm",
+      "label": "met",
+      "evidence": "The tumor is located in the lower part of the gland"
+    },
+    {
+      "criterion": "No lateral cervical lymph node metastases",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Traditional open surgery",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Select the endoscopic surgery or robotic surgery patients",
+      "label": "triggers",
+      "evidence": "Tumor invades the surrounding trachea and esophagus"
+    },
+    {
+      "criterion": "Patients refused to participate",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with significant symptoms, but meets inclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03454464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

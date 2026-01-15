@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04555499",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected_stroke",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "epigastric_tenderness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "right_upper_quadrant_tenderness",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unconscious",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain, nausea, and vomiting. She has gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04555499",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

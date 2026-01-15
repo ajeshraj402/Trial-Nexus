@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00495157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical history consistent with asthma",
+      "label": "met",
+      "evidence": "The patient is a 15-year-old boy with asthma diagnosed a year ago."
+    },
+    {
+      "criterion": "Forced expiratory volume in one second (FEV1) greater than 40% of predicted value",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted."
+    },
+    {
+      "criterion": "Asthma confirmed by one of the following two criteria:",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Beta-agonist reversibility to 4 puffs albuterol of at least 12%",
+      "label": "not_met",
+      "evidence": "He didn't respond to the usual corticosteroid inhaler."
+    },
+    {
+      "criterion": "Need for daily controller therapy (i.e., inhaled corticosteroids, leukotriene modifiers, and/or long-acting beta-agonists) based on one or more of the following criteria:",
+      "label": "met",
+      "evidence": "He is a candidate for general corticosteroid therapy."
+    },
+    {
+      "criterion": "Received prescription for or used asthma controller within the 12 months prior to study entry OR Experienced symptoms for more than twice a week and not on asthma controller",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "If on inhaled steroids (any drug at any dose not exceeding the equivalent of 1000 micrograms (mcg) of fluticasone daily), participant must have been on a stable dose for at least 2 weeks prior to study entry",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non-smoker (i.e., total lifetime smoking history less than 10 pack-years; no smoking for at least 1 year prior to study entry)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing to use an effective form of birth control throughout the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to measure peak expiratory flow (PEF) each morning using the electronic peak flow meter (EPFM) device and to accurately transcribe the PEF measurements onto the diary cards at least 75% of the time during the last 2 weeks of the adherence testing period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "75% compliance with recording peak flow measurements and symptoms in a symptom diary during the last 2 weeks of the adherence testing period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to take Inhalers A, B, and C at least 75% of scheduled doses; 75% compliance per inhaler is required",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Lung disease other than asthma, including chronic obstructive pulmonary disease (COPD) and chronic bronchitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Established or suspected diagnosis of vocal cord dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant medical illness other than asthma",
+      "label": "not_met",
+      "evidence": "His past medical history is non-significant."
+    },
+    {
+      "criterion": "History of respiratory tract infection within the 4 weeks prior to study entry",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of a significant exacerbation of asthma within the 4 weeks prior to study entry",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hyposensitization therapy other than an established maintenance regimen",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently experiencing symptoms. He is willing to use an effective form of birth control throughout the study.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00495157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

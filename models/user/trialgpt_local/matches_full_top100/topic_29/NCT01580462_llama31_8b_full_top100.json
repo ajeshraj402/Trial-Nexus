@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01580462",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 diabetes for min. 1 year",
+      "label": "met",
+      "evidence": "patient's history"
+    },
+    {
+      "criterion": "CSII",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to come for one additional visit in outpatient diabetes clinic",
+      "label": "met",
+      "evidence": "patient's statement"
+    },
+    {
+      "criterion": "using glucometers",
+      "label": "met",
+      "evidence": "patient's report"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "no possibility to download data from patient's glucometer and insulin pump",
+      "label": "triggers",
+      "evidence": "patient is homeless and lost his supply of glucometer, syringes, etc."
+    }
+  ],
+  "notes": "Patient has had previous episodes of diabetic ketoacidosis but appears well with current episode of hyperglycemia.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01580462",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

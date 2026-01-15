@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02968758",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Unformed Stool specimens from patients suspected of having CDI for whom diagnostic tests are indicated and ordered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 1.25mL of unformed stool specimen (defined as specimen assuming the shape of its container)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Only one (1) specimen per patient will be included in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Materials use within their expiration date",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transport, storage times, and conditions (e.g. room temperature and/or refrigerated) within requested indications",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Specimens from patients for whom CDI diagnostic tests have not been ordered",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transport and storage times and conditions that exceed these Study Protocol requirements",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Formed or hard stool specimens or rectal swabs",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a recent history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. The stool samples were positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02968758",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

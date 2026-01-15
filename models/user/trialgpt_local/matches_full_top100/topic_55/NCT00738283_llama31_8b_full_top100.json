@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00738283",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Presence of ileostomy due to any disease or condition",
+      "label": "met",
+      "evidence": "necrotizing enterocolitis"
+    },
+    {
+      "criterion": "Minimum birth weight of 500g",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Likely to survive",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dysmotility of the gastrointestinal system",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major congenital anomalies, including heart disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Meconium ileus",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease confirmed by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00738283",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

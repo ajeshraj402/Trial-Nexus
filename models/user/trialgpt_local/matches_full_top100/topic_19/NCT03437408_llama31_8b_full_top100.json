@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03437408",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ventricular Tachycardia",
+      "label": "met",
+      "evidence": "scheduled for ablation on clinical grounds"
+    },
+    {
+      "criterion": "\u226518 years old",
+      "label": "met",
+      "evidence": "no evidence provided"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable/unwilling to consent",
+      "label": "not_met",
+      "evidence": "able/willing to consent"
+    },
+    {
+      "criterion": "contraindication to clinical ablation",
+      "label": "not_met",
+      "evidence": "no contraindication to clinical ablation"
+    }
+  ],
+  "notes": "Patient has history of CAD, MI, HLD, HTN, and ventricular tachycardia. He was recently discharged after a negative work-up for syncope.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03437408",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02301520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Haitian ethnicity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between nine months and six years",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of a chronic medical condition other than malnutrition",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Residence outside of Haiti (i.e. visiting children who usually live abroad)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02301520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

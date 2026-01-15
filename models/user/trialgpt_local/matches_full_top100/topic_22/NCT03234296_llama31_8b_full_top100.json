@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03234296",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18-60 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CT confirmed uncomplicated acute appendicitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 or over 60 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy or contraindication to antibiotic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metformin medication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal insufficiency",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe systemic illness (for example malignancy, medical condition requiring immunosuppressant medication)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Complicated acute appendicitis confirmed by CT scan",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to cooperate or give informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with uncomplicated acute appendicitis, able to give informed consent.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03234296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

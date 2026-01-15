@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02429349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pre- and post-pubertal patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "diagnosed with conditions that necessitate chemo- or radiotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute or chronic conditions that would preclude surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hyper- or hypo-coagulation disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lung conditions precluding mechanical ventilation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "brain death",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cancers with high risk of ovarian metastasis such as leukemia and non-Hodgkin lymphoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known positive bone marrow for leukemia or solid tumor",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tumor in an organ that communicates with the peritoneum and peritoneal sampling at time of primary excision shows evidence of disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients older than 40 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "males",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, treating with GH without estrogen therapy. She has short stature, delayed in puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02429349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

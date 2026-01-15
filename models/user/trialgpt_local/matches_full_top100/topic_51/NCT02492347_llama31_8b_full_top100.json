@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02492347",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Neonates 37 weeks or more gestation at birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age of parent/ person with parental responsibility being at least 16 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically well parent/ person with parental responsibility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English Speaking parent/ person with parental responsibility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neonate at least 48 hours old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Maternal SSRI use at any point in pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates less than 37 weeks gestation at birth",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age of parent/ person with parental responsibility under 16 years old",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a pregnant woman who developed a sudden onset of fever and chills, accompanied by nausea and vomiting. She also complains of dysuria, urgency, and frequency.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02492347",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

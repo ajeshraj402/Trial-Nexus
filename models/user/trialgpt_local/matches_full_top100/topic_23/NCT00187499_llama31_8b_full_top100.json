@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00187499",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "history of asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PC20FEV1 Methacholine \u2264 8.0 mg/mL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "asthma symptoms on at least two days per week or Beta agonist use on at least two days per week or FEV1 < 85% predicted",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "non-smokers (patients who have never smoked or patients who have not smoked for 1 year and have a total pack-year smoking history < 15 packs)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of oral or inhaled steroid use in the past 4 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FEV1 < 60% predicted",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lung disease other than asthma",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma, meets FEV1 criteria, and does not have a history of oral or inhaled steroid use in the past 4 weeks.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00187499",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02858102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition (DSM-IV) criteria for depression",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "criteria for bipolar disorder or psychosis (at least 5 years of diagnosis)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Meet criteria for metabolic syndrome (NCEP-ATP III 2003)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Capable of providing signed and dated written informed consent in accordance with Good Clinical Practice (GCP) and the local legislation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women of child-bearing potential must be ready and able to use highly effective methods of birth control",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Dependence or severe alcohol consumers (>300 g/week)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Co-infection with Hepatitis B, C or HIV",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of alcohol consumption (60 units/week), but it is not severe (>300 g/week). The lab results show leukocytosis and high CRP, which may indicate an underlying condition.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02858102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

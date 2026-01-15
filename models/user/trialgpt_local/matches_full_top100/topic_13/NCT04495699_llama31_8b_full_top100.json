@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04495699",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "non-obstructing renal stone(s) on imaging within 6 months of initial visit",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recurrent UTIs, defined as 3 positive urine cultures of specific organisms with symptoms within 12 months (or 2 positive cultures with symptoms within 6 months) prior to clinical assessment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age < 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hydronephrosis or evidence of obstruction",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of a foreign body in urinary tract (e.g. Foley, ureteral stent, nephrostomy tube) at the time of UTI diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concurrent bladder calculi",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Urinary diversion or previous surgery involving segments of bowel interposed into the urinary tract (ileal conduit, ileal ureter etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. The patient presents with urosepsis now resolved after treatment.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04495699",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

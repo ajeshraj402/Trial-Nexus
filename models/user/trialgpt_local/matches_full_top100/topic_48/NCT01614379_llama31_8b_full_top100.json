@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01614379",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 1 diabetic patient with ischemia in the lower extremities determined from conventional clinical measurements",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetic foot ulcer with a Wagner score of 0-2",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Do not use prescription drugs",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI is between 20 and 30",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "If subject does not apply to the MR safety rules",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Less then 18 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has a planed amputation of a lower extremity as part of treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetic foot ulcer with a Wagner score of 3-5",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Internal insulin pump",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has tinea pedis infection, no underlying disease such as DM. Smokes and drinks moderately.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01614379",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03736915",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sample size for pilot study are used.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "healthy in general, male and aged 18 to 60 years old.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of blood or coagulation disorder",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "currently active smoker or already stopped less than 1 month",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has sickle cell disease and is experiencing severe bone pain. They have a history of positive sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT03736915",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

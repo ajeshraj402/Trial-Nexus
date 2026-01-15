@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02294279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 18-80 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Non-specific respiratory symptoms",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "FEV1 < 90% predicted",
+      "label": "not_met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted."
+    },
+    {
+      "criterion": "Reversibility to short-acting beta-agonist",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women of childbearing potential using contraception",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic respiratory disease or significant risk factor for cough or wheeze",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Respiratory tract infection within four weeks prior to visit 1",
+      "label": "not_met",
+      "evidence": "He had these symptoms for 5 days during the past 2 weeks."
+    },
+    {
+      "criterion": "Asthma diagnosis evidenced by UK quality outcome framework approved Read code and reversibility of \u2265 20% predicted",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Received oral, inhaled or systemic corticosteroids within four weeks prior to visit 1",
+      "label": "not_met",
+      "evidence": "He doubled his oral corticosteroids in the past week."
+    },
+    {
+      "criterion": "Significant chronic respiratory disorder other than asthma",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant medical condition that would make it unlikely for the patient to complete the study",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02294279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

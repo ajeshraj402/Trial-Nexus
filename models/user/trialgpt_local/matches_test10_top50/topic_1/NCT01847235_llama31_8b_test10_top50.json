@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT01847235",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven anaplastic oligodendroglioma or oligoastrocytoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Progressed or relapsed after surgery or radiation therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female or male aged 20 years or over",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least 1 measurable mass lesion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status 0-3",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate organ function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "absolute neutrophil count > 1,500/\u03bcL",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "platelet count > 75,000/\u03bcL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hemoglobin greater than 9 g/dL or 900g/L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serum creatinine less than 1.5 times the upper limit of laboratory normal",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior course of temozolomide",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Combined glioblastoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant woman",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has undergone radiation therapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01847235",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

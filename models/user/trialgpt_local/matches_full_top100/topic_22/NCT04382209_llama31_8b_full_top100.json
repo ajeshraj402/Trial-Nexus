@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04382209",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "surgery_type",
+      "label": "met",
+      "evidence": "laparoscopic appendectomy under general anesthesia"
+    },
+    {
+      "criterion": "surgery_duration",
+      "label": "met",
+      "evidence": "operation of anticipated duration of more than one hour"
+    },
+    {
+      "criterion": "surgery_indication",
+      "label": "met",
+      "evidence": "benign or malignant disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bleeding_diathesis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "drug_allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "myocardial_insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_function",
+      "label": "met",
+      "evidence": "normal vital signs"
+    },
+    {
+      "criterion": "infection_at_needle_puncture_area",
+      "label": "not_met",
+      "evidence": "temperature is within the normal limits"
+    }
+  ],
+  "notes": "The patient has abdominal pain and a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04382209",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

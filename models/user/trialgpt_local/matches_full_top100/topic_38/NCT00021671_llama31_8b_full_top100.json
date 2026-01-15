@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00021671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "20 to 24 weeks pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to take the planned antibiotic treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planning to deliver at 1 of the study sites",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing to come back for follow-up visits for 1 year after the baby is born",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have taken antibiotics, except for syphilis or gonorrhea, within the last 2 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Are allergic to penicillin, ampicillin, erythromycin, or metronidazole",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have major illnesses, such as diabetes, severe kidney or heart disease, or active tuberculosis, which might affect the pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Are having major problems with the pregnancy, such as placenta previa, ruptured membranes, or multiple pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a central nervous system disease, such as seizures",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Are taking anticoagulant drugs",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has myasthenia gravis and takes pyridostigmine. She still experiences symptoms that interfere with her job.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT00021671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

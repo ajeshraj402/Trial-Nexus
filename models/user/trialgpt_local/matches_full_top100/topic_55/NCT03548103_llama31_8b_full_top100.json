@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03548103",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 20 to 65 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently taking antipsychotics or mood stabilizers.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI should be \u2265 27 kg/m2.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Good adherence to medications as recorded by chart.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Competent to understand the informed consent and have motivation to decrease their body weight.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable psychiatric symptoms or physical condition that may interfere the adherence of medication.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Medical conditions such as endocrine disease, heart disease, allergy or immunology disease, or impaired liver function (high aminotransferases, alanine, aspartate >80 IU/L or serum creatinine >2.5 mg/dl).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or lactating women.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Childbirth within 6 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Management for weight control within 3 months.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wilson disease, but no other conditions that would make them ineligible.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03548103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

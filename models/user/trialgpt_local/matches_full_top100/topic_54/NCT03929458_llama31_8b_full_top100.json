@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03929458",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Both sexes aged between 20-90 years.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Received stable hemodialysis at least 3 months.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Written informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with severe infections, severe heart disease and liver disease, malignancy,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "autoimmune disorders, severe malnutrition, or clinical conditions requiring oral nutrition supplements;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to follow protocol.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or wishing/trying to get pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Wegener's granulomatosis and is being treated with corticosteroid and cyclophosphamides. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03929458",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

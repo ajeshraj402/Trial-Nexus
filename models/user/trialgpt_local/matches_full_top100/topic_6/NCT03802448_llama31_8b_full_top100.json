@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT03802448",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women at early of the third trimester complaining from idiopathic CTS (pain, numbness and tingling of the hand)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "confirmed by electrophysiological examination (i.e. delayed median DML < 3.9 msec) as well as positive Phalen's test",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes mellitus, pre-eclampsia, rheumatoid arthritis, previous CTS symptoms, acute hand trauma, cervical spondylosis, previous surgeries in the forearm involving the median nerve, peripheral neuropathy and pronator teres syndrome",
+      "label": "triggers"
+    },
+    {
+      "criterion": "pacemaker and heart diseases that might interfere with electrophysiological testing",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03802448",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

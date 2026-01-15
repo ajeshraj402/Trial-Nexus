@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02099006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women between ages of 18 and 65",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "meet the criteria for the diagnosis of localized provoked vulvodynia.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients who have failed or have been unable to tolerate previous attempts at systematic therapy or surgery will be specifically recruited.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The presence of a dermatologic or neurologic condition which is determined by the investigator to be the primary cause of the patient's pain.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to any of the medications or the base itself.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of the following medications. . The patient may enroll in the study after a two week washout from these medications.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Failure to obtain approval from the prescribing physician before stopping these medications.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of ESRD on HD and peritoneal dialysis, but no mention of dermatologic or neurologic conditions. Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02099006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

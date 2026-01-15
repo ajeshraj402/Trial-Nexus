@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01947556",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diabetes mellitus type 1 or 2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Body-Mass Index \u226525 kg/m2 and \u226440 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stable glycaemic control with HbA1c \u226548 (6.5%) and \u226486 mmol/mol (10%)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Insulin treatment according to basal-bolus regimen, i.e. by multiple daily injections at least four times daily, or by subcutaneous insulin pump, for at least 12 months,",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "use of metformin allowed",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Insulin requirement of <34 or >200 units per day",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with systemic corticosteroids, immunosuppressive or cytostatic drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known allergy to aspart insulin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of oral antidiabetic drugs other than metformin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Symptomatic diabetic neuropathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of a major cardiovascular disease event (myocardial infarction, stroke, symptomatic peripheral artery disease, coronary bypass surgery, percutaneous coronary or peripheral artery angioplasty) in the previous 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or the intention to become pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has had type 1 diabetes for 11 years, currently homeless and lost insulin supply. Has been on basal-bolus regimen with insulin glargine and aspart.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01947556",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

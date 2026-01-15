@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00933140",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "54-year-old woman"
+    },
+    {
+      "criterion": "HIV infected women",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "due for cervical cytologic screening",
+      "label": "met",
+      "evidence": "Pap smear in a 54-year-old woman revealed abnormal cervical squamous intraepithelial/glandular lesion"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "On chronic anticoagulation medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy of the woman is less than 1 year",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "If the woman has had a cervical or anal pap test in the last 6 months",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "She tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00933140",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

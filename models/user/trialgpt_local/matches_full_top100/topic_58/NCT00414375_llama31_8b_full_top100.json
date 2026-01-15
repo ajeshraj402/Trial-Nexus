@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00414375",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "appendicitis_diagnosis",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "immune_deficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical_decision_making",
+      "label": "not_met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "severe_pain_management",
+      "label": "met",
+      "evidence": "He is now a candidate for emergent laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "notes": "Seventeen-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Diagnosed with acute perforated appendicitis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00414375",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

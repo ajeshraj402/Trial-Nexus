@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01856894",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "short stature",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "delayed in puberty",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "developmental delay",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Turner syndrome diagnosis",
+      "label": "met",
+      "evidence": "karyotype study"
+    },
+    {
+      "criterion": "GH treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "physical exam"
+    },
+    {
+      "criterion": "mental retardation",
+      "label": "met",
+      "evidence": "physical exam"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "alanine aminotransferase (60 IU/l)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "creatinine (130 mmol/l)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known alcohol abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment with oral glucocorticoids or hormonal contraceptives",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Turner syndrome and is being treated with GH. She does not have any exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01856894",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

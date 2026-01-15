@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "child stool test must be positive for STH",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "has not been taken any antehelminthic drug in the previous six months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age of the child less than 2 years old and more than 5 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "his/her stool test negative for any intestinal helminth",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "16-year-old girl with Hashimoto disease, no chronic illness or antehelminthic treatment",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01833819",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "American Society of Anesthesiologists I-II patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "20-60 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "American Society of Anesthesiologists III and above patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI: 35 and above",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 55 year old man with lower urinary tract symptoms. He has normal blood chemistry and no history of chronic pain or psychiatric disease.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01833819",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

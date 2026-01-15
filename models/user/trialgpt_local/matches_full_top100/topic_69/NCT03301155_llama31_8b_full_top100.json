@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03301155",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children of either gender aged from 1 month to 6 years old.",
+      "label": "met"
+    },
+    {
+      "criterion": "The absence of clinical symptoms of any infectious disease, but not earlier than 14 days from its onset.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Seasonal rise in ARVI incidence, confirmed by official information.",
+      "label": "met"
+    },
+    {
+      "criterion": "An information sheet (Informed Consent form) for the subject participation in the clinical trial signed by one parent/adopter of the patient.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute or subacute period of infectious disease of any etiology (viral, bacterial, fungal, etc.) and localization (including upper and lower respiratory tract infection, meningitis, sepsis, otitis media, urinary tract infection, intestinal infection, etc.).",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of (verified previously) or current suspected conditions such as: primary or secondary immunodeficiency;",
+      "label": "unknown"
+    }
+  ],
+  "notes": "A healthy 67-year-old woman with no underlying disease, who works at a rehab center and has no allergies to any food or drugs. She exercises regularly for 30 minutes a day at least 5 days a week.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT03301155",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

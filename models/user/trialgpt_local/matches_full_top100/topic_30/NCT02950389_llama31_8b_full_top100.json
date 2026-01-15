@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02950389",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "lambda chains",
+      "label": "met",
+      "evidence": "no mention of levels"
+    },
+    {
+      "criterion": "free light chain values >100 mg/L for k chains or >50 mg/L for lambda chains",
+      "label": "met",
+      "evidence": "no mention of levels"
+    },
+    {
+      "criterion": "absence or <200 ml/die residual diuresis",
+      "label": "met",
+      "evidence": "no mention of diuresis"
+    },
+    {
+      "criterion": "fistula or central venous catheter with blood flow >250 ml/min",
+      "label": "unknown",
+      "evidence": "no mention of blood flow"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dialysis",
+      "label": "triggers",
+      "evidence": "patient is on dialysis"
+    },
+    {
+      "criterion": "multiple myeloma requiring the double PMMA filter application",
+      "label": "unknown",
+      "evidence": "no mention of multiple myeloma diagnosis or treatment"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but no other relevant medical history mentioned.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02950389",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

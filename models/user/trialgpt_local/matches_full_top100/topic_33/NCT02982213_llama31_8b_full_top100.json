@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "health_status",
+      "label": "met",
+      "evidence": "healthy woman with no underlying disease"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "in labor"
+    },
+    {
+      "criterion": "medication_use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "met",
+      "evidence": "uses barrier methods of contraception"
+    },
+    {
+      "criterion": "smoking_status",
+      "label": "met",
+      "evidence": "does not smoke"
+    },
+    {
+      "criterion": "allergy_history",
+      "label": "met",
+      "evidence": "no history of allergies to any food or drugs"
+    },
+    {
+      "criterion": "surgical_history",
+      "label": "met",
+      "evidence": "significant for tonsillectomy"
+    },
+    {
+      "criterion": "exercise_frequency",
+      "label": "met",
+      "evidence": "exercises regularly for 30 minutes a day at least 5 days a week"
+    },
+    {
+      "criterion": "anxiety_level",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pain_perception",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial_anesthesia_for_cesarean_delivery",
+      "label": "not_met",
+      "evidence": "not receiving neuraxial anesthesia for a cesarean delivery"
+    },
+    {
+      "criterion": "external_cephalic_version",
+      "label": "not_met",
+      "evidence": "not undergoing external cephalic version"
+    },
+    {
+      "criterion": "non_labor_procedure",
+      "label": "not_met",
+      "evidence": "in labor, not a non-labor procedure"
+    },
+    {
+      "criterion": "support_person_present",
+      "label": "met",
+      "evidence": "has a support person present at the time of the neuraxial procedure"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

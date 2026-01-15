@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02786940",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult (age \u226518 years) patients with syncope",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "High-risk as per the Canadian Syncope Arrhythmia Risk Score (score > or =3)",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "being discharged home after ED physician or consultant assessment",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Syncope patients with a score <3",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those who are hospitalized",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previously enrolled",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 65-year-old man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02786940",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

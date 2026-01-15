@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03521011",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Any Case Of Acute Abdominal Pain",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "suspected to be surgical cases in adults",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "If pediatric ",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "If associated with pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The patient have severe cardiac or respiratory disease ,cant to lie supine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "If suspected medical case of acute abdomen",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, fever, tenderness, rebound tenderness, guarding on palpation, elevated WBC, dominant neutrophils, CT scan showing acute perforated appendicitis, diagnostic laparoscopy revealing phlegmon. Candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03521011",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

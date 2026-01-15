@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT04303026",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "Continuous worsening of hip pain with an onset of minimum 3 months",
+      "label": "met",
+      "evidence": "getting worse"
+    },
+    {
+      "criterion": "Hip Pain intensity >40mm on a visual analogue scale (VAS) ranging from 0 (no pain) to 100mm (maximal pain) during weight bearing for the last 7 days",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HHS < 65 (Harris Hip Score)",
+      "label": "met",
+      "evidence": "not specified"
+    },
+    {
+      "criterion": "Hip OA fulfilling the ACR (American College of Rheumatology) criteria",
+      "label": "met",
+      "evidence": "diagnosed with Paget's disease of bone"
+    },
+    {
+      "criterion": "Hip MRI scan showing large (>1 cm diameter) Bone Marrow lesions (BMLs)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Willing and able to consent and comply with the study protocol",
+      "label": "met",
+      "evidence": "The diagnosis of Paget's Disease of Bone is confirmed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "eGFR (estimated glomerular filtration rate) < 35 ml/min or hypocalcemia",
+      "label": "not_met",
+      "evidence": "not specified"
+    },
+    {
+      "criterion": "Exposure to any treatment affecting bone other than Ca+D ( bisphosphonates, Denosumab teriparatide or continuous treatment of prednisolone)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diseases affecting bone and joints (i.e inflammatory joint diseases, osteonecrosis with segmental collapse and deformation, primary bone cancer or known skeletal metastases)",
+      "label": "not_met",
+      "evidence": "diagnosed with Paget's disease of bone"
+    },
+    {
+      "criterion": "Severe vitamin D deficiency (S-25(OH)D < 25 nmol/l) has to be supplemented with Ca+D before zoledronic acid infusion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ipsilateral knee prosthesis",
+      "label": "not_met",
+      "evidence": "not specified"
+    },
+    {
+      "criterion": "Contralateral hip prosthesis",
+      "label": "not_met",
+      "evidence": "not specified"
+    },
+    {
+      "criterion": "Women of child bearing potential (WOCBP). Female participants must be in a postmenopausal state or permanent sterile.",
+      "label": "met",
+      "evidence": "sister had the same problems, she was diagnosed with Paget's disease of bone when she was 52 years old"
+    },
+    {
+      "criterion": "Hypersensitivity or previous allergic reaction to ZA or other bisphosphonates",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 53-year-old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is getting worse. Examination shows bilateral swellings around the molars.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT04303026",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

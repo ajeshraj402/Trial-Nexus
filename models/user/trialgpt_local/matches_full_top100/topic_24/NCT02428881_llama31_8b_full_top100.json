@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02428881",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Fowler's syndrome",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "abnormal sphincter function",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "willing to give written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willing to attend necessary follow up visits",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pain thought to originate from urinary tract",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous urethral surgery (other than urethral dilatation)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neurological disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02428881",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

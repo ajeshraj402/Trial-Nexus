@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01866800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "planned trans-femoral TAVI",
+      "label": "met",
+      "evidence": "undergoing planned trans-femoral TAVI"
+    },
+    {
+      "criterion": "eGFR below 60ml/min/1.73m2 (MDRD)",
+      "label": "unknown",
+      "evidence": "Calculated eGFR below 60ml/min/1.73m2 (MDRD)"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Subject is able and willing to give an informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute coronary syndrome in the past 30 days",
+      "label": "not_met",
+      "evidence": "no history of acute coronary syndrome"
+    },
+    {
+      "criterion": "congestive heart failure with left ventricular ejection fraction <30% or exacerbation in the past 30 days",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "current dialysis treatment",
+      "label": "not_met",
+      "evidence": "no current dialysis treatment"
+    },
+    {
+      "criterion": "furosemide hypersensitivity",
+      "label": "unknown",
+      "evidence": "no known furosemide hypersensitivity"
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms, including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01866800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

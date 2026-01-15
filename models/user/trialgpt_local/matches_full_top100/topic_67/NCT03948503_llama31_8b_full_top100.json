@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03948503",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ankle sprain since 2 weeks to 12 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Grade 1 or 2 ankle sprain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Asymetrical dorsi-flexion limitation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute or Grade 3 ankle sprain",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "More than 12 weeks ankle sprain",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any other trauma of the lower limb",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of abnormal cervical squamous intraepithelial/glandular lesion and is sexually active.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT03948503",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

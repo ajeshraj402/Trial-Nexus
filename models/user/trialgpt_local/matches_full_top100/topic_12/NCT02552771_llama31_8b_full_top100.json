@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02552771",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "mitral regurgitation and mitral valve prolapse",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective mitral valve repair by an experienced surgeon",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "repair rate > 90%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to perform leaflet resection or preservation strategy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anterior leaflet or commissural prolapse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "endocarditis or rheumatic mitral valve disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "mitral annular calcification extending beyond one leaflet scallop",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant LV dysfunction (LVEF < 40%)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "concomitant aortic valve surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unable to undergo bicycle ergometry",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe mitral regurgitation and mitral valve prolapse, but also has significant LV dysfunction (LVEF < 40%).",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02552771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02084134",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adult patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pituitary adenoma or cyst",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non-functioning, prolactin secreting, growth hormone secreting, gonadotropin secreting, or TSH secreting hormone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "scheduled to undergo transsphenoidal resection",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cushing's Disease (pituitary tumor which secretes ACTH)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with a history of pituitary apoplexy (condition caused by hemorrhage into a pituitary adenoma which causes headache, double vision and hypopituitarism)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on long term glucocorticoid therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with adrenal insufficiency or who have not had their adrenal response evaluated prior to surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma and underwent transsphenoidal surgery 4 months ago. He takes only vitamin D and multivitamins after the surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT02084134",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

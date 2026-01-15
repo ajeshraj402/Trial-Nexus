@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04157439",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "limited_range_of_motion",
+      "label": "met",
+      "evidence": "patient reports pain"
+    },
+    {
+      "criterion": "pain_nprs",
+      "label": "met",
+      "evidence": "NPRS score not provided, but patient reports severe pain"
+    },
+    {
+      "criterion": "upper_trapezius_trigger_points",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has a history of hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04157439",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

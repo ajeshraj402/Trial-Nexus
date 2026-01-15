@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT03332355",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female \u2265 18 years of age",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Diagnosis of advanced solid tumor or hematologic malignancy (limited to lymphoma) that has failed or become intolerant to standard therapy (Component 1 - single agent PAC-1)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of high grade glioma: glioblastoma multiforme (GBM) or anaplastic astrocytoma after progression following treatment with standard first line therapy",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma"
+    },
+    {
+      "criterion": "Has measurable disease, defined as at least 1 tumor that fulfills the criteria for a target lesion according to RECIST 1.1 (Component 1)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's history of anaplastic astrocytoma and lack of information on measurable disease make it uncertain whether they meet inclusion criteria or are excluded due to high-grade glioma.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03332355",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

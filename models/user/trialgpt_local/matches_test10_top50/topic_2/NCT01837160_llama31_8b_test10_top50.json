@@ -1,0 +1,35 @@
+{
+  "trial_id": "NCT01837160",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asymptomatic mild aortic stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "severe aortic stenosis proceeding to aortic valve replacement",
+      "label": "met",
+      "evidence": "history"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "atrial fibrillation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatic failure (Childs-Pugh grade B or C)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01837160",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

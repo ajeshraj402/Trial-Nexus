@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00361179",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomized",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "treated",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "returned for follow up in the ML17862",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unwilling to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "already initiated anti-HCV or HBV treatment",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has HCV and recent coinfection with HBV, but is on direct antiviral drugs. No evidence of other liver diseases.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT00361179",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

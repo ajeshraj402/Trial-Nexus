@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00861887",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "First episode of Clostridium difficile colitis",
+      "label": "met",
+      "evidence": "positive toxin assay"
+    },
+    {
+      "criterion": "diarrhea",
+      "label": "met",
+      "evidence": "bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous diagnosis of Clostridium difficile colitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "concomitant use of oral Metronidazole",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool samples for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT00861887",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

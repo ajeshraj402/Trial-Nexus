@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01843478",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV infection",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 months or more since Pap test",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Speak & read English",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eligible for cervical cancer screening",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Plans to have Pap testing at Johns Hopkins Hospital",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of hysterectomy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently pregnant",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer and is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01843478",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

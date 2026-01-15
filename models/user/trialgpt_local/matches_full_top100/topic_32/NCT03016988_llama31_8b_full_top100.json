@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03016988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pathologically confirmed, previously untreated MCL or relapsed MCL as defined by the World Health Organization classification",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age\u226518 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate haematologic function (haemoglobin > 9.0 g/l, absolute neutrophil count > 1500/ml, platelets > 75,000/l)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate hepatic function (total serum bilirubin \u2264 1.5 times the upper limit of normal, alanine aminotransferase and aspartate aminotransferase \u2264 2.5 times the upper limit of normal)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adequate renal function (serum creatinine \u2264 1.5 mg/dl, creatinine clearance \u2265 50 ml/min)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "normal coagulation function and electrocardiogram results",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness to provide written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MCL patients who do NOT response or are refractory to preview treatment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Who do NOT sign the consent form",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "whose life expectation is less than 6 months",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He has laboratory results showing hemoglobin: 9.7 g/dL, platelet: 110,000 /cu.mm, creatinine: 3.6 mg/dL, direct bilirubin: 2.4 mg/dL, lactate dehydrogenase (LDH): 881 IU/L and peripheral blood smear showing a moderate number of schistocytes and helmet cells.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03016988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

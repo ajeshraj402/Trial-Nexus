@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01825863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age above 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing diagnostic laparoscopy for acute appendicitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "American Society of Anaesthesiology group 1-3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "General Anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to cooperate",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to understand and talk danish",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Allergic to ropivacaine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drug and alcohol abuse",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or nursing",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has acute perforated appendicitis with free fluid in the pelvis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT01825863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

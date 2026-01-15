@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03970668",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hyperglycemia",
+      "label": "met",
+      "evidence": "glucose levels above 140 mg/dl"
+    },
+    {
+      "criterion": "type 1 diabetes",
+      "label": "met",
+      "evidence": "diagnosed with type 1 diabetes at age of hospitalization with glucose value >1000 mg/dL"
+    },
+    {
+      "criterion": "previous episodes of diabetic ketoacidosis",
+      "label": "met",
+      "evidence": "hospitalized for previous episodes of diabetic ketoacidosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute complications such as liver failure",
+      "label": "does_not_trigger",
+      "evidence": "lab studies showed AST: 17 U/L and ALT: 14 U/L"
+    },
+    {
+      "criterion": "incomplete records on the patients file",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 24-year-old man with type 1 diabetes, experiencing hyperglycemia after not taking insulin for 3 days. He has had previous episodes of diabetic ketoacidosis and appears well.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03970668",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

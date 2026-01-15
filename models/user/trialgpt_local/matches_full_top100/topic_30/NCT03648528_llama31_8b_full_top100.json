@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03648528",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "33-year-old woman"
+    },
+    {
+      "criterion": "signed informed consent form",
+      "label": "met",
+      "evidence": "No information provided"
+    },
+    {
+      "criterion": "ESRD with regular dialysis treatment for at least 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "levels of 25VD < 30 ng / ml",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "levels of iPTH >300 ng/ml",
+      "label": "met",
+      "evidence": "Her lab results were remarkable for high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl)"
+    },
+    {
+      "criterion": "stable doses of calcitrol or paricalcitol over the last 30 days",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congestive heart failure class III or IV",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "unstable angina or myocardial infarction or stroke during the previous 3 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "active malignant neoplasm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of any trial medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy lower than 6 months",
+      "label": "not_met",
+      "evidence": "She is still overweight with BMI of 31."
+    },
+    {
+      "criterion": "corrected calcemia \u2265 10.5 in the 2 months prior to recruitment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intake of cholecalciferol or ergocalciferol in the 2 months prior to recruitment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "prospective move to another city or transfer to PD in the following 6 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but her symptoms improved significantly after starting Levothyroxine per day. Her periods are normal.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03648528",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

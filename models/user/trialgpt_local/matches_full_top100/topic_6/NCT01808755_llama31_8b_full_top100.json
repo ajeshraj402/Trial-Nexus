@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01808755",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55yo"
+    },
+    {
+      "criterion": "urinary tract infections",
+      "label": "met",
+      "evidence": "3 or more culture documented urinary tract infections in the preceding 12 months"
+    },
+    {
+      "criterion": "antimicrobial use",
+      "label": "not_met",
+      "evidence": "Recent antibx use in the last month on prior admission"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "upper urinary tract infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of ESRD and C diff infections, but no evidence of upper urinary tract infection.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01808755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

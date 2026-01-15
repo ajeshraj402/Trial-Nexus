@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04582799",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 23-year-old man"
+    },
+    {
+      "criterion": "COPD history",
+      "label": "met",
+      "evidence": "documented clinical history of COPD"
+    },
+    {
+      "criterion": "ICU admission for COPD exacerbation",
+      "label": "met",
+      "evidence": "ICU admission for exacerbation of COPD requiring non-invasive ventilatory support"
+    },
+    {
+      "criterion": "NIV criteria met",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe liver insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neuromuscular disease diagnosis",
+      "label": "met",
+      "evidence": "diagnosed with acute or chronic neuromuscular disease"
+    },
+    {
+      "criterion": "chronic mechanical ventilation prior to hospital admission",
+      "label": "met",
+      "evidence": "required chronic mechanical ventilation prior to hospital admission"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mean arterial pressure <60 mmHg despite infusion of fluids and vasoactive drugs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ratio of arterial-to-inspired oxygen O2 fraction (PaO2/FiO2) \u2264 150 with FiO2 of less than 0.6 and PEEP of at least 5 cm H2O",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindications to anticoagulation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heparin-induced thrombocytopenia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. He was treated with plasma exchange and corticosteroids.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04582799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

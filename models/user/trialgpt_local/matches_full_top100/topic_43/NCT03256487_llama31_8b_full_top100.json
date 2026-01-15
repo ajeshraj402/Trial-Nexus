@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03256487",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ED patients with acute pain NRS \u22657 warranting IV opioid analgesia (according to ED provider)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unknown",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient refusal",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "level 1 trauma patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients deemed critically ill by provider",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients in custody",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples. She is febrile, tachycardic, and hypotensive.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT03256487",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

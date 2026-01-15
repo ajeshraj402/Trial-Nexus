@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02961647",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Organic mitral valve regurgitation with effective regurgitation orifice (ERO)>0.3 cm2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction (LVEF) > 60% assessed by echocardiography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poor echocardiographic window",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to perform bicycle exercise testing",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ischemic or functional (secondary) mitral valve regurgitation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic atrial fibrillation/flutter",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemodynamic significant aortic valve disease assessed by echocardiography.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment with oral anticoagulants",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02961647",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04156490",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MCA stroke greater than 70cc in size",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a midline shift > 1 mm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemorrhagic conversion (PH2 or higher)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemicraniectomy within 6 hours from initiation of hypertonic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has significant bilateral carotid stenosis and a history of CVA, but no residual deficits. He is being evaluated for PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04156490",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

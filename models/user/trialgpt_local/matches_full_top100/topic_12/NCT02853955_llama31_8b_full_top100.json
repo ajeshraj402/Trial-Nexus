@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02853955",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recurrent mitral regurgitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with MitraClip\u00ae",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "endocarditis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "torn mitral valve ring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient with Marfan's syndrome and severe mitral valve prolapse, planned for MV repair but lost to follow-up. Now prepared for mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02853955",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

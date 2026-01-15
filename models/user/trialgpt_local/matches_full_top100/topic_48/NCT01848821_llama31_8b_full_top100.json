@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01848821",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "wound_size",
+      "label": "met",
+      "evidence": "critical sized wound defects (50 sq cm or greater)"
+    },
+    {
+      "criterion": "wound_type",
+      "label": "met",
+      "evidence": "traumatic, infective or iatrogenic"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anatomical_contraindication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hemodynamic_unstable",
+      "label": "not_met",
+      "evidence": "His physical exam and lab studies were normal otherwise"
+    },
+    {
+      "criterion": "immunodeficient",
+      "label": "not_met",
+      "evidence": "He didn't use ant topical ointment on the lesion and has no positive history for any underlying disease such as DM."
+    },
+    {
+      "criterion": "allergy_to_porcine_products",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "religious_or_ethical_necessity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41 year old man with tinea pedis infection, no underlying disease or allergy concerns.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT01848821",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00493610",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with known hepatitis C",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient on another therapy for Hep C",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significantly decompensated liver cirrhosis of Child's Class C",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Liver mass or hepatocellular cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient who are pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient on antioxidant such as Vitamin E or Vitamin C",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with known allergy to N-acetylcysteine",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is off ETOH for a year.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00493610",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

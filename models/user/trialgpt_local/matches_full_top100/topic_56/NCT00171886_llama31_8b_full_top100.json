@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00171886",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41-year-old man"
+    },
+    {
+      "criterion": "acromegaly_diagnosis",
+      "label": "met",
+      "evidence": "known case of Acromegaly"
+    },
+    {
+      "criterion": "pituitary_tumor",
+      "label": "met",
+      "evidence": "residual pituitary tumor on brain MRI"
+    },
+    {
+      "criterion": "gh_level",
+      "label": "not_met",
+      "evidence": "random GH level is 4 ug/L"
+    },
+    {
+      "criterion": "igf1_level",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    },
+    {
+      "criterion": "octreotide_tolerance",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "Written Informed Consent before any procedure specific to the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_acromegaly_treatment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "optic_chiasm_compression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgery_needs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "octreotide_intolerance",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hepatic_condition",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00171886",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

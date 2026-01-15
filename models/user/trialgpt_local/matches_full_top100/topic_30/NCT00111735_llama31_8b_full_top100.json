@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00111735",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 33-year-old woman"
+    },
+    {
+      "criterion": "primary_hypothyroidism",
+      "label": "met",
+      "evidence": "diagnosed with Hashimoto's thyroiditis"
+    },
+    {
+      "criterion": "thyroxine_dose",
+      "label": "met",
+      "evidence": "250 mcg Levothyroxine per day"
+    },
+    {
+      "criterion": "no_change_in_thyroxine_dose",
+      "label": "met",
+      "evidence": "no change in thyroxine dose in past 2 months"
+    },
+    {
+      "criterion": "serum_tsh",
+      "label": "met",
+      "evidence": "TSH: 2.35 mU/L"
+    },
+    {
+      "criterion": "adequate_contraceptive_measures",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "major_systemic_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "treatment_with_t3",
+      "label": "not_met",
+      "evidence": "no evidence"
+    },
+    {
+      "criterion": "history_of_thyroid_cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ischaemic_heart_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal_failure",
+      "label": "not_met",
+      "evidence": "serum creatinine not mentioned"
+    },
+    {
+      "criterion": "known_liver_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bony_fracture",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "secondary_hypothyroidism",
+      "label": "not_met",
+      "evidence": "diagnosed with Hashimoto's thyroiditis"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and is on Levothyroxine. She has a history of abnormal spotting between menses, but this improved after starting treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT00111735",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

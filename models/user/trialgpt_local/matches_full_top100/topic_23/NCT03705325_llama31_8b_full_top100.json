@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03705325",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ages 12 to 21 years, inclusive, of both genders",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Physician diagnosis of persistent asthma or symptoms consistent with persistent asthma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current use of a controller therapy such as an inhaled corticosteroid (ICS), ICS in combination with long-acting beta agonist (LABA), or leukotriene receptor antagonist (LTRA)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "A history of at least one asthma exacerbation requiring oral corticosteroids (OCS) in the past 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Wireless internet access in the participant's home",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Systemic corticosteroid-dependent asthma (i.e. people who take oral steroids such as prednisone daily for asthma control)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pulmonary disease other than asthma that in the opinion of investigators may affect the interpretation of spirometry data, including but not limited to vocal cord dysfunction, restrictive lung disease, or cystic fibrosis",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to perform spirometry",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of spirometry-induced bronchoconstriction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or nursing a baby",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently using an inhaled corticosteroid. However, he does not have a history of oral corticosteroids use in the past 12 months.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT03705325",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

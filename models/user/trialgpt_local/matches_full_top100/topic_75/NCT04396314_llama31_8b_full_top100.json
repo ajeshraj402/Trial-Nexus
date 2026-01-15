@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04396314",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "survivors of COVID-19, health workers and women suffering from gender-based violence with level of post-traumatic stress disorder scale (DSM-V) moderate or severe",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "they could manage to stand in the position of 'lying', 'sitting', and 'standing' without assistance",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "will be they could not follow the intervention due to mental or physical health",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The sample size is determined according Argimon' formula of comparison of proportions. The psychological effectiveness as cognitive behaviour therapy is 60% of improvement of symptoms.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, mild Hoehn-Yahr Stage I, and hypertension and hypercholesterolemia. He lives with his wife and has three children.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT04396314",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04147793",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Controls",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent urological disease requiring surgery which includes cystoscopy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No significant urinary symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No day-time urinary incontinence",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Urinary frequency 4-7 per day",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No history of recurrent urinary infections (more than two infections in previous year)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Has not passed a renal tract stone",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Overactive sphincter",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unaccompanied by adult with parental responsibility who can give consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous bladder outlet or urethral surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a catheter in place due to a severe bulbar urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT04147793",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

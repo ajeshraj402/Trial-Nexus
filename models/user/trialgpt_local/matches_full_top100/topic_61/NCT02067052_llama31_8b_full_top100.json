@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02067052",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histological diagnosis of squamous cell carcinoma of the vulva",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Performance status 0-3 (ECOG)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Adequate bone marrow function, liver and kidney",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a history of treatment of other invasive cancers in the last 5 years",
+      "label": "does_not_trigger",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02067052",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

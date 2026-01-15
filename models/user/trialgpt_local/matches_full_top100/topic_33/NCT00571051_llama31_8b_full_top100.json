@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "You are between ages 18-50"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "You are right-handed"
+    },
+    {
+      "criterion": "mri_scan",
+      "label": "met",
+      "evidence": "You have no metal implants or other metal objects or medical devices that would make a MRI scan unsafe for you"
+    },
+    {
+      "criterion": "study_instructions",
+      "label": "met",
+      "evidence": "You are able to follow study instructions and can read and write English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic_musculoskeletal_diseases",
+      "label": "not_met",
+      "evidence": "She has no underlying disease"
+    },
+    {
+      "criterion": "neurological_conditions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "depression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "She is married for 5 years and uses barrier methods of contraception"
+    },
+    {
+      "criterion": "meditation_practice",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A healthy woman with no underlying disease, regular exercise habits, and no history of allergies or medications.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

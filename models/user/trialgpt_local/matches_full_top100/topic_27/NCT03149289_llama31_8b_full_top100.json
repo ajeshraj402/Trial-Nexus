@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03149289",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hemoglobinopathies",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic hepatitis due to HCV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fibrosis (Fibroscan stiffness \u226510 kPa) or bioptic evaluation of cirrhosis within 6 months previously",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "extrahepatic manifestations of chronic hepatitis C virus infection",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active cancer, including hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or lactating females",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. No evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03149289",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

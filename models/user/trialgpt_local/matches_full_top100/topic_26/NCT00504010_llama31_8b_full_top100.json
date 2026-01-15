@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "not_met",
+      "evidence": "doesn't smoke, drink alcohol, or use illicit drugs"
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic or acute leg pain",
+      "label": "met",
+      "evidence": "abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting"
+    },
+    {
+      "criterion": "neuropathy involving one or both legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, hypercholesterolemia, and two C/sections. Ultrasound revealed several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

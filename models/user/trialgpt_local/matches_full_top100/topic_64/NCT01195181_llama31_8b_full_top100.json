@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01195181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Naive adult subject",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active HCV infection (HCV-RNA positive)",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "histological/biochemical signs of chronic hepatitis or compensated cirrhosis",
+      "label": "met",
+      "evidence": "chronic inflammation compatible with a chronic viral hepatitis"
+    },
+    {
+      "criterion": "willingness of treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "autoimmune disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe depression or psychiatric disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous decompensation of cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gastroesophageal bleeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "met",
+      "evidence": "negative biopsy for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "major disease with a life expectancy of less than 5 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or nursing",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01195181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

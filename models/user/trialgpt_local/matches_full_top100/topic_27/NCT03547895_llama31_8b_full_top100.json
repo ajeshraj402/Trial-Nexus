@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03547895",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "treatment with DAAs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "B-Baseline laboratory investigation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Quantitative assessment of HCV load in the serum by real-time Quantitative PCR",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Genotyping for HCV using INNO-LiPA II",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "C- Abdominal Ultrasonography (USG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "D- Treatment exposure and outcome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic active HCV proved by the positivity of HCV RNA, elevated transaminases",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CTP score was >9, MELD score was <29",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "exposure to previous antiviral therapy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "other causes of liver diseases or mixed causes (excessive alcohol consumption, autoimmune liver disease)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous liver transplantation",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. He has a history of inguinal hernia surgery but no other significant medical history.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03547895",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

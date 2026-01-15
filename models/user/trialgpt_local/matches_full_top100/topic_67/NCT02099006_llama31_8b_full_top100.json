@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02099006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women between ages of 18 and 65",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "complain of localized provoked vulvar pain",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "meet the criteria for the diagnosis of localized provoked vulvodynia",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "have failed or have been unable to tolerate previous attempts at systematic therapy or surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The presence of a dermatologic or neurologic condition which is determined by the investigator to be the primary cause of the patient's pain.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to any of the medications or the base itself.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of the following medications.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16. She smokes and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT02099006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

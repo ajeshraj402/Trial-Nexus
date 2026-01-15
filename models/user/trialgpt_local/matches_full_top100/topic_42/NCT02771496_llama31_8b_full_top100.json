@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02771496",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of osteochondritis dissecans or focal articular cartilage defects",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "confirmed by x-ray or MRI",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-confirmed diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age with mild headache and leg swelling, BP 146/99, urine dipstick 3+ proteins. No fever or chills.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT02771496",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

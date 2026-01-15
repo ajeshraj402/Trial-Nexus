@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01112657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects aged between 6-60 years, both inclusive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects who have experienced a single, first clinical event potentially suggestive of MS within the last 2 years from study entry.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The event must be a new neurological abnormality present for at least 24 hours, either mono- or polysymptomatic, other than paresthesia or vegetative dysfunction",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects who have given written informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects with the diagnosis of MS",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with other disease that could better explain the subject's signs and symptoms",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) after two MRI scans. She is currently under treatment for RRMS.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT01112657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

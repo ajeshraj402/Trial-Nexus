@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00522444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pediatric Patients ages 7-18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parental report of previous history of asthma or wheezing episode documented by physician at least 3 months prior to enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute Asthma exacerbation as defined by attending physician and asthma score (PASS) of greater than or equal to 2 after initial albuterol treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Temperature in triage of greater than or equal to 39 degrees Celsius",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Systemic corticosteroids in past 72 hours",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Medical history significant for cardiac, renal, or malignant disease, or bronchopulmonary dysplasia or cystic fibrosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients whose care is initiated in the trauma bay due to need for rapid stabilization",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Altered Mental Status (Glasgow Coma Score of < 15)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00522444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

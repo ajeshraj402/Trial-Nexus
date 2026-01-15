@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Be 45 years of age or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Be a Tis, T1, N0 M0 - American Joint Committee Classification",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Have negative surgical margins (NSABP definition) after final surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Should have adequate skin spacing between balloon surface and surface of the skin (>=7mm)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "DCIS",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Be pregnant or breast-feeding. (If appropriate, patient must use birth control during the study)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have collagen-vascular disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have extensive intraductal component (Harvard Definition,>25% DCIS)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have infiltrating lobular histology",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 42-year-old healthy woman with no underlying disease, regular exercise and no history of allergies. She is married for 5 years and uses barrier methods of contraception.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

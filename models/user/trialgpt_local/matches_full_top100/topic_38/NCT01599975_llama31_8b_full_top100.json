@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "english_comprehension",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hiv_status",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "negative_beta_hcg"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "met",
+      "evidence": "BP: 110/75"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

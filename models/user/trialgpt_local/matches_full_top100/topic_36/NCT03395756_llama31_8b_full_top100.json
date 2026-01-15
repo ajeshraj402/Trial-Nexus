@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03395756",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "midluteal phase of their cycle",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "BMI 18-30 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Regular menses for the last 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cycle duration 24 to 35 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English- or Spanish-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any contraindications to progesterone contraception per teh CDC Medical Eligibility Criteria (Category 3 or 4)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On medications that can alter, or be altered by, progesterone contraceptive steroid hormone",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT03395756",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

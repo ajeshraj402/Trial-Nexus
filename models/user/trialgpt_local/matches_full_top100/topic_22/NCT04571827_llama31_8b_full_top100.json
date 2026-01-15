@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04571827",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "myofascial trigger point",
+      "label": "met",
+      "evidence": "presence of at least one latent myofascial trigger point in the upper trapezius muscle"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks and understands Spanish correctly"
+    },
+    {
+      "criterion": "previous treatment experience",
+      "label": "not_met",
+      "evidence": "no previous experience in dry puncture treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neurological signs and symptoms",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "trauma or spinal surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "musculoskeletal diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "fear of needles",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "coagulation disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "steroid or anesthetic infiltration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "analgesic or anti-inflammatory medication",
+      "label": "not_met",
+      "evidence": "no analgesic or anti-inflammatory medication the week before the study"
+    }
+  ],
+  "notes": "The patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04571827",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

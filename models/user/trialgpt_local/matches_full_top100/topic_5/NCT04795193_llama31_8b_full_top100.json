@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04795193",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Angina that affects daily life and work and uncontrollable with conservative treatment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Significant stenosis in left main (LM) coronary artery or LAD branch or left circumflex (LCX) branch>70%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe stenosis (stenosis degree>75%) of three main branches of coronary artery with need of undergoing off-pump coronary artery bypass surgery",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable preoperative hemodynamic status requiring emergency surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe emphysema, hypoxemia [post-bronchodilator forced expiratory volume in 1 s (FEV1)/forced vital capacity (FVC)<70% and FEV1%predicted<50% or partial pressure of oxygen (pO2)<60 mmHg or partial pressure of carbon dioxide (pCO2)>40 mmHg without oxygen therapy]",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Old large area myocardial infarction, no viable myocardium based on isotope and echocardiography examination, significant cardiac enlargement, cardiothoracic ratio>0.75, EF<30%, left ventricular diastolic diameter (LVDd)>60 mm, left ventricular aneurysm or severe arrhythmia, prone to experience unstable preoperative hemodynamic status during surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe pleural adhesion, chest deformity, or previous thoracic radiotherapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous open heart surgery",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Simultaneous valve or other cardiac surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planned cardiopulmonary bypass surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Poor condition of myocardial infarction (MI), extensive lesion, distal or entire diffuse stenosis, or inability to match lumen due to small diameter (<1.0 mm) or severe calcification",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has significant carotid bruits and bilateral carotid artery disease, but no residual deficits from prior CVA. He reports occasional dizziness and HA, but denies CP/SOB. No sensory or motor defects.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04795193",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

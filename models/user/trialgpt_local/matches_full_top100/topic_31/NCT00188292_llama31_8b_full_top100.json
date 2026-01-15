@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00188292",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-infected men",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of anal receptive intercourse",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minimum age 18 years",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known anal cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bleeding diathesis that might preclude anoscopy and biopsy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer, tested positive for HPV 16, smokes heavily, and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00188292",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00835302",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary complaint of shoulder pain",
+      "label": "met",
+      "evidence": "The patient is complaining of scoliosis and back pain."
+    },
+    {
+      "criterion": "Age between 18-65 years old",
+      "label": "met",
+      "evidence": "The patient is a 14-year-old boy"
+    },
+    {
+      "criterion": "Shoulder Pain and Disability Index (SPADI) score greater than 20 points",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Medical red flags noted in the patient's Medical Screening Questionnaire",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute fractures in the shoulder region",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute severe trauma to the cervical (neck) or thoracic (upper back) regions in the last 6 weeks",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has scoliosis and back pain, but no other medical conditions. He is a well-dressed and well-nourished adolescent who is alert and cooperative.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT00835302",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

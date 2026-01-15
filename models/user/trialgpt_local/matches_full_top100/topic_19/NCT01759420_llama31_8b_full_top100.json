@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01759420",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >18",
+      "label": "met",
+      "evidence": "patient is 65 years old"
+    },
+    {
+      "criterion": "Patient to receive 4mg of intravenous ondansetron",
+      "label": "met",
+      "evidence": "prescription"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intravenous ondansetron. Administration of ondansetron will be at the discretion of the attending physician.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "A twelve-lead electrocardiogram (EKG) or 12-lead rhythm strip will be generated prior to drug administration, and every 2 minutes following drug administration for 20 minutes after administration.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The global objective of this study is to determine if routine use of intravenous ondansetron in the emergency department is associated with cardiac risks.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age <18",
+      "label": "not_met",
+      "evidence": "patient is 65 years old"
+    },
+    {
+      "criterion": "known long QT syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "received oral or intravenous ondansetron within 4 hours of enrollment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-administration of any known QT prolonging agents",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "QTc on baseline of >450 ms for males and >470ms for females",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergy or known hypersensitivity to ondansetron",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "altered mental status",
+      "label": "not_met",
+      "evidence": "patient is responsive"
+    },
+    {
+      "criterion": "non-sinus rhythm on baseline EKG",
+      "label": "not_met",
+      "evidence": "no mention of non-sinus rhythm on baseline EKG"
+    },
+    {
+      "criterion": "hypokalemia (as defined by the lower limit of normal for the reference laboratory)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypomagnesemia (as defined by the lower limit of normal for the reference laboratory)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01759420",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

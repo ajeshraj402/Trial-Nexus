@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04155359",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "minority inclusion",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "micro-hematuria",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior bladder cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inherited cancer syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. However, they do not have prior bladder cancer or an inherited cancer syndrome.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04155359",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

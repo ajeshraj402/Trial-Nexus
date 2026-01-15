@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00869050",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have a tissue diagnosis of any of the following metastatic, well or moderately differentiated, slow growing neuroendocrine tumor",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Carcinoid tumors originating anywhere in the body including the gastrointestinal (GI) tract or bronchial tree",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Measurable disease: Any primary and/or metastatic mass reproducibly measurable in one or two diameters by Response Evaluation Criteria In Solid Tumors (RECIST) parameters by CT scan or MRI scan.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients must have progressed on octreotide therapy (up to and including Sandostatin LAR-60 mg/month)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior chemotherapy with capecitabine or temozolomide",
+      "label": "triggers",
+      "evidence": "Patient has received therapy including field radiation t10-l1 followed by 11 cycles of temozolomide"
+    },
+    {
+      "criterion": "Hypersensitivity: Patients with a history of severe hypersensitivity reaction to capecitabine, 5-FU, temozolomide or DTIC will be excluded",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's tumor is anaplastic astrocytoma, not a neuroendocrine tumor. Patient has received prior chemotherapy with temozolomide.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00869050",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

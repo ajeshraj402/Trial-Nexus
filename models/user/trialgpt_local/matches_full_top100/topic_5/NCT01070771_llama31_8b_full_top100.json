@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01070771",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "elective coronary angiography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cardiologist investigation of chest pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no objective evidence of myocardial ischaemia required",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no participation in other studies",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous coronary artery bypass graft surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute coronary syndrome at presentation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnostic angiography or percutaneous coronary intervention within the previous 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication to adenosine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe valve disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "creatinine >180",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life threatening comorbidity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnostic angiogram showing normal coronary arteries",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has carotid bruits, but no prior syncope or residual deficits. He recalls a possible stroke without deficit 10-15 years ago.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01070771",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

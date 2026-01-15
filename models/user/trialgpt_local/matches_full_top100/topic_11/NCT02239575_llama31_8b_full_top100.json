@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02239575",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adult_age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "any_sex",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "consent_for_donation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed_with_cancer_indication",
+      "label": "met",
+      "evidence": "papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "scheduled_to_undergo_surgical_resection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no_previous_cancer_treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed_with_required_cancer_indication",
+      "label": "triggers",
+      "evidence": "papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "scheduled_to_undergo_surgical_resection_of_tumor",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous_cancer_treatment_for_current_or_previously_diagnosed_cancer",
+      "label": "triggers",
+      "evidence": "s/p XRT to neck, s/p RAI ablation"
+    },
+    {
+      "criterion": "inability_to_donate_adequate_volume_of_blood",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has received previous treatments (XRT to neck, RAI ablation).",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02239575",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

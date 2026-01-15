@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04614142",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Detectable HCV Antibody Positivity",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "KDPI score is less than \u2264 0.650",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Traditional Donor Selection Criteria Met - acceptable for transplantation per usual",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "evaluation at MGH",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Previously enrolled in IRB 2016P002051 and experienced primary graft nonfunction due to renal vein thrombosis and acute thrombotic microangiopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willig and able to sign informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Donor has been known to have previously received and failed HCV treatment with a direct-acting antiviral agent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed HIV",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Confirmed HBV positive (surface antigen or HBV DNA positive)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Kidney anatomical damage or significant pathology noted during recovery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant liver disease or signs of liver decompensation (splenomegaly, ascites) noted during recovery (advanced fibrosis or cirrhosis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any standard contra-indication to donation noted in donor (significant malignancy, unusual infection)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis with recurrent C diff infections. She was treated with Vanco for an extended course of 6 weeks.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04614142",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

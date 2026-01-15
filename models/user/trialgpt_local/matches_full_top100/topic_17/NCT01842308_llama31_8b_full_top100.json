@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT01842308",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Serum creatinine =< 2 mg/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Absolute neutrophil count >= 1000/uL",
+      "label": "met"
+    },
+    {
+      "criterion": "Platelet count >= 50,000/uL",
+      "label": "met"
+    },
+    {
+      "criterion": "Hemoglobin >= 8.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Diagnosis of symptomatic MM",
+      "label": "met"
+    },
+    {
+      "criterion": "Measurable disease of multiple myeloma at the time of baseline values for disease",
+      "label": "met"
+    },
+    {
+      "criterion": "Serum monoclonal protein >= 1.0 g/dL",
+      "label": "met"
+    },
+    {
+      "criterion": ">= 200 mg of monoclonal protein in the urine on 24 hour electrophoresis",
+      "label": "met"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0, 1 or 2",
+      "label": "met"
+    },
+    {
+      "criterion": "Recovered from toxicity of previous chemotherapy",
+      "label": "met"
+    },
+    {
+      "criterion": "Provide informed written consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Ejection fraction >= 45%",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior autologous or allogeneic bone marrow/peripheral blood stem cell transplant",
+      "label": "not_met"
+    },
+    {
+      "criterion": "More than two prior regimens for therapy of MM",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Myocardial infarction within 6 months prior to enrollment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Seroreactivity for human immunodeficiency virus (HIV), human T-lymphotropic virus (HTLV) I or II, hepatitis B virus (HBV), hepatitis C virus (HCV)",
+      "label": "not_met"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01842308",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02498964",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Resident physicians who have completed at least one month of cardiac rotation are included.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "This high fidelity simulation lab course if offerred to every resident that meets the criteria.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "This is a part of their educational activity.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At the beginning of the course they are given the option to participate in the survey.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "If they do not wish to participate in the survey it will not affect their education.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participitaion in the survey is purely voluntary.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Resident physicians that did not wish to participate in filling out the survey or not able to fill out the survey.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02498964",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

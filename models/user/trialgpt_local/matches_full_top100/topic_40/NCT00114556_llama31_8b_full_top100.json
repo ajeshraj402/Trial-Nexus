@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00114556",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Greater than 17 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concurrent treatment, or within the past 12 months, with drugs known to affect bone metabolism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypocalcemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal impairment (creatinine >1.5x ULN)",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, but meets inclusion criteria and does not have any exclusion triggers.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00114556",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

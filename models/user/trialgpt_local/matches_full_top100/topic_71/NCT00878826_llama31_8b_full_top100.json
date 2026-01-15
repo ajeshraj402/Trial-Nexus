@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00878826",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": ">18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of idiopathic thrombosis",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for therapeutic-level anticoagulation as determined by physician",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Renal disease as defined by serum creatinine >1.0",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns and sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT00878826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

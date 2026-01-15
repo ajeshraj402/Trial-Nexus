@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01329835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Less than 15 weeks pregnant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Obesity",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Multiple pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preexisting diabetes",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Primary need for nutritional advice",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol consumption. She has leukocytosis, urea elevation, high CRP, high amylase, and Glucose level of 15.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01329835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

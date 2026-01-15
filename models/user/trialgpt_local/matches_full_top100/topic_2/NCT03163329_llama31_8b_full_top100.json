@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03163329",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe, calcific bicuspid aortic stenosis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Heart team agrees the patient has a risk of operative mortality and has an STS <8",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The study patient has been informed of the nature of the study, agrees to its provisions and has provided written informed consent as approved by the Institutional Review Board (IRB) of the respective clinical site.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ilio-femoral vessel characteristics that would preclude safe placement of the introducer sheath.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction \u2264 1 month (30 days) before randomization.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe aortic regurgitation (>3+).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe mitral regurgitation (>3+).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe, calcific bicuspid aortic stenosis and has been informed of the study and provided consent. No acute myocardial infarction or significant valvular disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03163329",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

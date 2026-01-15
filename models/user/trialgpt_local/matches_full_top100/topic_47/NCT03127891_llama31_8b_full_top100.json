@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03127891",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "62-year-old"
+    },
+    {
+      "criterion": "Cardiac surgery",
+      "label": "not_met",
+      "evidence": "valvular heart disease and coronary artery disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe restrictive lung disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe obstructive lung disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "NYHA-4",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Drug addicts",
+      "label": "not_met",
+      "evidence": "denied"
+    },
+    {
+      "criterion": "History of smoking",
+      "label": "met",
+      "evidence": "1 pack per day for 40 years"
+    },
+    {
+      "criterion": "Alcohol intake",
+      "label": "met",
+      "evidence": "5 to 6 beers per week"
+    },
+    {
+      "criterion": "Central nervous system disease",
+      "label": "not_met",
+      "evidence": "no acute intracranial findings"
+    }
+  ],
+  "notes": "62-year-old African-American man with hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT03127891",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

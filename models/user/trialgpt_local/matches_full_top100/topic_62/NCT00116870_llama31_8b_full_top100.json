@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00116870",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Angiography within 17 weeks of randomization showing patient is at high risk for coronary artery disease but not a candidate for coronary artery graft surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Men and women ages 21 through 67 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mean plasma cholesterol levels from the first two screening visits in the range of 190 to 270 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Smokers are admitted, but encouraged to stop smoking tobacco",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Premenopausal women unless surgically sterilized",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hypertension, diabetes, thyroid disease, liver dysfunction, renal insufficiency, congestive heart failure, major arrhythmia, left ventricular conduction defects",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physical impairment that may interfere with participation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life threatening disease with high likelihood of disability or death during the trial period",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of hydralazine, guanethidine, lipid-lowering drugs, estrogens, steroids, amphetamines, antibiotics, theophylline, acetaminophen (average daily use greater than ten grains), other drugs as determined by the principle investigator",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vitamins A or D in doses greater than the Recommended Daily Allowance (RDA)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may interfere with participation. He also uses no lipid-lowering medications.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00116870",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

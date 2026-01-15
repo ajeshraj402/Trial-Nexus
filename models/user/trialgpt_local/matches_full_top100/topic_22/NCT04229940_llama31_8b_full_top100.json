@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04229940",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients planned for laparoscopic ventral hernia repair",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Defect size 3-10 cm",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI <40",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Defect size >10 cm",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ventral hernias with other localization than the midline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergency surgery and incarcerated hernias",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain, leukocytosis, and a distended appendix with thickened appendiceal wall. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04229940",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

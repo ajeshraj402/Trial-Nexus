@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00001253",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Turner syndrome diagnosis",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "age 5-50 yr",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "Control subjects within +/- 2SD for height and weight",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Control subjects with normal intelligence and educational achievement",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "severe physical or neurocognitive impairment",
+      "label": "not_met",
+      "evidence": "mentally retarded girl in the physical exam"
+    },
+    {
+      "criterion": "Normal subjects who have qualified for or participated in gifted and talented or remedial education programs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is an obese, mentally retarded girl with Turner syndrome, treating with GH since 6 months ago.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00001253",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

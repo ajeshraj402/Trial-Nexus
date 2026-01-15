@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02055573",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mothers of healthy Singleton, full term infants",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Born at Women & Infants Hospital",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mothers will be excluded if they: Are not insured by Medicaid, Ritecare, or Neighborhood Health Plan.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mothers will be excluded if they: Are not fluent in either English or Spanish.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mothers will be excluded if they: Are younger than 18 years of age.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Will not be taking the baby home at hospital discharge.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Will be leaving USA within the following 6 months for longer than two weeks.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is discharged from the hospital prior to being approached or scheduling interview.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Do not have access to DVD player",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Refuse to participate in the study.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 5 months old male with undescended testis. The mother had a normal pregnancy and is fluent in English.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02055573",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

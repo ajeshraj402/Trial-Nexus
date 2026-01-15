@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02629133",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 yo"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "residence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "substance_use",
+      "label": "not_met",
+      "evidence": "no mention of substance use within last 3 months"
+    },
+    {
+      "criterion": "ipv",
+      "label": "met",
+      "evidence": "report of IPV within last 3 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "informed_consent",
+      "label": "not_met",
+      "evidence": "no mention of florid psychosis or cognitive impairment"
+    },
+    {
+      "criterion": "language_understanding",
+      "label": "met",
+      "evidence": "patient is ambulating independently without difficulty"
+    }
+  ],
+  "notes": "Patient has a history of severe 'exploding' headache and abnormal vasculature with a draining vein from L temporal lobe consistent with AVM.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT02629133",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

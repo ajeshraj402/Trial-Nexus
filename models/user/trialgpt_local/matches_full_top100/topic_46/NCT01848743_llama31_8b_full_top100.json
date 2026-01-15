@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01848743",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "20-75 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HBsAg (+) > 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HAV, HCV, HDV and HIV co-infection",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent hepatocellular carcinoma",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has TB, but no HBV or HCV infection mentioned. No concurrent cancer or drug/alcohol cause of hepatitis.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT01848743",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

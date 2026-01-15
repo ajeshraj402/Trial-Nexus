@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT03213002",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Be capable of giving informed consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "Have a pathology proven diagnosis of any of newly diagnosed Glioblastoma Multiforme",
+      "label": "unknown"
+    },
+    {
+      "criterion": "WHO IV",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Have completed the first part of standard of care chemo-radiation (Stupp), for 6 weeks, and not started the maintenance phase of temozolomide",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Agree to use effective barrier contraception while on treatment and for 2 months thereafter, if of childbearing potential",
+      "label": "met"
+    },
+    {
+      "criterion": "Have a life expectancy > 3 months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Be between the ages of 18 to 74",
+      "label": "met"
+    },
+    {
+      "criterion": "Have a performance status KPS 70 or greater",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Be able to swallow pills and capsules",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Be able to tolerate oral chemotherapeutic medications, with no health threatening allergies or side effects, based on lab and clinical findings",
+      "label": "met"
+    },
+    {
+      "criterion": "Have adequate bone marrow function, liver function and renal function before commencing therapy",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior chemotherapy with capecitabine or temozolomide for other prior malignancies.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Patients previously treated with continuous infusion 5-FU or any schedule of DTIC, which are similar to capecitabine and temozolomide, respectively, will be excluded.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Prior chemotherapies for newly diagnosed GBM or AA, other than temozolomide during radiation.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03213002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

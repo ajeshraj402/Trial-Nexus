@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01814241",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "67 years old"
+    },
+    {
+      "criterion": "Minimum weight",
+      "label": "met",
+      "evidence": "no information on weight"
+    },
+    {
+      "criterion": "Physician diagnosis of peanut allergy OR convincing clinical history of an allergic reaction to peanut.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Detectable serum peanut-specific IgE level (CAP-FEIA \u2265 0.35 kU/L) and a positive SPT (wheal \u2265 3mm on skin prick test to peanut extract compared to a negative control).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergic reaction to \u2264 1 gm peanut protein during a blinded oral challenge test conducted at screening (e.g., a double-blinded, placebo-controlled food challenge [DBPCFC]).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent from parent/guardian.",
+      "label": "met",
+      "evidence": "parent or guardian present"
+    },
+    {
+      "criterion": "Written assent from subject if applicable",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergic reaction to peanut consistent with severe anaphylaxis (defined as hypotension/shock; or neurologic impairment).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic disease other than asthma, atopic dermatitis, rhinitis requiring therapy;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active eosinophilic gastrointestinal disease in the past 2 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Participation in any interventional study for the treatment of food allergy in the 6 months prior to visit -1",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Healthy woman with no underlying disease, taking multivitamins and anti-hypertensive drugs. Exercises regularly.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT01814241",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

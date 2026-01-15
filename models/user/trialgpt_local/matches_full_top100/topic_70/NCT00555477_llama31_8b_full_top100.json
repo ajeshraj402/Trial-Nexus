@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00555477",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "breast cancer confined to breast and lymph nodes under arm",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no evidence of cancer elsewhere",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "surgical removal of tumor with radiation therapy completed or planned",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "tumor expresses estrogen and/or progesterone receptors",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual period within 6 months before starting chemotherapy for breast cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "treated with cyclophosphamide (Cytoxan) chemotherapy regimen",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "menstrual periods stopped for at least 8 weeks starting during or after chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ovaries surgically removed, treated with radiation therapy, or taking medications (Zoladex\u2122 or Lupron\u2122) to block function of ovaries",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has MDD and is on anti-depressants for the past 6 months. Her symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00555477",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

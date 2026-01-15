@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03877302",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational_age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "delivery_method",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "parity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "communication_ability",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy_risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "systemic_disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "labor_stage",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne, hirsutism, and mild acromegaly. She is on stable octreotide LAR.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT03877302",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

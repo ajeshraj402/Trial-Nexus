@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03356327",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "3 months to 12 years old"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "acute diarrhea"
+    },
+    {
+      "criterion": "time_of_diarrhea",
+      "label": "met",
+      "evidence": "less than 7 days before admission"
+    },
+    {
+      "criterion": "oral_rehydration_capability",
+      "label": "met",
+      "evidence": "mild to moderate dehydration"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diarrhea_duration",
+      "label": "not_met",
+      "evidence": "less than 7 days"
+    },
+    {
+      "criterion": "somatic_pathology",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dehydration_severity",
+      "label": "met",
+      "evidence": "mild to moderate dehydration"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, but meets inclusion criteria.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03356327",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01371643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "de novo acromegaly with an elevated age and sex matched IGF-I",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "GH >1ng/ml at all time points during OGTT",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "pituitary macroadenoma",
+      "label": "met",
+      "evidence": "brain MRI"
+    },
+    {
+      "criterion": "clinical changes consistent with acromegaly",
+      "label": "met",
+      "evidence": "physical examination"
+    },
+    {
+      "criterion": "single random serum hGH of 12.5 ng/ml or greater",
+      "label": "met",
+      "evidence": "lab study"
+    },
+    {
+      "criterion": "both the endocrinologist and surgeon agree that the patient's health would not be compromised by a three-month period during which time Octreotide LAR is administered",
+      "label": "met",
+      "evidence": "clinical judgment"
+    },
+    {
+      "criterion": "patients currently on dopamine agonist who agree to discontinue medication (2-6 week washout required)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or breastfeeding",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "documented loss of vision due to pituitary tumor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior treatment for acromegaly other than dopamine agonists",
+      "label": "met",
+      "evidence": "medical history"
+    },
+    {
+      "criterion": "inability to complete the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intolerance to octreotide",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly and underwent surgery. He is currently taking vitamin D and multivitamins.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT01371643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

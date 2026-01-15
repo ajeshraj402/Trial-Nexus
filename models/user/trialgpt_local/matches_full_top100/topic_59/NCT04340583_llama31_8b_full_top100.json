@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04340583",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of severe persistent asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Systemic steroids treatment for at least 6 months and/or \u22652 exacerbations in the last year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Need to initiate monoclonal antibody therapy according to guidelines",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of cognitive impairment",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe persistent asthma and is a candidate for monoclonal antibody therapy. However, he is under 18 years old.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04340583",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "trial_id": "NCT00001575",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed diagnosis of Hodgkin's disease",
+      "label": "met"
+    },
+    {
+      "criterion": "more than 100 days post-transplant",
+      "label": "met"
+    },
+    {
+      "criterion": "at least 10% of malignant cells react with anti-Tac",
+      "label": "met"
+    },
+    {
+      "criterion": "Tac positivity in infiltrating T cells",
+      "label": "met"
+    },
+    {
+      "criterion": "Non-Hodgkin's Lymphoma (NHL) with histopathologic subtypes of Tac-expressing NHL",
+      "label": "met"
+    },
+    {
+      "criterion": "indolent NHL Stages II through IV with failed standard therapy and disease requiring treatment",
+      "label": "met"
+    },
+    {
+      "criterion": "aggressive NHL with relapse after standard chemotherapy and refused salvage chemotherapy or bone marrow transplantation",
+      "label": "met"
+    },
+    {
+      "criterion": "Hodgkin's disease with low potential for cure with conventional chemotherapy or radiation therapy",
+      "label": "met"
+    },
+    {
+      "criterion": "Cutaneous T-cell Lymphoma (CTCL) with all stages of Tac-expressing CTCL except Stage Ia",
+      "label": "met"
+    },
+    {
+      "criterion": "Peripheral T-cell Lymphoma (PTCL) with stages I - IV and relapse after first-line chemotherapy",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant patients",
+      "label": "not_met"
+    },
+    {
+      "criterion": "human immunodeficiency virus (HIV) antibody positive",
+      "label": "not_met"
+    },
+    {
+      "criterion": "symptomatic disease due to malignant involvement of the central nervous system",
+      "label": "unknown"
+    },
+    {
+      "criterion": "active second primary cancer",
+      "label": "unknown"
+    },
+    {
+      "criterion": "chronic anticoagulant therapy",
+      "label": "not_met"
+    },
+    {
+      "criterion": "urgent chemotherapy or radiation therapy for management of malignancy",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and presented with symptoms of cholecystitis. She was found to have Burkitt's lymphoma in the pericardial fluid.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00001575",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02127814",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "receiving antibiotics for not more than 48 hours prior to enrollment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "free from diarrhea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to understand and sign informed consent and HIPPA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "available throughout the study period",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subjects should have the mental ability to understand and willingness to fulfill all the details of the protocol",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "three or more soft and unformed or watery stools per day at admission",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving chemotherapy or radiation therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and Clostridium difficile toxin positive stool samples.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02127814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

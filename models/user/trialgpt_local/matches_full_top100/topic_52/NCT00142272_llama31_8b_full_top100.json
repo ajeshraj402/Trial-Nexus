@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00142272",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Duration of illness",
+      "label": "met",
+      "evidence": "<24 hours"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe dehydration",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    },
+    {
+      "criterion": "Positive stool dark field microscopic examination for V. cholerae",
+      "label": "met",
+      "evidence": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of receiving antimicrobial agent within 72 hours",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Concomitant infection(s) requiring antimicrobial therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with known chronic renal insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with known cardiac or hepatic impairment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients previously enrolled in the study",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients participating in any clinical study within one month prior to study entry",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe dehydration and positive stool dark field microscopic examination for V. cholerae, but no history of receiving antimicrobial agent within 72 hours or concomitant infection(s) requiring antimicrobial therapy.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00142272",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

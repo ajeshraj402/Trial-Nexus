@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01672411",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men aged 18-75",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Total serum PSA of 2.0-10 ng/ml at entry and/or suspicious digital rectal examination",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients suitable for prostate biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of PCa",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous prostate biopsy or prostatic surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of acute urinary retention within 3 months prior",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of any investigational or marketed 5ARI, anabolic steroids or any drug with anti-androgenic properties within 12 months prior to screening.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and is suitable for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT01672411",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

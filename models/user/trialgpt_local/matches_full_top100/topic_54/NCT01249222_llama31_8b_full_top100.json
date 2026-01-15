@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01249222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "A",
+      "label": "met",
+      "evidence": "positive serum MPO-ANCA"
+    },
+    {
+      "criterion": "36> Tem> 38 \u25e6c",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "HR>90 bpm (without medication)",
+      "label": "met",
+      "evidence": "HR: 90/min"
+    },
+    {
+      "criterion": "RR>20 bpm or PaCo2\u2264 32 on mechanical ventilation",
+      "label": "not_met",
+      "evidence": "RR: 22/min"
+    },
+    {
+      "criterion": "WBC<4000 or >12000 or > 10% immature neutrophil",
+      "label": "met",
+      "evidence": "WBC: 8000 /mm3 (Neutrophil: 2700/mm3)"
+    },
+    {
+      "criterion": "B",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pass more than 24 hours from diagnosis of sepsis.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "High likelihood of mortality (renal failure, hepatic encephalopathy, \u2026.) or imminent death(APACHE II score >25)",
+      "label": "unknown",
+      "evidence": "APACHE II score is above 4"
+    },
+    {
+      "criterion": "Pregnant or lactescent woman",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "16 > age years old",
+      "label": "met",
+      "evidence": "57-year-old man"
+    },
+    {
+      "criterion": "No satisfaction of patient",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has been treating with corticosteroid and cyclophosphamides since 4 months ago. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01249222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02651883",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "Aged 25 to 64 years old",
+      "label": "met",
+      "evidence": "the patient is 37 years old"
+    },
+    {
+      "criterion": "Living at \u2264250% of the federal poverty line",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Eligible to receive cervical cancer screening from a study-associated clinic",
+      "label": "met",
+      "evidence": "the patient was offered a radical hysterectomy"
+    },
+    {
+      "criterion": "Resides within the same or bordering county of a study-associated clinic",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Completion of cervical Pap screening in preceding 4 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Completion of HPV testing in preceding 6 years",
+      "label": "not_met",
+      "evidence": "the patient tested positive for HPV 16"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of hysterectomy",
+      "label": "does_not_trigger",
+      "evidence": "she underwent tubal ligation, not a radical hysterectomy"
+    },
+    {
+      "criterion": "Private insurance",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16. She smokes heavily and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02651883",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

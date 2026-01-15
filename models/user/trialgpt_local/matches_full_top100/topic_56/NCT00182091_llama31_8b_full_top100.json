@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00182091",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "History of acromegaly with biochemical cure documented",
+      "label": "met",
+      "evidence": "known case of Acromegaly who underwent transsphenoidal surgery 4 months ago"
+    },
+    {
+      "criterion": "At the time of enrollment a minimum of 6 months must have elapsed since surgery.",
+      "label": "met",
+      "evidence": "4 months ago"
+    },
+    {
+      "criterion": "GHD due to surgical or radiation treatment",
+      "label": "met",
+      "evidence": "surgical or radiation treatment"
+    },
+    {
+      "criterion": "GHD will be defined as a peak plasma GH of less than 5 ng/ml in response to an insulin tolerance test or a GH-releasing hormone (GHRH) plus arginine stimulation test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "GHD will also be diagnosed if IGF-I levels are below 2 standard deviations for the age-sex normal range in a patient with at least two other documented anterior pituitary hormone deficiencies",
+      "label": "met",
+      "evidence": "IGF-1 level of 4.5 ULN adjusted by sex and age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Untreated thyroid or adrenal insufficiency.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of malignancy except for non-melanoma skin cancer",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Hemoglobin <11.0 gm/dl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatic or renal disease (aspartate aminotransferase (AST) or alanine aminotransferase (ALT) > 3x upper limit of normal (ULN) or creatinine level >2.5 mg/dl)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Congestive heart failure (New York Heart Association's classification system Class II-IV congestive heart failure (CHF) will be excluded)",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Unstable cardiovascular disease (coronary artery or cerebrovascular disease) or symptoms within one year prior to entry into the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Initiation or discontinuation of gonadal steroid therapy within 3 months of entry",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acromegaly and underwent surgery. IGF-1 level is slightly elevated, but GH level is normal.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00182091",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01089335",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first time surgery for proven papillary thyroid cancer > 10 mm",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "first time surgery for a cytologic diagnosis of follicular neoplasia or suspected (not proven) malignancy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age below 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to understand written and oral information or to comply with scheduled follow-up",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, underwent XRT for neck mass, and has poor oral intake and weight loss.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01089335",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

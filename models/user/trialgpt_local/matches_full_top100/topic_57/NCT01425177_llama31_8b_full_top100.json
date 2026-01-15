@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01425177",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CBD stone removal during therapeutic ERCP",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CBD stones with CT, ultrasound or MRCP",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cholangitis or cholecystitis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Younger than 18",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mental illness",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol use. Abdominal CT scan revealed acute edematous interstitial pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01425177",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

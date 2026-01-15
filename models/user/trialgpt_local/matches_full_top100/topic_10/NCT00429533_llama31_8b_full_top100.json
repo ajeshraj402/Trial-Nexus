@@ -1,0 +1,72 @@
+{
+  "trial_id": "NCT00429533",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologic evidence compatible with pemphigus vulgaris and direct immunofluorescence",
+      "label": "met"
+    },
+    {
+      "criterion": "Chronic disease that has been controlled with steroids and/or cytotoxics, e.g. maintenance phase.",
+      "label": "met"
+    },
+    {
+      "criterion": "On prednisone 15 or more mg/day to around 40 mg/day or on prednisone 15 or more mg every other day (qod) to around 40 mg qod.",
+      "label": "met"
+    },
+    {
+      "criterion": "Failure to taper steroids below a range of 15 mg/day to around 40 mg/day or 15 mg/qod to around 40 qod without flaring the disease.",
+      "label": "met"
+    },
+    {
+      "criterion": "The steroid dosage at which the most recent flare occurred should not be less than 85% of the last (within 30 days) dosage which controlled the disease, i.e. 85% of the baseline steroid dosage.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Two baseline steroid dosages as determined by prior flares.",
+      "label": "met"
+    },
+    {
+      "criterion": "No pulse steroids, pulse cyclosphosphamide, or plasmapheresis within two months of beginning the protocol.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patient understands the procedures and agrees to participate in the study program by giving written informed consent.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients able to taper steroids without recurrence of disease.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Contraindications to the use of Dapsone, including severe anemia or G6PD deficiency.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patient has behavioral problems that might interfere with compliance.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Pregnancy or breast-feeding.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Younger than 18 or older than 80 years of age.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of allergy to dapsone.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Pt is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and diphenydramine. CBC was normal, but serum tryptase was high at 84. The patient failed aspirin challenge due to adverse reaction.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00429533",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03630913",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients \u2265 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Initial diagnosis of operable invasive breast carcinoma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically proven axillary metastasis (cytology or biopsy) before NAC",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient included in a therapeutic approach of neoadjuvant chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Procedure for the detection of sentinel lymph node by isotopic method +/- colorimetric",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Information of the patient and obtaining written consent, signed by the patient and the investigator",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Affiliated patient or beneficiary of the social security",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pT4d (inflammatory breast cancer)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Metastatic breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any prior chemotherapy for contralateral breast cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Local relapse of breast cancer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Axillary metastasis not histologically proven before NAC",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. She is a candidate for tumor resection and agrees to do so prior to chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03630913",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

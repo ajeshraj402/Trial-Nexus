@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02363244",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "married",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age_group_30_to_60_years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unmarried",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history_of_total_hysterectomy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. She has three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02363244",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

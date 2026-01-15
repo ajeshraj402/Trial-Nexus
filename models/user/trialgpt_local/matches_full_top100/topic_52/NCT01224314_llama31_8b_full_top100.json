@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01224314",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic haemodialysis patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "dialysed 3 to 4 hours three times a week",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinically stable and without intercurrent illnesses",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intercurrent illnesses",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been experiencing dizziness, severe diarrhea, and abdominal pain since yesterday. He was living in a camp in Sudan for a month before returning to the clinic.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01224314",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

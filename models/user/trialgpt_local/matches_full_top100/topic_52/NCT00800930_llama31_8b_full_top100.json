@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00800930",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18-55 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "duration of diarrhoea 0-4 days",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "culture-confirmed Shigella spp (all Shigella spp) in stool on enrolment",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "who received antimicrobial treatment before attending the ICDDR,B hospital",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinical symptoms of other concomitant infections (such as chronic respiratory infections, other concomitant gastrointestinal infections)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has culture-confirmed Shigella spp in stool and meets age and duration criteria. No antimicrobial treatment before attending hospital.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00800930",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

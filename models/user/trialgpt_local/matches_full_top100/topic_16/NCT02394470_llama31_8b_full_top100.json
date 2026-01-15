@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02394470",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Group 1 (Acute Heart Failure - AHF)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "weight gain \u2265 2 kg over the three days prior to hospitalization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "physical findings or radiographic signs of pulmonary congestion (crackles, semi-orthopnea)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatomegaly > 2 cm from the arch rib or ascites",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "jugular turgor or central venous pressure > 10 cm H20",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ankle swelling",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Group 2 (Chronic Heart Failure - CHF)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No hospitalization in the previous six months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Symptoms stable for at least 4 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Oral therapy stable for at least 4 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No involuntary weight variations greater than 2 kg in the last 4 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Absence of signs of congestion",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uremia in dialysis treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Invasive mechanical ventilation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mechanical circulatory support",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac cachexia defined as weight loss \u2265 5% in the prior 12 months or body mass index <20 kg/m2 and hypoalbuminemia (albumin <3.2 g/dl) or anemia (hemoglobin <12 g/l)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Patient tolerated an inpatient sildenafil trial without hypotension.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02394470",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03773809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Randomization and blinding",
+      "label": "met",
+      "evidence": "The randomization and blinding design was developed by a faculty of the Department of Physiology who is not included in the study team."
+    },
+    {
+      "criterion": "Data collection",
+      "label": "met",
+      "evidence": "All the selected patients will be then requested to come to the Department again on the next day for the HRV test with proper preparation."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unstable patients with ACO (patients with exacerbation and medication changes in the past 30 days)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "With acute exacerbation of any pulmonary diseases, such as, Bronchial asthma",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03773809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

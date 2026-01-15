@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02603042",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Positive family anamnesis for Hypophosphatasia disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Frequent fractures",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bone pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Tooth loss",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Osteopenia/Osteoporosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Craniosynostosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No Informed consent from the patient or the parents before any study related procedures.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients of both gender younger than 2 month",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy. Their sister had the same problems at age 52.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02603042",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

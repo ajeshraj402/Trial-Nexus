@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT04139460",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "\u2265 18 years of age at the time of screening",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented non-ischemic HF with an LVEF \u2264 35",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "QRS\u2265130ms; NYHA class II-IV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Signed written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "NT-proBNP above 200 pg/ml",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recipient of any major organ transplant (e.g., lung, liver, heart)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receiving or has received cytotoxic or cytostatic chemotherapy and/or radiation therapy for treatment of a malignancy within 6 month before randomization or clinical evidence of current malignancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known to be human immunodeficiency virus positive with an expected survival of less than 5 years due to HIV",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic kidney disease with glomerular filtration rate <30 ml/min",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic dialysis treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent (within 3 months) history of alcohol or illicit drug abuse disorder, based on self-report",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Any condition (e.g., psychiatric illness) or situation that, in the investigator's opinion, could put the subject at significant risk, confound the study results, or interfere significantly with the subject's participation in the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncorrected congenital heart disease or valve obstruction",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "obstructive cardiomyopathy",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active myocarditis",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "constrictive pericarditis",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "untreated hypothyroidism or hyperthyroidism",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "adrenal insufficiency",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "active vasculitis due to collagen vascular disease",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence on the urgent waiting list for a heart transplant (UNOS category 1A or 1B, or equivalent)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04139460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

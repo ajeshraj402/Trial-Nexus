@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00997516",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Suspected acute appendicitis on clinical and radiographic (CT) grounds",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Suspected acute appendicitis on clinical and radiographic (CT) grounds",
+      "label": "met",
+      "evidence": "The patient is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Phlegmon, mass, peri-appendicecal abscess, or diffuse peritonitis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior open laparotomy with incision through the umbilicus",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Body Mass Index > 35",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "not_met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "Mental illness, dementia, or inability to provide informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic pain requiring daily medication (including opiate and NSAIDs)",
+      "label": "not_met",
+      "evidence": "The patient is a candidate for laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Alternative diagnosis found by diagnostic laparoscopy (post-randomization)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT00997516",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

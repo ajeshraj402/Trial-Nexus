@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02806310",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Scheduled to have a cardiac MRI",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Already had an MRI within the past year",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients without BAV",
+      "label": "does_not_trigger",
+      "evidence": "The patient has a bicuspid aortic valve."
+    },
+    {
+      "criterion": "Patients who have already had surgery for aortic valve problems and/or aortopathy",
+      "label": "triggers",
+      "evidence": "The patient underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease, but there is no mention of previous surgery."
+    },
+    {
+      "criterion": "Unable to complete 6 minute walk test",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient's history and presentation suggest severe aortic stenosis, but there is no mention of previous surgery or inability to complete the 6-minute walk test. However, the patient does not meet the inclusion criteria for having a scheduled cardiac MRI.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02806310",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

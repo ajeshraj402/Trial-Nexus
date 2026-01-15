@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00857051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy first-time mothers",
+      "label": "met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "singleton baby delivered at term",
+      "label": "met",
+      "evidence": "no"
+    },
+    {
+      "criterion": "no complications",
+      "label": "met",
+      "evidence": "no"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "chronic health problems",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy complications",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Infants with congenital problems or conditions requiring admission to the intensive care nursery",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has abnormal cervical squamous intraepithelial/glandular lesion and tested positive for HPV 16, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT00857051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Liver Biopsy",
+      "label": "met"
+    },
+    {
+      "criterion": "Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "triggers"
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Platelet count<25,000/mm3",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation. He has been treated with various therapies but has not had a significant response. He is currently experiencing a rising white count and mildly elevated LDH.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

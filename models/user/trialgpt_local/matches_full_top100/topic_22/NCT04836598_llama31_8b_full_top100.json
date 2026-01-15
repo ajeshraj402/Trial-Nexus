@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04836598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "uncomplicated gall stones",
+      "label": "met",
+      "evidence": "remarkable for leukocytosis"
+    },
+    {
+      "criterion": "ASA 1-3",
+      "label": "met",
+      "evidence": "candidate for laparoscopic appendectomy under general anesthesia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute calcular cholecystitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "BMI \u226545",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ASA 4 or higher",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04836598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

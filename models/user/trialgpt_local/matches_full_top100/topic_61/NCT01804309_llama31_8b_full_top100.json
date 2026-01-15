@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01804309",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women with clinically node negative invasive or microinvasive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous ALND",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinically positive axillary SLNB",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant or lactating",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neoadjuvant breast cancer treatment based on surgeon's discretion (ASCO)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with HER2-positive and ER/PR-negative invasive ductal breast carcinoma, 5 positive lymph nodes, metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT01804309",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04052893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "extensive intraductal carcinoma confirmed by hollow needle biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the lesion not involving the nipple as confirmed by enhanced MR imaging of the breast",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bra cup size: B or higher",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "postmenopausal patients",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "provision of written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The cutting edge of nipple-areola complex tested positive for extensive intraductal carcinoma twice",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "preoperative nipple hemorrhage",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04052893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

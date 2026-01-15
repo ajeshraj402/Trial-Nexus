@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00461149",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age above 18 years",
+      "label": "met",
+      "evidence": "patient is a 24-year-old man"
+    },
+    {
+      "criterion": "no previous treatments for acromegaly",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "primary surgery",
+      "label": "not_met",
+      "evidence": "no mention of primary surgery"
+    },
+    {
+      "criterion": "concomitant hyperprolactinemia if requiring combined treatment with dopamine-agonist",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "primary treatment with lanreotide",
+      "label": "not_met",
+      "evidence": "no mention of primary treatment with lanreotide"
+    },
+    {
+      "criterion": "treatment duration less than 24 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00461149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

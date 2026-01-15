@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01458860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "40-99 years"
+    },
+    {
+      "criterion": "carotid artery stenosis",
+      "label": "met",
+      "evidence": "severe carotid artery stenosis, indicated for treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "<40 years"
+    },
+    {
+      "criterion": "carotid artery stenosis",
+      "label": "triggers",
+      "evidence": "moderate heterogeneous plaque with bilateral 1-39% ICA stenosis"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis, bicuspid aortic valve, and tobacco abuse. He underwent cardiac cath with right heart cath to evaluate pulm art pressures.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT01458860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

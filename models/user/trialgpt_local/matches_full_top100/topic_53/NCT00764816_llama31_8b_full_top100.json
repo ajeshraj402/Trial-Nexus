@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00764816",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "eGFR by modified MDRD equation",
+      "label": "met",
+      "evidence": "20-45 ml/min/1.73m^2"
+    },
+    {
+      "criterion": "protein/creatinine ratio",
+      "label": "met",
+      "evidence": "<5"
+    },
+    {
+      "criterion": "blood pressure",
+      "label": "met",
+      "evidence": "120/75 mmHg"
+    },
+    {
+      "criterion": "medications",
+      "label": "not_met",
+      "evidence": "no calcium binder or supplements, vitamin D, or phosphate binders mentioned"
+    },
+    {
+      "criterion": "serum phosphorus and calcium corrected for albumin",
+      "label": "met",
+      "evidence": "Phosphorus: 3.2mg/dl, Calcium: 9.2mg/dl"
+    },
+    {
+      "criterion": "intact PTH",
+      "label": "met",
+      "evidence": "<100pg/ml"
+    },
+    {
+      "criterion": "medical stability",
+      "label": "met",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "ability to give informed consent and come for all visits",
+      "label": "met",
+      "evidence": "married with 3 children, able to come for clinic visits"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of significant liver disease or cirrhosis",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "medically unstable",
+      "label": "not_met",
+      "evidence": "unremarkable past medical history"
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain, but otherwise unremarkable medical history.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00764816",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

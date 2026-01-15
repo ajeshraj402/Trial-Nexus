@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03597360",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Males or females with severe AD dementia (MMSE<12) between the ages of 70 to 90 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Meet the criteria of AD (NIA-AA).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If on any of the following medications: acetylcholinesterase inhibitors and/or memantine, participants must be on a stable dose for at least 60 days.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically stable for at least 3 months.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or past history of malignancy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of radiotherapy.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological disorder other than AD.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Currently receiving other experimental treatments.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical or imaging evidence of stroke (with more than 1-2 lacunar infarcts on CT scan or MRI).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Major depression, bipolar affective disorder or psychosis.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has MDD and is currently receiving anti-depressants. However, she still experiences symptoms of sadness and loss of interest in daily activities.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT03597360",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

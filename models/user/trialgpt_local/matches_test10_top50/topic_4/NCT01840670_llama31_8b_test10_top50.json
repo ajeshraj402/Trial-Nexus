@@ -1,0 +1,60 @@
+{
+  "trial_id": "NCT01840670",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "need determined by attending physician to perform rapid fluid load test",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "guide infusions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "adequate sedation and good adaptation to mechanical ventilation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "arterial catheter and pulmonary artery catheter present",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obesity (BMI> 30 kg/m2)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age <18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women of childbearing age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tricuspid insufficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hemodynamically significant right ventricular failure",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01840670",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

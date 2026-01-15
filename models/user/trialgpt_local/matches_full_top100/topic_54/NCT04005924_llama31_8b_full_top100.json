@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04005924",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is a male or female, 21-65 years of age, inclusive at Visit 1 (Day -7).",
+      "label": "met"
+    },
+    {
+      "criterion": "Subject has a BMI of 18.5 to 32.0 kg/m2, inclusive, at Visit 1 (Day -7).",
+      "label": "met"
+    },
+    {
+      "criterion": "Subject has a rating of 7 to 10 on the Vein Access Scale at Visit 1 (Day -7; Appendix 2).",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has diagnosed diabetes mellitus (Type 1 or Type 2) or fasting glucose >125 mg/dL at Visit 1 (Day -7).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Subject has a history or presence of uncontrolled and/or clinically important pulmonary (including uncontrolled asthma), cardiac (including, but not limited to, atherosclerotic disease, history of myocardial infarction, peripheral arterial disease, stroke), hepatic, renal, gastrointestinal (including but not limited to inflammatory bowel diseases, such as Crohn's disease and ulcerative colitis, celiac disease), endocrine, hematologic, immunologic, neurologic (such as Alzheimer's or Parkinson's disease), psychiatric (including depression and/or anxiety disorders) or biliary disorders.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT04005924",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

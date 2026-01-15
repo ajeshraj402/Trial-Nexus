@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00830505",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent given by patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male or female patients between 18 and 65 years of age inclusive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Persistent stable asthmatics (FEV1 > 60%)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On \u2264 1000 \u00b5g FP or equivalent or if on combination therapy up to 500 \u00b5g of FP or equivalent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients suffering from stable, persistent, mild to moderate asthma as defined by GINA Guidelines and for whom FEV1 > 60 %",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "In the opinion of the investigator, able and willing to comply with the requirements of the protocol",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe asthmatics as defined by an FEV1 < 60% or PEF variability >30% or with continual daytime or nocturnal symptoms",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known or suspected hypersensitivity to FP or any other constituents of the Test or Reference pMDI",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and presents with shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00830505",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

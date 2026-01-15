@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "Liver Biopsy"
+    },
+    {
+      "criterion": "Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "met",
+      "evidence": "Grade II Esophageal varices"
+    },
+    {
+      "criterion": "On treatment for hepatic encephalopathy (patient can be on lactulose and rifaximin)",
+      "label": "met",
+      "evidence": "Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose."
+    },
+    {
+      "criterion": "Able to give written, informed consent (demonstrated by mini-mental status exam>25 at the time of consenting)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "not_met",
+      "evidence": "Liver function tests showed a striking increase in his total and direct bilirubin since last visit."
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has cirrhosis, varices, and is on treatment for hepatic encephalopathy. However, MELD score >22 may be a concern.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

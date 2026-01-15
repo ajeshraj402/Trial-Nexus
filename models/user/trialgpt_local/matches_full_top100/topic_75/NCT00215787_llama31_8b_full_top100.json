@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00215787",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adults with nasal polyposis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recruited from the PI's private practice",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not currently taking a PPI",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able and willing to undergo a noninvasive 24 hour pH probe study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "take a PPI",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of surgical treatment for reflux disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of allergic or adverse reaction to Prevacid",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease, but this does not seem to be a contraindication for the study. He is an alert and cooperative man who does not have any signs of dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT00215787",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

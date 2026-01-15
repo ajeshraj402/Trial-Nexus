@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03351283",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of stable heart failure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "echocardiogram with left ventricular ejection fraction <40%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "functional class I, II or III of the NYHA",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "optimal medical treatment with ACE inhibitor or ARA and beta-blocker",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no changes in pharmacological treatment in the last 4 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "systolic blood pressure >=90 mmHg",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "informed consent to participate in the study",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hospitalization for heart failure less than one month ago",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic kidney disease with glomerular filtration rate <30 ml/min/1.73m2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "hyponatremia: Sodium less than 130 mmol/l",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "anemia: Hemoglobin less than 10 g/dl",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "planned change of address in the next 12 months",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has atypical hemolytic uremic syndrome, which may be a contraindication for study participation.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03351283",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

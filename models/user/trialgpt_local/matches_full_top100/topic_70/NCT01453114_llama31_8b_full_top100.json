@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01453114",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women_18_years_and_older",
+      "label": "met"
+    },
+    {
+      "criterion": "planning_pregnancy_or_already_pregnant",
+      "label": "met"
+    },
+    {
+      "criterion": "stable_remission_from_depression",
+      "label": "unknown"
+    },
+    {
+      "criterion": "current_or_recent_treatment_with_antidepressant",
+      "label": "met"
+    },
+    {
+      "criterion": "history_of_major_depressive_episode",
+      "label": "met"
+    },
+    {
+      "criterion": "decide_to_discontinue_antidepressant_medication_for_pregnancy",
+      "label": "unknown"
+    },
+    {
+      "criterion": "currently_receive_ongoing_psychiatric_care_provided_by_a_physician_outside_the_MGH_Center_for_Women_s_Mental_Health",
+      "label": "met"
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "significant_risk_for_self_harm_or_harm_to_others",
+      "label": "not_met"
+    },
+    {
+      "criterion": "psychotic_symptoms",
+      "label": "unknown"
+    },
+    {
+      "criterion": "meeting_criteria_for_a_primary_SCID-I/P_diagnosis_of_schizophrenia_bipolar_disorder_an_active_eating_disorder_dementia_delirium_or_other_cognitive_disorder",
+      "label": "not_met"
+    },
+    {
+      "criterion": "presence_of_an_active_substance_and/or_alcohol_abuse_disorder_within_six_months_prior_to_screening_visit",
+      "label": "not_met"
+    },
+    {
+      "criterion": "current_use_of_mood_stabilizers_antipsychotics_or_antiepileptics",
+      "label": "unknown"
+    },
+    {
+      "criterion": "have_received_cognitive-behavioral_or_interpersonal_therapy_within_the_last_year",
+      "label": "not_met"
+    },
+    {
+      "criterion": "diagnosed_with_a_medical_disorder_that_has_a_known_association_with_depressive_symptoms",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of MDD, is currently on antidepressants, and has been experiencing depressive symptoms. She does not have any known medical disorders associated with depression.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01453114",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

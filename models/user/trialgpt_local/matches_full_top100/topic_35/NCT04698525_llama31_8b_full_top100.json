@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04698525",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years old"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "migraine headache, ICHD-III of the IHS"
+    },
+    {
+      "criterion": "attacks_per_month",
+      "label": "met",
+      "evidence": "4-14 migraine attacks per month"
+    },
+    {
+      "criterion": "prophylactic_treatment",
+      "label": "met",
+      "evidence": "not receiving prophylactic treatment for migraine"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "signed informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other_headache_type",
+      "label": "not_met",
+      "evidence": "no other type of non-migraine headache"
+    },
+    {
+      "criterion": "allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "systemic_disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "15 year old girl with recurrent bilateral headache, diagnosed with migraine headache and under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT04698525",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

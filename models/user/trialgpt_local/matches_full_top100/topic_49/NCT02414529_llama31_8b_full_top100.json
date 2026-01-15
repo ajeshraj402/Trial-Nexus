@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02414529",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obese subjects",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "pubertal",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "12-18 years regardless of gender, race or economic circumstance",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pre diabetes/high risk of diabetes using criteria of HbA1C between 5.7 - 6.4%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "25-OH vitamin D level less than 20 ng/ml (50 nmol/liter)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Subjects must be willing to comply with study protocol requirements",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Treatment on medication known to effect vitamin D, calcium and glucose metabolism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects will be excluded from the study if they have taken any form of vitamin D supplementation greater than 400 IU daily in the preceding 3 months.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant major organ system illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of nephrolithiasis or hypercalcemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Females who are pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant psychiatric illness: schizophrenia, bipolar disorder, active substance abuse, and uncontrolled major depression.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Attendance at tanning salon",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, is treating with GH, and has a history of developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02414529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01723943",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "spouse_of_woman_diagnosed_with_breast_cancer",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "married_or_cohabiting_for_at_least_6_months",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "english_as_one_of_languages_of_choice",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "live_within_25_miles_of_university_of_washington_study_center",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willing_to_give_sample_of_blood_and_or_sputum_at_time_of_first_and_second_data_collections",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "woman_diagnosed_with_stage_iv_or_recurrent_breast_cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "woman_and_or_spouse_not_able_to_read_and_write_in_english",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01723943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

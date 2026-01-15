@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01309919",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "met",
+      "evidence": "desires to use an IUD"
+    },
+    {
+      "criterion": "delivery_location",
+      "label": "met",
+      "evidence": "plans to deliver at Baystate Medical Center"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "sexually_transmitted_infection",
+      "label": "not_met",
+      "evidence": "no history of sexually transmitted infection"
+    },
+    {
+      "criterion": "desire_for_another_pregnancy",
+      "label": "unknown",
+      "evidence": "no information provided"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease, regular exercise habits, and no history of allergies. She has an irregular menstrual cycle.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT01309919",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00295204",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "syncope, pre-syncope or palpitations less frequently than every 24 hours",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "without loss of consciousness defined as transient dizziness, leghtheadedness,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unsteadiness or weak spells: syncopal events with or without warning: palpitations",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects with non-diagnostic 24 hours of monitoring related to symptoms within 45 days of enrollment into study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject able to understand, assent to , and willing to sign the Informed Consent Form.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Class IV heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Post Myocardial infarction less than or equal to 3 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unstable angina defined as chest pain at rest, new onset of angina, or a change in existing patterns of angina.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects who are candidatees for or have had recent (less than or equal to 3 monthr) heart valve surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of sustained ventricualr tachycardia or ventricular fibrillation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "documented EF 35% or less with complex ectopy defined as PVC's 10 or greater per hour.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is less than 18 years old at the time of signing informed consent.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any condition which may prohibit the completion of or compliance with the protocol.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after negative work-up for syncope which included implantation of cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00295204",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

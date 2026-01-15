@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT00968240",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of relapsed or refractory glioblastoma multiforme (GBM), anaplastic astrocytoma (AA) or anaplastic mixed oligoastrocytoma (AOA)",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine, complicated by severe lower extremity weakness and urinary retention."
+    },
+    {
+      "criterion": "histologically confirmed low-grade brain tumor who relapse with an enhancing tumor on MRI can be evaluated for toxicity only",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status greater or equal to 60%",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention, but no mention of Karnofsky score."
+    },
+    {
+      "criterion": "expected survival of greater or equal to three months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-enrollment coagulation parameters (PT and PTT) must be less than or equal to 1.5X the IUNL",
+      "label": "met",
+      "evidence": "Patient has hypertension, but no mention of PT or PTT."
+    },
+    {
+      "criterion": "adequate hematologic reserve with WBC greater than or equal to 2800/mm3, absolute neutrophils greater than or equal to 1500/mm3 and platelets greater than or equal to 100,000/ mm3",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-enrollment chemistry parameters must show: bilirubin <1.5X the institutional upper limit of normal (IUNL); AST or ALT <2.5X IUNL and creatinine <1.5X IUNL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "male or female patients of greater or equal 18 years of age",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients previously treated with more than 6 cycles (28 days each) of Bevacizumab at 10/mg/kg",
+      "label": "does_not_trigger",
+      "evidence": "Patient has received Avastin Q2 weeks/ 2 weeks rest and repeat cycle, but no mention of number of cycles."
+    },
+    {
+      "criterion": "Women who are pregnant or lactating",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with significant intercurrent medical or psychiatric conditions that would place them at increased risk or affect their ability to receive or comply with treatment or post-treatment clinical monitoring",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's expected survival and hematologic reserve are unknown. Patient has received Avastin, but number of cycles is unclear.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00968240",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

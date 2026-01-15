@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00710970",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "previous diagnosis of bladder cancer",
+      "label": "met",
+      "evidence": "sister diagnosed with Paget's disease of bone"
+    },
+    {
+      "criterion": "systemic therapy regimens",
+      "label": "met",
+      "evidence": "Bisphosphonate will be started as first-line therapy"
+    },
+    {
+      "criterion": "cancer spread to other parts of the body",
+      "label": "met",
+      "evidence": "The patient's sister had the same problems."
+    },
+    {
+      "criterion": "adequate liver function",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "uncontrolled nervous system metastasis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "systemic therapies within the past 4 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "major surgery within 2 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Grade III/IV heart problems",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe and/or uncontrolled medical disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "high risk for deep vein thrombosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00710970",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

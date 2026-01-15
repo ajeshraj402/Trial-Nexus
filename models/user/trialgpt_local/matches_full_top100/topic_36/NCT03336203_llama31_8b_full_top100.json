@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03336203",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient adults with gout and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "outpatient adults with CKD 1-4 stages and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "forms of associated comorbidities and cardiovascular risk factors, including heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "III-IV NYHA, stroke, peripheral arterial disease, obesity with BMI above 30 kg/m2",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT03336203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

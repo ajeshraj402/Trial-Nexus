@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03158805",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25-year-old"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bipolar disorder",
+      "label": "not_met",
+      "evidence": "clinically stable DSM-5 bipolar disorder"
+    },
+    {
+      "criterion": "obesity or overweight with comorbidity",
+      "label": "met",
+      "evidence": "BMI \u2265 30 mg/kg2, hypertension, type 2 diabetes"
+    },
+    {
+      "criterion": "stable treatment regimen for weight-related comorbidity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "25-year-old pregnant woman"
+    },
+    {
+      "criterion": "dementia or psychotic disorder",
+      "label": "not_met",
+      "evidence": "no history of dementia or psychotic disorder"
+    },
+    {
+      "criterion": "substance use disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serious medical illness",
+      "label": "not_met",
+      "evidence": "no clinically unstable general medical illnesses"
+    },
+    {
+      "criterion": "medullary thyroid cancer or Multiple Endocrine Neoplasia syndrome type 2",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypersensitivity to liraglutide",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a pregnant woman with hypertension and type 2 diabetes, but no history of recurrent UTI or other underlying disease.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT03158805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02493595",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred for diagnosis because of a reported symptom",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no previous treatment or biopsy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "breast size 32A to breast size 42DD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to lie prone on a couch for 10 minutes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to remain reasonably still for 2 minutes",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "breast implants",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent Biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "extremely small or extremely large breasts",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of metal or blood lesion (haematoma)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "breathlessness or severe arthritis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She smokes 10 cigarettes per day and drinks alcohol occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT02493595",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

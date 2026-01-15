@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01741324",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "5-7 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Healthy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic illness, including coeliac disease or other chronic gastrointestinal disorders",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Drugs that can affect bone health or vitamin D uptake",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cow's milk allergy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01741324",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

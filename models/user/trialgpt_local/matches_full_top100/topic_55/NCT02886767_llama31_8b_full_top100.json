@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02886767",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "older than 20 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "be at the hospital daily until discharge",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "be a nonsmoker",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "not have an alcohol addiction or be diagnosed with a psychological disorder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "sign an informed consent agreement",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the neonate gestational age less than 37 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the neonate vital signs unstable",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the neonate with congenital abnormalities or diseases",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of tremors and Wilson disease, which may be relevant for the trial.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02886767",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

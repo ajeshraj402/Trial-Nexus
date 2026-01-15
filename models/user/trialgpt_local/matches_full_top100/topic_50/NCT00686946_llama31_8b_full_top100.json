@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00686946",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women who take antipsychotic medication during pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or have had a baby in the last 12 months",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are living in Australia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are able to provide informed consent",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women who do not take antipsychotic medication during pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are not pregnant, or have not had a baby in the last 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are unable to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male patient with undescended testis, no developmental delay.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT00686946",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

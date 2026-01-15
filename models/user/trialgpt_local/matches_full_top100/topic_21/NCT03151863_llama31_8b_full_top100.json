@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03151863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u226565 years old",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "admitted in palliative medicine unit",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "nursing care procedure causing discomfort",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "taking Morphine, Hydromorphone, Buprenorphine or Fentanyl",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypersensitivity to Dexmedetomidine or Midazolam",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Fentanyl extra dose medication before nursing cares",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "weight > 80Kg",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychomotor agitation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known bronchial aspiration risks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known respiratory distress risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known cardiac risk",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known acute cerebrovascular disease or recent stroke",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, drinks around 60 units of alcohol per week and smokes 22 cigarettes per day. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT03151863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

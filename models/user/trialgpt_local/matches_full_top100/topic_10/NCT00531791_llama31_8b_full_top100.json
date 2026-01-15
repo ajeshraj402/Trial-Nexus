@@ -1,0 +1,64 @@
+{
+  "trial_id": "NCT00531791",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of COPD",
+      "label": "unknown"
+    },
+    {
+      "criterion": "history of 15 pack-years or more of cigarette smoking",
+      "label": "met"
+    },
+    {
+      "criterion": "evidence of irreversible obstruction (FEV1<70% of predicted value, ratio FEV1/FVC<70%)",
+      "label": "met"
+    },
+    {
+      "criterion": "improvement of FEV1of less than 20% after bronchodilator in previous respiratory tests done when they were stable",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of asthma or atopy",
+      "label": "met"
+    },
+    {
+      "criterion": "need of being hospitalized",
+      "label": "met"
+    },
+    {
+      "criterion": "use of oral or intravenous steroid within the preceding 30 days",
+      "label": "met"
+    },
+    {
+      "criterion": "history of multiresistant bacterial infection (not applicable if absence of multi-resistant bacterial infection has been proved by a negative expectoration culture in the previous 6 months)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "bronchiectasis or recent COPD exacerbation (< 6 weeks) or diabetes",
+      "label": "met"
+    },
+    {
+      "criterion": "oxygen-dependant COPD patients or patients previously known with hypercapnia (PCO2>45 mmHg) at steady state",
+      "label": "met"
+    },
+    {
+      "criterion": "use of high doses of Advair (more than 50/500 bid) or Symbicort (more than 12/400 bid)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "known cardiac arrhythmia such as atrial fibrillation, supraventricular tachycardia or paroxysmal auricular tachycardia",
+      "label": "met"
+    }
+  ],
+  "notes": "Patient has a history of systemic mastocytosis with flares, but no clear indication of COPD. However, patient's condition may be exacerbated by respiratory issues.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00531791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

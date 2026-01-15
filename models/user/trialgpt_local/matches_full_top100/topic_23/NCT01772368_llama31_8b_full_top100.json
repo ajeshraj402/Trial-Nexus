@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01772368",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent/assent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "General good health",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of asthma as defined by the National Institutes of Health (NIH)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A best FEV1 of 40%-85% of the predicted normal value during the screening visit (SV)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subjects need to demonstrate a \u2265 15% reversibility of FEV1 within 30 minutes following 4 inhalations of albuterol inhalation aerosol (if required, spacers are permitted for reversibility testing) at the SV.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of life-threatening asthma that is defined for this protocol as an asthma episode that required intubation.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Culture-documented or suspected bacterial or viral infection of the upper or lower respiratory tract, sinus, or middle ear that is not resolved within 2 weeks prior to the SV.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any asthma exacerbation requiring oral corticosteroids within 3 months of the SV. A subject must not have had any hospitalization for asthma within 6 months prior to the SV.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Taking long-acting \u03b2-agonists within 2 weeks of the SV",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma and uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg. He has not had any hospitalization for asthma within the past 6 months.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01772368",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

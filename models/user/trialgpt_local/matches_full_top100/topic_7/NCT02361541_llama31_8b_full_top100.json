@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02361541",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult (> or = 18 years old)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented HIV positive",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "In regular HIV care follow-up (min. 2 consultations in the last six months prior to the study)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willing and able to provide written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HIV patients with currently taking Hepatitis C treatment or with a history of prior hepatitis C treatment",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis and is being treated for hepatic encephalopathy, but is not on HIV care follow-up.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02361541",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

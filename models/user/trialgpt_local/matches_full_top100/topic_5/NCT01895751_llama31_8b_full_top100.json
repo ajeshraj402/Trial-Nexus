@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01895751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Unstable angina or non-ST elevation myocardial infarction",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stabilised symptoms without recurrent chest pain or IV therapy for 12 hrs when ambulant.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Refractory ischaemia (i.e. recurrent angina with minimal exertion or at rest (i.e. Canadian Cardiovascular Society class III or IV) not controlled by medical therapy)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiogenic shock",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unsuitable for invasive management.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD. He reports occasional dizziness and HA, denies CP/SOB. No sensory or motor defects.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01895751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

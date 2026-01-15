@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01602107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "minimum age of 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "primary diagnosis of stress urinary incontinence by urogynaecologist",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on the surgical wait list for surgery to address stress urinary incontinence",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "currently pregnant or <6 months post-partum",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pelvic mass (es)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pad test weight gain less than 1g at baseline testing",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no episode of SUI as demonstrated by a 3-day bladder diary",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "having received more than 4 sessions of physical therapy in the past 5 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with recurrent bilateral headache. She has been diagnosed with migraine headache and is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT01602107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

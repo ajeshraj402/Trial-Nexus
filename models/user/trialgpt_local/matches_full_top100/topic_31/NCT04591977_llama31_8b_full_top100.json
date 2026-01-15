@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04591977",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "30-65 Years"
+    },
+    {
+      "criterion": "Healthcare provider",
+      "label": "met",
+      "evidence": "Penn State Health, Family and Community Medicine"
+    },
+    {
+      "criterion": "Sample collection time frame",
+      "label": "met",
+      "evidence": "within two weeks of visit"
+    },
+    {
+      "criterion": "Gender",
+      "label": "met",
+      "evidence": "Female"
+    },
+    {
+      "criterion": "Cervical status",
+      "label": "met",
+      "evidence": "Intact cervix"
+    },
+    {
+      "criterion": "Language proficiency",
+      "label": "met",
+      "evidence": "Speaks, reads, or writes in English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitive status",
+      "label": "not_met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "Incarceration status",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hysterectomy status",
+      "label": "not_met",
+      "evidence": "underwent tubal ligation"
+    },
+    {
+      "criterion": "History of cervical treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "37-year-old woman with stage 1B cervical cancer, HPV 16 positive, three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT04591977",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

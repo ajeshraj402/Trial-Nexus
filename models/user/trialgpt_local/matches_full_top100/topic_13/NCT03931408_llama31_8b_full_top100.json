@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03931408",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "At least 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-progressive spinal cord injury",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stable medical condition",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Bladder dysfunction as a result of spinal cord injury",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of recurrent UTIs (defined as 3 or more within the past year or 2 or more within the past 6 months)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Signs or symptoms of serious UTI that requires the use of systemic antibiotics",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of any urine-acidifying agent, bladder irrigant, or systemic antibiotic within the previous 2 weeks",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participants colonized with gentamicin-resistant bacteria on baseline urine culture or a gentamicin allergy/sensitivity",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participants with known hearing loss and/or renal disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant at the time of enrollment or planning to become pregnant during the time course of the study",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and bladder dysfunction due to spinal cord injury, but is currently stable and not using any urine-acidifying agents or systemic antibiotics.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03931408",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

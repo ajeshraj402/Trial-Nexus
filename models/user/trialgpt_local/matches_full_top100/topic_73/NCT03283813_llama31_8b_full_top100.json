@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03283813",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "both sexes"
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "between 6 and 18 years of age"
+    },
+    {
+      "criterion": "obesity",
+      "label": "unknown",
+      "evidence": "according to the IOTF criteria (Cole TJ et al., 2000)"
+    },
+    {
+      "criterion": "pubertal stage",
+      "label": "not_met",
+      "evidence": "pubertal stage \u2265 3 according to the Tanner stage (Tanner et al., 1961)"
+    },
+    {
+      "criterion": "HOMA-IR",
+      "label": "unknown",
+      "evidence": "HOMA-IR > 2,5 or insulin > 15 \u00b5U/ml"
+    },
+    {
+      "criterion": "serum zinc level",
+      "label": "met",
+      "evidence": "Serum Zinc level in the range of normality or under the normal levels"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adverse reactions to product",
+      "label": "unknown",
+      "evidence": "Adverse reactions to the product or component of the product (allergies\u2026)"
+    },
+    {
+      "criterion": "genetic obesity",
+      "label": "not_met",
+      "evidence": "Genetic obesity (Prader Willi syndrome, Down syndrome), Metabolic obesity"
+    },
+    {
+      "criterion": "chronic diseases",
+      "label": "unknown",
+      "evidence": "Chronic diseases, hepatic or gastroenterological diseases"
+    },
+    {
+      "criterion": "medical treatment for chronic diseases",
+      "label": "not_met",
+      "evidence": "Medical treatment for chronic diseases"
+    }
+  ],
+  "notes": "A 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT03283813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

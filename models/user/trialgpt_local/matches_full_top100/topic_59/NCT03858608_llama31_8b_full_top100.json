@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03858608",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed asthma as per Global Initiative for Asthma (GINA) guidelines 2015",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Characteristic symptoms",
+      "label": "met",
+      "evidence": "shortness of breath, chest tightening and cough"
+    },
+    {
+      "criterion": "Reversible airflow limitation - 12% and 200ml increase in forced expiratory volume (FEV1) in the preceding 5 years either: i. After inhaled/nebulised bronchodilator or 4+ weeks of anti-inflammatory treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive bronchial challenge in the preceding 5 years: i. Provocation concentration (PC20) methacholine or histamine <8mg/ml ii. Provocative dose (PD15) mannitol <635mg",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Difficult asthma defined as per Scottish Intercollegiate Guidelines Network (SIGN)/British Thoracic Society (BTS) guideline 2014 as persistent symptoms and/or frequent asthma attacks despite treatment at step 4 or step 5 with either: ACQ6 >1.5 \u22652 systemic corticosteroid boosts in previous year \u22651 hospitalization in previous year BMI \u2265 30 kg/m2",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ICU admission +/- mechanical ventilation in the previous 6 months for asthma exacerbation",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Respiratory tract infection requiring antibiotics or asthma exacerbation requiring corticosteroid boost in preceding 4 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant respiratory or other co-morbidity likely to influence the conduct of the study",
+      "label": "not_met",
+      "evidence": "non-significant past medical history"
+    },
+    {
+      "criterion": "Pregnancy and breast feeding",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe and/or unstable cardiac disease",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Recent (within the preceding 6 months) commencement of antifungal, biologic (omalizumab, lebrikizumab, mepolizumab) or \"Airsonett\" device\u037e eligible if on treatment for > 6months or discontinued",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Current insulin use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03858608",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

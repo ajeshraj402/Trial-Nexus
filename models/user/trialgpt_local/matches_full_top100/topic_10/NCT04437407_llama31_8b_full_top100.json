@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04437407",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226518 years old",
+      "label": "met",
+      "evidence": "patient's age is 22"
+    },
+    {
+      "criterion": "low-risk singleton pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "in the last trimester of pregnancy (at least 28 weeks + 0 days but not more than 36 weeks + 0 days of gestation)",
+      "label": "not_met",
+      "evidence": "patient is a 22yo F, no mention of pregnancy"
+    },
+    {
+      "criterion": "access to and ability to use iPhone (for downloading and using Ajuvia app)",
+      "label": "met",
+      "evidence": "patient has an iPhone mentioned in the discharge instructions"
+    },
+    {
+      "criterion": "residing in the Greater Adelaide Area",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "musculoskeletal disorder that prevents sleeping supine or on a certain side (e.g., arthritic shoulder)",
+      "label": "not_met",
+      "evidence": "no mention of musculoskeletal disorders"
+    },
+    {
+      "criterion": "non-English speaking and reading",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and was discharged on her home meds.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04437407",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

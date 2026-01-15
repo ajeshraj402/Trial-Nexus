@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "32 years old"
+    },
+    {
+      "criterion": "weight",
+      "label": "not_met",
+      "evidence": "113 kg, BMI: 41.54"
+    },
+    {
+      "criterion": "height",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep apnea",
+      "label": "met",
+      "evidence": "complaining of sleep apnea"
+    },
+    {
+      "criterion": "PCO",
+      "label": "not_met",
+      "evidence": "complaining of PCO"
+    },
+    {
+      "criterion": "dissatisfaction with body shape",
+      "label": "met",
+      "evidence": "complaining of dissatisfaction with her body shape"
+    },
+    {
+      "criterion": "high-school teacher",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "married for 5 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no prior pregnancies",
+      "label": "met",
+      "evidence": "had no prior pregnancies"
+    },
+    {
+      "criterion": "no smoking or drug use",
+      "label": "met",
+      "evidence": "doesn't smoke or use any drugs"
+    },
+    {
+      "criterion": "completed four square step test in 14 seconds",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "BP: 130/80, HR: 195/min",
+      "label": "not_met",
+      "evidence": "BP: 130/80, HR: 195/min"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 2 years old and more than 5 years old",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "stool test negative for any intestinal helminth",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "suffering from serious chronic illness",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with sleep apnea, PCO and dissatisfaction with her body shape. She has no prior pregnancies and doesn't smoke or use any drugs.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

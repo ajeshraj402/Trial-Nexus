@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00875797",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "mechanically ventilated critically-ill patients",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "older than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "staying in intensive care unit for at least 4 days",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anuria",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "intestinal insufficiency (obstruction, discontinuation of intestine or severe ileus)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no anuria mentioned. Intestinal insufficiency not explicitly ruled out.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00875797",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

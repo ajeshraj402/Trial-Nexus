@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04635514",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "did not undergo a preservation process",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who presented with lateral vaginal defects prolapsing into the vaginal canal and affiliated with moderate to severe deep dyspareunia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "anteverted uterus, anterior or posterior, colporrhaphy, and intact paravaginal suspension",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women who presented with anterior or posterior vaginal wall defects (cystocele or rectocele)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "retroverted uterus, pregnancy, current infection of the lower genital tract, general illnesses, and inflammatory disorder",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "short",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04635514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

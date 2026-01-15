@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02262962",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Parent or guardian of an infant who is 12 months of age or younger",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Speaks English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Is 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Has plans to move out of Los Angeles county within the next 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has plans to change the primary care location for the index child within the next 12 months.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Parent or guardian is an employee of one of the primary care clinics that are part of the study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has RRMS and is under treatment. She smokes 10 cigarettes per day and drinks alcohol occasionally.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT02262962",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

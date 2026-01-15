@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00724217",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "total cholesterol level",
+      "label": "met",
+      "evidence": "> 180"
+    },
+    {
+      "criterion": "weight status",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "gestational age",
+      "label": "not_met",
+      "evidence": "< 37w"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diabetes",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "heart disease",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "kidney disease",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "thyroid disorder",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "neurological disease",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "chronic disease",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "breastfeeding",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with neonatal jaundice. She was born at 34w of gestation and has normal vital signs.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00724217",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

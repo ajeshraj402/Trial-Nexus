@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04030741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17-year-old boy"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "boy"
+    },
+    {
+      "criterion": "admission_type",
+      "label": "met",
+      "evidence": "pediatric surgery emergency"
+    },
+    {
+      "criterion": "pas_score",
+      "label": "met",
+      "evidence": ">7"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated_appendicitis",
+      "label": "not_met",
+      "evidence": "no suspicion of perforation"
+    },
+    {
+      "criterion": "appendicular_mass",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_non_operative_treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "crp_level",
+      "label": "met",
+      "evidence": "<40 mg/L"
+    },
+    {
+      "criterion": "previous_abdominal_surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT04030741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

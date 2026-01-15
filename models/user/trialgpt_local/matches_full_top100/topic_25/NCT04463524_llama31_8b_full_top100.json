@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suspected heart rhythm disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no previous diagnosis of rhythm disorder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on examination on the ECG, the patient was not in sinus rhythm",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with a history of breast cancer and heart disease. She smokes frequently and consumes alcohol occasionally.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

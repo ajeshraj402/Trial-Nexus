@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00586443",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed malignancy that is metastatic or unresectable and for which standard curative or palliative measures do not exist or are no longer effective.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Disease must be measurable or evaluable by RECIST criteria.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky performance status > 70%.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy of at least 3 months.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have normal organ and marrow function as defined below:",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absolute neutrophil count greater or equal to 1,500/\u03bcl;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Platelets greater or equal to 100,000/\u03bcl;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total bilirubin, less or equal to 1.5 X upper limit of normal (ULN);",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AST(SGOT)/ALT(SGPT)less or equal to 2.5 X ULN less or equal to 5 X ULN if known hepatic metastases;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Creatinine clearance greater or equal to 50 mL/min/m2 for patients with creatinine levels (by Cockroft-Gault equation or 24 hour urine; ",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemoglobin > 9 g/dL;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Magnesium > 1.2 mg/dL;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Calcium (corrected for albumin)> 8.7 mg/dL;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have had radiation therapy, hormonal therapy, biologic therapy, or chemotherapy for cancer within the 28 days prior to day 1 of the study.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with known CNS metastases or centrally-located non-small cell lung cancer.",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inadequately controlled hypertension (defined as systolic blood pressure >150 and/or diastolic blood pressure > 100 mmHg)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with worsening dysphagia, poor oral intake, weight loss, and lethargy. Patient has received radiation therapy in the past.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00586443",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

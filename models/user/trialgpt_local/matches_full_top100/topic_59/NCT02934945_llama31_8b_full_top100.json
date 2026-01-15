@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02934945",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged 15-75",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "first diagnosed corresponding to the diagnostic standards established by Asthma Committee, Respiratory Society, Chinese Medical Association, or previously diagnosed asthma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "asthma without regular treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mch bronchial provocation test is positive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the chest X-ray is normal",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "accompanied by other disease of respiratory system",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "combined with serious illness of other system, such as myocardial infarction, severe arrhythmia, malignant tumors and so on",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women with pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02934945",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

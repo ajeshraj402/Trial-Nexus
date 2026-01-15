@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00608972",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with previously untreated metastatic breast cancer, ER/PR/HER2/neu negative.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >= 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status <= 2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal organ and marrow function",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Normal cardiac function as evidenced by LVEF within institutional normal limits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of hypersensitivity reactions to doxil or bevacizumab",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Myocardial infarct or unstable angina within 6 months before enrollment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior anthracycline dose exceeding 360 mg/m2 for doxorubicin (including DOXIL) or 720 mg/m2 for epirubicin.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Proteinuria",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00608972",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

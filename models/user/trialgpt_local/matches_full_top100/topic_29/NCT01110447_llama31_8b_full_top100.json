@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01110447",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed as having cirrhosis of liver",
+      "label": "met",
+      "evidence": "ultrasonographical or liver histological data"
+    },
+    {
+      "criterion": "diagnosis of cirrhosis of liver based on clinical, biochemical, and ultrasonographical or liver histological data",
+      "label": "met",
+      "evidence": "clinical, biochemical, and ultrasonographical or liver histological data"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "alcohol intake during the past 6 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hepatocellular carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous transjugular intrahepatic portosystemic shunt or shunt surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant comorbid illness such as heart, respiratory, or renal failure",
+      "label": "not_met",
+      "evidence": "lab studies showed: Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "any neurologic diseases such as Alzheimer's disease, Parkinson's disease, and nonhepatic metabolic encephalopathies.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients on psychoactive drugs, such as antidepressants or sedatives",
+      "label": "not_met",
+      "evidence": "The patient reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management."
+    },
+    {
+      "criterion": "those who restart alcohol consumption during follow-up will also be excluded.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes, currently homeless and without insulin supply. He has had previous episodes of diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01110447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

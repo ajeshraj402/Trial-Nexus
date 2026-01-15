@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01335763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "41-year-old"
+    },
+    {
+      "criterion": "Type 2 diabetes for at least 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Taking 1 or more oral hypoglycemic agents",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient attending your community pharmacy where you decided that addition of insulin glargine may be of benefit to the patient",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Baseline HbA1c 7.5 - 11%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have used, or currently using, Insulin",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "not_met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "Works night shift",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal impairment(Serum Creatinine: females \u2265 124 mmol/l, males \u2265 133 mmol/l)",
+      "label": "not_met",
+      "evidence": "no mention of renal impairment"
+    },
+    {
+      "criterion": "Clinically unstable",
+      "label": "met",
+      "evidence": "abdominal pain and vomiting, heart rate is 115/min"
+    },
+    {
+      "criterion": "Unwilling/unable to attend follow up visits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unlikely to adhere to study procedures (eg. due to cognitive limitations, severe psychiatric disorder or alcoholism)",
+      "label": "met",
+      "evidence": "alcohol consumption"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of frequent alcohol consumption.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01335763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

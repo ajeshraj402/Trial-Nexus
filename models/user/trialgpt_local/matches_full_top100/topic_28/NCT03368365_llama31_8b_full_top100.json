@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03368365",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obtaining_consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical_examination",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "spirometry",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "peak_expiratory_flow",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "follow_up_visits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "measures_at_home",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "home_network_coverage",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "proven_psychiatric_pathology",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cognitive_problem",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "people_referred_to_articles_l1121-5_to_l1121-8",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03368365",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

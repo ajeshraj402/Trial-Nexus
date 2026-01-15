@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02156232",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Signed written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Dignosis of liver cirrhosis (clinical or by liver biopsy)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatic carcinoma and/or other malignancy diseases",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Portal vein thrombosis (\u226550% of the lumen)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CLL and large cell transformation, with recent worsening palpable lymphadenopathy. He has had multiple treatment regimens without significant response.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT02156232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

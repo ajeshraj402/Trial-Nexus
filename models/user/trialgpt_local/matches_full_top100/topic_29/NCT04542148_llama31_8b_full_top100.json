@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04542148",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Type 2 pregestational diabetes mellitus treated with multiple daily insulin injections",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hospitalized for antenatal corticosteroid administration in anticipation of preterm birth",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Gestational age 24 0/7 weeks - 36 5/7 weeks",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Maternal age 18-50",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Planned delivery < 72 hours after 1st dose of antenatal corticosteroids",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than 6 hours after 1st dose of antenatal corticosteroids",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, not type 2. He is currently homeless and lost his insulin supply.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT04542148",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

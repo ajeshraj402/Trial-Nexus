@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02567877",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "TSH in the ideal reference range (0.4-4.0 milli-international units per liter (mIU/L))",
+      "label": "met",
+      "evidence": "lab results: TSH: 2.35 mU/L"
+    },
+    {
+      "criterion": "Planned thyroidectomy for nodular thyroid disease or low-risk differentiated thyroid cancer (<4cm, no ETE, no expected use of RAI or suppressive levothyroxine therapy)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of psychiatric illness (major illness as defined by DSM IV: major depression, schizophrenia, mania, etc). Patients prescribed chronic medications for psychiatric illness, those taking benzodiazepines or anti-seizure medication.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Estrogen therapy that is new within the last 6 weeks or if the dose has been changed within the last 6 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Positive thyroid antibodies",
+      "label": "met",
+      "evidence": "lab results: anti-TPO levels were extremely high (120 IU/ml)"
+    },
+    {
+      "criterion": "Chronic use (>4 weeks) of concomitant medications that could affect cognition and memory (including sedative hypnotics, selective serotonin reuptake inhibitors, selective serotonin-norepinephrine reuptake inhibitors, Topamax, benzodiazepines, etc.)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Steroid therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Persistent cancer of any type or other major medical illness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment. She is still overweight and has high anti-TPO levels.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02567877",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

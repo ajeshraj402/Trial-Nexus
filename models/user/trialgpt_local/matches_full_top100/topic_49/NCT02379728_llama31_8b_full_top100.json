@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "12 year old"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "gestation_age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "not_met",
+      "evidence": "Greater Accra Metropolitan Area"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "not_met",
+      "evidence": "no mention of sleep disorder"
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "met",
+      "evidence": "singleton pregnancy"
+    },
+    {
+      "criterion": "fetal_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "maternal_age",
+      "label": "not_met",
+      "evidence": "12 year old"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, short stature, delayed puberty and developmental delay. She is obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04022434",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of fructose malabsorption",
+      "label": "met",
+      "evidence": "positive breath test after ingestion of 25 grams of fructose"
+    },
+    {
+      "criterion": "Women of childbearing potential must agree to a urine pregnancy test before supplement is dispensed and to avoid pregnancy throughout the study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cognitive impairment or any other inability to provide informed consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, with a history of abdominal pain, bloating, nausea, and loose bowel movements. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04022434",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

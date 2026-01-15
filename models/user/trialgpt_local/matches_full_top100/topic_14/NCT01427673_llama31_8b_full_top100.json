@@ -1,0 +1,73 @@
+{
+  "trial_id": "NCT01427673",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients aged > 35 years, the diagnosis of both OSA and COPD.",
+      "label": "met",
+      "evidence": "Patient is 70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome."
+    },
+    {
+      "criterion": "OSA must have been diagnosed using an American Academy of Sleep Medicine (AASM)-protocol overnight Type I polysomnogram assessment.",
+      "label": "met",
+      "evidence": "Patient underwent AASM-protocol overnight Type I polysomnogram assessment."
+    },
+    {
+      "criterion": "COPD must be diagnosed using American Thoracic Society (ATS)-protocol pulmonary function testing.",
+      "label": "met",
+      "evidence": "Patient's COPD was diagnosed using ATS-protocol pulmonary function testing."
+    },
+    {
+      "criterion": "Patients must have Global Obstructive Lung Disease (GOLD) stage II COPD FEV1/FVC < 70% predicted in conjunction with an FEV1 <80% predicted.",
+      "label": "met",
+      "evidence": "Patient has GOLD stage II COPD with FEV1/FVC < 70% and FEV1 < 80%."
+    },
+    {
+      "criterion": "The patient must have a > 10 pack years smoking history and a documented history of at least one exacerbation leading to treatment with systemic glucocorticoids or antibiotics or hospitalization within the previous year.",
+      "label": "met",
+      "evidence": "Patient has > 10 pack years smoking history and had an exacerbation requiring hospitalization."
+    },
+    {
+      "criterion": "Patients must have a diagnosis of both OSA and COPD.",
+      "label": "met",
+      "evidence": "Patient has both OSA and COPD."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant diseases other than COPD, i.e. disease or condition which, in the opinion of the investigator, may have put the patient at risk because of participation in the study or may have influenced either the results of the study or the patients' ability to participate in the study",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with a diagnosis of asthma",
+      "label": "not_met",
+      "evidence": "Patient does not have asthma."
+    },
+    {
+      "criterion": "Patients with a life-threatening pulmonary obstruction, or a history of cystic fibrosis",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with known active tuberculosis",
+      "label": "not_met",
+      "evidence": "Patient does not have active TB."
+    },
+    {
+      "criterion": "Patients with brittle/unstable diabetes mellitus",
+      "label": "not_met",
+      "evidence": "Patient's diabetes is stable."
+    },
+    {
+      "criterion": "Patients with a history of and/or active significant alcohol or drug abuse.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, obesity hypoventilation syndrome, dCHF, and other comorbidities. Patient's overall health status is complex.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01427673",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

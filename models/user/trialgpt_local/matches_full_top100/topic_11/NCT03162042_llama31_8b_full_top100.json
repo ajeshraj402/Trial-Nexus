@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03162042",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "head and neck cancer",
+      "label": "met",
+      "evidence": "Papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "squamous cell carcinoma only",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "head and neck surgery chosen as treatment of cancer",
+      "label": "met",
+      "evidence": "--s/p neck mass resection; unable to perform thyroidectomy"
+    },
+    {
+      "criterion": "age 18-75",
+      "label": "met",
+      "evidence": "A 75 yo M w/ metastatic papillary thyroid cancer"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "heart failure, respiratory failure (requiring a long-term oxygen therapy), chronic",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "renal failure (MDRD clearance < 60 ml/min), moderate or severe chronic obstructive pulmonary disease and insulin-dependent diabeta for the two groups",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cachexia for control group",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer with history of neck surgery and XRT, but no indication of cachexia or other exclusion criteria.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03162042",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

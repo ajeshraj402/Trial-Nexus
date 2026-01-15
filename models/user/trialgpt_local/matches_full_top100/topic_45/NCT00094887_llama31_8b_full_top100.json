@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00094887",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of SCD",
+      "label": "met",
+      "evidence": "known history of sickle cell disease"
+    },
+    {
+      "criterion": "Age greater than or equal to 10 years old",
+      "label": "met",
+      "evidence": "34-year-old man"
+    },
+    {
+      "criterion": "Written informed consent/assent has been obtained",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient must present to the ED/EC or other appropriate unit in VOC",
+      "label": "met",
+      "evidence": "severe bone pain, severe pain in his lower back"
+    },
+    {
+      "criterion": "Patient has a diagnosis of SCD (known SS, S-Beta-thalassemia or other hemoglobinopathies causing sickle cell disease)",
+      "label": "met",
+      "evidence": "known history of sickle cell disease"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Exposure to therapeutic nitric oxide within the past 12 hours",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has received sildenafil or other phosphodiesterase 5 inhibitors, therapeutic L-arginine, nitroprusside or nitroglycerine within the past 12 hours",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient has visited the ED/EC or other appropriate unit greater than 10 times in the past year having a vaso-occlusive crisis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 34-year-old African American man with known history of Sickle cell disease. He has had severe pain in his lower back that radiated to both thighs scored 9 out of 10 and has had positive history of sickle cell crises since childhood.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00094887",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

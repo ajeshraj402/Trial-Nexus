@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03503175",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-90"
+    },
+    {
+      "criterion": "hysterectomy with or without concomitant procedures",
+      "label": "met",
+      "evidence": "undergoing hysterectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known history of urinary tract anomaly",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u22653 UTIs in past 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Immunosuppressed patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Premeditated urologic procedure during hysterectomy surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Has low urine output but good post-void bladder scans.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03503175",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

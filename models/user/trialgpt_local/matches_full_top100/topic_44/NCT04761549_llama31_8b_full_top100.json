@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04761549",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adolescent Idiopathic Scoliosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "10-35 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Scheduled to be surgically treated at UZ Leuven",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent obtained",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient has undergone a fusion procedure before",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe underlying illness which might influence the outcome of the surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for scoliosis surgery according to perioperative MEP monitoring.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04761549",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

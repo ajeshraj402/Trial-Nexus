@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02500901",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent and Health Insurance Portability and Accountability Act (HIPAA) authorization for release of personal health information.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years at the time of consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1 within 14 days prior to registration.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Documented histologically or cytologically confirmed adenocarcinoma of the prostate.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ongoing androgen deprivation therapy with a Gonadotropin Releasing Hormone (GnRH) analogue or bilateral orchiectomy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Estimated life expectancy > 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior treatment of CRPC, including docetaxel, cabazitaxel, sipuleucel-T, or Radium-223 is allowed.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented metastatic disease with prostate-specific antigen (PSA) progression, radiographic progression, or both, despite receiving luteinizing hormone releasing hormone (LHRH) analogue therapy or orchiectomy with a serum testosterone level of 50 ng/dL or less.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PSA progression is defined as three successive rising PSA values with an interval of at least one week between determinations.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radiographic progression is defined by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria or at least two new lesions on bone scan.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At screening the serum testosterone must be 50 ng/dL or less and the PSA must be greater or equal to 2 ng/mL.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Men who are not surgically sterile (vasectomy) must agree to use an acceptable method of contraception.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior enzalutamide or other next-generation androgen receptor- (AR) targeting therapy.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of or active central nervous system (CNS) metastases. Subjects with neurological symptoms must undergo a head computed tomography (CT) scan or brain magnetic resonance imaging (MRI) to exclude brain metastasis.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02500901",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03677349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "reconstructive surgery after carcinological excision",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "scheduled post-operative radiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "coverage by the Social Security system",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "capacity to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or breastfeeding woman",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "subject incapable of full age or deprived of liberty",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "indication for chemotherapy with highly neurotoxic agents",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03677349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

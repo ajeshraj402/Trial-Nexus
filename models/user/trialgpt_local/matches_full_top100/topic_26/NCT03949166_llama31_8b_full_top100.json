@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03949166",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnancy at 37 weeks or more",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "after an epidural anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm delivery before 37 weeks of pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known anomalies or chromosomal abnormalities",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient at increased risk for aspiration based on anesthesiologist assesment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "a patient post epidural anesthesia with pain indicating the need for a new epidural insertion",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, nausea and vomiting. Similar pain in the past year. Hypercholesterolemia and two C/sections.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03949166",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

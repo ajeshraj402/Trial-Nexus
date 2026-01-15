@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02802072",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Atherosclerotic plague-caused carotid artery stenosis",
+      "label": "met",
+      "evidence": "angiography"
+    },
+    {
+      "criterion": "Severe carotid artery stenosis (unilateral stenosis > 70%) diagnosed according to angiography",
+      "label": "met",
+      "evidence": "angiography"
+    },
+    {
+      "criterion": "Age 18-75 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Of either sex",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Provision of informed consent regarding trial procedure",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-atherosclerotic intracranial artery stenosis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe cognitive or mental disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe cardiovascular, hepatic, renal, or blood system diseases",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemorrhagic disease or unable to receive anticoagulation or antiplatelet aggregation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to stent material",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to or declined to cooperate with follow-up examination",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unable to provide informed consent because of intellectual disability or language disorder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has carotid bruits and significant bilateral carotid stenosis. He reports occasional dizziness but no prior syncope or residual deficits from a possible stroke 10-15 years ago.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02802072",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

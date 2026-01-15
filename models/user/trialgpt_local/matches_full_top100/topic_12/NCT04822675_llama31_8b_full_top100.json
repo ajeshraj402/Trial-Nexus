@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04822675",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe ischemic Mitral regurgitation (MR)",
+      "label": "met",
+      "evidence": "2017 American Society of Echocardiography (ASE) guidelines for noninvasive evaluation of native valvular regurgitation"
+    },
+    {
+      "criterion": "Presence of reversible myocardial ischemia confirmed by preoperative myocardial viability study using radionuclide imaging.",
+      "label": "met",
+      "evidence": "radionuclide imaging"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mixed mitral valve pathology, including fibroelastic deficiency, rheumatic valve disease, ruptured mitral valve chordae, mitral valve endocarditis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute ischemic MR, defined as MR caused by papillary muscle infarction and rupture",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age < 18 years.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome with severe mitral valve prolapse and regurgitation, planned for MV repair but lost to follow-up. Now prepared for surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04822675",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

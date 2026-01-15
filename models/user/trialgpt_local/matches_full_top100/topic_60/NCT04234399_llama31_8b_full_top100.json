@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04234399",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Prostatectomy patients with previously undetectable PSA and subsequent biochemical recurrence",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >40",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fluciclovine scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of allergic reaction to Fluciclovine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anti Androgen treatment in the 6 months prior to enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a candidate for urethral catheterization and TURP. Further evaluation revealed normal recent blood chemistry.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04234399",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

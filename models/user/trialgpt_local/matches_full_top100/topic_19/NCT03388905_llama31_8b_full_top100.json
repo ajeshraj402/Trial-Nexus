@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03388905",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed left ventricular dysfunction (LVEF \u2264 35% following cardioversion or rate stabilization)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High burden of premature ventricular contractions (PVCs) (15% of total beats on 24-hour ambulatory Holter recording with a rapid ventricular response > 100 beats per minute prior to initiation of medical therapy)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Appropriate management during hospitalization with cardioversion and rhythm control (preferable) or rate control (if cardioversion is contraindicated due to a left atrial thrombus or is not successful)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HF likely due to an etiology other than tachyarrhythmia (ischemic etiology, myocarditis, hypertrophic or dilated cardiomyopathy, etc.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unstable clinical condition, life threatening arrhythmia or an established indication for ICD/CRT-D implantation during the index hospitalization",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03388905",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00182078",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Admission to the Shriners Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Between the ages of 6 - 20 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Recent experience of an acute burn, injury, or surgery meeting the Diagnostic and Statistical Manual(DSM-IV) A1 stressor criterion",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child's response to the stressor meets Diagnostic and Statistical Manual(DSM-IV) A2 response criterion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Proficiency in either English or Spanish",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No memory of the injury",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current use of an anti-depressant",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known hypersensitivity to sertraline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of Bipolar Disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of PTSD",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mental Retardation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Traumatic Brain Injury",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New onset or marked worsening of a seizure disorder",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16. She has three sexual partners, four children, and smokes 30 packs/year.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00182078",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

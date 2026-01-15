@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04457349",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "COVID-19 positive patients (confirmed by PCR) with cytokine storm state who will not improve after two doses of tocilizumab.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Criteria of failure (resistance) to tocilizumab: Persistent high IL-6 and CRP.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Criteria of failure (resistance) to tocilizumab: Persistent worsening of respiratory symptoms (dyspnea, tachypnea, increased oxygen (O2) requirements or even need for mechanical ventilation).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Criteria of failure (resistance) to tocilizumab: Partial arterial pressure of oxygen to fractional inspired concentration of oxygen (PaO2/FiO2) ratio < 150.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Criteria of failure (resistance) to tocilizumab: Persistent fever (>38.5\u00b0C) despite normal procalcitonin level.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Refractory septic shock: Presence of hypotension with end organ dysfunction requiring high dose vasopressor support often greater than 0.5 \u00b5g/kg/min norepinephrine or equivalent.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04457349",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01051726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women in labour and expecting a normal delivery",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "aged > 16 who are able to make informed consent",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "spontaneous or induced labour onset",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior to elective or emergency caesarean section",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "preterm labour",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pool births",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "scheduled caesarean section",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 54-year-old obese woman with abdominal pain, nausea and vomiting. She has several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01051726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

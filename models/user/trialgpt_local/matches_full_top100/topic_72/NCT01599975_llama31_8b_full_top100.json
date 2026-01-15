@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "16 years old"
+    },
+    {
+      "criterion": "english literacy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hiv status",
+      "label": "not_met",
+      "evidence": "negative anti-AChR antibody test"
+    },
+    {
+      "criterion": "dementia",
+      "label": "met",
+      "evidence": "International HIV Dementia Scale score <10"
+    },
+    {
+      "criterion": "cognitive slowing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "depression",
+      "label": "met",
+      "evidence": "Beck Depression Inventory score <16"
+    },
+    {
+      "criterion": "hiv viral load",
+      "label": "met",
+      "evidence": "HIV-1 RNA PCR <50 copies/mL"
+    },
+    {
+      "criterion": "cd4 count",
+      "label": "met",
+      "evidence": "CD4 count >200 within 3 months of entry visit"
+    },
+    {
+      "criterion": "lab results",
+      "label": "met",
+      "evidence": "Baseline CBC and chemistry panel Grade 1 or normal"
+    },
+    {
+      "criterion": "pregnancy test",
+      "label": "met",
+      "evidence": "negative serum or urine pregnancy test within 48 hours prior to entry"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Ability and willingness of subject to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "negative beta hcg test"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "met",
+      "evidence": "BP: 110/75"
+    },
+    {
+      "criterion": "hypogonadism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "thyroid disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "antidepressants",
+      "label": "met",
+      "evidence": "no initiation of antidepressants within 6 weeks of screening visit"
+    },
+    {
+      "criterion": "interferon or ribavirin",
+      "label": "met",
+      "evidence": "no use of interferon or ribavirin during study and for 1 month prior to screening"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

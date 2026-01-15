@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01541657",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ankle sprain history",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "AII score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "FAAM-ADL score",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "FAAM-Sport score",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ankle sprain history",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "AII score",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FAAM-ADL score",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has a history of digestive issues and menopause, but no psychologic problems in her family history.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01541657",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

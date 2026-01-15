@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04860622",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "twin pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "free of pre-existing thyroid disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "that do not use thyroid interfering medication",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "that did not undergo IVF treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TPOAb negative",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adolescent pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient with pre-existing thyroid disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "TPOAb positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient using thyroid interfering medication",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "that had IVF treatment",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine and periods are normal. She is still overweight.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04860622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

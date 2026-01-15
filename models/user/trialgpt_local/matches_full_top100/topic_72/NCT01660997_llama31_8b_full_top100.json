@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01660997",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically confirmed Smoldering Multiple Myeloma",
+      "label": "met",
+      "evidence": "positive anti-AChR antibody test, single fiber electromyography (SFEMG) was positive"
+    },
+    {
+      "criterion": "Serum M-protein greater than or equal to 3 g/dl and/or bone marrow plasma cells greater than or equal to 10 %",
+      "label": "met",
+      "evidence": "Hgb: 11 g/dl, WBC: 8000 /mm3"
+    },
+    {
+      "criterion": "Absence of anemia: Hemoglobin >10 g/dl",
+      "label": "met",
+      "evidence": "Hgb: 11 g/dl"
+    },
+    {
+      "criterion": "Absence of renal failure: calculated creatinine clearance (according to MDRD) > 80 ml/min",
+      "label": "met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "Age >18 years.",
+      "label": "met",
+      "evidence": "16-year-old girl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are receiving any other investigational agents not included in this trial, within 21 days of the start of this trial and throughout the duration of this trial.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior therapy for SMM with a proteasome inhibitor.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01660997",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

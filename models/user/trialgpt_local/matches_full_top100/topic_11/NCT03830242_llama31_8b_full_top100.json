@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03830242",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Accurately diagnosing primary papillary thyroid cancer according to pathological diagnostic criteria.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Thyroid papillary carcinoma was suspected by thyroid ultrasound text and/or neck mass.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The age is more than 18 years old and less than 65 years old. There is no gender restriction.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Untreated patients who have not received surgery, interventional therapy, chemotherapy, biotherapy, and radiation therapy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Physical condition score of Eastern Cooperative Oncology Group\uff08ECOG\uff09: 0-2; no major organ dysfunction; oxygen partial pressure \u2265 10.64 kilopascal\uff08kPa\uff09; white blood cell count\u2265 4 \u00d7 109/L; hemoglobin\u2265 9.5g/dL; neutrophil absolute count \u2265 1.5 \u00d7 109 / L; platelet count \u2265 100\u00d7 109 / L; total bilirubin \u2264 1.5 times of the upper limit of normal value; creatinine \u2264 1.25 times of the upper limit of normal value; and creatinine clearance \u2265 60ml / min.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Be able to obtain complete follow-up information, understand the situation of this study and sign informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Poorly controlled diabetics (fasting blood glucose levels > 200 mg/dL).\u2022 In addition to four types of malignant tumors that can be treated with radical resection, such as cervical cancer in situ, basal or squamous cell skin cancer, (breast) ductal carcinoma in situ, and organ localized prostate cancer, suffering from any other malignant tumors within 5 years.\u2022 Breastfeeding and/or pregnant women.",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with severe bleeding tendencies (prothrombin time less than 50%,cannot be corrected by treatment with vitamin K, etc.).",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent severe hemoptysis, severe cough, dyspnea or patients are not able to cooperate.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and is experiencing worsening symptoms. However, they have not received surgery, interventional therapy, chemotherapy, biotherapy, or radiation therapy, which may make them eligible for the study.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03830242",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

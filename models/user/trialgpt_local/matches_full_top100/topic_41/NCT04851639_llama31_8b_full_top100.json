@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04851639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "born male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "born male",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diagnosed with advanced or metastatic prostate cancer",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to read and speak English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 57-year old farmer diagnosed with Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT04851639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

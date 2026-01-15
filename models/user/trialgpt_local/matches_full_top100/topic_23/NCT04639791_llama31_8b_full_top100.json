@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04639791",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asthma patients with age \u226518",
+      "label": "met",
+      "evidence": "prior documented evidence of variable airflow obstruction"
+    },
+    {
+      "criterion": "Subjects on steps 4 and 5 of GINA asthma therapy",
+      "label": "met",
+      "evidence": "ICS and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with respiratory diseases with other known respiratory diseases including chronic obstructive pulmonary disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Individuals older than 40 years with a smoking history of more than 10 pack-years",
+      "label": "unknown",
+      "evidence": "does not smoke"
+    }
+  ],
+  "notes": "39-year-old man with asthma, symptoms worsen at work and improve outside workplace",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT04639791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

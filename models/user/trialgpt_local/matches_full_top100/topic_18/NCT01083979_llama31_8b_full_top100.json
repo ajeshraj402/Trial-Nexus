@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01083979",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ulcerative IC for at least 6 months documented",
+      "label": "met",
+      "evidence": "documented"
+    },
+    {
+      "criterion": "Negative urine cytology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to independently complete self administered questionnaires and voiding diaries",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of bleeding diathesis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "On anticoagulant therapy",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He also has a severe bulbar urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01083979",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

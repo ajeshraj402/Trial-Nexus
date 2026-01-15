@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01872988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "more than 20 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HCCs diagnosed by AASLD image criteria or pathology",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intermediate-stage HCCs that TACE is indicated",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic HBV carrier with detectable HBV DNA in blood",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ECOG performance status (PST) 0-2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Child-Pugh score \u22667",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "serum bilirubin < 2 mg/dL",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prothrombin time prolongation < 3 seconds",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "willingness to adhere to treatment and follow-up plans",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concurrent any other malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant immunosuppressive therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous any HCC",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has chronic HCV infection and is on IFN plus RBV combination therapy. He has a history of inguinal hernia surgery but no other significant medical history.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT01872988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01715220",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "hours' duration between ages 18 and 60 years of age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sublingual nitroglycerin or placebo",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypovolemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "alcohol use in the last 8 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinical intoxication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "STEMI or presumed cardiac chest pain",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inferior myocardial infarction with right ventricular involvement",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "raised intracranial pressure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac tamponade",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients taking certain drugs for erectile dysfunction (phosphodiesterase inhibitors)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT01715220",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

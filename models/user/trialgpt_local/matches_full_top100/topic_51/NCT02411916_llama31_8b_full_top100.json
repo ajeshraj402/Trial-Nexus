@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02411916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "term live singleton gestation in cephalic presentation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "admitted to Labor and Delivery Unit",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "latent phase of labor or induction of labor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fewer than four prior vaginal deliveries",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no allergy to misoprostol",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known major fetal malformation or chromosome abnormality",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiple gestation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "breech or other malpresentation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever, chills, nausea, vomiting, dysuria, urgency, frequency, and flank pain. Vital signs: T = 39.7\u00baC, P = 117, R = 20, BP = 113/74 mm Hg.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02411916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

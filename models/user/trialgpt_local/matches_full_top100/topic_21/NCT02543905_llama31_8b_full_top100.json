@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02543905",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with a first degree relative (or second degree if through female line) with histologically or death certificate proven PrCa diagnosed at <70 years",
+      "label": "met",
+      "evidence": "patient text: His father and sister have type 2 diabetes."
+    },
+    {
+      "criterion": "Men with two relatives on the same side of the family with histologically or death certificate proven PrCa where at least one is diagnosed at <70 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Men with three relatives on the same side of the family with histologically or death certificate proven PrCa diagnosed at any age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Of African or Caribbean ancestry defined as: Both parents and all 4 grandparents from that origin",
+      "label": "not_met",
+      "evidence": "patient text: He is a 57-year-old man."
+    },
+    {
+      "criterion": "Age 40- 69 years",
+      "label": "met",
+      "evidence": "patient text: The patient is a 57-year-old man."
+    },
+    {
+      "criterion": "WHO performance status 02 (see Appendix A)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of any psychological, familial, sociological or geographical situation potentially hampering compliance with the study protocol and follow up schedule.",
+      "label": "met",
+      "evidence": "patient text: He lives alone."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous cancer with a life expectancy of less than five years.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous PrCa",
+      "label": "not_met",
+      "evidence": "patient text: His family history is positive for type 2 diabetes (his father and sister)."
+    },
+    {
+      "criterion": "Negative biopsy within one year before recruitment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Comorbidities making prostate biopsy risk unacceptable (Warfarin or Clopidogrel)",
+      "label": "not_met",
+      "evidence": "patient text: He is healthy with no history of allergies or using any medications."
+    },
+    {
+      "criterion": "Contraindications to having an MRI (pacemakers, aneurysm clips, claustrophobia)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT02543905",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

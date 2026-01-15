@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00589758",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admission to H-22",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "clinical indication for PAC placement",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pericardial constriction or tamponage on echo or by other imaging modality",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "status post cardiac transplantation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to provide informed consent or unable or unwilling to follow protocol",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech. Hypertension, hyperlipidemia and hypothyroidism history. Smokes 1 pack per day for 40 years.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00589758",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

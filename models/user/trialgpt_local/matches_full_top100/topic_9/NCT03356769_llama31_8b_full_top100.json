@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03356769",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "6-30 years old TSC patients (by Gomez criteria)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "more than 8 seizures occurred in the 4-week baseline time, with no continued seizure-free time of more than 10 days a month",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "more than two antiepileptic drugs (AED) had been administered but fail to control the situation; maintaining with 1 or more than 1 AEDS for over 2 months and intending to continue with the drugs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who had been treated with rapamycin should have been stopped for more than 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vagus nerve stimulation (VNS) is allowed as a previous or current therapy and would maintain until the end of the trial",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subependymal Giant Cell Astrocytoma and requires immediate surgery;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "a history of intracranial surgery within 6 months;",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "epilepsy caused by improper use of drugs;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients treated with aspirin had severe or intolerant side effects, including gastrointestinal ulcer, bleeding, aspirin allergy, and other conditions;",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "psychogenic seizures;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe renal dysfunction and infection;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant women and lactating women;",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not regular follow-up;",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, epilepsy. He has had multiple seizures and is currently on medication. However, he has also been treated with rapamycin in the past, which may be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03356769",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03576794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Female or male aged \u2265 50 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PMR according to the American College of Rheumatology (ACR)/European league Against Rheumatism (EULAR) 2012 PMR core (essential) classification criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Newly diagnosed PMR being on glucocorticoids for less than 4 weeks",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of any other connective tissue disease, including vasculitis/giant-cell arteritis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PMR on glucocorticoids for >4 week or >25 mg/day",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of alcohol or drug abuse or current alcohol or drug abuse",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Transplanted organ (except corneal transplant performed more than 3 months prior to screening)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence (as assessed by the investigator) of active infection, presence of hepatitis B surface antigen or hepatitis C antibody in blood, HIV positivity.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Malignancy within 5 years prior to screening, except for non-melanoma skin cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Exposure to DMARD/biological in the last 5 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pain syndromes, e.g. fibromyalgia, drug-induced myalgia",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis and history of flares, currently on steroid taper which is new for her.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03576794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

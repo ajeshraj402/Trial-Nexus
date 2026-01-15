@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04336475",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "systemic sclerosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "interincisal distance <40 mm",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "oral malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent dental procedures",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiple active digital ulcers",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD and C diff infections, but no oral malignancy or recent dental procedures mentioned.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04336475",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

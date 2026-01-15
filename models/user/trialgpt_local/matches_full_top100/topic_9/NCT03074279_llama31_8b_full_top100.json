@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03074279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "active epilepsy",
+      "label": "met",
+      "evidence": "patient has a history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity."
+    },
+    {
+      "criterion": "treated or not for at least two years who died as a result of confirmed or probable SUDEP or NEAR SUDEP",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient with active epilepsy (treated or not) or in remission under treatment",
+      "label": "met",
+      "evidence": "The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode."
+    },
+    {
+      "criterion": "without treatment for at least two years who died as a result of confirmed or probable SUDEP or NEAR SUDEP",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient with active epilepsy (treated or not) or in remission under treatment or without treatment for at least two years and matched by: age, epileptic syndrom and level of seizure controls",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient not living in France",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "refusal of participation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. The patient first developed seizures at age 13 found by family to have a generalized convulsion.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03074279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

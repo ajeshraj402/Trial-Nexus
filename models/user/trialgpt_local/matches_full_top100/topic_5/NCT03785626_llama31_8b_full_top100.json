@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03785626",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid artery severe (70-99%) stenosis or occlusion",
+      "label": "met",
+      "evidence": "color duplex flow imaging, confirmed by CT angiography"
+    },
+    {
+      "criterion": "indications for carotid artery stenting or CEA according to guidelines",
+      "label": "met",
+      "evidence": "Stroke Prevention Engineering Committee, National Health Commission of China"
+    },
+    {
+      "criterion": "MRI and CT applicated pre- and postoperation",
+      "label": "met",
+      "evidence": "pre- and postoperative imaging"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-atherosclerotic carotid artery stenosis or occlusion",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lack of any imaging evaluation results",
+      "label": "not_met",
+      "evidence": "ultrasound, MRI, CT performed"
+    }
+  ],
+  "notes": "Patient has carotid artery severe stenosis diagnosed by color duplex flow imaging and confirmed by CT angiography. He meets the indications for carotid artery stenting or CEA according to guidelines.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03785626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

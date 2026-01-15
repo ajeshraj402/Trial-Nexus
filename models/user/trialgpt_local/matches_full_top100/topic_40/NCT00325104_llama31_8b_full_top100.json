@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00325104",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Paget's Disease of Bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bisphosphonate therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willingness and legal ability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age less than 18 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Creatinine greater than 1.4",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00325104",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

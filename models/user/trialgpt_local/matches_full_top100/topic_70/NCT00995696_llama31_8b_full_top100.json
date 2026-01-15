@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00995696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "6 - 17 years old"
+    },
+    {
+      "criterion": "new prescription for antidepressant",
+      "label": "met",
+      "evidence": "received a new prescription for an antidepressant"
+    },
+    {
+      "criterion": "receiving care at Nationwide Children's Hospital or Community Physician Practices affiliated with Nationwide Children's Hospital",
+      "label": "met",
+      "evidence": "families receiving care at Nationwide Children's Hospital or Community Physician Practices affiliated with Nationwide Children's Hospital"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "families who speak do not speak English",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "families with children who are actively psychotic",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, despite being on anti-depressants for the past 6 months.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00995696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

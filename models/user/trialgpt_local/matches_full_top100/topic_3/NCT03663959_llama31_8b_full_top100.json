@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03663959",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "severe 'exploding' headache",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "significant amount of blood in right ventricle",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "abnormal vasculature with draining vein from L temporal lobe",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery for malignancy suspicion",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "surgery for pelvic inflammatory disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pectouteropexy procedure",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient had severe 'exploding' headache and abnormal vasculature with draining vein from L temporal lobe, but had surgery for malignancy suspicion which likely triggers exclusion.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03663959",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

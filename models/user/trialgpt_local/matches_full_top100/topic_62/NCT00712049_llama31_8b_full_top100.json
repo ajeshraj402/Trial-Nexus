@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00712049",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "PAD defined as an ABI \u22640.9 or >1.3 in patients with low serum HDL cholesterol levels (<45mg/dL in men, <55 mg/dL in women)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Elevated liver enzymes (above 2 times the normal level)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skeletal muscle myopathy or elevated serum CK levels",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy or hypersensibility to either statins or nicotinic acid",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women of childbearing potential",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors such as smoking, high blood pressure, and diabetes mellitus. He is physically active.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT00712049",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

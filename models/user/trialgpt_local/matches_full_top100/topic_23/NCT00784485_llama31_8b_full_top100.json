@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00784485",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "39 years old"
+    },
+    {
+      "criterion": "History of asthma",
+      "label": "met",
+      "evidence": "3 years history of asthma, frequent cough, wheezing, and shortness of breath and chest tightness"
+    },
+    {
+      "criterion": "Current treatment with ICS and LABA",
+      "label": "met",
+      "evidence": "Currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily"
+    },
+    {
+      "criterion": "FEV1 greater than/equal to 60%",
+      "label": "met",
+      "evidence": "Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted"
+    },
+    {
+      "criterion": "Positive skin test or in vitro response to perennial allergen",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Use of oral or parenteral steroids within 6 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of omalizumab within less than 12 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently on ICS and LABA. FEV1 is greater than/equal to 60%. However, the patient's use of oral corticosteroids in the past week may be a concern.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00784485",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

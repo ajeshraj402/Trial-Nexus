@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03102307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "invasive mamma carcinoma verified by needle biopsy of the primary tumor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "nodal positive (cN+) verified by axillary ultrasound",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cT stage 1-4c, multifocality allowed",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no sign of distant metastasis (cM0)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior history of breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prior ipsilateral extensive surgery of breast or axilla",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory or extramammary breast cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inability to understand the studies purpose",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no written patient informed consent",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03102307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

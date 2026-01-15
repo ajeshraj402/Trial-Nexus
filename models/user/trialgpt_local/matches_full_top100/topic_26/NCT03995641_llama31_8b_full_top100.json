@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03995641",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English speaking"
+    },
+    {
+      "criterion": "pelvic organ prolapse stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sacrospinous ligament fixation used",
+      "label": "met",
+      "evidence": "Surgery consultation recommends elective cholecystectomy with SSLF"
+    },
+    {
+      "criterion": "surgeon performing sslf",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "45-year-old woman"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English speaking"
+    },
+    {
+      "criterion": "sslf not performed at time of surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic opiate use",
+      "label": "not_met",
+      "evidence": "She doesn't smoke, drink alcohol, or use illicit drugs."
+    },
+    {
+      "criterion": "contraindication to marcaine or kenalog",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "prisoner or involuntarily confined",
+      "label": "not_met",
+      "evidence": "She has 2 children, and she is menopausal. She doesn't smoke, drink alcohol, or use illicit drugs."
+    },
+    {
+      "criterion": "cognitive impairment or legally-authorized representative",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hysterectomy performed at time of suspension",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has several gallstones and biliary sludge, with the largest being 0.7cm.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03995641",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

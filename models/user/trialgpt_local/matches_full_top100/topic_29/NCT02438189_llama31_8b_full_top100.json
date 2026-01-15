@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02438189",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of type 1 diabetes",
+      "label": "met",
+      "evidence": "The patient reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management."
+    },
+    {
+      "criterion": "Using daily insulin therapy for at least one year",
+      "label": "met",
+      "evidence": "The patient reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management."
+    },
+    {
+      "criterion": "Age 15.0 to <46.0 years",
+      "label": "met",
+      "evidence": "The patient is a 24-year-old man"
+    },
+    {
+      "criterion": "HbA1c <10.0%",
+      "label": "met",
+      "evidence": "A1c: 11.3%"
+    },
+    {
+      "criterion": "Uninterrupted internet access while study system is being used overnight and for upload of study data in the morning",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Living with a significant other or family member (\"companion\") committed to participating in all study activities, and being present and available to provide assistance when the system is being used at night",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 3 months",
+      "label": "not_met",
+      "evidence": "The patient reports that he has had previous episodes of diabetic ketoacidosis, for which he was hospitalized."
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of seizure disorder (except for hypoglycemic seizure)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of any heart disease including coronary artery disease, heart failure, or arrhythmias",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cystic fibrosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Current use of oral/inhaled glucocorticoids, beta-blockers or other medications, which in the judgment of the investigator would be a contraindication to participation in the study.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of ongoing renal disease (other than microalbuminuria). Creatinine level must have been obtained within the last year if subject has diabetes of >10 years duration.",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    },
+    {
+      "criterion": "If creatinine is >1.5 mg/dL (132 \u00b5mol/L), the subject is excluded.",
+      "label": "not_met",
+      "evidence": "Creatinine: 0.9 mg/dL with eGFR >60 mL/min"
+    }
+  ],
+  "notes": "The patient has had previous episodes of diabetic ketoacidosis, but his current episode appears to be well-managed.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT02438189",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

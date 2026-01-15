@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02685514",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age older than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "relapsed Graves' disease despite an adequate ATD treatment for 18 months or more",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIFU accessibility of the targeted area (distance between the skin and the anterior surface of the nodule less than 10 mm; with no interference of the collarbone with HIFU unit movements)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "normal thyrotropin concentration before procedure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "on at least 2-week of \u03b2-blockade prior to HIFU",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "absence of vocal cord immobility at laryngoscopy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who prefer or indicated for surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "head and/or neck disease preventing hyperextension of the neck",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of thyroid cancer or other malignant tumors in the neck region",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of neck irradiation",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe Grave's ophthalmopathy (GO)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "large compressive goiter",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "any contraindication related to intravenous moderate sedation",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and history of neck irradiation, which are likely triggers for exclusion.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02685514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

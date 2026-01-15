@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01484626",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults with relapsed and/or refractory myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must have adequate liver function",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Zubrod Performance Status (ZPS) of 2 or better",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Must have measurable disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Peripheral neuropathy of grade II or higher",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thrombocytopenia (platelets less than 50,000/uL)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has relapsed and refractory myeloma with adequate liver function and Zubrod Performance Status of 2 or better. However, thrombocytopenia is not mentioned in the patient's history.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT01484626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04798248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "be an active patient of one of the participating Planned Parenthood health centers",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "own a smartphone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "be fluent in English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "be 17 to 20 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "be biologically able to become pregnant (to the best of their knowledge)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "score at least 10 on the PHQ-8",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have had penile-vaginal sex in the past 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "have had penile-vaginal sex at least once a week, on average",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "report having done at least one of the following during the 3 months preceding eligibility screening: 1) Not using a condom every time they have sexual intercourse;",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trying to get pregnant or currently pregnant at the time of eligibility screening",
+      "label": "not_met",
+      "evidence": "negative for pregnancy"
+    },
+    {
+      "criterion": "have given birth during the 6 months preceding eligibility screening",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT04798248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

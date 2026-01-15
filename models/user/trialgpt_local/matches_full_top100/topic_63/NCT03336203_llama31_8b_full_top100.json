@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03336203",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient adults with gout and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "outpatient adults with CKD 1-4 stages and hyperurecemia (SUA level above 8 mg/dL (480 \u00b5mol/L))",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "forms of associated comorbidities and cardiovascular risk factors, including heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "III-IV NYHA, stroke, peripheral arterial disease, obesity with BMI above 30 kg/m2, hypertension 3 grade, insulin-dependent DM and any kind of cancer, inpatient intensive unit subjects.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Confounders/covariates.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has gout and CKD, but also has obesity with BMI above 30 kg/m2 which is a potential exclusion criterion.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT03336203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

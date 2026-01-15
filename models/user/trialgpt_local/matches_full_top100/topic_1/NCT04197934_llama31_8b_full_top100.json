@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04197934",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological confirmation of either glioblastoma, IDH wildtype (GBM), anaplastic astrocytoma, IDH wildtype (AA) or non-small cell lung cancer (NSCLC)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "EGFR Status: GBM/AA must have EGFR amplification and/or EGFRvIII mutation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Glioblastoma, IDH wildtype/Anaplastic astrocytoma, IDH wildtype (GBM/AA) Cohort: Diagnosis: Histological confirmation of either glioblastoma, IDH wildtype (GBM) or anaplastic astrocytoma, IDH wildtype (AA)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous treatments: Patients must have been previously treated with radiation and temozolomide",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Radiographic progression: Patients with GBM/AA must have radiographic progression based on RANO criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurable disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) 0 or 1. For patients with NSCLC with leptomeningeal metastases, ECOG 2 is also acceptable",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant persons",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Nursing persons",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Persons of childbearing potential who are unwilling to employ adequate contraception",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04197934",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

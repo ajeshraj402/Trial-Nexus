@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04699344",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected with prostate cancer and planned to undergo prostate needle biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with serum PSA test result",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Male patients aged >= 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participants signed informed consent form",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient already received urethral catheterization",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with late-stage uremia and need regular dialysis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms. He has an IPSS score of 15, prostate volume of 60 mL, PSA level of 3.2 ng/mL and maximum flow rate of 10 mL/sec.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT04699344",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00273247",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-RNA positive / HBsAg-negative patients with HCC undergoing potentially curative resection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Curative surgery (i.e. no residual tumor intraoperative US and tumor-free margins at pathology)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No recurrence 1 month after surgery (CT, NMR, US)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-resection treatments allowed (TACE, RFA, PEI)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HCV-RNA positive (lower limit of detection: 100 copies/ml) regardless of blood titers or genotype",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HBsAg-positivity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of any active neoplastic site",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous IFN or chemotherapy or treatment of other tumors",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe surgical complication and/or causes of cirrhosis not related to HCV",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, recent admission for UGIB due to NSAID gastritis. He is off ETOH for a year and was given a presumptive diagnosis of hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00273247",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

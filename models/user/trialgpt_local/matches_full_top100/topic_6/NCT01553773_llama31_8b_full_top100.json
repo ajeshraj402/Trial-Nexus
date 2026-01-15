@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01553773",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "two to five years postmenopause",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "FSH > 40 mU/ml",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "estrogen levels < 20 pg/ml",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "body mass index (BMI) < 30 kg/m2",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "treatment with estrogens or soybeans for the previous 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tobacco user",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of C diff infections and recent antibiotic use, but no contraindications for hormone therapy mentioned.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01553773",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

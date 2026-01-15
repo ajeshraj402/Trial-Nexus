@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04368195",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-65 years"
+    },
+    {
+      "criterion": "upper GI laparoscopy",
+      "label": "met",
+      "evidence": "scheduled to undergo any upper GI laparoscopy"
+    },
+    {
+      "criterion": "ASA score",
+      "label": "met",
+      "evidence": "1 or 2"
+    },
+    {
+      "criterion": "laparoscopic cholecystectomy",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "Written informed consent for general anesthesia and all procedures will be obtained from all patients"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refusal to enroll",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to give informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindications for regional anesthesia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "known allergy to local anesthetics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bleeding diathesis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of anticoagulants or corticosteroids",
+      "label": "not_met",
+      "evidence": "She doesn't smoke, drink alcohol, or use illicit drugs"
+    },
+    {
+      "criterion": "inability to operate PCA system",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychiatric disorders or use of psychiatric medications",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has several gallstones and biliary sludge, but surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT04368195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

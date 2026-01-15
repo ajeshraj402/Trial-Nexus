@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "You are between ages 18-50"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "You are right-handed"
+    },
+    {
+      "criterion": "MRI_scan",
+      "label": "met",
+      "evidence": "You have no metal implants or other metal objects or medical devices that would make a MRI scan unsafe for you"
+    },
+    {
+      "criterion": "study_instructions",
+      "label": "met",
+      "evidence": "You are able to follow study instructions and can read and write English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic_musculoskeletal_diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurological_conditions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "depression",
+      "label": "not_met",
+      "evidence": "She states that her mood is still depressed most of the days"
+    },
+    {
+      "criterion": "pregnancy_or_nursing",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "meditation_practice",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has persistent feelings of sadness and loss of interest in daily activities, but is on anti-depressants for the past 6 months.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

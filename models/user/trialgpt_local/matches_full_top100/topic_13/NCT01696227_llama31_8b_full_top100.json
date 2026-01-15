@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01696227",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "urinary catheter",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "neurogenic bladder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "UTI treatment",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and is currently being treated for one, which may impact eligibility.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01696227",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

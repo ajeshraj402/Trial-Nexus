@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02397655",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Transient ischemic attack in recent 3 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ischemic stroke including acute and old cerebral infarction",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cerebral hemorrhage",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Vessel stenosis or occlusion caused by trauma, dissection or Takayasu's arteritis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Stroke patients caused by patent foramen ovale",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moyamoya disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple sclerosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mitochondrial myopathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02397655",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

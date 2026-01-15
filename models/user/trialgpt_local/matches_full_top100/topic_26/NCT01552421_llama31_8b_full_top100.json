@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01552421",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic gallstones or gallstone induced mild pancreatitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "woman",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "18 - 70 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ASA classification I, II or III",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI < 30 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "expected poor compliance",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous cholecystitis or moderate to severe pancreatitis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "culdotomy contraindicated",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previous laparoscopic surgery or open surgery on vagina, uterus, fallopian tubes or ovaries. Except laparoscopic sterilisation.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnancy or breastfeeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "daily consumption of any analgesic for one month prior to surgery or intermittent use of opioids.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ongoing treatment with Monoamine Oxidase Inhibitors or Tricyclic antidepressants.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known with any type of inflammatory bowel disease.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has symptomatic gallstones and is booked for elective cholecystectomy. She meets most inclusion criteria but has a history of hypercholesterolemia which may be considered as chronic disease causing pain sensations, thus making her likely ineligible due to exclusion criterion.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01552421",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

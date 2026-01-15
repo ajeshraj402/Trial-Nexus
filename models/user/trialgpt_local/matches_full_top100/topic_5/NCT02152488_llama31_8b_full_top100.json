@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT02152488",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients presenting ambulant for preoperative evaluation for routine surgery.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cranial spine pathology and cerebral vascular disease.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cranial spine pathology and cerebral vascular disease.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has significant bilateral carotid stenosis, but no residual deficits from prior CVA. He is ambulant for preoperative evaluation.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02152488",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

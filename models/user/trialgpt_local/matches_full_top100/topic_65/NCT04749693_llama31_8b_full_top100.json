@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04749693",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 diabetes",
+      "label": "met",
+      "evidence": "molecular analysis"
+    },
+    {
+      "criterion": "age \u2265 18 years old",
+      "label": "met",
+      "evidence": "patient's age (25)"
+    },
+    {
+      "criterion": "total daily dose required < 90 units",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "accepting to be treated with 100 U/mL rapid-acting insulin analog",
+      "label": "met",
+      "evidence": "patient's treatment plan"
+    },
+    {
+      "criterion": "HbA1c \u2265 8% despite of the use of a pump for at least 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "performing glucose self-monitoring several times (\u2265 4) a day",
+      "label": "met",
+      "evidence": "patient's lab study"
+    },
+    {
+      "criterion": "accepting the technology",
+      "label": "met",
+      "evidence": "patient's willingness to use the system"
+    },
+    {
+      "criterion": "agreeing to use the system with activated loop mode during at least 75% of total time of use",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "affiliated to any kind of social security",
+      "label": "met",
+      "evidence": "patient's insurance status"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "receiving a total daily dose of insulin lower than 8 U",
+      "label": "not_met",
+      "evidence": "patient's treatment plan"
+    },
+    {
+      "criterion": "suffering from a serious illness or having a treatment that might significantly impair diabetes physiology",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "having severe uncorrected problems of hearing and/or visual acuity preventing proper use of DBLG1 System",
+      "label": "not_met",
+      "evidence": "patient's physical examination"
+    },
+    {
+      "criterion": "unable to understand and perform all of the instructions regarding the devices and the clinical investigation provided by Diabeloop",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "planning to perform during the year of study repeated magnetic resonance imaging (MRI), computed tomography (CT) scan, or high-frequency electrical heat treatment",
+      "label": "not_met",
+      "evidence": "patient's medical history"
+    },
+    {
+      "criterion": "unwilling or unable to maintain contact with the healthcare professional",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "willing to use any insulin that is not 100 U/mL rapid-acting insulin analog with the system",
+      "label": "not_met",
+      "evidence": "patient's treatment plan"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and meets several inclusion criteria. However, their total daily dose of insulin is unknown, and they may be planning to perform repeated MRI or CT scans during the study period.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04749693",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

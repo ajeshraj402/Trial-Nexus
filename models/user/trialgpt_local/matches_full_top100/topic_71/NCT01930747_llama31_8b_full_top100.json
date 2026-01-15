@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01930747",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "laparoscopic bariatric surgery in a patient older than 18 years of age without previous laparotomy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Examples of laparoscopic bariatric procedures are gastric band, sleeve gastrectomy, gastric bypass, gastric bypass after lap band, and revision of a gastric bypass",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Allergies or contraindications to the use of one or more of the following drugs: propofol, rocuronium, sugammadex, remifentanyl, or sevoflurane",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of a laparotomy",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of sleep apnea and PCO, which may be relevant for the surgery. However, she is considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01930747",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

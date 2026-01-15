@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT03665779",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton pregnancy",
+      "label": "met"
+    },
+    {
+      "criterion": "cephalic presentation",
+      "label": "met"
+    },
+    {
+      "criterion": "Bishop score < or = 6",
+      "label": "met"
+    },
+    {
+      "criterion": "average size of the fetus",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous uterine scar",
+      "label": "not_met"
+    },
+    {
+      "criterion": "patients with regular uterine contractions",
+      "label": "not_met"
+    },
+    {
+      "criterion": "malpresentation",
+      "label": "unknown"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03665779",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

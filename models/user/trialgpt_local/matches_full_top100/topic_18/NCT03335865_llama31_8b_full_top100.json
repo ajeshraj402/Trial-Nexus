@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03335865",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Elective or semi-elective/urgent Cardiac surgery patients in whom CPB is a planned part of the procedure.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Urinary catheter is planned during the surgery",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contra-indications to urinary catheter",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-operative dialysis dependent end stage renal disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Emergency cases",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a urinary catheter in place due to a urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03335865",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03675633",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Liver cirrhosis of any etiology diagnosed by clinical parameters involving laboratory tests, endoscopic or radiologic evidence of cirrhosis",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "History of decompensation (hepatic encephalopathy, ascites, variceal bleeding, jaundice)",
+      "label": "met",
+      "evidence": "physical exam and lab results"
+    },
+    {
+      "criterion": "Prior liver or kidney transplant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Advanced chronic kidney disease G4(GFR category grade 4) according to KDIGO guidelines.",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "Patients on acute or chronic renal replacement therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ambiguous diagnosis of AKI and phenotype of AKI",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "17 year old boy with vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. Lab results show hemoglobin: 9.7 g/dL, platelet: 110,000 /cu.mm, creatinine: 3.6 mg/dL, BUN: 73 mg/dL, direct bilirubin: 2.4 mg/dL, LDH: 881 IU/L.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03675633",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02610621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female age 18 and older, not pregnant or lactating",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical T1 or T2 invasive cancer with no suspicious palpable adenopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If abnormal axillary nodes are seen on preoperative imaging, a negative fine needle aspiration or core biopsy is required for study entry.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Planned treatment with breast conserving surgery and whole breast irradiation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chemotherapy required postoperatively based on patient and tumor characteristics at diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with suspicious palpable axillary adenopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with biopsy demonstrating axillary nodal metastases",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of smoking and alcohol consumption, but no other significant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02610621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

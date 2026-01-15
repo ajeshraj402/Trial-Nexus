@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03987893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "ACLF with presence of hepatic encephalopathy > grade 2 as per WHC",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or those who are suspected to be having acute fatty liver of pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Malarial hepatopathy, enteric hepatitis, or ischemic hepatitis.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum Na <125 mEq/litre",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastrointestinal (GI) obstruction, ileus, or gastric retention",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Bowel perforation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Toxic colitis or toxic megacolon",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Structural brain lesions (as indicated by computed tomography imaging if available and confirmed by neurological exam)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Other causes of altered mental status (i.e. not meeting the definition of hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has mild Parkinson's disease, no signs of dementia or uncontrolled infection.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT03987893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

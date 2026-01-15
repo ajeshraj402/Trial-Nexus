@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00937365",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "not_met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "singleton"
+    },
+    {
+      "criterion": "low_back_pain_duration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "reproducible_low_back_pain",
+      "label": "met",
+      "evidence": "reproducible with palpation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "family history positive for hypertension"
+    },
+    {
+      "criterion": "pain_radiates_below_knee",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cannot_read_english",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "plans_to_move_away",
+      "label": "not_met",
+      "evidence": "lives with husband and has 3 children"
+    },
+    {
+      "criterion": "willingness_to_randomize",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 41-year-old obese woman presenting with abdominal pain and vomiting. She has no history of allergies and uses only multivitamins daily.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00937365",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

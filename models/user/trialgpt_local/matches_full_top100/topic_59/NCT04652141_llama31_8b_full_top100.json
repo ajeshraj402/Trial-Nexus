@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04652141",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "AsthmaTuner is a CE-marked cloud computing-based system with a healthcare interface and a downloadable patient app (Android or iOS). Patients download the app from the AppStore or Google Play and create a user account.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The intended use is to improve diagnosis and management of asthma with an automated clinical decision support system called AsthmaTuner by letting patients register symptoms and measure FEV1.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Dynamic spirometry with reversibility test Lung function will be measured at study enrolment, including analysis of FEV1, forced vital capacity (FVC), FEV1/FVC and forced expiratory flow after 25-75% of vital capacity (FEF 25-75).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Questionnaires Participants will complete an electronic questionnaire concerning demographic background factors, respiratory symptoms, treatment, and healthcare utilization at study enrollment and again about respiratory symptoms at study end.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of respiratory symptoms that can be signed to asthma last month or Only doctor diagnosed asthma last five years",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Daily intake of asthma control medication",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of oral corticosteroids",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy, breast feeding",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to perform spirometry",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A contraindication of a severe a medical condition, i.e. heart failure or aorta or cerebral aneurysm or history of myocardial infarction or stroke within three months",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smoking history greater than ten pack-years (possible COPD)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04652141",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

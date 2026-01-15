@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01708330",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient at the Women and Infants Triage/Women's Emergency Department",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "vital signs are stable",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ages 18 and older",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergic to lidocaine, iodine or betadine",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known sensitivity to any component of the lidocaine or placebo gel.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She has diplopia and weakness affecting her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01708330",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

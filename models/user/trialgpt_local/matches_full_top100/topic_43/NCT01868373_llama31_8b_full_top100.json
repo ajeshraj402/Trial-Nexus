@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01868373",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed diagnosis of CDI",
+      "label": "met",
+      "evidence": "stool samples positive for Clostridium difficile toxin"
+    },
+    {
+      "criterion": "treated with recommended doses of metronidazole or vancomycin",
+      "label": "met",
+      "evidence": "patient received 10-14 days of treatment"
+    },
+    {
+      "criterion": "failed to respond, or has responded and relapsed within 4 weeks of the end of treatment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prednisone >10 mg/day (or its equivalent)",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "decompensated liver cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of aspiration pneumonia and is febrile, tachycardic, and hypotensive. The stool samples are positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01868373",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02514148",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic migraine",
+      "label": "met",
+      "evidence": "diagnosed with the migraine headache"
+    },
+    {
+      "criterion": "Neck, shoulder or spine pain for at least 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Continuous headache may be chronic daily headache or tension headache",
+      "label": "met",
+      "evidence": "The attacks come 2 times or more per week and each episode lasts around a day or a half."
+    },
+    {
+      "criterion": "Patients having the willing to undergo the treatment",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients undergoing physical another therapy treatment in cervical or head areas.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient with degenerative neurological syndrome or fibromyalgia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with severe cognitive impairment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients undergo any neck, head or shoulder surgical process",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 15 year old girl with the history of recurrent bilateral headache. She recently noticed that there are more attacks around her menstrual period.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT02514148",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

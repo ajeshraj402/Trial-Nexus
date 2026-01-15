@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01520675",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of chronic pancreatitis",
+      "label": "met",
+      "evidence": "lab studies, abdominal CT scan"
+    },
+    {
+      "criterion": "Failed medical treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Dilated pancreatic duct ( > 5mm)",
+      "label": "met",
+      "evidence": "abdominal CT scan"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age under 12 or more than 70 years",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "pregnancy test"
+    },
+    {
+      "criterion": "Multiple (> 3) large stone (> 1.5 cm) in head of pancreas or stones present throughout",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "American Society of Anesthesiologists class IV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Portal hypertension",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications to endoscopic treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Gastrectomy with Billroth II reconstruction",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41-year-old obese woman with abdominal pain and vomiting, diagnosed with acute edematous interstitial pancreatitis due to gall stone pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01520675",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03648528",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "signed informed consent form",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ESRD with regular dialysis treatment for at least 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "levels of 25VD < 30 ng / ml",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "levels of iPTH >300 ng/ml",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "stable doses of calcitrol or paricalcitol over the last 30 days",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congestive heart failure class III or IV",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unstable angina or myocardial infarction or stroke during the previous 3 months",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "active malignant neoplasm",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of any trial medication",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life expectancy lower than 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Shiga-like toxin-producing E. coli (STEC) stx1/stx2 in stools, which may indicate a life-threatening condition.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03648528",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

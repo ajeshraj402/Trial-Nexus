@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04033991",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "renal_cell_carcinoma_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sunitinib_and_axitinib_treatment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "timeframe",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "17 year old boy"
+    },
+    {
+      "criterion": "renal_cell_carcinoma_diagnosis",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "sunitinib_and_axitinib_treatment",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04033991",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

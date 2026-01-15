@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03902678",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "liver cirrhosis and PVT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "PVT during follow up after HCC treatment",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "anticoagulation treatment or coagulopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inhibition of platelet aggregation by clopidogrel",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but recent abdominal mass and pancreatic adenocarcinoma diagnosis make her likely ineligible for trial.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03902678",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

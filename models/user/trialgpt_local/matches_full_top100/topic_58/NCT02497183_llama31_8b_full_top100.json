@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02497183",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "17 years old"
+    },
+    {
+      "criterion": "ultrasound_exam",
+      "label": "not_met",
+      "evidence": "equivocal or not proven"
+    },
+    {
+      "criterion": "diagnostic",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities"
+    },
+    {
+      "criterion": "ct_scan_with_oral_contrast",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "oral_contrast_allergy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, fever, tenderness, rebound tenderness, guarding on palpation, elevated WBC with dominant neutrophils, CT scan showing acute perforated appendicitis with free fluid in the pelvis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02497183",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

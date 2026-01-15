@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03275675",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient receiving oral cancer chemotherapy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "delivered in community pharmacy for the treatment of cancer",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-opposition to participation in the study",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient unable to understand or respond to questionnaires",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age < 18",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "legal incapacity (person deprived of liberty or under guardianship)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03275675",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "trial_id": "NCT04234854",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinically symptomatic carotid stenosis",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "carotid stenosis associated with ipsilateral cerebral ischemic infarct/s on CT or MRI/DWI imaging",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "referred and accepted by the study center for CAS as per local standard referral pathways and study center routine",
+      "label": "met",
+      "evidence": "study center routine"
+    },
+    {
+      "criterion": "patient informed consent to participate",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient accepts follow-up scheme and consents to follow-up visits",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery within the preceding 30 days or planned surgery within 30 days after CAS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "life expectancy <1 year (eg. neoplastic disease)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MI within 72h prior to CAS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "known coagulopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of cerebral stroke with documented/known cause other than carotid disease",
+      "label": "not_met",
+      "evidence": "no prior syncope occasional HA, Denies CP/SOB"
+    },
+    {
+      "criterion": "atrial fibrillation or flutter",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04234854",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

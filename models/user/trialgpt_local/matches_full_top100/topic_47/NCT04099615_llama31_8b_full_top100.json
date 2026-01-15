@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04099615",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute stroke with a demonstrated occlusion in the anterior circulation",
+      "label": "met",
+      "evidence": "MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia."
+    },
+    {
+      "criterion": "undergoing urgent thrombectomy procedure",
+      "label": "met",
+      "evidence": "Intravenous recombinant tissue plasminogen activator (t-PA) was administered as well as high-dose statin therapy."
+    },
+    {
+      "criterion": "Prestroke functional independence of 2 or less on the modified Rankin scale",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Baseline score of at least 6 points on the National Institutes of Health Stroke Scale (NIHSS)",
+      "label": "met",
+      "evidence": "His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence by imaging of a large ischemic core",
+      "label": "not_met",
+      "evidence": "Initial CT angiogram of head and neck reported no acute intracranial findings."
+    },
+    {
+      "criterion": "Well-documented history of neuromuscular disorders, stroke or central nervous system tumors that could interfere in the SEPs assessment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He has hypertension, hyperlipidemia and hypothyroidism.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04099615",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

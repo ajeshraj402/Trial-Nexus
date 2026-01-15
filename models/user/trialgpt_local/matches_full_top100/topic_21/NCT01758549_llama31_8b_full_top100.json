@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01758549",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All Inpatients aged 18 to 70 years undergoing ERCP for the first time",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing ERCP for standard clinical indications",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ongoing acute pancreatitis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ongoing hypotension including those with sepsis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac insufficiency (CI, >NYHA Class II heart failure)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal insufficiency (RI, creatinine clearance <40mL/min)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe liver dysfunction (albumin < 3mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Respiratory insufficiency (defined as oxygen saturation < 90%)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Greater than 70 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old man with abdominal pain and vomiting. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01758549",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

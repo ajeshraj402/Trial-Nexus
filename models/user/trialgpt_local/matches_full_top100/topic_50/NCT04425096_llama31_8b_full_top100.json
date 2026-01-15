@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04425096",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-35 years"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "single pregnancy"
+    },
+    {
+      "criterion": "literacy",
+      "label": "met",
+      "evidence": "literate"
+    },
+    {
+      "criterion": "gestational_week",
+      "label": "met",
+      "evidence": "37-42 weeks"
+    },
+    {
+      "criterion": "hemoglobin_level",
+      "label": "met",
+      "evidence": "10 g and above"
+    },
+    {
+      "criterion": "chronic_disease",
+      "label": "not_met",
+      "evidence": "no chronic disease"
+    },
+    {
+      "criterion": "infant",
+      "label": "met",
+      "evidence": "5 months old male infant"
+    },
+    {
+      "criterion": "congenital_anomalies",
+      "label": "not_met",
+      "evidence": "no congenital anomalies"
+    },
+    {
+      "criterion": "apgar_score",
+      "label": "met",
+      "evidence": "8 and above"
+    },
+    {
+      "criterion": "birth_weight",
+      "label": "met",
+      "evidence": "2500 - 4000 g"
+    },
+    {
+      "criterion": "oral_feeding",
+      "label": "met",
+      "evidence": "no obstruction to oral feeding"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "induction_practice",
+      "label": "not_met",
+      "evidence": "no induction practice"
+    },
+    {
+      "criterion": "multiparity",
+      "label": "not_met",
+      "evidence": "first child"
+    }
+  ],
+  "notes": "A 5 months old male infant with undescended testis, no developmental delay, and normal physical assessment.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04425096",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

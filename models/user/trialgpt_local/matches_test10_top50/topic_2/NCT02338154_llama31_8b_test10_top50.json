@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT02338154",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject presents with aortic stenosis or stenosis-based insufficiency of an aortic valve requiring a planned replacement of the native aortic valve or previously implanted aortic prosthesis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject has signed and dated the investigation informed consent forms prior to study-specific procedures are performed.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is geographically stable and agrees to attend follow-up assessments as specified in the protocol and informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of active endocarditis within three months of scheduled surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject is diagnosed with pure aortic insufficiency",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aneurysm of the aortic root and/or ascending aorta",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function, EF was 25%. He underwent cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02338154",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

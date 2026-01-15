@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02543905",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with either",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "A positive family history of PrCa defined as:",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Men with a first degree relative (or second degree if through female line) with histologically or death certificate proven PrCa diagnosed at <70 years",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Of African or Caribbean ancestry defined as:",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 40- 69 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "WHO performance status 02 (see Appendix A)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Absence of any psychological, familial, sociological or geographical situation potentially hampering compliance with the study protocol and follow up schedule.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous cancer with a life expectancy of less than five years.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous PrCa",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Negative biopsy within one year before recruitment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Comorbidities making prostate biopsy risk unacceptable (Warfarin or Clopidogrel).",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Contraindications to having an MRI (pacemakers, aneurysm clips, claustrophobia)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject Withdrawal",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 55-year-old man who was recently diagnosed with Parkinson's disease. He has hypertension and hypercholesterolemia, but no previous cancer or contraindications to MRI.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT02543905",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01886755",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "6 - 36 months old children",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "3 or more watery or soft stools per day for the past 24-48 hours",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Clinically judged as having mild to moderate dehydration (Bailey scale scores 1 to 4)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Available throughout the study period",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Re-examination on the 7th day from the enrolment",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The signed informed consent by one/both parents or legal guardian",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diarrhoea lasting more than 48 h",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical signs of severe dehydration (Bailey scale scores = or > 5)",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Malnutrition as judged by a body weight/height ratio below the 5th percentile",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical signs of a coexisting severe acute systemic illness (meningitis, sepsis, pneumonia)",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Immunodeficiency",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe chronic disease including cystic fibrosis",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Food allergy diagnosed by physician or other chronic gastrointestinal diseases",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of pre-/probiotics in the previous 2 weeks, for example infant formula containing probiotics and/or prebiotics.",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe dehydration (Bailey scale scores = or > 5) and clinical signs of a coexisting severe acute systemic illness (meningitis, sepsis, pneumonia).",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01886755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

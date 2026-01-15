@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04798248",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "active patient of Planned Parenthood",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "owns a smartphone",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fluent in English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "17 to 20 years of age",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "biologically able to become pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "score at least 10 on the PHQ-8",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "had penile-vaginal sex in the past 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "had penile-vaginal sex at least once a week, on average",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "used condoms as primary form of birth control",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trying to get pregnant or currently pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "given birth during the 6 months preceding eligibility screening",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 32-year-old woman who presented with a severe 'exploding' headache after hitting her head on a cabinet. She has an AVM and was discharged home with pain medication.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT04798248",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

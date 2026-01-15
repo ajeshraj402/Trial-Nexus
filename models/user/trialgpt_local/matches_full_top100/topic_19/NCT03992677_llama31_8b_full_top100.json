@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03992677",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Brugada syndrome requiring risk stratification",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients without Brugada syndrome acting as a control group",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients undergoing ablation with ECGi system for other arrhythmias",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with AF undergoing ablation with ECGi system",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or not using a highly effective form of contraception",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients unable to exercise",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03992677",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

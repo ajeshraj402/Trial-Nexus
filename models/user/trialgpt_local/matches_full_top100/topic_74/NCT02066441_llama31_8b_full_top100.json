@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02066441",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English or Spanish speaking"
+    },
+    {
+      "criterion": "interest",
+      "label": "met",
+      "evidence": "Interest in participating in a novel nutritional supplement program"
+    },
+    {
+      "criterion": "supplements",
+      "label": "not_met",
+      "evidence": "currently taking vitamin-D and calcium containing supplements, multivitamins, or OTC medications (e.g., Tums)"
+    },
+    {
+      "criterion": "mental_status",
+      "label": "met",
+      "evidence": "Scoring 0-2 errors on the Short Portable Mental Status Questionnaire"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "research_trial",
+      "label": "unknown",
+      "evidence": "currently enrolled in another research trial for vitamin D dietary supplements or other bone disease treatments"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "women who are pregnant, during their period, or less than 2 days before or after their period at the time of the assessment"
+    },
+    {
+      "criterion": "psychiatric_diagnosis",
+      "label": "triggers",
+      "evidence": "Psychiatric diagnosis of schizophrenia, other psychotic disorders, bipolar disorder, major depression with psychotic features, delirium, and alcohol or substance abuse/dependence"
+    },
+    {
+      "criterion": "bleeding_disorders",
+      "label": "unknown",
+      "evidence": "Bleeding disorders"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone and is being treated with Bisphosphonate. He has a history of frequent headaches, generalized bone pain, and difficulty chewing.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02066441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

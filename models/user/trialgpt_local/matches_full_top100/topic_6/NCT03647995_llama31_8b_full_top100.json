@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT03647995",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "will be included in the trial after a written consent form is obtained.",
+      "label": "met"
+    },
+    {
+      "criterion": "The hospital pharmacy will provide them with probiotic or placebo boxes each containing 30 capsules that look similar.",
+      "label": "met"
+    },
+    {
+      "criterion": "Once the antibiotic regimen is finished, the probiotic/placebo course is continued for another week with a final follow up 4 weeks after the last course of antibiotics.",
+      "label": "met"
+    },
+    {
+      "criterion": "If the patient presents with diarrhea in the hospital, a stool sample will be collected to check for Clostridium Difficile Toxins A and B.",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients hospitalized on antibiotics (single or multiple; oral or IV) assuming that they are able to eat/drink so that they can take the pills.",
+      "label": "met"
+    },
+    {
+      "criterion": "Regimen started within 48 hours of first course of antibiotics.",
+      "label": "met"
+    },
+    {
+      "criterion": "Able to sign a consent form.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "result in diarrhea (eg. IBD), bowel surgeries and pouches; immunocompromised state (including febrile aplasia, immunosuppressive therapy, ICU patients, HIV-positive patients and renal transplant patients); prosthetic heart valves or history of endocarditis and rheumatic heart disease;",
+      "label": "triggers"
+    },
+    {
+      "criterion": "use of metronidazole, vancomycin or fidaxomycin prior to stool culture for Clostridium difficile toxins.",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections and recent antibx use in the last month. She was treated with Vanco for an extended course of 6 weeks given her recurrent C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT03647995",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

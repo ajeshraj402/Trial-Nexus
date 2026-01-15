@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03671200",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cooperation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "health",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "molar_status",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medical_condition",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "molar_status",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, which may affect eligibility.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03671200",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

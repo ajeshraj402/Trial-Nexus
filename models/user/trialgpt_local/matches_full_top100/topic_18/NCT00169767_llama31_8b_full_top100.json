@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00169767",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Ability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Lower urinary tract symptoms (LUTS) felt to be secondary to bladder outlet obstruction from benign prostatic hyperplasia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Maximum urinary flow rate < 15 ml/sec, voided volume \u2265 125 cc",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "American Urological Association symptom score \u2265 9",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transrectal ultrasound determined prostate volume \u2264 60 cc",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to give informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Maximum urinary flow rate \u2265 15 ml/sec",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Transrectal ultrasound determined prostate volume > 60cc",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "AUA symptom score < 9",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "78 year-old male with history of BPH and multiple urological procedures, including suprapubic prostatectomy. Currently has severe bulbar urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00169767",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

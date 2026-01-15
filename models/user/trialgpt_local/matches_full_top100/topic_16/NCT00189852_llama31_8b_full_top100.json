@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00189852",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic heart failure",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "over the age of 60",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) functional classification 2, 3, or 4.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ejection fraction more than 40%",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Under the age of 60",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Class 1 as determined by the NYHA",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00189852",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

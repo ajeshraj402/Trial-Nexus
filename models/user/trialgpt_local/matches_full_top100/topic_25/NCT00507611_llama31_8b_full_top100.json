@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00507611",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age >= 18",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "clinical T1, T2, or T3 tumor size",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "histopathologic tissue diagnosis of breast cancer by core-type biopsy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "biopsy-proven involvement of the axillary lymph nodes at initial presentation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "preoperative neoadjuvant systemic chemotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "candidates for either lumpectomy or mastectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of a previously treated metachronous contralateral breast cancer in the past",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "synchronous bilateral breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of previous treated ipsilateral breast cancer in the past",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a postmenopausal woman with a history of smoking and alcohol consumption. She has a history of three pregnancies and live births, but no current pregnancy.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00507611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

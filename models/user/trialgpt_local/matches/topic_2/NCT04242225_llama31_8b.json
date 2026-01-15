@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04242225",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe degenerative high flow AS with echocardiographic criteria: aortic valve (AV) effective orifice area (EOA) of < 1 cm2, mean AV gradient of > 40 mmHg, or AV peak systolic velocity of > 4.0 m/s",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "symptomatic from the AS (dyspnea in NYHA-class II or greater, angina pectoris, or syncope), or asymptomatic but with decreased left ventricular ejection fraction",
+      "label": "met",
+      "evidence": "He presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema."
+    },
+    {
+      "criterion": "symptomatic patients with severe low-flow, low-gradient (<40 mmHg) aortic stenosis with reduced ejection fraction and evidence of flow (contractile) reserve",
+      "label": "met",
+      "evidence": "EF was 25%."
+    },
+    {
+      "criterion": "Patients surviveal time more than one year",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of an acute myocardial infarction 30 days before the intended treatment",
+      "label": "does_not_trigger",
+      "evidence": "The patient underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "Aortic valve is a congenital unicuspid or congenital bicuspid valve, or is noncalcified",
+      "label": "unknown",
+      "evidence": "The patient has a bicuspid aortic valve, but it's not specified if it's unicuspid or noncalcified."
+    },
+    {
+      "criterion": "Mixed aortic stenosis and aortic regurgitation with predominant aortic regurgitation > 3+",
+      "label": "unknown",
+      "evidence": "The patient has 2+ aortic insufficiency, but it's not specified if it's predominant."
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy with or without obstruction",
+      "label": "does_not_trigger",
+      "evidence": "There is no mention of hypertrophic cardiomyopathy in the patient text."
+    }
+  ],
+  "notes": "The patient's EF was 25%, which may be a concern for inclusion criterion 4. Additionally, the patient's life expectancy is not specified, so it's unknown if they meet exclusion criterion 13.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04242225",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02771561",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 years and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of obstructive sleep apnoea-hypopnoea syndrome (OSAHS)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Epworth Sleepiness Scale score of 11 or greater",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Oxygen Desaturation Index of 20 or greater (and/or oxygen desaturation index/apnoea-hypopnoea index greater than 0.67)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Naive to Continuous Positive Airway Pressure (CPAP) treatment, or CPAP intolerant",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Moderate to large Patent Foramen Ovale (PFO) as seen on a transthoracic echocardiogram bubble study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Coexistent significant respiratory disease (FEV1 <50% predicted)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Weight >180kg (maximum weight allowance for echocardiogram table)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02771561",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

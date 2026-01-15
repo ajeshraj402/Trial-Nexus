@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01140113",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ejection fraction higher than 39%",
+      "label": "met",
+      "evidence": "normal renal function"
+    },
+    {
+      "criterion": "elective patients to coronary artery bypass graft surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "left ventricle ejection fraction higher than 40%",
+      "label": "met",
+      "evidence": "normal renal function"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ejection fraction lower than 39% and abnormal renal function (serum creatinine > 2.0 mg/dl)",
+      "label": "not_met",
+      "evidence": "creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "clearance lower than 45 mL/m in males or lower than 40 mL/m in females",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has normal renal function and ejection fraction higher than 39%, making them eligible for the trial.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT01140113",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

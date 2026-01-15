@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01458652",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Thrice a week for more then",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Receiving HDF patients who had been treated for > 3 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non-smoking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed Consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No significant change of medication",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Malignancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active infection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congestive heart failure (CHF)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of Gastrointestinal Disease(Active peptic ulcer, severe constipation or severe GI dysmotility)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been treated with corticosteroid and cyclophosphamides for Wegener's granulomatosis for 4 months. His Birmingham Vasculitis Activity Score (BVAS) is above 4.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01458652",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

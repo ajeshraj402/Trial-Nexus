@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03763565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Thai women aged 20-45 years at the time of HPV vaccination",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Received at least 1 dose of bivalent or quadrivalent HPV vaccine at least 5 years ago",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willing to provide written informed consent and receive Pap smear & HPV genotyping",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of hysterectomy or excisional treatment of the cervix",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer, HPV 16 positive. She has three sexual partners and four children.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03763565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03685006",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "atherosclerotic carotid stenosis >50%",
+      "label": "met",
+      "evidence": "ultrasonography"
+    },
+    {
+      "criterion": "acute stroke patients treated with thrombectomy at Oslo University Hospital",
+      "label": "met",
+      "evidence": "patient report"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "malign disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has atherosclerotic carotid stenosis >50% and was treated with thrombectomy at Oslo University Hospital. No malign or inflammatory diseases reported.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03685006",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

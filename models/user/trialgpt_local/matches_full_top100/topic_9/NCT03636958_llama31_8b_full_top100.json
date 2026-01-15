@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03636958",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patient, male or female, over 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Glioma confirmed by histology",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not in progression (clinico-radiological criterion RANO, (Wen et al., 2014))",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No clinical worsening (excluding epileptic seizures)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No increase greater than 25% in contrast enhancement after gadolinium injection",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No increase in the T2 / FLAIR hyper signal",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Absence of new lesion",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of drug-resistant epilepsy according to international epilepsy definitions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Repeated epileptic seizures despite testing of two effective dose antiepileptic drugs tried at least 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "With at least 2 attacks per month (to ensure visibility on the duration of the study of the antiepileptic effect)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with epileptic seizures not limited to only subjective signs",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating woman",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Minor",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Impossibility of signing consent",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No affiliation to a social security scheme (beneficiary or beneficiary)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Person in emergency,",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Person of legal age subject to a legal protection measure (major under guardianship, guardianship or court order), or unable to express his or her consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient with at least 2 generalized tonic-clonic seizures per month.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT03636958",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

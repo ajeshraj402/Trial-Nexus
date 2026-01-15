@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01721577",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Be informed of the nature of the study and have provided written informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "At least 18 years of age",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG performance of 0, 1, or 2, or KPS (Karnofsky performance status) \u2265 60.",
+      "label": "met"
+    },
+    {
+      "criterion": "Pathological verification of a WHO grade 4 astrocytoma (glioblastoma or gliosarcoma),",
+      "label": "met"
+    },
+    {
+      "criterion": "Expected survival of at least 3 months",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatitis B or Hepatitis C, or HIV infection requiring anti-retroviral therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Active malignancy other than basal cell skin cancer",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Other active malignancy during the previous 3 years",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. However, they have hepatitis B and are on anti-retroviral therapy, which makes them ineligible for this trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01721577",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04064957",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 yr. of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical diagnosis of a non-penetrating traumatic SCI to the cervical spine",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of Recent or ongoing infection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinically significant cardiovascular, lung, renal, hepatic, or endocrine disease",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Neurodegenerative disorders",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has atypical hemolytic uremic syndrome and is being treated with plasma exchange and corticosteroids. They have a history of vaccination but no other relevant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04064957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

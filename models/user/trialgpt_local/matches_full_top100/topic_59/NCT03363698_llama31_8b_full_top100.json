@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03363698",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults patients aged between 18 and 75",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Chronic cough lasting more than 8 weeks",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Non-smoking (min. 6 months)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Not treated with angiotensin-converting enzyme (ACE) inhibitors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Not treated with inhaled corticosteroids or systemic corticosteroids min. 4 weeks before enrolment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not treated with proton pump inhibitors min. 2 weeks before enrolment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Not treated with antihistaminic drugs 1 week before enrolment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "With normal chest radiograph or with insignificant changes in cough pathogenesis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Without airway infection in previous 6 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients enrolled with informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under 18 years old and above 75 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Smokers (actual or ex-smokers shorter than 6 weeks)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Therapy with corticosteroids (inhaled or systemic) for last 4 weeks, proton pump inhibitors for 2 weeks, antihistaminic drug for 1 week before enrolment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Airway infection 6 weeks preceding enrolment or during study - re-attempt to enroll after 6 weeks",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT03363698",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

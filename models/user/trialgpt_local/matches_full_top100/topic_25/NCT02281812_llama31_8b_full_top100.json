@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT02281812",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "women >40 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "infiltrating ductal breast carcinoma by biopsy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "visible by ultrasound",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "smaller than 2cm",
+      "label": "met",
+      "evidence": "inclusion subset"
+    },
+    {
+      "criterion": "located > 1 cm from the chest wall and the skin",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unique tumor",
+      "label": "met",
+      "evidence": "inclusion subset"
+    },
+    {
+      "criterion": "followed up for a period of two years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "improved cosmetic result",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "breast cancer in men",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "Personal history of ipsilateral breast cancer",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "Age <40 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Suspicion of intraductal extension or multifocality by mammography or MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumour not visible by ultrasound",
+      "label": "not_met",
+      "evidence": "exclusion subset"
+    },
+    {
+      "criterion": "Diameter > 2 cm",
+      "label": "met",
+      "evidence": "inclusion subset"
+    },
+    {
+      "criterion": "Distance to muscle or skin <1 cm",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 42 year-old postmenopausal woman with a history of smoking and alcohol consumption. She has had lumpectomy and axillary sampling, and is currently using multivitamins daily.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02281812",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03009968",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "gender",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "english speaking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pvr < 100mL",
+      "label": "met",
+      "evidence": "71 mL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "dependent on catheterization to void preoperatively",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fistula repair, sacral neuromodulation, urethral diverticulum/vaginal mass excision or mesh revision surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting with acute urinary retention. He has a large prostate and bladder filled with urine, but recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03009968",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

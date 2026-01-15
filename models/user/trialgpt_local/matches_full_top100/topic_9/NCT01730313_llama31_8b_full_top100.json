@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01730313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical head nodding episodes",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plan to remain in the study area/region for at least two months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Are attended by a care giver who is/are able to understand and give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Are at least 5 years old at the time of entry into the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a history of allergic reaction to any anti-epileptic medications",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Have severe acute malnutrition diagnosed based on anthropometric measurements",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He was recently tapered off Dilantin and had no further events during the hospital course.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT01730313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "trial_id": "NCT00048880",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed diagnosis of malignancy by department of pathology at the enrolling institution",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "tumor cells must express CD30",
+      "label": "not_met",
+      "evidence": "no mention of CD30 expression in patient text"
+    },
+    {
+      "criterion": "measurable or evaluable disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "granulocyte count of at least 1000/mm(3) and a platelet count of 50,000/mm(3) without transfusion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "creatinine of less than 2.0 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "omission of cyotoxic chemotherapy and systemic steroids for 3 weeks prior to entry into the trial",
+      "label": "not_met",
+      "evidence": "patient text mentions high-dose steroids"
+    },
+    {
+      "criterion": "life expectancy of greater than 2 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age >= 18 years old",
+      "label": "met",
+      "evidence": "patient is a 45-year-old man"
+    },
+    {
+      "criterion": "SGOT and SGPT value less than or equal to 2.0-fold greater than the upper limit of normal and bilirubin less than or equal to 2.0 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to understand and sign an Informed Consent form",
+      "label": "met",
+      "evidence": "patient is described as able to walk with difficulty, suggesting cognitive function"
+    },
+    {
+      "criterion": "Karnofsky Performance Status greater than or equal to 70%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "central nervous system disease as assessed by clinical examination",
+      "label": "triggers",
+      "evidence": "patient text mentions severe lower extremity weakness and urinary retention, suggesting CNS involvement"
+    },
+    {
+      "criterion": "pregnant or nursing patients are not eligible for the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV positive patients are excluded from the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hepatitis B surface antigen positive and Hepatitis C antibody positive patients are excluded because the toxicity of therapy may be different in this population",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who previously received murine monoclonal antibody therapy are ineligible",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who are HAMA positive",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient's CNS involvement and previous treatment with high-dose steroids raise concerns about eligibility. Further investigation is needed to determine the extent of CNS disease and whether the patient meets other inclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00048880",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

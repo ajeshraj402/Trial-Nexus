@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00603967",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "postmenopausal women aged greater than or equal to 40 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least 12 months from last menstrual period",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of breast cancer stages I-IIIA",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "planned therapy for the treatment group must include aromatase inhibitors using third generation non-steroidal aromatase inhibitors, anastrozole or letrozole",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "bone mineral density measurement must range from normal to osteopenia (T-scores between +2.0/-2.0)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "must be ambulatory willing and able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current use of medications affecting bone metabolism, namely: estrogen, raloxifene, tamoxifen, bisphosphonates, GnRH analogues, glucocorticoids of at least 5 mg daily for 1 month or more, anabolic steroids and dilantin",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "evidence of diseases known to interfere with bone metabolism, such as hyperparathyroidism, hyperthyroidism, osteomalacia, chronic liver disease, renal failure, hypercortisolism, malabsorption, and immobilization",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "current alcohol or tobacco abuse",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Paget's disease of bone and is starting Bisphosphonate therapy. The sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT00603967",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

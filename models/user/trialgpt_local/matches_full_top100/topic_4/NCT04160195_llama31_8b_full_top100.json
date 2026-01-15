@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04160195",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "MALIGNANCY CRITERIA: Patients must have any B-cell lymphoma, or CLL/SLL, Gray-zone lymphoma, nodular lymphocyte-predominant Hodgkin lymphoma, or classical Hodgkin lymphoma with any CD19 or CD20 expression on Reed-Sternberg cells.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "DLBCL patients must have received at least two prior chemotherapy-containing regimens at least one of which must have contained doxorubicin and a monoclonal antibody.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients that require urgent therapy due to tumor mass effects or spinal cord compression.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HIV-positive patients are excluded because HIV causes complicated immune deficiency and study treatment can pose more risks for these patients.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN, and has been diagnosed with Burkitt's lymphoma. They have received prior chemotherapy-containing regimens and have measurable malignancy.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04160195",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

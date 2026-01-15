@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03105388",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34-year-old woman"
+    },
+    {
+      "criterion": "asa_physical_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "operation_requiring_general_anesthesia",
+      "label": "met",
+      "evidence": "comes to clinic with some general and non-specific bones and joints pain"
+    },
+    {
+      "criterion": "obstructive_sleep_apnea",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant_patient",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "fasted_for_at_least_6_hours",
+      "label": "met",
+      "evidence": "Her BMI is 23, BP: 120/75, HR: 75/min"
+    },
+    {
+      "criterion": "gastroesophageal_reflux",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT03105388",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00079274",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed adenocarcinoma of the colon",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stage III disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No resected stage IV disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No rectal cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gross inferior (caudad) margin of the primary tumor must be \u2265 12 cm from the anal verge by rigid proctoscopy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stage III tumor must have been completely resected within the past 56 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Must have documented en bloc resection in patients with tumor adherence to adjacent structures",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tumor-related obstructions and colonic perforation are allowed",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tumor samples must be available",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least 1 pathologically confirmed positive lymph node",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No evidence of residual involved lymph node disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Synchronous primary colon cancer allowed",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Tumor-related obstructions and colonic perforation are not allowed",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Distant metastatic disease is present",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00079274",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

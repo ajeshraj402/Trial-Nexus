@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01150916",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25 years old"
+    },
+    {
+      "criterion": "signed_informed_consent",
+      "label": "met",
+      "evidence": "patient claims to have signed consent"
+    },
+    {
+      "criterion": "ascites",
+      "label": "unknown",
+      "evidence": "no mention of ascites in patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamic_instability",
+      "label": "not_met",
+      "evidence": "patient is not described as unstable"
+    },
+    {
+      "criterion": "sepsis",
+      "label": "unknown",
+      "evidence": "no mention of sepsis in patient text"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy, but no other significant medical history.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01150916",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

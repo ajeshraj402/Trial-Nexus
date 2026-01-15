@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04790149",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age between 18-30 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diagnosis of chronic incomplete lower dorsal (below Th10) or lumbar spinal cord injury as defined by the American Spinal Injury Association Impairment scale classification (AIS B, C or D)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "at least 3 months' post-injury",
+      "label": "met",
+      "evidence": "quote: 'He was admitted to the intensive care unit to be monitored for 24 hours.'"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "involvement in any specific program of rehabilitation other than the conventional protocol since his injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications to tDCS such as metal in the head or implanted brain medical devices",
+      "label": "not_met",
+      "evidence": "quote: 'Initial CT angiogram of head and neck reported no acute intracranial findings.'"
+    },
+    {
+      "criterion": "history of seizure, use of medications containing sodium channel blocker such as carbamazepine and any substance abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia, and hypothyroidism. He smokes 1 pack of cigarettes per day for 40 years and consumes 5-6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04790149",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03355404",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "major_patient",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient_hospitalized_for_surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patients_agreeing_to_participate_in_the_study",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient_supported_in_the_south_block",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient_with_reduced_mobility",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient_with_a_mental_disability",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "major_patient_protected",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and is on Levodopa and Trihexyphenidyl. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03355404",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03336203",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient adults with gout and hyperurecemia (SUA level above 8 mg/dL)",
+      "label": "met",
+      "evidence": "segmented fungal hyphae during a microscopic KOH wet mount examination"
+    },
+    {
+      "criterion": "outpatient adults with CKD 1-4 stages and hyperurecemia (SUA level above 8 mg/dL)",
+      "label": "met",
+      "evidence": "segmented fungal hyphae during a microscopic KOH wet mount examination"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "forms of associated comorbidities and cardiovascular risk factors, including heart failure",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "III-IV NYHA, stroke, peripheral arterial disease, obesity with BMI above 30 kg/m2",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration between the third and fourth of his right toe. He smokes 15 cigarettes per day and drinks a beer per day.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT03336203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

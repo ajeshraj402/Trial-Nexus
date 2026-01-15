@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01441180",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "hcv_status",
+      "label": "met",
+      "evidence": "chronic Genotype 1 infection"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraception_method",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hbv_status",
+      "label": "not_met",
+      "evidence": "recent coinfection with HBV"
+    },
+    {
+      "criterion": "alcoholic_liver_disease",
+      "label": "not_met",
+      "evidence": "no evidence of alcoholic liver disease"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01441180",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

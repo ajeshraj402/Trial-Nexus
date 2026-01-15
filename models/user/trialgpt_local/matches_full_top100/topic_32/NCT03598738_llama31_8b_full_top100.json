@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03598738",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of T2DM",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "at least 1-year follow-up in Endocrinology outpatient clinic",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "regulated diabetic subjects whose diabetes treatment were not amended",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "symptoms for functional dyspepsia, gastro-oesophageal reflux, gastritis or duodenitis",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "needing revision in their treatment strategies due to ethical issues",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "on pioglitazone and incretin-based therapies",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of gastrointestinal surgery, liver or kidney disease, diabetic macro- or microvascular complications",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "lactating or pregnant",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on any PPI treatment or had a history of PPI use in a 3 months period before the study",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Shiga-like toxin-producing E. coli (STEC) stx1/stx2, which may require revision in treatment strategies due to ethical issues.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT03598738",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04553354",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "focal epilepsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "refractory to medical treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "accept surgical maneuver",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "epileptic patients responding to medical treatment",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients refusing surgical intervention",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients unfit for brain surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multi focal or generalized seizures",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of severe intellectual disability, CHF, and epilepsy. He is refractory to medical treatment and accepts surgical maneuver.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04553354",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01252875",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Recent ischemic stroke",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented atherosclerotic stenosis in carotid artery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ischemic stroke/TIA due to arterial dissection",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac source of embolism without documented atherosclerotic stenosis",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has recent ischemic stroke and documented atherosclerotic stenosis in carotid artery, but is excluded due to cardiac source of embolism without documented atherosclerotic stenosis.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT01252875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

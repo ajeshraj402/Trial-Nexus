@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03735706",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "referred for abdominal CT in portal venous phase",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u2265 18 years and competent to sign an informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemodynamic instability",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal insufficiency (defined as Glomerular Filtration Rate (GFR) < 30 mL/min/1,73m2",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "[Odin protocol 004720]",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Iodine allergy (Odin protocol 022199)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age <18 years",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of informed consent",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is a genetic disorder that affects the liver and brain. He has been experiencing tremors since a year ago and has a Kayser-Fleischer ring in his ophthalmologic exam.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03735706",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

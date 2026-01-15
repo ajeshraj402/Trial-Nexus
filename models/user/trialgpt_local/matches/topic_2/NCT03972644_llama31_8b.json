@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT03972644",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe AS defined as aortic valve area (AVA) \u22641 cm2, AND Transvalvular maximum velocity (Vmax) \u22653.5 m/s AND AS severity evaluated severe by a heart valve team conference.",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "Considered to be asymptomatic (estimated by a consultant in cardiology)",
+      "label": "met",
+      "evidence": "The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US, but there is no mention of symptoms."
+    },
+    {
+      "criterion": "Considered to be candidate for AVR (transcatheter AVR/surgical AVR)",
+      "label": "met",
+      "evidence": "The patient underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease."
+    },
+    {
+      "criterion": "Sign of increased LV filling pressures18 or reduced longitudinal LV systolic function",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement."
+    },
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "The patient is 48 M, which implies he is over 18 years old."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "LVEF<50%",
+      "label": "does_not_trigger",
+      "evidence": "EF was 25%, which is below 50%"
+    },
+    {
+      "criterion": "Very severe AS defined as Vmax>5 m/s.",
+      "label": "does_not_trigger",
+      "evidence": "Transvalvular maximum velocity (Vmax) \u22653.5 m/s, but not >5 m/s."
+    }
+  ],
+  "notes": "The patient's EF is below 50%, which triggers exclusion criterion LVEF<50%. However, the overall assessment is likely_eligible because the patient meets several inclusion criteria and does not trigger any other exclusion criteria. The patient's Vmax is above 3.5 m/s but below 5 m/s, so it does not trigger very severe AS.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03972644",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

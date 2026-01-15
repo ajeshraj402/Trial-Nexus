@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02675244",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to sign Informed Consent and Release of Medical Information forms",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing MVS for degenerative MR with (a) Moderate TR as determined by transthoracic 2D echocardiography, or (b) Tricuspid annular dimension \u2265 40 mm (index: \u226521mm/M2 BSA)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "and trace/mild TR, determined by echocardiography.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Functional MR",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of sub-optimal fluid management (e.g., lack of diuretics, weight in excess of dry weight) in the opinion of the cardiology investigator",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Structural / organic TV disease",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, but remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02675244",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

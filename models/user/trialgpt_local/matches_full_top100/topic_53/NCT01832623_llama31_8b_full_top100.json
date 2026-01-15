@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01832623",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "Mobility handicap",
+      "label": "not_met",
+      "evidence": "no mobility aid mentioned"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "signed by parents"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of treatment with growth hormone",
+      "label": "unknown",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "History of treatment with oral corticoids, taken over more than 3 consecutive months",
+      "label": "unknown",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "Current treatment with growth hormone, corticoids or anti-calcineurin",
+      "label": "not_met",
+      "evidence": "no current treatment mentioned"
+    },
+    {
+      "criterion": "Treatment with aspirin or nonsteroidal anti-inflammatory drug within the last three weeks",
+      "label": "unknown",
+      "evidence": "no recent medication mentioned"
+    },
+    {
+      "criterion": "Treatment with paracetamol within the last week",
+      "label": "not_met",
+      "evidence": "no recent medication mentioned"
+    },
+    {
+      "criterion": "Chronic pathology with an impact on growth: Parenteral nutrition",
+      "label": "unknown",
+      "evidence": "unremarkable past medical history"
+    },
+    {
+      "criterion": "Chronic inflammatory disease (rheumatologic or digestive notably)",
+      "label": "not_met",
+      "evidence": "no chronic disease mentioned"
+    },
+    {
+      "criterion": "System diseases (lupus, granulomatosis, vascularitis)",
+      "label": "unknown",
+      "evidence": "unremarkable past medical history"
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain. Her BMI is 23, BP: 120/75, HR: 75/min.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01832623",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

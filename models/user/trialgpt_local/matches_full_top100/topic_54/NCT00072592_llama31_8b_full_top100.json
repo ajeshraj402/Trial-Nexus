@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00072592",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Documentation of WG based on clinical characteristics and histopathologic and/or angiographic evidence of vasculitis.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Positive assay for anti-MPO autoantibodies (ANCA) and the presence of glomerulonephritis defined by red blood cell casts and proteinuria or renal biopsy showing necrotizing glomerulonephritis in the absence of immune deposits.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-75 years.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of active infection, which, in the judgment of the investigator, is of greater danger to the patient than the underlying vasculitis.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serological evidence of infection with human immunodeficiency virus (HIV), hepatitis C, or a positive hepatitis B surface antigen.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has been diagnosed with Wegener's granulomatosis and is currently being treated with corticosteroids and cyclophosphamides. He has a history of disease relapse while receiving MTX for remission maintenance, which makes him eligible for the study.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00072592",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

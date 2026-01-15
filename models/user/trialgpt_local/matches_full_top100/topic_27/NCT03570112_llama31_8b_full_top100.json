@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03570112",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic HCV infection, as defined by positive HCV antibody with confirmation of positive HCV RNA PCR at least 6 months apart",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Infection with any genotype (including mixed genotypes) is permitted",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Co-infection with chronic hepatitis B",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active injection drug use, defined as the parenteral use of any substance for non-medicinal purposes in the previous 60 days",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on treatment. No evidence of co-infection with hepatitis B or active injection drug use.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03570112",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04612088",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22 years old"
+    },
+    {
+      "criterion": "nationality",
+      "label": "met",
+      "evidence": "Mexican"
+    },
+    {
+      "criterion": "place_of_residence",
+      "label": "met",
+      "evidence": "City of Tijuana"
+    },
+    {
+      "criterion": "bariatric_techniques",
+      "label": "met",
+      "evidence": "Gastric Sleeve or Bypass Roux in Y"
+    },
+    {
+      "criterion": "time_after_surgery",
+      "label": "met",
+      "evidence": "at least 6 months"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "signed informed consent format"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "nationality",
+      "label": "not_met",
+      "evidence": "Caucasian man"
+    },
+    {
+      "criterion": "place_of_residence",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bariatric_techniques",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "time_after_surgery",
+      "label": "not_met",
+      "evidence": "tremors since a year ago"
+    },
+    {
+      "criterion": "cognitive_disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "suspended_from_vitamin_consumption",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may be relevant for the study.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04612088",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

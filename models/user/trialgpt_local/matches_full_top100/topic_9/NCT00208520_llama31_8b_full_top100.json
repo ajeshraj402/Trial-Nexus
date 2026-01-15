@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00208520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients with generalized tonic-clonic, complex partial and/or simple partial seizures.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients on valproate monotherapy who are not seizure free at at the maximal dose they can tolerate.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients should be able to understand the patient information concerning the study and be able to give informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Absence seizures or juvenile myoclonic epilepsy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute or progressive neurological disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Alcohol or other substance abuse",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of severe psychiatric illness",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He was recently tapered off Dilantin and had no further events during the hospital course.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00208520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

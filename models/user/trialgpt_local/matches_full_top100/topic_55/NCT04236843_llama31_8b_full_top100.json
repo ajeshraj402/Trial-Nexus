@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04236843",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Rome IV criteria for the diagnosis of IBS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "investigated to exclude other gastrointestinal organic cause(s)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "moderate-to-severe IBS symptoms (IBS-SSS score \u2265175)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "use of antibiotics or probiotics within 1 month prior to FMT",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immunocompromised patients (immune-suppressive medications)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "co-morbidity (kidney failure or chronic heart disease)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "system disease (diabetes)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serious psychiatric disorders or drug abuse",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Wilson disease, which is a genetic disorder that can cause liver damage and other symptoms. However, the patient's IBS symptoms are moderate-to-severe, and they have been investigated to exclude other gastrointestinal organic causes.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04236843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

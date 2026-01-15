@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04826614",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "New or first recurrent diagnosed as major depression disorder.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Having total score HAM-D 17 \u2265 17 point",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "depressive episode, unsuccessful suicide behavior 3 months ago",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic another medical conditions (diabetes, hypothyroidism, pregnant, epilepsy, kidney failure, stroke, heart failure, liver failure, adrenal insufficiency)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been experiencing persistent feelings of sadness and loss of interest in daily activities for the past 6 months. She is currently on anti-depressants but still experiences symptoms.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT04826614",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

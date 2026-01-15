@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01775917",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "beat) or anembryonic pregnancy (empty gestational sac larger than 20 mm)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "incomplete abortion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "missed abortion with CRL (crown ump length) no larger than 8 weeks of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who got a clear explanation about all treatment options and they chose misoprostol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who read and signed an informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known allergy to prostaglandins or NSAIDS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heavy vaginal bleeding and hemodynamic instability",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multifetal gestation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "women with a clotting problems or treated with anticoagulant medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fever above 37.5 c",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "anemia with hemoglobin < 9/5 gr%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "missed abortion with CRL larger than 8 weeks of pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "diseases that can be aggravated by prostaglandins : severe asthma, uncontrolled blood pressure, glaucoma, sickle cell anemia, mitral stenosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease. She has no allergies to any food or drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT01775917",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

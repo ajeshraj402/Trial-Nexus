@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03005379",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Enrolled in a VHA facility",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able and willing to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Within the enrollment window: 2 days after completion of antimicrobial therapy for CDI (to allow for a washout period) to 14 days after completion of therapy or 30 days after the onset of CDI whichever is later.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unlikely to swallow capsules",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy, planning to be pregnant, or breastfeeding",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receipt of cytotoxic chemotherapy, intravenous or subcutaneous immune globulin, or confirmed neutropenia (absolute neutrophil count of < 1,000 cells/ L) within the past 3 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has symptoms consistent with CDI and laboratory confirmation. No contraindications noted.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03005379",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

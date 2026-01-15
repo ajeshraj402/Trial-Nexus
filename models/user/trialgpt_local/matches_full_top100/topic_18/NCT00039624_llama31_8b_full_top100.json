@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00039624",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pathologically confirmed prostate cancer with the following features: Gleason score greater than 6, or greater than T2a, or PSA greater than or equal to 10, and no evidence of bone metastases",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ECOG performance status of 0 or 1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent: All patients must sign a document of informed consent indicating their understanding of the investigational nature and risks of the study before any protocol related studies are performed (this does not include routine laboratory tests or imaging studies required to establish eligibility).",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of prior pelvic or prostate radiotherapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "TURP within the last 6 months or large TURP defect",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of multiple urological procedures, including suprapubic prostatectomy and severe urethral stricture. However, he is currently stable with good urine output and post-void bladder scans are being performed q4h.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00039624",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

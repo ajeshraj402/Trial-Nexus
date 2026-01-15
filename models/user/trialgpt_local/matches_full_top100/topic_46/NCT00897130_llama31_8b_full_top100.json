@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00897130",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "Patient A is a 30-year-old male"
+    },
+    {
+      "criterion": "life_expectancy",
+      "label": "met",
+      "evidence": "He is a previously healthy man, working as an engineer in a high tech company."
+    },
+    {
+      "criterion": "ECOG_performance_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum_bilirubin_levels",
+      "label": "met",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation."
+    },
+    {
+      "criterion": "serum_got_and_gpt_levels",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "creatinine_levels",
+      "label": "met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "negative_serum_beta_human_chorionic_gonadotropin_test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "written_informed_consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MDS_IPSS_risk",
+      "label": "not_met",
+      "evidence": "He had traveled to India 1 months ago and has not any positive history of TB vaccination."
+    },
+    {
+      "criterion": "life_expectancy",
+      "label": "met",
+      "evidence": "He is a previously healthy man, working as an engineer in a high tech company."
+    },
+    {
+      "criterion": "ECOG_performance_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "serum_bilirubin_levels",
+      "label": "not_met",
+      "evidence": "Chest X-ray showed infiltrate in the middle of left lung with diameter of 1.8 cm with signs of cavitation."
+    },
+    {
+      "criterion": "serum_got_and_gpt_levels",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "creatinine_levels",
+      "label": "met",
+      "evidence": "Creatinine: 0.5 mg/dl"
+    },
+    {
+      "criterion": "pregnancy_or_breast_feeding",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00897130",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

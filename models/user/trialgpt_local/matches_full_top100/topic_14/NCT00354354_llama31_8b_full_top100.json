@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00354354",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "40-80 years",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable COPD",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "FEV1 < 60 % predicted",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe chronic breathlessness (Baseline Dyspnea Index < 6)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "SpO2 at rest < 90% or a sustained decrease of > 4% in arterial O2 saturation during the ergometer test, as determined by pulse oximetry",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "a body mass index (BMI) < 19 or > 30",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic oral steroid therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other medical conditions which could cause or contribute to breathlessness, i.e., heart disease or other respiratory diseases",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD and severe chronic breathlessness. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00354354",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

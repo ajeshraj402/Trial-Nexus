@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01252875",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Recent ischemic stroke",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented atherosclerotic stenosis in carotid artery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Statin treatment is indicated, following ANSM guidelines (French drug agency)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Rankin score \u2264 4",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient or a legal representative signs consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is affiliated to social security system",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ischemic stroke/TIA due to arterial dissection (investigator judgment)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cardiac source of embolism (e.g., mitral stenosis, endomyocardial fibrosis) without documented atherosclerotic stenosis",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT01252875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

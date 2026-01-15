@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03107754",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women 14 years and older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "desiring uterine aspiration for pregnancy or surgical management of a miscarriage",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "gestational age up to 13 weeks and 6 days to be established by best dating (i.e. last menstrual period or earliest ultrasound)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "treatment plan involves outpatient uterine aspiration",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "participant able to provide informed consent in English and willing to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable to read, speak, or understand English",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "unable to provide informed consent",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently incarcerated",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "under the age of 14 years",
+      "label": "not_met",
+      "evidence": "age 32 yo woman"
+    }
+  ],
+  "notes": "Patient has a history of severe 'exploding' headache and was diagnosed with AVM. She refused PT evaluation but was ambulating independently without difficulty.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03107754",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

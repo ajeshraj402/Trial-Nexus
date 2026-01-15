@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT02581527",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "GeneXpert sputum positive, rifampicin susceptible",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "newly diagnosed pulmonary tuberculosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "no previous anti-tuberculosis chemotherapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient \u2265 18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Consent to participation in the trial and to HIV testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has a stable home address within easy reach of the treatment facility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "likely to remain there for the next 18 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pre-menopausal women must be using a barrier form of contraception or be surgically sterilised or have an Intrauterine Contraceptive Device (IUCD) in place for the duration of the treatment phase",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with rifampicin resistance identified by GeneXpert or by direct susceptibility testing",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Has any condition that may prove fatal during the study period",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has TB meningitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has pre-existing non-tuberculous disease likely to prejudice the response to, or assessment of, treatment e.g. insulin-dependent diabetes, liver or kidney disease, blood disorders, peripheral neuritis, and severe thrombocytopenia, rash, increase of bilirubin and other diseases that are likely to be contraindicated with rifampicin",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is female and known to be pregnant, or breast feeding",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Is suffering from a condition likely to lead to uncooperative behaviour such as psychiatric illness or alcoholism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has contraindications to any medications in the study regimens",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is HIV positive",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a stable home address within easy reach of the treatment facility and is likely to remain there for the next 18 months. However, they are HIV positive which may lead to uncooperative behaviour.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT02581527",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

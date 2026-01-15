@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT03464851",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Outpatients age > 18 years sent to the vascular laboratory for carotid duplex",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "examination for initial carotid ultrasound study or for follow-up of known carotid disease.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Enrolled patients will include at least 100 subjects with at least moderate known stenosis (50-69% or greater, PSV > 125 cm/sec) or occlusion of one or both ICAs",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Up to 25 patients with known fibromuscular dysplasia (FMD) of the internal carotid arteries.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hospitalized inpatients.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to provide informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior history of carotid endarterectomy or carotid artery stent.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior neck surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known prosthetic heart valve, known critical aortic stenosis, or study indication 'preop' open heart or aortic surgery.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD, and on examination patient was found to have carotid bruits. Upon further review of symptoms the pt reports + Occasional dizziness, no prior syncope occasional HA, Denies CP/SOB. No sensory or motor defects. He recalls that he might have had a stroke 10-15 years ago without any residual deficit. Prior to CABG he only had diaphoresis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03464851",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

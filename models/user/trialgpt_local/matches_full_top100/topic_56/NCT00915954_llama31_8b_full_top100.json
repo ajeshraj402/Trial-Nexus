@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00915954",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Active acromegaly due to excess GH produced by a pituitary adenoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Elevated IGF-I compared to age and gender matched controls (as supplied by the laboratory) and fail to suppress GH to below 1 ng/ml after a standard 75g oral glucose tolerance test.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Type 2 diabetes mellitus, defined by elevated fasting glucose \u2265 126 mg/dl (verified by two historical measurements), or plasma glucose \u2265 200 mg/dl two hours after a 75 g oral glucose load, or a random glucose \u2265 200 mg/dl.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current medical therapy for acromegaly including dopamine agonists, somatostatin analogues, or growth hormone antagonists.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects with a history of surgical therapy for treatment of acromegaly must have verification of active disease with verified elevated IGF-I for the subjects' age and gender compared to healthy controls (as supplied by the laboratory) (two measures) as well as a failure to suppress GH to below 1 ng/ml after OGTT.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current treatment for insulin resistance or type 2 DM including oral or injection medications.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of acromegaly due to pituitary adenoma and underwent transsphenoidal surgery 4 months ago. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00915954",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

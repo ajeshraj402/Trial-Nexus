@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT03646019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients admitted to the chest pain unit (CPU) in the Department of Internal Medicine",
+      "label": "met"
+    },
+    {
+      "criterion": "acute chest pain, suspected to be of cardiac origin and seems to be suitable for further investigation by a cardiac CT scan.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known CAD",
+      "label": "not_met"
+    },
+    {
+      "criterion": "allergy to iodine contrast agents",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD, but is being referred for evaluation of PVD. He reports occasional dizziness and no prior syncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03646019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

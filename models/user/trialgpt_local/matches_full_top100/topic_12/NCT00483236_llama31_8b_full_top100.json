@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00483236",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "surgical criteria set by the 2006 ACC/AHA guidelines",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "symptomatic mitral regurgitation with left ventricular dysfunction (LVEF < or = 40%) on maximal medical therapy",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mitral valve replacement",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant coronary artery bypass surgery",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient unable to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00483236",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

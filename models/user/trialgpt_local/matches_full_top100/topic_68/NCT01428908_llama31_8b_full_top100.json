@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01428908",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy subjects aged from 2 to 5 years old of normal intelligence.",
+      "label": "met",
+      "evidence": "The patient is a 23-year-old man..."
+    },
+    {
+      "criterion": "Subjects' guardians are able to understand and sign the informed consent.",
+      "label": "met",
+      "evidence": "The patient's guardians are not mentioned, but it can be assumed they are able to understand and sign the informed consent."
+    },
+    {
+      "criterion": "Subjects established as healthy after medical history questioning, physical examination and clinical decision and in accordance with vaccination requirements of the investigational vaccine.",
+      "label": "met",
+      "evidence": "The patient was diagnosed with atypical hemolytic uremic syndrome and treated with plasma exchange and corticosteroids. This suggests that they have a pre-existing medical condition, but it is not clear if this would affect their eligibility for the trial."
+    },
+    {
+      "criterion": "Subjects who can comply with the requirements of the clinical trial program according to the researcher's views.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects who have never received group A, C polysaccharide meningococcal vaccine and type b haemophilus Influenzal vaccine.",
+      "label": "met",
+      "evidence": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine."
+    },
+    {
+      "criterion": "Subjects with temperature <37\u00b0C on axillary setting.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject who has a medical history of Meningitis;",
+      "label": "not_met",
+      "evidence": "The patient was diagnosed with atypical hemolytic uremic syndrome, not meningitis."
+    },
+    {
+      "criterion": "Subject that has a medical history of any of the following: allergies, seizures, epilepsy, encephalopathy history and so on;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject who is allergic with tetanus toxoid components;",
+      "label": "not_met",
+      "evidence": "There is no mention of the patient being allergic to tetanus toxoid components."
+    },
+    {
+      "criterion": "Subject suffering from thrombocytopenia or other coagulation disorder may lead to contraindication to intramuscular injection;",
+      "label": "met",
+      "evidence": "The patient's blood smear showed microangiopathic hemolytic anemia and thrombocytopenia."
+    },
+    {
+      "criterion": "Subject who has a history of allergic reactions;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any known immunological dysfunction;",
+      "label": "not_met",
+      "evidence": "There is no mention of the patient having any known immunological dysfunction."
+    },
+    {
+      "criterion": "Had received gamma globulin or immune globulin, in the past two weeks;",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a pre-existing medical condition (atypical hemolytic uremic syndrome) and was treated with plasma exchange and corticosteroids. This may affect their eligibility for the trial.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT01428908",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

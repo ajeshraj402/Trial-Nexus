@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00704080",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed intracranial Grade 3 or 4 anaplastic glioma or glioblastoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "(astrocytic tumor, anaplastic oligodendroglioma, or oligoastrocytoma)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Received prior standard radiation for a Grade 3 or 4 astrocytic tumor with a minimum cumulative dose of 40 Gy administered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Completed at least one full cycle of temozolomide of 200 mg/m2/day administered on Days 1-5 of a 28-day cycle, without unacceptable toxicity or progression",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Karnofsky performance status of 60 or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adequate organ and bone marrow function as defined by hematological and serum chemistry limits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "At least 18 years old.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Both men and women must practice adequate contraception",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Progressed while on temozolomide",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of acute intracranial or intratumoral hemorrhage > Grade 1",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Restriction of some therapies/medications within specific timeframes prior to enrollment and during the study including cytotoxic chemotherapy other than temozolomide, biologic agents, nitrosoureas or mitomycin C, small-molecule kinase inhibitors, non-cytotoxic hormonal agents, prior therapy with a PI3K inhibitors, radiation therapy, enzyme-inducing anti-convulsants, valproic acid",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not recovered from the toxic effects of prior therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast feeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Congestive heart failure, unstable angina, or a myocardial infarction within 3 months of entering the study.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and has received prior standard radiation. However, they have progressed while on temozolomide.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00704080",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "trial_id": "NCT01812460",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participate in the study",
+      "label": "met"
+    },
+    {
+      "criterion": "have a primary diagnosis of COPD",
+      "label": "met"
+    },
+    {
+      "criterion": "be admitted to the pulmonary ward due to an exacerbation in COPD",
+      "label": "met"
+    },
+    {
+      "criterion": "provide informed consent to participation in the study",
+      "label": "met"
+    },
+    {
+      "criterion": "be able to maintain an upright position on a chair",
+      "label": "met"
+    },
+    {
+      "criterion": "be able to be guided to training and understand instructions for participating",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "most patients suffering from a severe degree of COPD (GOLD III and IV)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "unilateral resistance training of the quadriceps by the use of wrist weights is low cost, low technology",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD exacerbation and meets inclusion criteria. However, patient's severe shortness of breath may be a concern for exclusion.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01812460",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

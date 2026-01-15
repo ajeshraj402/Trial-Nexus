@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04236843",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Rome IV criteria for IBS diagnosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Investigation to exclude other gastrointestinal organic cause(s)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Moderate-to-severe IBS symptoms (IBS-SSS score \u2265175)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Use of antibiotics or probiotics within 1 month prior to FMT",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Immunocompromised patients (immune-suppressive medications)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Co-morbidity: kidney failure or chronic heart disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "System disease: diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious psychiatric disorders or drug abuse",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption and smoking. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT04236843",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

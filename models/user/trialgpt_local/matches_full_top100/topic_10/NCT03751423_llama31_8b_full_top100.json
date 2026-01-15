@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03751423",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed first trimester pregnancy",
+      "label": "met",
+      "evidence": "ultrasound showing a viable intrauterine pregnancy with a gestational age of less than 12 weeks since the last menstrual period"
+    },
+    {
+      "criterion": "unwanted pregnancy",
+      "label": "met",
+      "evidence": "consented to undergo a first trimester surgical abortion"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age <18 years at the time of study enrollment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "known allergy or sensitivity to any of the medications used in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any serious medical comorbidity that would make IV sedation contraindicated in an outpatient setting (ex. Heart disease, lung disease)",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03751423",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02724410",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "4-17 years of age"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "perforated acute appendicitis diagnosed at time of appendectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "previous drainage procedure",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has been diagnosed with perforated acute appendicitis and is now a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02724410",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

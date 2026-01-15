@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02034487",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "girl"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "unknown",
+      "evidence": null
+    },
+    {
+      "criterion": "treatment",
+      "label": "met",
+      "evidence": "treating with GH since 6 months ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "misclassified",
+      "label": "not_met",
+      "evidence": null
+    },
+    {
+      "criterion": "insufficient data",
+      "label": "unknown",
+      "evidence": null
+    }
+  ],
+  "notes": "Patient is an obese, mentally retarded girl with delayed puberty and developmental delay.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02034487",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

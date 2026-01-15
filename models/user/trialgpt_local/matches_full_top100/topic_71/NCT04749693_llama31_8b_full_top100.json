@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04749693",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "BMI",
+      "label": "not_met",
+      "evidence": "41.5 kg/m^2"
+    },
+    {
+      "criterion": "type_1_diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "insulin_dose",
+      "label": "not_met",
+      "evidence": "113 kg, 130/80 BP"
+    },
+    {
+      "criterion": "exercise",
+      "label": "not_met",
+      "evidence": "rarely exercises"
+    },
+    {
+      "criterion": "glucose_monitoring",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "social_security",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "insulin_type",
+      "label": "triggers",
+      "evidence": "considering a laparoscopic gastric bypass"
+    },
+    {
+      "criterion": "serious_illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing_problem",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "visual_acuity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "device_use",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is considering a laparoscopic gastric bypass, which may trigger exclusion due to insulin type.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT04749693",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

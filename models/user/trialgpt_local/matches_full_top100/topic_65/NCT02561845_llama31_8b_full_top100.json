@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02561845",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "treatment_for_statins",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age_at_index_date",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "follow_up_after_index_date",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "lab_values_before_and_after_index_date",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "familial_hypercholesterolemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "malignant_tumor_at_index_day",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT02561845",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

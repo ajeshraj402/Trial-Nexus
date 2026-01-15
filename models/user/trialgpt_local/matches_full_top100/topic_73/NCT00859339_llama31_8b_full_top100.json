@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00859339",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological proof of muscle-invasive transitional cell carcinoma of the bladder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years at the time of consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Females of childbearing potential and males must be willing to use an effective method of contraception",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No prior radiotherapy to the pelvis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No prior malignancy is allowed except for adequately treated basal cell or squamous cell skin cancer",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has neonatal jaundice that may require phototherapy. No other relevant medical history mentioned.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT00859339",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

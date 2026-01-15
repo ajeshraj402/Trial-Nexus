@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01884467",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of IC of the bladder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to catheterize through urethra or stoma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of recurrent symptomatic UTIs",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "ability to travel for quarterly urine cultures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "informed other available",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "oral or intravesical antibiotic prophylaxis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gentamicin-resistant bacteria on baseline urine culture",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of recurrent UTIs and is able to catheterize through a stoma. However, the patient's ability to travel for quarterly urine cultures and have an informed other available is unknown.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01884467",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

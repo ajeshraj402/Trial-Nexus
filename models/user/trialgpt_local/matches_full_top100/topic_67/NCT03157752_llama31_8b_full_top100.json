@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03157752",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient requiring conization on the CHU of Montpellier or N\u00eemes and having chosen a local anesthesia.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed and not opposed to participate in this research",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contra-indication to local anesthesia",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age less than 18 years",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient requiring conization on the CHU of Montpellier or N\u00eemes and having chosen a general anesthesia.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion, HPV 16 positive, sexually active, menopausal, smoker and drinker. She was offered conization.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT03157752",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

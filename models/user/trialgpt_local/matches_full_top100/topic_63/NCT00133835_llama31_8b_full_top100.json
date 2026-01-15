@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00133835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "painful chronic pancreatitis",
+      "label": "met",
+      "evidence": "abdominal pain attack during the preceding 12 months"
+    },
+    {
+      "criterion": "at least 1 calcified stone greater than 4 mm in one of its axes in the cephalic or corporeal portion of the main pancreatic duct with upstream duct dilation",
+      "label": "met",
+      "evidence": "ultrasound revealed several gallstones, biliary sludge and CBD stones"
+    },
+    {
+      "criterion": "written informed consent obtained from the patient",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of treatment of the pancreas using ESWL, endoscopy, or surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pancreatic collection greater than 2 cm in diameter at magnetic resonance or CT Scan",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alkaline phosphatase levels greater than twice the upper limit of normal values or signs of cholangitis",
+      "label": "not_met",
+      "evidence": "laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift"
+    },
+    {
+      "criterion": "age below 18 years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT00133835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

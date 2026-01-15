@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03529500",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months."
+    },
+    {
+      "criterion": "ipss_score",
+      "label": "met",
+      "evidence": "IPSS score : 15"
+    },
+    {
+      "criterion": "post_void_residual",
+      "label": "met",
+      "evidence": "Post-void residual: 70 mL"
+    },
+    {
+      "criterion": "prostate_volume",
+      "label": "met",
+      "evidence": "Prostate volume (TRUS): 60 mL"
+    },
+    {
+      "criterion": "psa_level",
+      "label": "met",
+      "evidence": "Prostate-specific antigen (PSA) level: 3.2 ng/mL"
+    },
+    {
+      "criterion": "max_flow_rate",
+      "label": "met",
+      "evidence": "10 mL/sec of maximum flow rate when urine volume was 130 mL"
+    },
+    {
+      "criterion": "health_status",
+      "label": "met",
+      "evidence": "He is otherwise healthy only using Vit D 1000 units daily."
+    },
+    {
+      "criterion": "blood_chemistry",
+      "label": "met",
+      "evidence": "His recent blood chemistry (3 days ago) was normal: Hgb: 13.5 g/dl, WBC: 135000 /mm3, Plt: 350000 /ml, PT: 11 second, PTT: 35 second, INR: 0.9, Creatinine: 0.5 mg/dl, BUN: 10 mg/dl"
+    },
+    {
+      "criterion": "urine_analysis",
+      "label": "met",
+      "evidence": "U/A: Color: yellow, Appearance: cloudy, PH: 5.3, Specific gravity: 1.010, Glc: 100, Nitrite: negative, Ketone: none, Leukocyte esterase: negative, RBC: negative, WBC: 2 WBCs/hpf, U/C: negative"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "Children aged one to five years not enrolled at the Center for Educational and Nutrition Recovery."
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "not_met",
+      "evidence": "Children whose Parents/guardians did not sign a statement of informed consent."
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms, but is otherwise healthy with normal blood chemistry and urine analysis.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT03529500",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "trial_id": "NCT03701659",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hormone sensibility advanced prostate adenocarcinoma",
+      "label": "met",
+      "evidence": "s/p R-CHOP x 6 cycles"
+    },
+    {
+      "criterion": "T3-4N0-1M0-1b",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "International prostate symptom score is equal to or greater than 20",
+      "label": "met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "Maximum flow rate is equal to or less than 10ml/s, or bladder outlet obstruction is diagnosed by urodynamics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Any of the following complication: \u2460 calculus in bladder; \u2461 Recurrent urinary tract infections; \u2462Inguinal hernia; \u2463vesicoureteral reflux",
+      "label": "met",
+      "evidence": "Urinary Tract Infections-pseudomonas & enterococcus"
+    },
+    {
+      "criterion": "The physical status score of the Eastern Cancer Cooperative Group (ECOG) is 0 or 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "There has been no previous evidence of malignancy in the past five years",
+      "label": "met",
+      "evidence": "Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03"
+    },
+    {
+      "criterion": "The patient is in good physical condition and able to tolerate anesthesia and surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "There are no allergic reactions and liver or kidney function damage to endocrine drugs",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to take and retain medicines",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability to follow study visit schedules and other program requirements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Be able to understand the character and purpose of the study, including possible risks and side effects",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with castration-resistant prostate cancer",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "The physical status score of East Cancer cooperative Group is equal to or greater than 2",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "There has been previous evidence of other malignancy in the past five years",
+      "label": "not_met",
+      "evidence": "Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03"
+    },
+    {
+      "criterion": "Patients with high coagulation and cannot stop taking anticoagulants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abnormal coagulation function such as hemophilia",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "The patients are in poor physical condition and cannot tolerate anesthesia and surgery",
+      "label": "not_met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "The patients have allergy or toxic side effects and other adverse reaction to endocrine drug",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with active tuberculosis or other fulminating infectious disease",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. They have a non-obstructing stone in the L ureter and are currently on ditropan for urinary retention.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03701659",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

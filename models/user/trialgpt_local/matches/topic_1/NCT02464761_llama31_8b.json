@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT02464761",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 20 and 85",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man"
+    },
+    {
+      "criterion": "Established metastatic vertebral bony disease in the spine",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Eligible for single level vertebral osteoplasty (i.e. percutaneous vertebroplasty, kyphoplasty)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are symptomatic with axial pain from vertebral metastatic involvement and are at risk for pathologic fracture; or have had a symptomatic pathologic fracture",
+      "label": "met",
+      "evidence": "Patient has severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain."
+    },
+    {
+      "criterion": "Patients who have shown radiographic progression and/or pain symptoms of a documented vertebral metastasis despite non-surgical therapies",
+      "label": "met",
+      "evidence": "The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Progressive neurological compromise",
+      "label": "triggers",
+      "evidence": "Patient has progressive lower extremity weakness and urinary retention"
+    },
+    {
+      "criterion": "Osteoblastic vertebral metastatic disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Posterior vertebral cortical/body wall involvement",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Spinal canal compromise / neurologic compression",
+      "label": "triggers",
+      "evidence": "MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Anticipated life expectancy of less than twelve weeks to live",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Life expectancy not mentioned, but patient has progressive neurological compromise and spinal canal compromise/neurologic compression.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02464761",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

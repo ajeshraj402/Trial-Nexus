@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04614142",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Detectable HCV Antibody Positivity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "KDPI score is less than \u2264 0.650",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Traditional Donor Selection Criteria Met - acceptable for transplantation per usual",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "evaluation at MGH",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previously enrolled in IRB 2016P002051 and experienced primary graft nonfunction due to renal vein thrombosis and acute thrombotic microangiopathy",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Willig and able to sign informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Donor has been known to have previously received and failed HCV treatment with a direct-acting antiviral agent",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Confirmed HIV",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Confirmed HBV positive (surface antigen or HBV DNA positive)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Kidney anatomical damage or significant pathology noted during recovery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant liver disease or signs of liver decompensation (splenomegaly, ascites) noted during recovery (advanced fibrosis or cirrhosis)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any standard contra-indication to donation noted in donor (significant malignancy, unusual infection)",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of hypertension and is currently experiencing abdominal pain and vomiting. Her lab studies show leukocytosis, urea elevation, high CRP, and amylase elevation.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04614142",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

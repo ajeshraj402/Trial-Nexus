@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04056000",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "18 - 35 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "recreationally active, preferably with experience of cycling training",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "any diagnosed cardiovascular disease or hypertension to avoid any complications associated with heavy exercise",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "chronic use of any prescribed or over-the-counter pharmaceuticals",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has itchy foot, localized scaling and maceration between the third and fourth of his right toe. No underlying disease such as DM.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT04056000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01648569",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "PTC of all tumor sizes underwent initial surgical therapy at our institution",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "2441 patients (48.4%) had PTMCs \u22641 cm in diameter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Complete follow-up data for major clinical events were available for 2014 patients (82.5%)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with follow-up loss",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT, which may impact eligibility.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01648569",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT00443313",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "26-65"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "not_met",
+      "evidence": "tubal ligation"
+    },
+    {
+      "criterion": "HPV status",
+      "label": "met",
+      "evidence": "positive for HPV 16"
+    },
+    {
+      "criterion": "smoking history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "drinking habits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "number of sexual partners",
+      "label": "met",
+      "evidence": "three"
+    },
+    {
+      "criterion": "age at menopause",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "family history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous cancer treatment",
+      "label": "not_met",
+      "evidence": "radical hysterectomy"
+    },
+    {
+      "criterion": "current health status",
+      "label": "met",
+      "evidence": "otherwise healthy"
+    },
+    {
+      "criterion": "study recruitment method",
+      "label": "met",
+      "evidence": "colposcopy and cytology screening"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "asked during consenting process"
+    },
+    {
+      "criterion": "hysterectomy",
+      "label": "met",
+      "evidence": "tubal ligation"
+    },
+    {
+      "criterion": "overt cancerous lesion",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to speak English",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has cervical cancer and tested positive for HPV 16. She is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00443313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

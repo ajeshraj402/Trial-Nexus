@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02163343",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cathcart Hemiarthroplasty",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "able to attend for blood testing",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "complete a questionnaire (Oxford Hip Score)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "too frail",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "live too far away to attend for blood testing",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and is starting Bisphosphonate therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02163343",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

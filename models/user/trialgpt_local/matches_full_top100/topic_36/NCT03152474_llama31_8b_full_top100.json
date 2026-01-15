@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03152474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe Sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Septic Shock",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "On glucocorticoids",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On Vitamin A",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On any active medical research study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Failed ACTH stimulation test (All serum cortisol concentrations < 20 mg/dl)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 32-year-old obese woman with weight concerns, sleep apnea, PCO and dissatisfaction with her body shape. She has high BP and HR.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT03152474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

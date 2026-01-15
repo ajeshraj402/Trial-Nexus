@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04825626",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical diagnosis of Traumatic Spinal Cord Injury",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subject has mesenchymal stem cells banked at Hope Biosciences",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "The patient accepts to receive treatment and to comply with follow-up visits",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant, uncontrolled cardiovascular disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active Alcohol or Drug addiction",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Participation in concurrent interventional research studies during this study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe organ failure (heart, kidney or liver)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has COPD and smokes 20 cigarettes per day. He is also obese with a BMI of 40.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04825626",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

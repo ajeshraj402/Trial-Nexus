@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03784794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "severe obstetric hemorrhage of any cause",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe obstetric hemorrhage of any cause",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric hemorrhage patients derived from other hospitals",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "of estimated blood loss less than 1000 ml",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "those who do not want to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe obstetric hemorrhage and meets inclusion criteria. Exclusion criterion of estimated blood loss less than 1000 ml is not met.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT03784794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

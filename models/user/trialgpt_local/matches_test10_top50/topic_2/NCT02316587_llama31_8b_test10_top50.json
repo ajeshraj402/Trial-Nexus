@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT02316587",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe aortic valve stenosis",
+      "label": "met",
+      "evidence": "echo"
+    },
+    {
+      "criterion": "Scheduled for aortic valve replacement",
+      "label": "met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "Signed consent",
+      "label": "met",
+      "evidence": "text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "At least moderate mitral regurgitation or stenosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Primary aortic insufficiency",
+      "label": "not_met",
+      "evidence": "text"
+    },
+    {
+      "criterion": "Persistent or permanent atrial fibrillation/flutter",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CKD with e-GFR < 40 ml/kg/min",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pacemaker or Implantable Cardioverter Defibrillator (ICD)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is scheduled for valve replacement.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02316587",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

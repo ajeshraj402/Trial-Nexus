@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04157738",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed diagnosis of T1DM based on the most recent ADA criteria",
+      "label": "met",
+      "evidence": "molecular analysis"
+    },
+    {
+      "criterion": "Be 7 - 15 years of age",
+      "label": "not_met",
+      "evidence": "25-year-old man"
+    },
+    {
+      "criterion": "Begin monitoring with a glucose monitor prior to discharge from the hospital",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have the ability to understand and be willing to adhere to the study protocol",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "English or Spanish speakers",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a clinically significant major organ system disease",
+      "label": "not_met",
+      "evidence": "no other medical issues"
+    },
+    {
+      "criterion": "Be on glucocorticoid therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have Type 2 Diabetes Mellitus",
+      "label": "met",
+      "evidence": "type 1 diabetes confirmed with molecular analysis"
+    },
+    {
+      "criterion": "Have Polycystic Ovarian Syndrome (PCOS)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have a BMI > 85th %ile",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have Acanthosis Nigricans",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have any form of renal impairment",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Have Cystic Fibrosis",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis and no other significant medical issues. He is willing to adhere to the study protocol.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04157738",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

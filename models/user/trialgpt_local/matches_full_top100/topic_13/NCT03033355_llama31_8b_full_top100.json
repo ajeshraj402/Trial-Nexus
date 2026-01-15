@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03033355",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neurogenic bladder",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "history of neurologic illness or injury",
+      "label": "met",
+      "evidence": "s/p CVA, Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "18 years or older",
+      "label": "met",
+      "evidence": "62 yo male"
+    },
+    {
+      "criterion": "female patients",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "male",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of any incontinence surgery (sling, MMK, Burch)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of any lower urinary tract surgery or manipulation (urethral dilation)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive urine pregnancy test at enrollment",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of neurogenic bladder and multiple prior admissions for UTIs, but no incontinence surgery or manipulation. Overall assessment is likely eligible.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03033355",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

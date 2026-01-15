@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT01404208",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of Obsessive-Compulsive Disorder as primary or co-primary diagnosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Score on CY-BOCS of 16 or greater",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Full Scale IQ greater than or equal to 85",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receiving concurrent psychotherapy or a past adequate trial of CBT for OCD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Initiation of an antidepressant within 12 weeks before study enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Initiation of an antipsychotic within 6 weeks before study enrollment",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No new alternative medications, nutritionals, or therapeutic diets within 6 weeks of study enrollment",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Any change in established psychotropic medication within 8 weeks before study enrollment (6 weeks for antipsychotic). Alternative medications must be stable for 6 weeks prior to baseline. Any medications must remain stable during treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current clinically significant suicidality",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Suicidal behaviors within six months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DSM-IV conduct disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DSM-IV autism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DSM-IV bipolar",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DSM-IV schizophrenia or schizo-affective disorders",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Substance abuse within the past six months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hoarding symptoms (due to difficulty implementing E/RP tasks)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has general and non-specific bones and joints pain, but no other significant medical history. BMI is within normal range.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT01404208",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

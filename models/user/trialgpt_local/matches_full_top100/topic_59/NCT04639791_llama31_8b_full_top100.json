@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04639791",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Asthma patients with age \u226518",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Asthma is defined as those with a consistent history and prior documented evidence of variable airflow obstruction.",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Subjects on steps 4 and 5 of GINA asthma therapy",
+      "label": "unknown",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with respiratory diseases with other known respiratory diseases including chronic obstructive pulmonary disease, bronchiectasis, tuberculosis (TB)-destroyed lung parenchyma, history of lung resection and lung cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Individuals older than 40 years with a smoking history of more than 10 pack-years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04639791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

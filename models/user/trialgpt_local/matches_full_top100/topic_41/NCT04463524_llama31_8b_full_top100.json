@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suspected heart rhythm disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no previous diagnosis of rhythm disorder",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "on examination on the ECG, the patient was not in sinus rhythm",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "that the patient has a known heart rhythm disorder and / or is being treated for it",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

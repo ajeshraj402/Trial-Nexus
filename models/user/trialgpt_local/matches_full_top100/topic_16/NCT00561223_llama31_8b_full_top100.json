@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00561223",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "FEV1 < 65% of predicted and FEV1 to FVC ratio < 70%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Baseline PAO2 while stable between 60-75 mmHg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The ability to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinical instability as evidenced by an acute exacerbation requiring an intensification of therapy and/or the need for hospitalization with the preceding 3 months.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Presence of an additional cause of lung disease as suggested by history, clinical or radiographic findings, or pulmonary function tests",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00561223",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

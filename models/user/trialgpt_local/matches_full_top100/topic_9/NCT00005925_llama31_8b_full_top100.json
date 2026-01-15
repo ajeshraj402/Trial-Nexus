@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00005925",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Be 18 years of age or older.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have simple or complex partial seizures.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Seizures must persist at 2 or more per month, despite medical therapy.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Be able to give informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have been determined by the NIH neurology staff to have medically intractable epilepsy.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have a seizure focus in a single region of one cerebral hemisphere.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Are pregnant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a contraindication to MRI scanning.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a bleeding disorder that cannot be corrected before testing or treatment.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Are unable to comprehend the risks of the testing and surgical therapy.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have seizure foci in more than one region of one hemisphere or in both cerebral hemispheres.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He has had seizures since age 13 and was recently tapered off Dilantin, which may have contributed to his current seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00005925",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

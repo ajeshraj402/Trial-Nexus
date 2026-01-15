@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01335763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "Type 2 diabetes for at least 6 months",
+      "label": "met",
+      "evidence": "family history is positive for type 2 diabetes (his father and sister)"
+    },
+    {
+      "criterion": "Taking 1 or more oral hypoglycemic agents",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient attending your community pharmacy where you decided that addition of insulin glargine may be of benefit to the patient",
+      "label": "met",
+      "evidence": "The patient is a customer at the pharmacy"
+    },
+    {
+      "criterion": "Baseline HbA1c 7.5 - 11%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have used, or currently using, Insulin",
+      "label": "not_met",
+      "evidence": "The patient is not taking insulin"
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Works night shift",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal impairment(Serum Creatinine: females \u2265 124 mmol/l, males \u2265 133 mmol/l)",
+      "label": "not_met",
+      "evidence": "Serum Creatinine not mentioned"
+    },
+    {
+      "criterion": "Clinically unstable",
+      "label": "met",
+      "evidence": "The patient has a heart rate of 115/min and blood pressure 110/75 mmHg, but the lab results are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glc level of 15."
+    },
+    {
+      "criterion": "Unwilling/unable to attend follow up visits",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, but cross-sectional imaging was negative for obstructive pancreatitis.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01335763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

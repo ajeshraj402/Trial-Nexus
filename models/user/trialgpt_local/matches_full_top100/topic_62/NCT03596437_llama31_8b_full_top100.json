@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03596437",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-80 years old"
+    },
+    {
+      "criterion": "fmd_diagnosis",
+      "label": "met",
+      "evidence": "FMD of the renal arteries, cervical or cerebral arteries or spontaneous coronary dissections"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "signed informed consent"
+    },
+    {
+      "criterion": "social_security_affiliation",
+      "label": "met",
+      "evidence": "patient affiliated to a social security"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "allergies_to_ultrasound_gel",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_life_threatening_disease",
+      "label": "met",
+      "evidence": "no severe life-threatening disease mentioned"
+    }
+  ],
+  "notes": "The patient has a family history of CAD, but no other cardiovascular risk factors. He is physically active and has normal fasting glucose and triglyceride levels.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03596437",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

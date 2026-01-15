@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04373447",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    },
+    {
+      "criterion": "Sex",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "Cardiopulmonary diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute cholecystitis not improving on medical treatment for 48 hours",
+      "label": "not_met",
+      "evidence": "improving on medical treatment"
+    },
+    {
+      "criterion": "Biliary colic, mucocele of gall bladder and pyocele of gall bladder",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "American Society of Anesthesiologist's (ASA) score: grade I, II, III",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ASA grade IV",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients refuse surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented neurological, renal and Liver disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous percutaneous cholecystostomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cases not tolerated CO2 insufflation from the start",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT04373447",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

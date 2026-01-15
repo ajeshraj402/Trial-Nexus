@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03847571",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Hypokalemia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Metabolic alkalosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Normal blood pressure",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Random urine chloride >20 milliequivalent per liter (mEq/L)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Elevated serum aldosterone and renin levels",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypertension",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of emesis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior use of laxatives",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cystic fibrosis of pancreas",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has atypical hemolytic uremic syndrome and was treated with plasma exchange and corticosteroids.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03847571",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

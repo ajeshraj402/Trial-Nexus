@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02019784",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "established cirrhosis complicated by hepatic encephalopathy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "cirrhosis if they fulfil two out of the three diagnostic criteria of confirmatory liver histology, biochemistry and/or radiologic findings consistent with cirrhosis/portal hypertension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic persistent overt hepatic encephalopathy (\u2265 grade 1)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u22652 episodes of overt hepatic encephalopathy in the previous 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age \u226418 or \u226575",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Evidence of disseminated malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known coeliac or inflammatory bowel disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of intestinal failure, intestinal obstruction and / or previous bowel resection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing immunosuppressive states including HIV infection and chronic granulomatous diseases",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Anti-inflammatory drug use e.g non-steroidals and immunomodulatory drug use e.g. prednisolone and azathioprine",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Known hypersensitivity to rifaximin or rifamycin-derivatives",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Already receiving concomitant oral or parenteral antibiotic therapy e.g norfloxacin",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has established cirrhosis complicated by hepatic encephalopathy, meets two out of three diagnostic criteria for cirrhosis, and has had \u22652 episodes of overt hepatic encephalopathy in the previous 6 months. However, patient is on non-steroidal induced gastritis treatment which may be an exclusion criterion.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT02019784",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

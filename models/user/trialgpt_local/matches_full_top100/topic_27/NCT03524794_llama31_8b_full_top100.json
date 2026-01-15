@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03524794",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "underserved populations",
+      "label": "met",
+      "evidence": "homeless, substance misuse"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "able to provide signed informed consent"
+    },
+    {
+      "criterion": "language ability",
+      "label": "met",
+      "evidence": "understand PIS and study information"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy. No evidence of other liver diseases.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03524794",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

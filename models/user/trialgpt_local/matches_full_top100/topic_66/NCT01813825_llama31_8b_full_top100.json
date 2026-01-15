@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01813825",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "16-year-old"
+    },
+    {
+      "criterion": "tumor_type",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgicalMargins",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skinSpacing",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "dcis",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "does not smoke and she is not sexually active"
+    },
+    {
+      "criterion": "collagen_vascular_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intraductal_component",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "infiltrating_lobular_histology",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto disease, high TSH levels (15 mU/L), low free T4 levels (0.18 ng/dl) and extremely high anti-TPO levels (136 IU/ml).",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT01813825",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

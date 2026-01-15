@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01447524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diet or oral hypoglycaemic agents",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "morbid obesity (BMI > 40kg/m2)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "good metabolic control (HbA1C <7.5%)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "treatment with GLP-1 agonists, DPP-4 inhibitors, insulin",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "serum creatinine >150 \u00b5mol/l",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and is currently homeless, unable to afford insulin. He reports good adherence to treatment.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01447524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

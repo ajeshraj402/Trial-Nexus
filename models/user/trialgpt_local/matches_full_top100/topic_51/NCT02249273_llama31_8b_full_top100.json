@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02249273",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "25 years old"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "24W3D gestational old, pregnant woman"
+    },
+    {
+      "criterion": "office hours",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diagnostic approaches",
+      "label": "met",
+      "evidence": "16 diagnostic approaches will be compared"
+    },
+    {
+      "criterion": "antibiotic use",
+      "label": "met",
+      "evidence": "proper use of antibiotics will be assessed"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current antibiotic use",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "urinary catheter",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with symptoms of UTI, fever, chills, nausea, vomiting, dysuria, urgency and frequency. Physical examination reveals tenderness on palpation of both costovertebral angles.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02249273",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

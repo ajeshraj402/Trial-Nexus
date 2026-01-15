@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00655096",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed ocular disease/disorder",
+      "label": "met",
+      "evidence": "history of acne and mild hirsutism"
+    },
+    {
+      "criterion": "unusual, interesting, or unknown ocular condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "disease-free control participant in an NEI clinical research study",
+      "label": "met",
+      "evidence": "participate as a disease-free control participant"
+    },
+    {
+      "criterion": "affected first-degree relative of a participant with either a diagnosed or undiagnosed ocular disorder",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "ability to understand and sign an informed consent",
+      "label": "met",
+      "evidence": "married and has 2 children"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unwilling or unable to cooperate with the study procedures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "female participants of childbearing potential who are pregnant",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of acne and mild hirsutism, which may indicate an ocular condition. However, she is not unwilling or unable to cooperate with the study procedures.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00655096",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

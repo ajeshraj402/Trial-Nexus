@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT04064957",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult individual 18 yr. of age or older.",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Cognitively intact and capable of giving informed consent.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical diagnosis of a non-penetrating traumatic SCI to the cervical spine",
+      "label": "not_met",
+      "evidence": "Patient has anaplastic astrocytoma of the spine, not a non-penetrating traumatic SCI."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior history of cancer.",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine."
+    },
+    {
+      "criterion": "Immunosuppression as defined by WBC < 3,000 cells/ml at baseline screening.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having a contraindication to MRI scans",
+      "label": "does_not_trigger",
+      "evidence": "Patient has undergone MRI scans."
+    }
+  ],
+  "notes": "Key unknowns include the patient's cognitive status and whether they have any other acute or chronic medical conditions that may increase the risks associated with study participation.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04064957",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

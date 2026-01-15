@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02260817",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "biochemical relapse after primary treatment",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PSA > 0.2 ng/ml after radical prostatectomy confirmed at that level or higher on a subsequent test 3 months later",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PSA increase >2 ng/ml from nadir following radiation therapy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Kidney function with GFR > 60 mL/sec/1.73m2 and Creatinine < 1.7mg, collected within 90 days of planned scan",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No known allergy to iodinated radiologic contrast media",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to have MRI based on screening evaluation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) Performance Status of 0, 1, or 2",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concurrent malignancy, i.e. colon cancer.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Treatment for another malignancy except superficial skin cancer within 5 years",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and a large prostate. He has normal kidney function and no known allergy to iodinated contrast media.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02260817",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

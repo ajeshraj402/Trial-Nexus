@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42-year-old"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "met",
+      "evidence": "She works in a rehab center and has no underlying disease."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "not_met",
+      "evidence": "She does not have any open wounds or inflammatory conditions on her legs."
+    },
+    {
+      "criterion": "chronic or acute leg pain",
+      "label": "not_met",
+      "evidence": "She exercises regularly for 30 minutes a day at least 5 days a week."
+    },
+    {
+      "criterion": "neuropathy involving one or both legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A healthy woman with no underlying disease, who works in a rehab center and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

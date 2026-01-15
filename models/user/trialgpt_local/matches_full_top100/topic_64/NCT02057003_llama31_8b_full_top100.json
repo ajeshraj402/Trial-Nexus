@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02057003",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "hiv_infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "naive_to_daa",
+      "label": "met",
+      "evidence": "no other medications"
+    },
+    {
+      "criterion": "initiation_of_triple_therapy",
+      "label": "met",
+      "evidence": "on IFN, RBV and direct antiviral drugs for the past 6 months"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication_to_peg_ifn_rbv_daa",
+      "label": "met",
+      "evidence": "no contraindications mentioned"
+    },
+    {
+      "criterion": "inability_to_provide_informed_consent",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT02057003",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

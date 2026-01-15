@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03526536",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients over 18 years old with diabetes (both sexes) presenting without any kidney disease or with ESRD on hemodialysis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Undergoing major elective surgery procedures such as abdominal, pulmonary, GU/GYN, vascular, renal, neurologic, and orthopedic surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent for the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with elevated preoperative blood glucose of a value > 150 mg/dL or < 350 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Baseline chemistry with a potassium at or above 3.5",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women. (Pregnant women have altered glucose metabolism; specific insulin regimen used for pregnant women)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient does not give informed consent for the study.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient cannot understand or read English.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT03526536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

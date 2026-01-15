@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "english_comprehension",
+      "label": "met",
+      "evidence": "high-school teacher"
+    },
+    {
+      "criterion": "hiv_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "dementia",
+      "label": "not_met",
+      "evidence": "International HIV Dementia Scale score <10"
+    },
+    {
+      "criterion": "cognitive_slowing",
+      "label": "met",
+      "evidence": "t-score >60 on Conner's CPT-II reaction time test"
+    },
+    {
+      "criterion": "depression",
+      "label": "met",
+      "evidence": "Beck Depression Inventory score <16"
+    },
+    {
+      "criterion": "hiv_rna_pcr",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cd4_count",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cbc_and_chemistry_panel",
+      "label": "met",
+      "evidence": "Baseline CBC and chemistry panel Grade 1 or normal"
+    },
+    {
+      "criterion": "pregnancy_test",
+      "label": "not_met",
+      "evidence": "negative serum or urine pregnancy test within 48 hours prior to entry"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "Ability and willingness of subject to provide informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability_to_give_informed_consent",
+      "label": "triggers",
+      "evidence": "Inability to give informed consent"
+    },
+    {
+      "criterion": "uncontrolled_hypertension",
+      "label": "triggers",
+      "evidence": "BP: 130/80, HR: 195/min"
+    },
+    {
+      "criterion": "untreated_hypogonadism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "initiation_of_antidepressants",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy_or_breast_feeding",
+      "label": "triggers",
+      "evidence": "does not use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "clinically_significant_ekg_abnormalities",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_coronary_artery_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "brain_related_opportunistic_infections",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has sleep apnea, PCO and dissatisfaction with her body shape.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

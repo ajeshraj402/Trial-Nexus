@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT03229538",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age < 1 year at the time of surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Undergoing heart surgery with CPB as part of standard clinical care",
+      "label": "met"
+    },
+    {
+      "criterion": "Availability and willingness of the parent/legally authorized representative to provide written informed consent",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "< 37 weeks adjusted gestational age at time of surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Any oral or intravenous steroid treatment within two days of surgery",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Amphoteracin B, aminoglutethimide, anticholesterases, warfarin, P450 3A4 inducers including (but not limited to) carbamazepine, phenobarbital, phenytoin, rifampin, bosentan and nafcillin or P450 3A4 inhibitors including (but not limited to) clarithromycin, voriconazole, itraconazole, ketoconazole, ciprofloxacin, diltiazem, fluconazole, erythromycin and verapamil",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Infection contraindicating steroid use",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Preoperative mechanical circulatory support or active resuscitation at the time of randomization",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Emergent surgery precluding steroid administration 8-12 hours before surgery",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and was stabilized.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03229538",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

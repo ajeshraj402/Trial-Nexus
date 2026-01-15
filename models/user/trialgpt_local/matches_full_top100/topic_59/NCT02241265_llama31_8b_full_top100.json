@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02241265",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": ">18 years of age",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "severe asthma diagnosis",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "decreased FEV1",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "< 18 years of age",
+      "label": "not_met",
+      "evidence": "The patient is a 15-year-old boy"
+    }
+  ],
+  "notes": "Patient has asthma diagnosed a year ago and presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02241265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

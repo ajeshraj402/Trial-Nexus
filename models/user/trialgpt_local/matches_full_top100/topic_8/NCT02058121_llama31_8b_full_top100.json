@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02058121",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed with an eating disorder according to DSM-IV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Enrolled as a patient at Eriksbergsgarden, a clinic in Sweden offering specialized care for patients with an eating disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Attained a somewhat regular eating pattern consisting of at least three meals per day",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having physical or psychiatric complicating factors of such severity that these conditions needed to be addressed during the treatment period (12 weeks).",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL and large cell transformation, with a history of treatment resistance.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT02058121",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

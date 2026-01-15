@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01710254",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed persistent or paroxysmal AF and suspected coronary artery disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "will undergo catheterization X-ray angiography",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "critically ill patients, patients on ventilators patients with hypotension",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "asthmatics, and other patients whose medical care or safety may be compromised from undergoing an MRI examination will be excluded.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with claustrophobia will also be excluded since MRI is conducted in a closed environment.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with contraindications to MRI (pacemaker, metal implants).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant subjects (or women who may become pregnant), minors, and prisoners will be excluded from this study.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects are over 60 or have any suspicion of abnormal kidney function (a blood test to determine Glomerular filtration rate (GFR) will be performed prior to imaging.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subjects with GFR<30 will be excluded from the study. This is standard practice for clinical scans in Radiology due to the extremely small but not negligible relationship between gadolinium contrast agent and nephrogenic systemic fibrosis in patients with severely impaired renal function.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, AF, and suspected coronary artery disease. However, she is critically ill and on antibiotics, which may compromise her safety during MRI examination.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01710254",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

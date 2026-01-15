@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00287430",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "35-year-old woman"
+    },
+    {
+      "criterion": "less than 100% of ideal body weight",
+      "label": "met",
+      "evidence": "hirsutism, soft tissue thickening"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Colonization with Burkholderia cepacia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "using IUD as her contraceptive method"
+    }
+  ],
+  "notes": "Patient has history of acne, mild hirsutism, and elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00287430",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

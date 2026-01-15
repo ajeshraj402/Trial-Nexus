@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03424902",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Intermediate or high risk patient for surgical aortic valve replacement (SAVR)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "STS/EuroSCORE II >4% or logistic EuroSCORE I >10%",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Contraindications for open chest surgery, such as expected high perioperative risk due to comorbidities not adequately reflected by scores",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "active endocarditis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "myocardial infarction within 14 days",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiogenic shock",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03424902",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT03917082",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of invasive breast cancer which is: Unifocal or multifocal (not multicentric)",
+      "label": "met",
+      "evidence": "The patient has a cytologically confirmed breast cancer."
+    },
+    {
+      "criterion": "Unilateral",
+      "label": "met",
+      "evidence": "The tumor is located in the left upper outer quadrant."
+    },
+    {
+      "criterion": "Moderate or strongly hormone receptor positive",
+      "label": "not_met",
+      "evidence": "The tumor is ER/PR negative."
+    },
+    {
+      "criterion": "HER2 negative",
+      "label": "met",
+      "evidence": "The tumor is HER2-positive, but this is not a criterion for exclusion."
+    },
+    {
+      "criterion": "Ductal grade 1 or 2, or lobular any grade, or pure tubular (any grade) or pure papillary (any grade)",
+      "label": "met",
+      "evidence": "The tumor is a 3 cm invasive ductal breast carcinoma."
+    },
+    {
+      "criterion": "Stage pT1N0 (tumor </= 20mm, negative node) or pT2N0 (tumor 21-50mm, node negative)",
+      "label": "met",
+      "evidence": "Axillary sampling revealed 5 positive lymph nodes."
+    },
+    {
+      "criterion": "Subject must be female",
+      "label": "met",
+      "evidence": "The patient is a postmenopausal woman."
+    },
+    {
+      "criterion": "Subject must be age > 50 years at breast cancer diagnosis",
+      "label": "met",
+      "evidence": "The patient is 45 years old, but this is not a criterion for exclusion."
+    },
+    {
+      "criterion": "Subject may be pre, peri, or postmenopausal.",
+      "label": "met",
+      "evidence": "The patient is postmenopausal."
+    },
+    {
+      "criterion": "Subject must have a > 5-year life expectancy based on physician judgement of subject's co-morbid illnesses and age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subject must undergo standard of care loco-regional management (sentinel node biopsy and/or axillary dissection; breast conserving surgery or mastectomy)",
+      "label": "met",
+      "evidence": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    },
+    {
+      "criterion": "Surgery will have been no more than 24 weeks prior to endocrine therapy start.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "The breast surgery will have achieved negative surgical margins.",
+      "label": "met",
+      "evidence": "The patient's tumor is resectable."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No (neoadjuvant or adjuvant) chemotherapy given or planned for this breast cancer",
+      "label": "not_met",
+      "evidence": "The patient will undergo chemotherapy prior to endocrine therapy."
+    },
+    {
+      "criterion": "No other non-breast cancer within the last 5 years, except non-melanoma skin cancer, melanoma in situ, cervix carcinoma in situ, and anal carcinoma in situ",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a HER2-positive tumor, but this is not a criterion for exclusion. The patient will undergo chemotherapy prior to endocrine therapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03917082",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

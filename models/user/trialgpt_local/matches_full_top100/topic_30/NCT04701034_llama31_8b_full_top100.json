@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04701034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with \u2265 2 consecutive pregnancy losses",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2264 completed gestational week 10 after ART with the present partner or with an egg/semen donor",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI \u226535",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age \u226541",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Significant uterine malformation(s)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but is on treatment and symptoms have improved. She has a family history of the disease.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT04701034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04756102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroid disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "taking steroids",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is an obese woman with sleep apnea and PCO, but no thyroid disorder or diabetes mellitus. She does not use any contraceptive methods.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT04756102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

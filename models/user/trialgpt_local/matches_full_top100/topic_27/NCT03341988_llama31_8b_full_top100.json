@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03341988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18-60 years"
+    },
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "HCV RNA greater than 15,000 IU/mL"
+    },
+    {
+      "criterion": "treatment na\u00efve",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "compensated liver cirrhosis",
+      "label": "met",
+      "evidence": "chronic inflammation compatible with a chronic viral hepatitis"
+    },
+    {
+      "criterion": "absence of coinfection with HBV or HIV",
+      "label": "met",
+      "evidence": "no evidence of HBV or HIV"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with hepatitis B virus or HIV",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "prior antiviral therapy",
+      "label": "unknown",
+      "evidence": "IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months"
+    },
+    {
+      "criterion": "haemoglobin level less than 10mg/dl",
+      "label": "not_met",
+      "evidence": "BP: 130/75, HR: 90/min and BMI: 27"
+    },
+    {
+      "criterion": "decompensated liver disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has chronic HCV infection with plasma HCV RNA greater than 15,000 IU/mL. He is on combination therapy for the past 9 months.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03341988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

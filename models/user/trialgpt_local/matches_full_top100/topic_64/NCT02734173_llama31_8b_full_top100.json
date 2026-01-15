@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02734173",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV RNA evidence of HCV infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented history of chronic HCV RNA infection with Genotype 1",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Available for ongoing follow-up if required",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "<18 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of decompensated liver disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HOMA IR< 2.0",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HIV seropositivity",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic HBV/HIV infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of immune suppressing medications",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Active malignancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of HCV and HBV coinfection, but no evidence of decompensated liver disease or active malignancy. He is on treatment for HCV and appears to be stable.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT02734173",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

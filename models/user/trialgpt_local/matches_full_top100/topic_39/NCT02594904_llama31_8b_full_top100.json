@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02594904",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Full-term newborns with jaundice after 3-7 days of birth, total bilirubin in serum or transcutaneous bilirubin is between 100umol/L and 257umol/L",
+      "label": "met"
+    },
+    {
+      "criterion": "Gestational age\u226537 weeks, birth weight\u22652.5Kg, Apgar scores\u22658",
+      "label": "met"
+    },
+    {
+      "criterion": "lineal consanguinity are all the native residents from Guangdong or Guangxi",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Neonates with inherited metabolic diseases;",
+      "label": "triggers"
+    },
+    {
+      "criterion": "History of oxidation drug exposure(e.g. honeysuckle bath)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "The patient is a full-term newborn with jaundice after 3-7 days of birth, total bilirubin in serum or transcutaneous bilirubin is between 100umol/L and 257umol/L. The patient's gestational age is \u226537 weeks, birth weight is \u22652.5Kg, and Apgar scores are \u22658.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02594904",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

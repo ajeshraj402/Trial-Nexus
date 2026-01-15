@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03435770",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "Pancreatic adenocarcinoma at the head of pancreas",
+      "label": "met",
+      "evidence": "The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas."
+    },
+    {
+      "criterion": "Unsuitable for surgery, due to ASA score >/= III",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Eligible for endoscopic intervention",
+      "label": "met",
+      "evidence": "She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient."
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Coagulopathy (international normalized ratio >1.5, partial thromboplastin time greater than twice that of control)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with a poor mental condition or mental retardation, unable to understand the nature and possible consequences of the study",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma at the head of pancreas and was treated with IV antibiotics. However, she has a history of CAD and chronic kidney disease.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03435770",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04302649",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ability to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "peritoneal dialysis (PD) treatment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PD vintage of more than 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "absence of signs of active acute systemic or localized infections at least four weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, with recent C diff infection treated with antibiotics. She was also encouraged to take probiotics and bleach her home when discharged.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04302649",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

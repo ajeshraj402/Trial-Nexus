@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00608140",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic chronic heart failure, New York Heart Association (NYHA) class II to IIIb",
+      "label": "met",
+      "evidence": "TTE"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction of 0.35 due to non-ischemic etiology",
+      "label": "met",
+      "evidence": "TTE"
+    },
+    {
+      "criterion": "Evidence by transthoracic echocardiography (TTE) of moderate or severe MR without obvious primary mitral valve pathology",
+      "label": "met",
+      "evidence": "TTE"
+    },
+    {
+      "criterion": "Peak VO2 less than or equal to 22 ml/kg/min, as obtained at study entry",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Optimal heart failure therapy for at least 6 months prior to study entry",
+      "label": "met",
+      "evidence": "TTE"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Significant coronary artery disease (greater than 75% lesion in any vessel) by coronary angiography or by a history of a prior heart attack",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heart failure due to active myocarditis, congenital heart disease, or obstructive hypertrophic cardiomyopathy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary MR due to significant chordal or leaflet abnormalities by TTE",
+      "label": "not_met",
+      "evidence": "TTE"
+    },
+    {
+      "criterion": "Other hemodynamically relevant stenotic or regurgitant valvular diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00608140",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

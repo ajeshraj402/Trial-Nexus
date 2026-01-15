@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01198691",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstetric service patients",
+      "label": "met",
+      "evidence": "Faculty Medical Center"
+    },
+    {
+      "criterion": "Women greater than 18 years old",
+      "label": "met",
+      "evidence": "41-year-old"
+    },
+    {
+      "criterion": "Singleton gestation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cesarean Section performed by Pfannenstiel skin incision",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "does not smoke"
+    },
+    {
+      "criterion": "Contraindication to post operative NSAID's or Narcotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Emergent Cesarean Deliveries",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Less then 18 years of age",
+      "label": "not_met",
+      "evidence": "41-year-old"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of frequent alcohol consumption. She is being treated for acute edematous interstitial pancreatitis.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT01198691",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

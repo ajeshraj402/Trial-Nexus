@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03176459",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Females 18 years of age and older at screening.",
+      "label": "met",
+      "evidence": "The patient is a 45-year-old woman."
+    },
+    {
+      "criterion": "Term pregnancies of 37 to 42 weeks gestation, scheduled to undergo elective C-section.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "American Society of Anesthesiology (ASA) physical status 1, 2, or 3.",
+      "label": "met",
+      "evidence": "The patient's BP is 150/85."
+    },
+    {
+      "criterion": "Able to provide informed consent, adhere to the study visit schedule, and complete all study assessments.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects who, in the opinion of the study site principal investigator, have a high-risk pregnancy (eg, multiple gestations, pregnancy resulting from in vitro fertilization, gestational diabetes, end-term prolonged bed rest required for medical reasons).",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Subjects with a pregnancy-induced medical condition or complication (eg, hypertension, pre-eclampsia, chorioamnionitis).",
+      "label": "met",
+      "evidence": "The patient has hypercholesterolemia and two C/sections."
+    },
+    {
+      "criterion": "Subjects with 3 or more prior C-sections.",
+      "label": "not_met",
+      "evidence": "The patient has only two C/sections."
+    }
+  ],
+  "notes": "The patient is a 45-year-old woman with abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has hypercholesterolemia and two C/sections, but no high-risk pregnancy or pregnancy-induced medical condition.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03176459",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

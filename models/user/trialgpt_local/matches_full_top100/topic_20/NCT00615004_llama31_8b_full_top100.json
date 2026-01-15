@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00615004",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first-line treatment",
+      "label": "met",
+      "evidence": "surgery via trans-sphenoidal route by microscopic and/or endoscopic approach"
+    },
+    {
+      "criterion": "disease control",
+      "label": "met",
+      "evidence": "achieving control of the disease"
+    },
+    {
+      "criterion": "follow-up after 12 months",
+      "label": "met",
+      "evidence": "available follow-up after 12 months of treatment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "second surgery within 3 months",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "combined dopamine-agonists and SSA",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "s.c. octreotide for longer than 15 days",
+      "label": "not_met",
+      "evidence": "on stable doses of octreotide LAR since her diagnosis was confirmed"
+    },
+    {
+      "criterion": "second-line treatment before completion of 12 months",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "follow-up shorter than 6 months after surgery or pharmacotherapy",
+      "label": "not_met",
+      "evidence": "available follow-up after 12 months of treatment"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly and prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT00615004",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

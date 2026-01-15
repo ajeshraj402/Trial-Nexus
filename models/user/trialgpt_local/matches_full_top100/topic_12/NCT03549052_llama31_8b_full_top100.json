@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03549052",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "All ages will be accepted.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Isolated mitral valve lesion either stenosis or regurge.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Good LV function (EF <45%).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any degree of tricuspid valve regurge..",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Concomitant Aortic valve lesion needs replacement.",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Poor LV function (Low EF> 45%).",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other causes of pulmonary hypertension i.e.: (Chronic obstructive or restrictive pulmonary disease, connective tissue disease and chronic thromboembolism).",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Emergency and Redo operations.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome with severe mitral valve prolapse, but is prepared to undergo surgery. EF of 65% on TTE.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03549052",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

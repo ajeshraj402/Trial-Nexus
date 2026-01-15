@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01118988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "between the ages of 14 and 18",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "any patient who has been successfully treated in the UCLA Pediatric Pain Program",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "access to telephone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "access to internet enabled computer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic pain diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "younger than 14",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "older than 18",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "new patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no access to telephone",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no access to internet enabled computer",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has normal BP in previous visit but elevated BP in current visit.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01118988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

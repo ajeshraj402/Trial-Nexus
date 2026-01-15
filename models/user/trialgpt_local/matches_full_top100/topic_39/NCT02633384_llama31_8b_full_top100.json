@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02633384",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neonates admitted in the NICU",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational age of 34 weeks or over",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "initiation of PN with ILE within the first 48 hours after birth",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "congenital or acquired hepato-biliary disease, such as biliary atresia, choledochal cyst, inborn errors of metabolism, intra-hepatic familial cholestasis, infectious hepatitis, neonatal idiopathic hepatitis, biliary lithiasis and abnormalities of liver function tests",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "other congenital conditions affecting the liver function, such as meconium ileus associated with cystic fibrosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She was born at 38w3d of gestation after an uncomplicated pregnancy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02633384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

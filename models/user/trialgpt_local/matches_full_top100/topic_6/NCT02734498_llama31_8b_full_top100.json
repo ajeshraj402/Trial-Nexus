@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02734498",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECT treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pheochromocytoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "stroke within past 3 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cardiac conduction defects",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cerebral or aortic aneurysms",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of ESRD on HD and peritoneal dialysis, but no contraindications for ECT mentioned. However, patient's recent C diff infection may be relevant.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02734498",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

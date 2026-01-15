@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02936167",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "2 - 8 years"
+    },
+    {
+      "criterion": "American society of anesthesiologist (ASA)",
+      "label": "met",
+      "evidence": "1"
+    },
+    {
+      "criterion": "Laparoscopic surgical procedure of 2 hours duration requiring IV fluid administration",
+      "label": "met",
+      "evidence": "for at least 24 hours"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Uncorrected plasma sodium level before surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diseases which cause abnormal ADH secretion",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal and cardiac disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Chronic lung disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cranial/thoracic surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent loop diuretics use",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02936167",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

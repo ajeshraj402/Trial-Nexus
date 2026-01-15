@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02625441",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "histologically confirmed invasive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HER2-positive breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "high risk of breast cancer recurrence",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "distant metastases",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inflammatory breast cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "clinically significant cardiac disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has provided written informed consent and meets the inclusion criteria. However, there is no mention of distant metastases or inflammatory breast cancer, but it's not explicitly stated that they don't have these conditions.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02625441",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

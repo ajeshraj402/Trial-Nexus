@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00793611",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "More than 8 voids/day",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "women younger than 18 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "males",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient is a 19-year-old Hispanic female with mild headache and leg swelling. She has no specific past medical issues and only uses prenatal vitamins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT00793611",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

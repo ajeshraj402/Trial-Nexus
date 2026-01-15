@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00754806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patient_confirmation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "splenomegaly_15_cm_or_longer_spleens",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "normal_sized_spleens",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient_denial",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "A 5 months old male with empty scrotum at the right side, palpable testis in the left scrotum. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT00754806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

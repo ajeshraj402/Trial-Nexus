@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01813266",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between the ages of 18 and 75 years old"
+    },
+    {
+      "criterion": "unknown",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hepatitis C virus test result",
+      "label": "not_met",
+      "evidence": "medical records show previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "history of hepatitis C infection",
+      "label": "not_met",
+      "evidence": "the recent coinfection with HBV"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man diagnosed with HCV 2 years ago and the recent coinfection with HBV. He has been on treatment for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01813266",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

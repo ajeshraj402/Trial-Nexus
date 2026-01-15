@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03727178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18-60 years"
+    },
+    {
+      "criterion": "Language",
+      "label": "met",
+      "evidence": "The patient must be able to speak and understand Danish"
+    },
+    {
+      "criterion": "Consent",
+      "label": "met",
+      "evidence": "Signed informed consent."
+    },
+    {
+      "criterion": "Rehabilitation",
+      "label": "met",
+      "evidence": "The patient must be expected to be able to attend rehabilitation and post-examinations."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous AC joint dislocation or shoulder trauma",
+      "label": "not_met",
+      "evidence": "no other medical condition"
+    },
+    {
+      "criterion": "Fracture to the upper extremity at time of injury",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Associated injuries to the upper extremity causing limitation of function",
+      "label": "not_met",
+      "evidence": "The patient is a well-dressed and well-nourished adolescent who is alert and cooperative."
+    },
+    {
+      "criterion": "Terminal illness or severe medical illness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 14-year-old boy with scoliosis and back pain, candidate for scoliosis surgery according to perioperative MEP monitoring.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03727178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

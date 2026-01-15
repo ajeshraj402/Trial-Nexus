@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03085212",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Aged 18-34 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "In a stable relationship with a male partner",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has regular internet access",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Trying to get pregnant and last used contraception 6-12 months ago",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "STAI-T score>=34 OR CESR-10 score >=10",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Currently pregnant",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Participant had a DepoProvera injection in the prior 12 months",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe headache and AVM, but is currently improving with pain medication.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03085212",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

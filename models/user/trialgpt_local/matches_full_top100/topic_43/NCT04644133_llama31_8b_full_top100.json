@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04644133",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "Fecal Incontinence (FI), Constipation, or bowel issues"
+    },
+    {
+      "criterion": "health_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "women of childbearing age will be asked if they are pregnant"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "none",
+      "label": "does_not_trigger",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with symptoms of Fecal Incontinence (FI), Constipation, or bowel issues. She is febrile and complained of abdominal pain and diarrhea.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04644133",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

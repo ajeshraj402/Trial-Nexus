@@ -1,0 +1,80 @@
+{
+  "trial_id": "NCT02308280",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 to 65 years, inclusively",
+      "label": "met"
+    },
+    {
+      "criterion": "Newly diagnosed multiple myeloma patients (according to IMWG criteria) with measurable disease at diagnosis, based on presence of any of the following:",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Serum intact immunoglobulin \u2265 10 g/L",
+      "label": "met"
+    },
+    {
+      "criterion": "Bence-Jones proteinuria \u2265 200 mg/day",
+      "label": "met"
+    },
+    {
+      "criterion": "High-risk patients presenting any of the following:",
+      "label": "unknown"
+    },
+    {
+      "criterion": "International Staging System (ISS) III",
+      "label": "not_met"
+    },
+    {
+      "criterion": "del(17p13), t(4;14) with ISS II or III, t(14;16), t(14;20) and chromosome 1 abnormalities by FISH.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Plasma cell leukemia, defined as an absolute blood plasma cell count > 2 x 10^9/L and the presence of > 20% plasma cells among peripheral blood white cells;",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients \u2264 50 years, regardless of cytogenetics or ISS stage",
+      "label": "met"
+    },
+    {
+      "criterion": "Having received a Bortezomib-containing regimen (VTD, CyBorD, VRD or PAD [in patients with PCL]) for a minimum of 4 cycles with \u2265 PR.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Received high-dose Melphalan \u2265 140 mg/m2 followed by autologous stem cell transplantation.",
+      "label": "met"
+    },
+    {
+      "criterion": "Available HLA-identical sibling donor or 8/8 allele matched (HLA-A, -B, -C, -DR) matched unrelated donor",
+      "label": "not_met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Failure to achieve at least PR with a Bortezomib-based induction therapy.",
+      "label": "met"
+    },
+    {
+      "criterion": "Progressive disease at any time",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Having received tandem autologous stem cell transplantation.",
+      "label": "met"
+    },
+    {
+      "criterion": "Karnofsky score < 70% or comorbidity index HCT-CI > 3",
+      "label": "not_met"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT02308280",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

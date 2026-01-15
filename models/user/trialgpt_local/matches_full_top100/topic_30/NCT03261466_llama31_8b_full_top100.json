@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03261466",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "homogeneous for number and sex of the subjects",
+      "label": "met",
+      "evidence": "patient is a 33-year-old woman"
+    },
+    {
+      "criterion": "randomization in a 1:1 to probiotic intervention group or placebo group",
+      "label": "met",
+      "evidence": "Participants will be randomly assigned..."
+    },
+    {
+      "criterion": "standard diet with 55-60% of carbohydrates, 25-30% lipids and 15% proteins",
+      "label": "met",
+      "evidence": "The standard diet will be distributed..."
+    },
+    {
+      "criterion": "physical activity: all subjects will receive general recommendations about performing physical activity",
+      "label": "met",
+      "evidence": "all subjects will receive general recommendations..."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Adverse reactions to the product or component of the product (allergies\u2026)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Genetic obesity (Prader Willi syndrome, Down syndrome), Metabolic obesity (Laurence-biedl syndrome\u2026), endocrinological obesity (Cushinch syndrome, hypotiroidism)",
+      "label": "not_met",
+      "evidence": "She was diagnosed with Hashimoto's thyroiditis."
+    },
+    {
+      "criterion": "Chronic diseases, hepatic or gastroenterological diseases",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis and is overweight. She was diagnosed with Hashimoto's thyroiditis after starting Levothyroxine treatment.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03261466",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

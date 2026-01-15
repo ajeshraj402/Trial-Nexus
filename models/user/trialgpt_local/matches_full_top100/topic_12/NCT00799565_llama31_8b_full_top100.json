@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00799565",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "34 year old woman"
+    },
+    {
+      "criterion": "Affiliation to the French social insurance system",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Idiopathic MVP defined by the presence of criteria 1) and 2) OR of criterion 3)",
+      "label": "not_met",
+      "evidence": "Marfans Syndrome"
+    },
+    {
+      "criterion": "Echographic MVP > 2 mm on the left ventricular parasternal long-axis view",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Echographic myxomatous valve (thickness > 4 mm) or significant mitral regurgitation (> 2 + using color Doppler)",
+      "label": "met",
+      "evidence": "severe mitral valve prolapse with regurgitation"
+    },
+    {
+      "criterion": "History of mitral valve surgery for pure mitral regurgitation due to MVP (myxomatous or fibroelastic deficiency) with available detailed operative report.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Male or female subject \u226540 years",
+      "label": "not_met",
+      "evidence": "34 year old woman"
+    },
+    {
+      "criterion": "Absence of MVP or absence of mitral valve dystrophy",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Caucasian",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of heart disease causing MVP (rheumatic, HCM\u2026)",
+      "label": "triggers",
+      "evidence": "Marfans Syndrome"
+    },
+    {
+      "criterion": "Syndromic disease (Marfan, Ehlers-Danlos\u2026)",
+      "label": "met",
+      "evidence": "Marfans Syndrome"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00799565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

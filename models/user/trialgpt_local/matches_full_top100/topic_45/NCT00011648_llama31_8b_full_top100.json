@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00011648",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 years old"
+    },
+    {
+      "criterion": "sickle_cell_disease",
+      "label": "met",
+      "evidence": "electrophoretic documentation of SS, SC, or S-beta thallassemia genotype"
+    },
+    {
+      "criterion": "african_american",
+      "label": "met",
+      "evidence": "patient is an African American man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hb_a_only_phenotype",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sickle_cell_trait",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and is seeking treatment for severe bone pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT00011648",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

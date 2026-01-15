@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00677989",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pain other than right lower abdominal quadrant",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "clinical examination favored perforated acute appendicitis",
+      "label": "met",
+      "evidence": "CT scan and diagnostic laparoscopy"
+    },
+    {
+      "criterion": "age between 12 and 80 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 12 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "older than 80 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "perforated appendicitis not revealed by pathologic investigation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diverticulitis being diagnosed during surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pelvic inflammatory disease or other gynecologic disease found during laparoscopic examination or diagnosed before operation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the patient declining to enroll in this study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain, nausea, vomiting, fever, and abdominal tenderness. CT scan showed acute perforated appendicitis with free fluid in the pelvis.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00677989",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

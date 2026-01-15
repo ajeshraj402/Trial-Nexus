@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00309465",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Scheduled for Surgical Procedure",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Self Management of Diabetes",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Currently on Evening Insulin Glargine prescribed by Primary Care Physician",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 18 or over",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Able to Communicate Clearly over the Phone",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-screened by Anesthesia Department > 48 hours prior to Surgery",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "On Glucocorticoid Medication",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "On Insulin Glargine Dual Dosing or Sliding Scale Regimen",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of Hypoglycemia Unawareness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or Lactating Female",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "On Insulin Glargine for < 3 months",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis and is being treated with ACE inhibitors, Beta blockers, and insulin. He does not have any other significant medical issues or family history of concern.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00309465",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

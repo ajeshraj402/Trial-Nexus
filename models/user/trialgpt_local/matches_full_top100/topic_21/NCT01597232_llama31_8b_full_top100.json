@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01597232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Perioperative hemoglobin level",
+      "label": "unknown",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency operation",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "ASA classification V or VI",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "not_met",
+      "evidence": "healthy with no history of allergies"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "lab results normal"
+    },
+    {
+      "criterion": "Hypervolemic hemodilution",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "not_met",
+      "evidence": "cross-sectional imaging negative for obstructive pancreatitis"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Refuse to sign consent",
+      "label": "not_met",
+      "evidence": "patient is described as a 57-year-old man"
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, drinks around 60 units of alcohol per week and smokes 22 cigarettes per day.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01597232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

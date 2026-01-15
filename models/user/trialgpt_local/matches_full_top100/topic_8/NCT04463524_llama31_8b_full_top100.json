@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04463524",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age of \u226518 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "suspected heart rhythm disorder",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no previous diagnosis of rhythm disorder",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age less than 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "on examination on the ECG, the patient was not in sinus rhythm",
+      "label": "triggers",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "the patient has a known heart rhythm disorder and / or is being treated for it",
+      "label": "triggers",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation, but meets inclusion criteria. Exclusion criterion of not being in sinus rhythm on ECG may trigger exclusion.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT04463524",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

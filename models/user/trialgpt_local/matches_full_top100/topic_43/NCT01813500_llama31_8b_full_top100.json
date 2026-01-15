@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01813500",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks English"
+    },
+    {
+      "criterion": "study requirements",
+      "label": "met",
+      "evidence": "able to comply with study requirements"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "moving out of area",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "not_met",
+      "evidence": "febrile and complained of abdominal pain and diarrhea"
+    },
+    {
+      "criterion": "stool sample",
+      "label": "met",
+      "evidence": "The stool samples must were positive for Clostridium difficile toxin"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia, febrile, tachycardic and hypotensive. Stool samples positive for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT01813500",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

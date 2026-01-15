@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03961763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomization",
+      "label": "met",
+      "evidence": "www.randomization.com"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "Participant Consent Form"
+    },
+    {
+      "criterion": "sample_size",
+      "label": "met",
+      "evidence": "44 subjects, 22 per arm"
+    },
+    {
+      "criterion": "power_calculation",
+      "label": "met",
+      "evidence": "80% power to detect a difference of 5% or above in non-HDL-C and LDL-C III particle concentration"
+    },
+    {
+      "criterion": "dietary_lead_in",
+      "label": "met",
+      "evidence": "8-weeks of dietary lead-in with heart-healthy diet structured in the UK National Institute of Health Care Excellence (NICE) guidelines"
+    },
+    {
+      "criterion": "blinding",
+      "label": "met",
+      "evidence": "randomized, double-blind, placebo controlled study"
+    },
+    {
+      "criterion": "adherence_measurement",
+      "label": "met",
+      "evidence": "3-day weighed intake food diary at Week 4"
+    },
+    {
+      "criterion": "nutrient_estimation",
+      "label": "met",
+      "evidence": "Nutritics software using UK: Scientific Advisory Committee on Nutrition (SACN) 2015 food composition tables"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "n-3_supplements",
+      "label": "not_met",
+      "evidence": "no mention of n-3 supplements"
+    },
+    {
+      "criterion": "heart_surgery",
+      "label": "unknown",
+      "evidence": "no mention of heart surgery"
+    },
+    {
+      "criterion": "cancer_history",
+      "label": "unknown",
+      "evidence": "no mention of cancer history"
+    },
+    {
+      "criterion": "kidney_failure",
+      "label": "unknown",
+      "evidence": "no mention of kidney failure"
+    },
+    {
+      "criterion": "liver_failure",
+      "label": "unknown",
+      "evidence": "no mention of liver failure"
+    },
+    {
+      "criterion": "pregnancy_or_lactation",
+      "label": "not_met",
+      "evidence": "male patient"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, cardiomyopathy, and is taking ACE inhibitors and Beta blockers. He claims mild dyspnea after climbing 3 floors.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03961763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00269399",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "has acute diarrhea",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least 1 other sign of enteric infection present",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "V. cholerae was seen in dark-field microscopy of a fresh stool specimen",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has had a previous episode of clinically diagnosed Clostridium difficile within the past 6 months.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has chronic diseases associated with diarrhea (e.g., inflammatory bowel disease or diarrhea predominant irritable bowel syndrome [DIBS])",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject has had any therapy with any agent administered for the treatment of Clostridium difficile prior to randomization.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, developed abdominal pain followed by bloating and nausea as well as loose bowel movements. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00269399",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

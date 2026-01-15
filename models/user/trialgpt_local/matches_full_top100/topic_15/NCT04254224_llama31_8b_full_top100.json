@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04254224",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "Clinical symptoms and laboratory results suspicious for diverticulitis",
+      "label": "met",
+      "evidence": "fevers/rigors, bandemia, mid-abdominal pain radiating to the left flank"
+    },
+    {
+      "criterion": "CT findings of complicated diverticulitis with extraluminal air, presence of abscess",
+      "label": "met",
+      "evidence": "CT abdomen showing a large heterogeneous left upper abdominal mass"
+    },
+    {
+      "criterion": "with or without fistula or operative findings of complicated diverticulitis in an emergency setting",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients with uncomplicated diverticulitis",
+      "label": "not_met",
+      "evidence": "CT abdomen showing a large heterogeneous left upper abdominal mass"
+    },
+    {
+      "criterion": "unable to give informed consent.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "language barrier",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD, but is presenting with symptoms and CT findings suspicious for diverticulitis. The patient's overall condition suggests they are likely eligible for the trial.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04254224",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

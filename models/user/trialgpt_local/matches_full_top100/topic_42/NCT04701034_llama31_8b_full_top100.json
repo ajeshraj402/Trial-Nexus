@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04701034",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with \u2265 2 consecutive pregnancy losses",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u2264 completed gestational week 10 after ART with the present partner or with an egg/semen donor",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "BMI \u226535",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age \u226541",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Significant uterine malformation(s)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known parental balanced chromosomal translocations",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u22652 previous pregnancies with fetuses with known abnormal karyotype",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT04701034",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

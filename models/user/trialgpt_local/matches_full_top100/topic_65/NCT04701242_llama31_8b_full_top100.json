@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04701242",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age more than 18 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Acute myocardial infarction (STEMI or NSTEMI) within 48 hours from the onset of symptoms.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Refusal to participate in the study.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Proved intolerance to statins on previous use.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having conditions (or taking medications) that would not allow concomitant safe statins use.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes and cardiomyopathy, but no other significant medical history. He is being treated with ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04701242",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

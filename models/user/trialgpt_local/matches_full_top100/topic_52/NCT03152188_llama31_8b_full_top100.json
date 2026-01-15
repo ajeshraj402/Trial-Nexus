@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03152188",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "21-75 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(a) Liver Biopsy (b) Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(c) Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(d) Endoscopic evidence of varices or portal gastropathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At least two HE episodes, one within the last year but not within the last month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give written, informed consent (mini-mental status exam>25 at the time of consenting)",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Disease-related: (1) MELD score>17",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(2) WBC count<1000",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(3) TIPS, non-elective hospitalization or HE within last month",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(4) on dialysis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "(5) known untreated, in-situ luminal GI cancers",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool specimen and severe diarrhea.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT03152188",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

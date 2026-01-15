@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00428103",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of congestive heart failure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "left ventricular ejection fraction <= 30%",
+      "label": "not_met",
+      "evidence": "EF of 65% on TTE"
+    },
+    {
+      "criterion": "moderate or severe mitral regurgitation",
+      "label": "met",
+      "evidence": "severe mitral valve prolapse with regurgitation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cancer - metastatic or within five years",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "recent stroke (less than six months)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe COPD (FEV1 < 0.8 liters)",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "inotropic infusion preoperatively",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "atrial fibrillation",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant patients",
+      "label": "met",
+      "evidence": "cataract surgery, foot surgery (shorten bone length)"
+    },
+    {
+      "criterion": "other valvular disease requiring surgical intervention",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has severe mitral valve prolapse with regurgitation and is prepared to undergo mitral valve repair/replacement surgery. However, they have a history of gastric reflux disease and hypertension with pregnancy, which may be exclusion criteria.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT00428103",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

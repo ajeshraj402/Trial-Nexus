@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01074203",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult male or female patients age 18-75",
+      "label": "met",
+      "evidence": "patient's age: 55"
+    },
+    {
+      "criterion": "HCV infection identified by positive, quantifiable HCV RNA prior to transplant",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Scheduled recipient of living donor transplantation",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "History of chronic hepatitis B or HIV infection",
+      "label": "unknown",
+      "evidence": "coinfection with HBV, but no history of HIV"
+    },
+    {
+      "criterion": "Transplantation for fulminant hepatic failure",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate <60ml/min",
+      "label": "unknown",
+      "evidence": "BP: 130/75, HR: 90/min, but no estimate of GFR"
+    },
+    {
+      "criterion": "Women who are pregnant or breast feeding and men or women that are sexually active but do not agree to use acceptable birth control",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy, breastfeeding, or lack of birth control"
+    }
+  ],
+  "notes": "55-year-old man with HCV coinfection with HBV. On IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01074203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

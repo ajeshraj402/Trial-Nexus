@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT03743740",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed with MG by a neurologist",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged between18-65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stage II or III according to the Clinical Classification of the Medialia Gravis Functional Assessment (MGFA)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mini Mental Test score over 24",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Volunteer to participate in the study",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cognitive problem and Mini Mental Test score below 24",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Myasthenic crisis in the last month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Modification of medical treatment and dose in the last month",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Systemic, orthopedic and neurological disease in addition to the disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in physiotherapy program in the last six months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently experiencing progressive lower extremity weakness and urinary retention.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03743740",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

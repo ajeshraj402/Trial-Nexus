@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04816396",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "mental_health",
+      "label": "not_met",
+      "evidence": "no mention of alzheimer schizophrenia or similar mental health problems"
+    },
+    {
+      "criterion": "residence",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "willingness_to_leave_work",
+      "label": "not_met",
+      "evidence": "no mention of willingness to leave work voluntarily"
+    },
+    {
+      "criterion": "interview_attendance",
+      "label": "met",
+      "evidence": "no mention of not attending at least 3 interviews"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone, confirmed by increased uptake of radioactive substance and urinary pyridinoline. Starting Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT04816396",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

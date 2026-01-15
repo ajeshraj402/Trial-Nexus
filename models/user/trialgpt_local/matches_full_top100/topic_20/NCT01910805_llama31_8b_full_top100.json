@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01910805",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Have gestational diabetes during current or most recent pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Be less than 3 months postpartum",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age between >=18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preconception BMI <45",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Singleton pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Self-identified Black/African-American race/ethnicity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Speak English",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Preexisting diabetes or diabetes diagnosed at the 6 week 75 gram oral glucose tolerance test.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI >=45.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Multiple gestation (i.e. twins, triplets, etc.)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, gradual enlargement of hands and feet, irregular menstrual cycle, nipple discharge, snoring, headache, facial features of acromegaly and prognathism. Laboratory evaluation reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT01910805",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

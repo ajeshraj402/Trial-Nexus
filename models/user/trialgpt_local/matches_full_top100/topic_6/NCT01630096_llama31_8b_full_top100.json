@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01630096",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "18 years old or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "male or female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "testing positive for c. diff",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Less than 18 yrs of age",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Mentally handicapped",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Those sick enough to require surgery at diagnosis shall not be enrolled, as they should be operated at that point.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients in whom severe ileus or suspected small bowel obstruction is present.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Interventions- Nu-Lytely or Go-Lytely (polyethylene glycol 3350) will be administered to the study patients.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Because the PEG solution can be dehydrating to a degree, the investigators will plan to give a 500 mL IV bolus of saline with the start of the bowel prep to prevent this from being an issue.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of 2 prior C diff infections and recent antibx use. Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01630096",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03580941",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to ICU with hypertensive disorder associated with pregnancy and/or sepsis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancy related thrombotic microangiopathy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "non-pregnant women",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03580941",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

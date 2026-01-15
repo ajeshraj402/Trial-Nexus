@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03012178",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 years and older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Undergoing lone mitral valve surgery for chronic primary mitral regurgitation within 30 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Indication for mitral valve surgery is a class I or IIa according to the 2014 ACC/AHA guidelines for the management of valvular heart disease.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Secondary mitral regurgitation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have a device which is not compatible with MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Claustrophobia preventing MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concomitant CABG, other valve surgery, or other cardiac surgery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Atrial fibrillation or other substantial arrhythmia that would substantially degrade MRI image acquisition.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and severe mitral valve prolapse with regurgitation, but is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03012178",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

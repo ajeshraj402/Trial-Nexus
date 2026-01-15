@@ -1,0 +1,120 @@
+{
+  "trial_id": "NCT00887146",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "United States (US) and Canadian sites",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Willingness to submit tissue samples for mandatory central pathology review submission",
+      "label": "unknown",
+      "evidence": "Patient text does not mention willingness to submit tissue samples."
+    },
+    {
+      "criterion": "Tissue must have been determined to have local 1p/9q co-deletion and IDH mutation prior to submission for central path review",
+      "label": "not_met",
+      "evidence": "Patient text does not mention 1p/9q co-deletion or IDH mutation."
+    },
+    {
+      "criterion": "Tumor tissue must show co-deletion of chromosomes 1p and 19q",
+      "label": "unknown",
+      "evidence": "Patient text mentions tumor in the T-L spine, but does not mention co-deletion of chromosomes 1p and 19q."
+    },
+    {
+      "criterion": "Tumor must also show evidence of IDH mutation by immunohistochemistry or genomic analyses",
+      "label": "unknown",
+      "evidence": "Patient text mentions tumor in the T-L spine, but does not mention IDH mutation."
+    },
+    {
+      "criterion": "Newly diagnosed and =< 3 months from surgical diagnosis",
+      "label": "met",
+      "evidence": "Patient text mentions history of anaplastic astrocytoma s/p radiation, which suggests a recent diagnosis."
+    },
+    {
+      "criterion": "Histological evidence of World Health Organization (WHO) grade III anaplastic glioma or WHO grade II low grade glioma with locally diagnosed combined 1p/19q loss and the presence of an either IDH1 or IDH2",
+      "label": "unknown",
+      "evidence": "Patient text mentions tumor in the T-L spine, but does not mention histological evidence of WHO grade III anaplastic glioma or WHO grade II low grade glioma."
+    },
+    {
+      "criterion": "Age >= 40 and any surgical therapy",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man with history of surgery for anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1,500/mm^3 obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention ANC or recent blood work."
+    },
+    {
+      "criterion": "Platelet (PLTs) count >= 100,000/mm^3 obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention PLT count or recent blood work."
+    },
+    {
+      "criterion": "Hemoglobin (Hgb) > 9.0 g/dL obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention Hgb or recent blood work."
+    },
+    {
+      "criterion": "Total bilirubin =< 1.5 x institutional upper limit of normal (ULN) obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention total bilirubin or recent blood work."
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) =< 3 x ULN obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention SGOT or recent blood work."
+    },
+    {
+      "criterion": "Creatinine =< 1.5 x ULN obtained =< 21 days prior to registration",
+      "label": "unknown",
+      "evidence": "Patient text does not mention creatinine or recent blood work."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of prior radiation therapy or chemotherapy for glioma",
+      "label": "triggers",
+      "evidence": "Patient text mentions history of anaplastic astrocytoma s/p radiation."
+    },
+    {
+      "criterion": "Co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of safety and toxicity of the prescribed regimens",
+      "label": "unknown",
+      "evidence": "Patient text mentions history of anaplastic astrocytoma s/p radiation, but does not mention co-morbid systemic illnesses."
+    },
+    {
+      "criterion": "Concomitant serious immunocompromised status (other than that related to concomitant steroids) that would compromise the safety of the patient on the study",
+      "label": "unknown",
+      "evidence": "Patient text does not mention immunocompromised status."
+    },
+    {
+      "criterion": "Patients known to be human immunodeficiency virus (HIV) positive and currently receiving retroviral therapy are not eligible; note: patients known to be HIV positive, but without clinical evidence of an immunocompromised state, are eligible for the study",
+      "label": "unknown",
+      "evidence": "Patient text does not mention HIV status."
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+      "label": "unknown",
+      "evidence": "Patient text mentions history of anaplastic astrocytoma s/p radiation, but does not mention uncontrolled intercurrent illness."
+    },
+    {
+      "criterion": "Receiving any other investigational agent that would be considered as a treatment for the primary neoplasm",
+      "label": "unknown",
+      "evidence": "Patient text does not mention receiving any other investigational agents."
+    }
+  ],
+  "notes": "Key unknowns include patient's willingness to submit tissue samples, histological evidence of WHO grade III anaplastic glioma or WHO grade II low grade glioma, and recent blood work results. Additionally, the patient has a history of radiation therapy for glioma, which may trigger exclusion criteria.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00887146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

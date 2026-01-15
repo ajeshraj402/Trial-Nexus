@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04052984",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Controlled pregnancies",
+      "label": "met",
+      "evidence": "The mother had a normal pregnancy with no complication."
+    },
+    {
+      "criterion": "Pregnancies not complicated",
+      "label": "met",
+      "evidence": "The mother had a normal pregnancy with no complication."
+    },
+    {
+      "criterion": "Single product",
+      "label": "met",
+      "evidence": "The baby boy is a first child"
+    },
+    {
+      "criterion": "Signed the informed consent to participate in the protocol",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Product obtained by caesarean section",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who did not wish to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Infants with prenatally suspected or diagnosticated congenital defects",
+      "label": "not_met",
+      "evidence": "The diagnostic laparoscopy showed an abdominal undescended testis."
+    },
+    {
+      "criterion": "Multiple pregnancy",
+      "label": "met",
+      "evidence": "The baby boy is a first child"
+    },
+    {
+      "criterion": "Cases requesting to collect umbilical cord blood for storage in a cord cell bank",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Vaginal delivery",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, no developmental delay. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT04052984",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

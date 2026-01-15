@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03395756",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "midluteal phase of their cycle, and will be enrolled if a serum progesterone level is >3ng/ml.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Healthy women of reproductive age (18-39 years old) with BMI 18-30 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Regular menses for the last 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cycle duration 24 to 35 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English- or Spanish-speaking",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any contraindications to progesterone contraception per teh CDC Medical Eligibility Criteria (Category 3 or 4)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On medications that can alter, or be altered by, progesterone contraceptive steroid hormone (e.g., aminoglutethimide or other anti-steroid medication)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has myasthenia gravis and takes pyridostigmine, but this does not appear to be a contraindication for progesterone contraception. She also has hypertension in her father, but this is not a direct exclusion criterion.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT03395756",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

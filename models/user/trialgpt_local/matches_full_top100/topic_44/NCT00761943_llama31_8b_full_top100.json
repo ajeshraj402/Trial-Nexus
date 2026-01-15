@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00761943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age range of 18 to 80",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical diagnosis of Adhesive Capsulitis of the shoulder.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous shoulder surgery.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Secondary Adhesive Capsulitis related to trauma, surgery or other known causes.",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT00761943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

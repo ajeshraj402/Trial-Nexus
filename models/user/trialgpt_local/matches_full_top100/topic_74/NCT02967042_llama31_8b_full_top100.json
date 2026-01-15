@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02967042",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Paget's Disease of Bone",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bisphosphonate will be started as first-line therapy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Parathyroidectomy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Biphosphonate-medication",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone and will be treated with Bisphosphonates. Exclusion criteria include pregnancy, parathyroidectomy, and biphosphonate medication.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02967042",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

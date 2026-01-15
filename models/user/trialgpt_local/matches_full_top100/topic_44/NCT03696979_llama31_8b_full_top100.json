@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03696979",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "between 25-65 years old"
+    },
+    {
+      "criterion": "low_back_pain_duration",
+      "label": "met",
+      "evidence": "for at least 12 weeks"
+    },
+    {
+      "criterion": "physical_therapy",
+      "label": "met",
+      "evidence": "in the last 1 month"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "stem_pressure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe_discopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "compression_fracture",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for surgery according to perioperative MEP monitoring",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03696979",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

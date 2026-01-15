@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01011426",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obstetrical and gynecological patients",
+      "label": "met",
+      "evidence": "patient has had C/sections"
+    },
+    {
+      "criterion": "undergoing abdominal surgery",
+      "label": "met",
+      "evidence": "surgery consultation recommends elective cholecystectomy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bowel resection",
+      "label": "not_met",
+      "evidence": "no mention of bowel resection"
+    },
+    {
+      "criterion": "nasogastric tube for bowel decompression",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "allergic to Bisacodyl",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "mechanical bowel obstruction undergoing bowel resection",
+      "label": "not_met",
+      "evidence": "no mention of mechanical bowel obstruction"
+    }
+  ],
+  "notes": "45-year-old woman with abdominal pain, nausea, and vomiting. Ultrasound revealed gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01011426",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

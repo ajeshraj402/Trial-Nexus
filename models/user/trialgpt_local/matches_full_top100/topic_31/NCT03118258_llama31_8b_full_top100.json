@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03118258",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "37-year-old woman"
+    },
+    {
+      "criterion": "program",
+      "label": "met",
+      "evidence": "Doctors of the World programs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hysterectomy",
+      "label": "not_met",
+      "evidence": "tubal ligation"
+    },
+    {
+      "criterion": "sexual_history",
+      "label": "unknown",
+      "evidence": "three sexual partners and four children"
+    },
+    {
+      "criterion": "pap_smear_frequency",
+      "label": "met",
+      "evidence": "came to the clinic for a routine Pap smear"
+    }
+  ],
+  "notes": "Patient has cervical cancer, tested positive for HPV 16, smokes heavily and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT03118258",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

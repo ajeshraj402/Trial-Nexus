@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01101750",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "9-17"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "transplant",
+      "label": "met",
+      "evidence": "liver or kidney transplant"
+    },
+    {
+      "criterion": "immunosuppressant_dose",
+      "label": "met",
+      "evidence": "stable doses for greater than 6 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vaccination",
+      "label": "not_met",
+      "evidence": "no mention of Gardasil or Cervarix"
+    },
+    {
+      "criterion": "allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hiv_or_cancer",
+      "label": "not_met",
+      "evidence": "no diagnosis mentioned"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "met",
+      "evidence": "negative beta hcg test"
+    },
+    {
+      "criterion": "blood_transfusion",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, on acetylcholinesterase inhibitor treatment combined with immunosuppressants.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT01101750",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

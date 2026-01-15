@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03208309",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinical symptoms of type 2 diabetes between 6 months to 10 years of disease, according to the diagnostic criteria.",
+      "label": "met"
+    },
+    {
+      "criterion": "Diabetes mellitus type 2 between 6 months to 10 years of disease",
+      "label": "met"
+    },
+    {
+      "criterion": "Body mass index between 25 and 35 kg/m2",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Fasting glucose between 120 and 250 mg / dL",
+      "label": "met"
+    },
+    {
+      "criterion": "Glycated Hb A1c greater than 7,5 % and taking metformin (dose above 1700 mg / day), with or without other secretagogue",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Male or female (not pregnant), who present clinical symptoms of type 2 diabetes between 6 months to 10 years of disease, according to the diagnostic criteria.",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "T2DM with chronic complications that already have clinical consequences, serum creatinine greater than 1.5 mg/dl, history of heart disease and severe concomitant diseases such as liver, coronary artery, renal, with severe psychiatric or neurological disorders.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients with a history of abuse of alcohol and / or illegal drugs or psychotropic medicines in the past six months",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Hypersensitivity to any of the components of the of study drug formulation.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with DM1, DM2 using insulin and other types of diabetes",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03208309",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

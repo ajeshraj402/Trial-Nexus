@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01311102",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient is a woman"
+    },
+    {
+      "criterion": "willingness_to_give_consent",
+      "label": "met",
+      "evidence": "patient is willing to give consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy_to_lidocaine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindications_to_iud_use",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia and two C/sections, but these do not appear to be contraindications for IUD use. The patient's symptoms suggest gallstones, which may require elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01311102",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

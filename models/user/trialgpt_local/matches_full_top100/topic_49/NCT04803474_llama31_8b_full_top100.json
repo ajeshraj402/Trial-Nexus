@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04803474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Klinefelter or Turner syndrome as confirmed by genetic testing",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X"
+    },
+    {
+      "criterion": "Sufficient knowledge of the Dutch language to complete the questionnaires",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "At least 18 years old",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "KS: Patients not under treatment in the EMC, AMC or VUmc or no planned visits during the study period",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "TS: No laboratory values or no questionnaires available in patient records",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe psychiatric or neurologic disorders or other reasons for inability to complete the questionnaires as assessed by the treating physician.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Failure to obtain informed consent",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "12 year old girl with Turner syndrome, obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04803474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

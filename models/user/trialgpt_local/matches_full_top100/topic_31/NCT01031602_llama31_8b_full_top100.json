@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT01031602",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women seen at the Gynecologic Oncology Clinic at the Lyndon Baines Johnson General Hospital.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The women must be able to read and write either English or Spanish.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women who are unable to complete the questionnaires.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has cervical cancer and smokes heavily, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01031602",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

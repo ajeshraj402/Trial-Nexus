@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01554488",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "American Veterans",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "age 18 and above",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosis of asthma and COPD per guidelines",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "for asthma, persistent symptoms per guidelines",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "for asthma, a pre-bronchodilator FEV1 55-90% and DLCO 80% predicted",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "for COPD, a post-bronchodilator ratio of FEV1/FVC 70% and FEV1 50%",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "overall smoking history of <10 pack-years for asthma and 10 pack-years for COPD",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "any use of inhaled corticosteroid for >2 weeks at a time during the last 6 months, or",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "as needed use of nasal steroids in the prior 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "select medications",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "recent exacerbation requiring oral or systemic steroids in the past 6 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed vocal cords dysfunction",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "other lung diseases (lung cancer, sarcoidosis, tuberculosis, lung fibrosis) or known",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "1-antitrypsin deficiency",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant or actively unstable medical or psychiatric illnesses",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of COPD and asthma, but also uses inhaled corticosteroids. They have had recent exacerbations requiring oral steroids.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01554488",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

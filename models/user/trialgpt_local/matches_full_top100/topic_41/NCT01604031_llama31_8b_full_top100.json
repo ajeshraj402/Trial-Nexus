@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01604031",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with B-CLL (not in Richter's transformation) with measurable disease.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Procurement consent signed and faxed to Research Coordinator",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV negative (can be pending at this time)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Infected at time of protocol entry, or receiving antibiotics (other than prophylactic trimethoprim sulfamethoxazole).",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of hypertension and hypercholesterolemia, but these conditions do not appear to be relevant to the trial. The patient's age (57) is below the maximum allowed (75), so this criterion is met.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT01604031",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

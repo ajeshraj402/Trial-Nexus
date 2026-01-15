@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00362180",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Group A",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Group D",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Group E",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Medical, surgical, laboratory or other conditions which in the judgment of the Physician Investigator would make the subject unsuitable for enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "potentially interfere with subject participation or completion of the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and cardiomyopathy, but is otherwise healthy.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT00362180",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

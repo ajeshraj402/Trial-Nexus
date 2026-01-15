@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02815761",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subjects with a diagnosis of COPD according to the Global Initiative for chronic Obstructive Lung Disease (GOLD) Guideline16 with previous spirometry showing FEV1/FVC ratio of <0.70 with an AECOPD will be recruited for this study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226540 years",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subjects who have been diagnosed with asthma, bronchiectasis or other chronic lung disease apart from COPD will be excluded",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with history of lung resection",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has COPD and is over 40 years old. No asthma or other chronic lung disease apart from COPD, and no history of lung resection.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02815761",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01819519",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women lacking evidence of acute CMV infection",
+      "label": "met",
+      "evidence": "negative IgM antibody (<1.00 Index) and negative IgG antibody (<6.0 AU/ml)"
+    },
+    {
+      "criterion": "Gestational age during CMV screening will be no later than 20 weeks based on clinical information and evaluation of the earliest ultrasound.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Enrollment will occur no later than 20 weeks' gestation.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Singleton pregnancy. A twin pregnancy reduced to singleton (either spontaneously or therapeutically) before 20 weeks' by project gestational age is acceptable.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English and Spanish-speaking women of any age will be offered enrollment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Planned termination of pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Women with a previous child with congenital CMV",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intention of leaving the prenatal practice",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known major fetal anomalies or demise",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Multiple gestation",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age. BP of 146/99 and urine dipstick with 3+ proteins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT01819519",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

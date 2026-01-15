@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03647631",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Thickness greater than or equal to 5mm",
+      "label": "met",
+      "evidence": "laboratory evaluation"
+    },
+    {
+      "criterion": "mitoses per 10 high-power field greater than or equal to 7",
+      "label": "met",
+      "evidence": "histopathology"
+    },
+    {
+      "criterion": "Immunohistochemical (IHC) analysis positive for carcinoembryonic antigen (CEA)",
+      "label": "met",
+      "evidence": "laboratory evaluation"
+    },
+    {
+      "criterion": "cytokeratin (CK) 5,7 and epithelial membrane antigen (EMA).",
+      "label": "met",
+      "evidence": "laboratory evaluation"
+    },
+    {
+      "criterion": "Informed consent obtained for the SNLB procedure.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [],
+  "notes": "Patient has a history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT03647631",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00701818",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years old",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptoms suggestive of an acute ischemic stroke",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Present intracerebral or subarachnoid haemorrhage",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior coronary bypass surgery or percutaneous coronary intervention",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass, presenting with fevers/rigors and bandemia. Biopsy results consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00701818",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

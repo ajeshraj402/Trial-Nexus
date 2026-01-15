@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04317222",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "be enrolled",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pre transplant liver failure: Total bilirubin over 171\u03bcmol/L and prothrombin activity (PTA)<40%;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Overt hepatic encephalopathy(HE): Grade II or higher HE according West Haven classification;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HE associated with acute liver failure (Type A) or cirrhosis complicated with portal hypertension and/or portal systemic shunts (Type C)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with a previous history of kidney-related diseases and glomerular filtration rate <30 millilitre per minute;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with acute renal failure need CRRT before transplantation;",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Retransplantation or multiple-organs transplantation;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine. The genetic survey revealed ADAMTS13 >10%. He was treated with plasma exchange and corticosteroids.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04317222",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

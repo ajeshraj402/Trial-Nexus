@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "lymphedema_stage",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "upper_or_lower_extremity_lymphedema",
+      "label": "met",
+      "evidence": "Upper or lower extremity lymphedema"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "41 year man"
+    },
+    {
+      "criterion": "phone_calls_acceptance",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has itchy foot with localized scaling and maceration, confirmed Tinea pedis infection.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01732107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed early stage urothelial carcinoma of the bladder defined as Ta, T1, or Tis stage.",
+      "label": "met",
+      "evidence": "Transbronchial biopsy revealed necrotic granulomas with multinucleated giant cells and the Wegener's granulomatosis was diagnosed for him."
+    },
+    {
+      "criterion": "Presence of either an FGFR3 mutation or FGFR3 over-expression within bladder tumor tissue.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Documented BCG-refractory disease defined as failure to achieve a tumor free state after at least 2 prior induction courses of intravesical BCG therapy.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Medically unfit to undergo cystectomy or electively choosing to forego cystectomy",
+      "label": "met",
+      "evidence": "He is treating with corticosteroid and cyclophosphamides since 4 months ago. His Birmingham Vasculitis Activity Score (BVAS) is above 4 since the beginning of his disease."
+    },
+    {
+      "criterion": "Patients who give a written informed consent obtained according to local guidelines",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with muscle-invasive (i.e. T2, T3, T4), locally advanced non-resectable, or metastatic urothelial carcinoma as assessed on baseline radiographic imaging obtained within 28 days prior to study registration.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with concurrent upper urinary tract (i.e. ureter, renal pelvis) non-invasive urothelial carcinoma.",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with another primary malignancy within 3 years prior to starting study drug, with the exception of adequately treated in-situ carcinoma of the uterine cervix, clinically localized prostate cancer, biochemically relapsed non-metastatic prostate cancer (i.e., PSA only disease), or skin cancer (such as basal cell carcinoma, squamous cell carcinoma, or non-melanomatous skin cancer)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who have received the last administration of an anti-cancer therapy including chemotherapy, immunotherapy, and monoclonal antibodies \u2264 4 weeks prior to starting study drug, or who have not recovered from the side effects of such therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who have received prior VEGFR-targeted or FGFR-targeted agents (i.e., sunitinib, pazopanib, sorafenib, bevacizumab, axitinib, etc.).",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients who have had radiotherapy \u2264 4 weeks prior to starting study drug, or who have not recovered from radiotherapy toxicities",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 57-year-old man with Wegener's granulomatosis, being treated with corticosteroid and cyclophosphamides.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01732107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00995696",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "new prescription for antidepressant",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving care at Nationwide Children's Hospital or Community Physician Practices affiliated with Nationwide Children's Hospital",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "families who speak do not speak English",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "families with children who are actively psychotic",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has several gallstones and biliary sludge, but surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT00995696",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

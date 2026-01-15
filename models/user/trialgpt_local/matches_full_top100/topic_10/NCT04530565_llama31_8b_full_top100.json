@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT04530565",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient must be newly diagnosed with B-ALL or is suspected to have ALL",
+      "label": "met"
+    },
+    {
+      "criterion": "Patient must have BCR-ABL1 positive disease. The diagnosis of ALL and the presence of BCR-ABL translocation must be confirmed centrally.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Bone marrow and/or peripheral blood specimen must be submitted to the Eastern Cooperative Oncology Group-American College of Radiology Imaging Network (ECOG-ACRIN) Leukemia Laboratory at MD Anderson Cancer Center to determine patient's eligibility for registration to Step 1 or confirm patient evaluability.",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Total bilirubin =< 3 mg/dL (unless related to Gilbert's syndrome in which case total bilirubin must be =< 5 mg/dL)",
+      "label": "met"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) (serum glutamic-oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT]) =< 2.5 X the institutional upper limit of normal (ULN)",
+      "label": "met"
+    },
+    {
+      "criterion": "Estimated creatinine clearance > 45 mg/min (based on Cockcroft-Gault equation)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with acute organ dysfunction at registration, which may be attributed to leukemia can be registered regardless of lab results at presentation.",
+      "label": "met"
+    },
+    {
+      "criterion": "Human immunodeficiency virus (HIV)-infected patients on effective anti-retroviral therapy with undetectable viral load within 6 months are eligible for this trial",
+      "label": "unknown"
+    },
+    {
+      "criterion": "For patients with evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable or on suppressive therapy, if indicated",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Patients with a history of hepatitis C virus (HCV) infection must have an undetectable HCV viral load and if indicated, on treatment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "The diagnosis of Philadelphia chromosome positive (Ph+) ALL has been determined locally, and bone marrow and/or peripheral blood was sent for central confirmation or determined centrally by the ECOG-ACRIN Leukemia Laboratory at MD Anderson Cancer Center",
+      "label": "met"
+    },
+    {
+      "criterion": "Patients who started any kind of TKI prior to study registration are allowed to proceed on the study if they received no more than 14 days of TKI",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient must not have received chemotherapy for B-ALL. Patients who received up to five days of hydroxyurea or steroids of any kind with the aim to reduce disease burden prior to study registration are eligible",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patient must not have unstable epilepsy that requires treatment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Women must not be pregnant or breast-feeding due to the potential harm to an unborn fetus and possible risk for adverse events in nursing infants with the treatment regimens being used.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis, presenting with flushing and tachycardia concerning for another flare. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04530565",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

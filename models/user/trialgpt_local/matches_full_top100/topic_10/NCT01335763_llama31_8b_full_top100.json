@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01335763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "Type 2 diabetes for at least 6 months",
+      "label": "met",
+      "evidence": "5 yr history of systemic mastocytosis"
+    },
+    {
+      "criterion": "Taking 1 or more oral hypoglycemic agents",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patient attending your community pharmacy where you decided that addition of insulin glargine may be of benefit to the patient",
+      "label": "met",
+      "evidence": "Pt is a 22yo F otherwise healthy..."
+    },
+    {
+      "criterion": "Baseline HbA1c 7.5 - 11%",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have used, or currently using, Insulin",
+      "label": "not_met",
+      "evidence": "Pt failed aspirin challenge due to adverse reaction"
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Works night shift",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal impairment(Serum Creatinine: females \u2265 124 mmol/l, males \u2265 133 mmol/l)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Clinically unstable",
+      "label": "not_met",
+      "evidence": "Pt responded well to 125 mg IV steroids q 8 hrs..."
+    },
+    {
+      "criterion": "Unwilling/unable to attend follow up visits",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unlikely to adhere to study procedures (eg. due to cognitive limitations, severe psychiatric disorder or alcoholism)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Pt is a 22yo F otherwise healthy with a 5 yr history of systemic mastocytosis... She was stabilized on IV steroids and IV benadryl...",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT01335763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01665755",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cardiac Arrest patients who received eith CPR and/or defibrillation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ventricular Fibrillation or Pulseless Ventricular Tachycardia",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients pronounced dead without attempting CPR according to standard operating procedure and ILCOR guidelines",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cardiac arrest obviously caused by major trauma",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children below age 21",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients who are pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT01665755",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

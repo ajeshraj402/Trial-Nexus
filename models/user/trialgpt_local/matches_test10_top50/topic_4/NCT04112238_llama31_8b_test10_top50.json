@@ -1,0 +1,85 @@
+{
+  "trial_id": "NCT04112238",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Verified or suspected primary CNS lymphoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient must consent to genetic and metabolomic analysis of their cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previously diagnosed histologically documented DLBCL",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Verified relapsed DLBCL",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "\u2265 1 prior DLBCL treatments",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment of the relapse not initiated (except pretreatment with corticosteroids)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Being able to undergo standard assessment ( eg, Fluorine-18 fluorodeoxyglucose positron emission tomography (18F-FDG-PET), MRI of the neuroaxis and bone marrow biopsy)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tumor biopsy and/or bone-marrow biopsy used for diagnosis available",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of a CNS mass creating mass-effect or midline shift such that lumbar puncture is contraindicated",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other contraindications to lumbar puncture according to local guidelines",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other previous or current hematological malignancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known HIV infection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of PCOS, Obesity, HTN and was diagnosed with Burkitt's lymphoma. They underwent pericardiocentesis and lumbar puncture/bone marrow biopsy which were negative for involvement.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04112238",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

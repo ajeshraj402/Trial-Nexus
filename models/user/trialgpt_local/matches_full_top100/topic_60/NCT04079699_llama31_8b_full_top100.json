@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04079699",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Suspicion of prostate cancer due to elevated PSA, and/or palpable tumor in the prostate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Indication for digital rectal examination and trans-rectal ultrasound with biopsy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age: 70 years or above",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PSA: 20 or above",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide informed written consent (competent adults only)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previously diagnosed with prostate cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Receiving treatment influencing PSA levels",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Medical conditions that may interfere with the study such as previously cancer-related therapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Life expectancy of less than 10 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI of the prostate within the last 2 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Digital rectal examination of the prostate within 24 hours or ejaculation within 24 hours",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and elevated PSA level, making him a candidate for urethral catheterization and TURP.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04079699",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

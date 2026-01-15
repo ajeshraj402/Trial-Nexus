@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03045107",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient diagnosed with a solitary benign or malignant neoplasm localized in the right",
+      "label": "met",
+      "evidence": "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    },
+    {
+      "criterion": "Patients aged 18 years or older",
+      "label": "met",
+      "evidence": "The patient is a 31-year-old woman"
+    },
+    {
+      "criterion": "Patients who give written informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "acute intestinal obstruction",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "colon perforation;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver and/or lung metastases;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multiple primary colonic tumors;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "scheduled need for synchronous intra-abdominal surgery;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "preoperative evidence of invasion of adjacent structures, as assessed by CT or ultrasonography;",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous ipsilateral colon surgery.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has abdominal pain and leukocytosis. Computed Tomography of the abdomen with contrast shows a distended appendix.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03045107",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

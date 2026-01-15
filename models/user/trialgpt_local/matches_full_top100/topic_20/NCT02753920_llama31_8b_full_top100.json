@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02753920",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women undergoing vaginal apex surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with or without mid-urethral sling",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "with or without anterior or posterior colporrhaphy",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who underwent a surgery that requires long term catheterization",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who sustained a cystotomy during surgery as our divisional protocol is to send these patients home with a Foley catheter for 5-14 days without a voiding trial",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with baseline urinary retention and the inability to urinate without catheterization",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of acne, hirsutism, and mild irregularity in menstrual cycle. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT02753920",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

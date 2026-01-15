@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00056433",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients must have documented hemoglobin S-only, S-beta-thalassemia, or other sickle cell disease genotype.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must have relatively well preserved renal and hepatic function (creatinine less than 1.6 mg/dl and normal liver function test less than 5 X normal ALT).",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of severe sickle cell anemia will include one or more of the following: recurrent pain crisis (greater than or equal to 2 ER visits per year), recurrent acute chest syndrome (a lung problem like pneumonia), hospitalizations, leg ulceration, priapism, aseptic necrosis of the hip, and/or pulmonary hypertension.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must be able to provide informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who have hemoglobin S and A (trait) or hemoglobin A-only (non-sickle cell).",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must not be on a chronic transfusion program, defined as regular transfusions every 2-8 weeks.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must not be pregnant or breast feeding.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients on chronic nitrates, such as nitroglycerin.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT00056433",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03740906",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "voluntarily signed the informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u226518 years of age on day of signing informed consent form",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "chronic HCV infection",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "report of recent injecting drug use (within the previous 6 months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "eligible for DAA therapy as per the PBS",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "unable or unwilling to provide informed consent or abide by the requirements of the study",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "alcoholic liver disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on IFN plus RBV combination therapy. He is also on direct antiviral drugs.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03740906",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

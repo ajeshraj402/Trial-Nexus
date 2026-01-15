@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT02130778",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Participant is \u226518 and \u226470 years of age on day of signing informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Participant is a male, or a female who is unlikely to conceive",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of myocardial infarction, cerebrovascular accident or transient ischemic attack",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Current febrile state",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02130778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

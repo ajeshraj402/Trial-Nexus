@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01350453",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical diagnosis of ischaemic or haemorrhagic stroke affecting either right or left upper limb",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Either: a) Able to transfer safely between toilet, chair and standing and able to walk safely at home wearing the C-MIT with or without the use of a walking aid or b) primarily a wheelchair user having help or supervision to transfer and walk",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Mini-mental score >23",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Minimum of 10 degrees of active wrist extension measured by a hand held goniometer",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Discharged home from hospital (not institutional care)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Access to internet at home",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major medical problems that could interfere with participation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe pain of the hemiparetic shoulder, arm or hand either at rest or during movement.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "People for whom communication problems prevent effective use of the system, will be excluded unless they have a carer who can support them effectively.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of ESRD on HD and peritoneal dialysis, but no major medical problems that could interfere with participation. No severe pain reported.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01350453",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

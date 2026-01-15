@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04559620",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mother",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Commitment to finish all questionnaires and to participate in the creation of a CD to be played to her baby.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Older than 18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Infant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gestational age between 26 0/7 and 30 6/7 weeks",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mother",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Younger than 18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Infant",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has myasthenia gravis, class IIa. She still experiences symptoms despite treatment with pyridostigmine.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT04559620",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

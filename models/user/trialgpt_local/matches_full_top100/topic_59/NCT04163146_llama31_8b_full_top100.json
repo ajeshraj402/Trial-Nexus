@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04163146",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "15-year-old boy"
+    },
+    {
+      "criterion": "Asthma diagnosis",
+      "label": "met",
+      "evidence": "diagnosed a year ago"
+    },
+    {
+      "criterion": "Normal baseline spirometry",
+      "label": "met",
+      "evidence": "Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted"
+    },
+    {
+      "criterion": "Smartphone possession with internet connection",
+      "label": "met",
+      "evidence": "He used to be treated with combination of inhaled corticosteroids and Zafirlukast"
+    },
+    {
+      "criterion": "Informed written consent",
+      "label": "met",
+      "evidence": "A candidate for general corticosteroid therapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major respiratory events or health-related events",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cohort B. Children and adolescents with asthma",
+      "label": "triggers",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of asthma, but no recent exacerbations or hospitalizations mentioned.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04163146",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

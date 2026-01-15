@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02476396",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid endarterectomy for established clinical criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male or Female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "English speaking",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients must sign written informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of carotid artery surgery (endovascular or open)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous cervical radiation",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients not felt be suitable for carotid endarterectomy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with impaired consent capacity",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery. He is physically active and has no other cardiovascular risk factors.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02476396",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04763382",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "volunteering to participate in the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "being literate",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "being 18 years old and above",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having mental confusion or any psychiatric problem caregiver",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 62-year-old male with multiple comorbidities, including neurogenic bladder and recurrent UTIs. He has a non-obstructing stone in the L ureter and significant leaking around the suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT04763382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT01890694",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Screening within 24 hours of admission",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Na level less than 130mEq/L",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of fluid overload with either history of ascites or edema",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cr < 2.0mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned length of stay after randomization of at least 24 hours",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Anticipated survival of at least 8 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hospitalization greater than 24 hours at screening",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Depletional hyponatremia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyponatremia due to hyperglycemia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute and transient hyponatremia associated with head trauma or post-operative states",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyponatremia due to primary polydipsia, adrenal insufficiency, or hypothyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Urgent need for treatment of hyponatremia with saline or hypertonic saline",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment with demeclocycline, lithium chloride, and urea",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cr greater than 2.0mg/dl",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has severe diarrhea with profuse watery stool, low blood pressure, and reduced skin turgor. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT01890694",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

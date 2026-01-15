@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03159091",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is randomized to one of 2 groups: group 1 patients will receive Rengalin at 2 tablets 3 times a day for 4 weeks; group 2 patients will receive placebo using Rengalin dosing regimen for 4 weeks.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient is monitored for 4 weeks (screening, randomization - before day 1, treatment 4 weeks).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "At Visit 2 (after 4-week treatment period) compliance will be additionally assessed.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients of both sexes aged from 40 to 80 years old.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "COPD diagnosed (in accordance with the GOLD-2014 guidelines) \u226512 months before.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Stable course of COPD (\u2265 6 weeks free of disease progression).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mild, moderate or severe degree of bronchial obstruction (FEV1/FVC < 0.7; post-bronchodilator FEV1 \u226530% of predicted value).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CSS score \u22652.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Stable dose of standard therapy within the preceding 4 weeks.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Use of and adherence to contraceptive methods by fertile-age patients of both sexes during the study.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Availability of a signed patient information sheet (Informed Consent form) for participation in the trial.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Earlier diagnosis of intra- or extrathoracic causes of cough (e.g., asthma, malignant neoplasm of lung, tuberculosis, sarcoidosis, \u03b11-antitrypsin deficiency, bronchiectasis, cystic fibrosis, interstitial pulmonary diseases, perennial allergic rhinitis, gastro-oesophageal reflux disease, use of ACE inhibitors, disease of upper respiratory tract, etc.).",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Cough associated with eating.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has COPD and meets several inclusion criteria, but the cough is not associated with eating.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03159091",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

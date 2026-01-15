@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04345042",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neck pain complaint persists for at least 3 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pain: visual analog scale (VAS) was used to detect the patients pain intensity",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "included in the physiotherapy and rehabilitation program due to NP in the last 6 months",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "having a diagnosis of vertebrobasilar artery failure, being diagnosed with cervical stenosis",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has neck pain complaint for at least 3 months and is undergoing physiotherapy due to NP in the last 6 months. However, they have a diagnosis of vertebrobasilar artery failure and cervical stenosis which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04345042",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04568005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary or secondary lymphedema patients with stage I,II,II stage",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged over 18 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Upper or lower extremity lymphedema",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who do not accept phone calls",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs.",
+  "_meta": {
+    "topic_id": "38",
+    "trial_id": "NCT04568005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

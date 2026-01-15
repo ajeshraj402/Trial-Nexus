@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01220362",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Open kidney surgery with lumbotomy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Thoracic epidural analgesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) < 7",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Preoperative residual urine volume < 100ml",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindications to epidural analgesia or refusal",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Preoperative residual urine volume > 100ml",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "International Prostate Symptom Score (IPSS) > 7",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment. The patient's condition may impact their eligibility for the trial.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01220362",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

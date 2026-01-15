@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04599621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "established diagnosis",
+      "label": "met",
+      "evidence": "Wilson disease confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver)"
+    },
+    {
+      "criterion": "unstable angina pectoris",
+      "label": "not_met",
+      "evidence": "NS"
+    },
+    {
+      "criterion": "stable exertional angina",
+      "label": "met",
+      "evidence": "I-III FC"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patient's refusal to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy and lactation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe and unstable condition of the patient",
+      "label": "met",
+      "evidence": "jaundice, hepatosplenomegaly and hypotonia of the upper limbs"
+    },
+    {
+      "criterion": "acute violation of cerebral circulation",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of acute or chronic psychosis",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Wilson disease, which meets the inclusion criteria. However, there is no information about the patient's refusal to participate in the study or any severe and unstable condition that would make it difficult to conduct a questionnaire.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT04599621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

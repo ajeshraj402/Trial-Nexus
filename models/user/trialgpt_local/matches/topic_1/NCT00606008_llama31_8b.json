@@ -1,0 +1,115 @@
+{
+  "trial_id": "NCT00606008",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Resolution of all acute toxic effects of prior chemotherapy or radiotherapy or surgical procedures to NCI CTCAE Version 3.0 grade \u22641.",
+      "label": "not_met",
+      "evidence": "Patient has a history of anaplastic astrocytoma and has undergone radiation, but it's unclear if the acute toxic effects have resolved."
+    },
+    {
+      "criterion": "Adequate organ function as defined by the following criteria: Serum aspartate transaminase (AST; serum glutamic oxaloacetic transaminase [SGOT]) and serum alanine transaminase (ALT; serum glutamic pyruvic transaminase [SGPT]) \u22643 x local laboratory upper limit of normal (ULN), or AST and ALT \u22643 x ULN if liver function abnormalities are due to underlying malignancy",
+      "label": "unknown",
+      "evidence": "Patient's liver function is not mentioned."
+    },
+    {
+      "criterion": "Total serum bilirubin \u22641.5 x ULN",
+      "label": "unknown",
+      "evidence": "Patient's bilirubin level is not mentioned."
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) \u22651500/\u00b5L",
+      "label": "met",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Platelets \u2265100,000/\u00b5L",
+      "label": "unknown",
+      "evidence": "Patient's platelet count is not mentioned."
+    },
+    {
+      "criterion": "Hemoglobin \u22659.0 g/dL",
+      "label": "met",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Serum calcium \u226412.0 mg/dL",
+      "label": "unknown",
+      "evidence": "Patient's calcium level is not mentioned."
+    },
+    {
+      "criterion": "Serum creatinine \u22641.5 x ULN",
+      "label": "unknown",
+      "evidence": "Patient's creatinine level is not mentioned."
+    },
+    {
+      "criterion": "Patients must have histologically or neuroradiographically recurrent anaplastic astrocytoma (AA) or glioblastoma (GBM). Must have had prior pathologic confirmation of primary tumor histology.",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma."
+    },
+    {
+      "criterion": "Must be \u2265 18 years old.",
+      "label": "met",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Must have a Karnofsky performance status (KPS) \u2265 60%",
+      "label": "unknown",
+      "evidence": "Patient's KPS is not mentioned."
+    },
+    {
+      "criterion": "Measurable disease per MacDonald criteria required using contrast enhanced cranial MRI.",
+      "label": "met",
+      "evidence": "None"
+    },
+    {
+      "criterion": "Life expectancy \u2265 12 weeks.",
+      "label": "unknown",
+      "evidence": "Patient's life expectancy is not mentioned."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Major surgery or radiation therapy within 4 weeks of starting study treatment.",
+      "label": "does_not_trigger",
+      "evidence": "None"
+    },
+    {
+      "criterion": "NCI CTCAE grade 3 hemorrhage within 4 weeks of starting study treatment.",
+      "label": "unknown",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but it's unclear if they have had any recent hemorrhages."
+    },
+    {
+      "criterion": "History of or known spinal cord compression or carcinomatous meningitis, or evidence of leptomeningeal disease on screening CT or MRI scan.",
+      "label": "triggers",
+      "evidence": "Patient has a history of anaplastic astrocytoma and has undergone radiation, which may indicate spinal cord compression."
+    },
+    {
+      "criterion": "Any of the following within 6 months prior to study drug administration: myocardial infarction, severe/unstable angina, coronary/peripheral artery bypass graft, symptomatic congestive heart failure, cerebrovascular accident or transient ischemic attack, or pulmonary embolism.",
+      "label": "unknown",
+      "evidence": "Patient's medical history is not mentioned."
+    },
+    {
+      "criterion": "Ongoing cardiac dysrhythmias of NCI CTCAE grade \u22652.",
+      "label": "unknown",
+      "evidence": "Patient's heart rhythm is not mentioned."
+    },
+    {
+      "criterion": "Prolonged QTc interval on baseline EKG.",
+      "label": "unknown",
+      "evidence": "Patient's EKG results are not mentioned."
+    },
+    {
+      "criterion": "Hypertension that cannot be controlled by medications (>150/100 mm Hg despite optimal medical therapy).",
+      "label": "met",
+      "evidence": "None"
+    }
+  ],
+  "notes": "Patient's liver function, platelet count, calcium level, creatinine level, KPS, life expectancy, and recent hemorrhages are unknown. Patient has a history of anaplastic astrocytoma and has undergone radiation, which may indicate spinal cord compression.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00606008",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03188029",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 to 65"
+    },
+    {
+      "criterion": "asa_status",
+      "label": "met",
+      "evidence": "I to III"
+    },
+    {
+      "criterion": "electroconvulsive_therapy",
+      "label": "met",
+      "evidence": "scheduled every 2 days for 3 to 4 weeks"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "adrenocortical_insufficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "corticosteroid_medication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03188029",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

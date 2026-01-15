@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01866800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Subject is 65 years old who is able and willing to give an informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients undergoing planned trans-femoral TAVI.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Calculated eGFR below 60ml/min/1.73m2 (MDRD)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of acute coronary syndrome in the past 30 days.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindications to placement of a Foley catheter in the bladder.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of BPH and multiple urological procedures, including suprapubic prostatectomy. He had severe urethral stricture but was able to pass small catheter through.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01866800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

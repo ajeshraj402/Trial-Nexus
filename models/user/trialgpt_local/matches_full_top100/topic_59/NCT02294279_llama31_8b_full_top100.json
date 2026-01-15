@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02294279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 18-80 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-specific respiratory symptoms",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FEV1 < 90% predicted",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Reversibility to short-acting beta-agonist",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women of childbearing potential",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chronic respiratory disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Respiratory tract infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known significant risk factor for cough or wheeze",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has asthma diagnosed a year ago and is experiencing shortness of breath, chest tightening and cough. He didn't respond to the usual corticosteroid inhaler.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT02294279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

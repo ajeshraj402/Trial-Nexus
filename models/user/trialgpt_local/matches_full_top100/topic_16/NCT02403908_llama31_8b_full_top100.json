@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02403908",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with IPAH and SPAH (defined as a mean PAP >25 mm Hg at rest) not responding optimally to current medical therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "optimally to current medical therapy (defined as a reduction of <5mmHg in the resting mean PAP during medication, or unchanged 6-min walk test)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients of age <18 years",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients with structural heart diseases with left-to right shunting and/or with Eisenmenger syndrome",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT02403908",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

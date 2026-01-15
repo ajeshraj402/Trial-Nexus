@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02102217",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age equal to or above 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planned elective MAS",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written and oral informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute MAS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ASA classification equal to four or higher",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Insufficient Dutch language skills",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contrast allergies",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "glomerular filtration rate (GFR) < 60 ml/min/1,73m2",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant with uncomplicated neonatal jaundice. She may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT02102217",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

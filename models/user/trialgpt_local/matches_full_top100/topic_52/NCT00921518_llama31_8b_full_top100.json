@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00921518",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "elective, urgent, or emergent cardiac surgery using cardiopulmonary bypass",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline GFR less than 60 ml/min/1.73m2 estimated using the Modification of Diet in Renal Disease equation",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiogenic shock (defined as a cardiac index less 2 L/min/m2 despite high dose inotropes or the need for intra-aortic balloon pump)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "end-stage kidney disease requiring dialysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "received an infusion of sodium bicarbonate on the same day as cardiac surgery",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has dizziness and severe diarrhea since yesterday, with profuse watery diarrhea without odor. V. cholerae was seen in dark-field microscopy of a fresh stool specimen.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT00921518",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

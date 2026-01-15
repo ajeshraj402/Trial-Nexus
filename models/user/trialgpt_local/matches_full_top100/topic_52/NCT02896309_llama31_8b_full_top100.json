@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02896309",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "34 year old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male or female adult (\u226518 years)"
+    },
+    {
+      "criterion": "kidney_disease_stage_4",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "plasma_bicarbonate_concentration",
+      "label": "met",
+      "evidence": "15-24 meq/L"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "bicarbonate_level_outside_range",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "sodium_bicarbonate_use_in_last_month",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart_failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "blood_pressure_high_despite_medication",
+      "label": "not_met",
+      "evidence": "95/62 lying down and drops to 75/40 standing"
+    },
+    {
+      "criterion": "kidney_transplant_in_situ",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_nonadherence_to_medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "calcineurin_inhibitors_use",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has V. cholerae in stool, severe diarrhea and dehydration.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT02896309",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

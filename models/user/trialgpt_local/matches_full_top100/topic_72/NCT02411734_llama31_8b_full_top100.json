@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02411734",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "approached until 100 of them signs the Informed Consent Form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Admitted for rehabilitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Speaks English",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to read (even with glasses)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The expected results of the research: Results of this study will be published in a scientific journal.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "16-year-old girl with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02411734",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

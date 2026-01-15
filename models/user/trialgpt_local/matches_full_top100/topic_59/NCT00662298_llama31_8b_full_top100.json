@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT00662298",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Physician diagnosis of asthma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 18 - 70",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Non-smokers or ex-smokers with less than 5 pack/year history",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatment with continuous or near continuous (>50% of year) oral corticosteroids",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Requirement for treatment with high dose inhaled corticosteroids (ICS)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Minor characteristics: Requirement for daily treatment with a controller medication in addition to ICS e.g. LABA, theophylline, leukotriene antagonist",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Persistent airways obstruction (FEV1 <80% predicted, diurnal PEF variation >20%)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "One or more emergency care visits for asthma per year",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "3 or more steroid \"bursts\" per year",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prompt deterioration with \u2264 25% reduction in oral or ICS",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Near fatal asthma event in the past",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current smokers, or less than 3 years since quitting smoking",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Less than 4 weeks from an exacerbation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Active peptic ulceration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of psychiatric disturbances on high dose prednisolone",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT00662298",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

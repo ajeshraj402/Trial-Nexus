@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT03109808",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "57 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "speaks French"
+    },
+    {
+      "criterion": "oral_health",
+      "label": "met",
+      "evidence": "has at least 20 teeth"
+    },
+    {
+      "criterion": "appointment_participation",
+      "label": "met",
+      "evidence": "attending appointment in a centre participating to the trial"
+    },
+    {
+      "criterion": "treatment_support",
+      "label": "met",
+      "evidence": "able to support treatment"
+    },
+    {
+      "criterion": "health_insurance",
+      "label": "met",
+      "evidence": "affiliated to a health insurance scheme"
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": "giving his informed consent and accepting the modalities of the study"
+    },
+    {
+      "criterion": "appointment_attendance",
+      "label": "met",
+      "evidence": "agreeing to attend up to 4 appointments dedicated to the study, during 8 weeks after the initial appointment (motivational interview)"
+    },
+    {
+      "criterion": "internet_access",
+      "label": "met",
+      "evidence": "has an internet-enabled smartphone or tablet"
+    },
+    {
+      "criterion": "email_address",
+      "label": "met",
+      "evidence": "has a personal e-mail address"
+    },
+    {
+      "criterion": "recall_system_registration",
+      "label": "met",
+      "evidence": "agreeing to be registered within the system of text-based recalls for the duration of the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "periodontal_therapy",
+      "label": "not_met",
+      "evidence": "no previous periodontal therapy"
+    },
+    {
+      "criterion": "oral_hygiene_motivation_session",
+      "label": "not_met",
+      "evidence": "no previous oral hygiene motivation session less than 1 year ago"
+    },
+    {
+      "criterion": "calculus_removal_procedure",
+      "label": "unknown",
+      "evidence": "no information about calculus removal procedure"
+    },
+    {
+      "criterion": "orthodontic_appliances",
+      "label": "not_met",
+      "evidence": "no orthodontic appliances"
+    },
+    {
+      "criterion": "removable_dental_prosthesis",
+      "label": "not_met",
+      "evidence": "no removable dental prosthesis"
+    },
+    {
+      "criterion": "benzoic_acid_preservatives_allergy",
+      "label": "unknown",
+      "evidence": "no information about allergy to benzoic acid preservatives"
+    },
+    {
+      "criterion": "infective_endocarditis_risk",
+      "label": "not_met",
+      "evidence": "no high risk of infective endocarditis"
+    },
+    {
+      "criterion": "antiaggregant_or_anticoagulation_therapy",
+      "label": "unknown",
+      "evidence": "no information about antiaggregant or anticoagulation therapy"
+    }
+  ],
+  "notes": "The patient has Parkinson's disease and experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl, which help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03109808",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

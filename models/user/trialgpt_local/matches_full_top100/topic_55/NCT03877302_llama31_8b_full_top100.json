@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03877302",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22 years old"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gestational_age",
+      "label": "not_met",
+      "evidence": "less than 38 weeks of gestation"
+    },
+    {
+      "criterion": "singleton_pregnancy",
+      "label": "met",
+      "evidence": "singleton pregnancy"
+    },
+    {
+      "criterion": "spontaneous_vaginal_delivery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active_phase_of_labor",
+      "label": "not_met",
+      "evidence": "less than 4 cm dilatation"
+    },
+    {
+      "criterion": "primiparity",
+      "label": "met",
+      "evidence": "first-time mother"
+    },
+    {
+      "criterion": "verbal_communication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "study_participation",
+      "label": "met",
+      "evidence": "agreed to participate"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "risky_pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of risky pregnancy"
+    },
+    {
+      "criterion": "systemic_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "second_stage_of_labor",
+      "label": "met",
+      "evidence": "in the second stage of labor"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03877302",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

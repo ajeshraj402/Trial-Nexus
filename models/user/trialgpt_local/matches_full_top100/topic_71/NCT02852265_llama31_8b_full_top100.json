@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02852265",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "UC Davis medical office",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "currently COCs or intending to initiate COCs at the time of the office visit",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "contraindications to using a COC or a contraceptive implant (Category 3 or 4 in the CDC Medical Eligibility Criteria)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adults unable to consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Individuals who are not yet adults (infants, children, teenagers)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prisoners",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 34-year-old obese woman who comes to the clinic with weight concerns. She has several health issues, including sleep apnea and PCO.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT02852265",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

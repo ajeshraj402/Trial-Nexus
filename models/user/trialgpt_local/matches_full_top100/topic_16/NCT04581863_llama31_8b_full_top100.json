@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04581863",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "suspected or confirmed COVID-19",
+      "label": "met",
+      "evidence": "outpatient COVID-19 testing"
+    },
+    {
+      "criterion": "started on COVID Watch as routine care",
+      "label": "met",
+      "evidence": "routine care"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "less than 18 years of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "provided a pulse oximeter upon discharge from the ED",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has suspected or confirmed COVID-19 and is being treated with COVID Watch as routine care. No exclusion criteria apply.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT04581863",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

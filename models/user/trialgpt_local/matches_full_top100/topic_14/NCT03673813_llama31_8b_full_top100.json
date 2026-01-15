@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03673813",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female subject aged 18 to 60",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "BMI \u2265 30kg / m\u00b2 or MG \u2265 35% of total weight in men / 40% of total weight in women",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hypothalamic obesity, defined as obesity with hyperphagia, and cognitive or neuropsychological disorders",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Entourage present (family or educator)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Treatments not modified for at least 2 months (growth hormone, gonadotropic / thyrotropic / corticotropic substitution, Minirin, psychotropic drugs, etc.)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Affiliation to a social security scheme",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "feeding behavior (GLP1 analogues, Topiramate, psychotropic drugs, etc.)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Decompensation of a cardiorespiratory or psychiatric pathology in the 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Subject in a situation that, in the opinion of the investigator, could interfere with his / her optimal participation in the study (eg severe behavioral disorders) or constitute a particular risk for the patient (eg severe cardiorespiratory pathology).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Contraindication to the physical activity discovered during the first evaluation (electrocardiogram abnormalities, abnormal stress test, abnormal cardiac echocardiography or effort scintigraphy, etc.).",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy, breastfeeding.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Interruption of more than 15 days of the foreseeable monitoring protocol (leave etc ..).",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has agitation and altered mental status with hypoxia, which may indicate a severe cardiorespiratory pathology. Also, patient's treatments have been modified recently.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03673813",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

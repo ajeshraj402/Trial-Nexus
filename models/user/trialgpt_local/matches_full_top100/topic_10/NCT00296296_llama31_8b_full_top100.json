@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00296296",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "recipient_of_cadaveric_kidney",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "mismatched",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "age_at_transplant",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "type_2_diabetes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "informed_consent_signed",
+      "label": "met",
+      "evidence": "patient_text"
+    },
+    {
+      "criterion": "childbearing_potential",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "donor_age_65_or_older",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multi-organ_transplant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "re-transplanted",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous_graft_rejection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "substance_abuse",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric_disorder",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PRA_greater_than_30_percent",
+      "label": "met",
+      "evidence": "patient_text"
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis, presenting with flushing and tachycardia. She responded well to IV steroids and diphenydramine.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT00296296",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

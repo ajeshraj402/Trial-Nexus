@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02146521",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "participate in study with informed consent",
+      "label": "met",
+      "evidence": "The patient is a candidate for emergent laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "emergency department's patients undergoing CT evaluation for acute abdominal pain and tenderness",
+      "label": "met",
+      "evidence": "He was febrile with tenderness, rebound tenderness and guarding on palpation."
+    },
+    {
+      "criterion": "age (if greater than 89, will simply be recorded as)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute is defined as onset of current episode within 7 days of emergency department presentation",
+      "label": "met",
+      "evidence": "The pain started four days ago."
+    },
+    {
+      "criterion": "informed consent to participate are recorded in electronic research log but not enrolled in study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No identifiers are recorded for these patients",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "participate in study",
+      "label": "triggers",
+      "evidence": "The patient is now a candidate for emergent laparoscopic appendectomy under general anesthesia."
+    },
+    {
+      "criterion": "age (if greater than 89, will simply be recorded as)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "gender",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "race/ethnicity",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 17-year-old boy complaining of severe migratory pain in the right lower quadrant of his abdomen that started four days ago. He was febrile with tenderness, rebound tenderness and guarding on palpation.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02146521",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02472509",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of a hemolytic disorder including spherocytosis, G6PD deficiency",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with cholelithiasis or bile sludge",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age greater than or equal to 4 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability to consent to and participate in the study and follow study procedures",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous splenectomy (complete or partial)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Evidence of hemolytic crisis at the time of research enrollment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with highly symptomatic gallstones who have planned surgical intervention",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has cholelithiasis and bile sludge, but has planned surgical intervention. Overall assessment is likely eligible due to the presence of cholelithiasis or bile sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02472509",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

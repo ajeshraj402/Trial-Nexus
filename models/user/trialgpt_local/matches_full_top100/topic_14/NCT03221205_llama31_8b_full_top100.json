@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT03221205",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "obstructive sleep apnea",
+      "label": "met",
+      "evidence": "snoring, witnessed apneas, excessive daytime somnolence"
+    },
+    {
+      "criterion": "type 2 diabetes mellitus",
+      "label": "met",
+      "evidence": "previous diagnosis with medical treatment according to the ADA 2012 guidelines"
+    },
+    {
+      "criterion": "obesity",
+      "label": "met",
+      "evidence": "body mass index higher than 29 kilogram per square meter"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "type 1 diabetes mellitus",
+      "label": "unknown"
+    },
+    {
+      "criterion": "insulin dependent type 2 diabetes mellitus",
+      "label": "unknown"
+    },
+    {
+      "criterion": "fasting plasma glucose higher than 212 mg/dL ",
+      "label": "unknown"
+    },
+    {
+      "criterion": "antecedent of myocardial infarction, heart failure or arrhythmia",
+      "label": "triggers"
+    },
+    {
+      "criterion": "obstructive sleep apnea in treatment",
+      "label": "unknown"
+    },
+    {
+      "criterion": "urgent need of CPAP treatment (public transport drivers, heavy machine operators)",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of COPD, OSA, and obesity hypoventilation syndrome. They have been discharged from the hospital with agitation and altered mental status, and are currently on BiPap therapy.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03221205",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

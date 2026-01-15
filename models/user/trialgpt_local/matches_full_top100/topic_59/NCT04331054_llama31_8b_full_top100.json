@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT04331054",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient \u2265 18 years old and \u2264 75 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Laboratory proved infection by COVID-19 by RT-PCR on a respiratory biological sample",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "within 2 days",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hospitalization is required according to current local recommendations",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient affiliated to a social security regime",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient able to give free, informed and written consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Current treatment with any inhaled steroid (any other form of steroid administration does not exclude the patient)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intensive care unit is required for the patient (based on investigator judgement)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with cognitive impairment which do not guarantee proper use of the treatment by the patient himself",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in another interventional drug study involving human participants and",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "involving human participants",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindications to the treatments (history of hypersensitivity)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient admitted for isolation, for social reason or due to comorbidities without gravity sign",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Long-term patient treated with digitalis, disopyramide, procainamide or phenothiazine that could lengthen the QT space",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough.",
+  "_meta": {
+    "topic_id": "59",
+    "trial_id": "NCT04331054",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04441411",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adolescent idiopathic scoliosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Primary Cobb angle greater than 30\u00b0",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Failed non-operative treatment defined as progression of the curve greater than 5\u00b0 per year at any time",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Skeletally immature (Risser grade* \u22641 and Skeletal age of hand and wrist X-rays \u226414y)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "In girl, either pre-menarchal or post-menarchal by no more than 1 year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age over 10 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Non rigid curve",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All Lenke type",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No previous spine surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-idiopathic scoliosis: musculoskeletal or neurologic conditions responsible for cause of the spine curvature (i.e. neuromuscular, congenital or syndromic scoliosis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of previous spine surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04441411",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

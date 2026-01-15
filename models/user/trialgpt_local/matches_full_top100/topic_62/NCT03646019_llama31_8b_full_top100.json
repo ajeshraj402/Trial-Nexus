@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03646019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to the chest pain unit (CPU) in the Department of Internal Medicine",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute chest pain, suspected to be of cardiac origin and seems to be suitable for further investigation by a cardiac CT scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no previous history of CAD",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "E' in the Rambam Medical Health center - Israel after they presented to the ED with acute chest pain, suspected to be of cardiac origin and seems to be suitable for further investigation by a cardiac CT scan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECG at admission is with no signs of myocardial ischemia and cardiac biomarkers are normal",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known CAD",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "allergy to iodine contrast agents",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asthma exacerbation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "current use of steroids or other immunomodulating drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal insufficiency (creatinine level \u2265 1.5 mg/dl)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "contraindication for radiations, as in pregnant women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "fever during the last 48 hours prior to admission",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "concomitant inflammatory diseases (infections, auto immune disorders, kidney and liver diseases, and recent major surgical procedure)",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a family history of CAD but no other cardiovascular risk factors. He is physically active and his LDL-C and HDL-C levels are high.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03646019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

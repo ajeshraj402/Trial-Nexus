@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03906201",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Fasting Plasma Glucose between 100 mg/dL (5.6 mmol/L) to 125 mg/dL (6.9 mmol/L)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Oral Glucose Tolerance Test 140 mg/dL (7.8 mmol/L) to 199 mg/dL (11.0 mmol/L)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "A1C 5.7-6.4% (39-47 mmol/mol)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Body Mass Index >25 kg/m2 or >23 kg/m2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "First-degree relative with diabetes",
+      "label": "met",
+      "evidence": "family history positive for DM type 1 in his uncle and his grandfather"
+    },
+    {
+      "criterion": "High-risk race/ethnicity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of CVD",
+      "label": "not_met",
+      "evidence": "diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers"
+    },
+    {
+      "criterion": "Blood Pressure <140/90 mmHg without therapy for hypertension",
+      "label": "met",
+      "evidence": "claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2)"
+    },
+    {
+      "criterion": "HDL cholesterol level <0.35 mg/dL (0.90 mmol/L) and/or a triglyceride level >0.250 mg/dL (2.82 mmol/L)",
+      "label": "met",
+      "evidence": "lab study is as bellow: HDL: 40 mg/dl"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or lactic period",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients with some other chronic degenerative disease like diabetes mellitus 2 with pharmacologic treatment.",
+      "label": "not_met",
+      "evidence": "past medical history is not significant for any other medical issues"
+    },
+    {
+      "criterion": "Hypertension",
+      "label": "triggers",
+      "evidence": "claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2)"
+    },
+    {
+      "criterion": "Cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hyperthyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hypothyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Immunologic disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Kidney disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatic disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has cardiomyopathy that will be treated with ACE inhibitors and Beta blockers. He claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2).",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03906201",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

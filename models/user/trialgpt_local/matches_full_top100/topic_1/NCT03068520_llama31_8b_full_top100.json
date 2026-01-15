@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03068520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "glial brain tumors",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "metastatic brain tumors that were treated with stereotactic radiation (SRS)",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "glial tumor with no histological diagnosis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non breast of lung metastasis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "non compliance",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to lay still during the scanning",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI non",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "renal failure/gadolinium sensitivity",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "less than 5 mm metastatic tumors",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "bleeding brain tumors",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, which is a type of glial brain tumor. They have undergone treatment with radiation and chemotherapy.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03068520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

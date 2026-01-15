@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04479202",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "COVID-19",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "participated in other clinical trials",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have other sources of infection",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of ESRD and recurrent C diff infections, which may indicate other sources of infection.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04479202",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

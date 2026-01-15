@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01591681",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age >/= 15.0 - 45 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "HbA1c </= 8.0%",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis in the past 3 months",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hypoglycemic seizure or loss of consciousness in the past 6 months",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of sleep apnea, PCO and dissatisfaction with her body shape. She is considering a laparoscopic gastric bypass.",
+  "_meta": {
+    "topic_id": "71",
+    "trial_id": "NCT01591681",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04392869",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "University student",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current psychotherapy or history of psychotic disorder or neurological condition",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Established formal meditation prior experience",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has MDD, but no psychotherapy or history of psychotic disorder. No established formal meditation prior experience.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT04392869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

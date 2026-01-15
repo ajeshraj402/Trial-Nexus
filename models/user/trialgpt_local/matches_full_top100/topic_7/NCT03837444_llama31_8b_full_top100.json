@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03837444",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Biomarker measurements",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 18 and 90 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Child-Pugh B or Child-Pugh C cirrhosis diagnosed on the basis of one or several of the following elements : Liver Biopsy, Liver stiffness>15kPa measured by Fibroscan, Combination of clinical, laboratory and imaging criteria characteristic of cirrhosis (association of signs of portal hypertension, liver failure and abnormal liver morphology in a patient with at least one cause of cirrhosis)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Measurement of the primary endpoint will be performed according to the recommendations specific for survival analysis in patients with cirrhosis, using a survival analysis that considers liver transplantation as a competitive risk.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Acute renal failure (increase in serum creatinin level by more than 1.5 times the baseline value or by more than 26 \u03bcmol/l from the baseline value) within 15 days",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is being treated with lactulose and has a presumptive diagnosis of hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03837444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

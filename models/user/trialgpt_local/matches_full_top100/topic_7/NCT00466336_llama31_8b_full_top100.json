@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00466336",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age older than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Positive anti-HCV and HCV RNA for more than 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alanine aminotransferase level more than twice the upper limit of normal (ULN)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HBV and HCV co-infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV and HCV co-infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Heavy alcohol use (> 50 gram/day)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB due to NSAID gastritis. He is being treated with lactulose for presumptive hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00466336",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

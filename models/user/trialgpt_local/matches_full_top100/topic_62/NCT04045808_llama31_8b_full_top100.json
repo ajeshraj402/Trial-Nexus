@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04045808",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Department of Cardiology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "coronary angiography",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "periodontal treatment or used antibiotics during the last 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnant women",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "46-year-old man with dizziness and frequent headaches, severe stenosis in the left internal carotid artery.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04045808",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

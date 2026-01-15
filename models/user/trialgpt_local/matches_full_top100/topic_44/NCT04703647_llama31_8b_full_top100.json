@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04703647",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CRPS Type I",
+      "label": "met",
+      "evidence": "Budapest criteria for research"
+    },
+    {
+      "criterion": "Suffering of CRPS in a distal limb (hand or foot)",
+      "label": "met",
+      "evidence": "patient complaints"
+    },
+    {
+      "criterion": "Age >18 years",
+      "label": "not_met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "Pain lasting less than 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Good understanding of the French language",
+      "label": "met",
+      "evidence": "well-dressed and well-nourished adolescent"
+    },
+    {
+      "criterion": "Not suffering from chronic pain, including CRPS",
+      "label": "met",
+      "evidence": "no other medical condition"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known or suspected non-compliance, drug or alcohol abuse,",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Inability to follow the procedures of the study, e.g. due to language problems, severe psychological disorders, dementia, etc",
+      "label": "not_met",
+      "evidence": "alert and cooperative"
+    },
+    {
+      "criterion": "For blood sample: diabetes and history of hepatitis B, C, D or HIV infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04703647",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

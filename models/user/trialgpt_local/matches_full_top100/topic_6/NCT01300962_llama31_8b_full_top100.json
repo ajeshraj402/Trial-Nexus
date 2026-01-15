@@ -1,0 +1,52 @@
+{
+  "trial_id": "NCT01300962",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u226518 years (no upper age limit)",
+      "label": "met"
+    },
+    {
+      "criterion": "confirmed pathologic diagnosis of breast cancer which is metastatic and for which capecitabine is a reasonable treatment option",
+      "label": "unknown"
+    },
+    {
+      "criterion": "ARMS C & D: Histologically confirmed HER2+ breast cancer: IHC 3+ or fluorescence in situ hybridization [FISH] amplified; by clinical assay on either primary or metastatic tumor",
+      "label": "met"
+    },
+    {
+      "criterion": "Brain metastases permitted in Arms A and B if: CNS-directed treatment has been given; No CNS-directed therapy for the past 3 months, including glucocorticoids; AND CNS disease has been clinically and radiographically stable for at least 8 weeks",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Measurable or non-measurable (but evaluable) disease as defined via RECIST 1.1",
+      "label": "met"
+    },
+    {
+      "criterion": "Normal organ and marrow function as defined below: Absolute neutrophil count \u22651,500/\u03bcL; Platelets \u2265100,000/\u03bcL; Hemoglobin \u22658.5g/dL",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Receiving concurrent endocrine, cytotoxic, or biologic agent(s) or within time limits specified above prior to study day 1",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Received wide field radiotherapy \u22644 weeks, or SRS or gamma knife for brain metastasis \u2264 2 weeks or limited field radiation for palliation \u22642 weeks prior to starting either BYL719 or BKM120 or have not recovered from side effects of such therapy",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Prior treatment with a PI3K inhibitor",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has history of ESRD on HD and peritoneal dialysis, which may be relevant to trial eligibility. Patient also has recent antibx use in the last month on prior admission.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT01300962",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

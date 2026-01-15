@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02112279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55yo"
+    },
+    {
+      "criterion": "positive_cdiff_test",
+      "label": "met",
+      "evidence": "C diff assay positive on admission"
+    },
+    {
+      "criterion": "continued_symptoms",
+      "label": "met",
+      "evidence": "watery, non bloody diarrhea and weakness"
+    },
+    {
+      "criterion": "failed_antibiotic_therapy",
+      "label": "met",
+      "evidence": "2 prior C diff infections"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "under_18",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "negative_cdiff_test",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of recurrent C diff infections and was treated with an extended course of Vanco. She continues to experience symptoms.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02112279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

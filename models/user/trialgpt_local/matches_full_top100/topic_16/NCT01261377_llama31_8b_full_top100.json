@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT01261377",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "79 yo"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "F"
+    },
+    {
+      "criterion": "diagnosis of COPD (GOLD stage 2 or higher)",
+      "label": "met",
+      "evidence": "COPD on home O2"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "already using CPAP or BPAP device",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "estimated GFR <30 ml/min/1.73 m2 or on hemodialysis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "women known to be pregnant or planning to be pregnant in next 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiac pacemaker, metallic heart valves, metallic implants, claustrophobic",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic atrial fibrillation or frequent premature ventricular contractions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "using lipid-lowering medications, aspirin, oral steroids, steroid-sparing medications or anti-oxidant vitamin supplements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "if taking sildenafil or related drugs, unable to stop it within 48 hours of the study visit",
+      "label": "not_met",
+      "evidence": "Patient tolerated an inpatient trial without hypotension"
+    },
+    {
+      "criterion": "contraindications to stress cardiac testing: acute myocardial infarction within 48 hours, unstable angina not yet stabilized with medical therapy, ongoing chest pain, active broncho-constriction, uncontrolled cardiac arrhythmia, symptomatic severe aortic stenosis, aortic dissection, acute pulmonary embolism or pericarditis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "uncontrolled COPD or acute COPD exacerbation",
+      "label": "not_met",
+      "evidence": "COPD on home O2"
+    },
+    {
+      "criterion": "known chronic inflammatory diseases like lupus or active infection",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient to f/u with pulmonology to start sildenifil chronically as outpatient as prior authorization is obtained.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01261377",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

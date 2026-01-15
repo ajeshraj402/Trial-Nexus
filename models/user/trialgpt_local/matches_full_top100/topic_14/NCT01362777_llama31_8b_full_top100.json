@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01362777",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Obstructive Sleep Apnea Hypopnea Syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sedentary patient",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "OSAS already treated by CPAP or other therapy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI > 40/m\u00b2",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hypnotic and sedative medications",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cranio-facial malformation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Obstructive respiratory disease (COPD, asthma,...)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Instable heart ischemic disease and all",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of COPD, but also has obstructive sleep apnea. Daughter reports increased agitation and altered mental status with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01362777",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

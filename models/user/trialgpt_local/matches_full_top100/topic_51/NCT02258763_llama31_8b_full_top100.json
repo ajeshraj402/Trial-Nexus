@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02258763",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "3 months to 59 months old",
+      "label": "met"
+    },
+    {
+      "criterion": "History of cough and/or shortness of breath",
+      "label": "met"
+    },
+    {
+      "criterion": "Unwell for <= 7 days",
+      "label": "met"
+    },
+    {
+      "criterion": "Increased respiratory rate ( \u2265 50/min if \u226412 months old, \u2265 40/min)",
+      "label": "met"
+    },
+    {
+      "criterion": "Chest retractions, cyanosis, saturation< 92% on air, poor feeding or lethargy",
+      "label": "met"
+    },
+    {
+      "criterion": "Documented fever (axillary /central temp \u2265 38/38.5\u00b0C) within 24 hrs of admission",
+      "label": "met"
+    },
+    {
+      "criterion": "Abnormal CXR with presence of alveolar infiltrates",
+      "label": "met"
+    },
+    {
+      "criterion": "Responds to IV antibiotics by the first 72 hrs and able to go home with oral antibiotics",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children who (a) are transferred from another hospital",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Randomized, Double Blind, Placebo Controlled Trial Children aged 3 months till <5 years old",
+      "label": "unknown"
+    }
+  ],
+  "notes": "A 25-year-old pregnant woman with fever and chills. She has a history of dysuria, urgency, and frequency. Her urine culture showed Gram-negative rod-shaped bacterial cells.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT02258763",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

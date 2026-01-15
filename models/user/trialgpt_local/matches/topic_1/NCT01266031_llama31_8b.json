@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT01266031",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "histologically proven glioblastoma, gliosarcoma or anaplastic glioma",
+      "label": "met",
+      "evidence": "Patient has a history of anaplastic astrocytoma of the spine."
+    },
+    {
+      "criterion": "age 18 years old or older",
+      "label": "met",
+      "evidence": "Patient is a 45-year-old man."
+    },
+    {
+      "criterion": "Karnofsky performance status (KPS) equal or greater than 60",
+      "label": "unknown",
+      "evidence": "No information provided about KPS."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior treatment with bevacizumab or Vorinostat",
+      "label": "does_not_trigger",
+      "evidence": "No mention of prior treatment with bevacizumab or Vorinostat."
+    },
+    {
+      "criterion": "history of any other cancer (except non-melanoma skin cancer or carcinoma in-situ of the cervix or bladder)",
+      "label": "unknown",
+      "evidence": "Patient has a history of anaplastic astrocytoma, but it is unclear if this meets the exclusion criteria."
+    },
+    {
+      "criterion": "inadequately controlled hypertension (defined as systolic blood pressure > 140 mmHg and/or diastolic blood pressure > 90 mmHg)",
+      "label": "unknown",
+      "evidence": "No information provided about patient's blood pressure."
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma, but it is unclear if this meets the exclusion criteria for other cancers. Additionally, there is no information provided about KPS or blood pressure.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT01266031",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

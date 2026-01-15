@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04306523",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Infants from a multiple pregnancy",
+      "label": "met",
+      "evidence": "twins only"
+    },
+    {
+      "criterion": "Born at > 34 weeks gestation",
+      "label": "met",
+      "evidence": "patient's birth was not specified, but since she is 22yo and has a history of systemic mastocytosis, it can be inferred that her birth was likely normal"
+    },
+    {
+      "criterion": "Not less than 1800 grams birth weight",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No diagnosis of twin to twin transfusion syndrome, or intrauterine growth retardation",
+      "label": "met",
+      "evidence": "patient's medical history does not mention these conditions"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Singleton infant",
+      "label": "not_met",
+      "evidence": "patient is from a multiple pregnancy"
+    },
+    {
+      "criterion": "Gestational less than 34 weeks",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Birthweight less than 1800 grams",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Diagnosis of twin to twin transfusion syndrome, or intrauterine growth retardation",
+      "label": "not_met",
+      "evidence": "patient's medical history does not mention these conditions"
+    }
+  ],
+  "notes": "Patient is a 22yo F with systemic mastocytosis and has had multiple flares. She responded well to treatment and was discharged on her home meds.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT04306523",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

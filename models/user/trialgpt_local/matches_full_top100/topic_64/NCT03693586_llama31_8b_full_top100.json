@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03693586",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "evaluated for diagnosis of vasculitis under study or vasculitis of origin to be determined or rheumatological condition for study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who primarily consults to a rheumatology department for vasculitis and agree to be evaluated through a questionaire to identify risk factors for hepatitis C and who also agree to be screened with a serological rapid test for hepatitis C",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who do not have a complete clinical file",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who decline to participate",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 55-year-old man diagnosed with HCV 2 years ago and the recent coinfection with HBV. He has been on treatment for 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03693586",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

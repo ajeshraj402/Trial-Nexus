@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04807491",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "randomization was done by sealed envelope method",
+      "label": "met"
+    },
+    {
+      "criterion": "consent before the first and last session",
+      "label": "met"
+    },
+    {
+      "criterion": "Facial disability index, Sunnybrook facial grading system and synkinesis assessment questionnaire used",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of significant psychiatric illness",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Upper motor neuron disease (stroke, TBI, tumor)",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Non co-operative patients",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04807491",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

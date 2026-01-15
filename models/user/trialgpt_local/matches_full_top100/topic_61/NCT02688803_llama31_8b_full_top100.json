@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02688803",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed primary TNBC breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Planned for chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u226518 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide verbal consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willing to complete a survey",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Metastatic disease",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindication to one or more of the chemotherapy agents being evaluated in the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT02688803",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

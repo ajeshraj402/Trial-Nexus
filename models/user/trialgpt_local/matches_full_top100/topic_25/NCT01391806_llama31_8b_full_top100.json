@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01391806",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "42 year-old"
+    },
+    {
+      "criterion": "breast-conserving surgery indication",
+      "label": "met",
+      "evidence": "criteria recommended by the Norwegian Breast Cancer Group"
+    },
+    {
+      "criterion": "tumor size",
+      "label": "met",
+      "evidence": "1.8 cm infiltrating ductal breast carcinoma"
+    },
+    {
+      "criterion": "tumor:breast ratio",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "skin or pectoral fascia involvement",
+      "label": "not_met",
+      "evidence": "no infiltration"
+    },
+    {
+      "criterion": "multifocality",
+      "label": "met",
+      "evidence": "1 tumor"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mastectomy choice",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "technical problems with MR machine",
+      "label": "not_met",
+      "evidence": "MR not mentioned"
+    },
+    {
+      "criterion": "pacemaker",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "anxiety/claustrophobia",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a postmenopausal woman with HER2-positive and ER/PR-negative breast cancer, who underwent lumpectomy and has clear surgical margins.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01391806",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

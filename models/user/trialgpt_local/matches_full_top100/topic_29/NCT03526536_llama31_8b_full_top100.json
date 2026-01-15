@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03526536",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients over 18 years old with diabetes (both sexes) presenting without any kidney disease or with ESRD on hemodialysis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Undergoing major elective surgery procedures such as abdominal, pulmonary, GU/GYN, vascular, renal, neurologic, and orthopedic surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Signed informed consent for the study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with elevated preoperative blood glucose of a value > 150 mg/dL or < 350 mg/dL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "English-speaking",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Baseline chemistry with a potassium at or above 3.5",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients under the age of 18.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient does not give informed consent for the study.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient does not have decisional capacity or a surrogate.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient cannot understand or read English.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man with type 1 diabetes who presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis. He reports being homeless and losing his insulin supply.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03526536",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

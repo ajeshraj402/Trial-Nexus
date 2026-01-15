@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03959501",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chinese",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Aged 21 to 75 both inclusive",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Type 2 diabetes on single or two doses of insulin therapy with or without metformin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On stable insulin doses, as defined by less than 10% changes in total daily insulin dose within 3 months prior to randomization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Suboptimal glycaemic control with baseline HbA1c \u22658.0% and \u226410.5%, taken within 2 months prior to randomization",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Body mass index between 21 and 40 kg/m2",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Type 1 diabetes mellitus",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of ketoacidosis",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Concurrent use of sulphonylurea or glucagon like peptide-1 receptor (GLP1) agonists",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 2 diabetes and is on insulin therapy, but has a history of ketoacidosis which makes them likely ineligible for the study.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03959501",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

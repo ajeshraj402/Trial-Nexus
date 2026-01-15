@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02067741",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient must give written informed consent before registration.",
+      "label": "met"
+    },
+    {
+      "criterion": "Post-menopausal women",
+      "label": "met"
+    },
+    {
+      "criterion": "Locally advanced or metastatic, histologically confirmed breast adenocarcinoma",
+      "label": "met"
+    },
+    {
+      "criterion": "requiring therapy and not suitable for local treatment.",
+      "label": "met"
+    },
+    {
+      "criterion": "Stratum A: endocrine responsive-HER2neg BC, specifically: ERpos (\u22651%), PRpos",
+      "label": "met"
+    },
+    {
+      "criterion": "Presence of \u22651 measurable or evaluable lesion according to RECIST 1.1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Tumor assessment to be performed within 28 days before or on registration.",
+      "label": "met"
+    },
+    {
+      "criterion": "WHO performance status 0-1.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u2265 18 years.",
+      "label": "met"
+    },
+    {
+      "criterion": "Adequate hematological values: hemoglobin \u2265100 g/L, ANC \u22651.5x10^9/L, platelets",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Adequate hepatic function: total bilirubin \u22641.5xULN, ALT \u22642.5xULN (except for liver metastases \u22645xULN).",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Adequate renal function: serum creatinine \u22641.5xULN.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous malignancy within 5 years with the exception of adequately treated cervical carcinoma in situ or localized non-melanoma skin cancer.",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Uncontrolled central nervous system (CNS) metastases, pulmonary carcinomatous lymphangiosis (i.e., >50% invasion), or liver metastases on >1/3 of the liver on ultrasound or computed tomography (CT).",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Indication for chemotherapy.",
+      "label": "not_met"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with locally advanced breast adenocarcinoma, requiring therapy and not suitable for local treatment. She has adequate hematological values, hepatic function, and renal function.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02067741",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03218137",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of premature ventricular contractions (PVCs)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Scheduled to undergo an electrophysiology study with the intention of performing cardiac ablation for the treatment of PVCs",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Male or female between the ages of 18 and 70 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Capable of giving informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Any structural heart disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Coronary artery disease (\u2265 70% stenosis)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Current treatment with anti-arrhythmic drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Asthma (if administering adenosine)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, but no mention of \u226570% stenosis. Current treatment with CPR is not an anti-arrhythmic drug.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03218137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

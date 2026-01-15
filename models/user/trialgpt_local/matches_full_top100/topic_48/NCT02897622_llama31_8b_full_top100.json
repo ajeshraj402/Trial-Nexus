@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02897622",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary diagnosis: eating disorder according to DSM IV Criteria based on diagnostic interview",
+      "label": "met",
+      "evidence": "Diagnostic interview"
+    },
+    {
+      "criterion": "Illness duration of ED >10",
+      "label": "met",
+      "evidence": "Not specified"
+    },
+    {
+      "criterion": "Participated in at least three failed specialized eating disorder treatments",
+      "label": "met",
+      "evidence": "Not specified"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "Provided written informed consent"
+    },
+    {
+      "criterion": "Having the mental capacity to make provide informed consent to research participation",
+      "label": "met",
+      "evidence": "Patient is mentally stable"
+    },
+    {
+      "criterion": "Somatically stable",
+      "label": "met",
+      "evidence": "Physical exam and lab studies were normal"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Somatically unstable",
+      "label": "not_met",
+      "evidence": "Normal physical exam and lab studies"
+    }
+  ],
+  "notes": "Patient has a history of smoking and drinking, but no underlying disease such as DM. He is in relation with several partners and uses condom during intercourse.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT02897622",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

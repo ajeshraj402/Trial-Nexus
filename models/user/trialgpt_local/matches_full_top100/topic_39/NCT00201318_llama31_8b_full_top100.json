@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT00201318",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically proven NHL, and for which intensive chemotherapy is considered",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treatment-of-choice",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "HBsAg-positive",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "No previous chemotherapy and radiotherapy, no concurrent radiotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AGC \u2267 2,000/mm3, Platelet \u2267 100,000/mm3 of peripheral blood",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Total bilirubin < 2.5 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Alanine aminotransferase (SGPT) < 200 I.U./L",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum creatinine \u22661.5 mg/dl Blood urea nitrogen (BUN) \u2266 25 mg/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Objectively measurable or valuable disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age > 75 years old, or Age < 15 years old",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant or breast-feeding women.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with history of brain metastasis or CNS involvement.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Child's class B or C in patients with liver cirrhosis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impaired cardiac function with NYHA (New York Heart Association) classification \u2267 Gr II.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT00201318",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

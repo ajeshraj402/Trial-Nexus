@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00028275",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "ALT or AST above ULN",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Presence of anti-HCV in serum",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "HCV RNA genotype 1 above 10,000 copies/ml",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous adequate therapy with alpha interferon and ribavirin without a sustained virological response",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Decompensated liver disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnancy or inability to practice adequate contraception",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Significant systemic or major illnesses other than liver disease",
+      "label": "not_met",
+      "evidence": "His medical record shows previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "Pre-existing, severe bone marrow compromise",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of another form of liver disease in addition to viral hepatitis",
+      "label": "not_met",
+      "evidence": "There is no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease"
+    },
+    {
+      "criterion": "Active substance abuse",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious autoimmune disease that might be worsened by interferon therapy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Evidence of hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "The recent biopsy was negative for hepatocellular carcinoma"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on combination therapy with IFN and RBV. He has a history of previous positive HCV RNA tests and enzyme immunoassay for anti-HCV-antibodies.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT00028275",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00765401",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Confirmed diagnosis of CF by a positive sweat test",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Abdominal pain during last 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age > 5 and <18 years",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Either gender",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ability to do urea breath test",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Females of child bearing potential with a positive urine pregnancy test",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to do urea breath test",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has pancreatic adenocarcinoma and diverticular abscess, which may affect eligibility.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00765401",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

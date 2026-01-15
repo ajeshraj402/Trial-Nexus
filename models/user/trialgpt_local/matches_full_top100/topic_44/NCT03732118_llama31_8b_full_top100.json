@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03732118",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 18 and 70 (inclusive)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Cirrhosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Minimal hepatic encephalopathy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Expression of non opposition",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age older than 70",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MMS score < 24",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Clinical hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, no other medical condition. Scoliotic curve is measured as 45 degree.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT03732118",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

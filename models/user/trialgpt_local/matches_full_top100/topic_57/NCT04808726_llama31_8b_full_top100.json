@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04808726",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "know reading",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "primiparity",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "term and healthy birth",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "having a healthy newborn",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "vaginal delivery",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "not knowing Turkish",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiparousness",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "early childbirth",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "the health status of the newborn is not good",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "caesarean delivery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting, with a history of alcohol consumption. She has leukocytosis, high CRP, and amylase levels.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT04808726",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04306627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients aged between 45 and 85 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "blood pressure \u2265 140/90 mmHg with one antihypertensive drug or 150/100 mHg for untreated patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "plasma LDL-cholesterol concentrations > 2,5mm/L (without concomitant hypolipidemic drugs)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least one additional cardiovascular risk factor apart of arterial hypertension",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "minimal thickness of intima media complex at least 0,8 mm.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "premenopausal females with potential for pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "angiotensin converting enzyme (ACE) inhibitor or angiotensin receptor blocker therapy in the previous 3 months,",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04306627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

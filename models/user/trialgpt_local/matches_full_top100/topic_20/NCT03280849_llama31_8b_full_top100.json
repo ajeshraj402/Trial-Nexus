@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03280849",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "male/female patient candidate for an endoscopic endonasal transphenoidal surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "need repair of the sellar floor as part of the surgical procedure",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetes",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heart diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "immunological diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "infectious diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "bone diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, with elevated testosterone levels. She also has positive history for snoring and headache.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT03280849",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

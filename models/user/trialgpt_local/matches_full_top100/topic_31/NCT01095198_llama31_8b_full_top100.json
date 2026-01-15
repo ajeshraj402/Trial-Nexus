@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01095198",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "members of consenting family physicians identified through OSCAR EMR",
+      "label": "met",
+      "evidence": "OSCAR EMR"
+    },
+    {
+      "criterion": "overdue for Pap smear testing",
+      "label": "met",
+      "evidence": "Pap smear test revealed stage 1B of cervical cancer"
+    },
+    {
+      "criterion": "have not presented for Pap smear screening after 1 reminder letter",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "currently attending colposcopy clinic",
+      "label": "triggers",
+      "evidence": "colposcopy clinic"
+    },
+    {
+      "criterion": "institutionalized",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "without a cervix",
+      "label": "does_not_trigger",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. She has stage 1B of cervical cancer and tested positive for HPV 16.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT01095198",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

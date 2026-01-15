@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01458860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "carotid artery stenosis",
+      "label": "met",
+      "evidence": "significant bilateral carotid stenosis, L>R"
+    },
+    {
+      "criterion": "CT scan for any indication",
+      "label": "met",
+      "evidence": "CT scan not mentioned but patient underwent Carotid U/S and Angiography"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age <40 years",
+      "label": "not_met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "carotid artery stenosis, without intention-to-treat",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01458860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

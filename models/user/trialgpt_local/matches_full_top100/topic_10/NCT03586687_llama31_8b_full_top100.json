@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03586687",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "radiographic_evidence_of_oa",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinical_diagnosis_established",
+      "label": "met",
+      "evidence": "symptoms of pain attributed to glenohumeral osteoarthritis"
+    },
+    {
+      "criterion": "duration_of_symptoms",
+      "label": "met",
+      "evidence": "longer than 3 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous_guided_steroid_injection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "inflammatory_arthritis_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "shoulder_surgery_history",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "steroid_allergy",
+      "label": "not_met",
+      "evidence": "no mention of allergy"
+    },
+    {
+      "criterion": "lidocaine_allergy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT03586687",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00021671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HIV positive",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "20 to 24 weeks pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have taken antibiotics, except for syphilis or gonorrhea, within the last 2 weeks.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Are allergic to penicillin, ampicillin, erythromycin, or metronidazole.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of recurrent bilateral headache and is diagnosed with the migraine headache. She is under treatment.",
+  "_meta": {
+    "topic_id": "35",
+    "trial_id": "NCT00021671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

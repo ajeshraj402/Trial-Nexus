@@ -1,0 +1,44 @@
+{
+  "trial_id": "NCT00133835",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "painful chronic pancreatitis",
+      "label": "met",
+      "evidence": "abdominal pain attack during the preceding 12 months"
+    },
+    {
+      "criterion": "at least 1 calcified stone greater than 4 mm in one of its axes in the cephalic or corporeal portion of the main pancreatic duct with upstream duct dilation",
+      "label": "met",
+      "evidence": "CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass"
+    },
+    {
+      "criterion": "written informed consent obtained from the patient",
+      "label": "met",
+      "evidence": "She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of treatment of the pancreas using ESWL, endoscopy, or surgery",
+      "label": "unknown"
+    },
+    {
+      "criterion": "pancreatic collection greater than 2 cm in diameter at magnetic resonance or CT Scan",
+      "label": "not_met",
+      "evidence": "CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass"
+    },
+    {
+      "criterion": "alkaline phosphatase levels greater than twice the upper limit of normal values or signs of cholangitis",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She has been experiencing mid-abdominal pain radiating to the left flank for weeks leading up to admission.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00133835",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

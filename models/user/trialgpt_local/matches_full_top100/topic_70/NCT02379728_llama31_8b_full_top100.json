@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02379728",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "residence",
+      "label": "met",
+      "evidence": "Greater Accra Metropolitan Area or area served by the Korle Bu Teaching Hospital"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "fluent in either English, Twi, or Ga"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "obstetric_complications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "sleep_disorder",
+      "label": "not_met",
+      "evidence": "no mention of sleep complications"
+    },
+    {
+      "criterion": "multiple_pregnancy",
+      "label": "met",
+      "evidence": "singleton pregnancy"
+    },
+    {
+      "criterion": "fetal_abnormality",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "maternal_age",
+      "label": "not_met",
+      "evidence": "46 years old"
+    }
+  ],
+  "notes": "Patient has MDD, but is on anti-depressants and has no history of psychologic problems. Her family history is also negative for any psychologic problems.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT02379728",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

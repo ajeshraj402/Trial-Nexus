@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02802384",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "53 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "Paget's disease of bone",
+      "label": "met",
+      "evidence": "increased serum alkaline phosphatase (300 IU/L)"
+    },
+    {
+      "criterion": "history of Pagetoid lesions(s) on x-ray/CT/MRI",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "increased uptake of radioactive substance by bone scan",
+      "label": "met",
+      "evidence": "yes"
+    },
+    {
+      "criterion": "bone pain",
+      "label": "met",
+      "evidence": "generalized bone pain"
+    },
+    {
+      "criterion": "fracture",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hearing loss",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "headache",
+      "label": "met",
+      "evidence": "frequent headaches"
+    },
+    {
+      "criterion": "hypercalcemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bony deformity",
+      "label": "met",
+      "evidence": "bilateral swellings around the molars"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "osteosarcoma or other blastic bony metastases alone",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Fibrous dysplasia of bone",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hyperostosis frontalis interna",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's disease of bone and is experiencing symptoms such as bone pain, hearing loss, and bony deformity. The patient's sister also had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT02802384",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

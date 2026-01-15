@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00080366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "essential tremor with a history of ethanol responsiveness",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "off any medications used to treat essential tremor such as mysoline or propranolol for at least 2 weeks",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormalities on neurologic exam other than tremor",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic alcohol dependence",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "renal failure, hepatic failure and chronic lung disease",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of tremors since a year ago. He has Wilson disease confirmed by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00080366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

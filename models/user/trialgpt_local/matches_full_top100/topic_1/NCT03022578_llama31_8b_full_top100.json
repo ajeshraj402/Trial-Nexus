@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03022578",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically-proven, recurrent supratentorial grade IV glioblastoma (or grade III IDH-wildtype anaplastic astrocytoma)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unsafe complete surgical resection due to location, shape, or size of the tumor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Karnofsky performance score (KPS) > 60",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "standard of care therapy with chemoradiation with temozolomide followed by adjuvant chemotherapy with temozolomide",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "lesion suitable for LITT is single, enhancing, supratentorial, at least 2 cm from inner table of skull over the hemispheric convexity, and > 1 cm, but < 4 cm in cross-sectional dimension",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "stable cardiovascular, neurovascular and neurological status, and be considered surgical candidates",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "not receiving concurrent anti-tumor treatment and have recovered from toxicity of prior treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not previously undergone an intracranial LITT procedure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "White blood cell (WBC) > 3,000/ul",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) > 1,500/mm^3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Platelet count of > 100,000/mm^3",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemoglobin > 10 gm/dl",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior treatment with bevacizumab",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "prior treatment of glioblastoma with stereotactic radiosurgery, brachytherapy, or carmustine-impregnated wafers (Gliadel)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03022578",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

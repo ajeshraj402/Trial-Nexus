@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03656172",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Metastatic solid tumor or not",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Anemia by functional martial deficiency (as defined in the NCCN2016 recommendations)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with malignant hemopathy",
+      "label": "does_not_trigger",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient with chronic renal failure with an estimation of renal filtration rate according to the formula CKD-EPI < 60 ml/min/1.73 m\u00b2.",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years and presents with hyperglycemia and concern for possible diabetic ketoacidosis.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT03656172",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

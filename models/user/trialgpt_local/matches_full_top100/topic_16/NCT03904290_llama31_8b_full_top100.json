@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03904290",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men and women aged 18-80",
+      "label": "met",
+      "evidence": "based on available medical information"
+    },
+    {
+      "criterion": "Undergoing PFO/ASD closure.",
+      "label": "met",
+      "evidence": "based on available medical information"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous history of coronary artery disease (ischemic heart disease such as angina, heart attack, myocardial infarction).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Failure of Modified Allen's Test in both hands.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently taking medications or herbal supplements for any heart or respiratory disease that they cannot stop taking for 48hrs prior to testing (seasonal allergy Lidocaine, nitroglycerine or heparin allergy).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who are pregnant or trying to become pregnant.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous history of any condition that would prevent the subject from performing cycle ergometer exercise (for exercise study only).",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Physician determination.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "PFO/ASD deemed by referring physician as not fully closed/endothelialized at 6 months post-PFO/ASD closure procedure.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT03904290",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

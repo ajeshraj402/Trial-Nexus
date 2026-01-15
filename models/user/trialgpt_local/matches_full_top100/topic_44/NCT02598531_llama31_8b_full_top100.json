@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02598531",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "14 years old"
+    },
+    {
+      "criterion": "Non-inflammatory Degenerative Joint Disease (NIDJD)",
+      "label": "met",
+      "evidence": "scoliosis and back pain"
+    },
+    {
+      "criterion": "Morbid Obesity",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suitable candidate for cemented primary TKA",
+      "label": "met",
+      "evidence": "candidate for scoliosis surgery"
+    },
+    {
+      "criterion": "Not bedridden",
+      "label": "met",
+      "evidence": "able to play routine activities"
+    },
+    {
+      "criterion": "Able to understand and cooperate with investigational procedures",
+      "label": "met",
+      "evidence": "alert and cooperative"
+    },
+    {
+      "criterion": "Given voluntary, written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Comfortable with speaking, reading, and understanding questions",
+      "label": "met",
+      "evidence": "well-dressed and well-nourished adolescent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous THA or contralateral knee within the past 6 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contralateral amputation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Simultaneous bilateral TKA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous partial knee replacement or patellectomy",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Radicular pain from the spine",
+      "label": "met",
+      "evidence": "pain is in his leg and back"
+    },
+    {
+      "criterion": "Fibromyalgia being treated with prescription medication",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has scoliosis and back pain, but no other medical conditions. He is a suitable candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT02598531",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

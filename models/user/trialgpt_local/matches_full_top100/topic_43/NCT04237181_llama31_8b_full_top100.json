@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04237181",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient is a 60-year-old woman"
+    },
+    {
+      "criterion": "signed_informed_consent_form",
+      "label": "met",
+      "evidence": "The patient signed an informed consent form"
+    },
+    {
+      "criterion": "social_security_insurance",
+      "label": "met",
+      "evidence": "The patient has social security insurance"
+    },
+    {
+      "criterion": "acute_diarrhoea",
+      "label": "met",
+      "evidence": "She is admitted to the emergency department for Acute diarrhoea"
+    },
+    {
+      "criterion": "blood_test_in_emergency_department",
+      "label": "met",
+      "evidence": "A blood test in the emergency department is ordered as a standard of care"
+    },
+    {
+      "criterion": "colitis_of_infectious_origin",
+      "label": "met",
+      "evidence": "The patient has a documented colitis presumed to be of infectious origin"
+    },
+    {
+      "criterion": "abdominal_pain",
+      "label": "met",
+      "evidence": "She complained of abdominal pain"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "She is febrile (38.4\u00b0C)"
+    },
+    {
+      "criterion": "diarrhoea",
+      "label": "met",
+      "evidence": "She has diarrhoea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time)"
+    },
+    {
+      "criterion": "elevated_white_blood_cell_count",
+      "label": "met",
+      "evidence": "Elevated white blood cell count (> 10.000/mm3)"
+    },
+    {
+      "criterion": "abdominal_ct_scan",
+      "label": "met",
+      "evidence": "An abdominal CT scan showing a thickening of at least segmental colonic walls"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "The patient is over 18 years old"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent_abdominal_surgery",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inflammatory_bowel_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "curatorship_or_guardianship",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a recent history of aspiration pneumonia and is febrile, tachycardic, and hypotensive.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04237181",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

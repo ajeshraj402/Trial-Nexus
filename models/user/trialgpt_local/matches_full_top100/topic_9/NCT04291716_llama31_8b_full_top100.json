@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04291716",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed and dated informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "stated willingness to comply with all study procedures and availability for the duration of the study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "meets the standard of care criteria for admission to an epilepsy monitoring unit (EMU)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "male or female",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "aged 18 and above",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the patient has experienced at least one generalized major motor seizure prior to admission",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "agreement to wear a wristwatch throughout the duration of the study on the left wrist",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ability to cancel false positive alarms via interaction with the application on the watch",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "concurrent physiological diseases with movement disorders (Parkinson's, tremor, ataxia, Huntington's, paralysis of the upper body, pseudo-seizures)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "known allergic reactions to components of the (watch materials)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy and CHF, but no movement disorders or known allergies. He is able to give consent and comply with study procedures.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT04291716",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

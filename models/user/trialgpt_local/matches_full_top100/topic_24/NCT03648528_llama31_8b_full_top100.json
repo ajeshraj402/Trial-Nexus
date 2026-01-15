@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03648528",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "signed informed consent form",
+      "label": "met",
+      "evidence": "He is otherwise healthy"
+    },
+    {
+      "criterion": "ESRD with regular dialysis treatment for at least 3 months",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "levels of 25VD < 30 ng / ml",
+      "label": "met",
+      "evidence": "PSA level: 3.2 ng/mL"
+    },
+    {
+      "criterion": "levels of iPTH >300 ng/ml",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable doses of calcitrol or paricalcitol over the last 30 days",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congestive heart failure class III or IV",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "unstable angina or myocardial infarction or stroke during the previous 3 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active malignant neoplasm",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "use of any trial medication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy lower than 6 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "corrected calcemia \u2265 10.5 in the 2 months prior to recruitment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "intake of cholecalciferol or ergocalciferol in the 2 months prior to recruitment",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "prospective move to another city or transfer to PD in the following 6 months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. He is otherwise healthy.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT03648528",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

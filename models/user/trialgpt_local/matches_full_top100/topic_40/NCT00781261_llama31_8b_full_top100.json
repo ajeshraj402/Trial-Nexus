@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00781261",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "aged between 18-90 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "symptoms of pain and disability in at least one hip joint",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "positive MRI findings stage I or II on the ARCO classification",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous hip joint surgery on the affected hip",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe pain and disability at rest if treating clinician has recommended surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT00781261",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

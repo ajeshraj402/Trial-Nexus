@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04420325",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age > 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe aortic valve stenosis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "planned for cardiac catheterization as part of pre-operative (SAVR) or pre-percutaneous (TAVI) work up",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "intermediate (50-90%) coronary lesion that requires further evaluation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "male, or if female, has no childbearing potential or is not pregnant",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "emergency and/or the patient is unstable",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Haemodynamically unstable patients",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Killip class III-IV heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Previous coronary artery by-pass in the artery being assessed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contra-indications for adenosine administration: severe asthma or pre-existing type 2 AV-block",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No significant coronary artery disease (<50% stenosis on angiography)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Critical coronary artery disease deemed by the Heart Team to require immediate revascularization",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis and is planned for cardiac catheterization as part of pre-operative (SAVR) or pre-percutaneous (TAVI) work up. He does not have any exclusion criteria that would make him ineligible.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04420325",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

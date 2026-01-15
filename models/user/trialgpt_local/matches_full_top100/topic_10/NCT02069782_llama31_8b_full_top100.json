@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02069782",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "22yo"
+    },
+    {
+      "criterion": "pregnant_or_child_under_28_weeks",
+      "label": "met",
+      "evidence": "has a child under 28 weeks old"
+    },
+    {
+      "criterion": "home_visiting_program_eligible",
+      "label": "met",
+      "evidence": "selected to be in the study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "women_already_enrolled_in_home_visiting",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "children_in_foster_care",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "homeless_families",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has systemic mastocytosis with flares, but is otherwise healthy and responded well to treatment.",
+  "_meta": {
+    "topic_id": "10",
+    "trial_id": "NCT02069782",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

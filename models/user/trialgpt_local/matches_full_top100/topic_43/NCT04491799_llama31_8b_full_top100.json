@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04491799",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age more than 18 hear",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diarrhea more than 3 time per day after admitted in hospital more than 72 hours",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "intraabdominal pressure more than 12 mmHg",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patient on chemotherapy with neutropenia ,ANC less than 1,000/mm3",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients whose definite diagnosis cannot be obtained",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time).",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT04491799",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

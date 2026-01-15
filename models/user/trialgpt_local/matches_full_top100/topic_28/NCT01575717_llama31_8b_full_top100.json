@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01575717",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult patients (18 years and older)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of hepatocellular carcinoma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "On the list awaiting liver transplantation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Expected to receive care following liver transplantation at the Mount Sinai School of Medicine",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any race/ethnicity/socioeconomic status",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pediatric patient (less than 18 years of age)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Untreated primary hyperparathyroidism (ICD9 codes 252.01XX and 252.00XX)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Untreated hypercalcemia (serum calcium level > 11 mg/dl; ICD9 codes 275.42XX, 259.3XX, 252.00F)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy (will be determined by asking the patient and reviewing the medical record)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD, smokes 20 cigarettes per day, and uses Flomax for BPH.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT01575717",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

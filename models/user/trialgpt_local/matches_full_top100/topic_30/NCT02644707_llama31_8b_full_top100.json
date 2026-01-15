@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02644707",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "antithyroglobulin (anti-Tg) antibodies",
+      "label": "met",
+      "evidence": "TPO and / or Tg> 60 IU / ml"
+    },
+    {
+      "criterion": "Abnormal thyroid function that requires substitution treatment with L-thyroxine",
+      "label": "met",
+      "evidence": "TSH > 5 micro-units per milliliter (mcU/ml) and decreased or normal levels of fT4 or fT3"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of another chronic disease or autoimmune disease or being under medication",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age of diagnosis above 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, high anti-TPO levels, and abnormal thyroid function requiring substitution treatment. She is still overweight but her symptoms improved with Levothyroxine.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02644707",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02665325",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed differentiated thyroid carcinoma.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Undergo thyroidectomy according to the China thyroid association guidelines for the management of thyroid nodule and thyroid cancer.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Followed by TSH-suppressive therapy 6/12 months.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Current or past disorder/disease of the central nervous system or medical condition impacting cognitive functioning.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Head trauma history with prolonged loss of consciousness.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Epilepsy, dementia, or learning disability.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current or past psychotic-spectrum disorder or current major affective disorder.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current substance abuse/dependence.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Daily tobacco and alcohol use.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Whole brain irradiation or surgery.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior cancer diagnosis or chemotherapy treatment.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has Hashimoto's thyroiditis and is currently on Levothyroxine. Her symptoms have improved significantly, but she still experiences fatigue and weight gain.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02665325",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

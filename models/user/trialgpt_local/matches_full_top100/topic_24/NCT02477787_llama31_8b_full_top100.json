@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02477787",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Refractory AML",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226519 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky performance scale \u226570",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent signed",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant or lactating women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Abnormal liver function (total bilirubin \u2265 5.0 mg/dl, AST \u2265 5 times upper normal limits)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has refractory AML and meets age criteria. However, liver function is not explicitly stated as abnormal.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02477787",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

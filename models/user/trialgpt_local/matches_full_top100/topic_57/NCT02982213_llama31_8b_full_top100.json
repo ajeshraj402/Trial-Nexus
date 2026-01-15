@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02982213",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "pregnancy_status",
+      "label": "met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "breastfeeding_status",
+      "label": "met",
+      "evidence": "not breastfeeding"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "neuraxial_anesthesia_for_cesarean_delivery",
+      "label": "does_not_trigger",
+      "evidence": "no mention of cesarean delivery"
+    },
+    {
+      "criterion": "external_cephalic_version",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of hypertension in her mother. She is obese and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT02982213",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

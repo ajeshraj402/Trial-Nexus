@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04833621",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Being in the Intensive Care Unit",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Over the age of 18",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosed with sepsis/ septic shock",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under the age of 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Having a cardiac pacemaker",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has anaplastic astrocytoma of the spine with severe lower extremity weakness and urinary retention. They have received high-dose steroids, hypertension, and chronic pain management.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT04833621",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

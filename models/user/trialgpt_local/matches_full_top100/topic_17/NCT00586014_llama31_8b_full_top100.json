@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00586014",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "multi-agent based chemotherapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "time from last chemotherapy > 21 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "sensitive disease with decrease in serum or urine paraprotein levels of >50%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "performance status: -CALGB 0.1 or Karnofsky greater than 70%",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serum creatinine < 2 x upper limit of normal",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "bilirubin < 2 x upper limit of normal",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "transaminases < 2 x upper limit of normal",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MUGA resting EF > 50% or more than a 5% increase with exercise if <50%",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "DLCO > 60%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous bone marrow transplantation",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "HIV or HBsAG positive",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnant or lactating women",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with recurrent disease and systemic amyloidosis, on hemodialysis for ESRD. She was treated with various regimens including VAD, thalidomide, and velcade.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00586014",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

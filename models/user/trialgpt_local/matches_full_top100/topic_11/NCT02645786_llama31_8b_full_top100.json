@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02645786",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "thyroid cancer group",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "age less than 45 years old when receiving total or near-total thyroidectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serum level of TSH<0.1 mU/L in the intermediate -risk or TSH<0.3 mU/L in the low recurrence-risk group over 2 years before study entry",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "receiving TSH suppressive therapy for 5 to 9 years with fixed dose of LT4 more than 2 years before study entry",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no history of structural heart disease, arrhythmia, or cardiac symptoms (palpitation, exertional dyspnea and chest discomfort) during therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "control group",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "the subject matched to a patient by age (\u00b12 years), sex, and body mass index (BMI) (\u00b12 kg/m2)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "within the reference range of serum TSH (0.3-4.6 mU/L)",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "no history of structural heart disease, arrhythmia, or cardiac symptoms",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no history of comorbid diseases which affect thyroxine metabolism and cardiac structure, including hepatic or renal disease, anemia, and hypertension",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "who had arrhythmia in electrography or history of cardiac disease",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and a history of cardiac symptoms, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02645786",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

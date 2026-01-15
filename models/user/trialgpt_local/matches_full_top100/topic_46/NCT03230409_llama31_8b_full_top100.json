@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03230409",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age <18 years and starting anti-TB treatment due to close contact with a TB patient",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Latent Tuberculosis Infectious (LTBI) or Tuberculosis (TB) disease",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Referral from another center after anti-TB treatment had already begun",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with other chronic diseases requiring hospital follow-up and/or other chronic therapies",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT03230409",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

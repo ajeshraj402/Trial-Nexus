@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03633552",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Newly diagnosed glioblastoma and anaplastic astrocytoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 18 and 70 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Karnofsky Performance Scale Index equal or more than 60 percent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "The patients will initially undergo surgery.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "chronic hepatic failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "renal failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "cardiac failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "history of hematologic malignancies",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is undergoing treatment, which may trigger exclusion criteria. However, the overall assessment is likely ineligible due to the presence of cardiac failure.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT03633552",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00195923",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18"
+    },
+    {
+      "criterion": "appendicitis",
+      "label": "not_met",
+      "evidence": "non-perforated appendix"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "parental_permission",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT00195923",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

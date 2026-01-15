@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00677677",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 and \u2264 35",
+      "label": "met",
+      "evidence": "patient is a 37-year-old woman"
+    },
+    {
+      "criterion": "Solid Organ Transplant \u2265 3 months post-transplant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Outpatient status",
+      "label": "met",
+      "evidence": "the patient came to the clinic for a routine Pap smear"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unable to comply with protocol",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous HPV vaccination",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Anticoagulation (that precludes intramuscular injection)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Therapy for acute rejection in the past 2 weeks",
+      "label": "not_met",
+      "evidence": "the patient was offered a radical hysterectomy"
+    },
+    {
+      "criterion": "Febrile illness in the past 2 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Active CMV infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "History of anogenital warts or cervical intraepithelial neoplasia or cervical cancer",
+      "label": "met",
+      "evidence": "the test revealed stage 1B of cervical cancer"
+    }
+  ],
+  "notes": "The patient has three sexual partners and four children, smokes 30 packs/year, and drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00677677",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

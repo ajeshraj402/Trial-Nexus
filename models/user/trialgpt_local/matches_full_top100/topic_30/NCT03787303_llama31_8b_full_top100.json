@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03787303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater than or equal to 18",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Male or female with diagnosis of metastatic breast carcinoma and documented history of hypothyroidism.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "TSH level within normal range at baseline",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Life expectancy estimated > 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Ability and willingness to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy estimated to be less than 3 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Is currently pregnant or intends to become pregnant during the duration of the study",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but TSH level is within normal range at baseline. She has a history of hypothyroidism and metastatic breast carcinoma.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT03787303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

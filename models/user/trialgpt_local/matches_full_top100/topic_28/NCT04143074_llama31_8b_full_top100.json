@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04143074",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "children living in Gdansk",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "children with BMI above 85 percentile",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "consent of parent/ caregivers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "confirmed congenital or metabolic diseases connected with obesity risk",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lack of consent of parent/ caregivers",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04143074",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

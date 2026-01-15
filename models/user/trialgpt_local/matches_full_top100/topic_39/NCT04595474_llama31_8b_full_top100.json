@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04595474",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "patient text: A 3-day-old Asian female infant"
+    },
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "patient text: 3-day-old"
+    },
+    {
+      "criterion": "diagnosis of T1D",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating",
+      "label": "not_met",
+      "evidence": "patient text: The baby is breastfed"
+    },
+    {
+      "criterion": "active malignancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "secondary causes of fatty liver",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Uncomplicated neonatal jaundice that may require phototherapy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT04595474",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

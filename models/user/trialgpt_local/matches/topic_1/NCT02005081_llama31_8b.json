@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT02005081",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "The subject has failed conservative treatment and is a candidate for spinal fusion surgery.",
+      "label": "not_met",
+      "evidence": "Patient text does not mention failure of conservative treatment or candidacy for spinal fusion surgery."
+    },
+    {
+      "criterion": "The subject is \u226518 years old and of legal age of consent.",
+      "label": "met",
+      "evidence": "Patient is 45 years old, which meets the age criterion."
+    },
+    {
+      "criterion": "The subject is skeletally mature (epiphyses closed).",
+      "label": "unknown",
+      "evidence": "No information provided in patient text about skeletal maturity or epiphysis closure."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Subject has systemic infection or infection at the surgical site.",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not mention any infections."
+    },
+    {
+      "criterion": "Subject has a medical condition that would interfere with post-operative assessments and care (i.e., metabolic bone disease, neuromuscular disease, autoimmune disease, active malignancy, psychiatric disease, paraplegia, quadriplegia, etc.).",
+      "label": "does_not_trigger",
+      "evidence": "Patient has a history of anaplastic astrocytoma and chronic pain, but no other conditions mentioned."
+    },
+    {
+      "criterion": "Subject is pregnant/breastfeeding at the time of enrollment, or plans to become pregnant during the course of the study.",
+      "label": "does_not_trigger",
+      "evidence": "Patient text does not mention pregnancy or breastfeeding."
+    }
+  ],
+  "notes": "Unknowns include failure of conservative treatment and candidacy for spinal fusion surgery. Patient has a history of anaplastic astrocytoma, but no other exclusion criteria are clearly triggered.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02005081",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

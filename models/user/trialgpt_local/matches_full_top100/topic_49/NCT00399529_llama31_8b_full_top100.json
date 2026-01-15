@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00399529",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients with histologically confirmed HER-2/neu-overexpressing adenocarcinoma of the breast",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age 18 years or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to give informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No histologic documentation of breast adenocarcinoma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "History of autoimmune disease as detailed above",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 12 year old girl with Turner syndrome, not eligible for the trial due to age and autoimmune disease history.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT00399529",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

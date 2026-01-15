@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03955653",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cardiac catheterization or PCI",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no prior syncope",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Peripheral vascular disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Renal failure, Creatinine >2.5 mg/dL",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hemodynamic instability, acute myocardial infarction",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Heart failure with EF<25%",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, but is currently undergoing evaluation for PVD. He reports occasional dizziness and denies prior syncope.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03955653",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

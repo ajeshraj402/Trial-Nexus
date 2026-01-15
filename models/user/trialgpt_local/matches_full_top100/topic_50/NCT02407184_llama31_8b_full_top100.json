@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02407184",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Healthy mothers, 18-40 years old with uncomplicated pregnancies delivering at term (37 weeks or later)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mothers of any ethnic or social background that can speak, read, and understand English to the extent that they can consent in English OR mothers who do not speak English yet agree to come to an NYU hospital for all sampling.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Scheduled C-section",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vaginal pH \u2264 4 at the time of birth (as measured via pH paper)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mothers with pre-eclampsia or other serious chronic conditions",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mothers with complicated pregnancies",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mothers under 18 years of age or over 40 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Babies with complications during delivery",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Babies delivered prior to 37 weeks of gestation",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT02407184",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

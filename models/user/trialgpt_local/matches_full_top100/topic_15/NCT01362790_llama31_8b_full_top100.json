@@ -1,0 +1,68 @@
+{
+  "trial_id": "NCT01362790",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "histologically confirmed epithelial or biphasic mesothelioma not amenable to potentially curative surgical resection",
+      "label": "not_met"
+    },
+    {
+      "criterion": "at least one prior chemotherapy regimen with FDA approved regimen of a platinum-based therapy in combination with pemetrexed",
+      "label": "met"
+    },
+    {
+      "criterion": "histologically confirmed advanced (Stage IIIB/IV) lung adenocarcinoma",
+      "label": "not_met"
+    },
+    {
+      "criterion": "mesothelin expression in at least 5% of cells as assessed in archival tumor tissue samples",
+      "label": "unknown"
+    },
+    {
+      "criterion": "total Bilirubin less than or equal to 1.5 X institutional upper limit of normal (ULN)",
+      "label": "met"
+    },
+    {
+      "criterion": "subjects with recurrent, locally advanced unresectable or metastatic adenocarcinoma of the pancreas",
+      "label": "not_met"
+    },
+    {
+      "criterion": "total Bilirubin less than or equal to 2 X institutional upper limit of normal (ULN)",
+      "label": "met"
+    },
+    {
+      "criterion": "measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension",
+      "label": "not_met"
+    },
+    {
+      "criterion": "age greater than or equal to 18 years",
+      "label": "met"
+    },
+    {
+      "criterion": "performance status (Eastern Cooperative Oncology Group (ECOG)) less than or equal to 1",
+      "label": "not_met"
+    },
+    {
+      "criterion": "adequate organ and marrow function",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "symptomatic brain metastases",
+      "label": "triggers"
+    },
+    {
+      "criterion": "uncontrolled medical illness including, but not limited to, ongoing or uncontrolled, symptomatic congestive heart failure (American Heart Association (AHA) Class II or worse)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has a history of CAD and recently noted abdominal mass. She presents with fevers/rigors and bandemia. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01362790",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

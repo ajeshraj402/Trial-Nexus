@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02127398",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old woman"
+    },
+    {
+      "criterion": "clostridium difficile colitis episodes",
+      "label": "met",
+      "evidence": "three of more episodes within the previous 12 months"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "absolute neutrophil count",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "active infection at other sites",
+      "label": "not_met",
+      "evidence": "positive for Clostridium difficile toxin"
+    },
+    {
+      "criterion": "antibacterial therapy",
+      "label": "met",
+      "evidence": "intravenous antibiotics for aspiration pneumonia"
+    },
+    {
+      "criterion": "cytotoxic chemotherapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inflammatory bowel disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability to swallow capsules",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "indwelling tube",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and positive stool samples for Clostridium difficile toxin.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02127398",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

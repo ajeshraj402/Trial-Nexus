@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00703079",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "first-line surgery via trans-sphenoidal route by microscopic and/or endoscopic approach",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "first-line depot SSA treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "available follow-up after 60 months of treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "dopamine-agonists or pegvisomant",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "s.c. octreotide for longer than 15 days",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "radiotherapy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of acromegaly due to pituitary adenoma and underwent transsphenoidal surgery. He takes vitamin D and multivitamins post-surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00703079",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03173495",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "18,5 to 24,9 kg/m\u00b2"
+    },
+    {
+      "criterion": "sedentary lifestyle",
+      "label": "met",
+      "evidence": "< 150 minutes exercise per week"
+    },
+    {
+      "criterion": "fructose intake",
+      "label": "met",
+      "evidence": "< 25g per day"
+    },
+    {
+      "criterion": "otherwise healthy",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "smoker",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "drug user",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "using some medicine",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "fat metabolism disorders",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 22-year-old Caucasian man with a history of tremors since a year ago, confirmed Wilson disease by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT03173495",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

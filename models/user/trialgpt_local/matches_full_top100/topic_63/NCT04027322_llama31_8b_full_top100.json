@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04027322",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sore throat",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "gender",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating mother",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "recent use of oral or inhaled steroids within 7 days",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a sore throat, but is not pregnant and does not have recent steroid use. Further assessment needed to confirm eligibility.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04027322",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

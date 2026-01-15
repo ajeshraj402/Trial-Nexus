@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00312637",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosed with recent invasive breast cancer",
+      "label": "met",
+      "evidence": "cytologically confirmed breast cancer"
+    },
+    {
+      "criterion": "no previous ipsilateral axillary surgery",
+      "label": "met",
+      "evidence": "no previous ipsilateral axillary surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed with in situ disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous ipsilateral axillary surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "MRI/MRA contraindications",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contrast reaction to intravenous gadolinium-DTPA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "clinically not stable",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "cannot give consent",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with HER2-positive and ER/PR negative invasive ductal breast carcinoma, metastatic lesions on CXR.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT00312637",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04693390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children scheduled to undergo tonsillectomy with or without adenoidectomy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "American Society of Anesthesiologist (ASA) physical status I or II",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Coagulation disorders (pro-hemorrhagic status)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Neurological disorders (development delay)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04693390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01938157",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "high-risk of breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "asymptomatic",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least 21 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "palpable mass or nipple discharge",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "MRI/MRA contraindications",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "contrast reaction to intravenous gadolinium-DTPA",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to give consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "breast cancer within the last 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "pregnant",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "male patients",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "42 year-old postmenopausal woman with a history of breast cancer, using multivitamins and smoking frequently.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01938157",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

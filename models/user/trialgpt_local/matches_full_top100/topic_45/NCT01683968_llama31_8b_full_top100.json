@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01683968",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Data Management and Analysis Plan",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients older than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diagnosis of acute vaso-occlusive crisis due to sickle cell disease.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital heart disease",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Long standing hypertension",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a known history of sickle cell disease and is experiencing an acute vaso-occlusive crisis. They have provided informed consent.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01683968",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

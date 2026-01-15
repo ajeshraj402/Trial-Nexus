@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04140019",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "acute onset (>1 hour) chest pain",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hospital admission and scheduling for ICA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hs-cTn levels meeting the 'observe' criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 18 years - 85 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "refractory angina or on-going severe ischemia requiring immediate ICA",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients requiring ICA < 24 hours after admission",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT04140019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT03646019",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "admitted to the chest pain unit (CPU) in the Department of Internal Medicine",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "acute chest pain, suspected to be of cardiac origin and seems to be suitable for further investigation by a cardiac CT scan",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known CAD",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "allergy to iodine contrast agents",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asthma exacerbation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT03646019",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

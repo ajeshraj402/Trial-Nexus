@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02678949",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Informed written consent signed by a parent or guardian of the patient and assent if signed by the patient.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients from 7 to 17 years of age with a diagnosis of mild or moderate asthma according to the criteria of the Global Initiative for Asthma 2014 (Global Strategy for Asthma Management and Prevention. National Institutes of Health 2014), treated with inhaled steroids and who come to the outpatient clinic of Pediatric Pulmonology Service of Hospital Infantil de Mexico.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "An evolution of the asthma > 6 months.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to perform spirometry test and multiple-breath washout.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "No exacerbation of asthma in the past 4 weeks.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Accept a washout period (without treatment) for 1 week before the realization of studies of pulmonary function (visit 2).",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Do not suffer from any other chronic disease, other than asthma.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient with acute or chronic pulmonary disease other than asthma.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Asthma exacerbation during the week of the washout period.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of asthma and is currently using inhaled corticosteroids. He does not have any other chronic diseases and has not had an exacerbation of asthma in the past 4 weeks.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02678949",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02156947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic chronic cholelithiasis",
+      "label": "met",
+      "evidence": "laparoscopic cholecystectomy"
+    },
+    {
+      "criterion": "acute cholelithiasis",
+      "label": "met",
+      "evidence": "laparoscopic cholecystectomy in first 72-96 hours"
+    },
+    {
+      "criterion": "acute right upper quadrant abdominal pain",
+      "label": "met",
+      "evidence": "positive Murphy's sign"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "leukocytosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sonographically; distended GB",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of gallstones or sludge",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "GB wall thickness of 3-mm or more",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "sonographic Murphy's sign",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "symptomatic chronic cholelithiasis patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "acute cholelithiasis patients",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "laparoscopic cholecystectomy in first 72-96 hours",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "choledocholithiasis",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "<18 years old",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting. Elevated WBC with dominant neutrophils.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02156947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

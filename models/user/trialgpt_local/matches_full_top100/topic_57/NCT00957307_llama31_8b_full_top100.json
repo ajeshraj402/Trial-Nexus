@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00957307",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "woman"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "negative pregnancy test"
+    },
+    {
+      "criterion": "breast augmentation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "physical limitations",
+      "label": "met",
+      "evidence": "able to lie face down"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "male subjects",
+      "label": "triggers",
+      "evidence": "male"
+    },
+    {
+      "criterion": "women with implants",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain and vomiting, with a history of alcohol use. She has leukocytosis, urea elevation, high CRP, and amylase levels.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT00957307",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

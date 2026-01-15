@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00495963",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months"
+    },
+    {
+      "criterion": "ipss_score",
+      "label": "met",
+      "evidence": "15"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "does_not_trigger",
+      "evidence": "55 year old man"
+    },
+    {
+      "criterion": "age_less_than_1_month",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 55-year-old man with lower urinary tract symptoms and an IPSS score of 15. He has no other significant medical history.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT00495963",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

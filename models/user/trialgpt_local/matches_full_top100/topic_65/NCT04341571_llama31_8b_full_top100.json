@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT04341571",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "prediabetes_diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "bmi",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "stable_weight",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed_consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "kidney_disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "liver_disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "heart_disease",
+      "label": "met",
+      "evidence": "cardiomyopathy"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lactation_puerperium",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "physical_impossibility",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypersensibility",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "medication_effects",
+      "label": "met",
+      "evidence": "70/30 Insulin and vitamin D supplements"
+    },
+    {
+      "criterion": "systolic_blood_pressure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "diastolic_blood_pressure",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has cardiomyopathy and is taking ACE inhibitors and Beta blockers.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT04341571",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

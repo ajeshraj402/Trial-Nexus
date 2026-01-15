@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT02301390",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "history_of_mi",
+      "label": "met",
+      "evidence": "prior MI"
+    },
+    {
+      "criterion": "survival_of_vt_event",
+      "label": "met",
+      "evidence": "VT on telemetry"
+    },
+    {
+      "criterion": "amiodarone_treatment",
+      "label": "met",
+      "evidence": "currently treated with Amiodarone"
+    },
+    {
+      "criterion": "affordability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "understanding_study_requirements",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "adherence_to_study_restrictions",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "NYHA_class_IV_congestive_heart_failure",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "prior_ablation_for_vt",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "LV_thrombus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraindication_to_anticoagulation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "inability_to_access_endocardium",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "life_expectancy_less_than_1_year",
+      "label": "not_met",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT02301390",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

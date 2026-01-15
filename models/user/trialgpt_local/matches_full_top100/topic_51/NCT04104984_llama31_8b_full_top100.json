@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT04104984",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pregnant women with gestational age between 14-24 weeks and having singletone or multiple viable fetus",
+      "label": "met"
+    },
+    {
+      "criterion": "all patients will be followed up every 4 weeks by taking history, any complaint of new symptoms, compliance to treatment, obstetric exam and investigation if indicated till delivery and record the time of delivery or termination of pregnancy.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of cervical cercalage",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Family history will be obtained to determine any history of family preterm birth.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient is a 25-year-old pregnant woman with gestational age between 14-24 weeks. She has no history of cervical cercalage and her family history does not indicate a high risk of preterm birth.",
+  "_meta": {
+    "topic_id": "51",
+    "trial_id": "NCT04104984",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

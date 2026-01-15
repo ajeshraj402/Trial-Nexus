@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02119429",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Read, speak, and write English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Premenopausal",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Consuming estrogen supplements",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Taking hypertensive blood pressure medication",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Consuming pumpkin seed oil supplements",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Consuming pumpkin seeds more than once a month",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Wheat allergy or gluten intolerance",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Blood pressure > 140/90 mmHg",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a healthy woman with no underlying disease. She takes daily multivitamins and anti-hypertensive drugs.",
+  "_meta": {
+    "topic_id": "69",
+    "trial_id": "NCT02119429",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

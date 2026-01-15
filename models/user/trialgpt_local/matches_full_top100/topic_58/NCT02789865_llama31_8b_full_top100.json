@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02789865",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Alvarado scores \u22657",
+      "label": "met",
+      "evidence": "with or without US/CT"
+    },
+    {
+      "criterion": "acute appendicitis",
+      "label": "met",
+      "evidence": "diagnosed of uncomplicated"
+    },
+    {
+      "criterion": "US/CT suggested uncomplicated acute appendicitis",
+      "label": "met",
+      "evidence": "without Alvarado scores \u22657 but"
+    },
+    {
+      "criterion": "could not exclude acute appendicitis",
+      "label": "met",
+      "evidence": "or"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "perforated appendicitis",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "periappendiceal abscess",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "contraindications for colonoscopy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "allergy to contrast media or iodine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "unable to cooperate or provide informed consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, fever, tenderness, rebound tenderness, guarding on palpation, elevated WBC with dominant neutrophils, CT scan showing acute perforated appendicitis with free fluid in the pelvis, diagnostic laparoscopy revealing phlegmon. Candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT02789865",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

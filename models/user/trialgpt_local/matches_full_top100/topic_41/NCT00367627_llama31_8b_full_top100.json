@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00367627",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "not been suffering from serious chronic illness",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "the child stool test must be positive for STH",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "he/she had not been taken any antehelminthic drug in the previous six months",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age of the child less than 2 years old and more than 5 years old",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "his/her stool test negative for any intestinal helminth",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT00367627",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01501643",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with SS or S-Beta sickle cell disease aged more than 6 years old and less then 20 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hospitalised since less then 24 hours for severe vaso-occlusive crisis (either peripheric localisation or thoracic crisis) with morphinic requirements according to local pain management protocol",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "With a signed informed consent from the patient or his legal representative if the patient is under 18 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Benefiting of the French social security system",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient that has already participated in the study",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Oxygen requirements, pneumonia, acute chest syndrome or other condition necessitating non invasive ventilation on admission",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a known history of sickle cell disease and is experiencing severe bone pain. He has been treated with oxycodone without benefit.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01501643",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

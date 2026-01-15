@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01907334",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "parent/legal guardian and subject must be able to speak and understand English",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "patient must be willing and able to give assent to take part in the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed with asthma for at least 6 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "able to demonstrate inhalation technique with study device",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "if taking inhaled corticosteroids, dose must be stable for 2 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "female who has started menstruating",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "past or present history of any allergic reaction to any of the medications or formulations administered in this study",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT01907334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

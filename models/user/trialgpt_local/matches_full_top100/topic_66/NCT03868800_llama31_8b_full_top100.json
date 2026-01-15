@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03868800",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Estimated glomerular filtration rate below 20 ml/min",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "A clinical judgement made by the contact nurse and the contact physician",
+      "label": "met",
+      "evidence": "clinical judgement"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Conservative care",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "A set date for a transplantation with a living donor",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Not able to participate due to cognitive impairment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has Hashimoto disease, high TSH levels (15 mU/L), low free T4 levels (0.18 ng/dl) and extremely high anti-TPO levels (136 IU/ml).",
+  "_meta": {
+    "topic_id": "66",
+    "trial_id": "NCT03868800",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

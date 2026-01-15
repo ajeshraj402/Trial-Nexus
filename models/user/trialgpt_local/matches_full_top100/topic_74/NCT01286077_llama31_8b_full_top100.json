@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01286077",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult Multiple Myeloma patients in partial response or better after high dose chemotherapy and autologous stem cell transplantation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient fulfills defined laboratory requirements within 14 days before enrolment",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "If female, is either postmenopausal for more than 24 consecutive months or surgically sterilized or willing to use an acceptable method of birth control for defined period",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "If male, agree to use an acceptable barrier method of contraception and to not donate sperm up to 3 months following treatment",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient received another antimyeloma or experimental therapy following autologous stem cell transplantation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient has a peripheral neuropathy or neuropathic pain of grade 2 or greater intensity as defined by the NCI common terminology criteria of adverse event (NCI CTCAE) version 3.0",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is diagnosed with Paget's disease of bone and has a sister with the same condition.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01286077",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

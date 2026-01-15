@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01832753",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "33 years old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "female"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "subclinical hypothyroidism",
+      "label": "not_met",
+      "evidence": "TSH level 2.35 mU/L"
+    },
+    {
+      "criterion": "parental permission",
+      "label": "met",
+      "evidence": "patient's aunt, brother and mother have Hashimoto's thyroiditis"
+    },
+    {
+      "criterion": "negative pregnancy test",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "adherence to treatment",
+      "label": "met",
+      "evidence": "improved significantly after starting Levothyroxine"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy"
+    },
+    {
+      "criterion": "Type 1/2 diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "chronic medical conditions or medication use",
+      "label": "met",
+      "evidence": "no mention of chronic conditions or medications affecting growth, nutrition, blood glucose, insulin secretion, or thyroid function"
+    },
+    {
+      "criterion": "current levothyroxine use",
+      "label": "not_met",
+      "evidence": "patient is on Levothyroxine treatment"
+    },
+    {
+      "criterion": "cyanotic congenital heart disease",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but no other exclusion criteria mentioned. Overall assessment: likely eligible.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01832753",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

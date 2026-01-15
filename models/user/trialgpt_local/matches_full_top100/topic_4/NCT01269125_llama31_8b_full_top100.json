@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01269125",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "infertility",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "mild endometriosis (until stage II)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ovarian endometrioma > 2 cm",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "FSH > 12 mIU/ml",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of PCOS and obesity, but presented with Burkitt's lymphoma. Further evaluation is needed to confirm eligibility.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT01269125",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

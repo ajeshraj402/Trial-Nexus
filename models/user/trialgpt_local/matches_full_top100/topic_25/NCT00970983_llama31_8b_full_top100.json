@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00970983",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age between 40 and 75 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Clinical, mammographic or ultrasonographic diagnosis of a unicentric carcinoma with an ultrasonographic diameter of equal or less than 2.0 cm.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "for accurate determination of possible multifocality or multicentricity of the tumor, as well as for the determination of possible bone metastasis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Axillary lymph nodes that cannot be palpated or that are not clinically suspicious for metastasis.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with a history of breast cancer, currently using multivitamins and smoking frequently.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT00970983",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

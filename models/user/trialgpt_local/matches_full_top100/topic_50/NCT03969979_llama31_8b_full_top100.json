@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03969979",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "followed-up and treated in the Department of Pediatric Surgery at Trakya University due to epidididymo-orchitis",
+      "label": "met",
+      "evidence": "diagnostic laparoscopy"
+    },
+    {
+      "criterion": "18 years old or younger",
+      "label": "met",
+      "evidence": "5 months old"
+    },
+    {
+      "criterion": "Approval by the legal guardian",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Bilateral epididymo-orchitis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Testicular pathology other than epididymo-orchitis (undescended testis, testicular torsion)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Scrotal surgery (due to epididymoorchitis or not)",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Older than 18 years old",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, diagnosed via diagnostic laparoscopy.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03969979",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

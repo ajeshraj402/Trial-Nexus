@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01915004",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Children aged 6-10 years old",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bladder Dysfunction (Diagnosis of NLUTD or DES)",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Grade 3 or 4 hydronephrosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Grade 3, 4 or 5 vesicoureteral reflux",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other diagnoses which affect bladder bowel function (i.e. Spina Bifida)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "English as a second language",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosed learning disability (i.e. ADD or ADHD)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mental health condition (i.e. anxiety or depression)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Received intensive urotherapy and biofeedback in past 12 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Child is diagnosed with primary nocturnal enuresis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has neurogenic bladder, recurrent UTIs, and multiple prior admissions for urosepsis. Urologist not concerned with leaking around suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT01915004",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

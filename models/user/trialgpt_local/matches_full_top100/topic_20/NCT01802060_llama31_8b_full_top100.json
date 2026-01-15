@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01802060",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Aged 18 - 40 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Menstrual cycle length between 23 and 35 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Had two natural cycles prior to study participation",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Using non-hormonal contraception to avoid pregnancy OR abstaining from intercourse for the last three months and the present cycle",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwilling to provide written informed consent to participate in the study or comply with study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Breastfeeding",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has menopausal symptoms such as night sweats or hot flushes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Using any hormonal treatments e.g. hormonal contraception, fertility treatments and hormone replacement therapy (except thyroxin)",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has history of acne and mild hirsutism, elevated testosterone levels, and a macroadenoma with no invasion.",
+  "_meta": {
+    "topic_id": "20",
+    "trial_id": "NCT01802060",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

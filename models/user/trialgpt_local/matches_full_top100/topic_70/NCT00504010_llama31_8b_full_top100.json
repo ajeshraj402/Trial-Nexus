@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00504010",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46-year-old"
+    },
+    {
+      "criterion": "two fully functional legs",
+      "label": "met",
+      "evidence": "has two legs"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "allergy or sensitivity to the ester family",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "open wound or inflammatory condition on legs",
+      "label": "not_met",
+      "evidence": "no open wounds mentioned"
+    },
+    {
+      "criterion": "chronic or acute leg pain",
+      "label": "met",
+      "evidence": "complains of loss of energy, but no chronic/acute leg pain mentioned"
+    },
+    {
+      "criterion": "neuropathy involving one or both legs",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has MDD and is on anti-depressants for the past 6 months. Her symptoms are still present.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT00504010",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

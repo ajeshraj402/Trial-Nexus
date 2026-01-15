@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04738864",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46-year-old man"
+    },
+    {
+      "criterion": "Beh\u00e7et's Disease",
+      "label": "met",
+      "evidence": "fulfill the modified International Criteria"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hyperlipidemia",
+      "label": "not_met",
+      "evidence": "LDL-C and HDL-C levels were 545 and 53\u2009mg/dL, respectively"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "no other cardiovascular risk factors such as smoking, high blood pressure"
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "not_met",
+      "evidence": "fasting glucose and triglyceride levels (85 and 158\u2009mg/dL, resp.) were within normal limits"
+    },
+    {
+      "criterion": "patients under 16 years old",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "all other risk factors affecting blood vessel intimal thickness",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT04738864",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT00071305",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "man"
+    },
+    {
+      "criterion": "race_ethnicity",
+      "label": "met",
+      "evidence": "any race or ethnicity"
+    },
+    {
+      "criterion": "epilepsy_type",
+      "label": "met",
+      "evidence": "intractable epilepsy"
+    },
+    {
+      "criterion": "surgical_candidate",
+      "label": "met",
+      "evidence": "deemed surgical candidates"
+    },
+    {
+      "criterion": "accept_surgery",
+      "label": "met",
+      "evidence": "accept epilepsy surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "41 year old man"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "surgical_candidate",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "accept_surgery",
+      "label": "met",
+      "evidence": "accept epilepsy surgery"
+    },
+    {
+      "criterion": "progressive_neurological_disorder",
+      "label": "not_met",
+      "evidence": "no further events during the hospital course"
+    },
+    {
+      "criterion": "cooperation_with_recordings",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "previous_brain_surgery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00071305",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT03442400",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "coronary stenoses between 40-70% severity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe aortic stenosis undergoing TAVR work-up",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "documented intraprocedural hemodynamic instability, shock, or major adverse event",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication to adenosine",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of cardiogenic shock",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "presence of acute coronary syndrome",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe aortic stenosis and is undergoing TAVR work-up, but does not have documented intraprocedural hemodynamic instability or cardiogenic shock.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT03442400",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

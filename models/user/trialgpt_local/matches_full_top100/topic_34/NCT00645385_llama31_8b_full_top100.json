@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT00645385",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "47-year-old"
+    },
+    {
+      "criterion": "gender",
+      "label": "met",
+      "evidence": "Asian woman"
+    },
+    {
+      "criterion": "histologic diagnosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "lesion location",
+      "label": "met",
+      "evidence": "solitary, supratentorial lesions that do not cross the midline"
+    },
+    {
+      "criterion": "performance status",
+      "label": "met",
+      "evidence": "HAM-D score is 20 (not clear if this is a performance status measure)"
+    },
+    {
+      "criterion": "survival expectancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hematologic reserve",
+      "label": "met",
+      "evidence": "WBC>=3000/mm3, absolute neutrophils >=1500/mm3 and platelets >=100,000/ mm3"
+    },
+    {
+      "criterion": "chemistry parameters",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "contraception agreement",
+      "label": "met",
+      "evidence": "She must agree to use a medically effective method of contraception during and for a period of three months after the treatment period."
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": "Informed consent must be obtained at the time of patient screening."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypersensitivity or allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "multifocal CNS disease",
+      "label": "not_met",
+      "evidence": "solitary, supratentorial lesions that do not cross the midline"
+    },
+    {
+      "criterion": "prior CNS tumor",
+      "label": "not_met",
+      "evidence": "There is nothing remarkable in her past medical history"
+    },
+    {
+      "criterion": "pregnancy or lactation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "posterior Fossa or Brain stem tumor",
+      "label": "not_met",
+      "evidence": "solitary, supratentorial lesions that do not cross the midline"
+    },
+    {
+      "criterion": "ventricular system communication",
+      "label": "not_met",
+      "evidence": "solitary, supratentorial lesions that do not cross the midline"
+    },
+    {
+      "criterion": "concurrent severe medical or psychiatric illness",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "significant intercurrent medical or psychiatric conditions",
+      "label": "not_met",
+      "evidence": "There is nothing remarkable in her past medical history"
+    }
+  ],
+  "notes": "The patient has a HAM-D score of 20, indicating significant depressive symptoms. She also reports loss of energy and feelings of worthlessness nearly every day.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT00645385",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

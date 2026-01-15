@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT00128869",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary complaint of neck pain with duration of symptoms greater than 4 weeks",
+      "label": "met",
+      "evidence": "patient report"
+    },
+    {
+      "criterion": "Age between 18-60 years old",
+      "label": "met",
+      "evidence": "patient age"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Red flags from the medical neck screening questionnaire to include tumor, fracture, metabolic disease, rheumatoid arthritis (RA), osteoporosis, prolonged history of steroid use.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of whiplash injury",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of cervical spinal stenosis",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bilateral upper extremity symptoms",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Evidence of central nervous system involvement to include hyperreflexia, sensory disturbances in the hand, intrinsic muscle wasting of the hands, unsteadiness during walking, nystagmus, loss of visual acuity, impaired sensation of the face, altered",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient presents with a severe 'exploding' headache following a head injury. She has abnormal vasculature consistent with AVM and is improving with pain medication.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT00128869",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

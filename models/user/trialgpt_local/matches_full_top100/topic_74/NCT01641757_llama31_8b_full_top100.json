@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01641757",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Chronic Kidney Disease patients, who are receiving hemodialysis therapy for >3 months.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "of all ages and both gender and are able to give informed consent.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have at least 14 teeth (excluding third molars) in oral cavity shall be included in study.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients have had periodontal therapy <1 year.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetes Mellitus",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Liver disease",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has Paget's Disease of Bone and is starting Bisphosphonate therapy. His sister had the same problems.",
+  "_meta": {
+    "topic_id": "74",
+    "trial_id": "NCT01641757",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

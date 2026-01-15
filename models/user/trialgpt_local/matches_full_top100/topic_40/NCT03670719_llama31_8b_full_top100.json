@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03670719",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 year old man"
+    },
+    {
+      "criterion": "chronic cervical pain",
+      "label": "met",
+      "evidence": "complaining of frequent headaches, generalized bone pain and difficulty chewing"
+    },
+    {
+      "criterion": "positive flexion rotation test",
+      "label": "met",
+      "evidence": "flexion rotation test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "recent spine surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "diabetes mellitus",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "recent infection and/or inflammatory arthritis, and cervical and/or brain traumatism",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Paget's Disease of Bone with increased uptake of radioactive substance and urinary pyridinoline.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT03670719",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

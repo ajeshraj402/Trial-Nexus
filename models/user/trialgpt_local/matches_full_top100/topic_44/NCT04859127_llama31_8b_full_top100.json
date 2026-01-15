@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04859127",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Between the ages of 18-65",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Have neck pain that lasts longer than 3 months",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Volunteer patients diagnosed with chronic neck pain by a specialist",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Has not experienced neck pain for the last 1 year",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Having had cervical spine and shoulder surgery",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Neck pain caused by different pathologies (tumor, rheumatoid arthritis, ankylosing spondylitis, fracture, dislocation)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04859127",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

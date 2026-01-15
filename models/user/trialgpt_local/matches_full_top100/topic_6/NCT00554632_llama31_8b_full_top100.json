@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00554632",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "55yo woman"
+    },
+    {
+      "criterion": "hormones",
+      "label": "not_met",
+      "evidence": "no hormones for at least 2 months prior to enrollment"
+    },
+    {
+      "criterion": "post_partum",
+      "label": "met",
+      "evidence": "more than 3 months post-partum"
+    },
+    {
+      "criterion": "health_status",
+      "label": "met",
+      "evidence": "Generally healthy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "hypertension",
+      "label": "not_met",
+      "evidence": "no mention of uncontrolled hypertension"
+    },
+    {
+      "criterion": "coagulation_disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "migraine_headaches",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00554632",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

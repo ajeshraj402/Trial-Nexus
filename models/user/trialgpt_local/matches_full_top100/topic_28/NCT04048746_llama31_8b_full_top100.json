@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04048746",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60-year-old"
+    },
+    {
+      "criterion": "asthma",
+      "label": "met",
+      "evidence": "COPD since 2 years ago, Duo-Neb inhaled q4 hr PRN"
+    },
+    {
+      "criterion": "emergency_patient_counselor",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "followed_by_general_practitioner",
+      "label": "met",
+      "evidence": "followed for his asthma in town by a general practitioner"
+    },
+    {
+      "criterion": "francophone",
+      "label": "met",
+      "evidence": "Spanish man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "opposition_to_participation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "under_tutorship_or_curatorship",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "deprived_of_liberty",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "under_safeguard_of_justice",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. He has COPD and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04048746",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

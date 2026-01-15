@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00647998",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "44 year old female"
+    },
+    {
+      "criterion": "surgical repair",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "informed consent",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "traumatic aortic dissection",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "baseline NIHSS > 1 or modified Rankin Scale > 1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of stroke or myocardial infarction within the past 30 days",
+      "label": "not_met",
+      "evidence": "no recent history of stroke or MI"
+    },
+    {
+      "criterion": "preoperative hemoglobin < 9 or > 14",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of polycythemia vera or essential thrombocytosis",
+      "label": "not_met",
+      "evidence": "no history of PV or ET"
+    },
+    {
+      "criterion": "history of hematologic malignancy",
+      "label": "met",
+      "evidence": "Burkitt's lymphoma"
+    },
+    {
+      "criterion": "history of arterial or venous thrombosis in the past three months",
+      "label": "not_met",
+      "evidence": "no recent history of thrombosis"
+    },
+    {
+      "criterion": "uncontrolled hypertension",
+      "label": "met",
+      "evidence": "HTN"
+    }
+  ],
+  "notes": "Patient has Burkitt's lymphoma and a large pericardial effusion, but no recent history of stroke or MI. HTN is present.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT00647998",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

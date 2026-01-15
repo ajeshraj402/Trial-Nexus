@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02834819",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Patients presenting to Children's Hospital Colorado ED",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u22653 to \u226418 months of age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosed with bronchiolitis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Have persistent hypoxia following initial supportive care measures as outlined by Children's Hospital Colorado Bronchiolitis Clinical Care Guideline",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Started on Children's Hospital Colorado Home Oxygen Pathway",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who do not qualify for the Clinical Care Guideline for Home oxygen for Bronchiolitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Previous history of wheezing",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of reactive airway disease",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of underlying heart disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Require >0.5L oxygen",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of COPD, OSA, and obesity hypoventilation syndrome, which may indicate underlying respiratory issues that could impact eligibility for the trial.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02834819",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

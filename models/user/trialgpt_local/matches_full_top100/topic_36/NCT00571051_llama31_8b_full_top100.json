@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00571051",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "You are between ages 18-50"
+    },
+    {
+      "criterion": "handedness",
+      "label": "met",
+      "evidence": "You are right-handed"
+    },
+    {
+      "criterion": "MRI_scan",
+      "label": "met",
+      "evidence": "You have no metal implants or other metal objects or medical devices that would make a MRI scan unsafe for you"
+    },
+    {
+      "criterion": "study_instructions",
+      "label": "met",
+      "evidence": "You are able to follow study instructions and can read and write English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "systemic_musculoskeletal_diseases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurological_conditions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "depression",
+      "label": "unknown",
+      "evidence": "Her cardiac assessment is normal. Her joints and ROM are within  normal."
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "She doesn't use any contraceptive methods for the past 4 months"
+    },
+    {
+      "criterion": "meditation_practice",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She likes to try diets and exercise to lose weight.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT00571051",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "trial_id": "NCT04782037",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mayo Hospital",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed written consent from parents/guardians",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Detailed history and examination by investigator",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Randomization in two groups - A and B",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Treatment regimen according to WHO guidelines",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children under 1 year of age receive L-methylfolate calcium",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children older than 1 year of age receive zinc sulphate",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Frequency and grades of loose stools assessed daily",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Children aged 2months- 5 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Both genders",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acute watery diarrhea as per operational definition",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diarrhea of less than 7-day duration",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severely malnourished children <3 SD",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Bloody diarrhea",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prolonged (7-14 days duration), persistent (>14 days duration) or chronic diarrhea (>4weeks duration)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Those who received folic acid within the last 14 days",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hospital-acquired diarrhea (diarrhea occurring after 48hrs of stay in hospital)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Antibiotic-associated diarrhea",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of other co morbid conditions like pneumonia, sepsis, meningitis, etc.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has acute watery diarrhea and meets most inclusion criteria. However, presence of bloody diarrhea is a concern for exclusion.",
+  "_meta": {
+    "topic_id": "52",
+    "trial_id": "NCT04782037",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04385589",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age more than 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetic patient type 2 with history of chronic heart failure(HFrEF)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Admission for acute decompensated heart failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "an oral loop diuretic for at least 1 month before admission",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Diabetic patient type 2 with history of chronic heart failure(HFrEF)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other etiologies of fluid overload different from heart failure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hyponatremia: Sodium level below 125mmol/l",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unstable patients: acute coronary syndrome, cardiogenic shock ",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients requiring inotropic agents or renal dialysis",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age.",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT04385589",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

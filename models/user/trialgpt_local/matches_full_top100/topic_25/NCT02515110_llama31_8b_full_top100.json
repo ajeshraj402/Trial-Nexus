@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02515110",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Karnofsky performance status of 70-100%",
+      "label": "met"
+    },
+    {
+      "criterion": "Histologic documentation of invasive adenocarcinoma of the breast",
+      "label": "met"
+    },
+    {
+      "criterion": "One of the breast disease stages listed below:",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known definitive clinical or radiologic evidence of metastatic disease",
+      "label": "triggers"
+    },
+    {
+      "criterion": "T4 tumors including inflammatory breast cancer",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Clinical nodal staging of N2 or N3 disease",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT02515110",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

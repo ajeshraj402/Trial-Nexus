@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02948491",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "neonates treated in neonatal intensive care units",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "dates on which the sample will be taken",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "clinical evaluation by neonatologist indicating possible participation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "neonate's gestational age between 28 and 37 weeks",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "mother is not able to give consent due to mental incapacity",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, treating with GH, obese and mentally retarded.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT02948491",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

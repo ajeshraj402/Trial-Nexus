@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01723943",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spouse_of_woman_diagnosed_with_breast_cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "married_or_cohabiting_for_at_least_6_months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "english_as_one_of_languages_of_choice",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "live_within_25_miles_of_university_of_washington_study_center",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willing_to_give_sample_of_blood_and_or_sputum_at_time_of_first_and_second_data_collections",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "stage_iv_or_recurrent_breast_cancer",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "more_than_6_months_post_diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "woman_and_or_spouse_not_able_to_read_and_write_in_english",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has been on anti-depressants for the past 6 months, but symptoms are still present. She does not drink alcohol or smoke.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01723943",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

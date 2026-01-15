@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02609009",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "10 to 17-year-old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "English or French"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "AIS established by orthopaedists"
+    },
+    {
+      "criterion": "pain_score",
+      "label": "met",
+      "evidence": "pain score over 3 on scale of 0-10"
+    },
+    {
+      "criterion": "mechanical_back_pain_duration",
+      "label": "met",
+      "evidence": "at least six consecutive weeks duration"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "suffering_from_metabolic_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "suffering_from_malignant_condition",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "structural_disturbances_of_spine",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT02609009",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

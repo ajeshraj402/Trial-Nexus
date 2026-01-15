@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT03008005",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age between 18-50 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Current PTSD diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinically significant medical or neurologic condition or neurocognitive dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "that would affect function and/or task performance and/or interfere with the study protocol",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any current (or within past 2 months) medical condition requiring medication that would interact with dronabinol or interfere with the study protocol",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "risk of harm to self or others that requires immediate intervention",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of contraindications, current or past allergic or adverse reaction, or known sensitivity to cannabinoid-like substances (dronabinol/marijuana/cannabis/THC, cannabinoid oil, sesame oil, gelatin, glycerin, and titanium dioxide)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "lack of fluency in English",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "positive drug screen or alcohol breathalyzer",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unwilling/unable to sign informed consent document",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 32-year-old obese woman who came to the clinic with weight concerns. She has a current PTSD diagnosis and meets several inclusion criteria, but also has some exclusion criteria that need to be considered.",
+  "_meta": {
+    "topic_id": "36",
+    "trial_id": "NCT03008005",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

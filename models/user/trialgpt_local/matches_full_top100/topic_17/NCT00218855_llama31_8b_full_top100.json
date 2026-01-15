@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00218855",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "multiple myeloma in need of treatment",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient is a woman",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "previous treatment against multiple myeloma",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "need of high dose chemotherapy with autologous stem cell support",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multiple myeloma and is in need of treatment. Previous treatment against multiple myeloma and need of high dose chemotherapy with autologous stem cell support are likely triggers for exclusion.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00218855",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

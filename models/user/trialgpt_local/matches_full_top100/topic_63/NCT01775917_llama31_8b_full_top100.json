@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01775917",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "known abortion",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "known missed abortion with CRL no larger than 8 weeks of pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who got a clear explanation about all treatment options and they chose misoprostol",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who read and signed an informed consent form",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known allergy to prostaglandins or NSAIDS",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "heavy vaginal bleeding and hemodynamic instability",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of hypercholesterolemia, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT01775917",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

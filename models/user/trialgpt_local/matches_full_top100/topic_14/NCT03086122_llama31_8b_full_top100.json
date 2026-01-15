@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03086122",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "obstructive sleep apnea syndrome",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "erectile dysfunction",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiovascular diseases",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "neurological diseases",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of pelvic or retroperitoneal surgery",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of cardiovascular disease and neurological disease, which are exclusion criteria. Overall assessment is likely ineligible.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03086122",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT03701737",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with moderate to severe OSA (apnea and hypopnea index > 15/h) for whom a CPAP is indicated",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Obese patient (body mass index > 30 kg/m2)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adult Patient",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient who has given oral consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient speaks and reads French",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient affiliated to a the national health insurance system",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Person subject to a legal protection measure (curatorship, guardianship)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnant, parturient or breastfeeding woman",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Major unable or unwilling to consent",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Psychiatric, cognitive or neurological disorders making it impossible to assess food preferences",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Eating disorders (anorexia, bulimia)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient suffering from an acute infection, progressive cancer or under treatment interfering with taste",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient consuming alcohol daily",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient who smokes actively or has quit for less than 6 months",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT03701737",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

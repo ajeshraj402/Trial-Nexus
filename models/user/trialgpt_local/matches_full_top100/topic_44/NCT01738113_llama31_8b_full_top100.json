@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT01738113",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Referred from an orthopedic surgeon with diagnosis of tibial lengthening or deformity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "correction by Ilizarov's external fixator.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "unilateral or bilateral tibial distraction osteogenesis.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients with Ilizarov due to neurological causes (e.g. poliomyelitis) or other",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neuromusculoskeletal disease that could affect muscle function and innervations.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "14-year-old boy with scoliosis and back pain, candidate for scoliosis surgery.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT01738113",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03066999",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "78 year-old male"
+    },
+    {
+      "criterion": "standard indication for difficult urinary catheterization",
+      "label": "met",
+      "evidence": "h/o BPH s/p multiple urological procedures"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "78 year-old male"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He requires surgical fixation of a severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03066999",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

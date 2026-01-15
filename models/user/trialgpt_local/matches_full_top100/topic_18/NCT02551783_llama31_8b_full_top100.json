@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02551783",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Strictures must predominantly include the proximal and/or mid bulbar urethra",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "otherwise amenable to buccal graft onlay urethroplasty",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Strictures may extend from the mid-bulbar urethra up to the distal bulbar urethra within the scrotum, but not through the scrotum to the pendulous junction",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Subjects able to consent for themselves",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior open urethral surgery, such as prior urethroplasty",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "radiation therapy to the pelvis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a severe bulbar urethral stricture that is amenable to buccal graft onlay urethroplasty.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02551783",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

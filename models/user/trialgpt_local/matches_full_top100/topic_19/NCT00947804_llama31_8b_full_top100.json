@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00947804",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Mental Competence",
+      "label": "met",
+      "evidence": "patient can articulate symptoms and risk factor profile"
+    },
+    {
+      "criterion": "Age",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptoms",
+      "label": "met",
+      "evidence": "presyncope, nausea, no chest pain"
+    },
+    {
+      "criterion": "Risk Factors",
+      "label": "met",
+      "evidence": "history of CAD, MI, HLD, HTN, ventricular tachycardia"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Renal Disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Wolff-Parkinson-White Syndrome",
+      "label": "triggers",
+      "evidence": "EKG displays DELTA WAVES"
+    }
+  ],
+  "notes": "Patient has a history of CAD, MI, HLD, HTN, and ventricular tachycardia. He recently experienced an episode of monomorphic VT on telemetry.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00947804",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT01660997",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically confirmed Smoldering Multiple Myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Serum M-protein greater than or equal to 3 g/dl and/or bone marrow plasma cells greater than or equal to 10 %",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of anemia: Hemoglobin >10 g/dl",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Absence of renal failure: calculated creatinine clearance (according to MDRD) > 80 ml/min",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "ECOG performance status <2",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Ability to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients must have normal organ and marrow function as defined below: absolute neutrophil count >1.0 K/uL",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Platelets >75 K/uL (Platelet transfusions to help patients meet eligibility criteria are not allowed within 3 days before study enrollment.)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hemoglobin > 8 g/dL(transfusions are permissible)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Total bilirubin <1.5 X institutional upper limit of normal",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "AST(SGOT)/ALT(SGPT) < 3.0 X institutional upper limit of normal",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are receiving any other investigational agents not included in this trial, within 21 days of the start of this trial and throughout the duration of this trial.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior therapy for SMM with a proteasome inhibitor.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with a diagnosis of MM.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has been treating with corticosteroid and cyclophosphamides since 4 months ago. His Birmingham Vasculitis Activity Score (BVAS) is above 4 since the beginning of his disease.",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT01660997",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

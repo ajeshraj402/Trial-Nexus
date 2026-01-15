@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02675140",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Apparent health",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hb concentration <110 g/l but not <80 g/l",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "C-reaction protein (CRP) <10 mg/L",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Parental or guardian approval of participation in all aspects of the study",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Parental/guardian agreement to avoid the additional use of vitamin and mineral supplements and de-hookworm administration during the trial.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Children with Hb<80 g/l and /or CRP >10 mg/l were sent to hospital with special treatment",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, confirmed by high liver copper concentration. He has a constant smile on his face but aggressive behavior.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02675140",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

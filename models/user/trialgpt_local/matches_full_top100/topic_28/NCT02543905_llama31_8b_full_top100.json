@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02543905",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men with either: A positive family history of PrCa defined as:",
+      "label": "met",
+      "evidence": "The patient's brother has HTN."
+    },
+    {
+      "criterion": "Of African or Caribbean ancestry defined as:",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age 40- 69 years",
+      "label": "met",
+      "evidence": "The patient is 60 years old."
+    },
+    {
+      "criterion": "WHO performance status 02 (see Appendix A)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of any psychological, familial, sociological or geographical situation potentially hampering compliance with the study protocol and follow up schedule.",
+      "label": "met",
+      "evidence": "The patient is oriented and conscious."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous cancer with a life expectancy of less than five years.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Previous PrCa",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Comorbidities making prostate biopsy risk unacceptable (Warfarin or Clopidogrel).",
+      "label": "not_met",
+      "evidence": "The patient is not taking Warfarin or Clopidogrel."
+    }
+  ],
+  "notes": "The patient has a history of COPD and BPH, but these conditions do not appear to be severe enough to exclude him from the study. He is also obese, which may pose some risks during the biopsy procedure, but this does not necessarily exclude him from participation.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02543905",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00592618",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "ESRD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "treated with chronic hemodialysis in Assaf Harofeh Medical Center",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "suffering from sleep disturbances, such as frequent arousals, snoring, daytime sleepiness",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Recently started treated with chronic dialysis: less than 3 months.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Survived recent major illness, requiring hospitalisation in the last 3 months.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with acute renal failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently treated with antioxidants ( NAC, vitamin E ets.)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current use of sleep pills",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status with hypoxia and O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT00592618",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

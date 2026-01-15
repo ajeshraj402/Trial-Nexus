@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03351634",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "spinal dysraphism",
+      "label": "met",
+      "evidence": "s/p CVA"
+    },
+    {
+      "criterion": "neurogenic sphincteric incontinence",
+      "label": "met",
+      "evidence": "Neurogenic bladder s/p suprapubic cath"
+    },
+    {
+      "criterion": "normal renal function",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no upper urinary tract dilatation",
+      "label": "met",
+      "evidence": "Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures"
+    },
+    {
+      "criterion": "botox injection for non-compliant bladder",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "renal insufficiency",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "evolutive deterioration of the upper urinary tract",
+      "label": "not_met",
+      "evidence": "Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures"
+    },
+    {
+      "criterion": "active systemic or urinary tract infections",
+      "label": "met",
+      "evidence": "Recurrent UTIs with Klebsiella/Pseudomonas"
+    },
+    {
+      "criterion": "unmanageable detrusor instability",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "reduced bladder compliance",
+      "label": "not_met",
+      "evidence": "Significant leaking around suprapubic cath site"
+    },
+    {
+      "criterion": "residual volume greater than 100 ml after voiding",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CVA, neurogenic bladder with indwelling suprapubic catheter and recurrent UTIs. They have a non-obstructing stone in the L ureter and significant leaking around the suprapubic cath site.",
+  "_meta": {
+    "topic_id": "13",
+    "trial_id": "NCT03351634",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

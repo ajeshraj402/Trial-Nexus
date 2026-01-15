@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00042159",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "persistent auditory hallucinations",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of neurological disorder",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "serious, unstable medical conditions",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "active drug or alcohol abuse",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of hypertension and hypercholesterolemia, but these conditions are likely treated and stable. He does not have any signs of dementia.",
+  "_meta": {
+    "topic_id": "75",
+    "trial_id": "NCT00042159",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

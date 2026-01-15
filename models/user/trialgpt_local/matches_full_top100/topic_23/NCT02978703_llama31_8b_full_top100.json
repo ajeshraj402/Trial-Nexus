@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02978703",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "patients selected for treatment with the inhaled combination of propionic Fluticasone and Salmeterol (500+50)mcg - Rolenium- administered with Elpenhaler device",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FEV1 <50% predicted normal (pre-bronchodilator)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "a history of repeated exacerbations who have significant symptoms despite regular bronchodilator therapy treated in Hospital outpatient specialist ward settings, in the daily clinical practice",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "have signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "be compliant with study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients not selected for treatment with the inhaled combination of propionic Fluticasone and Salmeterol (500+50)mcg - Rolenium- administered with Elpenhaler device",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "FEV1 >50% predicted normal (pre-bronchodilator)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "no history of repeated exacerbations",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of asthma and frequent cough, wheezing, and shortness of breath. He is currently using inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02978703",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

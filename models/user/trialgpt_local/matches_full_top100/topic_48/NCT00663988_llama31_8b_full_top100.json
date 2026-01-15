@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart",
+      "label": "met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "normal function of liver",
+      "label": "met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "normal function of kidney",
+      "label": "met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "met",
+      "evidence": "no mention of different blood types"
+    },
+    {
+      "criterion": "at least 3 sites matched within 6 HLA sites",
+      "label": "met",
+      "evidence": "no mention of mismatched HLA sites"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "abnormal function of liver",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "abnormal function of kidney",
+      "label": "not_met",
+      "evidence": "physical exam and lab studies were normal"
+    },
+    {
+      "criterion": "donor: not the same blood type",
+      "label": "unknown",
+      "evidence": "no mention of different blood types"
+    },
+    {
+      "criterion": "1 or 2 sites matched within 6 HLA sites",
+      "label": "unknown",
+      "evidence": "no mention of mismatched HLA sites"
+    }
+  ],
+  "notes": "Patient has a history of smoking and drinking, but no underlying disease. Family history is positive for hyperlipidemia and MI.",
+  "_meta": {
+    "topic_id": "48",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

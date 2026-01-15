@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT04652830",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Uni- and multiparous women",
+      "label": "met",
+      "evidence": "patient has 2 children"
+    },
+    {
+      "criterion": "Ability to understand Swedish language",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Ability participate in a three months follow-up program",
+      "label": "met",
+      "evidence": "patient is an obese woman with no acute distress"
+    },
+    {
+      "criterion": "Diastasis of the rectus abdominis muscles > 3 cm",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Ongoing pregnancy",
+      "label": "not_met",
+      "evidence": "patient is menopausal"
+    },
+    {
+      "criterion": "Age <18 years or >50 years",
+      "label": "met",
+      "evidence": "patient is 54-year-old"
+    },
+    {
+      "criterion": "< 3 months or >12 months post partum",
+      "label": "not_met",
+      "evidence": "patient has 2 children, and she is menopausal"
+    },
+    {
+      "criterion": "History of neurologic, musculoskeletal or psychiatric disorders",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Interrectal diastasis < 3 cm",
+      "label": "met",
+      "evidence": "on palpation, she experiences epigastric tenderness and tenderness in the right upper quadrant without rebound"
+    }
+  ],
+  "notes": "Patient has abdominal pain that started 4 days ago with nausea and vomiting. The ultrasound revealed several gallstones, biliary sludge and CBD stones.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT04652830",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

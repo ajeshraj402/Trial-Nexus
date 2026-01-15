@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03349814",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "\u226518 years old",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Suspicion of acute appendicitis and planned for diagnostic laparoscopy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "for acute abdominal pain",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Cannot understand, read or speak Danish",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known with inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other intra-abdominal pathology than appendicitis requiring other surgical intervention or treatment",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 17-year-old boy with severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He has been diagnosed with acute perforated appendicitis and is now a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03349814",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

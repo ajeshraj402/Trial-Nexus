@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04692480",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "nulliparous woman",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": ">18 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Fluency in English or Spanish",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Intention to exclusively breastfeed",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Admitted to Women and Infants Hospital (Providence, RI) for induction of labor, labor, or primary cesarean delivery.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Gestational age between 37'0-42'0",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior breastfeeding experience (ex: induced lactation for prior child)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindications to breastfeeding",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intention to utilize formula",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Extremis prohibiting consent",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Women who require Intensive Care Unit (ICU) admission, whose infants require Neonatal Intensive Care Unit (NICU) admission, or who suffer an intrapartum fetal demise or neonatal death will be excluded from final analysis.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has lost about 5kg weight due to decreased appetite.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT04692480",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

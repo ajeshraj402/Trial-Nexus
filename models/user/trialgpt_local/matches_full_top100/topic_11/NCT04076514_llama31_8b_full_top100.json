@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT04076514",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "papillary thyroid cancer",
+      "label": "met",
+      "evidence": "dx w/ right neck mass"
+    },
+    {
+      "criterion": "clinically node negative",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "clinical evidence of nodal metastases",
+      "label": "not_met",
+      "evidence": "no mention of nodal metastases"
+    },
+    {
+      "criterion": "previous history of thyroidectomy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has papillary thyroid cancer with clinically node negative status, but has undergone XRT to neck which may be a concern for eligibility.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT04076514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

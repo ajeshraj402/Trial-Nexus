@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04100811",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "50-80 years"
+    },
+    {
+      "criterion": "prostate_core_needle_biopsy",
+      "label": "met",
+      "evidence": "core needle biopsy performed"
+    },
+    {
+      "criterion": "urine_sample_provided",
+      "label": "met",
+      "evidence": "urine sample provided immediately prior to biopsy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior_invasive_treatment_bph",
+      "label": "does_not_trigger",
+      "evidence": "no history of invasive treatment for benign prostatic hyperplasia within 3-6 months"
+    },
+    {
+      "criterion": "urinary_tract_infection_symptoms",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 63-year-old man presenting to the Emergency Department with acute urinary retention. He has a large prostate and bladder filled with urine, but recent blood chemistry was normal.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT04100811",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

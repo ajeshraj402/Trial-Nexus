@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00471692",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary unilateral inguinal hernia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Aged 18 years or more",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Bilateral inguinal hernia repairs to be performed at the same procedure.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recurrent inguinal hernia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient unable to give informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to the use of local anaesthetic",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Operation to be performed under local or spinal anaesthetic.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contraindication to use of diclofenac, fentanyl or paracetamol",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and underwent XRT. Presented with worsening dysphagia for solids, poor oral intake, weight loss, and lethargy.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT00471692",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

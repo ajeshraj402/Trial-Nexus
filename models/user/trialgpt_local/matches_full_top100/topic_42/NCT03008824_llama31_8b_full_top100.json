@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03008824",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "high-risk factors for GDM and referred for a GTT",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "has had enough time to read and understand the PIS",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregestational Type 1 or Type 2 Diabetes",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Diagnosis of B12 or folate deficiency in the current pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age with high-risk factors for GDM and referred for a GTT. No known Pregestational Type 1 or Type 2 Diabetes.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03008824",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00290316",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed colon, pancreatic, esophageal, lung, gastric cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "hepatitis C or B with elevated levels of alpha-fetoprotein",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "radiological findings suggestive of mass in the liver",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "advanced heart or lung disease that precludes conscious sedation",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "liver failure",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He also describes new imbalance leading to a fall.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT00290316",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

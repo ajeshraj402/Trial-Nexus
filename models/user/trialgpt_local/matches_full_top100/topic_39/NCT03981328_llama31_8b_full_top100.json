@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03981328",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female patients between 18 and 55 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "gestational diabetes mellitus in accordance with the IADPSG criteria between 24 and 31+6 weeks of gestation by a 2h 75g OGTT",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Overt diabetes (i.e. pregestationally known type 1 or type 2 diabetes or fasting plasma glucose during the OGTT \u2265126 mg/dl [7.0 mmol/l] or HbA1c \u22656.5% [44 mmol/l] or 2h post-load OGTT levels \u2265200 mg/dl [11.1 mmol/l])",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of bariatric surgery or other surgeries that induce malabsorption",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "long-term use (>2 weeks) of systemic steroids prior to enrolment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multiple pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients already using glucose lowering medications (metformin or insulin) before study entry",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "fetal growth restriction due to placental dysfunction at study entry - Inpatient",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "psychiatric treatment up to 1 year before enrolment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Participation in this study in previous pregnancy",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 3-day-old Asian female infant presenting with jaundice. She was born at 38w3d of gestation, after an uncomplicated pregnancy.",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT03981328",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

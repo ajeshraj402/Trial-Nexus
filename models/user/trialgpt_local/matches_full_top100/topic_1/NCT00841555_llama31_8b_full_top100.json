@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00841555",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "De novo glioblastoma multiforme, anaplastic astrocytoma, anaplastic oligodendrogliomas, mixed anaplastic oligoastrocytomas, gliosarcoma of the Brain",
+      "label": "met",
+      "evidence": "MRI"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "45-year-old man"
+    },
+    {
+      "criterion": "Given written consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Adequate bone marrow reserve(hemoglobin > 10 grams, Absolute neutrophil count > 1500 / mm3, platelets > 100,000/ mm3)",
+      "label": "met",
+      "evidence": "hemoglobin > 10 grams"
+    },
+    {
+      "criterion": "Normal renal function(BUN < 24 mg/dL, Creatinine < 1.3 mg/dL)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Normal liver function(Total Bilirubin < 1.5 mg/dL, SGPT/ALT < 60 U/L)",
+      "label": "met",
+      "evidence": "Total Bilirubin < 1.5 mg/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Have a Karnofsky score of < 60 [Appendix B] or age < 18 years.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior chemotherapy and/or radiotherapy of their glioblastomamultiforme, anaplastic astrocytoma, anaplastic oligodendrogliomas, mixed anaplastic oligoastrocytomas, gliosarcoma.",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Tumors located in the brainstem or optic chiasm.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT00841555",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

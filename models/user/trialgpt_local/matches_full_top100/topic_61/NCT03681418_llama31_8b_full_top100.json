@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03681418",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed patients with operable breast cancer regardless of whether lymph nodes are suspicious or not.",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "candidate for tumor resection and agrees to do so prior to chemotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who had previously undergone axillary surgery.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with metastatic disease and not planned for axillary surgery.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patients with a preoperative diagnosis of a benign lesion or ductal carcinoma in situ.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with severe uncorrectable bleeding diathesis.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients refused to sign consent.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03681418",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

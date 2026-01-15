@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02460705",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "history of Ulcerative Colitis",
+      "label": "met",
+      "evidence": "confirmed by endoscopy and pathology"
+    },
+    {
+      "criterion": "Mayo clinic ulcerative colitits disease activity score of 6 or greater",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "concurrent therapies with mesalamine, immunomodulators, corticosteroids and biologic agents",
+      "label": "met",
+      "evidence": "allowed to continue during study"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "severe immunosuppression (absolute neutrophil count < 1000 or CD4 count <200)",
+      "label": "triggers",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "untreated enteric infection",
+      "label": "not_met",
+      "evidence": "stool samples must were positive for Clostridium difficile toxin"
+    }
+  ],
+  "notes": "Patient is a 60-year-old woman with recent history of aspiration pneumonia and symptoms of abdominal pain, diarrhea, fever, tachycardia, and hypotension.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02460705",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02201095",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "singleton uncomplicated pregnancy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective caesarean section under spinal anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "uncomplicated surgery and anaesthesia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "tubal ligation surgery as part of caesarean section",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age under 18",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI <19 or >30",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diseases of pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "grand multiparity",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative pyrexia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pre-operative hypothermia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "significant co-existing maternal disease",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "co-existing maternal disease impacting temperature",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 54-year-old woman with abnormal cervical squamous intraepithelial/glandular lesion and HPV 16 positive. She has no other health issues.",
+  "_meta": {
+    "topic_id": "67",
+    "trial_id": "NCT02201095",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

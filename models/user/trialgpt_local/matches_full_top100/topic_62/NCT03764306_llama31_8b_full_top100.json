@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03764306",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "patient's age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "60-99% stenosis of the internal carotid artery (degree of stenosis assessed by means of Doppler sonography, CT angiography or catheter angiography)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "diameter of the target internal carotid artery not more than 7 mm",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "symptomatic lesion (a history of ipsilateral stroke, transient ischaemic attack or reversible ischaemic neurological deficit)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "localisation and morphology of the lesion making possible surgical eversion endarterectomy or endovascular angioplasty with stent implantation",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "target lesion that has been previously stented",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "highly calcified lesions",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "very tortuous common and internal carotid arteries",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "occlusion of the contralateral carotid artery without adequate collateral circulation through the circle of Willis (revealed by means of transcranial Doppler sonography)",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of CAD, but no other cardiovascular risk factors. He is physically active and has normal levels of fasting glucose and triglycerides.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03764306",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

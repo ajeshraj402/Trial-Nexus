@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01441141",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of sickle cell disease",
+      "label": "met",
+      "evidence": "documentation of SS, SC, S beta + thalassemia, S-beta+thalassemia by electrophoresis is required"
+    },
+    {
+      "criterion": "Taking chronic analgesics (NSAID, acetaminophen) or opioids",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Hemoglobin AA genotype by HPLC or hemoglobin electrophoresis",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "General good health defined as the absence of untreated major medical conditions",
+      "label": "met",
+      "evidence": "absence of uncontrolled systemic hypertension, etc."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of severe vaso-occlusive pain crisis resulting in either evaluation in an emergency department or admission to a hospital during the two weeks prior to study enrollment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acute pain at the time of enrollment defined as spontaneous recent onset pain with a self rated score of 6 or higher on a scale of 0-10",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Major medical/psychiatric illness known to cause pain",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sickle cell trait",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of sickle cell crises since childhood and had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT01441141",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

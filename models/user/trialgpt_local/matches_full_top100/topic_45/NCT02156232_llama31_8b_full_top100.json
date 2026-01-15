@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT02156232",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Signed written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Dignosis of liver cirrhosis (clinical or by liver biopsy)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Admission due to variceal bleeding occurred 5 to 42 days prior and standard treatment for secondary prophylaxis failed",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Confirmed splenorenal shunt, gastrorenal shunt or paraesophageal vein",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sum of targeted SPSS diameters greater than half the diameter of portal vein",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Child-Pugh score \u226413",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hepatic carcinoma and/or other malignancy diseases",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Portal vein thrombosis (\u226550% of the lumen)",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Budd-Chiari syndrome",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other spontaneous portosystemic shunts",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sepsis",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Spontaneous bacterial peritonitis",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has a history of sickle cell disease and has had positive history of sickle cell crises since childhood. He also had the same symptoms in past two weeks treated with oxycodone which was not beneficial to his pain.",
+  "_meta": {
+    "topic_id": "45",
+    "trial_id": "NCT02156232",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

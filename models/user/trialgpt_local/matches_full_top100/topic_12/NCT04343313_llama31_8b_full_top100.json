@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT04343313",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Moderately severe or severe mitral regurgitation (MR Grade \u2265 3+)",
+      "label": "met"
+    },
+    {
+      "criterion": "Symptomatic mitral regurgitation (NYHA Class II-IV), despite guideline-directed medical therapy (GDMT) determined by the local multidisciplinary heart team",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u2265 21",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior transseptal intervention with occlusion device currently implanted",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Implanted with venous stents (iliac and femoral) including inferior vena cava (IVC) filter or congenital abnormalities of the IVC that would preclude ability for transfemoral access with the delivery system",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Evidence of intracardiac, inferior vena cava, or femoral venous mass, thrombus, or vegetation",
+      "label": "triggers"
+    }
+  ],
+  "notes": "Patient has severe mitral regurgitation and is symptomatic despite medical therapy. However, they have a history of prior transseptal intervention with an occlusion device implanted, which makes them ineligible for the study.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT04343313",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

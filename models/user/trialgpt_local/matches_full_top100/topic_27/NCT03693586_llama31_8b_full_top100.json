@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03693586",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "evaluated for diagnosis of vasculitis under study or vasculitis of origin to be determined or rheumatological condition for study",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patients who primarily consults to a rheumatology department for vasculitis and agree to be evaluated through a questionaire to identify risk factors for hepatitis C and who also agree to be screened with a serological rapid test for hepatitis C",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "patients who do not have a complete clinical file",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "patients who decline to participate",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has chronic HCV infection and is on IFN plus RBV combination therapy. He also agrees to be evaluated through a questionaire to identify risk factors for hepatitis C and will be screened with a serological rapid test for hepatitis C.",
+  "_meta": {
+    "topic_id": "27",
+    "trial_id": "NCT03693586",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

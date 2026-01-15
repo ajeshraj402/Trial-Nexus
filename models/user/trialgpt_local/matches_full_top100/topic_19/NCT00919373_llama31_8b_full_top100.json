@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00919373",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Coronary artery disease",
+      "label": "met",
+      "evidence": "history of prior myocardial infarction"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction \u2264 50 %",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "One episode of documented stable clinical VT without any reversible causes",
+      "label": "met",
+      "evidence": "documented by telemetry"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age < 18 years or > 80 year",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Protruding LV thrombus on pre-ablation echocardiogram",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Acute myocardial infarction within the preceding 1 months",
+      "label": "not_met",
+      "evidence": "negative work-up"
+    },
+    {
+      "criterion": "Class IV NYHA heart failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Valvular heart disease or mechanical heart valve precluding access to the left ventricle",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unstable angina",
+      "label": "not_met",
+      "evidence": "denies chest pain"
+    },
+    {
+      "criterion": "Cardiac surgery involving cardiotomy (not CABG) within the past 2 months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serum creatinine > 220 mmol/L (2.5 mg/dL)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, and VT without reversible causes. However, patient is currently experiencing unstable arrhythmias and may have contraindications to heparin.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00919373",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

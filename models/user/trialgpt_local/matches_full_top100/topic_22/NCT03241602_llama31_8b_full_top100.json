@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03241602",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female patients",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "aged 18-45 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "scheduled for diagnostic Gynaecologic laparoscopy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "American Society of Anesthesiology physical status 1 or 2",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "American Society of Anesthesiology (ASA) physical status \u2265 3",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy or hypersensitivity to amide type local anaesthetics;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pre-existing chronic pain disorders;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Receiving opioids or tranquilizers for > 1 week preoperatively;",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of alcohol or drug abuse.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman complaining of abdominal pain. She had poor appetite as well as malaise.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03241602",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

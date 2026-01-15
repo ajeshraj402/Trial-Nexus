@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01715220",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "62 years old"
+    },
+    {
+      "criterion": "symptoms",
+      "label": "met",
+      "evidence": "left upper and lower extremity weakness, dark visual spot in right eye, facial numbness, facial drop and slurred speech"
+    },
+    {
+      "criterion": "duration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "treatment",
+      "label": "met",
+      "evidence": "intravenous recombinant tissue plasminogen activator (t-PA) was administered"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hypovolemia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "alcohol use in the last 8 hours",
+      "label": "not_met",
+      "evidence": "smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week"
+    },
+    {
+      "criterion": "clinical intoxication",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "STEMI or presumed cardiac chest pain",
+      "label": "not_met",
+      "evidence": "Initial CT angiogram of head and neck reported no acute intracranial findings"
+    },
+    {
+      "criterion": "raised intracranial pressure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cardiac tamponade",
+      "label": "not_met",
+      "evidence": "stable in the primary evaluation"
+    },
+    {
+      "criterion": "pregnancy or with a known allergy to nitroglycerin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT01715220",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

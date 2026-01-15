@@ -1,0 +1,47 @@
+{
+  "trial_id": "NCT02238418",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "between [18 mo et 18 yo["
+    },
+    {
+      "criterion": "Chronic kidney disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Renal transplant",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Initial 25 OH vitamin D concentration < 75nmol/l",
+      "label": "met",
+      "evidence": "Vit D: 14ng/ml"
+    },
+    {
+      "criterion": "Patient agree to participate (if old enough to give his agreement) and written informed consent signed by parents",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contraindication to 100 000 IU Uvedose\u00ae treatment",
+      "label": "triggers",
+      "evidence": "known hypersensitivity to vitamin D or hypercalcemia, hypercalciuria or nephrolithiasis"
+    },
+    {
+      "criterion": "Known hypersensitivity to vitamin D",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical history is unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT02238418",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

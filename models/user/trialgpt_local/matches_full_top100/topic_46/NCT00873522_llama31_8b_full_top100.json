@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00873522",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "CAP criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not admitted within 14 days before diagnosing pneumonia",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "not met the criteria of HCAP criteria",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HAP: pneumonia developed two days after admission or within 14 days after discharge (except RCW)",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "VAP: HAP and with mechanical ventilation for at least 48h (except RCW patients)",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient A is a 30-year-old male who was admitted to the hospital after 10 days of cough, profuse nocturnal sweating and loss of appetite. He had traveled to India 1 months ago and has not any positive history of TB vaccination.",
+  "_meta": {
+    "topic_id": "46",
+    "trial_id": "NCT00873522",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

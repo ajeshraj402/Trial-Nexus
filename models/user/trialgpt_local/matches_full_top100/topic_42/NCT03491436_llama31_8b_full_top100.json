@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03491436",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "confirmed GDM or at risk for this disease",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pregnancies > 10 weeks of gestation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primipara and multipara",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnancies < 10 weeks of gestation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "congenital malformations of the fetus",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "19 yo Hispanic female G1P1 at 32+6 weeks of gestational age with BP 146/99 and urine dipstick with 3+ proteins.",
+  "_meta": {
+    "topic_id": "42",
+    "trial_id": "NCT03491436",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

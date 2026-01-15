@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03521011",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Acute Abdominal Pain",
+      "label": "met",
+      "evidence": "patient complaint"
+    },
+    {
+      "criterion": "Adults",
+      "label": "met",
+      "evidence": "31-year-old woman"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pediatric",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe Cardiac or Respiratory Disease",
+      "label": "not_met",
+      "evidence": "normal vital signs"
+    }
+  ],
+  "notes": "Patient is a candidate for laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03521011",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

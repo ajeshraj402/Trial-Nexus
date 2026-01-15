@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00633542",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "newly diagnosed or advanced multiple myeloma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "minimal response after induction with ThaDD regimen",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "peripheral neuropathy >= grade 2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "neutropenia < 1000/mcl or thrombocytopenia < 50000/mcl",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe depression",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "organ disfunction > grade 2",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has multiple myeloma with systemic amyloidosis and is on hemodialysis. She was treated with various regimens, including ThaDD, but had worsening edema and kidney function.",
+  "_meta": {
+    "topic_id": "17",
+    "trial_id": "NCT00633542",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

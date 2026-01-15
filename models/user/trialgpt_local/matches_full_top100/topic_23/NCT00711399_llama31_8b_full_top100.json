@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00711399",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient and/or parents/guardian signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with cough or shortness of breath",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Chest tubes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Skin lesions precluding attachment of sensors",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Respiratory distress",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "39-year-old man with cough and shortness of breath, history of asthma, using ICS and fluticasone/salmeterol.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT00711399",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

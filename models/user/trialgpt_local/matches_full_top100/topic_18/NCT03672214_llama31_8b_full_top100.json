@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT03672214",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Financial compensation",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "joint information meeting for women booked for planned CD",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "elective caesarean section",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antibiotic therapy during the last week before caesarean section",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "\u2265 3 prior CDs.",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a severe 2cm bulbar urethral stricture, which may require surgical intervention. Antibiotic therapy during the last week before caesarean section is a likely trigger for exclusion.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT03672214",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

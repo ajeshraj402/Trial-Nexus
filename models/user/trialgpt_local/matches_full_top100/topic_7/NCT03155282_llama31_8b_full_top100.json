@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT03155282",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "60 yo M"
+    },
+    {
+      "criterion": "compensated liver cirrhosis",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    },
+    {
+      "criterion": "agree to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "compensated liver cirrhotic patients",
+      "label": "met",
+      "evidence": "HCV Cirrhosis (tx with interferon x2 with no response)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Child-Pugh score A",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "moderate or severe perihepatic or perisplenic ascites",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute and acute on chronic hepatitis",
+      "label": "met",
+      "evidence": "Liver function tests showed a striking increase in his total and direct bilirubin since last visit"
+    },
+    {
+      "criterion": "multiple focal liver lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cholestatic liver disease and biliary obstruction",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "failure to carry out liver TE by Fibroscan",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "portal vein thrombosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "esophageal, gastric, liver, spleen or pancreatic tumors that may impede to perform a correct EUS-E",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has recent episode of gastrointestinal bleeding (UGIB) and infection leading to imbalance and fall. Also has cirrhosis with increased bilirubin and AFP, indicating possible progression.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03155282",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04112238",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Verified or suspected primary CNS lymphoma",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient must consent to genetic and metabolomic analysis of their cancer",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Verified relapsed DLBCL",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Evidence of a CNS mass creating mass-effect or midline shift such that lumbar puncture is contraindicated",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other contraindications to lumbar puncture according to local guidelines",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a large pericardial effusion with Burkitt's lymphoma, but also has a CNS mass creating mass-effect or midline shift such that lumbar puncture is contraindicated.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04112238",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

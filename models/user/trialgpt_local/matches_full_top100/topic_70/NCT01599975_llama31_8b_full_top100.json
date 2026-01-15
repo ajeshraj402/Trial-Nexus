@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    },
+    {
+      "criterion": "HIV status",
+      "label": "met",
+      "evidence": "HIV infected on stable ART regimen for 5 months or greater"
+    },
+    {
+      "criterion": "Cognitive function",
+      "label": "met",
+      "evidence": "HAM-D score is 20, which does not indicate significant cognitive slowing"
+    },
+    {
+      "criterion": "Depression severity",
+      "label": "met",
+      "evidence": "HAM-D score is 20, which indicates mild depression"
+    },
+    {
+      "criterion": "HIV viral load",
+      "label": "met",
+      "evidence": "documented HIV-1 RNA PCR <50 copies/mL"
+    },
+    {
+      "criterion": "CD4 count",
+      "label": "met",
+      "evidence": "documented CD4 count >200 within 3 months of entry visit"
+    },
+    {
+      "criterion": "Pregnancy status",
+      "label": "unknown",
+      "evidence": "no mention of pregnancy or breast feeding"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "subject is able to give informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy or breast feeding",
+      "label": "triggers",
+      "evidence": "no mention of pregnancy or breast feeding, but subject has a history of menopause"
+    },
+    {
+      "criterion": "Untreated hypogonadism, hypothyroidism or hyperthyroidism",
+      "label": "unknown",
+      "evidence": "no mention of untreated endocrine disorders"
+    },
+    {
+      "criterion": "Initiation of antidepressants within 6 weeks of screening visit",
+      "label": "met",
+      "evidence": "subject has been on anti-depressants for the past 6 months"
+    },
+    {
+      "criterion": "History of coronary artery disease, atherosclerotic disease, left ventricular hypertrophy, cardiomegaly, syncope, congestive heart failure, myocardial infarction, pacemaker, clinically significant arrhythmia, angina, history of treatment for arrhythmia",
+      "label": "unknown",
+      "evidence": "no mention of cardiovascular diseases"
+    },
+    {
+      "criterion": "History of epilepsy",
+      "label": "unknown",
+      "evidence": "no mention of epilepsy"
+    }
+  ],
+  "notes": "Subject has a history of menopause and is on anti-depressants for the past 6 months. She does not have any other medical conditions that would exclude her from participating in the study.",
+  "_meta": {
+    "topic_id": "70",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

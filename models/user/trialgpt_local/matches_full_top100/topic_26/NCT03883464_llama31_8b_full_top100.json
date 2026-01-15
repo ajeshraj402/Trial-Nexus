@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT03883464",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "biliary pain or complications of gallstones (pancreatitis, cholangitis, cholecystitis)",
+      "label": "met",
+      "evidence": "The patient experienced similar pain twice in the past year."
+    },
+    {
+      "criterion": "Gallbladder removal because biliary pain or gallstones complications",
+      "label": "met",
+      "evidence": "Surgery consultation recommends elective cholecystectomy."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "information due to mental disorders or language barrier; and severe postoperative complications",
+      "label": "unknown"
+    },
+    {
+      "criterion": "complications which could affect the assessment of quality of life after cholecystectomy.",
+      "label": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of hypercholesterolemia and two C/sections, but these conditions do not seem to be directly related to the current symptoms. The patient's overall health appears to be stable, with no severe postoperative complications mentioned.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03883464",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

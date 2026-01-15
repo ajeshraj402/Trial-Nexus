@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT04349527",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Under the age of 65",
+      "label": "met",
+      "evidence": "patient's age"
+    },
+    {
+      "criterion": "suffering from unilateral (cT< 3cm) in situ or invasive breast cancer",
+      "label": "met",
+      "evidence": "diagnosis of breast cancer"
+    },
+    {
+      "criterion": "who are fit for breast conserving surgeries",
+      "label": "met",
+      "evidence": "lumpectomy was done and surgical margins were clear"
+    },
+    {
+      "criterion": "who had no previous breast surgery",
+      "label": "met",
+      "evidence": "no previous breast surgery mentioned"
+    },
+    {
+      "criterion": "independent from axillary surgery (sentinel lymph node biopsy or axillary block dissection)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age above 65 years or poor general health condition, where the estimated life expectancies would be less than 2 years even without a tumor",
+      "label": "not_met",
+      "evidence": "patient is 42 years old"
+    },
+    {
+      "criterion": "Malignant invasive tumor in the past history (except for non-melanoma skin tumors)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Prior breast surgery (e.g. aesthetic surgery, breast lift) and/or radiotherapy on the breast or in the axilla",
+      "label": "not_met",
+      "evidence": "no previous breast surgery mentioned"
+    },
+    {
+      "criterion": "Severe non-surgical (e.g. radiotherapy) complication, which could influence the aesthetic and functional results",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Autoimmune diseases",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with breast cancer. She had lumpectomy and clear margins, but has a history of smoking and alcohol consumption.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04349527",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

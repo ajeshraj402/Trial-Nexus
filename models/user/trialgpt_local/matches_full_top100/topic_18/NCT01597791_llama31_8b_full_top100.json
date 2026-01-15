@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01597791",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Nulliparous",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Term (\u226537 week gestation)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Healthy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "ASA class 1-2",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women with ASA 3 or greater",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI \u226540 kg/m2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Prior history of urge or stress incontinence or urinary retention before pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He has a severe bulbar urethral stricture that requires surgical fixation.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT01597791",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

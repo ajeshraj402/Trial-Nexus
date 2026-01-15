@@ -1,0 +1,50 @@
+{
+  "trial_id": "NCT02624934",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age 18 or greater",
+      "label": "met",
+      "evidence": "48 M"
+    },
+    {
+      "criterion": "Scheduled for Cardiac MRI",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients with known aortic valve area of less than 1 cm\u00b2 on echocardiogram",
+      "label": "met",
+      "evidence": "severe aortic stenosis with worsening LV function, EF was 25%"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Ambulatory and expected to be able to complete 6 minute walk test",
+      "label": "met",
+      "evidence": "no mention of inability to ambulate or complete 6 minute walk test"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Other significant (moderate or severe) valvular heart disease",
+      "label": "does_not_trigger",
+      "evidence": "bicuspid aortic valve, but no other significant valvular heart disease mentioned"
+    },
+    {
+      "criterion": "Unable to complete 6 minute walk test",
+      "label": "does_not_trigger",
+      "evidence": "no mention of inability to ambulate or complete 6 minute walk test"
+    }
+  ],
+  "notes": "Unknown if patient can provide informed consent, and if scheduled for Cardiac MRI.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT02624934",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

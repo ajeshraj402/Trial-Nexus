@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01979471",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adults (\u226518 years of age) at high risk for cardiovascular events",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients with diabetes",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Chronic kidney disease [eGFR <60 ml/min/1.73m2 and/or (ACR >= 30 mg/mmol or two consecutive ACR tests which are >= 3 mg/mmol)]",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Established atherosclerotic vascular disease including cerebrovascular disease (prior stroke or transient ischemic attack), cardiovascular disease (myocardial infarction, acute coronary syndrome, stable angina, or revascularization), or peripheral arterial disease (symptomatic and/or ankle brachial index <0.9)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Primary prevention patients with multiple risk factors and Framingham risk score >20%",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Unwilling to participate/sign consent form",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "The patient has a history of abdominal pain and vomiting, drinks around 60 units of alcohol per week, smokes 22 cigarettes per day, and has a family history of type 2 diabetes. He is healthy with no history of allergies or using any medications.",
+  "_meta": {
+    "topic_id": "21",
+    "trial_id": "NCT01979471",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

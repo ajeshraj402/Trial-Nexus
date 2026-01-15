@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT01687751",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age greater or equal to 19 years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Advanced cancer patient admitted to the Abbotsford Tertiary Palliative Care Unit",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Difficult to control or intractable symptom (REF 38, page 3)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Midazolam CSCI would normally be considered for symptom management",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent is able to be provided in the English language",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Goals of care include do not resuscitate (DNR)",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "For intractable symptoms, patient would prefer proportional sedation rather than no sedation or total sedation.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Second or third degree heart block (without pacemaker)",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Uncompensated congestive heart failure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Heart rate less than 50 beats per minute",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Mean arterial blood pressure (MAP) < 60",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Weight below 35 kg. or above 85 kg.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Prior use within the preceding 14 days of high dose benzodiazepines equivalent to the use of 30 mg or more of midazolam or 6 mg or more of lorazepam per 24 hours.",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Currently enrolled in any other research study involving drugs or devices",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. She has several gallstones and biliary sludge, and surgery consultation recommends elective cholecystectomy.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01687751",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

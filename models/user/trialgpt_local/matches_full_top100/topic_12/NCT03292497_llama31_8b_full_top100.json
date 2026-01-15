@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03292497",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Severe ischemic mitral valve regurgitation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "18 years of age, and able to provide informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mixed mitral valve pathology",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Acute ischemic mitral regurgitation",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe ischemic mitral valve regurgitation and is able to provide informed consent, but has mixed mitral valve pathology which may trigger exclusion.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03292497",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

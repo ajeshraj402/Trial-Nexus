@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT02703207",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "OSA defined by the International classification of Sleep Disorders-322 diagnostic criteria with moderate-to-severe disease, i.e. apnea hypopnea index (AHI) 15* per hour by polysomnography",
+      "label": "met"
+    },
+    {
+      "criterion": "Moderate-to-severe COPD defined by GOLD 2 and 3 (Global Obstructive Lung Disease) criteria with FEV1/FVC ratio <70% and FEV1 >30% and <80% of predicted based on PFT",
+      "label": "met"
+    },
+    {
+      "criterion": "Age 60 years",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mild COPD",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Current smokers",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of COPD and OSA, which are both moderate-to-severe. They also meet the age criterion. However, they do not have mild COPD or are current smokers.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT02703207",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

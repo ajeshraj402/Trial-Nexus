@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00663988",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "normal function of heart",
+      "label": "met",
+      "evidence": "jaundice, hepatosplenomegaly and hypotonia of the upper limbs"
+    },
+    {
+      "criterion": "normal function of liver",
+      "label": "not_met",
+      "evidence": "low serum caeruloplasmin (0.05 g/l)"
+    },
+    {
+      "criterion": "normal function of kidney",
+      "label": "met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "donor: same blood type",
+      "label": "unknown",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "at least 3 sites were matched within 6 HLA sites",
+      "label": "met",
+      "evidence": "Wilson disease was confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abnormal function of heart",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "abnormal function of liver",
+      "label": "met",
+      "evidence": "low serum caeruloplasmin (0.05 g/l)"
+    },
+    {
+      "criterion": "abnormal function of kidney",
+      "label": "not_met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "donor: not the same blood type",
+      "label": "met",
+      "evidence": "no mention"
+    },
+    {
+      "criterion": "1 or 2 sites were matched within 6 HLA sites",
+      "label": "unknown",
+      "evidence": "no mention"
+    }
+  ],
+  "notes": "A 22-year-old Caucasian man with Wilson disease, confirmed by high liver copper concentration.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT00663988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

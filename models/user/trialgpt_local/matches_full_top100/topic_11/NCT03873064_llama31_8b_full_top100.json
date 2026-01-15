@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03873064",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically confirmed diagnosis of solid tumor",
+      "label": "met",
+      "evidence": "Papillary thyroid cancer dx w/ right neck mass"
+    },
+    {
+      "criterion": "Age >18 years",
+      "label": "met",
+      "evidence": "A 75 yo M"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy > 12 weeks",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Inability to fill out the EORTC QLQ-C30 questionnaire.",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Absence of a certain diagnosis of solid tumor (e.g. subjects on screening programs)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer and has undergone various treatments, including XRT and RAI ablation.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT03873064",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

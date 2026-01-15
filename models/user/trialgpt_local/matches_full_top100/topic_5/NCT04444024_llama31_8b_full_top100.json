@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT04444024",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "hospitalization_date",
+      "label": "met",
+      "evidence": "between September 1, 2014 and September 1, 2019"
+    },
+    {
+      "criterion": "coronary_heart_disease_angina_pectoris",
+      "label": "met",
+      "evidence": "hx of CAD s/p CABG"
+    },
+    {
+      "criterion": "hypercholesterolemia",
+      "label": "met",
+      "evidence": "diagnosis accorded with diagnostic criteria"
+    },
+    {
+      "criterion": "hypertension",
+      "label": "met",
+      "evidence": "HTN"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "cardiac_diseases",
+      "label": "not_met",
+      "evidence": "no other cardiac diseases mentioned"
+    },
+    {
+      "criterion": "gastroesophageal_reflux_disease_or_hiatal_hernia",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "neurosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "spinal_or_vertebral_artery_cervical_spondylosis",
+      "label": "not_met",
+      "evidence": "no spinal or vertebral artery cervical spondylosis mentioned"
+    },
+    {
+      "criterion": "hyperthyroidism",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "climacteric_syndrome",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "myocarditis_or_cardiomyopathy",
+      "label": "not_met",
+      "evidence": "no myocarditis or cardiomyopathy mentioned"
+    },
+    {
+      "criterion": "acute_myocardial_infarction",
+      "label": "not_met",
+      "evidence": "no acute myocardial infarction mentioned"
+    },
+    {
+      "criterion": "third_degree_of_heart_failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe_heart_valve_disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malignant_tumor_or_serious_metabolic_diseases",
+      "label": "not_met",
+      "evidence": "no malignant tumor or serious metabolic diseases mentioned"
+    },
+    {
+      "criterion": "liver_failure_or_renal_failure",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "psychotic_disorders_or_cognitive_dysfunction",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG, hypertension, and diabetes. He underwent carotid U/S that showed significant bilateral carotid stenosis.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04444024",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

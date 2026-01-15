@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT01384760",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "AHI \u2265 5/hour",
+      "label": "met",
+      "evidence": "OSA and obesity hypoventilation syndrome"
+    },
+    {
+      "criterion": "Body mass index (BMI) greater than or equal to 25",
+      "label": "met",
+      "evidence": "obesity hypoventilation syndrome"
+    },
+    {
+      "criterion": "Written informed consent obtained",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of sleepiness which may constitute risk to self or others",
+      "label": "not_met",
+      "evidence": "agitation and altered mental status"
+    },
+    {
+      "criterion": "Chronic kidney, thyroid, or liver disease",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Coexistence of sleep disorders other than OSA",
+      "label": "met",
+      "evidence": "COPD"
+    },
+    {
+      "criterion": "History of previous surgery to upper airway (except those for nasal problems)",
+      "label": "not_met",
+      "evidence": "s/p 4 vessel CABG in [**2119**]"
+    },
+    {
+      "criterion": "Previous surgical or current medical treatment for OSA",
+      "label": "met",
+      "evidence": "BiPap with 5L"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD, OSA, and obesity hypoventilation syndrome. She is on BiPap with 5L and has a history of CAD, CHF, DM2, ventricular tachycardia, hypothyroidism, schizophrenia, and Pneumonia treated in [**4-7**] at [**Hospital1 **].",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01384760",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

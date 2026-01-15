@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04570397",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "18 years old"
+    },
+    {
+      "criterion": "sex",
+      "label": "met",
+      "evidence": "male"
+    },
+    {
+      "criterion": "weight",
+      "label": "met",
+      "evidence": "40kg or above"
+    },
+    {
+      "criterion": "thrombotic microangiopathy diagnosis",
+      "label": "met",
+      "evidence": "clinical diagnosis with D-dimer > 100% and/or serum creatinine >25%"
+    },
+    {
+      "criterion": "SARS-CoV-2 infection",
+      "label": "met",
+      "evidence": "diagnosis within 90 days prior to enrollment"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "survival expectation",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Neisseria Meningitides infection",
+      "label": "not_met",
+      "evidence": "unresolved"
+    },
+    {
+      "criterion": "hypersensitivity to murine proteins or excipients of ravulizumab",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has a history of vaccination with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine, but this is not relevant to the trial. The genetic survey revealed ADAMTS13 >10%, which suggests that the patient's condition may be related to atypical hemolytic uremic syndrome.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT04570397",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

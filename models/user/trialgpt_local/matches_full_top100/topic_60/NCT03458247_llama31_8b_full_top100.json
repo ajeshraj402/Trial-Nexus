@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03458247",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Age > 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Voluntary signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Histologically confirmed prostate adenocarcinoma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Presence of bone and/or soft-tissue and/or visceral metastases",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pure small cell carcinoma of the prostate or predominant histology of neuro-endocrine carcinoma",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Confirmed brain and/or leptomeningeal metastases",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT03458247",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

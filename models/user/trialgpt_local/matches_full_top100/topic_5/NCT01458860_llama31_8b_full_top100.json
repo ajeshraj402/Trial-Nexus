@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01458860",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Group A",
+      "label": "met",
+      "evidence": "CT scan for any indication"
+    },
+    {
+      "criterion": "Group B",
+      "label": "met",
+      "evidence": "severe carotid artery stenosis"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Group A",
+      "label": "not_met",
+      "evidence": "age 74 years"
+    },
+    {
+      "criterion": "Group B",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has severe carotid artery stenosis and meets inclusion criteria. Age is not a concern for exclusion.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01458860",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

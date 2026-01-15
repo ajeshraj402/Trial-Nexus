@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02400879",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cardiac valve repair or replacement surgery under moderate hypothermic cardiopulmonary bypass (CPB)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "written informed consents",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "emergent surgery",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "left ventricle (LV) ejection fraction < 50%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 55 year old man with lower urinary tract symptoms. He has IPSS score of 15 and post-void residual of 70 mL.",
+  "_meta": {
+    "topic_id": "24",
+    "trial_id": "NCT02400879",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

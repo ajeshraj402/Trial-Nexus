@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT03021889",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosed HIV infection",
+      "label": "met",
+      "evidence": "positive result obtained by performing a screening test for anti-HIV-1 and anti-HIV-2 and at least one confirmatory test"
+    },
+    {
+      "criterion": "Being on antiretroviral therapy",
+      "label": "met",
+      "evidence": "at least three months prior to the start of the study"
+    },
+    {
+      "criterion": "Dyslipidemia",
+      "label": "met",
+      "evidence": "Total Cholesterol > 170mg / dL associated with: Triglycerides greater than or equal to LDL cholesterol \u2265 130 mg / dL"
+    },
+    {
+      "criterion": "Availability to participate in the nutritional intervention",
+      "label": "met",
+      "evidence": "with a low fat diet"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with active opportunistic infections",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cognitive deficits",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diabetes mellitus",
+      "label": "not_met",
+      "evidence": "FBS: 100 mg/dl, HbA1c: 6.5%"
+    },
+    {
+      "criterion": "Patients taking lipid-lowering drugs",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who are unaware of their HIV diagnosis",
+      "label": "not_met",
+      "evidence": "Diagnosed with cardiomyopathy"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes, but no other exclusion criteria mentioned. He is on antiretroviral therapy and has dyslipidemia.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03021889",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

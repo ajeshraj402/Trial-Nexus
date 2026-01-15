@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01472978",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Any gender",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any race",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 7-21",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "CD (+) stool by aspirate",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Visible ulcerations",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mucosal friability",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She has been experiencing mid-abdominal pain radiating to the left flank for weeks leading up to admission.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT01472978",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02502682",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "prescription of antibiotics for suspected or confirmed infection",
+      "label": "met",
+      "evidence": "Recent antibx use in the last month on prior admission. Was also txd for Cdiff at that time for 14 d. course with po vanco."
+    },
+    {
+      "criterion": "admitted to the 2600 General/Medical ward at Delnor Hospital",
+      "label": "met",
+      "evidence": "Patient was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**] with leukocytosis but no fever."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "antibiotics only for surgical prophylaxis",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "not mentally capable",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "cannot provide consent in English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "documented chlorhexidine allergy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "patient is a prisoner",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "health system employee",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has a history of 2 prior C diff infections, the most recent just 1 month ago. She was treated with Vanco for an extended course of 6 weeks given her recurrent C diff.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT02502682",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

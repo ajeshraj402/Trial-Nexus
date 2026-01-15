@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT04462497",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "Listed for elective thoracic surgery in the lateral decubitus position",
+      "label": "met",
+      "evidence": "candidate for scoliosis surgery"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient refusal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Age below 21 years",
+      "label": "not_met",
+      "evidence": "14-year-old boy"
+    },
+    {
+      "criterion": "Emergency cases",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pregnant patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Cognitively impaired patients",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unconscious patients",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient is a well-dressed and well-nourished adolescent who is alert and cooperative.",
+  "_meta": {
+    "topic_id": "44",
+    "trial_id": "NCT04462497",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

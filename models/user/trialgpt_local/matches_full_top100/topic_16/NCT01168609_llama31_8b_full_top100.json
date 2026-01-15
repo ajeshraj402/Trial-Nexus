@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01168609",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Myocardial infarction detected by presence of at least two of the following: chest pain lasting more than 30 minutes, typical electrocardiographic changes, and elevated creatinine kinase-MB fraction.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Consecutive patients 18 years of age or older who presented within 12 hours after the onset of acute myocardial infarction were considered for enrollment.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "more than mild severity of aortic/mitral valvular problem",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "any abnormality of atrial septum (e.g., atrial septal defect or aneurysm)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+  "_meta": {
+    "topic_id": "16",
+    "trial_id": "NCT01168609",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

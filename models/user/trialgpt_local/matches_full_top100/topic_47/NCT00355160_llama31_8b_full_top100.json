@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00355160",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "years of age",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "literate in the English language",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "referred by a physician for primary complaint of 'sinusitis'",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "major symptomatic complaint of headache or facial pain/pressure",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "CT scan must have been performed prior and available for review at the time of visit",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "LM score greater than 2",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of prior facial trauma or tumor in the head and neck region, specifically the nasal area",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "62-year-old African-American man with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT00355160",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

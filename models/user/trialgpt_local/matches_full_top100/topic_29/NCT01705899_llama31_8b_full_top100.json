@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT01705899",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "diagnosis",
+      "label": "met",
+      "evidence": "type 1 diabetes for 11 years"
+    },
+    {
+      "criterion": "insulin_use",
+      "label": "met",
+      "evidence": "using insulin glargine and aspart"
+    },
+    {
+      "criterion": "previous_ketoacidosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "islet_transplantation",
+      "label": "met",
+      "evidence": "aim to establish islet transplant program"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "age",
+      "label": "not_met",
+      "evidence": "24-year-old man"
+    },
+    {
+      "criterion": "previous_islet_transplant",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "malignancy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT01705899",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

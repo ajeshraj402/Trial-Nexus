@@ -1,0 +1,65 @@
+{
+  "trial_id": "NCT00294775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic severe AVS referred for valve replacement (mechanic prosthesis or bioprosthesis) at Odense University Hospital",
+      "label": "met",
+      "evidence": "progressive SOB and LE edema, TTE revealed severe aortic stenosis with worsening LV function"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Severe renal failure (s-creatinine >300 mmole/l)",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate or severe hepatic failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Moderate or severe LV systolic dysfunction (LVEF<40%)",
+      "label": "triggers",
+      "evidence": "EF was 25%"
+    },
+    {
+      "criterion": "Patients already treated with ACE-I or ARB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known intolerance for ARB",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Unwilling to participate in the study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Poor echocardiographic window",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Pregnant women",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    }
+  ],
+  "notes": "LVEF is below the threshold for exclusion, but patient's symptoms and echocardiographic findings suggest severe AVS. Signed informed consent status is unknown.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00294775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

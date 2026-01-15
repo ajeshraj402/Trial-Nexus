@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02371512",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinically significant mitral regurgitation of primarily functional pathology",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Left Ventricular Ejection Fraction (LVEF) \u226520% determined by echocardiography",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "High surgical risk as determined by Heart Team consensus",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Documented New York Heart Association Class II to Class IV heart failure, despite optimal standard of care therapy",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent in accordance with Good Clinical Practice (GCP) and local legislation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Echocardiographic evaluation not available or not suitable for analysis at baseline",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe tricuspid regurgitation according to current guidelines",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Other severe valve disorders requiring intervention according to current guidelines",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Coronary revascularization or cardiac resynchronization (CRT) device implantation within 1 month before the procedure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient not amenable for mitral valve surgery/ percutaneous mitral valve reconstruction as judged by Heart Team",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02371512",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

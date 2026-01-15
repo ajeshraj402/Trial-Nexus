@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT01553227",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willing_and_able_to_sign_informed_consent",
+      "label": "met",
+      "evidence": "patient_or_legal_representative"
+    },
+    {
+      "criterion": "age_greater_than_18_years_old",
+      "label": "met",
+      "evidence": "70 y/o"
+    },
+    {
+      "criterion": "diagnosed_OHS_and_OSAHS",
+      "label": "met",
+      "evidence": "obesity hypoventilation syndrome, obstructive sleep apnea"
+    },
+    {
+      "criterion": "expected_to_tolerate_ventilator_therapy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "currently_enrolled_in_another_clinical_study",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "inform_consent_cannot_be_obtained",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_cerebrovascular_accident_within_6_months",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "acute_or_chronic_renal_failure_diabetes_severe_lung_diseases",
+      "label": "not_met",
+      "evidence": "no recent history of fever, cough, chills, sputum production, CP, abd pain"
+    },
+    {
+      "criterion": "unstable_angina",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "pregnant_or_lactation_period",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history_of_injury_or_surgery_within_6_months",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has COPD, OSA and obesity hypoventilation syndrome. Daughter reports increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home.",
+  "_meta": {
+    "topic_id": "14",
+    "trial_id": "NCT01553227",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

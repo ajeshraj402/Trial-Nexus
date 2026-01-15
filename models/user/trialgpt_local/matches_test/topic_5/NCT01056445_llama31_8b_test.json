@@ -1,0 +1,40 @@
+{
+  "trial_id": "NCT01056445",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "carotid stenting",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "CAD s/p CABG",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "hemodynamic instability and low BP at baseline",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "atrial fibrillation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "unstable patients with recent TIA and CVA in last week",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has carotid stenting, CAD s/p CABG. No hemodynamic instability or atrial fibrillation.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT01056445",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test"
+  }
+}

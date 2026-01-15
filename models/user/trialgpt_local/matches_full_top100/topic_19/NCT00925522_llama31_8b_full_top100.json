@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT00925522",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient has an ICD (Implantable Cardiac Defibrillator) or will be implanted with one",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prior to discharge of ablation procedure",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has had at least 2 documented spontaneous episode of sustained ischemic VT (Ventricular Tachycardia) within the previous 6 months",
+      "label": "met",
+      "evidence": "quote: \"40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms\""
+    },
+    {
+      "criterion": "Patient is resistant, intolerant or refractory to at least one Class I or III AAD (Anti-Arrhythmic Drug)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has been informed of the nature of the study and has agreed to its provisions and provided written informed consent approved by the Institutional Review Board",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-ischemic VT",
+      "label": "not_met",
+      "evidence": "quote: \"40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms\""
+    },
+    {
+      "criterion": "History of stroke or transient ischemic attack within 6 months prior to enrollment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "MI or previous cardiac surgery within 2 months prior to enrollment",
+      "label": "not_met",
+      "evidence": "quote: \"negative work-up for syncope\""
+    },
+    {
+      "criterion": "Patient is pregnant or nursing",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has chronic NYHA (New York Heart Association) class IV heart failure",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Limited life expectancy of 6 months or less",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient is currently participating in another investigational drug or device study",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient is unable or unwilling to cooperate with the study procedures",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00925522",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00196833",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Women with histologically confirmed breast cancer during pregnancy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informed consent for data and specimen collection.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of breast cancer outside the period of pregnancy.",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other exclusion criteria not mentioned in patient text.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "A 5 months old male with undescended testis, but no developmental delay or other complications.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT00196833",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

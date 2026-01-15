@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03783364",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "female patients with non-metastatic breast cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "biopsy proven",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "WHO performance status 0 or 1",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "using contraceptives if in reproductive age category",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "distant metastases",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "inflammatory breast cancer (mastitis carcinomatosa)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "multifocal tumor",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of smoking and alcohol consumption, but no other significant medical conditions mentioned.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT03783364",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

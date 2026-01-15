@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT00236743",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "weight",
+      "label": "met",
+      "evidence": "16 kilograms"
+    },
+    {
+      "criterion": "partial_onset_seizures",
+      "label": "met",
+      "evidence": "being treated with at least one, but no more than two antiepileptic drugs"
+    },
+    {
+      "criterion": "seizure_frequency",
+      "label": "met",
+      "evidence": "at least 6 partial onset seizures during the 8-week baseline phase"
+    },
+    {
+      "criterion": "EEG_features",
+      "label": "unknown",
+      "evidence": "features consistent with partial epilepsy performed prior to study initiation or during the baseline phase"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant_nursing",
+      "label": "not_met",
+      "evidence": "no mention of pregnancy or nursing"
+    },
+    {
+      "criterion": "treatable_cause",
+      "label": "unknown",
+      "evidence": "no mention of infections"
+    },
+    {
+      "criterion": "progressive_disorder",
+      "label": "unknown",
+      "evidence": "no mention of progressive disorder of the nervous system"
+    },
+    {
+      "criterion": "Lennox-Gastaut_syndrome",
+      "label": "not_met",
+      "evidence": "no clinical diagnosis of Lennox-Gastaut syndrome"
+    },
+    {
+      "criterion": "generalized_status_epilepticus",
+      "label": "unknown",
+      "evidence": "no history of generalized status epilepticus"
+    }
+  ],
+  "notes": "Patient has a history of epilepsy, CHF, and depression. He has had seizures in the past but was recently tapered off Dilantin and has been seizure-free for 20 years.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT00236743",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

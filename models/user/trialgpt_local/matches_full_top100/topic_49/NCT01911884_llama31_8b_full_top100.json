@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01911884",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Rokitansky syndrome",
+      "label": "met",
+      "evidence": "karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome"
+    },
+    {
+      "criterion": "over 18 years old",
+      "label": "not_met",
+      "evidence": "12 year old girl"
+    },
+    {
+      "criterion": "care with dilatations or by surgery since 1995",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "having started dilatations or having had surgery since at least one year",
+      "label": "not_met",
+      "evidence": "treats with GH since 6 months ago"
+    },
+    {
+      "criterion": "signed the consent",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "French patient",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Women with social welfare",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serious chronic disease interfering with analysis to be performed in this project",
+      "label": "not_met",
+      "evidence": "TSH was 3 and FBS was 75 in the latest lab study"
+    },
+    {
+      "criterion": "can't reading or writing",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has Turner syndrome, short stature, delayed puberty, developmental delay, obesity, and mental retardation. She is being treated with GH.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT01911884",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

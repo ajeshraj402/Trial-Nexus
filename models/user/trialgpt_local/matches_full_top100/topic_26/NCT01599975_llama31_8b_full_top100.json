@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01599975",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "English literacy",
+      "label": "met",
+      "evidence": "able to read and understand English"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hypertension",
+      "label": "triggers",
+      "evidence": "BP is 150/85"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has hypertension and gallstones, but no clear indication of pregnancy or breastfeeding.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT01599975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

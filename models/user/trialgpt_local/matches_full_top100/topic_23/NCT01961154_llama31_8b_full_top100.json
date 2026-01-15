@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT01961154",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "doctor's diagnosis of asthma",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "medication expenses according to Finnish Social Insurance Institute criteria (code 203)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "in the social insurance card",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asthma diagnosis confirmed at least two years previously",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "regular treatment with inhaled corticosteroids and long-acting beta-agonists for at least 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "no changes in regular anti-asthma medication within 6 months",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "asthma is well controlled (all conditions must be fulfilled): No courses of oral corticosteroids due to asthma within one year",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "asthma is well controlled (all conditions must be fulfilled): No hospital admissions due to asthma within one year",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Juniper's Asthma Control Questionnaire score equal or less than 0.75",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "the presence of another chronic respiratory disease in addition to asthma",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "presence of severe co-morbidity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "history of smoking more than 10 pack-years",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "Patient has a history of asthma and is currently using inhaled corticosteroids and long-acting beta-agonists. He has not had any recent changes to his medication or hospital admissions due to asthma.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT01961154",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

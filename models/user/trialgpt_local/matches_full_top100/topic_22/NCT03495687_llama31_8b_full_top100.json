@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03495687",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Female diagnosed fibromyalgia according to American College of Rheumatology 1990 criteria",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age 20-65 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "trauma in neck-shoulder or thoracic region with prolonged symptoms during the last three month before examination",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe illness (neurological e.g Parkinson disease, neuromuscular e.g Multiple sclerosis, respiratory e.g chronic obstructive pulmonary disease, muscle/skeletal disease e.g ankylosing spondylitis)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Inability to understand or follow instructions",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to participate at measurement sessions",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 31-year-old woman with abdominal pain and leukocytosis. Computed Tomography shows a distended appendix without perforation.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT03495687",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

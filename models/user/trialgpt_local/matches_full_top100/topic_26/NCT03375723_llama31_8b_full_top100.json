@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT03375723",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "45 years old"
+    },
+    {
+      "criterion": "language",
+      "label": "met",
+      "evidence": "Swedish"
+    },
+    {
+      "criterion": "respiratory associated chest pain",
+      "label": "not_met",
+      "evidence": "ultrasound revealed gallstones and biliary sludge"
+    },
+    {
+      "criterion": "pain after moving from lying to seated position",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Visual Analogue Scale >30 mm",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "serious physical illness",
+      "label": "not_met",
+      "evidence": "ultrasound revealed gallstones and biliary sludge"
+    },
+    {
+      "criterion": "serious non-treated psychiatric disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "severe alcohol- or substance abuse",
+      "label": "not_met",
+      "evidence": "doesn't smoke, drink alcohol, or use illicit drugs"
+    },
+    {
+      "criterion": "treatment with opioids before diagnosis of acute pulmonary embolism",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. Ultrasound revealed several gallstones and biliary sludge.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT03375723",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

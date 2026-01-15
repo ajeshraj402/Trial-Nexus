@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03262415",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age between 18 and 75 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "diagnosed with type 1 diabetes for \u22653 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "being treated with insulin injections in the form of multiple daily injections or through insulin infusion pump",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "male or non-pregnant and non-lactating female, at least 6 weeks postpartum prior to screening visit",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "not treated with insulin",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "history of blood-born chronic viral infection (e.g. Hepatitis C and HIV)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has type 1 diabetes confirmed with molecular analysis 7 years ago, is being treated with insulin injections, and meets the age criteria.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT03262415",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

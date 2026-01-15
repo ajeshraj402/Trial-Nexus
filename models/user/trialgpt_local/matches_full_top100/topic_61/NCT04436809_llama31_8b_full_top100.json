@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT04436809",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "cT2 cN0/1 breast cancer",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Scheduled for neoadjuvant chemotherapy",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Informed consent",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous malignancy at another site",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Synchronous breast cancer at diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Distant metastasis at diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinically involved axilla (cN1) after neoadjuvant chemotherapy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. Scheduled for tumor resection and neoadjuvant chemotherapy.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT04436809",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

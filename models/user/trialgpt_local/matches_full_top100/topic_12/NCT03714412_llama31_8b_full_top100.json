@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03714412",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "NYHA functional II, III or ambulatory IV",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Severe mitral regurgitation (MR grade 3-4+)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject is on optimal guideline-directed medical therapy for heart failure for at least 30 days or CRT if indicated.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Elevated risk for conventional open mitral valve repair or replacement surgery in the consideration of the site Heart Team (including a cardiac surgeon, a cardiologist and imaging specialist as a minimum) based on STS/Euro Score II (per MVARC Part 1), frailty and co-morbidities.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Able to undergo Transesophageal Echocardiography (TEE).",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Subject understands the study requirements and the treatment procedures and provides written Informed Consent before any study-specific tests or procedures are performed.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The subject commits to return for the scheduled post-operative follow-up visits at the hospital.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Native mitral valve geometry and size and LV outflow tract characteristics compatible with the Cardiovalve (as assessed by the independent Screening Committee).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior stroke or TIA within 3 months or Modified Rankin Scale \u22654 disability",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Acute myocardial infarction within the previous 30 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Any prior heart valve surgery or transcatheter mitral intervention",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Any percutaneous cardiovascular intervention, cardiovascular surgery, or carotid surgery within 30 days",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Rheumatic heart disease or endocarditis within the previous 3 months",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, or any other structural heart disease causing heart failure other than dilated cardiomyopathy of either ischemic or non-ischemic etiology",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Existence of inferior vena cava filter or atrial septal device (contraindicating femoral access and transseptal catheterization)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Untreated clinically significant coronary artery disease requiring revascularization",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03714412",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

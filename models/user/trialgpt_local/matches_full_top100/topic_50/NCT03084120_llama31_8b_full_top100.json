@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03084120",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pregnant women having undergone a Gastric bypass surgery before the pregnancy.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women having a body mass index < 25 kg/m2 at the early pregnancy.",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Underage women",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Woman with a multiple pregnancy",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "A 5 months old male patient, first child born at 38 weeks with NVD from healthy mother. Diagnostic laparoscopy showed an abdominal undescended testis.",
+  "_meta": {
+    "topic_id": "50",
+    "trial_id": "NCT03084120",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

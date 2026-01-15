@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT03987893",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18-75 years"
+    },
+    {
+      "criterion": "ACLF with presence of hepatic encephalopathy > grade 2 as per WHC",
+      "label": "met",
+      "evidence": "presence of hepatic encephalopathy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women or those who are suspected to be having acute fatty liver of pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Malarial hepatopathy, enteric hepatitis, or ischemic hepatitis.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serum Na <125 mEq/litre",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Gastrointestinal (GI) obstruction, ileus, or gastric retention",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Bowel perforation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Toxic colitis or toxic megacolon",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Structural brain lesions (as indicated by computed tomography imaging if available and confirmed by neurological exam)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Other causes of altered mental status (i.e. not meeting the definition of hepatic encephalopathy",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Uncontrolled infection with hemodynamic instability requiring vasopressors.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Parkinson's disease, experiences slowness of movement and tremors. He is on Levodopa and Trihexyphenidyl.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03987893",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

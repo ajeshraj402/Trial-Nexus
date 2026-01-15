@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02524236",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "persistent moderate to severe LUTS",
+      "label": "met",
+      "evidence": "International Prostatic Symptom Score (IPSS) >8"
+    },
+    {
+      "criterion": "peak urinary flow rate of less than 12 mL/s",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "enlarged prostate gland on digital rectal examination",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of previous surgery for BPH",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "urinary tract infection",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "prostate or bladder cancer",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with acute urinary retention and enlarged prostate gland. He has no history of previous surgery for BPH, urinary tract infection, or prostate/bladder cancer.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02524236",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

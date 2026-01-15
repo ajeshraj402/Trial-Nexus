@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02719912",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic \u22653+ degenerative or functional mitral regurgitation of either ischemic or non-ischemic etiology based by a qualifying echocardiography obtained within 90 days prior to the procedure.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) Functional Class III or IV.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "High risk for conventional open mitral valve repair or replacement surgery in the consideration of the site Heart Team.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Left Ventricular Ejection Fraction (LVEF) is \u226530% within 30 days prior to the procedure.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mitral valve annular commissure to commissure (C/C) dimension between 30-35 mm by echocardiography.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Left atrial diameter <5.5 cm by echocardiography",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Prior mitral valve replacement or repair surgery.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe symptomatic carotid stenosis (>70% by ultrasound).",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT02719912",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "trial_id": "NCT00710775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients undergoing aortic valve replacement for aortic valve stenosis with a preoperative valve area < 0.9 cm2.",
+      "label": "met",
+      "evidence": "TTE revealed severe aortic stenosis with worsening LV function."
+    },
+    {
+      "criterion": "A preoperative echocardiogram where the aortic annulus diameter can be measured and is between 19 and 25 mm internal diameter.",
+      "label": "met",
+      "evidence": "repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve"
+    },
+    {
+      "criterion": "Age 75 to 80 years",
+      "label": "unknown",
+      "evidence": "48 M"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency valve surgery",
+      "label": "does_not_trigger",
+      "evidence": "The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US, indicating planned surgery."
+    },
+    {
+      "criterion": "Significant ascending aortic disease (atheroma, extensive calcification, dissection) as assessed by the operating surgeon",
+      "label": "unknown",
+      "evidence": "Not mentioned"
+    },
+    {
+      "criterion": "Ostial coronary obstruction > 25% diameter stenosis",
+      "label": "does_not_trigger",
+      "evidence": "The cardiac cath with right heart cath to evaluate his pulm art pressures showed no angiographically apparent flow-limiting coronary artery disease."
+    }
+  ],
+  "notes": "Age is unknown, but the patient's symptoms and echocardiogram results suggest severe aortic stenosis, which may indicate eligibility despite unknown age.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT00710775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b"
+  }
+}

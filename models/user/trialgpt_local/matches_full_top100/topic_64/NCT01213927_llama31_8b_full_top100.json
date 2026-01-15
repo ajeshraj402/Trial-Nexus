@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01213927",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "chronic hepatitis B or C",
+      "label": "met",
+      "evidence": "previous positive HCV RNA tests and a positive enzyme immunoassay for anti-HCV-antibodies"
+    },
+    {
+      "criterion": "age \u2265 18 years",
+      "label": "met",
+      "evidence": "55-year-old man"
+    },
+    {
+      "criterion": "histologically proven cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "no previous HCC (treated or not )",
+      "label": "met",
+      "evidence": "negative for hepatocellular carcinoma"
+    },
+    {
+      "criterion": "excessive consumption of alcohol, considered as the main cause of cirrhosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "date and sign informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "decompensation of cirrhosis, Child Pugh score \u2265 7",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "co-infection with HBV or HCV",
+      "label": "met",
+      "evidence": "coinfection with HBV"
+    },
+    {
+      "criterion": "liver focal lesion suggestive of HCC",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT01213927",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

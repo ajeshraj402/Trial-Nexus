@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT02528279",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Male or female patients older than 1 year",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of uncomplicated malaria infection confirmed by: fever or history of fever in the previous 3 days, and positive microscopy of P. malariae, P. ovale or mixed infection with parasite density > 10 - 200000/\u00b5l of blood",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Residence in vicinity and no travel plans for the next 6 months",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Written informed consent by the patient or the legal representative and where possible, patient assent will be sought. If the patient/parent/guardian is unable to write, witnessed consent is permitted according to local ethical considerations.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Thick blood films will be examined every 24h following first dose administration and until the parasites have cleared.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Diagnosis of P. ovale will be effected by PCR.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Plasma samples will be collected and stored for further pharmacokinetic analysis 7 days after treatment initiation.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "To determine the efficacy clinically, body temperature and clinical signs and symptoms of malaria will be assessed.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Safety assessments include physical examination, vital signs and hematology.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Adverse Events and Serious Adverse Events will be ascertained.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "The investigator or his / her staff will notify the Independent Ethics Committee of all Serious Adverse Events as soon as possible and in accordance with local regulations.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of P. falciparum monoinfection",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of severe malaria (clinical WHO criteria)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Presence of other febrile conditions",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Known history of hypersensitivity, allergic or adverse reactions to artemether or lumefantrine",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Intake of any antimalarials or antibiotics with known antimalarial activity in the past 72 hours",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Intake of an 8-aminoquinoline antimalarial or atovaquone-proguanil in preceding 28 days",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant women in first trimenon",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Paget's Disease of Bone and will be treated with Bisphosphonate as first-line therapy.",
+  "_meta": {
+    "topic_id": "40",
+    "trial_id": "NCT02528279",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

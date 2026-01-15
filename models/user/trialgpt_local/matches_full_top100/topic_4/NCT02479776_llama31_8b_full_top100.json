@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02479776",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "obtained",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "protocol",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "disease",
+      "label": "triggers",
+      "evidence": "viral infection that would preclude the use of hospital Cell Therapy Laboratory facilities"
+    },
+    {
+      "criterion": "active malignancy",
+      "label": "triggers",
+      "evidence": "Active malignancy"
+    }
+  ],
+  "notes": "Patient has a history of viral encephalitis/meningitis and ICH, which may be relevant to the study. However, they also have a large pericardial effusion with Burkitt's lymphoma, which is an exclusion criterion.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT02479776",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

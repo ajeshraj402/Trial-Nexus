@@ -1,0 +1,55 @@
+{
+  "trial_id": "NCT04087382",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "74M"
+    },
+    {
+      "criterion": "Acute ischemic stroke due to occlusion of the MCA or ICA",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Symptoms onset between 6-24 hours from arrival",
+      "label": "met",
+      "evidence": "symptoms onset between 10-15 years ago"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Hemorrhagic diathesis, coagulation factor deficiency, or oral anticoagulant therapy with INR > 2.0",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Pre-existing neurological or psychiatric disease that would confound the neurological evaluations",
+      "label": "met",
+      "evidence": "no residual deficits"
+    },
+    {
+      "criterion": "Hypodensity on CT accounting to an ASPECTS score of <7",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "CT or MRI evidence of hemorrhage",
+      "label": "met",
+      "evidence": "no mention of hemorrhage"
+    },
+    {
+      "criterion": "Significant mass effect with midline shift on CT brain",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04087382",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_test10_top50"
+  }
+}

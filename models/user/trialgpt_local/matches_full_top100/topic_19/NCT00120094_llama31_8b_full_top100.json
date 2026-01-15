@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00120094",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Suspected or certain neurally-mediated syncope, based on the Guidelines of the ESC TF on Syncope.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "3 syncope episodes in the last 2 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Severe clinical presentation of syncope requiring treatment initiation in the judgement of the investigator.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age >30 years.",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients have undergone carotid sinus massage, and ILR implantation.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "ILR not implanted for any reason; in this case, the patients are still followed in the ILR-not implanted group.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Carotid sinus syndrome.",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Suspected or certain cardiac syncope.",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00120094",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02139995",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Height of usual place of residence",
+      "label": "met",
+      "evidence": "less than 2,500 metres above sea level"
+    },
+    {
+      "criterion": "Hemoglobin level",
+      "label": "met",
+      "evidence": "possibly less than 10g/dL"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnant women",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "18 or more"
+    },
+    {
+      "criterion": "Serious blood system diseases",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Dysfunction of hemoglobin",
+      "label": "not_met",
+      "evidence": "no evidence of dysfunction"
+    },
+    {
+      "criterion": "Tumor metastasis",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Psychopathy",
+      "label": "unknown",
+      "evidence": "no information provided"
+    },
+    {
+      "criterion": "Refuse to sign consent",
+      "label": "not_met",
+      "evidence": "patient is oriented and conscious"
+    }
+  ],
+  "notes": "A 60-year-old Spanish man with COPD, presenting with shortness of breath. He smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02139995",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

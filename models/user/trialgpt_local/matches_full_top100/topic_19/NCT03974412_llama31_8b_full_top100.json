@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03974412",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "65 yo man"
+    },
+    {
+      "criterion": "syncope in prior 12 months",
+      "label": "met",
+      "evidence": "syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias."
+    },
+    {
+      "criterion": "diagnosis unclear after history, physical exam and electrocardiogram",
+      "label": "met",
+      "evidence": "The patient does not report any symptoms prior to this episode. Currently, the patient feels presyncope and nausea, but denies chest pain."
+    },
+    {
+      "criterion": "no apparent risk of death due to the cause of syncope",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "inability to give informed consent",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "unable to attend routine follow up in device clinic",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "positive carotid sinus massage",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03974412",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

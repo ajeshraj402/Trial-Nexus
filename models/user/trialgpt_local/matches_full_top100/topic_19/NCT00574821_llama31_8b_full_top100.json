@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00574821",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "hypertrophic cardiomyopathy",
+      "label": "met",
+      "evidence": "prior symptoms, 2D ECHO findings, genetic testing, and/or ECG voltage criteria"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "after understanding the risks and benefits of participation"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "prior history of myocardial infarction",
+      "label": "triggers",
+      "evidence": "history of CAD and prior MI"
+    },
+    {
+      "criterion": "invasive treatment at time of enrollment",
+      "label": "triggers",
+      "evidence": "admitted for evaluation of syncope and ventricular arrhythmias"
+    }
+  ],
+  "notes": "Patient has history of CAD, prior MI, and recent episode of monomorphic VT. Patient is hemodynamically unstable.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT00574821",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

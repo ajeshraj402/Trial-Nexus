@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02860663",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "drug_use",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "BMI",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "fish_consumption",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "blood_donation",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "holiday_plans",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "disease",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Wilson disease, which may affect eligibility.",
+  "_meta": {
+    "topic_id": "55",
+    "trial_id": "NCT02860663",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

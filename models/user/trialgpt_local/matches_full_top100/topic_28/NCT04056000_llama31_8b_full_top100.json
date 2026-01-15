@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04056000",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "already_known_to_researchers",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "male",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "18 - 35 years old",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "any_diagnosed_cardiovascular_disease_or_hypertension",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "chronic_use_of_any_prescribed_or_over_the_counter_pharmaceuticals",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has cardiovascular disease and is taking Flomax, making them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT04056000",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

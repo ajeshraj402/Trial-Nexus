@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT00767988",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "3 months to 18 years"
+    },
+    {
+      "criterion": "Spina bifida as a sole urologic diagnosis",
+      "label": "met",
+      "evidence": "sole urologic diagnosis"
+    },
+    {
+      "criterion": "Informed consent and assent (7 years of age and older)",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Males",
+      "label": "triggers",
+      "evidence": ""
+    },
+    {
+      "criterion": "Females over 18 years and older",
+      "label": "met",
+      "evidence": "over 18"
+    },
+    {
+      "criterion": "Prophylactic antibiotics",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Immunosuppression from corticosteroids, transplant recipients or children with congenital immunodeficiencies",
+      "label": "met",
+      "evidence": "no mention of immunosuppression"
+    },
+    {
+      "criterion": "Poorly controlled diabetes",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Untreated HIV infection",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Chronic indwelling catheters in the bladder",
+      "label": "triggers",
+      "evidence": "had a foley and leaked around it"
+    },
+    {
+      "criterion": "Malnourished",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "78 year-old male with history of BPH, multiple urological procedures, including suprapubic prostatectomy. Had severe urethral stricture and required surgical intervention.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT00767988",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

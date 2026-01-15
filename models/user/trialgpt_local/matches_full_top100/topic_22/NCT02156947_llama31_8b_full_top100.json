@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02156947",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "symptomatic chronic cholelithiasis",
+      "label": "met",
+      "evidence": "laparoscopic cholecystectomy"
+    },
+    {
+      "criterion": "acute cholelithiasis",
+      "label": "met",
+      "evidence": "laparoscopic cholecystectomy in first 72-96 hours"
+    },
+    {
+      "criterion": "acute right upper quadrant abdominal pain",
+      "label": "met",
+      "evidence": "positive Murphy's sign"
+    },
+    {
+      "criterion": "fever",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "leukocytosis",
+      "label": "met",
+      "evidence": "lab work"
+    },
+    {
+      "criterion": "distended GB",
+      "label": "met",
+      "evidence": "sonographically"
+    },
+    {
+      "criterion": "presence of gallstones or sludge",
+      "label": "met",
+      "evidence": "sonographically"
+    },
+    {
+      "criterion": "GB wall thickness of 3-mm or more",
+      "label": "met",
+      "evidence": "sonographically"
+    },
+    {
+      "criterion": "sonographic Murphy's sign",
+      "label": "met",
+      "evidence": "sonographically"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "choledocholithiasis",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "<18 years old",
+      "label": "not_met",
+      "evidence": "age is 31"
+    }
+  ],
+  "notes": "Patient has symptoms and lab work consistent with acute cholecystitis. Computed Tomography of the abdomen confirms a distended appendix.",
+  "_meta": {
+    "topic_id": "22",
+    "trial_id": "NCT02156947",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

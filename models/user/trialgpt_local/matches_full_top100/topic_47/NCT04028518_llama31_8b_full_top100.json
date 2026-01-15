@@ -1,0 +1,57 @@
+{
+  "trial_id": "NCT04028518",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "low-dose test drugs, high-dose test drugs or reference drugs for thrombolytic therapy at a ratio of 1:1:1.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "The start of administration of the study drug is recorded as 0h, CT or MRI and NIHSS score, laboratory test, and electrocardiogram were performed at 24 hours; NIHSS score was performed at 72 hours; NIHSS score\uff0claboratory test and electrocardiogram were performed on the14th day(the start of administration is recorded as Day 1 ,then the 14th day after administration should be recorded as Day 15 ); mRS score and Barthel index score were performed on the 30th day (Day 31); mRS score and Barthel index score were performed on the 90th day (Day 91).",
+      "label": "met"
+    },
+    {
+      "criterion": "Diagnosis of acute ischemic stroke according to the WHO (World Health Organization) stroke diagnostic criteria, and symptoms of stroke have existed for at least 30mins, and there is no significant improvement before treatment\uff1b",
+      "label": "met"
+    },
+    {
+      "criterion": "The symptoms of acute ischemic stroke are expected to be less than 4.5 hours after the time of acute ischemic stroke which is defined as the last time the patient function well;",
+      "label": "met"
+    },
+    {
+      "criterion": "NIHSS score at the time of treatment: from 4 points to 24 points (including 4 points and 24 points);",
+      "label": "met"
+    },
+    {
+      "criterion": "From the signing of informed consent form to 3 months of the last dose should be the absence of a birth plan and willing to take effective contraceptive measures;",
+      "label": "met"
+    },
+    {
+      "criterion": "Understand and follow the research process, voluntarily participate, and sign an informed consent form (informed consent is voluntarily signed by the person or legal representative).",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Weight >120kg;",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Imaging shows multiple cerebral infarction (low density > 1/3 brain hemisphere);",
+      "label": "not_met"
+    },
+    {
+      "criterion": "The timing of stroke symptoms is not known;",
+      "label": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week.",
+  "_meta": {
+    "topic_id": "47",
+    "trial_id": "NCT04028518",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

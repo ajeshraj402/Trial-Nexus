@@ -1,0 +1,88 @@
+{
+  "trial_id": "NCT03796598",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Cirrhosis diagnosed by either of the following in a patient with chronic liver disease",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Liver Biopsy",
+      "label": "met"
+    },
+    {
+      "criterion": "Radiologic evidence of varices, cirrhosis or portal hypertension",
+      "label": "met"
+    },
+    {
+      "criterion": "Laboratory evidence of platelet count <100,000 or AST/ALT ratio>1",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Endoscopic evidence of varices or portal gastropathy",
+      "label": "met"
+    },
+    {
+      "criterion": "Fibroscan values suggestive of cirrhosis",
+      "label": "met"
+    },
+    {
+      "criterion": "On treatment for hepatic encephalopathy (patient can be on lactulose and rifaximin)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Able to give written, informed consent",
+      "label": "met"
+    },
+    {
+      "criterion": "Women of child bearing potential must agree to use effective contraception for the duration of the study and for 10 days prior and 30 days after the study",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Negative pregnancy test in women of childbearing age",
+      "label": "met"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "MELD score >22",
+      "label": "not_met"
+    },
+    {
+      "criterion": "WBC count <1000 cells/mm3",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Platelet count<25,000/mm3",
+      "label": "not_met"
+    },
+    {
+      "criterion": "TIPS in place for less than a month",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Currently on antibiotics apart from rifaximin",
+      "label": "met"
+    },
+    {
+      "criterion": "Infection at the time of the FMT (diagnosed by blood culture positivity, urinalysis, paracentesis as needed)",
+      "label": "unknown"
+    },
+    {
+      "criterion": "Hospitalization for any non-elective cause within the last 1 month",
+      "label": "not_met"
+    },
+    {
+      "criterion": "Patients who are aged >75 years",
+      "label": "met"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT03796598",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

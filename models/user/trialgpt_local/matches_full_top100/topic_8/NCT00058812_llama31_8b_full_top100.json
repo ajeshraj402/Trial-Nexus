@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT00058812",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "T cell depleted BMT from mismatched family member or unrelated donor",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "matched sibling transplant or T replete transplant with high risk of developing EBV LPD",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "O2 saturation > 90% on room air",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "GVHD of Grade II or greater",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe renal disease (creatinine clearance less than half normal for age)",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "severe hepatic disease (bilirubin greater than twice normal, or SGOT greater than 3 x normal)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "severe intercurrent infection",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "life expectancy <6 weeks",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has CLL with large cell transformation, received multiple treatments including FCR and R-CVP, but did not have significant response. He was switched to Campath therapy and had resolution of lymphocytosis, but no reduction in bulky lymphadenopathy.",
+  "_meta": {
+    "topic_id": "8",
+    "trial_id": "NCT00058812",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

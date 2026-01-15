@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00933244",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Vitamin D insufficiency",
+      "label": "met",
+      "evidence": "laboratory study"
+    },
+    {
+      "criterion": "Women \u2265 5 years past the date of last menses or bilateral oophorectomy, or \u2265 60 years old if they had prior hysterectomy without bilateral oophorectomy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Total dietary and supplemental calcium intake < 600 mg daily but \u2264 1,400 mg daily",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Women > 75 years old",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Hypercalcemia (serum calcium corrected for albumin > 10.4 mg/dL)",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Nephrolithiasis by medical record or patient report",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 34-year-old woman from Jordan with general and non-specific bones and joints pain. Her past medical and drug history are unremarkable.",
+  "_meta": {
+    "topic_id": "53",
+    "trial_id": "NCT00933244",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

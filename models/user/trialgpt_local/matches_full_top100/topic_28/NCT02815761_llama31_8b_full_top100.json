@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02815761",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Diagnosis of COPD according to the Global Initiative for chronic Obstructive Lung Disease (GOLD) Guideline16",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226540 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Previous spirometry showing FEV1/FVC ratio of <0.70 with an AECOPD",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diagnosis of asthma, bronchiectasis or other chronic lung disease apart from COPD",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "History of lung resection",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old Spanish man with COPD and shortness of breath. He has a history of BPH and smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT02815761",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

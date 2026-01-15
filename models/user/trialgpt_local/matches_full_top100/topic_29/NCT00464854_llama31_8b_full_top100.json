@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT00464854",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Adult (<18 years) Male and female T1 & T2DM patients who can sign an informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Insulin treatment (at least one injection a day) prior to hospitalization for at least half a year.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Diabetic ketoacidosis.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Hyperosmolar state due to hyperglycemia.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has had type 1 diabetes for 11 years and has been on insulin since diagnosis. He reports previous episodes of diabetic ketoacidosis, but is not experiencing any symptoms with this episode.",
+  "_meta": {
+    "topic_id": "29",
+    "trial_id": "NCT00464854",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

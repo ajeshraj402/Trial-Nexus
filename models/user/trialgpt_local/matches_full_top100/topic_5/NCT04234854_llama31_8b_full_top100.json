@@ -1,0 +1,81 @@
+{
+  "trial_id": "NCT04234854",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clinically symptomatic carotid stenosis",
+      "label": "met",
+      "evidence": "carotid bruits"
+    },
+    {
+      "criterion": "carotid stenosis associated with ipsilateral cerebral ischemic infarct/s on CT or MRI/DWI imaging",
+      "label": "met",
+      "evidence": "prior CVA (no residual deficits)"
+    },
+    {
+      "criterion": "referred and accepted by the study center for CAS as per local standard referral pathways and study center routine",
+      "label": "met",
+      "evidence": "referred to cardiology for evaluation of PVD"
+    },
+    {
+      "criterion": "patient informed consent to participate",
+      "label": "met",
+      "evidence": "He recalls that he might have had a stroke 10-15 years ago without any residual deficit."
+    },
+    {
+      "criterion": "patient accepts follow-up scheme and consents to follow-up visits",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "surgery within the preceding 30 days or planned surgery within 30 days after CAS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "life expectancy <1 year (eg. neoplastic disease)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "MI within 72h prior to CAS",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "known coagulopathy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of cerebral stroke with documented/known cause other than carotid disease",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "atrial fibrillation or flutter",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "any known cause for potential cerebral embolization different than carotid stenosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of intracranial bleeding",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has clinically symptomatic carotid stenosis and prior CVA without residual deficits. He is referred to cardiology for evaluation of PVD.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT04234854",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

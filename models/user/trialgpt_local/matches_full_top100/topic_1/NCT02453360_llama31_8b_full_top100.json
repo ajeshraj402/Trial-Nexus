@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02453360",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "scheduled for elective unilateral TKA",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "age \u2265 18 years and \u2264 80 years",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "weight between 70-120 kg",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "primary anesthesia care team has planned for a neuraxial anesthetic",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient agrees to receive an adductor canal block",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "American Society of Anesthesiologists class 1-3",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "subject is < 18 years of age or >80 years of age",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "subject is non-English speaking",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subject is known or believed to be pregnant",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subject is a prisoner",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subject has impaired decision-making capacity",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "symptomatic untreated gastroesophageal reflux or otherwise at risk for perioperative aspiration",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any condition for which the primary anesthesia care team deems neuraxial anesthesia inappropriate",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "significant pre-existing neuropathy on the operative limb",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently experiencing progressive lower extremity weakness and urinary retention. The patient's primary anesthesia care team has planned for a neuraxial anesthetic, but the patient's condition may pose risks for perioperative aspiration.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02453360",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

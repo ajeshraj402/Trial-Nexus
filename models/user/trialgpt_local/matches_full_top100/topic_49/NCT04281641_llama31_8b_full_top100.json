@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04281641",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Female",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u2265 18 years and < 70 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Primary tumor greater than (>) 2 cm in diameter",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Metastatic disease (Stage IV) or bilateral breast cancer",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Prior breast or non-breast malignancy within 5 years prior to study entry",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has Turner syndrome, obesity, and mental retardation. She is treating with GH without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04281641",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

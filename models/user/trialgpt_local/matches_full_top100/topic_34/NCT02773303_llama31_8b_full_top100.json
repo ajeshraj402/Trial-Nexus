@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02773303",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "clear diagnosis of ASD",
+      "label": "met",
+      "evidence": "initial qEEG"
+    },
+    {
+      "criterion": "high starting delta wave level",
+      "label": "met",
+      "evidence": "initial qEEG"
+    },
+    {
+      "criterion": "iPhone 4s or later",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "all iPads except first generation iPAD running OS v7 or later",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "computer running Windows 7 or later",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Tablet running Android 4.1 or later",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Internet connection",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of hearing impairment",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "co-morbidities such as Rett-Syndrome",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient is a 47-year-old Asian woman with persistent feelings of sadness and loss of interest in activities. She has lost about 5kg due to decreased appetite.",
+  "_meta": {
+    "topic_id": "34",
+    "trial_id": "NCT02773303",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

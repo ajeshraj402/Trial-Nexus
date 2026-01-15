@@ -1,0 +1,32 @@
+{
+  "trial_id": "NCT01624493",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histologically or cytologically proven diagnosis of epithelial ovarian cancer, primary peritoneal cancer or fallopian tube cancer, including all histological subtypes and carcinosarcoma.",
+      "label": "met"
+    },
+    {
+      "criterion": "Progression-free interval between 4 to 9 months after first line chemotherapy or 4 to 12 months after second-line chemotherapy with a platinum (cisplatin or carboplatin) based regimen.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Non-epithelial ovarian cancer and ovarian tumours of low malignant potential (borderline tumours).",
+      "label": "triggers"
+    },
+    {
+      "criterion": "More than two prior chemotherapy regimens for ovarian cancer (excluding hormonal therapy or biologic agents).",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "39",
+    "trial_id": "NCT01624493",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

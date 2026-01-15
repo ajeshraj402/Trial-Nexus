@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03433274",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Symptomatic, moderate-to-severe or severe mitral regurgitation",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "NYHA Functional Classification \u2265 II (if Class IV, patient must be ambulatory)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Mitral valvular vegetation or mass",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction < 25%",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has symptomatic mitral regurgitation and meets NYHA Functional Classification \u2265 II criteria. However, left ventricular ejection fraction is not specified.",
+  "_meta": {
+    "topic_id": "12",
+    "trial_id": "NCT03433274",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

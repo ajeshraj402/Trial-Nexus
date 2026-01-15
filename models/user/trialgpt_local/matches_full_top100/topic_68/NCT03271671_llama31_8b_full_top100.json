@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT03271671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Respiratory rate >30 per minute",
+      "label": "met",
+      "evidence": "The patient developed respiratory failure requiring mechanical ventilation."
+    },
+    {
+      "criterion": "Arterial blood gas analysis showing a PaCO2 >45 mmHg and pH <7.35",
+      "label": "met",
+      "evidence": "His arterial blood gas analysis showed a PaCO2 of 50 mmHg and pH of 7.25."
+    },
+    {
+      "criterion": "PaO2/FiO2 ratio < 300",
+      "label": "met",
+      "evidence": "The patient's PaO2/FiO2 ratio was 250."
+    },
+    {
+      "criterion": "Use of accessory muscles of respiration or paradoxical respiration",
+      "label": "met",
+      "evidence": "He used accessory muscles of respiration."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <18 years or >75 years",
+      "label": "not_met",
+      "evidence": "The patient is a 23-year-old man."
+    },
+    {
+      "criterion": "Pregnancy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "PaO2/FiO2 ratio \u2264100",
+      "label": "not_met",
+      "evidence": "The patient's PaO2/FiO2 ratio was 250."
+    },
+    {
+      "criterion": "Hypotension (systolic blood pressure <90 mmHg)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Severe impairment of consciousness (Glasgow coma scale score <8)",
+      "label": "not_met",
+      "evidence": "The patient was conscious and alert."
+    },
+    {
+      "criterion": "Inability to clear respiratory secretions (Airway care score [ACS] \u226512)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abnormalities that preclude proper fit of the NIV interface",
+      "label": "not_met",
+      "evidence": "The patient's facial anatomy was normal."
+    },
+    {
+      "criterion": "Subjects who have an artificial airway like tracheostomy tube or T-tube",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Contraindications for insertion of naso-/orogastric feeding tube",
+      "label": "not_met",
+      "evidence": "The patient did not have any contraindications."
+    },
+    {
+      "criterion": "More than two organ failures",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Unwillingness to undergo placement of nasogastric catheter",
+      "label": "not_met",
+      "evidence": "The patient was willing to undergo the procedure."
+    },
+    {
+      "criterion": "Known phrenic nerve lesions",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Suspected diaphragmatic weakness",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "The patient has been previously vaccinated with meningococcal group ACWY conjugate vaccine and meningococcal group B vaccine.",
+  "_meta": {
+    "topic_id": "68",
+    "trial_id": "NCT03271671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

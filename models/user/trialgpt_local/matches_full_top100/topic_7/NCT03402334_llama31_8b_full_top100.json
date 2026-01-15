@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT03402334",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV antibody positive tested at one of six locations in New Orleans: Ozanam Inn, New Orleans Mission, Bethel Colony South, Grace House, St. Anna's Mobile Clinic, and Ruth Fertel",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "vulnerable populations including children, prisoners, pregnant women",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-English speaking patients since effective counseling cannot be provided",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has HCV cirrhosis, grade II esophageal varices, and recent admission for UGIB. He is off ETOH for a year and has been diagnosed with hepatic encephalopathy.",
+  "_meta": {
+    "topic_id": "7",
+    "trial_id": "NCT03402334",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

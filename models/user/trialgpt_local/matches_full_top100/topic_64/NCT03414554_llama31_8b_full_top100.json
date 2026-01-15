@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03414554",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "HCV-related liver cirrhosis",
+      "label": "met",
+      "evidence": "medical records"
+    },
+    {
+      "criterion": "Age and sex matched group of patients with HCV- related liver cirrhosis",
+      "label": "met",
+      "evidence": "medical records"
+    },
+    {
+      "criterion": "Chronic HCV related liver cirrhosis complicated by hepatocellular carcinoma not eligible for treatment",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who refuse to participate in the study",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hepatitis B virus, any other causes of cirrhosis",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Cancers other than HCC or metastatic liver cancer",
+      "label": "not_met",
+      "evidence": "patient text"
+    }
+  ],
+  "notes": "55-year-old man diagnosed with HCV 2 years ago and recent coinfection with HBV. He is on IFN, RBV and direct antiviral drugs for the past 6 months.",
+  "_meta": {
+    "topic_id": "64",
+    "trial_id": "NCT03414554",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

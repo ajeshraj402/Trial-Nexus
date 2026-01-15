@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT01722266",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "type 1 diabetes mellitus",
+      "label": "met",
+      "evidence": "molecular analysis"
+    },
+    {
+      "criterion": "insulin therapy for more than 12 months",
+      "label": "met",
+      "evidence": "70/30 Insulin"
+    },
+    {
+      "criterion": "HbA1c of less than 8.5%",
+      "label": "met",
+      "evidence": "6.5%"
+    },
+    {
+      "criterion": "age 18-75 years",
+      "label": "met",
+      "evidence": "25-year-old man"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "randomized to receive subcutaneous injection daily of Liraglutide or placebo",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "study medication in blinded form",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has type 1 diabetes and is on insulin therapy. He meets the inclusion criteria but does not meet the exclusion criteria.",
+  "_meta": {
+    "topic_id": "65",
+    "trial_id": "NCT01722266",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

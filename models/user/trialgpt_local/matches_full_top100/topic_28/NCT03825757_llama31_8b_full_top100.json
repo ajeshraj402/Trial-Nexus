@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03825757",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Endoscopic nasal polyp score \u22654",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "SNOT-22 \u226530",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Sinus Computed tomography Lund-Mackay score \u226514",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "\u22651 previous partial/total ethmoidectomy surgery",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "complication of CRS (f.e. mucocele, invasive fungal rhinosinusitis)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "bleeding diathesis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 60-year-old Spanish man with shortness of breath, known COPD, and obesity. He smokes 20 cigarettes per day.",
+  "_meta": {
+    "topic_id": "28",
+    "trial_id": "NCT03825757",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

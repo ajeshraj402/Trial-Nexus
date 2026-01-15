@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00461240",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Clinical and biochemical diagnosis of acromegaly.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Males and females aged 18-70 years willing to give informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "At least 6 months after the onset of symptoms of acromegaly and on stable medication for study.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Systolic blood pressure < 180 mmHg, diastolic blood pressure < 110 mmHg.",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Change in medication in the preceding 4 weeks",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients on subcutaneous insulin therapy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He has been taking only vitamin D and multivitamins after his surgery.",
+  "_meta": {
+    "topic_id": "56",
+    "trial_id": "NCT00461240",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

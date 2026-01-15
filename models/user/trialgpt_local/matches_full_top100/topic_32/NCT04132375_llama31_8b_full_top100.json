@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT04132375",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Case of Bloody Diarrhea",
+      "label": "met",
+      "evidence": "patient text: ... presence of visible blood, which may include episodes of stool formed with blood in the form of streaks on its surface or blood visible only under a microscope..."
+    },
+    {
+      "criterion": "Case of Shiga Toxin producing Escherichia coli Infection",
+      "label": "met",
+      "evidence": "patient text: ... Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools."
+    },
+    {
+      "criterion": "Case of Hemolytic Uremic Syndrome with Confirmed Diagnosis of Shiga Toxin producing Escherichia coli",
+      "label": "met",
+      "evidence": "patient text: ... Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools."
+    },
+    {
+      "criterion": "Age of \u2265 1 to < 10 y.",
+      "label": "met",
+      "evidence": "patient text: A 17 year old boy..."
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Microangiopathic hemolytic anemia defined as LDH above the ULN for age with the finding of schistocytes on peripheral smear and a negative Coomb's test",
+      "label": "not_met",
+      "evidence": "patient text: ... Peripheral blood smear showed a moderate number of schistocytes..."
+    },
+    {
+      "criterion": "Thrombocytopenia: platelet count < 150 \u00d7 103/\u03bcL",
+      "label": "not_met",
+      "evidence": "patient text: Platelet: 110,000 /cu.mm"
+    }
+  ],
+  "notes": "The patient has bloody diarrhea and Shiga toxin-producing E. coli infection, which are risk factors for HUS development.",
+  "_meta": {
+    "topic_id": "32",
+    "trial_id": "NCT04132375",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

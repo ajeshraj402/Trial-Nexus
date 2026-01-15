@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03720639",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient is 18 years of age or older",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is willing and able to provide written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patient is willing and able to comply with the protocol, including follow-up visits",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Candidates for implantable cardiac monitor",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patient is enrolled in another study that could confound the results of this study,",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "without documented pre-approval from a study manager",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient has existing IPG, ICD, CRT-D or CRT-P device",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope. Recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device.",
+  "_meta": {
+    "topic_id": "19",
+    "trial_id": "NCT03720639",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

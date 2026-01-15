@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02174770",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "s/p ACL reconstruction within the last three months prior to initiation of study training",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "s/p knee arthroscopy within the last 2 weeks prior to initiation of study training",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "S/p lower extremity trauma, unilateral with thigh weakness of at least a 20% deficit compared to contralateral side and at least 6 months out from most recent trauma or surgery",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Fluent in English and able to consent",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Contralateral lower extremity involvement resulting in less than normal range of motion, muscle strength, or daily pain greater than 5/10.",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnancy, verbal reporting",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Recent history of deep vein thrombosis, within the 12 months or on active treatment",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "History of endothelial dysfunction, peripheral vascular disease, hypertension, diabetes, or people prone to capillary ruptures (bruising) (determined by verbal reporting by the patient)",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Active Infection",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cancer (current diagnosis)",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of anaplastic astrocytoma and is currently undergoing treatment, which may make them ineligible for the study.",
+  "_meta": {
+    "topic_id": "1",
+    "trial_id": "NCT02174770",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

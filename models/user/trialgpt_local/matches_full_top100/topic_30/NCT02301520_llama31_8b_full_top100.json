@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02301520",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Haitian ethnicity",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between nine months and six years",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Presence of a chronic medical condition other than malnutrition",
+      "label": "does_not_trigger",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Residence outside of Haiti (i.e. visiting children who usually live abroad)",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis, but symptoms improved with Levothyroxine treatment and periods are normal.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT02301520",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

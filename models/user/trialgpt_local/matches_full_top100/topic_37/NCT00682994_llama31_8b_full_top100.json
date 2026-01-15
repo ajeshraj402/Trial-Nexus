@@ -1,0 +1,76 @@
+{
+  "trial_id": "NCT00682994",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient with advanced cancer (local recurrence or metastatic) at the time of their follow up visit to the outpatient palliative care clinic",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient designates a family member who is a patient's parent, spouse, adult child, sibling, other relative, or significant other (any other person defined by the patient as a partner) to answer the family questionnaire.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient is 18 years of age or older",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patient with normal cognitive status as determined by the interviewer and by her/his ability to understand the nature of the study and consent process.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patient willing to participate in the study and sign informed consent.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Family member is 18 years of age or older",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Family member with normal cognitive status as determined by the interviewer and by her/his ability to understand the nature of the study and consent process.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Family member willing to participate in the study and sign informed consent.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All participants in the international centers must be from Argentinian, Chilean, or Guatemalan descendence respectively.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "All participants in the U.S. must be from self-reported Hispanic descendence, first or second generation immigrants, and reside in the U.S. for at least 5 years.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Either patient or family member can not complete the assessments independently.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Either patient or family member refuses to participate in the study.",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a confirmed diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) and is currently under treatment. She is working as an editor and smokes 10 cigarettes per day.",
+  "_meta": {
+    "topic_id": "37",
+    "trial_id": "NCT00682994",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

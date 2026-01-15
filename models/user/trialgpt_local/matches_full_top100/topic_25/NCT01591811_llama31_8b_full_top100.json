@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01591811",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "pre- or post-menopausal women with Stage 0, I and II breast cancer",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Biopsy-proven invasive breast cancer, excised with negative margins of at least 1 mm",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Status post segmental mastectomy, after sentinel node biopsy and/or axillary node dissection",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "At least 2 weeks from last chemotherapy",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Patient needs to be able to understand and demonstrate willingness to sign a written informed consent document",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Previous radiation therapy to the ipsilateral breast",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "More than 3 involved nodes identified at axillary staging, requiring adjuvant axillary radiation",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 42 year-old postmenopausal woman with Stage I breast cancer. She had lumpectomy and clear margins. Tumor was HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT01591811",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

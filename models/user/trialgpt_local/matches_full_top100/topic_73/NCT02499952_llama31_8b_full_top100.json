@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT02499952",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Written informed consent and HIPAA authorization for release of personal health information.",
+      "label": "met"
+    },
+    {
+      "criterion": "Age \u2265 18 years at the time of consent.",
+      "label": "met"
+    },
+    {
+      "criterion": "ECOG Performance Status of 0 or 1 within 14 days prior to registration for protocol therapy.",
+      "label": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks of the first dose of treatment.",
+      "label": "triggers"
+    },
+    {
+      "criterion": "Has a known history of active TB (Bacillus Tuberculosis)",
+      "label": "triggers"
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "73",
+    "trial_id": "NCT02499952",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "trial_id": "NCT03573778",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Woman",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "19 years of age or older",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Able to speak, read and understand English",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Residing in specific communities in Ontario, British Columbia or New Brunswick",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planning to remain in area for next 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Experienced physical, sexual, and/or psychological abuse, including coercive control",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Planning to separate OR in the process of separating OR separated from an abusive partner in the previous 3 years",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Has access to the internet, and a safe computer, tablet, or smart phone",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Has a safe email address",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Under 19 years of age",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Cannot read, speak, understand English",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Living outside of the selected study sites, or living in the area but planning to relocate within 6 months",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No experience of physical, sexual, or psychological abuse, including coercive control, from a current or former partner in the previous 12 months",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Planning to stay with an abusive partner OR separated more than 3 years ago",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No access to the internet, or safe computer, tablet or smart phone",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "No access to safe email and mailing address",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient experienced physical abuse from a current partner in the previous 12 months. She has access to the internet, a safe computer, and a safe email address.",
+  "_meta": {
+    "topic_id": "3",
+    "trial_id": "NCT03573778",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

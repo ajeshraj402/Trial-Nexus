@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT04713631",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "70 year-old woman"
+    },
+    {
+      "criterion": "Crohn's disease of mild to moderate activity (CDAI 150 to 450)",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hemoglobin >9",
+      "label": "not_met",
+      "evidence": "Anemia (HCT 30.7)"
+    },
+    {
+      "criterion": "Glomerular filtration rate >45",
+      "label": "met",
+      "evidence": "Chronic kidney disease (SCr 2.1)"
+    },
+    {
+      "criterion": "Normal electrocardiogram",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Pregnancy, women who are planning to get pregnant and those unwilling to use contraception",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Lactation",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Intra-abdominal abscess",
+      "label": "met",
+      "evidence": "Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis"
+    },
+    {
+      "criterion": "Ileostomy or colostomy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Change in dose of 5-aminosalicylic acid in the past 4 weeks",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Use of corticosteroids within the past 4 weeks",
+      "label": "met",
+      "evidence": "She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl)"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She has been experiencing mid-abdominal pain radiating to the left flank over the last few weeks leading up to admission.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT04713631",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

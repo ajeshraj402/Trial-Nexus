@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT00006444",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "HIV-positive",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "at least 13 years of age and menstruating",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "willing to enroll in another drug study",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "written consent of a parent or guardian if under 18 years",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "abusing drugs or alcohol",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "receiving medication that affects the immune system, fights HPV, or is investigational",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has cervical cancer and a history of smoking. She was offered a radical hysterectomy.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT00006444",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

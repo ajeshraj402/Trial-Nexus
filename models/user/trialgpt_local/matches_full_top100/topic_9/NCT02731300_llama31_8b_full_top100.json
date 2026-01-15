@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02731300",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diagnosis of LGS",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "failure of more than two first-line AEDs to control seizures",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "average seizure frequency of more than one per month for 18 months and no more than three consecutive seizure-free months during that interval",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "age between 6 and 15 years",
+      "label": "not_met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "drug addiction",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "skull defect",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "serious neurological diseases",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of severe intellectual disability, CHF, and epilepsy. He was recently tapered off Dilantin and had no further events during the hospital course.",
+  "_meta": {
+    "topic_id": "9",
+    "trial_id": "NCT02731300",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

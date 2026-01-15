@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00878826",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": ">18 years of age",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of idiopathic thrombosis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of thrombosis related to pregnancy or oral contraceptive use",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "history of thrombosis accompanied by an underlying thrombophilia other than homozygous for the factor V Leiden mutation, heterozygous for both the factor V Leiden and the prothrombin G20210A mutation, or AT-III deficiency",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "without a history of thrombosis but who have an underlying thrombophilia and a strong family history of thrombosis",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Known thrombophilia except for those listed above, with a history of adverse pregnancy outcome (APO) as defined by: \u22653 pregnancy losses in the 1st trimester, \u22652 pregnancy losses/stillbirth in 2nd trimester, \u22651 pregnancy loss/intrauterine fetal demise (IUFD) in the 3rd trimester, intrauterine growth restriction (IUGR), abruptio placentae, or severe pre-Eclampsia prior to 34 weeks gestation.",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Need for therapeutic-level anticoagulation as determined by physician",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Renal disease as defined by serum creatinine >1.0",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Weight >90kg",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Allergy to enoxaparin",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient is a 54-year-old obese woman with abdominal pain, nausea, and vomiting. She has a history of hypercholesterolemia and two NVDs.",
+  "_meta": {
+    "topic_id": "63",
+    "trial_id": "NCT00878826",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

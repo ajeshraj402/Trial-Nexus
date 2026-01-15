@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT01510002",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "pathological diagnosis of papillary thyroid cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "patient with negative cervical lymph nodes on pre-, or intraoperative evaluation",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "incidental diagnosis of papillary thyroid cancer following hemithyroidectomy and requiring completion thyroidectomy",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previous thyroid surgery",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, previous XRT to neck, and high bleed risk. These factors make them likely ineligible for the trial.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT01510002",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02678481",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "men aged 50-80",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least one negative TRUS-guided prostate biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "PSA > 4 ng/ml",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "at least one suspected region detected at multiparametric MR imaging",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "known prostate cancer diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "contraindication against MR imaging or uncooperative patients",
+      "label": "not_met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 63-year-old man with a history of acute urinary retention and large prostate. He has normal blood chemistry and negative urinalysis results.",
+  "_meta": {
+    "topic_id": "60",
+    "trial_id": "NCT02678481",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

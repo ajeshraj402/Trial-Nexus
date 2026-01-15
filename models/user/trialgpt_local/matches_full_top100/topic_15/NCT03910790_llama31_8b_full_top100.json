@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT03910790",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 19 years",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Willing to provide informed consent verbal or written.",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age <19 years",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Unable to safely undergo EUS for any reason",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Coagulopathy (INR >1.6, Thrombocytopenia with platelet count <50,000/ml) for subjects on anti-coagulation therapy.",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "Unwilling or cognitively unable to provide informed consent verbal or written.",
+      "label": "unknown",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Pregnancy (confirmed with Standard of Care urine pregnancy test for all women with child-bearing potential only)",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD, recently noted abdominal mass, and presents with fevers/rigors and bandemia. She underwent EUS with biopsy, which showed pancreatic adenocarcinoma at the head of pancreas.",
+  "_meta": {
+    "topic_id": "15",
+    "trial_id": "NCT03910790",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

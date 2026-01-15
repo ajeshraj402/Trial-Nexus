@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT02703467",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "asthma diagnosis",
+      "label": "met",
+      "evidence": "diagnosis of asthma for the asthma cohort: Subjects must have asthma according to one or more of the following criteria documented in the last 12 months"
+    },
+    {
+      "criterion": "FEV1 improvement",
+      "label": "met",
+      "evidence": "improvement in FEV1 \u2265 12% and 200ml predicted after inhalation of 400 mcg salbutamol"
+    },
+    {
+      "criterion": "airway hyper-responsiveness",
+      "label": "met",
+      "evidence": "airway hyper-responsiveness (PC20 <8mg/ml)"
+    },
+    {
+      "criterion": "diurnal variation in PEF",
+      "label": "met",
+      "evidence": "diurnal variation in PEF: amplitude % mean of twice daily PEF > 8%"
+    },
+    {
+      "criterion": "treatment with asthma medications",
+      "label": "met",
+      "evidence": "treatment with one or more of the following drugs: inhaled corticosteroids, oral corticosteroids, long-acting beta-agonists, long-acting beta-agonists and short-acting beta-agonists"
+    },
+    {
+      "criterion": "history of wheezing",
+      "label": "met",
+      "evidence": "PLUS a history of wheeze occurring spontaneously or on exertion"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "current smoker",
+      "label": "not_met",
+      "evidence": "Current smoker, or Ex-smoker with a >10 year pack history or having smoked within the past 6 months"
+    },
+    {
+      "criterion": "significant alternative diagnoses",
+      "label": "unknown",
+      "evidence": "Significant alternative diagnoses that may mimic or complicate asthma, in particular dysfunctional breathing, panic attacks, and overt psychosocial problems (if these are thought to be the major problem rather than in addition to severe asthma)"
+    },
+    {
+      "criterion": "significant other primary pulmonary disorders",
+      "label": "unknown",
+      "evidence": "Significant other primary pulmonary disorders in particular pulmonary embolism, pulmonary hypertension, interstitial lung disease and lung cancer"
+    },
+    {
+      "criterion": "diagnosis or current investigation of occupational asthma",
+      "label": "not_met",
+      "evidence": "Diagnosis or current investigation of occupational asthma"
+    }
+  ],
+  "notes": "Patient has a history of wheezing and is currently using inhaled corticosteroids and fluticasone. However, they have been experiencing symptoms for the past 5 days despite doubling their oral corticosteroids.",
+  "_meta": {
+    "topic_id": "23",
+    "trial_id": "NCT02703467",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

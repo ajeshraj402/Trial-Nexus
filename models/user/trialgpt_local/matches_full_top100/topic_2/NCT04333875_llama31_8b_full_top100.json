@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04333875",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age \u2265 18 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Patients with severe AS defined by an AVA <1cm2 or AVA indexed to BSA of <0.6 cm2/m2,",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "including low-flow severe aortic stenosis defined by SVI <35ml/m2.",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Life expectancy <1 year irrespective of severe AS.",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Severe dementia defined as MMS-Test <16 points.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has severe aortic stenosis with worsening LV function and EF of 25%. He underwent cardiac cath with right heart cath to evaluate pulm art pressures, showing no angiographically apparent flow-limiting coronary artery disease.",
+  "_meta": {
+    "topic_id": "2",
+    "trial_id": "NCT04333875",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "trial_id": "NCT02546557",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patients undergoing an elective primary coronary artery bypass graft surgery (CABG)",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "On pump or off pump CABG surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age \u226525 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Emergency surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Insulin dependent Diabetes Mellitus",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Acute myocardial infarction with Creatinine Kinase-MB level > 10% of CK and /or ECG",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Known immunodeficiency or immunosuppression",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Other combined aortic valve intervention except cardiac valve or mitral valve surgery",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Participation or planned participation in another cardiovascular study before study",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Inability to give informed consent due to mental condition, mental retardation, or language barrier",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has a history of CAD s/p CABG and PVD with significant bilateral carotid stenosis. He reports occasional dizziness but no prior syncope or residual deficits from CVA.",
+  "_meta": {
+    "topic_id": "5",
+    "trial_id": "NCT02546557",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

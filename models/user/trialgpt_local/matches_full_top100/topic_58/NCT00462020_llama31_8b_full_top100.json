@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT00462020",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Identifiable hole in the appendix",
+      "label": "met",
+      "evidence": "Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Stool in the abdomen at the time of appendectomy",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Known immune deficiency",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Abscess identified on pre-op imaging",
+      "label": "does_not_trigger",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis."
+    },
+    {
+      "criterion": "Another condition affecting surgical decision making or recovery",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, accompanied by nausea and vomiting. He is now a candidate for emergent laparoscopic appendectomy under general anesthesia.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT00462020",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

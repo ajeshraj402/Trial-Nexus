@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT02901873",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "adult patients",
+      "label": "met",
+      "evidence": "18 years and over"
+    },
+    {
+      "criterion": "thyroid and/or parathyroid surgery",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Sheffield Teaching Hospitals NHS Foundation Trust (STH)",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "thyroglossal cyst surgery",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "re-do procedures only involving resection of lymph nodes",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients unable to understand spoken and written English",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Patients unable to give adequate informed consent",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "Patient has metastatic papillary thyroid cancer, underwent XRT, and presented with worsening dysphagia. High bleed risk due to tumor size and proximity to trachea and recurrent laryngeal nerve.",
+  "_meta": {
+    "topic_id": "11",
+    "trial_id": "NCT02901873",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

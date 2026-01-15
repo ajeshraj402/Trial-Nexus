@@ -1,0 +1,36 @@
+{
+  "trial_id": "NCT03795194",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "17 years old"
+    },
+    {
+      "criterion": "Diagnosis of perforated appendicitis at laparoscopy",
+      "label": "met",
+      "evidence": "CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis. Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities."
+    },
+    {
+      "criterion": "Development of a post-appendectomy abscess that is treated with percutaneous drainage.",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Patients who are allergic to ampicillin",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "Severe migratory pain in the right lower quadrant of his abdomen, nausea and vomiting, febrile with tenderness, rebound tenderness and guarding on palpation.",
+  "_meta": {
+    "topic_id": "58",
+    "trial_id": "NCT03795194",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

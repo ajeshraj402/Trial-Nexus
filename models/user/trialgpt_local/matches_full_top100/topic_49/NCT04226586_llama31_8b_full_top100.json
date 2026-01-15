@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04226586",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Age",
+      "label": "met",
+      "evidence": "12 years old"
+    },
+    {
+      "criterion": "GH response",
+      "label": "met",
+      "evidence": "peak GH concentration \u226510 ng/mL to GH provocative tests such as Arginine Insulin Tolerance Test (AITT) or Arginine Clonidine Tolerance Test (ACTT)"
+    },
+    {
+      "criterion": "Pre-pubertal status",
+      "label": "not_met",
+      "evidence": "breast bulb were in stage 1 with no course hair in the pubic or axillary"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Age",
+      "label": "triggers",
+      "evidence": "12 years old"
+    },
+    {
+      "criterion": "Medical history of a neurologic, endocrinologic, genetic, or metabolic problem known to have a direct effect on height growth",
+      "label": "unknown",
+      "evidence": "Turner syndrome"
+    }
+  ],
+  "notes": "Patient is an obese, mentally retarded girl with Turner syndrome. She is treating with GH since 6 months ago without estrogen therapy.",
+  "_meta": {
+    "topic_id": "49",
+    "trial_id": "NCT04226586",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00177775",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "willingness and ability to comply with all study requirements",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "confirmed CDAD by ELISA toxin assay or cell test",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "currently receiving standard antibiotic treatment for CDAD",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "resolution of diarrhea to a maximum of 3 stools per day following completion of antibiotic therapy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "ability to tolerate fluids by mouth or by feeding tube",
+      "label": "met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "have passage of stools",
+      "label": "met",
+      "evidence": "patient text"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "history of lactose intolerance",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "cannot tolerate fluids by mouth or by feeding tube",
+      "label": "not_met",
+      "evidence": "patient text"
+    },
+    {
+      "criterion": "have received an investigational drug within 4 weeks prior to study entry",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "underlying gastrointestinal tract disease characterized by diarrhea or unformed stools",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has a history of ESRD on HD and peritoneal dialysis, but no other exclusion criteria mentioned.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT00177775",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

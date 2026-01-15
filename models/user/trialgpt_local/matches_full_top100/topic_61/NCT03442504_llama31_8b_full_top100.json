@@ -1,0 +1,106 @@
+{
+  "trial_id": "NCT03442504",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary breast tumor (ductal or lobular)",
+      "label": "met",
+      "evidence": "cytologically confirmed"
+    },
+    {
+      "criterion": "HER2-positive",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Metastatic stage with at least one lesion identifiable on the conventional balance sheet other than a liver injury",
+      "label": "met",
+      "evidence": "CXR was remarkable for metastatic lesions"
+    },
+    {
+      "criterion": "Patient progressing under a 1st line of hormone therapy",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Postmenopausal patient",
+      "label": "met",
+      "evidence": "45-year-old postmenopausal woman"
+    },
+    {
+      "criterion": "Karnofsky \u2265 70 or ECOG 0-1",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Life expectancy of at least 6 months",
+      "label": "met",
+      "evidence": "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy"
+    },
+    {
+      "criterion": "Creatinine <= 2.5 normal",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Social insured patient",
+      "label": "met",
+      "evidence": "The patient is using multivitamins and iron supplements"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "label": "met",
+      "evidence": "She is a candidate for tumor resection and agrees to do so prior to chemotherapy"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "HER2 overexpressing primary tumor in immunohistochemistry",
+      "label": "not_met",
+      "evidence": "The tumor is HER2-positive"
+    },
+    {
+      "criterion": "Tumor that does not significantly (<10%) express the hormonal receptors",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Hormonal treatment in progress",
+      "label": "not_met",
+      "evidence": "She does not smoke or consume alcohol"
+    },
+    {
+      "criterion": "Patient receiving or likely to receive second-line chemotherapy in the course of the evolution of her breast cancer",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Persons deprived of liberty or guardianship",
+      "label": "not_met",
+      "evidence": "She is not sexually active and has no children"
+    },
+    {
+      "criterion": "Impossibility of submitting to the medical examination of the test for geographical, social or psychological reasons",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Serious illness or comorbidity assessed at risk",
+      "label": "not_met",
+      "evidence": "CXR was remarkable for metastatic lesions"
+    },
+    {
+      "criterion": "History of cancer within 5 years, with the exception of cutaneous carcinomas other than melanomas, or carcinoma in situ of the cervix",
+      "label": "unknown",
+      "evidence": ""
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03442504",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "trial_id": "NCT04666961",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Patient \u2265 40 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Histological diagnosis of ductal carcinoma in situ without infiltrating contingent",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Clinical T0N0",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Estrogen receptor positive (OR+) regardless of progesterone receptor (PR) status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Indication for mastectomy",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "DCIS visible on MRI performed with clip sequence",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Effective contraceptive method for women of childbearing age who are sexually active and who have reported sexual activity.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Informing the patient and obtaining free, informed and written consent signed by the patient and the investigator.",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Affiliated patient or beneficiary of the social security system.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Pregnant woman, or breastfeeding,",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Persons deprived of liberty or under guardianship or trusteeship,",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Impossibility to undergo the medical follow-up of the trial for geographical, social, psychic or psychiatric reasons.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Invasive breast carcinoma",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Lobular carcinoma in situ",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "pN+ patient",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Indication for conservative surgery",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Contraindications to anastrozole or tamoxifen",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient has a history of smoking and alcohol consumption, but these are not explicitly mentioned as exclusion criteria. However, the presence of invasive breast carcinoma is noted in the medical history, which would likely trigger an exclusion criterion.",
+  "_meta": {
+    "topic_id": "25",
+    "trial_id": "NCT04666961",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

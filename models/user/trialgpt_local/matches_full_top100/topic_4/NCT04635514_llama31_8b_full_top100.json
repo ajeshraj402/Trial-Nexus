@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT04635514",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "did not undergo a preservation process",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "women who presented with lateral vaginal defects prolapsing into the vaginal canal and affiliated with moderate to severe deep dyspareunia",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "anteverted uterus, anterior or posterior, colporrhaphy, and intact paravaginal suspension",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "retroverted uterus",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "pregnancy",
+      "label": "triggers",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma.",
+  "_meta": {
+    "topic_id": "4",
+    "trial_id": "NCT04635514",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02630433",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Sample size estimation",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "S-Amylase >3 microkat/L",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "One or more gallstones with diameter < 2 cm",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "S-CRP < 150 mg/L the first 24 hours",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Multiple organ failure",
+      "label": "not_met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Solitary gallstone with diameter >2 cm",
+      "label": "triggers",
+      "evidence": "unknown"
+    }
+  ],
+  "notes": "Patient has abdominal pain lasting about 4 days accompanied by nausea and vomiting. She has several gallstones and biliary sludge, but no multiple organ failure.",
+  "_meta": {
+    "topic_id": "26",
+    "trial_id": "NCT02630433",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

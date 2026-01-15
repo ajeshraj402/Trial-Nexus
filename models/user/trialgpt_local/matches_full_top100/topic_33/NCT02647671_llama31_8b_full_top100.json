@@ -1,0 +1,91 @@
+{
+  "trial_id": "NCT02647671",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "written informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "generally healthy, male or female, ages 18 to 80 years old",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "first degree relative with colorectal cancer under 60 at diagnosis",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "had a colorectal polyp",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "previously had removed early stage colon cancer (stage I or II) without adjuvant therapy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "previously had removed early stage colon cancer (stage III) >5 years ago",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "negative pregnancy test within 2 weeks of baseline flexible sigmoidoscopy for pre-menopausal women",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "pregnant or lactating women and women of child bearing potential unwilling to use acceptable birth control throughout the study",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "kidney disease, including kidney 'stones' or hypercalcemia",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Crohn's disease, or inflammatory bowel disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "any stomach or intestinal bleeding disorders (gastrointestinal bleeding from gastric or duodenal ulcers, or gastrin secreting tumors) or active gastric / duodenal ulcers - peptic ulcer disease (without bleeding in last 3 months)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "coagulopathy/hereditary hemorrhagic disorders/ or receiving therapeutic doses of Coumadin or heparin",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "hereditary and familial polyposis (HNPCC/ familial adenomatous polyposis (FAP); Lynch Syndrome)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "calcium, Vitamin D, ginger, or fish oil supplements, including multivitamins that have low amounts of calcium/Vitamin D and fiber supplements within the last 14 days",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-steroidal anti-inflammatory medications (NSAIDS), such as Aspirin or Ibuprofen, within the last 14 days",
+      "label": "met",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a healthy woman with no underlying disease. She has no history of allergies to any food or drugs and exercises regularly.",
+  "_meta": {
+    "topic_id": "33",
+    "trial_id": "NCT02647671",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT02221713",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Groups A and B. Patients with acute diverticulitis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Groups C and D. Patients with asymptomatic diverticulosis and normal controls",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients being assessed through the 2ww Colorectal Cancer pathway with a chief complaint of fresh PR bleeding and no other 'red flag' symptoms, who are not overly anxious over their diagnosis as assessed by a physician outside the study team.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vulnerable patient populations",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Groups A and B. Patients with acute diverticulitis",
+      "label": "triggers",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Patients in extremis- e.g. systolic blood pressure less than 80 on arrival or pulse greater than 115",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Patients who have received antibiotics in the three months prior to presentation.",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Vulnerable patient populations",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She has symptoms consistent with Clostridium difficile infection.",
+  "_meta": {
+    "topic_id": "43",
+    "trial_id": "NCT02221713",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

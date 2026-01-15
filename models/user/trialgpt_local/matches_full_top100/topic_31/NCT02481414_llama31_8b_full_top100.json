@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT02481414",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged 18-50 years",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Had recent (\u2264 60 days) Pap smear result consistent with high grade squamous intraepithelial lesion (HSIL) or \"cannot rule out HSIL\" or HSIL on colposcopy-guided biopsy",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Untreated for HSIL or \"Cannot rule out HSIL\"",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Willingness and able to comply with the requirements of the protocol",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "History of disease or treatment causing immunosuppression (e.g., cancer, human immunodeficiency virus, organ transplant, autoimmune disease)",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Being pregnant or attempting to be pregnant within the period of study participation",
+      "label": "unknown",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Breast feeding or planning to breast feed within the period of study participation",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Allergy to Candida antigen",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16. She has three sexual partners, four children, and underwent tubal ligation.",
+  "_meta": {
+    "topic_id": "31",
+    "trial_id": "NCT02481414",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT02717975",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Men aged 60-85 catheterised for urinary retention and booked for outpatient removal of catheter",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Mobile patients",
+      "label": "met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Who cannot consent",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Residual urine of more then 1 litre",
+      "label": "triggers",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Abnormal renal functions",
+      "label": "unknown",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient has a history of BPH and multiple urological procedures, including suprapubic prostatectomy. He currently has a catheter in place due to severe urethral stricture.",
+  "_meta": {
+    "topic_id": "18",
+    "trial_id": "NCT02717975",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

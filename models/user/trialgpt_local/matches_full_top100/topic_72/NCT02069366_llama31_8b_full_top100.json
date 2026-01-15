@@ -1,0 +1,86 @@
+{
+  "trial_id": "NCT02069366",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Able to give informed consent",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Physically and neurologically healthy [confirmed by a comprehensive medical history]",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Age between 21-45 years old",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Right-handed",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Current PTSD diagnosis [related to civilian trauma]",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Experience with a civilian trauma without a PTSD diagnosis",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Free of a lifetime Axis I or Axis II diagnosis",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Clinically significant medical or neurological condition",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Less than a high school education",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Lack of fluency in English",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Night shift work",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Currently pregnant; planning pregnancy; or lactating",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Unwilling/unable to sign informed consent document",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Inability to tolerate small, enclosed spaces without anxiety (e.g. claustrophobia)",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities.",
+  "_meta": {
+    "topic_id": "72",
+    "trial_id": "NCT02069366",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

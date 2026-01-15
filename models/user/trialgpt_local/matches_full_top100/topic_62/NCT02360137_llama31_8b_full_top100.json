@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT02360137",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "age",
+      "label": "met",
+      "evidence": "46 years old"
+    },
+    {
+      "criterion": "sufficient image quality of atherosclerotic plaque in the carotid bifurcation and ICA using ultrasound",
+      "label": "met",
+      "evidence": "ultrasound examination"
+    },
+    {
+      "criterion": "independency of the patient (0 - 2 points in the modified Rankin scale)",
+      "label": "met",
+      "evidence": "patient is independent"
+    },
+    {
+      "criterion": "signed informed consent",
+      "label": "met",
+      "evidence": "patient signed informed consent"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "years",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "other objective obstacles preventing regular 6-month ultrasound scan",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT02360137",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

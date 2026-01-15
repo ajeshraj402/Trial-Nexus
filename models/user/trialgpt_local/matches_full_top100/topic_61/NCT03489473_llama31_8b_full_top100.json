@@ -1,0 +1,56 @@
+{
+  "trial_id": "NCT03489473",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Primary or metastatic endometrial cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Postmenopausal status",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "All histologic types of endometrial cancer",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Availability of recent (micro)curettage or biopsy",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Intercurrent treatment between biopsy taking and start of hormonal treatment",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Sarcoma of the uterus",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Contra-indications to perform a PET-CT scan or a CT scan with intravenous contrast",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Use of hormonal therapy in the three months preceding performance of FES PET",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "45-year-old postmenopausal woman with cytologically confirmed breast cancer, HER2-positive and ER/PR negative.",
+  "_meta": {
+    "topic_id": "61",
+    "trial_id": "NCT03489473",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

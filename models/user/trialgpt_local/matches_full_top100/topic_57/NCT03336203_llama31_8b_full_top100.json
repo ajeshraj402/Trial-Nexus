@@ -1,0 +1,34 @@
+{
+  "trial_id": "NCT03336203",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "outpatient adults with gout and hyperurecemia (SUA level above 8 mg/dL)",
+      "label": "met",
+      "evidence": "lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145)"
+    },
+    {
+      "criterion": "outpatient adults with CKD 1-4 stages and hyperurecemia (SUA level above 8 mg/dL)",
+      "label": "met",
+      "evidence": "lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145)"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "forms of associated comorbidities and cardiovascular risk factors, including heart failure",
+      "label": "unknown"
+    },
+    {
+      "criterion": "III-IV NYHA, stroke, peripheral arterial disease, obesity with BMI above 30 kg/m2",
+      "label": "not_met"
+    }
+  ],
+  "notes": "The patient has abdominal pain and vomiting. Her lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145). She drinks alcohol frequently.",
+  "_meta": {
+    "topic_id": "57",
+    "trial_id": "NCT03336203",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

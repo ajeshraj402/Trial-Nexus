@@ -1,0 +1,46 @@
+{
+  "trial_id": "NCT03639545",
+  "overall_assessment": "likely_ineligible",
+  "inclusion": [
+    {
+      "criterion": "diabetes mellitus type 1",
+      "label": "met",
+      "evidence": "quote"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "diagnosed advanced heart, kidney or liver failure",
+      "label": "does_not_trigger",
+      "evidence": "none"
+    },
+    {
+      "criterion": "benign prostatic hyperplasia",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "prostatic carcinoma",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "frequent urinary tract infections",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "non-type 1 diabetes mellitus",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "The patient has severe stenosis in the left internal carotid artery and moderate stenosis in the right internal carotid artery, which may indicate a high risk of cardiovascular events.",
+  "_meta": {
+    "topic_id": "62",
+    "trial_id": "NCT03639545",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "trial_id": "NCT01335802",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "early spontaneous abortion",
+      "label": "met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "subclinical hypothyroidism",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "TPOab-positive",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "normal levels of TSH and TPOab-negative",
+      "label": "met",
+      "evidence": "lab results"
+    },
+    {
+      "criterion": "pregnancy in 3rd trimester",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "metabolic disease, diabetes or psychiatric disease",
+      "label": "not_met",
+      "evidence": "none"
+    },
+    {
+      "criterion": "medicine against hypo- or hyperthyroidism",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "Patient has Hashimoto's thyroiditis and is on Levothyroxine. She has a history of early spontaneous abortion, subclinical hypothyroidism, and TPOab-positive lab results.",
+  "_meta": {
+    "topic_id": "30",
+    "trial_id": "NCT01335802",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

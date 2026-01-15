@@ -1,0 +1,31 @@
+{
+  "trial_id": "NCT04347057",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Aged over 18 years Diagnosed with a hematologic-oncologic disease Admitted within the first 24 hours to the ICU",
+      "label": "met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "the first 24 hours of the ICU admission will be randomly separated two arm (n = 30 for each arm) and bath applications will be performed.",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "< 18 years, burns to >20% of the total skin surface, pregnancy, previous MRSA and/or VRE infection history or antibiotic use for these infections, receiving radiation therapy, admitted before 24 hours to ICU, re-admission to ICU, diagnosed with severe septic shock, massive pulmonary thromboembolism, massive haemoptysis, and status epilepticus etc., general condition disorder.",
+      "label": "triggers",
+      "evidence": "quote"
+    }
+  ],
+  "notes": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago.",
+  "_meta": {
+    "topic_id": "6",
+    "trial_id": "NCT04347057",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

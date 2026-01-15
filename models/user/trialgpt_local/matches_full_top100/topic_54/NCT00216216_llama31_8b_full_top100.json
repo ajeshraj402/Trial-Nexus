@@ -1,0 +1,66 @@
+{
+  "trial_id": "NCT00216216",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Histological or cytological proof of neuroendocrine cancers",
+      "label": "met",
+      "evidence": "Transbronchial biopsy revealed necrotic granulomas with multinucleated giant cells"
+    },
+    {
+      "criterion": "Chemoresistant or chemosensitive disease",
+      "label": "met",
+      "evidence": "He is treating with corticosteroid and cyclophosphamides since 4 months ago."
+    },
+    {
+      "criterion": "Patients must have received treatment with at least one but not more than 2 prior chemotherapy regimens, including one regimen containing a platinum agent",
+      "label": "met",
+      "evidence": "He is treating with corticosteroid and cyclophosphamides since 4 months ago."
+    },
+    {
+      "criterion": "Radiation therapy must have completed their radiation at least 14 days prior to being registered for protocol therapy, and toxicities due to radiation must have recovered to < grade 1 or baseline prior to registration",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "label": "met",
+      "evidence": ""
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "No clinically significant infections as judged by the treating investigator",
+      "label": "not_met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No symptomatic CNS metastasis",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No radiation to > 25% of the marrow containing spaces",
+      "label": "unknown",
+      "evidence": ""
+    },
+    {
+      "criterion": "No previous treatment with pemetrexed",
+      "label": "met",
+      "evidence": ""
+    },
+    {
+      "criterion": "No uncontrolled pleural effusions",
+      "label": "not_met",
+      "evidence": ""
+    }
+  ],
+  "notes": "",
+  "_meta": {
+    "topic_id": "54",
+    "trial_id": "NCT00216216",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}

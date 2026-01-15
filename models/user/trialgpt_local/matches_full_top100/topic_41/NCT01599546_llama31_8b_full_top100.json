@@ -1,0 +1,61 @@
+{
+  "trial_id": "NCT01599546",
+  "overall_assessment": "likely_eligible",
+  "inclusion": [
+    {
+      "criterion": "Pre-term",
+      "label": "met",
+      "evidence": "unknown"
+    },
+    {
+      "criterion": "Full-term",
+      "label": "not_met",
+      "evidence": "unknown"
+    }
+  ],
+  "exclusion": [
+    {
+      "criterion": "Congenital anomalies or recognizable malformation syndromes",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Mother's self-reported use of illicit drugs or alcohol during pregnancy;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Birth weight <3rd %tile (small for gestational age, SGA) according to gestational age",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Serious neurological problems including active seizure disorder (afebrile seizure within the last year) and/or anticonvulsant medication use, history of a central nervous system infections, or ventriculoperitoneal shunt for treatment for hydrocephalus",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "IQ < 70 on the testing of this study because we would expect language delays in this group;",
+      "label": "unknown",
+      "evidence": "none"
+    },
+    {
+      "criterion": "Sensori-neural hearing loss, defined as 4-tone pure-tone average > 25 decibels as assessed at any time because hearing loss compromises language and reading development;",
+      "label": "not_met",
+      "evidence": "quote"
+    },
+    {
+      "criterion": "Visual impairments that would interfere with the ability to read;",
+      "label": "unknown",
+      "evidence": "none"
+    }
+  ],
+  "notes": "The patient is a 57-year-old farmer diagnosed with Parkinson's disease. He experiences slowness of movement and tremors, but his medications help with shaking and slow movement.",
+  "_meta": {
+    "topic_id": "41",
+    "trial_id": "NCT01599546",
+    "model": "llama3.1:8b",
+    "run_tag": "llama31_8b_full_top100",
+    "top_k": 100
+  }
+}
